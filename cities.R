@@ -23,13 +23,8 @@ library(rgdal)
 
 
 nordic_df <- read_csv("C:/Users/dpedrick/desktop/nordic_ski_area.csv")
-nordicBEFORE <- st_as_sf(nordic_df, coords = c("X", "Y"), crs = 4326) 
+Nordic_Centers <- st_as_sf(nordic_df, coords = c("X", "Y"), crs = 4326) 
 nordic <- nordicBEFORE
-
-
-#%>%
-#  st_transform(26967)
-
 
 # use first variablet to make isochrone
 x = nordic_df[1,"X"]
@@ -51,12 +46,32 @@ for(i in seq(2,nrow(nordic_df),by=1)){
 }
 
 
-nordic_centers_driving_time_union <- st_combine(nordic_centers_driving_times) %>%
+nordic_centers_driving_time_combine <- st_combine(nordic_centers_driving_times) %>%
   st_transform(3857)
+
+nordic_centers_driving_time_union <- st_union(nordic_centers_driving_times) %>%
+  st_transform(3857)
+
+
+
 
 nordic_centers <- st_buffer(nordic, dist = 160000)
 
 nordic_centers_union <- st_union(nordic_centers)
+
+st_write(nordic_centers_driving_times, "nordic_centers_driving_times.shp")
+
+#Fix overlappying polygon lines in QGIS
+#
+#
+
+dir = 'C:/Users/dpedrick/Desktop/OneDrive-2019-09-30'
+# Read in data:
+
+## Read in City of Atlanta property data
+
+nordic_centers_45_min_driveshed <- st_read(paste(dir,"/nordic_centers_driving_isochrone.shp",sep = '')) %>%
+  st_transform(3857)
 
 
 #
@@ -79,7 +94,7 @@ pop2010 <- get_acs(geography = "urban area",
                               year = 2010, output = "wide")
 
 nordic_ua_joined <- get_urban_areas_within_buffer(ua, nordic_centers_union, pop2010)
-nordic_ua_mapbox_buffer <- get_urban_areas_within_buffer(ua, nordic_centers_driving_time_union, pop2010)
+Urban_Areas_within_drive_time <- get_urban_areas_within_buffer(ua, nordic_centers_driving_time_union, pop2010)
 
 
 nordic_ua_mapbox_buffer <- nordic_ua_mapbox_buffer %>%
@@ -102,9 +117,6 @@ nordic_ua_mapbox_buffer <- nordic_ua_mapbox_buffer %>%
   )
 
 
-
-
-
 #The U.S. Census Bureau defines an urban area as 
 #"core census block groups or blocks that have a 
 #population density of at least 1,000 people per 
@@ -115,12 +127,12 @@ nordic_ua_mapbox_buffer <- nordic_ua_mapbox_buffer %>%
 
 
 tmap_mode("view")
-tm_shape(nordic_ua_mapbox_buffer) +
-  tm_polygons(col="yellow", alpha = 0.7, title="Urban Areas near Nordic Centers ")  +
-  tm_shape(nordic_centers_driving_time_union) +
-  tm_polygons(col="green", alpha = 0.1, 
+tm_shape(nordic_centers_45_min_driveshed) +
+  tm_polygons(col="yellow", alpha = 0.4, title="Urban Areas near Nordic Centers ")  +
+  tm_shape(Urban_Areas_within_drive_time) +
+  tm_polygons(col="green", alpha = 0.7, 
               id= "Name", title="45 minute drive-shed") +
-  tm_shape(nordicBEFORE) +
+  tm_shape(Nordic_Centers) +
     tm_dots(id = "Name", col = "red", alpha = 1)
   
 

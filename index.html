@@ -120,7 +120,7 @@
               var prop = feature.properties;
               var item = document.createElement('a');
               item.href = prop.Name;
-              item.target = '_blank';
+             // item.target = '_blank';
               item.textContent = prop.Name + ' (' + prop.Groomed + ')';
               item.addEventListener('mouseover', function () {
                   // Highlight corresponding feature on the map

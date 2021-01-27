@@ -275,10 +275,10 @@
     new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(
-      'Name: ' + nordic_name 
+      'Name: ' + '<br>Website: ' + '<a href=' + url '>' + nordic_name +'</a>'
 	    + '<br>Grooming: ' + groomed 
 	    + '<br>Length: ' + length + ' ' + units 
-	    + '<br>Website: ' + url
+	    + '<br>Website: ' + '<a href=' + url '>' + url +'</a>'
       )
       .addTo(map);
   

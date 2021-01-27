@@ -264,6 +264,7 @@
   var groomed = e.features[0].properties.Groomed;
   var length = e.features[0].properties.Length;
   var units = e.features[0].properties.Units;
+  var url = e.features[0].properties.URL;
 
     
   console.log(e.features[0].properties);
@@ -277,7 +278,7 @@
       'Name: ' + nordic_name 
 	    + '<br>Grooming: ' + groomed 
 	    + '<br>Length: ' + length + ' ' + units 
-	    + '<br>Website: ' + URL
+	    + '<br>Website: ' + url
       )
       .addTo(map);
   

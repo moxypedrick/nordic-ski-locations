@@ -3,12 +3,36 @@
 <head>
 <meta charset="utf-8" />
 <title>North American Nordic Ski Centers</title>
-<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="viewport" content="initial-scale=1,width=device-width" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body { margin: 0; padding: 0; }
 	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+	/* Mobile-friendly popup styles */
+	.mapboxgl-popup-content {
+		padding: 12px 16px;
+		font-size: 14px;
+	}
+	.mapboxgl-popup-close-button {
+		font-size: 24px;
+		padding: 4px 8px;
+		right: 0;
+		top: 0;
+	}
+	@media (max-width: 680px) {
+		.mapboxgl-popup-content {
+			padding: 16px;
+			font-size: 15px;
+			max-height: 50vh;
+			overflow-y: auto;
+		}
+		.mapboxgl-popup-close-button {
+			font-size: 28px;
+			padding: 8px 12px;
+		}
+	}
 </style>
 </head>
 <body>
@@ -285,7 +309,7 @@
     'data' : 'data/nordic-ski-areas.geojson' ,
     'cluster' : true,
     'clusterMaxZoom' : 14,
-    'clusterRadius':50
+    'clusterRadius':60
   });
 
   map.addLayer({
@@ -336,9 +360,40 @@
     filter: ['!', ['has', 'point_count']],
     paint: {
     'circle-color': '#11b4da',
-    'circle-radius': 4,
-    'circle-stroke-width': 1,
+    'circle-radius': [
+      'interpolate', ['linear'], ['zoom'],
+      3, 6,
+      8, 8,
+      12, 10,
+      16, 14
+    ],
+    'circle-stroke-width': [
+      'interpolate', ['linear'], ['zoom'],
+      3, 1.5,
+      8, 2,
+      12, 2.5
+    ],
     'circle-stroke-color': '#fff'
+    }
+  });
+
+  // Invisible layer with larger radius for easier touch/click targeting
+  map.addLayer({
+    id: 'unclustered-point-hitarea',
+    type: 'circle',
+    source: 'nordic-ski-areas',
+    filter: ['!', ['has', 'point_count']],
+    paint: {
+      'circle-color': 'rgba(0,0,0,0)',
+      'circle-radius': [
+        'interpolate', ['linear'], ['zoom'],
+        3, 12,
+        8, 16,
+        12, 22,
+        16, 22
+      ],
+      'circle-stroke-width': 0,
+      'circle-stroke-color': 'rgba(0,0,0,0)'
     }
   });
 
@@ -361,7 +416,7 @@
   );
   });
 
-map.on('click', 'unclustered-point', function (e) {
+map.on('click', 'unclustered-point-hitarea', function (e) {
    var coordinates = e.features[0].geometry.coordinates.slice();
    var nordic_name = e.features[0].properties.Name;
    var groomed = e.features[0].properties.Groomed;
@@ -379,19 +434,20 @@ map.on('click', 'unclustered-point', function (e) {
     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
 
-    new mapboxgl.Popup()
+    new mapboxgl.Popup({ maxWidth: '300px' })
       .setLngLat(coordinates)
       .setHTML(
-      'Name: ' +  '<a href= "' + url + '" target="_blank" >' + nordic_name +'</a>'
-	    + '<br>Grooming: ' + groomed 
-       + '<br>Length: ' + length + ' ' + units 
-       + '<br>Lit?: ' + lit
-       + '<br>Snowmaking?: ' + snow 
-       + '<br>Notes: ' + notes 
-       //+ '<br>Directions: ' + directions 
-       + '<br>Website: ' + '<a href= "' + url + '" target="_blank" >' + url +'</a>'
-       + '<button id="editNordic">'+"Edit Nordic Ski Area"+'</button>'
-
+      '<div style="font-size:14px; line-height:1.4;">'
+      + '<strong style="font-size:16px;"><a href="' + url + '" target="_blank" style="padding:4px 0; display:inline-block;">' + nordic_name + '</a></strong>'
+      + '<br>Grooming: ' + groomed
+      + '<br>Length: ' + length + ' ' + units
+      + '<br>Lit: ' + lit
+      + '<br>Snowmaking: ' + snow
+      + '<br>Notes: ' + notes
+      //+ '<br>Directions: ' + directions
+      + '<br><a href="' + url + '" target="_blank" style="display:inline-block; padding:8px 0;">Visit Website</a>'
+      + '<br><button id="editNordic" style="padding:10px 16px; margin:8px 0; font-size:14px; min-height:44px; cursor:pointer;">Edit Nordic Ski Area</button>'
+      + '</div>'
       )
       .addTo(map);
   
@@ -405,14 +461,14 @@ map.on('click', 'unclustered-point', function (e) {
   map.getCanvas().style.cursor = '';
   });
 
-  map.on('mouseenter', 'unclustered-point', function () {
+  map.on('mouseenter', 'unclustered-point-hitarea', function () {
     map.getCanvas().style.cursor = 'pointer';
-    
+
   });
 
-  map.on('mouseleave', 'unclustered-point', function () {
+  map.on('mouseleave', 'unclustered-point-hitarea', function () {
     map.getCanvas().style.cursor = '';
-    
+
   });
 
 

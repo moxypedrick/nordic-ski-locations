@@ -323,19 +323,19 @@
          type="text"
          placeholder="Filter results by name"
       />
-      <div style="display: flex; gap: 5px; margin-top: 5px;">
-         <select id="filter-grooming" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
+      <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+         <select id="filter-grooming" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Grooming: All</option>
             <option value="skate">Skate</option>
             <option value="classic">Classic Only</option>
             <option value="both">Skate &amp; Classic</option>
          </select>
-         <select id="filter-lit" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
+         <select id="filter-lit" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Lit: All</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
          </select>
-         <select id="filter-snow" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
+         <select id="filter-snow" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Snow: All</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -398,7 +398,7 @@
 	mapboxgl.accessToken = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
   var map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/outdoors-v11',
       center: [-98, 38.88],
       
       minZoom: 1,
@@ -648,11 +648,11 @@
         'circle-color': [
           'step',
           ['get', 'point_count'],
-          '#51bbd6',
+          '#f4a460',
           100,
-          '#f1f075',
+          '#e8723a',
           750,
-          '#f28cb1'
+          '#c94a2a'
           ],
           'circle-radius': [
           'step',
@@ -686,7 +686,7 @@
     source: 'nordic-ski-areas',
     filter: ['!', ['has', 'point_count']],
     paint: {
-    'circle-color': '#11b4da',
+    'circle-color': '#e85d26',
     'circle-radius': [
       'interpolate', ['linear'], ['zoom'],
       3, 6,
@@ -696,9 +696,9 @@
     ],
     'circle-stroke-width': [
       'interpolate', ['linear'], ['zoom'],
-      3, 1.5,
-      8, 2,
-      12, 2.5
+      3, 2,
+      8, 2.5,
+      12, 3
     ],
     'circle-stroke-color': '#fff'
     }
@@ -816,6 +816,20 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
         // Re-apply attribute filters to the new features
         applyFilters();
     }
+  });
+
+  // Auto-populate sidebar when GeoJSON data first loads
+  map.on('sourcedata', function (e) {
+      if (e.sourceId === 'nordic-ski-areas' && e.isSourceLoaded && nordic_centers.length === 0) {
+          var features = map.querySourceFeatures('nordic-ski-areas', {
+              filter: ['!', ['has', 'point_count']]
+          });
+          if (features && features.length > 0) {
+              var uniqueFeatures = getUniqueFeatures(features, 'Name');
+              nordic_centers = uniqueFeatures;
+              applyFilters();
+          }
+      }
   });
 
   // Filter event listeners

@@ -12,10 +12,11 @@
 	body { margin: 0; padding: 0; }
 	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
 
-	/* Mobile-friendly popup styles */
+	/* Popup styles */
 	.mapboxgl-popup-content {
 		padding: 12px 16px;
 		font-size: 14px;
+		border-top: 3px solid #11b4da;
 	}
 	.mapboxgl-popup-close-button {
 		font-size: 24px;
@@ -56,19 +57,43 @@
         background-color: #fff;
         max-height: 100%;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Sidebar header */
+    .sidebar-header {
+        background: #11b4da;
+        color: #fff;
+        padding: 14px 12px;
+        flex-shrink: 0;
+    }
+    .sidebar-header h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .sidebar-header p {
+        margin: 4px 0 0;
+        font-size: 12px;
+        font-weight: 300;
+        opacity: 0.85;
     }
 
     .map-overlay fieldset {
         display: none;
-        background: #ddd;
+        background: #f5f5f5;
         border: none;
         padding: 10px;
         margin: 0;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        flex-shrink: 0;
     }
 
     .map-overlay input {
         display: block;
-        border: none;
+        border: 1px solid #ddd;
         width: 100%;
         border-radius: 3px;
         padding: 10px;
@@ -78,8 +103,12 @@
     }
 
     .map-overlay .listing {
-        overflow: auto;
-        max-height: 100%;
+        overflow-y: auto;
+        flex: 1;
+        min-height: 0;
+    }
+    .map-overlay .listing.scrolled {
+        box-shadow: inset 0 6px 6px -6px rgba(0,0,0,0.15);
     }
 
     .map-overlay .listing > * {
@@ -172,20 +201,19 @@
       cursor: pointer;
    }
 
-   /* Add Nordic Ski Area button */
+   /* Add Nordic Ski Area button (disabled) */
    #myBtn {
       font-size: 14px;
       font-weight: 400;
-      padding: 10px;
-      cursor: pointer;
-      background: #11b4da;
+      padding: 6px 10px;
+      cursor: default;
+      background: #999;
       color: #fff;
       border: none;
       width: 100%;
-      min-height: 44px;
-   }
-   #myBtn:hover {
-      background: #0d8fad;
+      flex-shrink: 0;
+      border-top: 1px solid rgba(0,0,0,0.1);
+      opacity: 0.7;
    }
 
    /* Sidebar toggle button (hidden on desktop) */
@@ -203,6 +231,21 @@
    }
    #sidebar-toggle:hover {
       background: #0d8fad;
+   }
+
+   /* Tablet responsive overrides */
+   @media (min-width: 681px) and (max-width: 1024px) {
+      #map {
+         left: 35%;
+         width: 65%;
+      }
+      .map-overlay {
+         width: 35%;
+      }
+      #loading-overlay {
+         left: 35% !important;
+         width: 65% !important;
+      }
    }
 
    /* Mobile responsive overrides */
@@ -227,6 +270,7 @@
       .map-overlay.collapsed {
          height: 44px;
       }
+      .map-overlay.collapsed .sidebar-header,
       .map-overlay.collapsed #feature-listing,
       .map-overlay.collapsed fieldset,
       .map-overlay.collapsed #result-count,
@@ -268,6 +312,10 @@
 ">Loading ski areas...</div>
 
 <div class="map-overlay">
+   <div class="sidebar-header">
+       <h1>Nordic Ski Centers</h1>
+       <p>North American Nordic Ski Centers</p>
+   </div>
    <button id="sidebar-toggle">▼ Hide List</button>
    <fieldset>
       <input
@@ -276,27 +324,27 @@
          placeholder="Filter results by name"
       />
       <div style="display: flex; gap: 5px; margin-top: 5px;">
-         <select id="filter-grooming" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 11px;">
+         <select id="filter-grooming" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Grooming: All</option>
             <option value="skate">Skate</option>
             <option value="classic">Classic Only</option>
             <option value="both">Skate &amp; Classic</option>
          </select>
-         <select id="filter-lit" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 11px;">
+         <select id="filter-lit" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Lit: All</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
          </select>
-         <select id="filter-snow" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 11px;">
+         <select id="filter-snow" style="flex: 1; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Snow: All</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
          </select>
       </div>
    </fieldset>
-   <div id="result-count" style="padding: 5px 10px; font-size: 12px; color: #666; border-bottom: 1px solid rgba(0,0,0,0.1);"></div>
+   <div id="result-count" style="padding: 5px 10px; font-size: 12px; color: #666; border-bottom: 1px solid rgba(0,0,0,0.1); flex-shrink: 0;"></div>
    <div id="feature-listing" class="listing"></div>
-   <button id="myBtn" class="listing">Add Nordic Ski Area</button>
+   <button id="myBtn" disabled>Add Nordic Ski Area</button>
 	<div id="myModal" class="modal">
 		<div class="modal-content">
 			<span class="close">&times;</span>
@@ -314,11 +362,6 @@
 
       // Get the <span> element that closes the modal
       var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks the button, open the modal 
-      btn.onclick = function() {
-         modal.style.display = "block";
-      }
 
       // When the user clicks on <span> (x), close the modal
       span.onclick = function() {
@@ -398,7 +441,7 @@
           + popupField('Snowmaking', prop.Snowmaking)
           + popupField('Notes', prop.Notes)
           + (isValidValue(url) ? '<br><a href="' + url + '" target="_blank" style="display:inline-block; padding:8px 0;">Visit Website</a>' : '')
-          + '<br><button id="editNordic" style="padding:10px 16px; margin:8px 0; font-size:14px; min-height:44px; cursor:pointer;">Edit Nordic Ski Area</button>'
+          + '<br><button id="editNordic" disabled style="padding:6px 16px; margin:8px 0; font-size:14px; cursor:default; background:#999; color:#fff; border:none; border-radius:3px; opacity:0.7;">Edit Nordic Ski Area</button>'
           + '</div>';
   }
 
@@ -410,12 +453,6 @@
           .setHTML(createPopupHTML(feature.properties))
           .addTo(map);
 
-      var editBtn = document.getElementById('editNordic');
-      if (editBtn) {
-          editBtn.addEventListener('click', function () {
-              document.getElementById('myModal').style.display = 'block';
-          });
-      }
   }
 
   function renderListings(features) {
@@ -461,12 +498,14 @@
           countEl.textContent = 'Showing ' + features.length + ' ski area' + (features.length !== 1 ? 's' : '');
       } else if (features.length === 0 && (filterEl.value !== '' || filterGroomingEl.value !== 'all' || filterLitEl.value !== 'all' || filterSnowEl.value !== 'all')) {
           empty.textContent = 'No results found';
+          empty.style.cssText = 'text-align:center; font-size:15px; color:#999; padding:20px 10px;';
           listingEl.appendChild(empty);
           countEl.textContent = 'No ski areas match filter';
           // Keep the filters visible so the user can undo them
           filterEl.parentNode.style.display = 'block';
       } else {
-          empty.textContent = 'Drag the map to populate results';
+          empty.textContent = 'Pan and zoom the map to explore ski areas';
+          empty.style.cssText = 'text-align:center; font-size:15px; color:#999; padding:20px 10px;';
           listingEl.appendChild(empty);
           countEl.textContent = '';
 
@@ -744,14 +783,20 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
   map.getCanvas().style.cursor = '';
   });
 
-  map.on('mouseenter', 'unclustered-point-hitarea', function () {
+  map.on('mouseenter', 'unclustered-point-hitarea', function (e) {
     map.getCanvas().style.cursor = 'pointer';
-
+    if (e.features.length) {
+        var feature = e.features[0];
+        popup
+            .setLngLat(feature.geometry.coordinates.slice())
+            .setText(feature.properties.Name)
+            .addTo(map);
+    }
   });
 
   map.on('mouseleave', 'unclustered-point-hitarea', function () {
     map.getCanvas().style.cursor = '';
-
+    popup.remove();
   });
 
 
@@ -782,6 +827,15 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
   // Call this function on initialization
   // passing an empty array to render an empty state
   renderListings([]);
+
+  // Scroll shadow indicator on sidebar listing
+  listingEl.addEventListener('scroll', function () {
+      if (listingEl.scrollTop > 0) {
+          listingEl.classList.add('scrolled');
+      } else {
+          listingEl.classList.remove('scrolled');
+      }
+  });
 
   // Hide loading indicator
   var loadingOverlay = document.getElementById('loading-overlay');

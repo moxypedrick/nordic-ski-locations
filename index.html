@@ -329,6 +329,7 @@
             <option value="skate">Skate</option>
             <option value="classic">Classic Only</option>
             <option value="both">Skate &amp; Classic</option>
+            <option value="unknown">Unknown</option>
          </select>
          <select id="filter-lit" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
             <option value="all">Lit: All</option>
@@ -340,6 +341,10 @@
             <option value="Yes">Yes</option>
             <option value="No">No</option>
          </select>
+         <input id="filter-length-min" type="number" min="0" step="1" placeholder="Min km"
+            style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px; display: inline-block; width: auto;" />
+         <input id="filter-length-max" type="number" min="0" step="1" placeholder="Max km"
+            style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px; display: inline-block; width: auto;" />
       </div>
    </fieldset>
    <div id="result-count" style="padding: 5px 10px; font-size: 12px; color: #666; border-bottom: 1px solid rgba(0,0,0,0.1); flex-shrink: 0;"></div>
@@ -407,6 +412,10 @@
 
   // Holds visible airport features for filtering
   var nordic_centers = [];
+  var allFeatures = []; // Complete dataset, loaded once from GeoJSON
+  var fullGeoJSON = null; // Complete GeoJSON FeatureCollection for restoring source
+  var sourceIsFiltered = false; // Track whether source data is currently filtered
+  var lastFilterKey = ''; // Cache key to avoid redundant setData calls
 
   // Create a popup, but don't add it to the map yet.
   var popup = new mapboxgl.Popup({
@@ -422,6 +431,20 @@
       var normalized = String(val).trim().toLowerCase();
       return normalized !== '' && normalized !== 'n/a' && normalized !== 'na'
           && normalized !== 'unknown' && normalized !== 'none';
+  }
+
+  // Helper: parse feature length to km (returns null if not a valid number)
+  function getLengthKm(prop) {
+      if (!isValidValue(prop.Length)) return null;
+      var len = parseFloat(prop.Length);
+      if (isNaN(len)) return null;
+      var units = (prop.Units || '').trim().toLowerCase();
+      if (units === 'mi') {
+          len = len * 1.60934;
+      } else if (units !== 'km') {
+          return null; // Unknown units — exclude
+      }
+      return len;
   }
 
   // Helper: build a popup field line only if the value is valid
@@ -496,7 +519,7 @@
           // Show the filter input and result count
           filterEl.parentNode.style.display = 'block';
           countEl.textContent = 'Showing ' + features.length + ' ski area' + (features.length !== 1 ? 's' : '');
-      } else if (features.length === 0 && (filterEl.value !== '' || filterGroomingEl.value !== 'all' || filterLitEl.value !== 'all' || filterSnowEl.value !== 'all')) {
+      } else if (features.length === 0 && (filterEl.value !== '' || filterGroomingEl.value !== 'all' || filterLitEl.value !== 'all' || filterSnowEl.value !== 'all' || filterLengthMinEl.value !== '' || filterLengthMaxEl.value !== '')) {
           empty.textContent = 'No results found';
           empty.style.cssText = 'text-align:center; font-size:15px; color:#999; padding:20px 10px;';
           listingEl.appendChild(empty);
@@ -514,9 +537,15 @@
               filterEl.parentNode.style.display = 'none';
           }
 
-          // remove features filter
-          map.setFilter('unclustered-point', ['has', 'Name']);
-          map.setFilter('unclustered-point-hitarea', ['has', 'Name']);
+          // Reset layer filters to show all unclustered features
+          map.setFilter('unclustered-point', ['!', ['has', 'point_count']]);
+          map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
+          map.setFilter('unclustered-point-label', ['!', ['has', 'point_count']]);
+          // Restore full source data for clusters if it was filtered
+          if (sourceIsFiltered && fullGeoJSON) {
+              map.getSource('nordic-ski-areas').setData(fullGeoJSON);
+              sourceIsFiltered = false;
+          }
       }
   }
 
@@ -540,6 +569,54 @@
   var filterGroomingEl = document.getElementById('filter-grooming');
   var filterLitEl = document.getElementById('filter-lit');
   var filterSnowEl = document.getElementById('filter-snow');
+  var filterLengthMinEl = document.getElementById('filter-length-min');
+  var filterLengthMaxEl = document.getElementById('filter-length-max');
+
+  // Update sidebar with features visible in the current map bounds
+  function updateVisibleFeatures() {
+      if (allFeatures.length === 0) return;
+      var bounds = map.getBounds();
+      var visible = allFeatures.filter(function (feature) {
+          var coords = feature.geometry.coordinates;
+          return bounds.contains([coords[0], coords[1]]);
+      });
+      var uniqueFeatures = getUniqueFeatures(visible, 'Name');
+      filterEl.value = '';
+      nordic_centers = uniqueFeatures;
+      applyFilters();
+  }
+
+  // Check if any filter is actively applied (not at default)
+  function hasActiveFilters() {
+      return filterEl.value.trim() !== '' ||
+          filterGroomingEl.value !== 'all' ||
+          filterLitEl.value !== 'all' ||
+          filterSnowEl.value !== 'all' ||
+          filterLengthMinEl.value !== '' ||
+          filterLengthMaxEl.value !== '';
+  }
+
+  // Apply filter criteria to a single feature (reusable for both sidebar and source filtering)
+  function featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen) {
+      var prop = feature.properties;
+      if (nameValue && normalize(prop.Name).indexOf(nameValue) === -1) return false;
+      if (groomValue !== 'all') {
+          var ng = normalizeGrooming(prop.Groomed);
+          if (groomValue === 'both') { if (ng !== 'both') return false; }
+          else if (groomValue === 'skate') { if (ng !== 'skate' && ng !== 'both') return false; }
+          else if (groomValue === 'classic') { if (ng !== 'classic' && ng !== 'both') return false; }
+          else if (groomValue === 'unknown') { if (ng !== 'unknown') return false; }
+      }
+      if (litValue !== 'all') { if (prop.Lit !== litValue) return false; }
+      if (snowValue !== 'all') { if (prop.Snowmaking !== snowValue) return false; }
+      if (minLen !== null || maxLen !== null) {
+          var lengthKm = getLengthKm(prop);
+          if (lengthKm === null) return false;
+          if (minLen !== null && lengthKm < minLen) return false;
+          if (maxLen !== null && lengthKm > maxLen) return false;
+      }
+      return true;
+  }
 
   // Unified filter function that combines name + attribute filters
   function applyFilters() {
@@ -547,57 +624,44 @@
       var groomValue = filterGroomingEl.value;
       var litValue = filterLitEl.value;
       var snowValue = filterSnowEl.value;
+      var minLen = filterLengthMinEl.value !== '' ? parseFloat(filterLengthMinEl.value) : null;
+      var maxLen = filterLengthMaxEl.value !== '' ? parseFloat(filterLengthMaxEl.value) : null;
 
+      // Filter the visible (in-bounds) features for the sidebar listing
       var filtered = nordic_centers.filter(function (feature) {
-          var prop = feature.properties;
-
-          // Name filter
-          if (nameValue && normalize(prop.Name).indexOf(nameValue) === -1) {
-              return false;
-          }
-
-          // Grooming filter
-          if (groomValue !== 'all') {
-              var ng = normalizeGrooming(prop.Groomed);
-              if (groomValue === 'both') {
-                  if (ng !== 'both') return false;
-              } else if (groomValue === 'skate') {
-                  if (ng !== 'skate' && ng !== 'both') return false;
-              } else if (groomValue === 'classic') {
-                  if (ng !== 'classic' && ng !== 'both') return false;
-              }
-          }
-
-          // Lit filter
-          if (litValue !== 'all') {
-              if (prop.Lit !== litValue) return false;
-          }
-
-          // Snowmaking filter
-          if (snowValue !== 'all') {
-              if (prop.Snowmaking !== snowValue) return false;
-          }
-
-          return true;
+          return featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
       });
 
       renderListings(filtered);
 
-      // Update map layer filters (both visible and hitarea layers)
-      if (filtered.length) {
-          var nameFilter = [
-              'match',
-              ['get', 'Name'],
-              filtered.map(function (f) { return f.properties.Name; }),
-              true,
-              false
-          ];
-          map.setFilter('unclustered-point', nameFilter);
-          map.setFilter('unclustered-point-hitarea', nameFilter);
-      } else {
-          map.setFilter('unclustered-point', ['==', 'Name', '']);
-          map.setFilter('unclustered-point-hitarea', ['==', 'Name', '']);
+      // Update the map source data so clusters recalculate correctly
+      // Build a cache key from current filter values to avoid redundant setData calls
+      var filterKey = [nameValue, groomValue, litValue, snowValue, minLen, maxLen].join('|');
+      var filtersActive = hasActiveFilters();
+      if (filtersActive && fullGeoJSON && filterKey !== lastFilterKey) {
+          // Filter ALL features (not just visible) to update the map source
+          var allFiltered = allFeatures.filter(function (feature) {
+              return featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
+          });
+          var filteredGeoJSON = {
+              type: 'FeatureCollection',
+              features: allFiltered
+          };
+          map.getSource('nordic-ski-areas').setData(filteredGeoJSON);
+          sourceIsFiltered = true;
+          lastFilterKey = filterKey;
+      } else if (!filtersActive && sourceIsFiltered && fullGeoJSON) {
+          // No filters active and source was previously filtered — restore the full dataset
+          map.getSource('nordic-ski-areas').setData(fullGeoJSON);
+          sourceIsFiltered = false;
+          lastFilterKey = '';
       }
+
+      // Reset layer-level filters — source data already contains only matching features
+      // Use the base filter (no point_count = unclustered) so layers show all source features
+      map.setFilter('unclustered-point', ['!', ['has', 'point_count']]);
+      map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
+      map.setFilter('unclustered-point-label', ['!', ['has', 'point_count']]);
   }
 
   function getUniqueFeatures(array, comparatorProperty) {
@@ -638,6 +702,20 @@
     'clusterRadius': 40,
     'clusterMinPoints': 6
   });
+
+  // Fetch the complete GeoJSON to use for sidebar filtering
+  fetch('data/nordic-ski-areas.geojson')
+      .then(function (response) { return response.json(); })
+      .then(function (data) {
+          fullGeoJSON = data;
+          allFeatures = data.features;
+          updateVisibleFeatures();
+          // Hide loading indicator once data is ready
+          var loadingOverlay = document.getElementById('loading-overlay');
+          if (loadingOverlay) {
+              loadingOverlay.style.display = 'none';
+          }
+      });
 
   map.addLayer({
       'id' : 'clusters',
@@ -802,34 +880,7 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
 
 
   map.on('moveend', function () {
-    // Query the raw source (not the filtered layer) to avoid circular dependency
-    var features = map.querySourceFeatures('nordic-ski-areas', {
-        filter: ['!', ['has', 'point_count']]
-    });
-
-    if (features) {
-        var uniqueFeatures = getUniqueFeatures(features, 'Name');
-        // Clear the name input but keep attribute filter selections
-        filterEl.value = '';
-        // Store the current visible features
-        nordic_centers = uniqueFeatures;
-        // Re-apply attribute filters to the new features
-        applyFilters();
-    }
-  });
-
-  // Auto-populate sidebar when GeoJSON data first loads
-  map.on('sourcedata', function (e) {
-      if (e.sourceId === 'nordic-ski-areas' && e.isSourceLoaded && nordic_centers.length === 0) {
-          var features = map.querySourceFeatures('nordic-ski-areas', {
-              filter: ['!', ['has', 'point_count']]
-          });
-          if (features && features.length > 0) {
-              var uniqueFeatures = getUniqueFeatures(features, 'Name');
-              nordic_centers = uniqueFeatures;
-              applyFilters();
-          }
-      }
+    updateVisibleFeatures();
   });
 
   // Filter event listeners
@@ -837,6 +888,8 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
   filterGroomingEl.addEventListener('change', function () { applyFilters(); });
   filterLitEl.addEventListener('change', function () { applyFilters(); });
   filterSnowEl.addEventListener('change', function () { applyFilters(); });
+  filterLengthMinEl.addEventListener('input', function () { applyFilters(); });
+  filterLengthMaxEl.addEventListener('input', function () { applyFilters(); });
 
   // Call this function on initialization
   // passing an empty array to render an empty state
@@ -851,11 +904,6 @@ map.on('click', 'unclustered-point-hitarea', function (e) {
       }
   });
 
-  // Hide loading indicator
-  var loadingOverlay = document.getElementById('loading-overlay');
-  if (loadingOverlay) {
-      loadingOverlay.style.display = 'none';
-  }
   });
 </script>
 

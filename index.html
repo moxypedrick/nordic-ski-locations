@@ -1,790 +1,847 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>North American Nordic Ski Centers</title>
+<title>Nordic Ski Centers</title>
 <meta name="viewport" content="initial-scale=1,width=device-width" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap" rel="stylesheet" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
-<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css" />
-<style>
-	body { margin: 0; padding: 0; }
-	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-
-	/* Popup styles */
-	.mapboxgl-popup-content {
-		padding: 12px 16px;
-		font-size: 14px;
-		border-top: 3px solid #11b4da;
-	}
-	.mapboxgl-popup-close-button {
-		font-size: 24px;
-		padding: 4px 8px;
-		right: 0;
-		top: 0;
-	}
-	@media (max-width: 680px) {
-		.mapboxgl-popup-content {
-			padding: 16px;
-			font-size: 15px;
-			max-height: 50vh;
-			overflow-y: auto;
-		}
-		.mapboxgl-popup-close-button {
-			font-size: 28px;
-			padding: 8px 12px;
-		}
-	}
-</style>
 <script data-goatcounter="https://nordic-centers.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<style>
+
+/* =========================================================
+   Design tokens
+   ========================================================= */
+:root {
+  --navy:        #12355b;
+  --ink:         #12212f;
+  --muted:       #4d5d6c;
+  --link:        #1d5f9e;
+  --ice:         #e8f3fa;
+  --line:        #e3e8ed;
+  --chip:        #f1f4f7;
+  --warm-bg:     #fdf0e3;
+  --warm-fg:     #7a3d06;
+  --water:       #cfe6f3;
+
+  --radius-pill:  20px;
+  --radius-panel: 12px;
+  --radius-input: 8px;
+
+  --shadow-popover: 0 10px 30px rgba(18,33,47,.16);
+  --shadow-control: 0 2px 8px rgba(18,33,47,.18);
+}
+
+/* =========================================================
+   Reset & base
+   ========================================================= */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Figtree', 'Segoe UI', sans-serif;
+  font-size: 15px;
+  color: var(--ink);
+  background: #fff;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* =========================================================
+   Header
+   ========================================================= */
+.site-header {
+  height: 68px;
+  flex-shrink: 0;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 16px;
+  z-index: 10;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-header__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.2;
+}
+
+.site-header__tagline {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.2;
+}
+
+.site-header__search {
+  flex: 1;
+  max-width: 620px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+  display: flex;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-input);
+  padding: 0 36px 0 38px;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: #fff;
+  appearance: none;
+}
+
+.search-input:focus {
+  outline: 3px solid #6cc0e5;
+  outline-offset: -1px;
+  border-color: var(--navy);
+}
+
+.search-input::placeholder { color: var(--muted); }
+
+.site-header__actions { flex-shrink: 0; }
+
+.btn-share {
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: #fff;
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-share:hover { background: var(--chip); }
+
+/* =========================================================
+   Filter bar
+   ========================================================= */
+.filter-bar {
+  flex-shrink: 0;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  padding: 8px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.chip {
+  height: 34px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: #fff;
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  transition: background 0.1s, border-color 0.1s;
+}
+
+.chip:hover { background: var(--chip); }
+
+.chip[aria-pressed="true"],
+.chip.is-active {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+
+/* =========================================================
+   Main body
+   ========================================================= */
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* =========================================================
+   Sidebar
+   ========================================================= */
+.sidebar {
+  flex: 1 1 380px;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  background: #fff;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Trail length area (wired in Step 4) */
+.trail-length-area {
+  flex-shrink: 0;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.trail-length-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.trail-length-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.trail-length-readout {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.trail-length-track {
+  height: 6px;
+  background: var(--line);
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+.trail-length-axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Results header */
+.results-header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 16px;
+  border-bottom: 1px solid var(--line);
+  gap: 8px;
+  min-height: 44px;
+}
+
+.results-count {
+  font-size: 14px;
+  color: var(--muted);
+  flex: 1;
+  min-width: 0;
+}
+
+.sort-select {
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-input);
+  padding: 0 8px;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  background: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.sort-select:focus {
+  outline: 3px solid #6cc0e5;
+  outline-offset: -1px;
+}
+
+/* Feature listing */
+.listing {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.listing.scrolled {
+  box-shadow: inset 0 6px 6px -6px rgba(0,0,0,.1);
+}
+
+/* Listing items (redesigned in Step 3) */
+.listing-item {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.listing-item:hover { background: var(--chip); }
+
+.listing-item.is-active {
+  background: var(--ice);
+  border-left: 3px solid var(--navy);
+  padding-left: 13px;
+}
+
+.listing-empty {
+  padding: 32px 16px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* =========================================================
+   Map
+   ========================================================= */
+#map {
+  flex: 999 1 560px;
+  min-width: 0;
+  position: relative;
+}
+
+/* =========================================================
+   Mapbox overrides
+   ========================================================= */
+.mapboxgl-popup-content {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-family: 'Figtree', 'Segoe UI', sans-serif;
+  border-top: 3px solid var(--navy);
+  border-radius: 0 0 var(--radius-input) var(--radius-input);
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 20px;
+  padding: 4px 8px;
+  color: var(--muted);
+}
+
+/* =========================================================
+   Narrow viewports: map wraps below sidebar
+   ========================================================= */
+@media (max-width: 940px) {
+  body { overflow: auto; }
+  .main-body { overflow: visible; }
+  #map { min-height: 60vw; }
+}
+
+</style>
 </head>
 <body>
-<style>
-    #map {
-        position: absolute;
-        left: 25%;
-        top: 0;
-        bottom: 0;
-        width: 75%;
-    }
-    .map-overlay {
-        position: absolute;
-        width: 25%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        font: 300 14px/1.4 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        background-color: #fff;
-        max-height: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-    }
 
-    /* Sidebar header */
-    .sidebar-header {
-        background: #11b4da;
-        color: #fff;
-        padding: 14px 12px;
-        flex-shrink: 0;
-    }
-    .sidebar-header h1 {
-        margin: 0;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.2;
-    }
-    .sidebar-header p {
-        margin: 4px 0 0;
-        font-size: 12px;
-        font-weight: 300;
-        opacity: 0.85;
-    }
+<!-- =========================================================
+     Header
+     ========================================================= -->
+<header class="site-header">
+  <a class="site-header__brand" href="/" aria-label="Nordic Ski Centers home">
+    <!-- Logo mark: nordic ski track icon -->
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="30" height="30" rx="8" fill="#e8f3fa"/>
+      <!-- Ski tracks -->
+      <path d="M6 23 Q10 11 15 16 Q20 21 24 9" stroke="#12355b" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <path d="M9 23 Q13 13 17 17 Q21 21 25 11" stroke="#6cc0e5" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <!-- Ground line -->
+      <line x1="4" y1="25" x2="26" y2="25" stroke="#12355b" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    </svg>
+    <div>
+      <div class="site-header__title">Nordic Ski Centers</div>
+      <div class="site-header__tagline">Cross-country skiing across North America</div>
+    </div>
+  </a>
 
-    .map-overlay fieldset {
-        display: none;
-        background: #f5f5f5;
-        border: none;
-        padding: 10px;
-        margin: 0;
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-        flex-shrink: 0;
-    }
-
-    .map-overlay input {
-        display: block;
-        border: 1px solid #ddd;
-        width: 100%;
-        border-radius: 3px;
-        padding: 10px;
-        margin: 0;
-        box-sizing: border-box;
-        font-size: 14px;
-    }
-
-    .map-overlay .listing {
-        overflow-y: auto;
-        flex: 1;
-        min-height: 0;
-    }
-    .map-overlay .listing.scrolled {
-        box-shadow: inset 0 6px 6px -6px rgba(0,0,0,0.15);
-    }
-
-    .map-overlay .listing > * {
-        display: block;
-        padding: 6px 10px;
-        margin: 0;
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    .map-overlay .listing a {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        color: #404;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
-    .map-overlay .listing a:last-child {
-        border: none;
-    }
-
-    .map-overlay .listing a:hover {
-        background: #f0f0f0;
-    }
-
-    .map-overlay .listing a.active {
-        background-color: #e8f4f8;
-        border-left: 3px solid #11b4da;
-        font-weight: 400;
-    }
-	.modal {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 999; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; /* Full height */
-      overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-   }
-
-   /* Modal Content */
-   .modal-content {
-      background-color: #fefefe;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-   }
-
-   .modal2 {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 999; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; /* Full height */
-      overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-   }
-
-   /* Modal Content */
-   .modal-content {
-      background-color: #fefefe;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-   }
-
-   /* The Close Button */
-   .close {
-      color: #aaaaaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-   }
-
-   .close:hover,
-   .close:focus {
-      color: #000;
-      text-decoration: none;
-      cursor: pointer;
-   }
-
-   /* Add Nordic Ski Area button (disabled) */
-   #myBtn {
-      font-size: 14px;
-      font-weight: 400;
-      padding: 6px 10px;
-      cursor: default;
-      background: #999;
-      color: #fff;
-      border: none;
-      width: 100%;
-      flex-shrink: 0;
-      border-top: 1px solid rgba(0,0,0,0.1);
-      opacity: 0.7;
-   }
-
-   /* Sidebar toggle button (hidden on desktop) */
-   #sidebar-toggle {
-      display: none;
-      width: 100%;
-      padding: 10px;
-      background: #11b4da;
-      color: #fff;
-      border: none;
-      font-size: 14px;
-      font-weight: 400;
-      cursor: pointer;
-      text-align: center;
-   }
-   #sidebar-toggle:hover {
-      background: #0d8fad;
-   }
-
-   /* Tablet responsive overrides */
-   @media (min-width: 681px) and (max-width: 1024px) {
-      #map {
-         left: 35%;
-         width: 65%;
-      }
-      .map-overlay {
-         width: 35%;
-      }
-      #loading-overlay {
-         left: 35% !important;
-         width: 65% !important;
-      }
-   }
-
-   /* Mobile responsive overrides */
-   @media (max-width: 680px) {
-      #map {
-         left: 0;
-         width: 100%;
-         bottom: 40vh;
-         transition: bottom 0.3s ease;
-      }
-      #map.sidebar-collapsed {
-         bottom: 44px;
-      }
-      .map-overlay {
-         width: 100%;
-         top: auto;
-         bottom: 0;
-         height: 40vh;
-         overflow: hidden;
-         transition: height 0.3s ease;
-      }
-      .map-overlay.collapsed {
-         height: 44px;
-      }
-      .map-overlay.collapsed .sidebar-header,
-      .map-overlay.collapsed #feature-listing,
-      .map-overlay.collapsed fieldset,
-      .map-overlay.collapsed #result-count,
-      .map-overlay.collapsed #myBtn {
-         display: none !important;
-      }
-      #sidebar-toggle {
-         display: block;
-      }
-      #loading-overlay {
-         left: 0 !important;
-         width: 100% !important;
-      }
-      #feature-listing {
-         max-height: calc(40vh - 200px);
-         overflow-y: auto;
-      }
-      .modal-content {
-         width: 95%;
-         padding: 10px;
-      }
-   }
-</style>
-
-<div id="map"></div>
-<div id="loading-overlay" style="
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 75%;
-    bottom: 0;
-    background: rgba(255,255,255,0.85);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    font: 16px/1.4 'Helvetica Neue', Arial, sans-serif;
-    color: #333;
-">Loading ski areas...</div>
-
-<div class="map-overlay">
-   <div class="sidebar-header">
-       <h1>Nordic Ski Centers</h1>
-       <p>North American Nordic Ski Centers</p>
-   </div>
-   <button id="sidebar-toggle">▼ Hide List</button>
-   <fieldset>
+  <div class="site-header__search">
+    <div class="search-input-wrap">
+      <span class="search-input-icon" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M6.5 1a5.5 5.5 0 1 0 3.613 9.677l3.355 3.355a.75.75 0 1 0 1.06-1.061l-3.354-3.354A5.5 5.5 0 0 0 6.5 1zm-4 5.5a4 4 0 1 1 8 0 4 4 0 0 1-8 0z"/>
+        </svg>
+      </span>
       <input
-         id="feature-filter"
-         type="text"
-         placeholder="Filter results by name"
+        type="search"
+        id="location-search"
+        class="search-input"
+        placeholder="Search a town, ZIP, or ski area"
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="Search by location or ski area name"
+        aria-autocomplete="list"
+        aria-controls="search-listbox"
+        aria-expanded="false"
       />
-      <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
-         <select id="filter-grooming" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
-            <option value="all">Grooming: All</option>
-            <option value="skate">Skate</option>
-            <option value="classic">Classic Only</option>
-            <option value="both">Skate &amp; Classic</option>
-            <option value="unknown">Unknown</option>
-         </select>
-         <select id="filter-lit" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
-            <option value="all">Lit: All</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-         </select>
-         <select id="filter-snow" style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px;">
-            <option value="all">Snow: All</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-         </select>
-         <input id="filter-length-min" type="number" min="0" step="1" placeholder="Min km"
-            style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px; display: inline-block; width: auto;" />
-         <input id="filter-length-max" type="number" min="0" step="1" placeholder="Max km"
-            style="flex: 1 1 80px; min-width: 80px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; font-size: 12px; display: inline-block; width: auto;" />
+    </div>
+  </div>
+
+  <div class="site-header__actions">
+    <button class="btn-share" id="btn-share" type="button">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+      </svg>
+      Share this search
+    </button>
+  </div>
+</header>
+
+<!-- =========================================================
+     Filter bar
+     ========================================================= -->
+<div class="filter-bar" role="group" aria-label="Filters">
+  <button class="chip" id="chip-grooming" type="button" aria-haspopup="true" aria-expanded="false">
+    Grooming <span aria-hidden="true">▾</span>
+  </button>
+  <button class="chip" id="chip-snowmaking" type="button" aria-pressed="false">
+    Snowmaking
+  </button>
+  <button class="chip" id="chip-more" type="button" aria-haspopup="true" aria-expanded="false">
+    More filters <span aria-hidden="true">▾</span>
+  </button>
+</div>
+
+<!-- =========================================================
+     Main body
+     ========================================================= -->
+<div class="main-body">
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+
+    <!-- Trail length (wired in Step 4) -->
+    <div class="trail-length-area">
+      <div class="trail-length-header">
+        <span class="trail-length-label">Trail length</span>
+        <span class="trail-length-readout" id="trail-length-readout">Any length</span>
       </div>
-   </fieldset>
-   <div id="result-count" style="padding: 5px 10px; font-size: 12px; color: #666; border-bottom: 1px solid rgba(0,0,0,0.1); flex-shrink: 0;"></div>
-   <div id="feature-listing" class="listing"></div>
-   <button id="myBtn" disabled>Add Nordic Ski Area</button>
-	<div id="myModal" class="modal">
-		<div class="modal-content">
-			<span class="close">&times;</span>
-         <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js">
-         </script>
-         <iframe class="airtable-embed" src="https://airtable.com/embed/shrVCeYJkklTSHWeU?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-		</div>
-	</div>
-	<script>
-      // Get the modal
-      var modal = document.getElementById("myModal");
+      <div class="trail-length-track" id="trail-length-track"></div>
+      <div class="trail-length-axis">
+        <span>0 km</span><span>50 km</span><span>100+ km</span>
+      </div>
+    </div>
 
-      // Get the button that opens the modal
-      var btn = document.getElementById("myBtn");
+    <!-- Results header -->
+    <div class="results-header">
+      <span class="results-count" id="result-count" aria-live="polite" aria-atomic="true"></span>
+      <select class="sort-select" id="sort-select" aria-label="Sort ski areas">
+        <option value="name">Name (A–Z)</option>
+        <option value="dist" disabled>Nearest first</option>
+        <option value="kmDesc">Most trail km</option>
+        <option value="kmAsc">Fewest trail km</option>
+        <option value="groom">Grooming</option>
+        <option value="snow">Snowmaking first</option>
+      </select>
+    </div>
 
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
+    <!-- Feature listing -->
+    <div id="feature-listing" class="listing" role="list"></div>
 
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-         modal.style.display = "none";
-      }
+  </div>
 
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-         if (event.target == modal) {
-            modal.style.display = "none";
-         }
-      }
+  <!-- Map -->
+  <div id="map"></div>
 
-      // Sidebar toggle for mobile
-      document.getElementById('sidebar-toggle').addEventListener('click', function () {
-         var overlay = document.querySelector('.map-overlay');
-         var mapEl = document.getElementById('map');
-         overlay.classList.toggle('collapsed');
-         mapEl.classList.toggle('sidebar-collapsed');
-         this.textContent = overlay.classList.contains('collapsed')
-            ? '▲ Show Ski Areas'
-            : '▼ Hide List';
-         // Tell Mapbox to resize to fill the new space
-         if (typeof map !== 'undefined') {
-            setTimeout(function () { map.resize(); }, 350);
-         }
-      });
-   </script>
-   
-	
+</div>
+
+<!-- Legacy filter inputs kept in DOM for JS compat (removed in Step 3) -->
+<div style="display:none" aria-hidden="true">
+  <input id="feature-filter" type="text" />
+  <select id="filter-grooming">
+    <option value="all">All</option>
+    <option value="skate">Skate</option>
+    <option value="classic">Classic Only</option>
+    <option value="both">Skate &amp; Classic</option>
+    <option value="unknown">Unknown</option>
+  </select>
+  <select id="filter-lit">
+    <option value="all">All</option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  <select id="filter-snow">
+    <option value="all">All</option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  <input id="filter-length-min" type="number" />
+  <input id="filter-length-max" type="number" />
 </div>
 
 <script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
-  var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/outdoors-v11',
-      center: [-98, 38.88],
-      
-      minZoom: 1,
-      zoom: 3
+
+/* =================================================================
+   Map setup
+   ================================================================= */
+mapboxgl.accessToken = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/outdoors-v11',
+  center: [-98, 38.88],
+  minZoom: 1,
+  zoom: 3
+});
+
+/* =================================================================
+   State
+   ================================================================= */
+var nordic_centers = [];   // visible + unique features (in map bounds)
+var allFeatures    = [];   // complete dataset
+var fullGeoJSON    = null;
+var sourceIsFiltered = false;
+var lastFilterKey    = '';
+
+/* =================================================================
+   DOM refs
+   ================================================================= */
+var listingEl        = document.getElementById('feature-listing');
+var filterEl         = document.getElementById('feature-filter');
+var filterGroomingEl = document.getElementById('filter-grooming');
+var filterLitEl      = document.getElementById('filter-lit');
+var filterSnowEl     = document.getElementById('filter-snow');
+var filterLengthMinEl = document.getElementById('filter-length-min');
+var filterLengthMaxEl = document.getElementById('filter-length-max');
+var countEl          = document.getElementById('result-count');
+
+var popup = new mapboxgl.Popup({ closeButton: false });
+
+/* =================================================================
+   Helpers
+   ================================================================= */
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function isValidValue(val) {
+  if (val === null || val === undefined) return false;
+  var s = String(val).trim().toLowerCase();
+  return s !== '' && s !== 'n/a' && s !== 'na' && s !== 'unknown' && s !== 'none';
+}
+
+function getLengthKm(prop) {
+  // v2 data: km is precomputed
+  if (prop.km !== null && prop.km !== undefined) return prop.km;
+  // legacy fallback
+  if (!isValidValue(prop.Length)) return null;
+  var len = parseFloat(prop.Length);
+  if (isNaN(len)) return null;
+  var u = (prop.Units || '').trim().toLowerCase();
+  if (u === 'mi' || u === 'm') return Math.round(len * 1.60934 * 10) / 10;
+  if (u === 'km') return len;
+  return null;
+}
+
+function normalizeGrooming(val) {
+  if (!isValidValue(val)) return 'unknown';
+  var v = val.trim().toLowerCase();
+  if (v === 'unknown' || v === 'yes') return 'unknown';
+  if ((v.indexOf('skate') > -1 && v.indexOf('classic') > -1) || v === 'skating/classical') return 'both';
+  if (v.indexOf('skate') > -1 || v.indexOf('skating') > -1) return 'skate';
+  if (v.indexOf('classic') > -1) return 'classic';
+  return 'unknown';
+}
+
+/* =================================================================
+   Filtering
+   ================================================================= */
+function hasActiveFilters() {
+  return filterEl.value.trim() !== ''
+    || filterGroomingEl.value !== 'all'
+    || filterLitEl.value !== 'all'
+    || filterSnowEl.value !== 'all'
+    || filterLengthMinEl.value !== ''
+    || filterLengthMaxEl.value !== '';
+}
+
+function featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen) {
+  var prop = feature.properties;
+  var name = prop.Name || '';
+  if (nameValue && name.toLowerCase().indexOf(nameValue) === -1) return false;
+
+  if (groomValue !== 'all') {
+    var ng = prop.groomType || normalizeGrooming(prop.Groomed);
+    if (groomValue === 'both'    && ng !== 'both')                        return false;
+    if (groomValue === 'skate'   && ng !== 'skate'   && ng !== 'both')    return false;
+    if (groomValue === 'classic' && ng !== 'classic' && ng !== 'both')    return false;
+    if (groomValue === 'unknown' && ng !== 'unknown')                      return false;
+  }
+
+  if (litValue  !== 'all' && prop.Lit        !== litValue)  return false;
+  if (snowValue !== 'all' && prop.Snowmaking  !== snowValue) return false;
+
+  if (minLen !== null || maxLen !== null) {
+    var km = getLengthKm(prop);
+    if (km === null) return false;
+    if (minLen !== null && km < minLen) return false;
+    if (maxLen !== null && km > maxLen) return false;
+  }
+  return true;
+}
+
+function applyFilters() {
+  var nameValue  = filterEl.value.trim().toLowerCase();
+  var groomValue = filterGroomingEl.value;
+  var litValue   = filterLitEl.value;
+  var snowValue  = filterSnowEl.value;
+  var minLen = filterLengthMinEl.value !== '' ? parseFloat(filterLengthMinEl.value) : null;
+  var maxLen = filterLengthMaxEl.value !== '' ? parseFloat(filterLengthMaxEl.value) : null;
+
+  var filtered = nordic_centers.filter(function (f) {
+    return featureMatchesFilters(f, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
   });
 
-  // Holds visible airport features for filtering
-  var nordic_centers = [];
-  var allFeatures = []; // Complete dataset, loaded once from GeoJSON
-  var fullGeoJSON = null; // Complete GeoJSON FeatureCollection for restoring source
-  var sourceIsFiltered = false; // Track whether source data is currently filtered
-  var lastFilterKey = ''; // Cache key to avoid redundant setData calls
+  renderListings(filtered);
 
-  // Create a popup, but don't add it to the map yet.
-  var popup = new mapboxgl.Popup({
-      closeButton: false
-  });
+  // Update map source so clusters reflect active filters
+  var filterKey    = [nameValue, groomValue, litValue, snowValue, minLen, maxLen].join('|');
+  var filtersActive = hasActiveFilters();
 
-  var filterEl = document.getElementById('feature-filter');
-  var listingEl = document.getElementById('feature-listing');
-
-  // Helper: check if a data value is meaningful (not N/A, unknown, empty, etc.)
-  function isValidValue(val) {
-      if (val === null || val === undefined) return false;
-      var normalized = String(val).trim().toLowerCase();
-      return normalized !== '' && normalized !== 'n/a' && normalized !== 'na'
-          && normalized !== 'unknown' && normalized !== 'none';
+  if (filtersActive && fullGeoJSON && filterKey !== lastFilterKey) {
+    var allFiltered = allFeatures.filter(function (f) {
+      return featureMatchesFilters(f, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
+    });
+    map.getSource('nordic-ski-areas').setData({ type: 'FeatureCollection', features: allFiltered });
+    sourceIsFiltered = true;
+    lastFilterKey    = filterKey;
+  } else if (!filtersActive && sourceIsFiltered && fullGeoJSON) {
+    map.getSource('nordic-ski-areas').setData(fullGeoJSON);
+    sourceIsFiltered = false;
+    lastFilterKey    = '';
   }
 
-  // Helper: parse feature length to km (returns null if not a valid number)
-  function getLengthKm(prop) {
-      if (!isValidValue(prop.Length)) return null;
-      var len = parseFloat(prop.Length);
-      if (isNaN(len)) return null;
-      var units = (prop.Units || '').trim().toLowerCase();
-      if (units === 'mi') {
-          len = len * 1.60934;
-      } else if (units !== 'km') {
-          return null; // Unknown units — exclude
-      }
-      return len;
+  map.setFilter('unclustered-point',         ['!', ['has', 'point_count']]);
+  map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
+  map.setFilter('unclustered-point-label',   ['!', ['has', 'point_count']]);
+}
+
+/* =================================================================
+   Listing render (cards redesigned in Step 3)
+   ================================================================= */
+function renderListings(features) {
+  listingEl.innerHTML = '';
+
+  if (features.length === 0) {
+    var msg = document.createElement('p');
+    msg.className = 'listing-empty';
+    msg.textContent = hasActiveFilters()
+      ? 'No ski areas here match your filters'
+      : 'Pan and zoom the map to explore ski areas';
+    listingEl.appendChild(msg);
+    countEl.textContent = hasActiveFilters() ? 'No results' : '';
+    return;
   }
 
-  // Helper: build a popup field line only if the value is valid
-  function popupField(label, value) {
-      if (!isValidValue(value)) return '';
-      return '<br>' + label + ': ' + value;
-  }
+  countEl.textContent = features.length + ' ski area' + (features.length !== 1 ? 's' : '');
 
-  // Shared: build popup HTML from feature properties
-  function createPopupHTML(prop) {
-      var url = prop.URL || '';
-      return '<div style="font-size:14px; line-height:1.4;">'
-          + '<strong style="font-size:16px;"><a href="' + url + '" target="_blank" style="padding:4px 0; display:inline-block;">' + prop.Name + '</a></strong>'
-          + popupField('Grooming', prop.Groomed)
-          + (isValidValue(prop.Length) ? '<br>Length: ' + prop.Length + ' ' + prop.Units : '')
-          + popupField('Lit', prop.Lit)
-          + popupField('Snowmaking', prop.Snowmaking)
-          + popupField('Notes', prop.Notes)
-          + (isValidValue(url) ? '<br><a href="' + url + '" target="_blank" style="display:inline-block; padding:8px 0;">Visit Website</a>' : '')
-          + '<br><button id="editNordic" disabled style="padding:6px 16px; margin:8px 0; font-size:14px; cursor:default; background:#999; color:#fff; border:none; border-radius:3px; opacity:0.7;">Edit Nordic Ski Area</button>'
-          + '</div>';
-  }
+  features.forEach(function (feature) {
+    var prop = feature.properties;
+    var groomLabel = prop.groomType === 'both'    ? 'Skate + classic'
+                   : prop.groomType === 'classic' ? 'Classic only'
+                   : prop.groomType === 'skate'   ? 'Skate only'
+                   : '';
 
-  // Shared: open a popup for a feature and attach the edit button handler
-  function openFeaturePopup(feature) {
-      var coordinates = feature.geometry.coordinates.slice();
+    var btn = document.createElement('button');
+    btn.className = 'listing-item';
+    btn.setAttribute('role', 'listitem');
+    btn.setAttribute('type', 'button');
+
+    var nameEl = document.createElement('div');
+    nameEl.style.cssText = 'font-size:15px;font-weight:700;color:var(--ink);margin-bottom:2px;';
+    nameEl.textContent = prop.Name;
+
+    var metaEl = document.createElement('div');
+    metaEl.style.cssText = 'font-size:13px;color:var(--muted);';
+    metaEl.textContent = (prop.region || '') + (groomLabel ? (prop.region ? ' · ' : '') + groomLabel : '');
+
+    btn.appendChild(nameEl);
+    btn.appendChild(metaEl);
+
+    btn.addEventListener('mouseover', function () {
+      popup.setLngLat(feature.geometry.coordinates).setText(prop.Name).addTo(map);
+    });
+    btn.addEventListener('mouseout', function () { popup.remove(); });
+
+    btn.addEventListener('click', function () {
+      listingEl.querySelectorAll('.listing-item').forEach(function (el) { el.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
+      // Temporary popup (replaced by detail panel in Step 7)
+      var html = '<strong>' + escapeHtml(prop.Name) + '</strong>';
+      if (prop.region) html += '<div style="font-size:13px;color:#4d5d6c;margin-top:2px">' + escapeHtml(prop.region) + '</div>';
+      if (isValidValue(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(prop.Notes).substring(0, 160) + '</div>';
       new mapboxgl.Popup({ maxWidth: '300px' })
-          .setLngLat(coordinates)
-          .setHTML(createPopupHTML(feature.properties))
-          .addTo(map);
-
-  }
-
-  function renderListings(features) {
-      var empty = document.createElement('p');
-      var countEl = document.getElementById('result-count');
-      // Clear any existing listings
-      listingEl.innerHTML = '';
-      if (features.length) {
-          features.forEach(function (feature) {
-              var prop = feature.properties;
-              var item = document.createElement('a');
-              item.textContent = prop.Name + (isValidValue(prop.Groomed) ? ' (' + prop.Groomed + ')' : '');
-              item.style.cursor = 'pointer';
-              item.addEventListener('mouseover', function () {
-                  popup
-                      .setLngLat(feature.geometry.coordinates)
-                      .setText(
-                          feature.properties.Name +
-                              (isValidValue(feature.properties.Groomed) ? ' (' + feature.properties.Groomed + ')' : '')
-                      )
-                      .addTo(map);
-              });
-              item.addEventListener('mouseout', function () {
-                  popup.remove();
-              });
-              item.addEventListener('click', function () {
-                  // Remove active class from all items
-                  var allItems = listingEl.querySelectorAll('a');
-                  allItems.forEach(function (el) { el.classList.remove('active'); });
-                  // Add active class to clicked item
-                  item.classList.add('active');
-                  // Fly to the feature location
-                  map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
-                  // Open the full popup
-                  openFeaturePopup(feature);
-              });
-
-              listingEl.appendChild(item);
-          });
-
-          // Show the filter input and result count
-          filterEl.parentNode.style.display = 'block';
-          countEl.textContent = 'Showing ' + features.length + ' ski area' + (features.length !== 1 ? 's' : '');
-      } else if (features.length === 0 && (filterEl.value !== '' || filterGroomingEl.value !== 'all' || filterLitEl.value !== 'all' || filterSnowEl.value !== 'all' || filterLengthMinEl.value !== '' || filterLengthMaxEl.value !== '')) {
-          empty.textContent = 'No results found';
-          empty.style.cssText = 'text-align:center; font-size:15px; color:#999; padding:20px 10px;';
-          listingEl.appendChild(empty);
-          countEl.textContent = 'No ski areas match filter';
-          // Keep the filters visible so the user can undo them
-          filterEl.parentNode.style.display = 'block';
-      } else {
-          empty.textContent = 'Pan and zoom the map to explore ski areas';
-          empty.style.cssText = 'text-align:center; font-size:15px; color:#999; padding:20px 10px;';
-          listingEl.appendChild(empty);
-          countEl.textContent = '';
-
-          // Only hide filters if no data has loaded yet
-          if (nordic_centers.length === 0) {
-              filterEl.parentNode.style.display = 'none';
-          }
-
-          // Reset layer filters to show all unclustered features
-          map.setFilter('unclustered-point', ['!', ['has', 'point_count']]);
-          map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
-          map.setFilter('unclustered-point-label', ['!', ['has', 'point_count']]);
-          // Restore full source data for clusters if it was filtered
-          if (sourceIsFiltered && fullGeoJSON) {
-              map.getSource('nordic-ski-areas').setData(fullGeoJSON);
-              sourceIsFiltered = false;
-          }
-      }
-  }
-
-  function normalize(string) {
-      return string.trim().toLowerCase();
-  }
-
-  // Normalize grooming values to consistent categories
-  function normalizeGrooming(val) {
-      if (!val) return 'unknown';
-      var v = val.trim().toLowerCase();
-      if (v === 'unknown' || v === 'yes') return 'unknown';
-      if ((v.indexOf('skate') > -1 && v.indexOf('classic') > -1) || v === 'skating/classical') {
-          return 'both';
-      }
-      if (v.indexOf('skate') > -1 || v.indexOf('skating') > -1) return 'skate';
-      if (v.indexOf('classic') > -1) return 'classic';
-      return 'unknown';
-  }
-
-  var filterGroomingEl = document.getElementById('filter-grooming');
-  var filterLitEl = document.getElementById('filter-lit');
-  var filterSnowEl = document.getElementById('filter-snow');
-  var filterLengthMinEl = document.getElementById('filter-length-min');
-  var filterLengthMaxEl = document.getElementById('filter-length-max');
-
-  // Update sidebar with features visible in the current map bounds
-  function updateVisibleFeatures() {
-      if (allFeatures.length === 0) return;
-      var bounds = map.getBounds();
-      var visible = allFeatures.filter(function (feature) {
-          var coords = feature.geometry.coordinates;
-          return bounds.contains([coords[0], coords[1]]);
-      });
-      var uniqueFeatures = getUniqueFeatures(visible, 'Name');
-      filterEl.value = '';
-      nordic_centers = uniqueFeatures;
-      applyFilters();
-  }
-
-  // Check if any filter is actively applied (not at default)
-  function hasActiveFilters() {
-      return filterEl.value.trim() !== '' ||
-          filterGroomingEl.value !== 'all' ||
-          filterLitEl.value !== 'all' ||
-          filterSnowEl.value !== 'all' ||
-          filterLengthMinEl.value !== '' ||
-          filterLengthMaxEl.value !== '';
-  }
-
-  // Apply filter criteria to a single feature (reusable for both sidebar and source filtering)
-  function featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen) {
-      var prop = feature.properties;
-      if (nameValue && normalize(prop.Name).indexOf(nameValue) === -1) return false;
-      if (groomValue !== 'all') {
-          var ng = normalizeGrooming(prop.Groomed);
-          if (groomValue === 'both') { if (ng !== 'both') return false; }
-          else if (groomValue === 'skate') { if (ng !== 'skate' && ng !== 'both') return false; }
-          else if (groomValue === 'classic') { if (ng !== 'classic' && ng !== 'both') return false; }
-          else if (groomValue === 'unknown') { if (ng !== 'unknown') return false; }
-      }
-      if (litValue !== 'all') { if (prop.Lit !== litValue) return false; }
-      if (snowValue !== 'all') { if (prop.Snowmaking !== snowValue) return false; }
-      if (minLen !== null || maxLen !== null) {
-          var lengthKm = getLengthKm(prop);
-          if (lengthKm === null) return false;
-          if (minLen !== null && lengthKm < minLen) return false;
-          if (maxLen !== null && lengthKm > maxLen) return false;
-      }
-      return true;
-  }
-
-  // Unified filter function that combines name + attribute filters
-  function applyFilters() {
-      var nameValue = normalize(filterEl.value);
-      var groomValue = filterGroomingEl.value;
-      var litValue = filterLitEl.value;
-      var snowValue = filterSnowEl.value;
-      var minLen = filterLengthMinEl.value !== '' ? parseFloat(filterLengthMinEl.value) : null;
-      var maxLen = filterLengthMaxEl.value !== '' ? parseFloat(filterLengthMaxEl.value) : null;
-
-      // Filter the visible (in-bounds) features for the sidebar listing
-      var filtered = nordic_centers.filter(function (feature) {
-          return featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
-      });
-
-      renderListings(filtered);
-
-      // Update the map source data so clusters recalculate correctly
-      // Build a cache key from current filter values to avoid redundant setData calls
-      var filterKey = [nameValue, groomValue, litValue, snowValue, minLen, maxLen].join('|');
-      var filtersActive = hasActiveFilters();
-      if (filtersActive && fullGeoJSON && filterKey !== lastFilterKey) {
-          // Filter ALL features (not just visible) to update the map source
-          var allFiltered = allFeatures.filter(function (feature) {
-              return featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
-          });
-          var filteredGeoJSON = {
-              type: 'FeatureCollection',
-              features: allFiltered
-          };
-          map.getSource('nordic-ski-areas').setData(filteredGeoJSON);
-          sourceIsFiltered = true;
-          lastFilterKey = filterKey;
-      } else if (!filtersActive && sourceIsFiltered && fullGeoJSON) {
-          // No filters active and source was previously filtered — restore the full dataset
-          map.getSource('nordic-ski-areas').setData(fullGeoJSON);
-          sourceIsFiltered = false;
-          lastFilterKey = '';
-      }
-
-      // Reset layer-level filters — source data already contains only matching features
-      // Use the base filter (no point_count = unclustered) so layers show all source features
-      map.setFilter('unclustered-point', ['!', ['has', 'point_count']]);
-      map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
-      map.setFilter('unclustered-point-label', ['!', ['has', 'point_count']]);
-  }
-
-  function getUniqueFeatures(array, comparatorProperty) {
-      var existingFeatureKeys = {};
-      // Because features come from tiled vector data, feature geometries may be split
-      // or duplicated across tile boundaries and, as a result, features may appear
-      // multiple times in query results.
-      var uniqueFeatures = array.filter(function (el) {
-          if (existingFeatureKeys[el.properties[comparatorProperty]]) {
-              return false;
-          } else {
-              existingFeatureKeys[el.properties[comparatorProperty]] = true;
-              return true;
-          }
-      });
-
-      return uniqueFeatures;
-  }
-
-  map.on('load', function () {
-
-  // Add geocoder search control
-  map.addControl(
-      new MapboxGeocoder({
-          accessToken: mapboxgl.accessToken,
-          mapboxgl: mapboxgl,
-          placeholder: 'Search for a location',
-          collapsed: true
-      }),
-      'top-right'
-  );
-
-  map.addSource('nordic-ski-areas', {
-    'type' : 'geojson',
-    'data' : 'data/nordic-ski-areas.geojson' ,
-    'cluster' : true,
-    'clusterMaxZoom' : 10,
-    'clusterRadius': 40,
-    'clusterMinPoints': 6
-  });
-
-  // Fetch the complete GeoJSON to use for sidebar filtering
-  fetch('data/nordic-ski-areas.geojson')
-      .then(function (response) { return response.json(); })
-      .then(function (data) {
-          fullGeoJSON = data;
-          allFeatures = data.features;
-          updateVisibleFeatures();
-          // Hide loading indicator once data is ready
-          var loadingOverlay = document.getElementById('loading-overlay');
-          if (loadingOverlay) {
-              loadingOverlay.style.display = 'none';
-          }
-      });
-
-  map.addLayer({
-      'id' : 'clusters',
-      'type' : 'circle',
-      'source': 'nordic-ski-areas', 
-      'filter' : ['has','point_count'],
-      'paint':{
-        'circle-color': [
-          'step',
-          ['get', 'point_count'],
-          '#f4a460',
-          100,
-          '#e8723a',
-          750,
-          '#c94a2a'
-          ],
-          'circle-radius': [
-          'step',
-          ['get', 'point_count'],
-          20,
-          100,
-          30,
-          750,
-          40
-          ]
-      }
-      
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML(html)
+        .addTo(map);
     });
 
-    
-  map.addLayer({
-  id: 'cluster-count',
-  type: 'symbol',
-  source: 'nordic-ski-areas',
-  filter: ['has', 'point_count'],
-  layout: {
-  'text-field': '{point_count_abbreviated}',
-  'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-  'text-size': 12
-  }
+    listingEl.appendChild(btn);
   });
-    
+}
+
+/* =================================================================
+   Visible-features update
+   ================================================================= */
+function getUniqueFeatures(array, key) {
+  var seen = {};
+  return array.filter(function (f) {
+    var k = f.properties[key];
+    if (seen[k]) return false;
+    seen[k] = true;
+    return true;
+  });
+}
+
+function updateVisibleFeatures() {
+  if (allFeatures.length === 0) return;
+  var bounds = map.getBounds();
+  var visible = allFeatures.filter(function (f) {
+    var c = f.geometry.coordinates;
+    return bounds.contains([c[0], c[1]]);
+  });
+  nordic_centers = getUniqueFeatures(visible, 'id');
+  filterEl.value = '';
+  applyFilters();
+}
+
+/* =================================================================
+   Filter event listeners (kept for compat; replaced in Steps 3 & 4)
+   ================================================================= */
+filterEl.addEventListener('input',               function () { applyFilters(); });
+filterGroomingEl.addEventListener('change',      function () { applyFilters(); });
+filterLitEl.addEventListener('change',           function () { applyFilters(); });
+filterSnowEl.addEventListener('change',          function () { applyFilters(); });
+filterLengthMinEl.addEventListener('input',      function () { applyFilters(); });
+filterLengthMaxEl.addEventListener('input',      function () { applyFilters(); });
+
+listingEl.addEventListener('scroll', function () {
+  listingEl.classList.toggle('scrolled', listingEl.scrollTop > 0);
+});
+
+/* =================================================================
+   Map load
+   ================================================================= */
+map.on('load', function () {
+
+  map.addSource('nordic-ski-areas', {
+    type: 'geojson',
+    data: 'data/nordic-ski-areas-v2.geojson',
+    cluster: true,
+    clusterMaxZoom: 10,
+    clusterRadius: 40,
+    clusterMinPoints: 6,
+    promoteId: 'id'
+  });
+
+  fetch('data/nordic-ski-areas-v2.geojson')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      fullGeoJSON  = data;
+      allFeatures  = data.features;
+      updateVisibleFeatures();
+    });
+
+  /* Clusters ---------------------------------------------------- */
+  map.addLayer({
+    id: 'clusters',
+    type: 'circle',
+    source: 'nordic-ski-areas',
+    filter: ['has', 'point_count'],
+    paint: {
+      'circle-color': [
+        'step', ['get', 'point_count'],
+        '#f4a460', 100, '#e8723a', 750, '#c94a2a'
+      ],
+      'circle-radius': [
+        'step', ['get', 'point_count'],
+        20, 100, 30, 750, 40
+      ]
+    }
+  });
+
+  map.addLayer({
+    id: 'cluster-count',
+    type: 'symbol',
+    source: 'nordic-ski-areas',
+    filter: ['has', 'point_count'],
+    layout: {
+      'text-field': '{point_count_abbreviated}',
+      'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+      'text-size': 12
+    }
+  });
+
+  /* Individual pins (restyled in Step 5) ------------------------- */
   map.addLayer({
     id: 'unclustered-point',
     type: 'circle',
     source: 'nordic-ski-areas',
     filter: ['!', ['has', 'point_count']],
     paint: {
-    'circle-color': '#e85d26',
-    'circle-radius': [
-      'interpolate', ['linear'], ['zoom'],
-      3, 6,
-      8, 8,
-      12, 10,
-      16, 14
-    ],
-    'circle-stroke-width': [
-      'interpolate', ['linear'], ['zoom'],
-      3, 2,
-      8, 2.5,
-      12, 3
-    ],
-    'circle-stroke-color': '#fff'
+      'circle-color': '#e85d26',
+      'circle-radius': [
+        'interpolate', ['linear'], ['zoom'],
+        3, 6, 8, 8, 12, 10, 16, 14
+      ],
+      'circle-stroke-width': [
+        'interpolate', ['linear'], ['zoom'],
+        3, 2, 8, 2.5, 12, 3
+      ],
+      'circle-stroke-color': '#fff'
     }
   });
 
-  // Invisible layer with larger radius for easier touch/click targeting
   map.addLayer({
     id: 'unclustered-point-hitarea',
     type: 'circle',
@@ -794,120 +851,79 @@
       'circle-color': 'rgba(0,0,0,0)',
       'circle-radius': [
         'interpolate', ['linear'], ['zoom'],
-        3, 12,
-        8, 16,
-        12, 22,
-        16, 22
+        3, 12, 8, 16, 12, 22, 16, 22
       ],
       'circle-stroke-width': 0,
       'circle-stroke-color': 'rgba(0,0,0,0)'
     }
   });
 
-  // Text labels for individual ski areas (visible at zoom 8+)
   map.addLayer({
-      id: 'unclustered-point-label',
-      type: 'symbol',
-      source: 'nordic-ski-areas',
-      filter: ['!', ['has', 'point_count']],
-      minzoom: 5,
-      layout: {
-          'text-field': ['get', 'Name'],
-          'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-          'text-size': [
-              'interpolate', ['linear'], ['zoom'],
-              5, 9,
-              8, 10,
-              12, 13
-          ],
-          'text-offset': [0, 1.5],
-          'text-anchor': 'top',
-          'text-allow-overlap': false,
-          'text-optional': true
-      },
-      paint: {
-          'text-color': '#333',
-          'text-halo-color': '#fff',
-          'text-halo-width': 1.5
-      }
-  });
-
-  // inspect a cluster on click
-  map.on('click', 'clusters', function (e) {
-  var features = map.queryRenderedFeatures(e.point, {
-  layers: ['clusters']
-  });
-  var clusterId = features[0].properties.cluster_id;
-  map.getSource('nordic-ski-areas').getClusterExpansionZoom(
-  clusterId,
-  function (err, zoom) {
-  if (err) return;
-  
-  map.easeTo({
-  center: features[0].geometry.coordinates,
-  zoom: zoom
-  });
-  }
-  );
-  });
-
-map.on('click', 'unclustered-point-hitarea', function (e) {
-    openFeaturePopup(e.features[0]);
-  });
-
-  map.on('mouseenter', 'clusters', function () {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-
-  map.on('mouseleave', 'clusters', function () {
-  map.getCanvas().style.cursor = '';
-  });
-
-  map.on('mouseenter', 'unclustered-point-hitarea', function (e) {
-    map.getCanvas().style.cursor = 'pointer';
-    if (e.features.length) {
-        var feature = e.features[0];
-        popup
-            .setLngLat(feature.geometry.coordinates.slice())
-            .setText(feature.properties.Name)
-            .addTo(map);
+    id: 'unclustered-point-label',
+    type: 'symbol',
+    source: 'nordic-ski-areas',
+    filter: ['!', ['has', 'point_count']],
+    minzoom: 5,
+    layout: {
+      'text-field': ['get', 'Name'],
+      'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+      'text-size': [
+        'interpolate', ['linear'], ['zoom'],
+        5, 9, 8, 10, 12, 13
+      ],
+      'text-offset': [0, 1.5],
+      'text-anchor': 'top',
+      'text-allow-overlap': false,
+      'text-optional': true
+    },
+    paint: {
+      'text-color': '#333',
+      'text-halo-color': '#fff',
+      'text-halo-width': 1.5
     }
   });
 
+  /* Map interactions -------------------------------------------- */
+  map.on('click', 'clusters', function (e) {
+    var features  = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+    var clusterId = features[0].properties.cluster_id;
+    map.getSource('nordic-ski-areas').getClusterExpansionZoom(clusterId, function (err, zoom) {
+      if (err) return;
+      map.easeTo({ center: features[0].geometry.coordinates, zoom: zoom });
+    });
+  });
+
+  map.on('click', 'unclustered-point-hitarea', function (e) {
+    var prop = e.features[0].properties;
+    var html = '<strong>' + escapeHtml(prop.Name || '') + '</strong>';
+    if (prop.region) html += '<div style="font-size:13px;color:#4d5d6c;margin-top:2px">' + escapeHtml(prop.region) + '</div>';
+    if (isValidValue(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(prop.Notes).substring(0, 160) + '</div>';
+    new mapboxgl.Popup({ maxWidth: '300px' })
+      .setLngLat(e.features[0].geometry.coordinates)
+      .setHTML(html)
+      .addTo(map);
+  });
+
+  map.on('mouseenter', 'clusters',                function () { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', 'clusters',                function () { map.getCanvas().style.cursor = ''; });
+  map.on('mouseenter', 'unclustered-point-hitarea', function (e) {
+    map.getCanvas().style.cursor = 'pointer';
+    if (e.features.length) {
+      popup.setLngLat(e.features[0].geometry.coordinates.slice())
+           .setText(e.features[0].properties.Name)
+           .addTo(map);
+    }
+  });
   map.on('mouseleave', 'unclustered-point-hitarea', function () {
     map.getCanvas().style.cursor = '';
     popup.remove();
   });
 
+  map.on('moveend', function () { updateVisibleFeatures(); });
 
-
-  map.on('moveend', function () {
-    updateVisibleFeatures();
-  });
-
-  // Filter event listeners
-  filterEl.addEventListener('input', function () { applyFilters(); });
-  filterGroomingEl.addEventListener('change', function () { applyFilters(); });
-  filterLitEl.addEventListener('change', function () { applyFilters(); });
-  filterSnowEl.addEventListener('change', function () { applyFilters(); });
-  filterLengthMinEl.addEventListener('input', function () { applyFilters(); });
-  filterLengthMaxEl.addEventListener('input', function () { applyFilters(); });
-
-  // Call this function on initialization
-  // passing an empty array to render an empty state
   renderListings([]);
+});
 
-  // Scroll shadow indicator on sidebar listing
-  listingEl.addEventListener('scroll', function () {
-      if (listingEl.scrollTop > 0) {
-          listingEl.classList.add('scrolled');
-      } else {
-          listingEl.classList.remove('scrolled');
-      }
-  });
-
-  });
 </script>
-
 </body>
 </html>

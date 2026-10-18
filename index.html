@@ -500,6 +500,176 @@ button {
 }
 
 /* =========================================================
+   Filter chip wraps + popovers
+   ========================================================= */
+.chip-wrap {
+  position: relative;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 220px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-popover);
+  z-index: 100;
+  display: none;
+}
+
+.popover.is-open { display: block; }
+
+.popover__body { padding: 12px 16px 4px; }
+
+.popover__footer {
+  padding: 10px 16px;
+  border-top: 1px solid var(--line);
+}
+
+.popover-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.popover-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--navy);
+  cursor: pointer;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.btn-show-areas {
+  width: 100%;
+  height: 34px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--navy);
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-show-areas:hover { background: #0d2845; }
+
+.chip--clear {
+  background: var(--chip);
+  border-color: var(--chip);
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.chip--clear:hover { background: var(--line); border-color: var(--line); }
+
+/* =========================================================
+   Trail length histogram + dual-range slider
+   ========================================================= */
+.tl-wrap { margin-bottom: 4px; }
+
+.tl-histogram {
+  display: flex;
+  align-items: flex-end;
+  height: 44px;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.tl-bar {
+  flex: 1;
+  min-height: 0;
+  border-radius: 2px 2px 0 0;
+  background: #e4e8ec;
+  transition: background 0.15s;
+}
+
+.tl-track-outer {
+  position: relative;
+  height: 20px;
+}
+
+.tl-track-bg {
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  background: var(--line);
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.tl-fill {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  background: var(--navy);
+  border-radius: 3px;
+  pointer-events: none;
+  left: 0;
+  right: 0;
+}
+
+.tl-range {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0;
+  margin: 0; padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  pointer-events: none;
+}
+
+.tl-range::-webkit-slider-runnable-track { background: transparent; height: 6px; }
+.tl-range::-moz-range-track { background: transparent; height: 6px; }
+
+.tl-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2.5px solid var(--navy);
+  pointer-events: auto;
+  cursor: grab;
+  margin-top: -6px;
+  box-shadow: 0 1px 4px rgba(18,33,47,.2);
+}
+
+.tl-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2.5px solid var(--navy);
+  pointer-events: auto;
+  cursor: grab;
+  box-shadow: 0 1px 4px rgba(18,33,47,.2);
+}
+
+.tl-range:focus { outline: none; }
+
+.tl-range:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid #6cc0e5;
+  outline-offset: 2px;
+}
+
+.tl-range--top { z-index: 2; }
+
+/* =========================================================
    Narrow viewports: map wraps below sidebar
    ========================================================= */
 @media (max-width: 940px) {
@@ -568,15 +738,54 @@ button {
      Filter bar
      ========================================================= -->
 <div class="filter-bar" role="group" aria-label="Filters">
-  <button class="chip" id="chip-grooming" type="button" aria-haspopup="true" aria-expanded="false">
-    Grooming <span aria-hidden="true">▾</span>
-  </button>
+
+  <!-- Grooming popover -->
+  <div class="chip-wrap">
+    <button class="chip" id="chip-grooming" type="button" aria-haspopup="true" aria-expanded="false">
+      <span id="chip-grooming-label">Grooming</span> <span aria-hidden="true">▾</span>
+    </button>
+    <div class="popover" id="popover-grooming" role="dialog" aria-label="Grooming filter">
+      <div class="popover__body">
+        <label class="popover-label">
+          <input type="checkbox" id="filter-skate"> Groomed for skate
+        </label>
+        <label class="popover-label">
+          <input type="checkbox" id="filter-classic"> Groomed for classic
+        </label>
+      </div>
+      <div class="popover__footer">
+        <button class="btn-show-areas" id="btn-show-grooming" type="button">Show areas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Snowmaking toggle -->
   <button class="chip" id="chip-snowmaking" type="button" aria-pressed="false">
     Snowmaking
   </button>
-  <button class="chip" id="chip-more" type="button" aria-haspopup="true" aria-expanded="false">
-    More filters <span aria-hidden="true">▾</span>
+
+  <!-- More filters popover -->
+  <div class="chip-wrap">
+    <button class="chip" id="chip-more" type="button" aria-haspopup="true" aria-expanded="false">
+      <span id="chip-more-label">More filters</span> <span aria-hidden="true">▾</span>
+    </button>
+    <div class="popover" id="popover-more" role="dialog" aria-label="More filters">
+      <div class="popover__body">
+        <label class="popover-label">
+          <input type="checkbox" id="filter-lit"> Lit at night
+        </label>
+      </div>
+      <div class="popover__footer">
+        <button class="btn-show-areas" id="btn-show-more" type="button">Show areas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clear all -->
+  <button class="chip chip--clear" id="chip-clear" type="button" style="display:none" aria-label="Clear all filters">
+    Clear all
   </button>
+
 </div>
 
 <!-- =========================================================
@@ -587,13 +796,23 @@ button {
   <!-- Sidebar -->
   <div class="sidebar" id="sidebar">
 
-    <!-- Trail length (wired in Step 4) -->
+    <!-- Trail length slider + histogram -->
     <div class="trail-length-area">
       <div class="trail-length-header">
         <span class="trail-length-label">Trail length</span>
         <span class="trail-length-readout" id="trail-length-readout">Any length</span>
       </div>
-      <div class="trail-length-track" id="trail-length-track"></div>
+      <div class="tl-wrap">
+        <div class="tl-histogram" id="tl-histogram" aria-hidden="true"></div>
+        <div class="tl-track-outer">
+          <div class="tl-track-bg"></div>
+          <div class="tl-fill" id="tl-fill"></div>
+          <input type="range" id="tl-min" class="tl-range" min="0" max="100" step="5" value="0"
+                 aria-label="Minimum trail length, km">
+          <input type="range" id="tl-max" class="tl-range" min="0" max="100" step="5" value="100"
+                 aria-label="Maximum trail length, km">
+        </div>
+      </div>
       <div class="trail-length-axis">
         <span>0 km</span><span>50 km</span><span>100+ km</span>
       </div>
@@ -957,7 +1176,14 @@ function formatDist(miles) {
    ================================================================= */
 function clearFilters() {
   state.filters = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100 };
-  // Sync chip states (wired in Step 4)
+  // Sync filter DOM elements (defined in Step 4 JS below; safe at runtime)
+  if (filterSkateEl)   filterSkateEl.checked   = false;
+  if (filterClassicEl) filterClassicEl.checked = false;
+  if (filterLitEl)     filterLitEl.checked     = false;
+  if (chipSnowEl)      chipSnowEl.setAttribute('aria-pressed', 'false');
+  if (tlMinEl)         tlMinEl.value            = '0';
+  if (tlMaxEl)         tlMaxEl.value            = '100';
+  if (typeof updateTrackFill === 'function') updateTrackFill();
   applyFilters();
 }
 
@@ -965,6 +1191,9 @@ function clearFilters() {
    Apply filters + update map source
    ================================================================= */
 function applyFilters() {
+  if (typeof updateFilterChipStates === 'function') updateFilterChipStates();
+  if (typeof updateHistogram === 'function') updateHistogram();
+
   var filtered = (state.sync ? visibleFeatures : allFeatures).filter(featureMatchesFilters);
 
   renderListings(filtered);
@@ -1181,6 +1410,262 @@ map.on('load', function () {
 
   map.on('moveend', function () { updateVisibleFeatures(); });
 });
+
+/* =================================================================
+   Step 4: Filter bar popovers, trail length slider + histogram
+   ================================================================= */
+
+/* --- DOM refs --- */
+var chipGroomingEl   = document.getElementById('chip-grooming');
+var chipGroomLabelEl = document.getElementById('chip-grooming-label');
+var popoverGroomEl   = document.getElementById('popover-grooming');
+var filterSkateEl    = document.getElementById('filter-skate');
+var filterClassicEl  = document.getElementById('filter-classic');
+var btnShowGroomEl   = document.getElementById('btn-show-grooming');
+
+var chipSnowEl       = document.getElementById('chip-snowmaking');
+
+var chipMoreEl       = document.getElementById('chip-more');
+var chipMoreLabelEl  = document.getElementById('chip-more-label');
+var popoverMoreEl    = document.getElementById('popover-more');
+var filterLitEl      = document.getElementById('filter-lit');
+var btnShowMoreEl    = document.getElementById('btn-show-more');
+
+var chipClearEl      = document.getElementById('chip-clear');
+
+var tlMinEl          = document.getElementById('tl-min');
+var tlMaxEl          = document.getElementById('tl-max');
+var tlFillEl         = document.getElementById('tl-fill');
+var tlReadoutEl      = document.getElementById('trail-length-readout');
+var tlHistEl         = document.getElementById('tl-histogram');
+
+/* ---- Histogram ---- */
+
+// Build 20 empty bar elements once
+(function () {
+  for (var i = 0; i < 20; i++) {
+    var bar = document.createElement('div');
+    bar.className = 'tl-bar';
+    tlHistEl.appendChild(bar);
+  }
+}());
+
+function featureMatchesNonKmFilters(feature) {
+  var prop = feature.properties;
+  var f    = state.filters;
+  if (f.skate   && prop.groomSkate   !== true) return false;
+  if (f.classic && prop.groomClassic !== true) return false;
+  if (f.snow    && prop.Snowmaking   !== 'Yes') return false;
+  if (f.lit     && prop.Lit          !== 'Yes') return false;
+  return true;
+}
+
+function updateHistogram() {
+  var pool    = state.sync ? visibleFeatures : allFeatures;
+  var buckets = new Array(20).fill(0);
+
+  pool.forEach(function (f) {
+    if (!featureMatchesNonKmFilters(f)) return;
+    var km = f.properties.km;
+    if (km === null || km === undefined) return;
+    var b = Math.min(Math.floor(km / 5), 19);
+    buckets[b]++;
+  });
+
+  var peak  = Math.max.apply(null, buckets) || 1;
+  var kmMin = state.filters.kmMin;
+  var kmMax = state.filters.kmMax;
+  var bars  = tlHistEl.querySelectorAll('.tl-bar');
+
+  bars.forEach(function (bar, i) {
+    var lo    = i * 5;
+    var hi    = lo + 5;
+    var count = buckets[i];
+    var h     = count === 0 ? 0 : Math.max(5, Math.round((count / peak) * 44));
+    bar.style.height = h + 'px';
+
+    var aboveMin = hi > kmMin;
+    var belowMax = kmMax >= 100 || lo < kmMax;
+    var inRange  = aboveMin && belowMax;
+    bar.style.background = (count > 0 && inRange) ? '#7fa6c9' : '#e4e8ec';
+  });
+}
+
+/* ---- Trail length slider ---- */
+
+function updateTrackFill() {
+  var min = state.filters.kmMin;
+  var max = state.filters.kmMax;
+  tlFillEl.style.left  = min + '%';
+  tlFillEl.style.right = (100 - max) + '%';
+
+  if (min === 0 && max >= 100) {
+    tlReadoutEl.textContent = 'Any length';
+  } else if (max >= 100) {
+    tlReadoutEl.textContent = min + ' km – 100+ km';
+  } else {
+    tlReadoutEl.textContent = min + ' km – ' + max + ' km';
+  }
+
+  // When both handles crowd the right end, raise min so it can slide back left
+  tlMinEl.classList.toggle('tl-range--top', min >= 95 && max >= 100);
+}
+
+tlMinEl.addEventListener('input', function () {
+  var minVal = parseInt(tlMinEl.value, 10);
+  var maxVal = parseInt(tlMaxEl.value, 10);
+  if (minVal >= maxVal) { minVal = maxVal - 5; tlMinEl.value = minVal; }
+  state.filters.kmMin = Math.max(0, minVal);
+  updateTrackFill();
+  updateHistogram();
+  applyFilters();
+});
+
+tlMaxEl.addEventListener('input', function () {
+  var minVal = parseInt(tlMinEl.value, 10);
+  var maxVal = parseInt(tlMaxEl.value, 10);
+  if (maxVal <= minVal) { maxVal = minVal + 5; tlMaxEl.value = maxVal; }
+  state.filters.kmMax = Math.min(100, maxVal);
+  updateTrackFill();
+  updateHistogram();
+  applyFilters();
+});
+
+updateTrackFill();
+
+/* ---- Popover open / close ---- */
+
+var openPopover = null;
+
+function closeAllPopovers() {
+  [popoverGroomEl, popoverMoreEl].forEach(function (p) {
+    p.classList.remove('is-open');
+  });
+  chipGroomingEl.setAttribute('aria-expanded', 'false');
+  chipMoreEl.setAttribute('aria-expanded', 'false');
+  openPopover = null;
+}
+
+function togglePopover(popoverEl, chipEl, showBtn) {
+  var willOpen = !popoverEl.classList.contains('is-open');
+  closeAllPopovers();
+  if (willOpen) {
+    popoverEl.classList.add('is-open');
+    chipEl.setAttribute('aria-expanded', 'true');
+    openPopover = popoverEl;
+    if (showBtn) updateShowButton(showBtn);
+  }
+}
+
+document.addEventListener('click', function (e) {
+  if (!openPopover) return;
+  if (openPopover.contains(e.target)) return;
+  if (chipGroomingEl.contains(e.target)) return;
+  if (chipMoreEl.contains(e.target)) return;
+  closeAllPopovers();
+});
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && openPopover) {
+    var chip = openPopover === popoverGroomEl ? chipGroomingEl : chipMoreEl;
+    closeAllPopovers();
+    chip.focus();
+  }
+});
+
+/* ---- Grooming popover ---- */
+
+chipGroomingEl.addEventListener('click', function () {
+  togglePopover(popoverGroomEl, chipGroomingEl, btnShowGroomEl);
+});
+
+function updateGroomingChip() {
+  var s = state.filters.skate;
+  var c = state.filters.classic;
+  var label = (s && c) ? 'Skate + classic'
+            : s        ? 'Skate groomed'
+            : c        ? 'Classic groomed'
+            : 'Grooming';
+  chipGroomLabelEl.textContent = label;
+  chipGroomingEl.classList.toggle('is-active', !!(s || c));
+}
+
+filterSkateEl.addEventListener('change', function () {
+  state.filters.skate = filterSkateEl.checked;
+  updateGroomingChip();
+  updateShowButton(btnShowGroomEl);
+  applyFilters();
+});
+
+filterClassicEl.addEventListener('change', function () {
+  state.filters.classic = filterClassicEl.checked;
+  updateGroomingChip();
+  updateShowButton(btnShowGroomEl);
+  applyFilters();
+});
+
+btnShowGroomEl.addEventListener('click', function () {
+  closeAllPopovers();
+  chipGroomingEl.focus();
+});
+
+/* ---- Snowmaking chip ---- */
+
+chipSnowEl.addEventListener('click', function () {
+  state.filters.snow = !state.filters.snow;
+  chipSnowEl.setAttribute('aria-pressed', state.filters.snow ? 'true' : 'false');
+  applyFilters();
+});
+
+/* ---- More filters popover ---- */
+
+chipMoreEl.addEventListener('click', function () {
+  togglePopover(popoverMoreEl, chipMoreEl, btnShowMoreEl);
+});
+
+function updateMoreChip() {
+  var count = state.filters.lit ? 1 : 0;
+  chipMoreLabelEl.textContent = count > 0 ? 'More filters (' + count + ')' : 'More filters';
+  chipMoreEl.classList.toggle('is-active', count > 0);
+}
+
+filterLitEl.addEventListener('change', function () {
+  state.filters.lit = filterLitEl.checked;
+  updateMoreChip();
+  updateShowButton(btnShowMoreEl);
+  applyFilters();
+});
+
+btnShowMoreEl.addEventListener('click', function () {
+  closeAllPopovers();
+  chipMoreEl.focus();
+});
+
+/* ---- Show N areas button ---- */
+
+function updateShowButton(btn) {
+  var pool  = state.sync ? visibleFeatures : allFeatures;
+  var count = pool.filter(featureMatchesFilters).length;
+  btn.textContent = 'Show ' + count + ' areas';
+}
+
+/* ---- Clear all chip ---- */
+
+chipClearEl.addEventListener('click', function () { clearFilters(); });
+
+/* ---- Master chip-state sync (called from applyFilters) ---- */
+
+function updateFilterChipStates() {
+  updateGroomingChip();
+  updateMoreChip();
+  chipSnowEl.setAttribute('aria-pressed', state.filters.snow ? 'true' : 'false');
+
+  var f           = state.filters;
+  var activeCount = [f.skate, f.classic, f.snow, f.lit].filter(Boolean).length
+                  + (f.kmMin > 0 || f.kmMax < 100 ? 1 : 0);
+  chipClearEl.style.display   = activeCount > 0 ? '' : 'none';
+  chipClearEl.textContent     = 'Clear all (' + activeCount + ')';
+}
 
 </script>
 </body>

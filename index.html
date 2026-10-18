@@ -313,11 +313,13 @@ button {
   box-shadow: inset 0 6px 6px -6px rgba(0,0,0,.1);
 }
 
-/* Listing items (redesigned in Step 3) */
-.listing-item {
+/* =========================================================
+   Cards
+   ========================================================= */
+.card {
   display: block;
   width: 100%;
-  padding: 10px 16px;
+  padding: 10px 16px 11px;
   border: none;
   border-bottom: 1px solid var(--line);
   background: #fff;
@@ -326,20 +328,150 @@ button {
   color: var(--ink);
 }
 
-.listing-item:hover { background: var(--chip); }
+.card:hover { background: var(--chip); }
 
-.listing-item.is-active {
+.card.is-active {
   background: var(--ice);
-  border-left: 3px solid var(--navy);
-  padding-left: 13px;
+  box-shadow: inset 3px 0 0 var(--navy);
 }
 
+.card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 1px;
+}
+
+.card__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card__distance {
+  font-size: 13px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.card__region {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Base tag */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--chip);
+  color: var(--ink);
+}
+
+/* Grooming tag */
+.tag--groom { background: var(--chip); }
+
+.tag__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* km tag */
+.tag--km { background: var(--chip); color: var(--muted); font-weight: 400; }
+
+/* Snowmaking tag */
+.tag--snow { background: var(--ice); color: var(--navy); }
+
+/* Lit at night tag */
+.tag--lit { background: var(--warm-bg); color: var(--warm-fg); }
+
+/* =========================================================
+   Results header subtitle
+   ========================================================= */
+.results-subtitle {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+/* =========================================================
+   Empty / more state
+   ========================================================= */
 .listing-empty {
   padding: 32px 16px;
   text-align: center;
   font-size: 15px;
   color: var(--muted);
+  line-height: 1.5;
 }
+
+.listing-more {
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}
+
+.btn-clear-filters {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: #fff;
+  color: var(--navy);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-clear-filters:hover { background: var(--chip); }
+
+/* =========================================================
+   Skeleton loading cards
+   ========================================================= */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  display: block;
+  padding: 10px 16px 11px;
+  border-bottom: 1px solid var(--line);
+}
+
+.skeleton__line {
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #e8ecef 25%, #f4f6f7 50%, #e8ecef 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+  margin-bottom: 8px;
+}
+
+.skeleton__line--name  { width: 65%; height: 14px; margin-bottom: 6px; }
+.skeleton__line--region{ width: 40%; margin-bottom: 8px; }
+.skeleton__line--tags  { width: 80%; height: 20px; border-radius: var(--radius-pill); }
 
 /* =========================================================
    Map
@@ -469,7 +601,10 @@ button {
 
     <!-- Results header -->
     <div class="results-header">
-      <span class="results-count" id="result-count" aria-live="polite" aria-atomic="true"></span>
+      <div style="flex:1;min-width:0;">
+        <div class="results-count" id="result-count" aria-live="polite" aria-atomic="true"></div>
+        <div class="results-subtitle" id="result-subtitle"></div>
+      </div>
       <select class="sort-select" id="sort-select" aria-label="Sort ski areas">
         <option value="name">Name (A–Z)</option>
         <option value="dist" disabled>Nearest first</option>
@@ -490,30 +625,6 @@ button {
 
 </div>
 
-<!-- Legacy filter inputs kept in DOM for JS compat (removed in Step 3) -->
-<div style="display:none" aria-hidden="true">
-  <input id="feature-filter" type="text" />
-  <select id="filter-grooming">
-    <option value="all">All</option>
-    <option value="skate">Skate</option>
-    <option value="classic">Classic Only</option>
-    <option value="both">Skate &amp; Classic</option>
-    <option value="unknown">Unknown</option>
-  </select>
-  <select id="filter-lit">
-    <option value="all">All</option>
-    <option value="Yes">Yes</option>
-    <option value="No">No</option>
-  </select>
-  <select id="filter-snow">
-    <option value="all">All</option>
-    <option value="Yes">Yes</option>
-    <option value="No">No</option>
-  </select>
-  <input id="filter-length-min" type="number" />
-  <input id="filter-length-max" type="number" />
-</div>
-
 <script>
 
 /* =================================================================
@@ -532,23 +643,35 @@ var map = new mapboxgl.Map({
 /* =================================================================
    State
    ================================================================= */
-var nordic_centers = [];   // visible + unique features (in map bounds)
-var allFeatures    = [];   // complete dataset
+var state = {
+  location:   null,       // { id, label, lat, lng } — set in Step 6
+  filters: {
+    skate:    false,      // groomed for skate
+    classic:  false,      // groomed for classic
+    snow:     false,      // snowmaking
+    lit:      false,      // lit at night
+    kmMin:    0,          // trail length min (km)
+    kmMax:    100         // trail length max; 100 = "100+" (no upper limit)
+  },
+  sort:       'name',     // 'name' | 'dist' | 'kmDesc' | 'kmAsc' | 'groom' | 'snow'
+  sync:       true,       // list follows map view
+  selectedId: null        // open area id
+};
+
+var allFeatures    = [];
+var visibleFeatures = [];  // features in current map bounds (unique by id)
 var fullGeoJSON    = null;
 var sourceIsFiltered = false;
 var lastFilterKey    = '';
+var dataLoaded       = false;
 
 /* =================================================================
    DOM refs
    ================================================================= */
-var listingEl        = document.getElementById('feature-listing');
-var filterEl         = document.getElementById('feature-filter');
-var filterGroomingEl = document.getElementById('filter-grooming');
-var filterLitEl      = document.getElementById('filter-lit');
-var filterSnowEl     = document.getElementById('filter-snow');
-var filterLengthMinEl = document.getElementById('filter-length-min');
-var filterLengthMaxEl = document.getElementById('filter-length-max');
-var countEl          = document.getElementById('result-count');
+var listingEl   = document.getElementById('feature-listing');
+var countEl     = document.getElementById('result-count');
+var subtitleEl  = document.getElementById('result-subtitle');
+var sortEl      = document.getElementById('sort-select');
 
 var popup = new mapboxgl.Popup({ closeButton: false });
 
@@ -563,98 +686,299 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
-function isValidValue(val) {
+function isValid(val) {
   if (val === null || val === undefined) return false;
   var s = String(val).trim().toLowerCase();
   return s !== '' && s !== 'n/a' && s !== 'na' && s !== 'unknown' && s !== 'none';
 }
 
-function getLengthKm(prop) {
-  // v2 data: km is precomputed
-  if (prop.km !== null && prop.km !== undefined) return prop.km;
-  // legacy fallback
-  if (!isValidValue(prop.Length)) return null;
-  var len = parseFloat(prop.Length);
-  if (isNaN(len)) return null;
-  var u = (prop.Units || '').trim().toLowerCase();
-  if (u === 'mi' || u === 'm') return Math.round(len * 1.60934 * 10) / 10;
-  if (u === 'km') return len;
-  return null;
-}
-
-function normalizeGrooming(val) {
-  if (!isValidValue(val)) return 'unknown';
-  var v = val.trim().toLowerCase();
-  if (v === 'unknown' || v === 'yes') return 'unknown';
-  if ((v.indexOf('skate') > -1 && v.indexOf('classic') > -1) || v === 'skating/classical') return 'both';
-  if (v.indexOf('skate') > -1 || v.indexOf('skating') > -1) return 'skate';
-  if (v.indexOf('classic') > -1) return 'classic';
-  return 'unknown';
-}
-
 /* =================================================================
-   Filtering
+   Filtering — reads from state.filters
    ================================================================= */
 function hasActiveFilters() {
-  return filterEl.value.trim() !== ''
-    || filterGroomingEl.value !== 'all'
-    || filterLitEl.value !== 'all'
-    || filterSnowEl.value !== 'all'
-    || filterLengthMinEl.value !== ''
-    || filterLengthMaxEl.value !== '';
+  var f = state.filters;
+  return f.skate || f.classic || f.snow || f.lit || f.kmMin > 0 || f.kmMax < 100;
 }
 
-function featureMatchesFilters(feature, nameValue, groomValue, litValue, snowValue, minLen, maxLen) {
+function featureMatchesFilters(feature) {
   var prop = feature.properties;
-  var name = prop.Name || '';
-  if (nameValue && name.toLowerCase().indexOf(nameValue) === -1) return false;
+  var f    = state.filters;
 
-  if (groomValue !== 'all') {
-    var ng = prop.groomType || normalizeGrooming(prop.Groomed);
-    if (groomValue === 'both'    && ng !== 'both')                        return false;
-    if (groomValue === 'skate'   && ng !== 'skate'   && ng !== 'both')    return false;
-    if (groomValue === 'classic' && ng !== 'classic' && ng !== 'both')    return false;
-    if (groomValue === 'unknown' && ng !== 'unknown')                      return false;
-  }
+  // Grooming: skate and/or classic must be true on the feature
+  if (f.skate   && prop.groomSkate   !== true) return false;
+  if (f.classic && prop.groomClassic !== true) return false;
 
-  if (litValue  !== 'all' && prop.Lit        !== litValue)  return false;
-  if (snowValue !== 'all' && prop.Snowmaking  !== snowValue) return false;
+  // Snowmaking / Lit
+  if (f.snow && prop.Snowmaking !== 'Yes') return false;
+  if (f.lit  && prop.Lit        !== 'Yes') return false;
 
-  if (minLen !== null || maxLen !== null) {
-    var km = getLengthKm(prop);
+  // Trail length
+  var km = prop.km;
+  if (f.kmMin > 0) {
     if (km === null) return false;
-    if (minLen !== null && km < minLen) return false;
-    if (maxLen !== null && km > maxLen) return false;
+    if (km < f.kmMin) return false;
   }
+  if (f.kmMax < 100) {
+    if (km === null) return false;
+    if (km > f.kmMax) return false;
+  }
+
   return true;
 }
 
-function applyFilters() {
-  var nameValue  = filterEl.value.trim().toLowerCase();
-  var groomValue = filterGroomingEl.value;
-  var litValue   = filterLitEl.value;
-  var snowValue  = filterSnowEl.value;
-  var minLen = filterLengthMinEl.value !== '' ? parseFloat(filterLengthMinEl.value) : null;
-  var maxLen = filterLengthMaxEl.value !== '' ? parseFloat(filterLengthMaxEl.value) : null;
+/* =================================================================
+   Sorting — reads from state.sort
+   ================================================================= */
+var GROOM_ORDER = { both: 0, skate: 1, classic: 2, yes: 3, unknown: 3 };
 
-  var filtered = nordic_centers.filter(function (f) {
-    return featureMatchesFilters(f, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
+function sortFeatures(arr) {
+  var sort = state.sort;
+  return arr.slice().sort(function (a, b) {
+    var ap = a.properties, bp = b.properties;
+    var nameCmp = (ap.Name || '').localeCompare(bp.Name || '');
+
+    if (sort === 'dist' && state.location) {
+      return (ap._dist || 0) - (bp._dist || 0) || nameCmp;
+    }
+    if (sort === 'kmDesc') {
+      if (ap.km === null && bp.km === null) return nameCmp;
+      if (ap.km === null) return 1;
+      if (bp.km === null) return -1;
+      return bp.km - ap.km || nameCmp;
+    }
+    if (sort === 'kmAsc') {
+      if (ap.km === null && bp.km === null) return nameCmp;
+      if (ap.km === null) return 1;
+      if (bp.km === null) return -1;
+      return ap.km - bp.km || nameCmp;
+    }
+    if (sort === 'groom') {
+      var ag = GROOM_ORDER[ap.groomType] !== undefined ? GROOM_ORDER[ap.groomType] : 3;
+      var bg = GROOM_ORDER[bp.groomType] !== undefined ? GROOM_ORDER[bp.groomType] : 3;
+      return ag - bg || nameCmp;
+    }
+    if (sort === 'snow') {
+      return (ap.Snowmaking === 'Yes' ? 0 : 1) - (bp.Snowmaking === 'Yes' ? 0 : 1) || nameCmp;
+    }
+    // default: name
+    return nameCmp;
   });
+}
+
+/* =================================================================
+   Grooming dot color
+   ================================================================= */
+var GROOM_COLOR = { both: '#1b4f8a', skate: '#e07b24', classic: '#6cc0e5', unknown: '#9aa4ad', yes: '#9aa4ad' };
+var GROOM_LABEL = { both: 'Skate + classic', skate: 'Skate only', classic: 'Classic only', unknown: 'Grooming unknown', yes: 'Grooming unknown' };
+
+/* =================================================================
+   Skeleton loading cards
+   ================================================================= */
+function renderSkeleton() {
+  listingEl.innerHTML = '';
+  for (var i = 0; i < 8; i++) {
+    var sk = document.createElement('div');
+    sk.className = 'skeleton';
+    sk.innerHTML =
+      '<div class="skeleton__line skeleton__line--name"></div>' +
+      '<div class="skeleton__line skeleton__line--region"></div>' +
+      '<div class="skeleton__line skeleton__line--tags"></div>';
+    listingEl.appendChild(sk);
+  }
+  countEl.textContent = '';
+  subtitleEl.textContent = '';
+}
+
+/* =================================================================
+   Card render
+   ================================================================= */
+var CAP = 100;
+
+function renderListings(features) {
+  listingEl.innerHTML = '';
+
+  /* --- Empty state --- */
+  if (features.length === 0) {
+    countEl.textContent = hasActiveFilters() ? '0 ski areas' : '';
+    subtitleEl.textContent = state.location
+      ? 'Distances from ' + state.location.label
+      : 'Search a town or use your location to see distances';
+
+    var wrap = document.createElement('div');
+    wrap.className = 'listing-empty';
+    if (hasActiveFilters()) {
+      wrap.textContent = 'No ski areas here match your filters';
+      var clrBtn = document.createElement('button');
+      clrBtn.className = 'btn-clear-filters';
+      clrBtn.textContent = 'Clear filters';
+      clrBtn.addEventListener('click', clearFilters);
+      wrap.appendChild(document.createElement('br'));
+      wrap.appendChild(clrBtn);
+    } else {
+      wrap.textContent = 'Pan and zoom the map to explore ski areas';
+    }
+    listingEl.appendChild(wrap);
+    return;
+  }
+
+  /* --- Results header --- */
+  var zoom = map.getZoom();
+  var countText = features.length + ' ski area' + (features.length !== 1 ? 's' : '');
+  if (state.sync) {
+    countText += zoom > 5 ? ' in this map view' : ' on the map';
+  }
+  countEl.textContent = countText;
+  subtitleEl.textContent = state.location
+    ? 'Distances from ' + state.location.label
+    : 'Search a town or use your location to see distances';
+
+  /* --- Sort --- */
+  var sorted = sortFeatures(features);
+  var capped = sorted.length > CAP;
+  var toRender = capped ? sorted.slice(0, CAP) : sorted;
+
+  /* --- Cards --- */
+  toRender.forEach(function (feature) {
+    var prop = feature.properties;
+    var gt   = prop.groomType || 'unknown';
+
+    var btn = document.createElement('button');
+    btn.className = 'card' + (prop.id === state.selectedId ? ' is-active' : '');
+    btn.type = 'button';
+    btn.setAttribute('role', 'listitem');
+    btn.dataset.id = prop.id;
+
+    /* Top row: name + distance */
+    var top = document.createElement('div');
+    top.className = 'card__top';
+    var nameEl = document.createElement('span');
+    nameEl.className = 'card__name';
+    nameEl.textContent = prop.Name;
+    top.appendChild(nameEl);
+    if (state.location && prop._dist != null) {
+      var distEl = document.createElement('span');
+      distEl.className = 'card__distance';
+      distEl.textContent = formatDist(prop._dist);
+      top.appendChild(distEl);
+    }
+    btn.appendChild(top);
+
+    /* Region */
+    if (prop.region) {
+      var regionEl = document.createElement('div');
+      regionEl.className = 'card__region';
+      regionEl.textContent = prop.region;
+      btn.appendChild(regionEl);
+    }
+
+    /* Tags */
+    var tags = document.createElement('div');
+    tags.className = 'card__tags';
+
+    // Grooming tag
+    var groomTag = document.createElement('span');
+    groomTag.className = 'tag tag--groom';
+    var dot = document.createElement('span');
+    dot.className = 'tag__dot';
+    dot.style.background = GROOM_COLOR[gt] || GROOM_COLOR.unknown;
+    groomTag.appendChild(dot);
+    groomTag.appendChild(document.createTextNode(GROOM_LABEL[gt] || 'Grooming unknown'));
+    tags.appendChild(groomTag);
+
+    // km tag
+    if (prop.km !== null && prop.km !== undefined) {
+      var kmTag = document.createElement('span');
+      kmTag.className = 'tag tag--km';
+      kmTag.textContent = prop.km + ' km';
+      tags.appendChild(kmTag);
+    }
+
+    // Snowmaking tag
+    if (prop.Snowmaking === 'Yes') {
+      var snowTag = document.createElement('span');
+      snowTag.className = 'tag tag--snow';
+      snowTag.textContent = 'Snowmaking';
+      tags.appendChild(snowTag);
+    }
+
+    // Lit tag
+    if (prop.Lit === 'Yes') {
+      var litTag = document.createElement('span');
+      litTag.className = 'tag tag--lit';
+      litTag.textContent = 'Lit at night';
+      tags.appendChild(litTag);
+    }
+
+    btn.appendChild(tags);
+
+    /* Interactions */
+    btn.addEventListener('mouseover', function () {
+      popup.setLngLat(feature.geometry.coordinates).setText(prop.Name).addTo(map);
+    });
+    btn.addEventListener('mouseout', function () { popup.remove(); });
+
+    btn.addEventListener('click', function () {
+      listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      state.selectedId = prop.id;
+      map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
+      // Temporary popup (detail panel replaces in Step 7)
+      var html = '<strong>' + escapeHtml(prop.Name) + '</strong>';
+      if (prop.region) html += '<div style="font-size:13px;color:var(--muted);margin-top:2px">' + escapeHtml(prop.region) + '</div>';
+      if (isValid(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(String(prop.Notes)).substring(0, 160) + '</div>';
+      new mapboxgl.Popup({ maxWidth: '300px' })
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML(html)
+        .addTo(map);
+    });
+
+    listingEl.appendChild(btn);
+  });
+
+  /* "Zoom in to see more" row */
+  if (capped) {
+    var more = document.createElement('div');
+    more.className = 'listing-more';
+    more.textContent = 'Showing 100 of ' + sorted.length + ' areas. Zoom in to see fewer.';
+    listingEl.appendChild(more);
+  }
+}
+
+/* =================================================================
+   Distance formatting (haversine — location added in Step 6)
+   ================================================================= */
+function formatDist(miles) {
+  if (miles < 10) return (Math.round(miles * 10) / 10) + ' mi';
+  return Math.round(miles) + ' mi';
+}
+
+/* =================================================================
+   Clear filters
+   ================================================================= */
+function clearFilters() {
+  state.filters = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100 };
+  // Sync chip states (wired in Step 4)
+  applyFilters();
+}
+
+/* =================================================================
+   Apply filters + update map source
+   ================================================================= */
+function applyFilters() {
+  var filtered = (state.sync ? visibleFeatures : allFeatures).filter(featureMatchesFilters);
 
   renderListings(filtered);
 
-  // Update map source so clusters reflect active filters
-  var filterKey    = [nameValue, groomValue, litValue, snowValue, minLen, maxLen].join('|');
-  var filtersActive = hasActiveFilters();
+  /* Update map source so clusters count only matching features */
+  var filterKey = JSON.stringify(state.filters);
+  var active    = hasActiveFilters();
 
-  if (filtersActive && fullGeoJSON && filterKey !== lastFilterKey) {
-    var allFiltered = allFeatures.filter(function (f) {
-      return featureMatchesFilters(f, nameValue, groomValue, litValue, snowValue, minLen, maxLen);
-    });
+  if (active && fullGeoJSON && filterKey !== lastFilterKey) {
+    var allFiltered = allFeatures.filter(featureMatchesFilters);
     map.getSource('nordic-ski-areas').setData({ type: 'FeatureCollection', features: allFiltered });
     sourceIsFiltered = true;
     lastFilterKey    = filterKey;
-  } else if (!filtersActive && sourceIsFiltered && fullGeoJSON) {
+  } else if (!active && sourceIsFiltered && fullGeoJSON) {
     map.getSource('nordic-ski-areas').setData(fullGeoJSON);
     sourceIsFiltered = false;
     lastFilterKey    = '';
@@ -666,77 +990,12 @@ function applyFilters() {
 }
 
 /* =================================================================
-   Listing render (cards redesigned in Step 3)
+   Visible-feature update (runs on moveend)
    ================================================================= */
-function renderListings(features) {
-  listingEl.innerHTML = '';
-
-  if (features.length === 0) {
-    var msg = document.createElement('p');
-    msg.className = 'listing-empty';
-    msg.textContent = hasActiveFilters()
-      ? 'No ski areas here match your filters'
-      : 'Pan and zoom the map to explore ski areas';
-    listingEl.appendChild(msg);
-    countEl.textContent = hasActiveFilters() ? 'No results' : '';
-    return;
-  }
-
-  countEl.textContent = features.length + ' ski area' + (features.length !== 1 ? 's' : '');
-
-  features.forEach(function (feature) {
-    var prop = feature.properties;
-    var groomLabel = prop.groomType === 'both'    ? 'Skate + classic'
-                   : prop.groomType === 'classic' ? 'Classic only'
-                   : prop.groomType === 'skate'   ? 'Skate only'
-                   : '';
-
-    var btn = document.createElement('button');
-    btn.className = 'listing-item';
-    btn.setAttribute('role', 'listitem');
-    btn.setAttribute('type', 'button');
-
-    var nameEl = document.createElement('div');
-    nameEl.style.cssText = 'font-size:15px;font-weight:700;color:var(--ink);margin-bottom:2px;';
-    nameEl.textContent = prop.Name;
-
-    var metaEl = document.createElement('div');
-    metaEl.style.cssText = 'font-size:13px;color:var(--muted);';
-    metaEl.textContent = (prop.region || '') + (groomLabel ? (prop.region ? ' · ' : '') + groomLabel : '');
-
-    btn.appendChild(nameEl);
-    btn.appendChild(metaEl);
-
-    btn.addEventListener('mouseover', function () {
-      popup.setLngLat(feature.geometry.coordinates).setText(prop.Name).addTo(map);
-    });
-    btn.addEventListener('mouseout', function () { popup.remove(); });
-
-    btn.addEventListener('click', function () {
-      listingEl.querySelectorAll('.listing-item').forEach(function (el) { el.classList.remove('is-active'); });
-      btn.classList.add('is-active');
-      map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
-      // Temporary popup (replaced by detail panel in Step 7)
-      var html = '<strong>' + escapeHtml(prop.Name) + '</strong>';
-      if (prop.region) html += '<div style="font-size:13px;color:#4d5d6c;margin-top:2px">' + escapeHtml(prop.region) + '</div>';
-      if (isValidValue(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(prop.Notes).substring(0, 160) + '</div>';
-      new mapboxgl.Popup({ maxWidth: '300px' })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(html)
-        .addTo(map);
-    });
-
-    listingEl.appendChild(btn);
-  });
-}
-
-/* =================================================================
-   Visible-features update
-   ================================================================= */
-function getUniqueFeatures(array, key) {
+function getUniqueById(arr) {
   var seen = {};
-  return array.filter(function (f) {
-    var k = f.properties[key];
+  return arr.filter(function (f) {
+    var k = f.properties.id;
     if (seen[k]) return false;
     seen[k] = true;
     return true;
@@ -744,26 +1003,23 @@ function getUniqueFeatures(array, key) {
 }
 
 function updateVisibleFeatures() {
-  if (allFeatures.length === 0) return;
+  if (!dataLoaded) return;
   var bounds = map.getBounds();
   var visible = allFeatures.filter(function (f) {
     var c = f.geometry.coordinates;
     return bounds.contains([c[0], c[1]]);
   });
-  nordic_centers = getUniqueFeatures(visible, 'id');
-  filterEl.value = '';
+  visibleFeatures = getUniqueById(visible);
   applyFilters();
 }
 
 /* =================================================================
-   Filter event listeners (kept for compat; replaced in Steps 3 & 4)
+   Sort select
    ================================================================= */
-filterEl.addEventListener('input',               function () { applyFilters(); });
-filterGroomingEl.addEventListener('change',      function () { applyFilters(); });
-filterLitEl.addEventListener('change',           function () { applyFilters(); });
-filterSnowEl.addEventListener('change',          function () { applyFilters(); });
-filterLengthMinEl.addEventListener('input',      function () { applyFilters(); });
-filterLengthMaxEl.addEventListener('input',      function () { applyFilters(); });
+sortEl.addEventListener('change', function () {
+  state.sort = sortEl.value;
+  applyFilters();
+});
 
 listingEl.addEventListener('scroll', function () {
   listingEl.classList.toggle('scrolled', listingEl.scrollTop > 0);
@@ -773,6 +1029,8 @@ listingEl.addEventListener('scroll', function () {
    Map load
    ================================================================= */
 map.on('load', function () {
+
+  renderSkeleton();
 
   map.addSource('nordic-ski-areas', {
     type: 'geojson',
@@ -787,8 +1045,9 @@ map.on('load', function () {
   fetch('data/nordic-ski-areas-v2.geojson')
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      fullGeoJSON  = data;
-      allFeatures  = data.features;
+      fullGeoJSON = data;
+      allFeatures = data.features;
+      dataLoaded  = true;
       updateVisibleFeatures();
     });
 
@@ -896,16 +1155,17 @@ map.on('load', function () {
   map.on('click', 'unclustered-point-hitarea', function (e) {
     var prop = e.features[0].properties;
     var html = '<strong>' + escapeHtml(prop.Name || '') + '</strong>';
-    if (prop.region) html += '<div style="font-size:13px;color:#4d5d6c;margin-top:2px">' + escapeHtml(prop.region) + '</div>';
-    if (isValidValue(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(prop.Notes).substring(0, 160) + '</div>';
+    if (prop.region) html += '<div style="font-size:13px;color:var(--muted);margin-top:2px">' + escapeHtml(prop.region) + '</div>';
+    if (isValid(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(String(prop.Notes)).substring(0, 160) + '</div>';
     new mapboxgl.Popup({ maxWidth: '300px' })
       .setLngLat(e.features[0].geometry.coordinates)
       .setHTML(html)
       .addTo(map);
   });
 
-  map.on('mouseenter', 'clusters',                function () { map.getCanvas().style.cursor = 'pointer'; });
-  map.on('mouseleave', 'clusters',                function () { map.getCanvas().style.cursor = ''; });
+  map.on('mouseenter', 'clusters', function () { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', 'clusters', function () { map.getCanvas().style.cursor = ''; });
+
   map.on('mouseenter', 'unclustered-point-hitarea', function (e) {
     map.getCanvas().style.cursor = 'pointer';
     if (e.features.length) {
@@ -920,8 +1180,6 @@ map.on('load', function () {
   });
 
   map.on('moveend', function () { updateVisibleFeatures(); });
-
-  renderListings([]);
 });
 
 </script>

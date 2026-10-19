@@ -268,7 +268,7 @@ button {
    ========================================================= */
 .main-body {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex: 1;
   min-height: 0;
   overflow: hidden;
@@ -1044,12 +1044,143 @@ button {
 }
 
 /* =========================================================
-   Narrow viewports: map wraps below sidebar
+   Mobile toggle bar (hidden on desktop)
    ========================================================= */
-@media (max-width: 940px) {
+.mobile-toggle {
+  display: none;
+}
+
+/* =========================================================
+   Narrow viewports: stacked layout with map/list toggle
+   ========================================================= */
+@media (max-width: 760px) {
+  /* Toggle bar */
+  .mobile-toggle {
+    display: flex;
+    flex-shrink: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 6px 12px;
+    gap: 6px;
+  }
+
+  .mobile-toggle__btn {
+    flex: 1;
+    height: 36px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-pill);
+    background: #fff;
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.1s, border-color 0.1s;
+  }
+
+  .mobile-toggle__btn--active {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+  }
+
+  /* Stacked layout */
   body { overflow: auto; }
-  .main-body { overflow: visible; }
-  #map { min-height: 60vw; }
+  .main-body {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: visible;
+    height: auto;
+  }
+
+  /* Sidebar fills full width; hide when map tab active */
+  .sidebar {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar.mobile-hidden { display: none; }
+
+  /* Map fills full width; hide when list tab active */
+  #map {
+    flex: none;
+    width: 100%;
+    min-height: 55vh;
+  }
+
+  #map.mobile-hidden { display: none; }
+
+  /* Map view: lock body to viewport so map fills remaining space exactly */
+  body.mobile-map-view {
+    overflow: hidden;
+    height: 100dvh;
+  }
+
+  body.mobile-map-view .main-body {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body.mobile-map-view #map {
+    flex: 1;
+    min-height: 0;
+    height: auto;
+  }
+
+  /* Header: 2-row layout — brand+share on top, search full-width below */
+  .site-header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 12px;
+    gap: 6px;
+  }
+
+  .site-header__brand { flex: 1; }
+
+  .site-header__search {
+    order: 3;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .site-header__tagline { display: none; }
+
+  /* Search listbox: cap height relative to viewport */
+  .search-listbox { max-height: min(280px, 40vh); }
+
+  /* Share popover: fit within viewport */
+  .share-popover {
+    width: calc(100vw - 24px);
+    max-width: 320px;
+    left: auto;
+    right: 0;
+  }
+
+  /* Touch targets: search buttons */
+  .search-geo-btn {
+    width: 44px;
+    height: 44px;
+    right: 0;
+  }
+
+  .search-clear-btn {
+    width: 36px;
+    height: 36px;
+    right: 40px;
+  }
+
+  /* Compensate padding so text isn't hidden behind enlarged buttons */
+  .search-input { padding-right: 80px; }
+  .search-input-wrap--has-value .search-input { padding-right: 80px; }
+
+  /* In list view, sidebar grows to content height so the body scrolls */
+  .sidebar { overflow: visible; }
+  .listing { flex: 0 0 auto; overflow-y: visible; }
+  .detail-panel { flex: 0 0 auto; overflow-y: visible; }
 }
 
 </style>
@@ -1115,7 +1246,7 @@ button {
         <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
         </svg>
-        Share this search
+        <span class="btn-share__label">Share this search</span>
       </button>
       <div class="share-popover" id="share-popover" role="dialog" aria-label="Share this search" style="display:none">
         <input type="text" class="share-url-input" id="share-url-input" readonly aria-label="Shareable URL">
@@ -1180,6 +1311,14 @@ button {
     Clear all
   </button>
 
+</div>
+
+<!-- =========================================================
+     Mobile map/list toggle (hidden on desktop)
+     ========================================================= -->
+<div class="mobile-toggle" role="group" aria-label="View toggle">
+  <button class="mobile-toggle__btn mobile-toggle__btn--active" id="mobile-btn-list" type="button">List</button>
+  <button class="mobile-toggle__btn" id="mobile-btn-map" type="button">Map</button>
 </div>
 
 <!-- =========================================================
@@ -2126,7 +2265,10 @@ map.on('load', function () {
 
     // Use the full feature from allFeatures for correct property types
     var fullFeature = allFeatures.find(function (f) { return f.properties.id === fid; });
-    if (fullFeature) openDetailPanel(fullFeature);
+    if (fullFeature) {
+      openDetailPanel(fullFeature);
+      if (window._mobileDetailHook) window._mobileDetailHook();
+    }
   });
 
   map.on('mouseenter', 'clusters', function () { map.getCanvas().style.cursor = 'pointer'; });
@@ -3021,6 +3163,68 @@ if (btnDismissEl) {
     if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
   });
 }
+
+/* =========================================================
+   Mobile map/list toggle
+   ========================================================= */
+(function () {
+  var btnList   = document.getElementById('mobile-btn-list');
+  var btnMap    = document.getElementById('mobile-btn-map');
+  var sidebarEl = document.getElementById('sidebar');
+  var mapEl     = document.getElementById('map');
+
+  if (!btnList || !btnMap) return;
+
+  var trailLengthEl = document.querySelector('.trail-length-area');
+  var mainBodyEl    = sidebarEl.parentNode;
+
+  function showList() {
+    sidebarEl.classList.remove('mobile-hidden');
+    mapEl.classList.add('mobile-hidden');
+    btnList.classList.add('mobile-toggle__btn--active');
+    btnMap.classList.remove('mobile-toggle__btn--active');
+    document.body.classList.remove('mobile-map-view');
+    // Move trail-length back into sidebar (before results-header)
+    if (trailLengthEl && sidebarEl) {
+      var resultsHeader = sidebarEl.querySelector('.results-header');
+      if (resultsHeader) sidebarEl.insertBefore(trailLengthEl, resultsHeader);
+    }
+  }
+
+  function showMap() {
+    mapEl.classList.remove('mobile-hidden');
+    sidebarEl.classList.add('mobile-hidden');
+    btnMap.classList.add('mobile-toggle__btn--active');
+    btnList.classList.remove('mobile-toggle__btn--active');
+    document.body.classList.add('mobile-map-view');
+    // Move trail-length to just before .main-body so it's always visible
+    if (trailLengthEl && mainBodyEl) {
+      mainBodyEl.parentNode.insertBefore(trailLengthEl, mainBodyEl);
+    }
+    // Resize map after layout settles
+    if (typeof map !== 'undefined') setTimeout(function () { map.resize(); }, 0);
+  }
+
+  btnList.addEventListener('click', showList);
+  btnMap.addEventListener('click', showMap);
+
+  // When a map pin is clicked on mobile, switch to list/sidebar view
+  window._mobileDetailHook = function () {
+    if (window.innerWidth <= 760) showList();
+  };
+
+  // Set initial state on mobile: wait for map load event then switch to list view
+  if (window.innerWidth <= 760) {
+    var initToList = function() { showList(); };
+    if (typeof map !== 'undefined') {
+      if (map.loaded()) {
+        initToList();
+      } else {
+        map.once('load', initToList);
+      }
+    }
+  }
+}());
 
 initWelcomeBanner();
 

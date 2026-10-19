@@ -142,6 +142,68 @@ button {
 }
 
 .search-input::placeholder { color: var(--muted); }
+.search-input-wrap--has-value .search-input { padding-right: 72px; }
+.search-input { padding-right: 40px; } /* room for geolocate button */
+
+.search-clear-btn,
+.search-geo-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  padding: 0;
+  border-radius: 4px;
+}
+.search-clear-btn:hover,
+.search-geo-btn:hover { color: var(--ink); }
+.search-clear-btn:focus-visible,
+.search-geo-btn:focus-visible { outline: 2px solid #6cc0e5; outline-offset: 1px; }
+.search-geo-btn { right: 8px; width: 28px; height: 28px; }
+.search-clear-btn { right: 38px; width: 24px; height: 24px; }
+.search-geo-btn.is-loading svg { animation: geo-spin 0.8s linear infinite; }
+@keyframes geo-spin { to { transform: rotate(360deg); } }
+
+.search-listbox {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-popover);
+  z-index: 200;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.search-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--ink);
+}
+.search-option:hover,
+.search-option.is-active { background: var(--ice); }
+.search-option__icon { flex-shrink: 0; font-size: 13px; line-height: 1; }
+.search-option__label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.user-location-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #2f80ed;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 4px rgba(47,128,237,0.25), 0 2px 6px rgba(0,0,0,0.2);
+}
 
 .site-header__actions { flex-shrink: 0; }
 
@@ -823,6 +885,17 @@ button {
         aria-controls="search-listbox"
         aria-expanded="false"
       />
+      <button class="search-clear-btn" id="search-clear" type="button" aria-label="Clear search" style="display:none">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+          <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <button class="search-geo-btn" id="btn-geolocate" type="button" aria-label="Use my current location">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 2a5 5 0 1 1 0 10A5 5 0 0 1 8 3zm0 2a3 3 0 1 0 0 6A3 3 0 0 0 8 5zm0 1.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/>
+        </svg>
+      </button>
+      <div id="search-listbox" class="search-listbox" role="listbox" aria-label="Search suggestions" style="display:none"></div>
     </div>
   </div>
 
@@ -928,7 +1001,7 @@ button {
       </div>
       <select class="sort-select" id="sort-select" aria-label="Sort ski areas">
         <option value="name">Name (A–Z)</option>
-        <option value="dist" disabled>Nearest first</option>
+        <option value="dist" disabled id="sort-opt-dist">Nearest first</option>
         <option value="kmDesc">Most trail km</option>
         <option value="kmAsc">Fewest trail km</option>
         <option value="groom">Grooming</option>
@@ -1923,6 +1996,275 @@ function updateShowButton(btn) {
 /* ---- Clear all chip ---- */
 
 chipClearEl.addEventListener('click', function () { clearFilters(); });
+
+/* =================================================================
+   Step 6: Location search
+   ================================================================= */
+
+var locationSearchEl = document.getElementById('location-search');
+var searchClearEl    = document.getElementById('search-clear');
+var btnGeolocateEl   = document.getElementById('btn-geolocate');
+var searchListboxEl  = document.getElementById('search-listbox');
+var sortOptDistEl    = document.getElementById('sort-opt-dist');
+
+var MAPBOX_TOKEN  = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
+var geocodeTimer  = null;
+var listboxOpen   = false;
+var suggestions   = [];
+var activeIdx     = -1;
+var userMarker    = null;
+
+/* --- Haversine distance (miles) --- */
+function haversine(lat1, lng1, lat2, lng2) {
+  var R    = 3958.8;
+  var dLat = (lat2 - lat1) * Math.PI / 180;
+  var dLng = (lng2 - lng1) * Math.PI / 180;
+  var a    = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+             Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+             Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+/* --- Stamp _dist on every feature from [lng, lat] --- */
+function computeDistances(lnglat) {
+  allFeatures.forEach(function (f) {
+    var c = f.geometry.coordinates;
+    f.properties._dist = haversine(lnglat[1], lnglat[0], c[1], c[0]);
+  });
+}
+
+/* --- User location dot marker --- */
+function placeUserMarker(lnglat) {
+  if (userMarker) userMarker.remove();
+  var el = document.createElement('div');
+  el.className = 'user-location-dot';
+  userMarker = new mapboxgl.Marker({ element: el, anchor: 'center' })
+    .setLngLat(lnglat)
+    .addTo(map);
+}
+
+/* --- Set location and switch to nearest sort --- */
+function setLocation(lnglat, label) {
+  state.location = { lnglat: lnglat, label: label };
+  computeDistances(lnglat);
+  placeUserMarker(lnglat);
+  if (sortOptDistEl) sortOptDistEl.disabled = false;
+  state.sort = 'dist';
+  sortEl.value = 'dist';
+  applyFilters();
+}
+
+/* --- Clear location --- */
+function clearLocation() {
+  if (!state.location) return;
+  state.location = null;
+  allFeatures.forEach(function (f) { delete f.properties._dist; });
+  if (userMarker) { userMarker.remove(); userMarker = null; }
+  if (state.sort === 'dist') {
+    state.sort = 'name';
+    sortEl.value = 'name';
+    if (sortOptDistEl) sortOptDistEl.disabled = true;
+  }
+  applyFilters();
+}
+
+/* --- Escape HTML for rendering into innerHTML --- */
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* --- Listbox open/close --- */
+function openListbox(items) {
+  suggestions = items;
+  activeIdx   = -1;
+  searchListboxEl.innerHTML = '';
+
+  if (!items.length) { closeListbox(); return; }
+
+  items.forEach(function (item, i) {
+    var opt = document.createElement('div');
+    opt.className = 'search-option';
+    opt.setAttribute('role', 'option');
+    opt.setAttribute('id', 'search-opt-' + i);
+    opt.setAttribute('aria-selected', 'false');
+    opt.innerHTML =
+      '<span class="search-option__icon" aria-hidden="true">' +
+        (item.type === 'area' ? '⛷' : '📍') +
+      '</span>' +
+      '<span class="search-option__label">' + escHtml(item.label) + '</span>';
+    opt.addEventListener('mousedown', function (e) {
+      e.preventDefault(); // keep focus on input
+      pickSuggestion(i);
+    });
+    searchListboxEl.appendChild(opt);
+  });
+
+  searchListboxEl.style.display = '';
+  locationSearchEl.setAttribute('aria-expanded', 'true');
+  listboxOpen = true;
+}
+
+function closeListbox() {
+  searchListboxEl.style.display = 'none';
+  locationSearchEl.setAttribute('aria-expanded', 'false');
+  locationSearchEl.removeAttribute('aria-activedescendant');
+  listboxOpen = false;
+  activeIdx   = -1;
+}
+
+function setActiveOption(i) {
+  var opts = searchListboxEl.querySelectorAll('.search-option');
+  if (activeIdx >= 0 && opts[activeIdx]) {
+    opts[activeIdx].classList.remove('is-active');
+    opts[activeIdx].setAttribute('aria-selected', 'false');
+  }
+  activeIdx = i;
+  if (i >= 0 && opts[i]) {
+    opts[i].classList.add('is-active');
+    opts[i].setAttribute('aria-selected', 'true');
+    locationSearchEl.setAttribute('aria-activedescendant', 'search-opt-' + i);
+    opts[i].scrollIntoView({ block: 'nearest' });
+  }
+}
+
+/* --- Pick a suggestion --- */
+function pickSuggestion(i) {
+  var item = suggestions[i];
+  if (!item) return;
+  locationSearchEl.value = item.label;
+  searchClearEl.style.display = '';
+  closeListbox();
+
+  if (item.type === 'area') {
+    if (state.selectedId) {
+      map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
+    }
+    listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
+    state.selectedId = item.featureId;
+    map.setFeatureState({ source: 'nordic-ski-areas', id: item.featureId }, { selected: true });
+    map.flyTo({ center: item.coords, zoom: 12 });
+    var matchCard = listingEl.querySelector('[data-id="' + item.featureId + '"]');
+    if (matchCard) { matchCard.classList.add('is-active'); matchCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  } else {
+    setLocation(item.coords, item.label);
+    map.flyTo({ center: item.coords, zoom: 9 });
+  }
+}
+
+/* --- Local ski-area name search (up to 3 results) --- */
+function searchAreaNames(q) {
+  var lower   = q.toLowerCase();
+  var results = [];
+  for (var i = 0; i < allFeatures.length && results.length < 3; i++) {
+    var f    = allFeatures[i];
+    var name = (f.properties.Name || '').toLowerCase();
+    if (name.indexOf(lower) !== -1) {
+      results.push({
+        type:      'area',
+        label:     f.properties.Name,
+        coords:    f.geometry.coordinates,
+        featureId: f.properties.id
+      });
+    }
+  }
+  return results;
+}
+
+/* --- Mapbox Geocoding API --- */
+function geocode(q, callback) {
+  var url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' +
+    encodeURIComponent(q) +
+    '.json?access_token=' + MAPBOX_TOKEN +
+    '&types=place,district,postcode,locality,neighborhood,address' +
+    '&country=us,ca&limit=4';
+  fetch(url)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var places = (data.features || []).slice(0, 4).map(function (f) {
+        return { type: 'place', label: f.place_name, coords: f.geometry.coordinates };
+      });
+      callback(places);
+    })
+    .catch(function () { callback([]); });
+}
+
+/* --- Input events --- */
+locationSearchEl.addEventListener('input', function () {
+  var q = locationSearchEl.value.trim();
+  searchClearEl.style.display = q ? '' : 'none';
+  clearTimeout(geocodeTimer);
+  if (!q) { closeListbox(); return; }
+
+  var areaMatches = dataLoaded ? searchAreaNames(q) : [];
+  if (areaMatches.length) openListbox(areaMatches); // show instantly
+
+  geocodeTimer = setTimeout(function () {
+    geocode(q, function (places) {
+      openListbox(areaMatches.concat(places));
+    });
+  }, 280);
+});
+
+locationSearchEl.addEventListener('keydown', function (e) {
+  if (!listboxOpen) return;
+  var len = suggestions.length;
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    setActiveOption((activeIdx + 1) % len);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    setActiveOption((activeIdx - 1 + len) % len);
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (activeIdx >= 0) pickSuggestion(activeIdx);
+    else if (suggestions.length) pickSuggestion(0);
+  } else if (e.key === 'Escape') {
+    closeListbox();
+  }
+});
+
+locationSearchEl.addEventListener('blur', function () {
+  setTimeout(closeListbox, 150);
+});
+
+locationSearchEl.addEventListener('focus', function () {
+  var q = locationSearchEl.value.trim();
+  if (q && dataLoaded) {
+    var areaMatches = searchAreaNames(q);
+    if (areaMatches.length) openListbox(areaMatches);
+  }
+});
+
+/* --- Clear button --- */
+searchClearEl.addEventListener('click', function () {
+  locationSearchEl.value = '';
+  searchClearEl.style.display = 'none';
+  closeListbox();
+  clearLocation();
+  locationSearchEl.focus();
+});
+
+/* --- Geolocate button --- */
+btnGeolocateEl.addEventListener('click', function () {
+  if (!navigator.geolocation) { alert('Geolocation is not supported by your browser.'); return; }
+  btnGeolocateEl.classList.add('is-loading');
+  navigator.geolocation.getCurrentPosition(
+    function (pos) {
+      btnGeolocateEl.classList.remove('is-loading');
+      var coords = [pos.coords.longitude, pos.coords.latitude];
+      locationSearchEl.value = 'My location';
+      searchClearEl.style.display = '';
+      closeListbox();
+      setLocation(coords, 'My location');
+      map.flyTo({ center: coords, zoom: 9 });
+    },
+    function () {
+      btnGeolocateEl.classList.remove('is-loading');
+      alert('Could not get your location. Try searching by city or ZIP code.');
+    },
+    { timeout: 10000 }
+  );
+});
 
 /* ---- Master chip-state sync (called from applyFilters) ---- */
 

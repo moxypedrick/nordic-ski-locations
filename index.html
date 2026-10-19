@@ -485,6 +485,107 @@ button {
 }
 
 /* =========================================================
+   Welcome banner
+   ========================================================= */
+.welcome-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--ice);
+  border-bottom: 1px solid var(--water);
+  font-size: 13px;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+.welcome-banner__text { flex: 1; line-height: 1.4; }
+.welcome-banner__actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.welcome-start-fresh {
+  background: none;
+  border: 1.5px solid var(--navy);
+  border-radius: var(--radius-pill);
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.welcome-start-fresh:hover { background: var(--water); }
+.welcome-start-fresh:focus-visible { outline: 3px solid #6cc0e5; outline-offset: 1px; }
+.welcome-dismiss {
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0 2px;
+}
+.welcome-dismiss:hover { color: var(--ink); }
+
+/* =========================================================
+   Share popover
+   ========================================================= */
+.share-wrap { position: relative; }
+.share-popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: 320px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-popover);
+  padding: 14px;
+  z-index: 300;
+}
+.share-url-input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-input);
+  padding: 0 10px;
+  font-size: 12px;
+  color: var(--muted);
+  background: var(--chip);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  cursor: text;
+}
+.share-url-input:focus { outline: none; }
+.share-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.share-chip {
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--ice);
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.share-actions { display: flex; justify-content: flex-end; }
+.btn-copy-link {
+  height: 34px;
+  padding: 0 16px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-copy-link:hover { background: #0e284a; }
+.btn-copy-link.is-success { background: #2a7c4f; }
+.btn-copy-link:focus-visible { outline: 3px solid #6cc0e5; outline-offset: 2px; }
+
+/* =========================================================
    Cards
    ========================================================= */
 .card {
@@ -1009,12 +1110,21 @@ button {
   </div>
 
   <div class="site-header__actions">
-    <button class="btn-share" id="btn-share" type="button">
-      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-        <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-      </svg>
-      Share this search
-    </button>
+    <div class="share-wrap">
+      <button class="btn-share" id="btn-share" type="button" aria-haspopup="true" aria-expanded="false">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+        </svg>
+        Share this search
+      </button>
+      <div class="share-popover" id="share-popover" role="dialog" aria-label="Share this search" style="display:none">
+        <input type="text" class="share-url-input" id="share-url-input" readonly aria-label="Shareable URL">
+        <div class="share-chips" id="share-chips"></div>
+        <div class="share-actions">
+          <button class="btn-copy-link" id="btn-copy-link" type="button">Copy link</button>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -1079,6 +1189,15 @@ button {
 
   <!-- Sidebar -->
   <div class="sidebar" id="sidebar">
+
+    <!-- Welcome back banner (Step 8) -->
+    <div id="welcome-banner" class="welcome-banner" style="display:none" role="alert">
+      <div class="welcome-banner__text" id="welcome-text"></div>
+      <div class="welcome-banner__actions">
+        <button class="welcome-start-fresh" id="btn-start-fresh" type="button">Start fresh</button>
+        <button class="welcome-dismiss" id="btn-welcome-dismiss" type="button" aria-label="Dismiss">×</button>
+      </div>
+    </div>
 
     <!-- Trail length slider + histogram -->
     <div class="trail-length-area">
@@ -1241,12 +1360,61 @@ var state = {
   selectedId: null        // open area id
 };
 
-var allFeatures    = [];
+var allFeatures     = [];
 var visibleFeatures = [];  // features in current map bounds (unique by id)
-var fullGeoJSON    = null;
+var fullGeoJSON     = null;
 var sourceIsFiltered = false;
 var lastFilterKey    = '';
 var dataLoaded       = false;
+
+/* --- URL → state (runs immediately; map/area applied after data loads) --- */
+var pendingMapParam  = null;
+var pendingAreaParam = null;
+
+(function () {
+  if (!location.search) return;
+  var params = new URLSearchParams(location.search);
+
+  var near = params.get('near');
+  if (near) {
+    var np = near.match(/^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(.+)$/);
+    if (np) {
+      var nLat = parseFloat(np[1]), nLng = parseFloat(np[2]);
+      if (!isNaN(nLat) && !isNaN(nLng)) {
+        state.location = { lnglat: [nLng, nLat], label: decodeURIComponent(np[3]) };
+      }
+    }
+  }
+
+  var groom = params.get('groom');
+  if (groom) {
+    var gp = groom.split(',');
+    state.filters.skate   = gp.indexOf('skate')   !== -1;
+    state.filters.classic = gp.indexOf('classic') !== -1;
+  }
+  if (params.get('snow') === 'yes') state.filters.snow = true;
+  if (params.get('lit')  === 'yes') state.filters.lit  = true;
+
+  var km = params.get('km');
+  if (km) {
+    var kp = km.match(/^(\d+)-(\d*)$/);
+    if (kp) {
+      var kMin = parseInt(kp[1], 10), kMax = kp[2] === '' ? 100 : parseInt(kp[2], 10);
+      if (!isNaN(kMin) && !isNaN(kMax)) {
+        state.filters.kmMin = Math.max(0, Math.min(100, kMin));
+        state.filters.kmMax = Math.max(0, Math.min(100, kMax));
+      }
+    }
+  }
+
+  var sortVal = params.get('sort');
+  var VALID_SORTS = ['name', 'dist', 'kmDesc', 'kmAsc', 'groom', 'snow'];
+  if (sortVal && VALID_SORTS.indexOf(sortVal) !== -1) state.sort = sortVal;
+  if (params.get('sync') === 'off') state.sync = false;
+
+  pendingMapParam  = params.get('map');
+  pendingAreaParam = params.get('area');
+}());
 
 /* =================================================================
    DOM refs
@@ -1257,6 +1425,72 @@ var subtitleEl  = document.getElementById('result-subtitle');
 var sortEl      = document.getElementById('sort-select');
 
 var popup = new mapboxgl.Popup({ closeButton: false });
+
+/* =================================================================
+   URL sync + localStorage (Step 8)
+   ================================================================= */
+var urlSyncTimer  = null;
+var STORAGE_KEY   = 'nsc:v1:lastSearch';
+
+function buildQueryString() {
+  var p = [];
+  var f = state.filters;
+
+  if (state.location && state.location.label !== 'My location') {
+    var lat = state.location.lnglat[1].toFixed(6);
+    var lng = state.location.lnglat[0].toFixed(6);
+    p.push('near=' + lat + ',' + lng + ',' + encodeURIComponent(state.location.label));
+  }
+
+  var groomParts = [];
+  if (f.skate)   groomParts.push('skate');
+  if (f.classic) groomParts.push('classic');
+  if (groomParts.length) p.push('groom=' + groomParts.join(','));
+  if (f.snow) p.push('snow=yes');
+  if (f.lit)  p.push('lit=yes');
+  if (f.kmMin > 0 || f.kmMax < 100) {
+    p.push('km=' + f.kmMin + '-' + (f.kmMax >= 100 ? '' : f.kmMax));
+  }
+
+  if (state.sort !== 'name') p.push('sort=' + state.sort);
+
+  if (typeof map !== 'undefined') {
+    try {
+      var c = map.getCenter();
+      var z = map.getZoom();
+      p.push('map=' + c.lat.toFixed(4) + ',' + c.lng.toFixed(4) + ',' + z.toFixed(1));
+    } catch (e) {}
+  }
+
+  if (!state.sync) p.push('sync=off');
+  if (state.selectedId) p.push('area=' + encodeURIComponent(state.selectedId));
+
+  return p.length ? '?' + p.join('&') : location.pathname;
+}
+
+function syncUrl() {
+  history.replaceState(null, '', buildQueryString());
+}
+
+function scheduleUrlSync() {
+  clearTimeout(urlSyncTimer);
+  urlSyncTimer = setTimeout(syncUrl, 300);
+}
+
+function saveToStorage() {
+  if (!dataLoaded) return;
+  if (state.location && state.location.label === 'My location') return;
+  var saved = { location: state.location, filters: state.filters, sort: state.sort, sync: state.sync };
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(saved)); } catch (e) {}
+}
+
+function isDefaultState(s) {
+  if (s.location) return false;
+  if (s.sort !== 'name') return false;
+  if (s.sync === false) return false;
+  var f = s.filters || {};
+  return !f.skate && !f.classic && !f.snow && !f.lit && f.kmMin === 0 && f.kmMax === 100;
+}
 
 /* =================================================================
    Helpers
@@ -1631,6 +1865,9 @@ function applyFilters() {
   map.setFilter('unclustered-point',         ['!', ['has', 'point_count']]);
   map.setFilter('unclustered-point-hitarea', ['!', ['has', 'point_count']]);
   map.setFilter('unclustered-point-label',   ['!', ['has', 'point_count']]);
+
+  scheduleUrlSync();
+  saveToStorage();
 }
 
 /* =================================================================
@@ -1703,7 +1940,39 @@ map.on('load', function () {
         ];
       }
 
+      // Restore distances if location came from URL or localStorage
+      if (state.location) {
+        computeDistances(state.location.lnglat);
+        placeUserMarker(state.location.lnglat);
+        if (sortOptDistEl) sortOptDistEl.disabled = false;
+        if (sortEl) sortEl.value = state.sort;
+        var locInput = document.getElementById('location-search');
+        var locClear = document.getElementById('search-clear');
+        if (locInput) locInput.value = state.location.label;
+        if (locClear) locClear.style.display = '';
+      }
+      if (sortEl && state.sort !== 'dist') sortEl.value = state.sort;
+
       updateVisibleFeatures();
+
+      // Apply pending URL area/map params (area takes priority)
+      if (pendingAreaParam) {
+        var aFeat = allFeatures.find(function (f) { return f.properties.id === pendingAreaParam; });
+        if (aFeat) {
+          state.selectedId = aFeat.properties.id;
+          map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: true });
+          openDetailPanel(aFeat);
+          map.flyTo({ center: aFeat.geometry.coordinates, zoom: 12 });
+        }
+      } else if (pendingMapParam) {
+        var mpMatch = pendingMapParam.match(/^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(\d+(?:\.\d+)?)$/);
+        if (mpMatch) {
+          map.jumpTo({
+            center: [parseFloat(mpMatch[2]), parseFloat(mpMatch[1])],
+            zoom:   parseFloat(mpMatch[3])
+          });
+        }
+      }
     });
 
   /* Clusters ---------------------------------------------------- */
@@ -1875,7 +2144,7 @@ map.on('load', function () {
     clearHover();
   });
 
-  map.on('moveend', function () { if (state.sync) updateVisibleFeatures(); });
+  map.on('moveend', function () { if (state.sync) updateVisibleFeatures(); scheduleUrlSync(); });
 });
 
 /* =================================================================
@@ -2261,7 +2530,7 @@ function openDetailPanel(feature) {
     map.flyTo({ center: coords, zoom: 12 });
   }
 
-  history.pushState({ areaId: prop.id }, '', location.href);
+  history.pushState({ areaId: prop.id }, '', buildQueryString());
 }
 
 function closeDetailPanel() {
@@ -2275,6 +2544,8 @@ function closeDetailPanel() {
     listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
     state.selectedId = null;
   }
+  scheduleUrlSync();
+  saveToStorage();
 }
 
 detailBackEl.addEventListener('click', closeDetailPanel);
@@ -2571,6 +2842,187 @@ function updateFilterChipStates() {
   chipClearEl.style.display   = activeCount > 0 ? '' : 'none';
   chipClearEl.textContent     = 'Clear all (' + activeCount + ')';
 }
+
+/* =========================================================
+   Step 8 init — URL sync, share popover, localStorage
+   ========================================================= */
+var welcomeBannerEl = document.getElementById('welcome-banner');
+var welcomeTextEl   = document.getElementById('welcome-text');
+var btnStartFreshEl = document.getElementById('btn-start-fresh');
+var btnDismissEl    = document.getElementById('btn-welcome-dismiss');
+var shareBtnEl      = document.getElementById('btn-share');
+var sharePopoverEl  = document.getElementById('share-popover');
+var shareUrlInputEl = document.getElementById('share-url-input');
+var shareChipsEl    = document.getElementById('share-chips');
+var btnCopyLinkEl   = document.getElementById('btn-copy-link');
+
+function syncDomToState() {
+  var f = state.filters;
+  if (filterSkateEl)   filterSkateEl.checked   = f.skate;
+  if (filterClassicEl) filterClassicEl.checked = f.classic;
+  if (chipSnowEl)      chipSnowEl.setAttribute('aria-pressed', f.snow ? 'true' : 'false');
+  if (filterLitEl)     filterLitEl.checked     = f.lit;
+  if (tlMinEl) { tlMinEl.value = f.kmMin; }
+  if (tlMaxEl) { tlMaxEl.value = f.kmMax; }
+  if (tlFillEl) updateTrackFill();
+  if (sortEl)   sortEl.value = state.sort;
+  var locInput = document.getElementById('location-search');
+  var locClear = document.getElementById('search-clear');
+  if (state.location) {
+    if (locInput) locInput.value = state.location.label;
+    if (locClear) locClear.style.display = '';
+  }
+  updateFilterChipStates();
+}
+
+function initWelcomeBanner() {
+  var raw;
+  try { raw = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+  if (!raw) return;
+  var saved;
+  try { saved = JSON.parse(raw); } catch (e) { return; }
+  if (!saved || isDefaultState(saved)) return;
+  // Already restored from URL params — only show banner, don't overwrite URL state
+  var hasUrlParams = !!(location.search);
+  if (!hasUrlParams) {
+    if (saved.location) state.location = saved.location;
+    if (saved.filters)  state.filters  = saved.filters;
+    if (saved.sort)     state.sort     = saved.sort;
+    if (saved.sync === false) state.sync = false;
+  }
+  // Build banner text
+  var parts = [];
+  if (state.location && state.location.label) parts.push('Near ' + state.location.label);
+  var f = state.filters;
+  var groomParts = [];
+  if (f.skate)   groomParts.push('skate');
+  if (f.classic) groomParts.push('classic');
+  if (groomParts.length) parts.push(groomParts.join(' & ') + ' groomed');
+  if (f.snow)    parts.push('snowmaking');
+  if (f.lit)     parts.push('lit at night');
+  if (f.kmMin > 0 || f.kmMax < 100) {
+    parts.push(f.kmMin + '–' + (f.kmMax >= 100 ? '∞' : f.kmMax) + ' km');
+  }
+  if (state.sort && state.sort !== 'name') parts.push('sorted by ' + state.sort);
+  if (welcomeTextEl) {
+    welcomeTextEl.textContent = parts.length
+      ? 'Restored: ' + parts.join(', ')
+      : 'Restored your last search settings.';
+  }
+  if (welcomeBannerEl) welcomeBannerEl.style.display = '';
+  syncDomToState();
+}
+
+// Share popover
+function openSharePopover() {
+  if (!sharePopoverEl || !shareBtnEl) return;
+  var url = location.origin + location.pathname + buildQueryString();
+  if (shareUrlInputEl) shareUrlInputEl.value = url;
+  // Build summary chips
+  if (shareChipsEl) {
+    shareChipsEl.innerHTML = '';
+    var f = state.filters;
+    var chips = [];
+    if (state.location && state.location.label !== 'My location') chips.push(state.location.label);
+    if (f.skate)   chips.push('Skate');
+    if (f.classic) chips.push('Classic');
+    if (f.snow)    chips.push('Snowmaking');
+    if (f.lit)     chips.push('Lit');
+    if (f.kmMin > 0 || f.kmMax < 100) chips.push(f.kmMin + '–' + (f.kmMax >= 100 ? '∞' : f.kmMax) + ' km');
+    chips.forEach(function (label) {
+      var span = document.createElement('span');
+      span.className = 'share-chip';
+      span.textContent = label;
+      shareChipsEl.appendChild(span);
+    });
+  }
+  sharePopoverEl.style.display = '';
+  shareBtnEl.setAttribute('aria-expanded', 'true');
+  if (shareUrlInputEl) { shareUrlInputEl.focus(); shareUrlInputEl.select(); }
+}
+
+function closeSharePopover() {
+  if (!sharePopoverEl || !shareBtnEl) return;
+  sharePopoverEl.style.display = 'none';
+  shareBtnEl.setAttribute('aria-expanded', 'false');
+}
+
+if (shareBtnEl) {
+  shareBtnEl.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (sharePopoverEl && sharePopoverEl.style.display !== 'none') {
+      closeSharePopover();
+    } else {
+      openSharePopover();
+    }
+  });
+}
+
+if (btnCopyLinkEl) {
+  btnCopyLinkEl.addEventListener('click', function () {
+    if (!shareUrlInputEl) return;
+    var url = shareUrlInputEl.value;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () {
+        btnCopyLinkEl.textContent = 'Copied!';
+        btnCopyLinkEl.classList.add('is-success');
+        setTimeout(function () {
+          btnCopyLinkEl.textContent = 'Copy link';
+          btnCopyLinkEl.classList.remove('is-success');
+        }, 2000);
+      }).catch(function () {
+        shareUrlInputEl.select();
+        document.execCommand('copy');
+      });
+    } else {
+      shareUrlInputEl.select();
+      document.execCommand('copy');
+    }
+  });
+}
+
+// Close share popover on outside click or Escape
+document.addEventListener('click', function (e) {
+  if (!sharePopoverEl || sharePopoverEl.style.display === 'none') return;
+  if (shareBtnEl && shareBtnEl.contains(e.target)) return;
+  if (sharePopoverEl.contains(e.target)) return;
+  closeSharePopover();
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && sharePopoverEl && sharePopoverEl.style.display !== 'none') {
+    closeSharePopover();
+    if (shareBtnEl) shareBtnEl.focus();
+  }
+});
+
+// Welcome banner handlers
+if (btnStartFreshEl) {
+  btnStartFreshEl.addEventListener('click', function () {
+    state.location = null;
+    state.filters  = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100 };
+    state.sort     = 'name';
+    state.sync     = true;
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    syncDomToState();
+    if (userMarker) { userMarker.remove(); userMarker = null; }
+    if (sortOptDistEl) sortOptDistEl.disabled = true;
+    if (state.sort === 'dist' && sortEl) sortEl.value = 'name';
+    var locInput = document.getElementById('location-search');
+    var locClear = document.getElementById('search-clear');
+    if (locInput) locInput.value = '';
+    if (locClear) locClear.style.display = 'none';
+    applyFilters();
+    if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
+    history.replaceState(null, '', location.pathname);
+  });
+}
+if (btnDismissEl) {
+  btnDismissEl.addEventListener('click', function () {
+    if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
+  });
+}
+
+initWelcomeBanner();
 
 </script>
 </body>

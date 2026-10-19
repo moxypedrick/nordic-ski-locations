@@ -376,6 +376,115 @@ button {
 }
 
 /* =========================================================
+   Detail panel
+   ========================================================= */
+.detail-panel {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 0 16px 32px;
+}
+.detail-panel__back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  padding: 14px 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--link);
+  cursor: pointer;
+  margin: 0 -4px;
+  border-radius: 4px;
+}
+.detail-panel__back:hover { color: var(--navy); }
+.detail-panel__back:focus-visible { outline: 3px solid #6cc0e5; outline-offset: 1px; }
+.detail-panel__header { margin-bottom: 14px; }
+.detail-panel__name {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+.detail-panel__region {
+  font-size: 14px;
+  color: var(--muted);
+}
+.detail-panel__actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.btn-directions,
+.btn-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-directions {
+  background: var(--navy);
+  color: #fff;
+  border: none;
+}
+.btn-directions:hover { background: #0e284a; }
+.btn-website {
+  background: #fff;
+  color: var(--navy);
+  border: 1px solid var(--line);
+}
+.btn-website:hover { border-color: var(--navy); background: var(--ice); }
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 12px;
+  margin-bottom: 20px;
+}
+.detail-grid__item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.detail-grid__label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.detail-grid__value {
+  font-size: 15px;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.detail-grid__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,0.7);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
+.detail-notes {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+/* =========================================================
    Cards
    ========================================================= */
 .card {
@@ -1012,6 +1121,40 @@ button {
     <!-- Feature listing -->
     <div id="feature-listing" class="listing" role="list"></div>
 
+    <!-- Detail panel (Step 7) -->
+    <div id="detail-panel" class="detail-panel" style="display:none" role="region" aria-label="Area details">
+
+      <button class="detail-panel__back" id="detail-back" type="button">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M10.354 3.646a.5.5 0 0 1 0 .708L6.707 8l3.647 3.646a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0z"/>
+        </svg>
+        Back to results
+      </button>
+
+      <div class="detail-panel__header">
+        <h2 class="detail-panel__name" id="dp-name"></h2>
+        <div class="detail-panel__region" id="dp-region"></div>
+      </div>
+
+      <div class="detail-panel__actions">
+        <a class="btn-directions" id="dp-directions" href="#" target="_blank" rel="noopener noreferrer">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M14.146.146a.5.5 0 0 1 .519-.106l.066.036 1 1.5-.066-.036a.5.5 0 0 1-.446.551L15.5 2l-1.5.5L9 4 3.5 11.5 1 15l-.354.354a.5.5 0 0 1-.638-.058l-.058-.066-.354-.354 3-5L4.5 8 11 3l3-2.5.146-.354z"/>
+            <path d="M7.543 7.543a.5.5 0 0 1 .707.707l-3 3a.5.5 0 0 1-.707-.707l3-3z"/>
+          </svg>
+          Directions
+        </a>
+        <a class="btn-website" id="dp-website" href="#" target="_blank" rel="noopener noreferrer" style="display:none">
+          Website ↗
+        </a>
+      </div>
+
+      <div class="detail-grid" id="dp-grid" role="list"></div>
+
+      <div class="detail-notes" id="dp-notes" style="display:none"></div>
+
+    </div>
+
   </div>
 
   <!-- Map -->
@@ -1368,15 +1511,7 @@ function renderListings(features) {
       btn.classList.add('is-active');
       state.selectedId = prop.id;
       map.setFeatureState({ source: 'nordic-ski-areas', id: prop.id }, { selected: true });
-      map.flyTo({ center: feature.geometry.coordinates, zoom: 12 });
-      // Temporary popup (detail panel replaces in Step 7)
-      var html = '<strong>' + escapeHtml(prop.Name) + '</strong>';
-      if (prop.region) html += '<div style="font-size:13px;color:var(--muted);margin-top:2px">' + escapeHtml(prop.region) + '</div>';
-      if (isValid(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(String(prop.Notes)).substring(0, 160) + '</div>';
-      new mapboxgl.Popup({ maxWidth: '300px' })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(html)
-        .addTo(map);
+      openDetailPanel(feature);
     });
 
     listingEl.appendChild(btn);
@@ -1710,8 +1845,7 @@ map.on('load', function () {
 
   map.on('click', 'unclustered-point-hitarea', function (e) {
     var feat = e.features[0];
-    var prop = feat.properties;
-    var fid  = prop.id;
+    var fid  = feat.properties.id;
 
     // Clear previous selection
     if (state.selectedId) {
@@ -1721,20 +1855,9 @@ map.on('load', function () {
     state.selectedId = fid;
     map.setFeatureState({ source: 'nordic-ski-areas', id: fid }, { selected: true });
 
-    // Highlight matching card
-    var matchCard = listingEl.querySelector('[data-id="' + fid + '"]');
-    if (matchCard) {
-      matchCard.classList.add('is-active');
-      matchCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
-
-    var html = '<strong>' + escapeHtml(prop.Name || '') + '</strong>';
-    if (prop.region) html += '<div style="font-size:13px;color:var(--muted);margin-top:2px">' + escapeHtml(prop.region) + '</div>';
-    if (isValid(prop.Notes)) html += '<div style="font-size:13px;margin-top:6px">' + escapeHtml(String(prop.Notes)).substring(0, 160) + '</div>';
-    new mapboxgl.Popup({ maxWidth: '300px' })
-      .setLngLat(feat.geometry.coordinates)
-      .setHTML(html)
-      .addTo(map);
+    // Use the full feature from allFeatures for correct property types
+    var fullFeature = allFeatures.find(function (f) { return f.properties.id === fid; });
+    if (fullFeature) openDetailPanel(fullFeature);
   });
 
   map.on('mouseenter', 'clusters', function () { map.getCanvas().style.cursor = 'pointer'; });
@@ -1998,6 +2121,175 @@ function updateShowButton(btn) {
 chipClearEl.addEventListener('click', function () { clearFilters(); });
 
 /* =================================================================
+   Step 7: Detail panel
+   ================================================================= */
+
+var detailPanelEl   = document.getElementById('detail-panel');
+var detailBackEl    = document.getElementById('detail-back');
+var dpNameEl        = document.getElementById('dp-name');
+var dpRegionEl      = document.getElementById('dp-region');
+var dpDirectionsEl  = document.getElementById('dp-directions');
+var dpWebsiteEl     = document.getElementById('dp-website');
+var dpGridEl        = document.getElementById('dp-grid');
+var dpNotesEl       = document.getElementById('dp-notes');
+var resultsHeaderEl = document.querySelector('.results-header');
+
+var listScrollTop = 0;
+
+var GROOM_COLORS = { both: '#1b4f8a', skate: '#e07b24', classic: '#6cc0e5', unknown: '#9aa4ad' };
+
+function groomDisplayInfo(prop) {
+  var sk = prop.groomSkate   === true || prop.groomSkate   === 'true';
+  var cl = prop.groomClassic === true || prop.groomClassic === 'true';
+  if (sk && cl) return { label: 'Skate + classic', color: GROOM_COLORS.both };
+  if (sk)       return { label: 'Skate only',       color: GROOM_COLORS.skate };
+  if (cl)       return { label: 'Classic only',     color: GROOM_COLORS.classic };
+  return        { label: 'Unknown',                 color: GROOM_COLORS.unknown };
+}
+
+function isValidUrl(s) {
+  try { var u = new URL(s); return u.protocol === 'http:' || u.protocol === 'https:'; }
+  catch (e) { return false; }
+}
+
+function openDetailPanel(feature) {
+  var prop = feature.properties;
+
+  listScrollTop = listingEl.scrollTop;
+
+  // Name
+  dpNameEl.textContent = prop.Name || '';
+
+  // Region + distance
+  var regionParts = [];
+  if (prop.region) regionParts.push(prop.region);
+  if (state.location && prop._dist != null) regionParts.push(formatDist(prop._dist) + ' away');
+  dpRegionEl.textContent = regionParts.join(' · ');
+
+  // Directions
+  var lat = feature.geometry.coordinates[1];
+  var lng = feature.geometry.coordinates[0];
+  dpDirectionsEl.setAttribute('href',
+    'https://www.google.com/maps/dir/?api=1&destination=' + lat + ',' + lng);
+
+  // Website
+  if (prop.URL && isValidUrl(prop.URL)) {
+    dpWebsiteEl.setAttribute('href', prop.URL);
+    dpWebsiteEl.style.display = '';
+  } else {
+    dpWebsiteEl.style.display = 'none';
+  }
+
+  // Fact grid
+  dpGridEl.innerHTML = '';
+
+  function addGridItem(label, valueEl) {
+    var item = document.createElement('div');
+    item.className = 'detail-grid__item';
+    item.setAttribute('role', 'listitem');
+    var lbl = document.createElement('div');
+    lbl.className = 'detail-grid__label';
+    lbl.textContent = label;
+    item.appendChild(lbl);
+    item.appendChild(valueEl);
+    dpGridEl.appendChild(item);
+  }
+
+  function textValue(text) {
+    var el = document.createElement('div');
+    el.className = 'detail-grid__value';
+    el.textContent = text;
+    return el;
+  }
+
+  // Trail length
+  var km = prop.km;
+  var skKm = prop.kmSkate;
+  var clKm = prop.kmClassic;
+  var kmDisplay;
+  if (km != null) {
+    var parts = [];
+    if (skKm != null) parts.push(skKm + ' km skate');
+    if (clKm != null) parts.push(clKm + ' km classic');
+    kmDisplay = parts.length ? parts.join(', ') : km + ' km';
+  } else {
+    kmDisplay = '—';
+  }
+  addGridItem('Trail length', textValue(kmDisplay));
+
+  // Grooming
+  var groomInfo = groomDisplayInfo(prop);
+  var groomVal  = document.createElement('div');
+  groomVal.className = 'detail-grid__value';
+  var dot = document.createElement('span');
+  dot.className = 'detail-grid__dot';
+  dot.style.background = groomInfo.color;
+  var groomText = document.createTextNode(groomInfo.label);
+  groomVal.appendChild(dot);
+  groomVal.appendChild(groomText);
+  addGridItem('Grooming', groomVal);
+
+  // Snowmaking
+  addGridItem('Snowmaking', textValue(prop.Snowmaking === 'Yes' ? 'Yes' : 'No'));
+
+  // Lit at night
+  addGridItem('Lit at night', textValue(prop.Lit === 'Yes' ? 'Yes' : 'No'));
+
+  // Optional fields — only when data exists
+  if (isValid(prop.passPrice)) addGridItem('Day pass',        textValue(prop.passPrice));
+  if (isValid(prop.rentals))   addGridItem('Rentals',         textValue(prop.rentals));
+  if (isValid(prop.lessons))   addGridItem('Lessons',         textValue(prop.lessons));
+  if (isValid(prop.dogs))      addGridItem('Dogs on trails',  textValue(prop.dogs));
+
+  // Notes
+  if (isValid(prop.Notes)) {
+    dpNotesEl.textContent = prop.Notes;
+    dpNotesEl.style.display = '';
+  } else {
+    dpNotesEl.style.display = 'none';
+  }
+
+  // Show panel, hide list + results header
+  listingEl.style.display = 'none';
+  resultsHeaderEl.style.display = 'none';
+  detailPanelEl.style.display = '';
+  detailPanelEl.scrollTop = 0;
+
+  // Fly to pin only if outside current view
+  var coords = feature.geometry.coordinates;
+  if (!map.getBounds().contains(coords)) {
+    map.flyTo({ center: coords, zoom: 12 });
+  }
+
+  history.pushState({ areaId: prop.id }, '', location.href);
+}
+
+function closeDetailPanel() {
+  detailPanelEl.style.display = 'none';
+  listingEl.style.display = '';
+  resultsHeaderEl.style.display = '';
+  listingEl.scrollTop = listScrollTop;
+
+  if (state.selectedId) {
+    map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
+    listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
+    state.selectedId = null;
+  }
+}
+
+detailBackEl.addEventListener('click', closeDetailPanel);
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && detailPanelEl.style.display !== 'none') {
+    closeDetailPanel();
+  }
+});
+
+window.addEventListener('popstate', function () {
+  if (detailPanelEl.style.display !== 'none') closeDetailPanel();
+});
+
+/* =================================================================
    Step 6: Location search
    ================================================================= */
 
@@ -2143,8 +2435,8 @@ function pickSuggestion(i) {
     state.selectedId = item.featureId;
     map.setFeatureState({ source: 'nordic-ski-areas', id: item.featureId }, { selected: true });
     map.flyTo({ center: item.coords, zoom: 12 });
-    var matchCard = listingEl.querySelector('[data-id="' + item.featureId + '"]');
-    if (matchCard) { matchCard.classList.add('is-active'); matchCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+    var fullFeature = allFeatures.find(function (f) { return f.properties.id === item.featureId; });
+    if (fullFeature) openDetailPanel(fullFeature);
   } else {
     setLocation(item.coords, item.label);
     map.flyTo({ center: item.coords, zoom: 9 });

@@ -1037,6 +1037,40 @@ button {
   box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
 }
 
+/* Step 12/13 — overlay button (color mode + trails toggle) */
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.nav-btn.is-active {
+  background: var(--navy);
+  color: #fff;
+}
+.nav-btn.is-active:hover { background: #0e284a; }
+
+/* Snow legend (Step 12) */
+.map-legend__title {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.map-legend__row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.map-legend__swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
 /* Pin hover → card highlight */
 .card.is-pin-hover {
   background: var(--ice);
@@ -1182,6 +1216,20 @@ button {
   .listing { flex: 0 0 auto; overflow-y: visible; }
   .detail-panel { flex: 0 0 auto; overflow-y: visible; }
 }
+
+/* =========================================================
+   Step 13 — OpenSkiMap link in detail panel
+   ========================================================= */
+.detail-external-link {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--link);
+  text-decoration: none;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.detail-external-link:hover { text-decoration: underline; }
 
 /* =========================================================
    Step 10 — Favorites
@@ -1532,10 +1580,24 @@ button {
           <path d="M1.5 1h4a.5.5 0 0 1 0 1H2.707l3.647 3.646a.5.5 0 1 1-.708.708L2 2.707V5.5a.5.5 0 0 1-1 0v-4A.5.5 0 0 1 1.5 1zm13 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V2.707l-3.646 3.647a.5.5 0 0 1-.708-.708L13.293 2H10.5a.5.5 0 0 1 0-1h4zM1 10a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H2.707l3.647 3.646a.5.5 0 0 1-.708.708L2 11.707V14.5a.5.5 0 0 1-1 0v-4zm14 0v4a.5.5 0 0 1-1 0v-2.793l-3.646 3.647a.5.5 0 0 1-.708-.708L13.293 11H10.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5z"/>
         </svg>
       </button>
+      <!-- Snow color mode toggle (Step 12) -->
+      <button class="nav-btn" id="btn-color-mode" type="button" title="Color pins by recent snow" aria-label="Color pins by recent snow" aria-pressed="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2a1 1 0 0 1 1 1v1.07A8 8 0 0 1 20 12a8 8 0 0 1-7 7.93V21a1 1 0 0 1-2 0v-1.07A8 8 0 0 1 4 12a8 8 0 0 1 7-7.93V3a1 1 0 0 1 1-1zm0 4a6 6 0 1 0 0 12A6 6 0 0 0 12 6zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/>
+        </svg>
+      </button>
+      <!-- Trail lines toggle (Step 13) -->
+      <button class="nav-btn" id="btn-trails" type="button" title="Zoom in to see trails" aria-label="Show ski trails" aria-pressed="false" disabled>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 17 Q7 11 12 13 Q17 15 21 7"/>
+          <circle cx="3" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+          <circle cx="21" cy="7" r="1.5" fill="currentColor" stroke="none"/>
+        </svg>
+      </button>
     </div>
 
-    <!-- Grooming legend -->
-    <div class="map-legend" aria-label="Grooming legend">
+    <!-- Grooming legend (Step 12: id added for show/hide) -->
+    <div class="map-legend" id="legend-groom" aria-label="Grooming legend">
       <div class="map-legend__item">
         <span class="map-legend__dot" style="background:#1b4f8a"></span>Skate + classic
       </div>
@@ -1548,6 +1610,25 @@ button {
       <div class="map-legend__item">
         <span class="map-legend__dot" style="background:#9aa4ad"></span>Grooming unknown
       </div>
+    </div>
+
+    <!-- Snow color legend (Step 12, hidden by default) -->
+    <div class="map-legend" id="legend-snow" aria-label="Recent snowfall legend" style="display:none">
+      <div class="map-legend__title">New snow</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#ffffff"></span>4"+</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#2b87c8"></span>2–4"</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#6db3e0"></span>0.5–2"</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#b8d4e8"></span>Trace</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#9aa4ad"></span>None</div>
+    </div>
+
+    <!-- Trail legend (Step 13, hidden by default) -->
+    <div class="map-legend" id="legend-trails" aria-label="Ski trail legend" style="display:none;bottom:30px;left:10px;margin-top:0">
+      <div class="map-legend__title">Ski trails</div>
+      <div class="map-legend__row"><span class="map-legend__dot" style="background:#1b4f8a;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Skate + classic</div>
+      <div class="map-legend__row"><span class="map-legend__dot" style="background:#e07b24;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Skate</div>
+      <div class="map-legend__row"><span class="map-legend__dot" style="background:#6cc0e5;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Classic</div>
+      <div class="map-legend__row"><span class="map-legend__dot" style="background:#9aa4ad;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Other</div>
     </div>
 
   </div>
@@ -1586,8 +1667,9 @@ var state = {
   sort:        'name',    // 'name' | 'dist' | 'kmDesc' | 'kmAsc' | 'groom' | 'snow'
   sync:        true,      // list follows map view
   selectedId:  null,      // open area id
-  favorites:   false,     // filter: show only favorites (Step 10)
-  snowWindow:  24         // snow time window in hours: 6|12|24|48 (Step 11)
+  favorites:     false,   // filter: show only favorites (Step 10)
+  snowWindow:    24,      // snow time window in hours: 6|12|24|48 (Step 11)
+  mapColorMode: 'groom'   // 'groom' | 'snow' (Step 12)
 };
 
 var allFeatures     = [];
@@ -2263,6 +2345,7 @@ map.on('load', function () {
 
       updateVisibleFeatures();
       updateFavoritePin();
+      updateTrailsButton();
 
       // Apply pending URL area/map params (area takes priority)
       if (pendingAreaParam) {
@@ -2283,6 +2366,50 @@ map.on('load', function () {
         }
       }
     });
+
+  /* OpenSkiMap trail line source (Step 13) */
+  map.addSource('openskimap-trails', {
+    type: 'vector',
+    tiles: ['https://tiles.openskimap.org/ski/{z}/{x}/{y}.pbf'],
+    minzoom: 8,
+    maxzoom: 14,
+    attribution: '© <a href="https://openskimap.org" target="_blank">OpenSkiMap</a> contributors | © OpenStreetMap'
+  });
+
+  /* Trail line layers — hidden by default, inserted before unclustered-point */
+  map.addLayer({
+    id: 'ski-trails-casing',
+    type: 'line',
+    source: 'openskimap-trails',
+    'source-layer': 'piste',
+    filter: ['==', ['get', 'piste:type'], 'nordic'],
+    layout: { 'line-cap': 'round', 'line-join': 'round', 'visibility': 'none' },
+    paint: {
+      'line-color': '#fff',
+      'line-width': ['interpolate', ['linear'], ['zoom'], 10, 3, 14, 6],
+      'line-opacity': 0.7
+    }
+  });
+
+  map.addLayer({
+    id: 'ski-trails',
+    type: 'line',
+    source: 'openskimap-trails',
+    'source-layer': 'piste',
+    filter: ['==', ['get', 'piste:type'], 'nordic'],
+    layout: { 'line-cap': 'round', 'line-join': 'round', 'visibility': 'none' },
+    paint: {
+      'line-color': [
+        'match', ['get', 'piste:grooming'],
+        ['classic+skating', 'skating+classic'], '#1b4f8a',
+        'skating',  '#e07b24',
+        'classic',  '#6cc0e5',
+        '#9aa4ad'
+      ],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 10, 1.5, 14, 4],
+      'line-opacity': 0.85
+    }
+  });
 
   /* Clusters ---------------------------------------------------- */
   /* Navy halo behind cluster circles */
@@ -2479,6 +2606,7 @@ map.on('load', function () {
   });
 
   map.on('moveend', function () { if (state.sync) updateVisibleFeatures(); scheduleUrlSync(); });
+  map.on('zoom', function () { updateTrailsButton(); });
 });
 
 /* =================================================================
@@ -2851,6 +2979,19 @@ function openDetailPanel(feature) {
   } else {
     dpNotesEl.style.display = 'none';
   }
+
+  // OpenSkiMap link (Step 13)
+  var existingOsmLink = document.getElementById('dp-osm-link');
+  if (existingOsmLink) existingOsmLink.remove();
+  var dpNotesParent = dpNotesEl.parentNode;
+  var osmLinkEl = document.createElement('a');
+  osmLinkEl.id = 'dp-osm-link';
+  osmLinkEl.href = 'https://openskimap.org/#12/' + lat.toFixed(4) + '/' + lng.toFixed(4);
+  osmLinkEl.target = '_blank';
+  osmLinkEl.rel = 'noopener noreferrer';
+  osmLinkEl.className = 'detail-external-link';
+  osmLinkEl.textContent = 'View trails on OpenSkiMap →';
+  dpNotesParent.appendChild(osmLinkEl);
 
   // Favorite button in detail panel (Step 10)
   var dpStarBtn = document.getElementById('dp-star-btn');
@@ -3573,7 +3714,10 @@ function loadSnowForVisible(features) {
   var idx = 0;
 
   function next() {
-    if (idx >= toFetch.length) return;
+    if (idx >= toFetch.length) {
+      if (state.mapColorMode === 'snow') updatePinColors();
+      return;
+    }
     var batch = toFetch.slice(idx, idx + BATCH);
     idx += BATCH;
     var pending = batch.length;
@@ -3654,6 +3798,103 @@ function loadSnowForVisible(features) {
     if (!popoverSnowEl.classList.contains('is-open')) return;
     if (chipSnowFilterEl.contains(e.target) || popoverSnowEl.contains(e.target)) return;
     closeSnowPopover();
+  });
+}());
+
+/* =========================================================
+   Step 12 — Snow map color mode
+   ========================================================= */
+var SNOW_COLORS = {
+  none:     '#9aa4ad',
+  trace:    '#b8d4e8',
+  light:    '#6db3e0',
+  moderate: '#2b87c8',
+  heavy:    '#ffffff'
+};
+
+var GROOM_COLOR_EXPR = [
+  'match', ['get', 'groomType'],
+  'both',    '#1b4f8a',
+  'skate',   '#e07b24',
+  'classic', '#6cc0e5',
+  '#9aa4ad'
+];
+
+function updatePinColors() {
+  if (!dataLoaded || !map.getLayer('unclustered-point')) return;
+
+  if (state.mapColorMode === 'groom') {
+    map.setPaintProperty('unclustered-point', 'circle-color', GROOM_COLOR_EXPR);
+    document.getElementById('legend-groom').style.display = '';
+    document.getElementById('legend-snow').style.display = 'none';
+  } else {
+    var matchExpr = ['match', ['get', 'id']];
+    allFeatures.forEach(function (f) {
+      var id = f.properties.id;
+      var cached = snowCache[id];
+      var color = SNOW_COLORS.none;
+      if (cached && !cached.error) {
+        var inches = snowInchesForWindow(cached, state.snowWindow);
+        if (inches >= 4)   color = SNOW_COLORS.heavy;
+        else if (inches >= 2)   color = SNOW_COLORS.moderate;
+        else if (inches >= 0.5) color = SNOW_COLORS.light;
+        else if (inches > 0)    color = SNOW_COLORS.trace;
+      }
+      matchExpr.push(id, color);
+    });
+    matchExpr.push(SNOW_COLORS.none);
+    map.setPaintProperty('unclustered-point', 'circle-color', matchExpr);
+    document.getElementById('legend-groom').style.display = 'none';
+    document.getElementById('legend-snow').style.display = '';
+  }
+}
+
+(function () {
+  var btn = document.getElementById('btn-color-mode');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    state.mapColorMode = state.mapColorMode === 'groom' ? 'snow' : 'groom';
+    btn.classList.toggle('is-active', state.mapColorMode === 'snow');
+    btn.setAttribute('aria-pressed', state.mapColorMode === 'snow' ? 'true' : 'false');
+    btn.title = state.mapColorMode === 'snow' ? 'Color pins by grooming type' : 'Color pins by recent snow';
+    btn.setAttribute('aria-label', btn.title);
+    updatePinColors();
+  });
+}());
+
+/* =========================================================
+   Step 13 — Trail lines
+   ========================================================= */
+var trailsVisible = false;
+
+function updateTrailsButton() {
+  var btn = document.getElementById('btn-trails');
+  if (!btn) return;
+  var zoom = map.getZoom();
+  if (zoom < 10) {
+    btn.disabled = true;
+    btn.title = 'Zoom in to see trails';
+    btn.setAttribute('aria-label', 'Show ski trails (zoom in to enable)');
+  } else {
+    btn.disabled = false;
+    btn.title = trailsVisible ? 'Hide ski trails' : 'Show ski trails';
+    btn.setAttribute('aria-label', btn.title);
+  }
+}
+
+(function () {
+  var btn = document.getElementById('btn-trails');
+  var legendTrails = document.getElementById('legend-trails');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    trailsVisible = !trailsVisible;
+    var vis = trailsVisible ? 'visible' : 'none';
+    if (map.getLayer('ski-trails-casing')) map.setLayoutProperty('ski-trails-casing', 'visibility', vis);
+    if (map.getLayer('ski-trails'))        map.setLayoutProperty('ski-trails',        'visibility', vis);
+    btn.classList.toggle('is-active', trailsVisible);
+    btn.setAttribute('aria-pressed', trailsVisible ? 'true' : 'false');
+    if (legendTrails) legendTrails.style.display = trailsVisible ? '' : 'none';
+    updateTrailsButton();
   });
 }());
 

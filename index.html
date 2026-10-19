@@ -1183,6 +1183,64 @@ button {
   .detail-panel { flex: 0 0 auto; overflow-y: visible; }
 }
 
+/* =========================================================
+   Step 10 — Favorites
+   ========================================================= */
+.card__star {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0 0 0 4px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 0.1s;
+}
+.card__star:hover { color: #f5c842; }
+.card__star.is-favorited { color: #f5c842; }
+.card__star:focus-visible { outline: 2px solid #6cc0e5; border-radius: 4px; }
+
+.btn-favorite {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 600;
+  background: #fff;
+  color: var(--navy);
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+.btn-favorite.is-favorited { background: var(--ice); border-color: var(--navy); }
+.btn-favorite:hover { border-color: var(--navy); background: var(--ice); }
+
+/* =========================================================
+   Step 11 — Recent Snow
+   ========================================================= */
+.tag--newsnow {
+  background: #dbeeff;
+  color: #0a4a8a;
+}
+
+.snow-window-chips { display: flex; gap: 6px; margin: 8px 0; }
+.snow-win-btn {
+  flex: 1;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: #fff;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.snow-win-btn.is-active { background: var(--navy); color: #fff; border-color: var(--navy); }
+.snow-min-label { font-size: 13px; color: var(--muted); margin: 8px 0 4px; }
+
 </style>
 </head>
 <body>
@@ -1288,6 +1346,35 @@ button {
   <button class="chip" id="chip-snowmaking" type="button" aria-pressed="false">
     Snowmaking
   </button>
+
+  <!-- Favorites toggle -->
+  <button class="chip" id="chip-favorites" type="button" aria-pressed="false">
+    ☆ Favorites
+  </button>
+
+  <!-- Fresh snow popover -->
+  <div class="chip-wrap">
+    <button class="chip" id="chip-snow-filter" type="button" aria-haspopup="true" aria-expanded="false">
+      ❄ Fresh snow <span aria-hidden="true">▾</span>
+    </button>
+    <div class="popover" id="popover-snow" role="dialog" aria-label="Fresh snow filter">
+      <div class="popover__body">
+        <div class="snow-min-label">Time window</div>
+        <div class="snow-window-chips" role="group" aria-label="Snow time window">
+          <button class="snow-win-btn" data-hours="6"  type="button">6h</button>
+          <button class="snow-win-btn" data-hours="12" type="button">12h</button>
+          <button class="snow-win-btn snow-win-btn--active is-active" data-hours="24" type="button">24h</button>
+          <button class="snow-win-btn" data-hours="48" type="button">48h</button>
+        </div>
+        <div class="snow-min-label">Minimum new snow: <span id="snow-min-readout">0"</span></div>
+        <input type="range" id="snow-min-slider" min="0" max="12" step="0.5" value="0"
+               aria-label="Minimum new snow in inches" style="width:100%">
+      </div>
+      <div class="popover__footer">
+        <button class="btn-show-areas" id="btn-show-snow" type="button">Show areas</button>
+      </div>
+    </div>
+  </div>
 
   <!-- More filters popover -->
   <div class="chip-wrap">
@@ -1405,6 +1492,7 @@ button {
         <a class="btn-website" id="dp-website" href="#" target="_blank" rel="noopener noreferrer" style="display:none">
           Website ↗
         </a>
+        <button class="btn-favorite" id="dp-star-btn" type="button">☆ Save</button>
       </div>
 
       <div class="detail-grid" id="dp-grid" role="list"></div>
@@ -1487,16 +1575,19 @@ var map = new mapboxgl.Map({
 var state = {
   location:   null,       // { id, label, lat, lng } — set in Step 6
   filters: {
-    skate:    false,      // groomed for skate
-    classic:  false,      // groomed for classic
-    snow:     false,      // snowmaking
-    lit:      false,      // lit at night
-    kmMin:    0,          // trail length min (km)
-    kmMax:    100         // trail length max; 100 = "100+" (no upper limit)
+    skate:      false,    // groomed for skate
+    classic:    false,    // groomed for classic
+    snow:       false,    // snowmaking
+    lit:        false,    // lit at night
+    kmMin:      0,        // trail length min (km)
+    kmMax:      100,      // trail length max; 100 = "100+" (no upper limit)
+    snowMinIn:  0         // minimum new snowfall in inches (Step 11)
   },
-  sort:       'name',     // 'name' | 'dist' | 'kmDesc' | 'kmAsc' | 'groom' | 'snow'
-  sync:       true,       // list follows map view
-  selectedId: null        // open area id
+  sort:        'name',    // 'name' | 'dist' | 'kmDesc' | 'kmAsc' | 'groom' | 'snow'
+  sync:        true,      // list follows map view
+  selectedId:  null,      // open area id
+  favorites:   false,     // filter: show only favorites (Step 10)
+  snowWindow:  24         // snow time window in hours: 6|12|24|48 (Step 11)
 };
 
 var allFeatures     = [];
@@ -1553,6 +1644,7 @@ var pendingAreaParam = null;
 
   pendingMapParam  = params.get('map');
   pendingAreaParam = params.get('area');
+  if (params.get('fav') === '1') state.favorites = true;
 }());
 
 /* =================================================================
@@ -1570,6 +1662,32 @@ var popup = new mapboxgl.Popup({ closeButton: false });
    ================================================================= */
 var urlSyncTimer  = null;
 var STORAGE_KEY   = 'nsc:v1:lastSearch';
+
+/* =================================================================
+   Step 10 — Favorites persistence
+   ================================================================= */
+var FAVORITES_KEY = 'nsc:v1:favorites';
+var favoriteIds   = new Set();
+(function () {
+  try {
+    var raw = localStorage.getItem(FAVORITES_KEY);
+    if (raw) {
+      var arr = JSON.parse(raw);
+      if (Array.isArray(arr)) favoriteIds = new Set(arr);
+    }
+  } catch (e) {}
+}());
+
+function saveFavorites() {
+  try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(Array.from(favoriteIds))); } catch (e) {}
+}
+
+/* =================================================================
+   Step 11 — Snow data cache
+   ================================================================= */
+var snowCache = {};
+// snowCache[areaId] = { fetchedAt, snowfall6h, snowfall12h, snowfall24h, snowfall48h, depthIn }
+// or { fetchedAt, error: true } on fetch failure
 
 function buildQueryString() {
   var p = [];
@@ -1601,6 +1719,7 @@ function buildQueryString() {
     } catch (e) {}
   }
 
+  if (state.favorites) p.push('fav=1');
   if (!state.sync) p.push('sync=off');
   if (state.selectedId) p.push('area=' + encodeURIComponent(state.selectedId));
 
@@ -1653,12 +1772,23 @@ function isValid(val) {
    ================================================================= */
 function hasActiveFilters() {
   var f = state.filters;
-  return f.skate || f.classic || f.snow || f.lit || f.kmMin > 0 || f.kmMax < 100;
+  return f.skate || f.classic || f.snow || f.lit || f.kmMin > 0 || f.kmMax < 100
+      || state.favorites || f.snowMinIn > 0;
 }
 
 function featureMatchesFilters(feature) {
   var prop = feature.properties;
   var f    = state.filters;
+
+  // Favorites filter (Step 10)
+  if (state.favorites && !favoriteIds.has(prop.id)) return false;
+
+  // Snow filter (Step 11)
+  if (f.snowMinIn > 0) {
+    var sc = snowCache[prop.id];
+    if (!sc || sc.error) return false;
+    if (snowInchesForWindow(sc, state.snowWindow) < f.snowMinIn) return false;
+  }
 
   // Grooming: skate and/or classic must be true on the feature
   if (f.skate   && prop.groomSkate   !== true) return false;
@@ -1804,7 +1934,7 @@ function renderListings(features) {
     btn.setAttribute('role', 'listitem');
     btn.dataset.id = prop.id;
 
-    /* Top row: name + distance */
+    /* Top row: name + distance + star */
     var top = document.createElement('div');
     top.className = 'card__top';
     var nameEl = document.createElement('span');
@@ -1817,6 +1947,21 @@ function renderListings(features) {
       distEl.textContent = formatDist(prop._dist);
       top.appendChild(distEl);
     }
+    /* Star button (Step 10) */
+    (function (featureId) {
+      var starBtn = document.createElement('button');
+      starBtn.type = 'button';
+      var isFav = favoriteIds.has(featureId);
+      starBtn.className = 'card__star' + (isFav ? ' is-favorited' : '');
+      starBtn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+      starBtn.setAttribute('title', isFav ? 'Remove from favorites' : 'Add to favorites');
+      starBtn.textContent = isFav ? '★' : '☆';
+      starBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        toggleFavorite(featureId, starBtn);
+      });
+      top.appendChild(starBtn);
+    }(prop.id));
     btn.appendChild(top);
 
     /* Region */
@@ -1865,6 +2010,21 @@ function renderListings(features) {
       tags.appendChild(litTag);
     }
 
+    // Snow badge (Step 11)
+    (function (featureId) {
+      var snowBadge = document.createElement('span');
+      snowBadge.className = 'tag tag--newsnow';
+      snowBadge.id = 'snow-badge-' + featureId;
+      var cachedSnow = snowCache[featureId];
+      if (cachedSnow && !cachedSnow.error) {
+        var snowIn = snowInchesForWindow(cachedSnow, state.snowWindow);
+        if (snowIn > 0) {
+          snowBadge.textContent = '❄ ' + snowIn.toFixed(1) + '"';
+          tags.appendChild(snowBadge);
+        }
+      }
+    }(prop.id));
+
     btn.appendChild(tags);
 
     /* Interactions */
@@ -1897,6 +2057,9 @@ function renderListings(features) {
     more.textContent = 'Showing 100 of ' + sorted.length + ' areas. Zoom in to see fewer.';
     listingEl.appendChild(more);
   }
+
+  /* Kick off snow data loading for visible features (Step 11) */
+  loadSnowForVisible(features);
 }
 
 /* =================================================================
@@ -1963,7 +2126,8 @@ function formatDist(miles) {
    Clear filters
    ================================================================= */
 function clearFilters() {
-  state.filters = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100 };
+  state.filters = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100, snowMinIn: 0 };
+  state.favorites = false;
   // Sync filter DOM elements (defined in Step 4 JS below; safe at runtime)
   if (filterSkateEl)   filterSkateEl.checked   = false;
   if (filterClassicEl) filterClassicEl.checked = false;
@@ -1972,6 +2136,11 @@ function clearFilters() {
   if (tlMinEl)         tlMinEl.value            = '0';
   if (tlMaxEl)         tlMaxEl.value            = '100';
   if (typeof updateTrackFill === 'function') updateTrackFill();
+  // Reset snow slider
+  var snowSliderEl = document.getElementById('snow-min-slider');
+  var snowReadoutEl = document.getElementById('snow-min-readout');
+  if (snowSliderEl) snowSliderEl.value = '0';
+  if (snowReadoutEl) snowReadoutEl.textContent = '0"';
   applyFilters();
 }
 
@@ -2093,6 +2262,7 @@ map.on('load', function () {
       if (sortEl && state.sort !== 'dist') sortEl.value = state.sort;
 
       updateVisibleFeatures();
+      updateFavoritePin();
 
       // Apply pending URL area/map params (area takes priority)
       if (pendingAreaParam) {
@@ -2284,6 +2454,28 @@ map.on('load', function () {
   map.on('mouseleave', 'unclustered-point-hitarea', function () {
     map.getCanvas().style.cursor = '';
     clearHover();
+  });
+
+  /* Favorites star layer (Step 10) */
+  map.addLayer({
+    id: 'favorites-star',
+    type: 'symbol',
+    source: 'nordic-ski-areas',
+    filter: ['==', 'id', '___none___'],
+    minzoom: 5,
+    layout: {
+      'text-field': '★',
+      'text-font': ['Arial Unicode MS Bold'],
+      'text-size': 14,
+      'text-offset': [0, 0],
+      'text-anchor': 'center',
+      'text-allow-overlap': true
+    },
+    paint: {
+      'text-color': '#f5c842',
+      'text-halo-color': '#fff',
+      'text-halo-width': 1
+    }
   });
 
   map.on('moveend', function () { if (state.sync) updateVisibleFeatures(); scheduleUrlSync(); });
@@ -2660,6 +2852,20 @@ function openDetailPanel(feature) {
     dpNotesEl.style.display = 'none';
   }
 
+  // Favorite button in detail panel (Step 10)
+  var dpStarBtn = document.getElementById('dp-star-btn');
+  if (dpStarBtn) {
+    var isFavDetail = favoriteIds.has(prop.id);
+    dpStarBtn.textContent = isFavDetail ? '★ Saved' : '☆ Save';
+    dpStarBtn.className = 'btn-favorite' + (isFavDetail ? ' is-favorited' : '');
+    dpStarBtn.onclick = function () {
+      toggleFavorite(prop.id, null);
+      var nowFav = favoriteIds.has(prop.id);
+      dpStarBtn.textContent = nowFav ? '★ Saved' : '☆ Save';
+      dpStarBtn.className = 'btn-favorite' + (nowFav ? ' is-favorited' : '');
+    };
+  }
+
   // Show panel, hide list + results header
   listingEl.style.display = 'none';
   resultsHeaderEl.style.display = 'none';
@@ -2978,9 +3184,21 @@ function updateFilterChipStates() {
   updateMoreChip();
   chipSnowEl.setAttribute('aria-pressed', state.filters.snow ? 'true' : 'false');
 
+  // Favorites chip (Step 10)
+  var chipFavEl = document.getElementById('chip-favorites');
+  if (chipFavEl) chipFavEl.setAttribute('aria-pressed', state.favorites ? 'true' : 'false');
+
+  // Snow filter chip (Step 11)
+  var chipSnowFilterEl = document.getElementById('chip-snow-filter');
+  if (chipSnowFilterEl) {
+    chipSnowFilterEl.classList.toggle('is-active', state.filters.snowMinIn > 0);
+  }
+
   var f           = state.filters;
   var activeCount = [f.skate, f.classic, f.snow, f.lit].filter(Boolean).length
-                  + (f.kmMin > 0 || f.kmMax < 100 ? 1 : 0);
+                  + (f.kmMin > 0 || f.kmMax < 100 ? 1 : 0)
+                  + (state.favorites ? 1 : 0)
+                  + (f.snowMinIn > 0 ? 1 : 0);
   chipClearEl.style.display   = activeCount > 0 ? '' : 'none';
   chipClearEl.textContent     = 'Clear all (' + activeCount + ')';
 }
@@ -3227,6 +3445,217 @@ if (btnDismissEl) {
 }());
 
 initWelcomeBanner();
+
+/* =========================================================
+   Step 10 — Favorites logic
+   ========================================================= */
+function updateFavoritePin() {
+  if (!map.getLayer('favorites-star')) return;
+  var favArr = Array.from(favoriteIds);
+  if (favArr.length > 0) {
+    map.setFilter('favorites-star', ['match', ['get', 'id'], favArr, true, false]);
+  } else {
+    map.setFilter('favorites-star', ['==', 'id', '___none___']);
+  }
+}
+
+function toggleFavorite(id, starEl) {
+  if (favoriteIds.has(id)) {
+    favoriteIds.delete(id);
+  } else {
+    favoriteIds.add(id);
+  }
+  saveFavorites();
+  var isFav = favoriteIds.has(id);
+  if (starEl) {
+    starEl.textContent = isFav ? '★' : '☆';
+    starEl.className = 'card__star' + (isFav ? ' is-favorited' : '');
+    starEl.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+    starEl.setAttribute('title', isFav ? 'Remove from favorites' : 'Add to favorites');
+  }
+  if (state.favorites) applyFilters();
+  updateFavoritePin();
+}
+
+/* Favorites chip */
+(function () {
+  var chipFavEl = document.getElementById('chip-favorites');
+  if (!chipFavEl) return;
+  chipFavEl.addEventListener('click', function () {
+    state.favorites = !state.favorites;
+    chipFavEl.setAttribute('aria-pressed', state.favorites ? 'true' : 'false');
+    applyFilters();
+  });
+}());
+
+/* =========================================================
+   Step 11 — Snow data fetch + filter
+   ========================================================= */
+function snowInchesForWindow(entry, hours) {
+  if (hours === 6)  return entry.snowfall6h  || 0;
+  if (hours === 12) return entry.snowfall12h || 0;
+  if (hours === 48) return entry.snowfall48h || 0;
+  return entry.snowfall24h || 0;
+}
+
+function updateSnowBadge(id) {
+  var el = document.getElementById('snow-badge-' + id);
+  if (!el) return;
+  var cached = snowCache[id];
+  if (!cached || cached.error) { el.textContent = '❄ ?'; return; }
+  var inches = snowInchesForWindow(cached, state.snowWindow);
+  if (inches > 0) {
+    el.textContent = '❄ ' + inches.toFixed(1) + '"';
+    el.style.display = '';
+  } else {
+    el.style.display = 'none';
+  }
+}
+
+function fetchSnowData(feature, callback) {
+  var id    = feature.properties.id;
+  var coords = feature.geometry.coordinates;
+  var lat   = coords[1];
+  var lon   = coords[0];
+
+  var cached = snowCache[id];
+  if (cached && !cached.error && Date.now() - cached.fetchedAt < 30 * 60 * 1000) {
+    callback(null, cached);
+    return;
+  }
+
+  var url = 'https://api.open-meteo.com/v1/forecast'
+    + '?latitude=' + lat.toFixed(4)
+    + '&longitude=' + lon.toFixed(4)
+    + '&hourly=snowfall,snow_depth'
+    + '&past_days=2&forecast_days=0&timezone=auto';
+
+  fetch(url)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var sf = data.hourly.snowfall;    // cm/hr
+      var sd = data.hourly.snow_depth;  // meters
+
+      function sumLast(arr, n) {
+        var slice = arr.slice(Math.max(0, arr.length - n));
+        return slice.reduce(function (a, b) { return a + (b || 0); }, 0);
+      }
+      function lastNonNull(arr) {
+        for (var i = arr.length - 1; i >= 0; i--) {
+          if (arr[i] !== null) return arr[i];
+        }
+        return 0;
+      }
+
+      var entry = {
+        fetchedAt:   Date.now(),
+        snowfall6h:  sumLast(sf, 6)  / 2.54,
+        snowfall12h: sumLast(sf, 12) / 2.54,
+        snowfall24h: sumLast(sf, 24) / 2.54,
+        snowfall48h: sumLast(sf, 48) / 2.54,
+        depthIn:     lastNonNull(sd) * 39.37
+      };
+      snowCache[id] = entry;
+      callback(null, entry);
+    })
+    .catch(function (err) {
+      snowCache[id] = { fetchedAt: Date.now(), error: true };
+      callback(err, null);
+    });
+}
+
+function loadSnowForVisible(features) {
+  var toFetch = features.filter(function (f) {
+    var c = snowCache[f.properties.id];
+    return !c || c.error || (Date.now() - c.fetchedAt > 30 * 60 * 1000);
+  });
+  var BATCH = 10;
+  var idx = 0;
+
+  function next() {
+    if (idx >= toFetch.length) return;
+    var batch = toFetch.slice(idx, idx + BATCH);
+    idx += BATCH;
+    var pending = batch.length;
+    batch.forEach(function (f) {
+      fetchSnowData(f, function () {
+        updateSnowBadge(f.properties.id);
+        pending--;
+        if (pending === 0) next();
+      });
+    });
+  }
+  next();
+}
+
+/* Snow filter chip + popover */
+(function () {
+  var chipSnowFilterEl = document.getElementById('chip-snow-filter');
+  var popoverSnowEl    = document.getElementById('popover-snow');
+  var btnShowSnowEl    = document.getElementById('btn-show-snow');
+  var snowMinSliderEl  = document.getElementById('snow-min-slider');
+  var snowMinReadoutEl = document.getElementById('snow-min-readout');
+
+  if (!chipSnowFilterEl || !popoverSnowEl) return;
+
+  function openSnowPopover() {
+    popoverSnowEl.classList.add('is-open');
+    chipSnowFilterEl.setAttribute('aria-expanded', 'true');
+  }
+  function closeSnowPopover() {
+    popoverSnowEl.classList.remove('is-open');
+    chipSnowFilterEl.setAttribute('aria-expanded', 'false');
+  }
+
+  chipSnowFilterEl.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (popoverSnowEl.classList.contains('is-open')) {
+      closeSnowPopover();
+    } else {
+      closeSnowPopover();
+      openSnowPopover();
+    }
+  });
+
+  if (btnShowSnowEl) {
+    btnShowSnowEl.addEventListener('click', function () {
+      closeSnowPopover();
+      applyFilters();
+    });
+  }
+
+  /* Time window buttons */
+  var winBtns = popoverSnowEl.querySelectorAll('.snow-win-btn');
+  winBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      state.snowWindow = parseInt(btn.getAttribute('data-hours'), 10);
+      winBtns.forEach(function (b) {
+        b.classList.toggle('is-active', b.getAttribute('data-hours') === btn.getAttribute('data-hours'));
+      });
+      var feats = state.sync ? visibleFeatures : allFeatures;
+      feats.forEach(function (f) { updateSnowBadge(f.properties.id); });
+      if (state.filters.snowMinIn > 0) applyFilters();
+    });
+  });
+
+  /* Min-snow slider */
+  if (snowMinSliderEl) {
+    snowMinSliderEl.addEventListener('input', function () {
+      state.filters.snowMinIn = parseFloat(snowMinSliderEl.value);
+      if (snowMinReadoutEl) snowMinReadoutEl.textContent = state.filters.snowMinIn.toFixed(1) + '"';
+    });
+    snowMinSliderEl.addEventListener('change', function () {
+      applyFilters();
+    });
+  }
+
+  /* Close on outside click */
+  document.addEventListener('mousedown', function (e) {
+    if (!popoverSnowEl.classList.contains('is-open')) return;
+    if (chipSnowFilterEl.contains(e.target) || popoverSnowEl.contains(e.target)) return;
+    closeSnowPopover();
+  });
+}());
 
 </script>
 </body>

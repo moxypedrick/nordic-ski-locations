@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nordic Ski Centers — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --navy: #12355b;
+  --blue: #1b4f8a;
+  --sky:  #6cc0e5;
+  --bg:   #f5f6f8;
+  --card: #ffffff;
+  --border: #dde1e7;
+  --text: #1a1a2e;
+  --muted: #6b7280;
+  --red: #dc2626;
+  --green: #16a34a;
+  --radius: 8px;
+  --sidebar: 360px;
+}
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); height: 100dvh; display: flex; flex-direction: column; }
+
+/* ── Header ─────────────────────────────────────────────── */
+.header {
+  background: var(--navy);
+  color: #fff;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.02em; }
+.header-badge {
+  font-size: 11px;
+  background: rgba(255,255,255,0.15);
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* ── Setup screen ───────────────────────────────────────── */
+#setup {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setup-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 40px;
+  max-width: 480px;
+  width: 100%;
+  margin: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.setup-card h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+.setup-card p  { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.5; }
+.setup-files { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.file-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+.file-row .file-icon { font-size: 18px; }
+.file-row .file-info { flex: 1; }
+.file-row .file-name { font-weight: 500; }
+.file-row .file-hint { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.file-row .file-status { font-size: 12px; color: var(--muted); }
+.file-row.is-ready .file-status { color: var(--green); font-weight: 500; }
+.btn-pick { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 500; cursor: pointer; white-space: nowrap; }
+.btn-pick:hover { background: #e8eaed; }
+.btn-launch { width: 100%; padding: 12px; background: var(--navy); color: #fff; border: none; border-radius: var(--radius); font-size: 14px; font-weight: 600; cursor: pointer; }
+.btn-launch:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-launch:not(:disabled):hover { background: var(--blue); }
+
+/* ── Main workspace ─────────────────────────────────────── */
+#workspace { flex: 1; display: none; overflow: hidden; }
+.workspace-inner { display: flex; height: 100%; }
+
+/* ── Sidebar ────────────────────────────────────────────── */
+.sidebar {
+  width: var(--sidebar);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+  background: var(--card);
+  overflow: hidden;
+}
+.sidebar-search {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.sidebar-search input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+.sidebar-search input:focus { border-color: var(--sky); }
+.sidebar-count { font-size: 11px; color: var(--muted); margin-top: 6px; }
+.btn-add-area {
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px 12px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+.btn-add-area:hover { background: var(--blue); }
+.placement-banner {
+  display: none;
+  background: #fef9c3;
+  border-bottom: 1px solid #fde047;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #713f12;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+.placement-banner.is-visible { display: flex; }
+.btn-cancel-place {
+  margin-left: auto;
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid #a16207;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #713f12;
+}
+.btn-cancel-place:hover { background: #fde68a; }
+.area-list { flex: 1; overflow-y: auto; }
+.area-item {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.area-item:hover { background: var(--bg); }
+.area-item.is-active { background: #e8f0fe; }
+.area-item.has-override { border-left: 3px solid var(--sky); padding-left: 11px; }
+.area-name { font-size: 13px; font-weight: 500; }
+.area-region { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+/* ── Editor panel ───────────────────────────────────────── */
+.editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.editor-empty {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+.editor-content { display: none; flex: 1; flex-direction: column; overflow: hidden; }
+.editor-content.is-visible { display: flex; }
+
+.editor-header {
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.editor-title { font-size: 16px; font-weight: 600; }
+.editor-subtitle { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.override-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 1px 7px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.editor-body { flex: 1; overflow-y: auto; padding: 16px 20px; display: flex; flex-direction: column; gap: 16px; }
+
+/* Map section */
+.map-section { flex-shrink: 0; }
+.section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+#edit-map { height: 240px; border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; }
+.coords-display {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--muted);
+  font-family: monospace;
+}
+
+/* Form fields */
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.form-group { display: flex; flex-direction: column; gap: 4px; }
+.form-group.full { grid-column: 1 / -1; }
+.form-group label { font-size: 12px; font-weight: 500; color: var(--text); }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+  background: #fff;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: var(--sky); }
+.form-group textarea { resize: vertical; min-height: 80px; }
+.field-hint { font-size: 11px; color: var(--muted); }
+
+/* Footer / save bar */
+.editor-footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: var(--card);
+}
+.btn-save {
+  padding: 9px 20px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-save:hover { background: var(--blue); }
+.btn-reset {
+  padding: 9px 14px;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn-reset:hover { background: var(--bg); color: var(--text); }
+.btn-delete {
+  padding: 9px 14px;
+  background: transparent;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.btn-delete:hover { background: #fee2e2; }
+.save-status { font-size: 12px; }
+.save-status.ok   { color: var(--green); }
+.save-status.err  { color: var(--red); }
+.area-item.is-closed .area-name { text-decoration: line-through; color: var(--muted); }
+.area-item.is-closed .area-region::before { content: 'CLOSED · '; color: var(--red); font-weight: 600; }
+
+/* Change log */
+.changelog {
+  width: 280px;
+  flex-shrink: 0;
+  border-left: 1px solid var(--border);
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.changelog-header {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.changelog-list { flex: 1; overflow-y: auto; }
+.log-item { padding: 10px 14px; border-bottom: 1px solid var(--border); font-size: 12px; }
+.log-item-name { font-weight: 500; }
+.log-item-fields { color: var(--muted); margin-top: 2px; }
+.log-item-time  { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.changelog-empty { padding: 20px 14px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Nordic Ski Centers</h1>
+  <span class="header-badge">Admin</span>
+</div>
+
+<!-- ── Setup screen ─────────────────────────────────────── -->
+<div id="setup">
+  <div class="setup-card">
+    <h2>Open data files</h2>
+    <p>Pick the two files from your local repo. Changes save directly to disk — commit to GitHub when ready.</p>
+    <div class="setup-files">
+      <div class="file-row" id="row-merged">
+        <span class="file-icon">📍</span>
+        <div class="file-info">
+          <div class="file-name">nordic-ski-areas-merged.geojson</div>
+          <div class="file-hint">data/</div>
+        </div>
+        <span class="file-status" id="status-merged">not opened</span>
+        <button class="btn-pick" id="pick-merged">Open</button>
+      </div>
+      <div class="file-row" id="row-overrides">
+        <span class="file-icon">✏️</span>
+        <div class="file-info">
+          <div class="file-name">manual-overrides.json</div>
+          <div class="file-hint">data/ — will be created if missing</div>
+        </div>
+        <span class="file-status" id="status-overrides">not opened</span>
+        <button class="btn-pick" id="pick-overrides">Open</button>
+      </div>
+    </div>
+    <button class="btn-launch" id="btn-launch" disabled>Launch editor</button>
+  </div>
+</div>
+
+<!-- ── Workspace ─────────────────────────────────────────── -->
+<div id="workspace">
+  <div class="workspace-inner">
+
+    <!-- Sidebar: area list -->
+    <div class="sidebar">
+      <div class="sidebar-search">
+        <input type="search" id="search-input" placeholder="Search areas…" autocomplete="off">
+        <div class="sidebar-count" id="list-count"></div>
+        <button class="btn-add-area" id="btn-add-area">+ Add new area</button>
+      </div>
+      <div class="area-list" id="area-list"></div>
+    </div>
+
+    <!-- Editor -->
+    <div class="editor">
+      <div class="placement-banner" id="placement-banner">
+        Click the map to place the new area's pin
+        <button class="btn-cancel-place" id="btn-cancel-place">Cancel</button>
+      </div>
+      <div class="editor-empty" id="editor-empty">Select an area to edit</div>
+      <div class="editor-content" id="editor-content">
+        <div class="editor-header">
+          <div>
+            <span class="editor-title" id="ed-title"></span>
+            <span class="override-badge" id="ed-badge" style="display:none">edited</span>
+          </div>
+          <div class="editor-subtitle" id="ed-subtitle"></div>
+        </div>
+        <div class="editor-body">
+
+          <!-- Pin location -->
+          <div class="map-section">
+            <div class="section-label">Pin location</div>
+            <div id="edit-map"></div>
+            <div class="coords-display" id="coords-display"></div>
+          </div>
+
+          <!-- Core info -->
+          <div>
+            <div class="section-label">Core info</div>
+            <div class="form-grid">
+              <div class="form-group full">
+                <label for="f-name">Name</label>
+                <input type="text" id="f-name" placeholder="Area name">
+              </div>
+              <div class="form-group full">
+                <label for="f-url">Website URL</label>
+                <input type="url" id="f-url" placeholder="https://…">
+              </div>
+              <div class="form-group">
+                <label for="f-region">Region</label>
+                <input type="text" id="f-region" placeholder="e.g. Stowe, VT">
+              </div>
+              <div class="form-group">
+                <label for="f-status">Status</label>
+                <select id="f-status">
+                  <option value="">Operating</option>
+                  <option value="closed">Closed</option>
+                  <option value="seasonal">Seasonal / TBD</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-km">Total km</label>
+                <input type="number" id="f-km" min="0" step="0.5" placeholder="—">
+              </div>
+            </div>
+          </div>
+
+          <!-- Trail details -->
+          <div>
+            <div class="section-label">Trail details</div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="f-groom">Grooming</label>
+                <select id="f-groom">
+                  <option value="">Unknown</option>
+                  <option value="yes">Yes (type unknown)</option>
+                  <option value="both">Both skate &amp; classic</option>
+                  <option value="skate">Skate only</option>
+                  <option value="classic">Classic only</option>
+                  <option value="no">Not groomed</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-snowmaking">Snowmaking</label>
+                <select id="f-snowmaking">
+                  <option value="">Unknown</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-lit">Lit at night</label>
+                <select id="f-lit">
+                  <option value="">Unknown</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-kmSkate">km skate</label>
+                <input type="number" id="f-kmSkate" min="0" step="0.5" placeholder="—">
+              </div>
+              <div class="form-group">
+                <label for="f-kmClassic">km classic</label>
+                <input type="number" id="f-kmClassic" min="0" step="0.5" placeholder="—">
+              </div>
+            </div>
+          </div>
+
+          <!-- Amenities -->
+          <div>
+            <div class="section-label">Amenities</div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="f-passPrice">Day pass price</label>
+                <input type="text" id="f-passPrice" placeholder="e.g. $20">
+              </div>
+              <div class="form-group">
+                <label for="f-rentals">Rentals</label>
+                <select id="f-rentals">
+                  <option value="">Unknown</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-lessons">Lessons</label>
+                <select id="f-lessons">
+                  <option value="">Unknown</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-dogs">Dogs allowed</label>
+                <select id="f-dogs">
+                  <option value="">Unknown</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notes / description -->
+          <div>
+            <div class="section-label">Notes / description</div>
+            <div class="form-group">
+              <textarea id="f-notes" placeholder="Visible in the detail panel. Describe the area, special features, access notes, etc."></textarea>
+            </div>
+          </div>
+
+        </div><!-- editor-body -->
+
+        <div class="editor-footer">
+          <button class="btn-save" id="btn-save">Save changes</button>
+          <button class="btn-reset" id="btn-reset">Reset</button>
+          <span class="save-status" id="save-status"></span>
+          <button class="btn-delete" id="btn-delete">Delete area</button>
+        </div>
+      </div><!-- editor-content -->
+    </div><!-- editor -->
+
+    <!-- Changelog -->
+    <div class="changelog">
+      <div class="changelog-header">Session edits</div>
+      <div class="changelog-list" id="changelog-list">
+        <div class="changelog-empty">No edits yet</div>
+      </div>
+    </div>
+
+  </div>
+</div><!-- workspace -->
+
+<script>
+'use strict';
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibW94eXBlZCIsImEiOiJjaWgydGpwdmYweHJydnFtMzZzOXpmNjg3In0.5TXWYv0Z7nsOZHneIQOhxg';
+
+// ── State ────────────────────────────────────────────────────────────────────
+var mergedHandle    = null;   // FileSystemFileHandle
+var overridesHandle = null;
+var allFeatures     = [];
+var overrides       = {};     // { [id]: { geometry?, properties? } }
+var selectedId      = null;
+var editMap         = null;
+var editMarker      = null;
+var pendingCoords   = null;   // [lon, lat] if user moved pin
+var placingNew      = false;  // true while waiting for map click to place new area
+var sessionLog      = [];
+
+// ── File picking ─────────────────────────────────────────────────────────────
+async function pickFile(opts) {
+  const [handle] = await window.showOpenFilePicker(opts);
+  return handle;
+}
+
+async function pickOrCreateOverrides() {
+  // Try open; if user cancels or picks wrong, show a save dialog
+  try {
+    const [handle] = await window.showOpenFilePicker({
+      types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
+      id: 'overrides',
+    });
+    return handle;
+  } catch (e) {
+    // User may have cancelled — offer to create new
+    return await window.showSaveFilePicker({
+      suggestedName: 'manual-overrides.json',
+      types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
+      id: 'overrides',
+    });
+  }
+}
+
+document.getElementById('pick-merged').addEventListener('click', async function () {
+  try {
+    mergedHandle = await pickFile({
+      types: [{ description: 'GeoJSON', accept: { 'application/json': ['.geojson', '.json'] } }],
+      id: 'merged',
+    });
+    document.getElementById('status-merged').textContent = '✓ ' + mergedHandle.name;
+    document.getElementById('row-merged').classList.add('is-ready');
+    checkReady();
+  } catch (e) { /* cancelled */ }
+});
+
+document.getElementById('pick-overrides').addEventListener('click', async function () {
+  try {
+    overridesHandle = await pickOrCreateOverrides();
+    document.getElementById('status-overrides').textContent = '✓ ' + overridesHandle.name;
+    document.getElementById('row-overrides').classList.add('is-ready');
+    checkReady();
+  } catch (e) { /* cancelled */ }
+});
+
+function checkReady() {
+  document.getElementById('btn-launch').disabled = !(mergedHandle && overridesHandle);
+}
+
+document.getElementById('btn-launch').addEventListener('click', async function () {
+  await launch();
+});
+
+async function launch() {
+  // Load merged geojson
+  const mergedFile = await mergedHandle.getFile();
+  const mergedText = await mergedFile.text();
+  const gj = JSON.parse(mergedText);
+  allFeatures = gj.features;
+
+  // Load overrides (may be empty / new file)
+  try {
+    const ovFile = await overridesHandle.getFile();
+    const ovText = (await ovFile.text()).trim();
+    overrides = ovText ? JSON.parse(ovText) : {};
+  } catch (e) {
+    overrides = {};
+  }
+
+  document.getElementById('setup').style.display = 'none';
+  document.getElementById('workspace').style.display = 'flex';
+
+  initMap();
+  // Map container had 0 dimensions while workspace was hidden; resize after reflow
+  requestAnimationFrame(function () { editMap.resize(); });
+  renderList(allFeatures);
+}
+
+// ── Map ──────────────────────────────────────────────────────────────────────
+function initMap() {
+  editMap = new mapboxgl.Map({
+    container: 'edit-map',
+    style: 'mapbox://styles/mapbox/outdoors-v11',
+    center: [-98, 45],
+    zoom: 3,
+  });
+  editMap.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right');
+
+  editMap.on('click', function (e) {
+    var lngLat = [e.lngLat.lng, e.lngLat.lat];
+    if (placingNew) {
+      placingNew = false;
+      editMap.getCanvas().style.cursor = '';
+      document.getElementById('placement-banner').classList.remove('is-visible');
+      openNewAreaEditor(lngLat);
+      return;
+    }
+    if (!selectedId) return;
+    pendingCoords = lngLat;
+    editMarker.setLngLat(lngLat);
+    updateCoordsDisplay(lngLat);
+  });
+}
+
+function updateCoordsDisplay(coords) {
+  document.getElementById('coords-display').textContent =
+    coords[1].toFixed(5) + ', ' + coords[0].toFixed(5);
+}
+
+// ── Area list ────────────────────────────────────────────────────────────────
+var searchTimer = null;
+document.getElementById('search-input').addEventListener('input', function () {
+  clearTimeout(searchTimer);
+  var q = this.value;
+  searchTimer = setTimeout(function () { filterList(q); }, 150);
+});
+
+function filterList(q) {
+  if (!q) { renderList(allFeatures); return; }
+  var lq = q.toLowerCase();
+  var filtered = allFeatures.filter(function (f) {
+    return (f.properties.Name || '').toLowerCase().includes(lq) ||
+           (f.properties.region || '').toLowerCase().includes(lq);
+  });
+  renderList(filtered);
+}
+
+function renderList(features) {
+  var list = document.getElementById('area-list');
+  list.innerHTML = '';
+  document.getElementById('list-count').textContent = features.length.toLocaleString() + ' areas';
+
+  features.forEach(function (f) {
+    var id = f.properties.id;
+    var el = document.createElement('div');
+    var isClosed = (f.properties.adminStatus === 'closed');
+    el.className = 'area-item' +
+      (id === selectedId ? ' is-active' : '') +
+      (overrides[id] ? ' has-override' : '') +
+      (isClosed ? ' is-closed' : '');
+    el.innerHTML =
+      '<div class="area-name">' + esc(f.properties.Name || '(unnamed)') + '</div>' +
+      '<div class="area-region">' + esc(f.properties.region || '') + '</div>';
+    el.addEventListener('click', function () { selectArea(id); });
+    list.appendChild(el);
+  });
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Editor ───────────────────────────────────────────────────────────────────
+function selectArea(id) {
+  selectedId = id;
+  var feature = allFeatures.find(function (f) { return f.properties.id === id; });
+  if (!feature) return;
+
+  // Apply any existing override for display
+  var effective = applyOverrideToFeature(feature);
+  var prop = effective.properties;
+
+  document.getElementById('editor-empty').style.display = 'none';
+  document.getElementById('editor-content').classList.add('is-visible');
+  document.getElementById('ed-title').textContent = prop.Name || '(unnamed)';
+  document.getElementById('ed-subtitle').textContent = prop.region || '';
+  var badge = document.getElementById('ed-badge');
+  badge.style.display = overrides[id] ? '' : 'none';
+
+  // Populate form
+  setVal('f-name',       prop.Name);
+  setVal('f-url',        prop.URL);
+  setVal('f-region',     prop.region);
+  setVal('f-km',         prop.km);
+  setVal('f-kmSkate',    prop.kmSkate);
+  setVal('f-kmClassic',  prop.kmClassic);
+  setVal('f-passPrice',  prop.passPrice);
+  setSel('f-groom',      groomTypeToSelect(prop));
+  setSel('f-snowmaking', prop.Snowmaking || '');
+  setSel('f-lit',        prop.Lit        || '');
+  setSel('f-rentals',    prop.rentals    || '');
+  setSel('f-lessons',    prop.lessons    || '');
+  setSel('f-dogs',       prop.dogs       || '');
+  setSel('f-status',     prop.adminStatus || '');
+  setVal('f-notes',      prop.Notes);
+
+  // Pin
+  pendingCoords = null;
+  var coords = effective.geometry.coordinates;
+
+  if (editMap.loaded()) {
+    placePin(coords);
+  } else {
+    editMap.once('load', function () { placePin(coords); });
+  }
+  updateCoordsDisplay(coords);
+
+  // Highlight in list
+  document.querySelectorAll('.area-item').forEach(function (el) {
+    el.classList.remove('is-active');
+    if (el.querySelector('.area-name').textContent === (prop.Name || '(unnamed)')) {
+      el.classList.add('is-active');
+    }
+  });
+
+  document.getElementById('save-status').textContent = '';
+}
+
+function placePin(coords) {
+  if (editMarker) editMarker.remove();
+  var el = document.createElement('div');
+  el.style.cssText = 'width:18px;height:18px;border-radius:50%;background:#1b4f8a;border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);cursor:move';
+  editMarker = new mapboxgl.Marker({ element: el, draggable: true })
+    .setLngLat(coords)
+    .addTo(editMap);
+
+  editMarker.on('dragend', function () {
+    var ll = editMarker.getLngLat();
+    pendingCoords = [ll.lng, ll.lat];
+    updateCoordsDisplay(pendingCoords);
+  });
+
+  editMap.flyTo({ center: coords, zoom: Math.max(editMap.getZoom(), 11), duration: 600 });
+}
+
+function applyOverrideToFeature(feature) {
+  var id = feature.properties.id;
+  if (!overrides[id]) return feature;
+  var ov = overrides[id];
+  return {
+    type: 'Feature',
+    geometry: ov.geometry || feature.geometry,
+    properties: Object.assign({}, feature.properties, ov.properties || {}),
+  };
+}
+
+function groomTypeToSelect(prop) {
+  var t = prop.groomType || '';
+  if (t === 'both')    return 'both';
+  if (t === 'skate')   return 'skate';
+  if (t === 'classic') return 'classic';
+  if (prop.Groomed === 'Yes') return 'yes';
+  if (prop.Groomed === 'No')  return 'no';
+  return '';
+}
+
+function selectToGroomFields(val) {
+  // Returns { groomType, Groomed, groomSkate, groomClassic }
+  if (val === 'both')    return { groomType: 'both',    Groomed: 'Yes', groomSkate: 'Yes', groomClassic: 'Yes' };
+  if (val === 'skate')   return { groomType: 'skate',   Groomed: 'Yes', groomSkate: 'Yes', groomClassic: null };
+  if (val === 'classic') return { groomType: 'classic', Groomed: 'Yes', groomSkate: null,  groomClassic: 'Yes' };
+  if (val === 'yes')     return { groomType: 'yes',     Groomed: 'Yes', groomSkate: null,  groomClassic: null };
+  if (val === 'no')      return { groomType: null,      Groomed: 'No',  groomSkate: null,  groomClassic: null };
+  return { groomType: null, Groomed: null, groomSkate: null, groomClassic: null };
+}
+
+function setVal(id, val) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  el.value = (val == null) ? '' : val;
+}
+function setSel(id, val) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  el.value = (val == null || val === 'null') ? '' : val;
+}
+function getVal(id)  { return document.getElementById(id).value.trim() || null; }
+function getNum(id)  { var v = document.getElementById(id).value.trim(); return v === '' ? null : parseFloat(v); }
+function getSel(id)  { return document.getElementById(id).value || null; }
+
+// ── Save ─────────────────────────────────────────────────────────────────────
+document.getElementById('btn-save').addEventListener('click', saveChanges);
+document.getElementById('btn-reset').addEventListener('click', resetForm);
+document.getElementById('btn-delete').addEventListener('click', deleteArea);
+document.getElementById('btn-add-area').addEventListener('click', startPlacingNew);
+document.getElementById('btn-cancel-place').addEventListener('click', cancelPlacingNew);
+
+async function saveChanges() {
+  if (!selectedId) return;
+  var feature = allFeatures.find(function (f) { return f.properties.id === selectedId; });
+  if (!feature) return;
+
+  var groomFields = selectToGroomFields(getSel('f-groom'));
+  var propPatch = {
+    Name:        getVal('f-name'),
+    URL:         getVal('f-url'),
+    region:      getVal('f-region'),
+    km:          getNum('f-km'),
+    kmSkate:     getNum('f-kmSkate'),
+    kmClassic:   getNum('f-kmClassic'),
+    passPrice:   getVal('f-passPrice'),
+    Snowmaking:  getSel('f-snowmaking'),
+    Lit:         getSel('f-lit'),
+    rentals:     getSel('f-rentals'),
+    lessons:     getSel('f-lessons'),
+    dogs:        getSel('f-dogs'),
+    adminStatus: getSel('f-status'),
+    Notes:       getVal('f-notes'),
+    groomType:   groomFields.groomType,
+    Groomed:     groomFields.Groomed,
+    groomSkate:  groomFields.groomSkate,
+    groomClassic:groomFields.groomClassic,
+  };
+
+  // Track what changed vs effective current state
+  var current = applyOverrideToFeature(feature);
+  var changedFields = Object.keys(propPatch).filter(function (k) {
+    return String(propPatch[k] || '') !== String(current.properties[k] || '');
+  });
+  var geoChanged = pendingCoords != null;
+  var isNew = String(selectedId).startsWith('admin-');
+
+  if (!isNew && !changedFields.length && !geoChanged) {
+    showStatus('No changes', false);
+    return;
+  }
+
+  // Apply to in-memory features
+  Object.assign(feature.properties, propPatch);
+  if (geoChanged) feature.geometry = { type: 'Point', coordinates: pendingCoords };
+
+  // Admin-created areas live only in the merged file, not in overrides
+  if (!isNew) {
+    var entry = overrides[selectedId] || {};
+    entry.properties = Object.assign(entry.properties || {}, propPatch);
+    entry._editedAt = new Date().toISOString();
+    if (geoChanged) entry.geometry = feature.geometry;
+    overrides[selectedId] = entry;
+  }
+
+  try {
+    if (!isNew) await writeJSON(overridesHandle, overrides);
+    await writeMerged();
+
+    showStatus('Saved ✓', false);
+    document.getElementById('ed-badge').style.display = isNew ? 'none' : '';
+    document.getElementById('ed-title').textContent = feature.properties.Name || '(unnamed)';
+    document.getElementById('ed-subtitle').textContent = feature.properties.region || '';
+
+    // Log it
+    var logFields = isNew ? ['new area'] : changedFields.concat(geoChanged ? ['coordinates'] : []);
+    addLog(feature.properties.Name, logFields);
+
+    // Refresh sidebar
+    filterList(document.getElementById('search-input').value);
+    pendingCoords = null;
+  } catch (e) {
+    showStatus('Error: ' + e.message, true);
+  }
+}
+
+function resetForm() {
+  if (!selectedId) return;
+  var feature = allFeatures.find(function (f) { return f.properties.id === selectedId; });
+  if (feature) selectArea(selectedId);
+}
+
+async function writeJSON(handle, data) {
+  const writable = await handle.createWritable();
+  await writable.write(JSON.stringify(data, null, 2));
+  await writable.close();
+}
+
+async function writeMerged() {
+  var gj = { type: 'FeatureCollection', features: allFeatures };
+  const writable = await mergedHandle.createWritable();
+  await writable.write(JSON.stringify(gj));
+  await writable.close();
+}
+
+function showStatus(msg, isErr) {
+  var el = document.getElementById('save-status');
+  el.textContent = msg;
+  el.className = 'save-status ' + (isErr ? 'err' : 'ok');
+  setTimeout(function () { el.textContent = ''; }, 3000);
+}
+
+// ── Add new area ─────────────────────────────────────────────────────────────
+function startPlacingNew() {
+  placingNew = true;
+  editMap.getCanvas().style.cursor = 'crosshair';
+  document.getElementById('placement-banner').classList.add('is-visible');
+  // Hide editor while placing
+  document.getElementById('editor-content').classList.remove('is-visible');
+  document.getElementById('editor-empty').style.display = 'none';
+  selectedId = null;
+  if (editMarker) { editMarker.remove(); editMarker = null; }
+}
+
+function cancelPlacingNew() {
+  placingNew = false;
+  editMap.getCanvas().style.cursor = '';
+  document.getElementById('placement-banner').classList.remove('is-visible');
+  document.getElementById('editor-empty').style.display = '';
+}
+
+function openNewAreaEditor(coords) {
+  // Generate a unique id for the new area
+  var newId = 'admin-' + Date.now();
+  selectedId = newId;
+
+  // Create a stub feature and add to allFeatures
+  var newFeature = {
+    type: 'Feature',
+    geometry: { type: 'Point', coordinates: coords },
+    properties: {
+      id: newId,
+      Name: '',
+      region: '',
+      URL: null,
+      km: null,
+      kmSkate: null,
+      kmClassic: null,
+      Groomed: null,
+      groomType: null,
+      groomSkate: null,
+      groomClassic: null,
+      Snowmaking: null,
+      Lit: null,
+      passPrice: null,
+      rentals: null,
+      lessons: null,
+      dogs: null,
+      adminStatus: null,
+      Notes: null,
+      source: 'admin',
+    },
+  };
+  allFeatures.push(newFeature);
+
+  // Open editor for it
+  document.getElementById('editor-empty').style.display = 'none';
+  document.getElementById('editor-content').classList.add('is-visible');
+  document.getElementById('ed-title').textContent = 'New area';
+  document.getElementById('ed-subtitle').textContent = 'Fill in details and save';
+  document.getElementById('ed-badge').style.display = 'none';
+
+  // Clear form
+  ['f-name','f-url','f-region','f-km','f-kmSkate','f-kmClassic','f-passPrice','f-notes'].forEach(function(id) { setVal(id, null); });
+  ['f-groom','f-snowmaking','f-lit','f-rentals','f-lessons','f-dogs','f-status'].forEach(function(id) { setSel(id, ''); });
+
+  // Place pin
+  pendingCoords = coords;
+  if (editMap.loaded()) {
+    placePin(coords);
+  } else {
+    editMap.once('load', function () { placePin(coords); });
+  }
+  updateCoordsDisplay(coords);
+
+  // Refresh list so new stub appears
+  filterList(document.getElementById('search-input').value);
+  document.getElementById('save-status').textContent = '';
+}
+
+// ── Delete ───────────────────────────────────────────────────────────────────
+async function deleteArea() {
+  if (!selectedId) return;
+  var feature = allFeatures.find(function (f) { return f.properties.id === selectedId; });
+  if (!feature) return;
+  var name = feature.properties.Name || '(unnamed)';
+
+  if (!confirm('Permanently delete "' + name + '" from the dataset?\n\nThis cannot be undone without re-running the merge script.')) return;
+
+  // Remove from in-memory array
+  allFeatures = allFeatures.filter(function (f) { return f.properties.id !== selectedId; });
+
+  // Remove any override for this area
+  if (overrides[selectedId]) {
+    delete overrides[selectedId];
+    await writeJSON(overridesHandle, overrides);
+  }
+
+  // Write updated merged file
+  await writeMerged();
+
+  // Log it
+  addLog(name, ['DELETED']);
+
+  // Reset editor
+  selectedId = null;
+  document.getElementById('editor-content').classList.remove('is-visible');
+  document.getElementById('editor-empty').style.display = '';
+  if (editMarker) { editMarker.remove(); editMarker = null; }
+
+  // Refresh list
+  filterList(document.getElementById('search-input').value);
+  showStatus('', false);
+}
+
+// ── Change log ───────────────────────────────────────────────────────────────
+function addLog(name, fields) {
+  sessionLog.unshift({ name: name, fields: fields, time: new Date() });
+
+  var list = document.getElementById('changelog-list');
+  list.innerHTML = '';
+  sessionLog.forEach(function (entry) {
+    var el = document.createElement('div');
+    el.className = 'log-item';
+    el.innerHTML =
+      '<div class="log-item-name">' + esc(entry.name || '(unnamed)') + '</div>' +
+      '<div class="log-item-fields">' + entry.fields.join(', ') + '</div>' +
+      '<div class="log-item-time">' + entry.time.toLocaleTimeString() + '</div>';
+    list.appendChild(el);
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+{
+  "summary": {
+    "ourTotal": 1273,
+    "skimapNordicNA": 1388,
+    "matched": 370,
+    "ourOnly": 903,
+    "skimapOnlyRaw": 1018,
+    "skimapOnlyFiltered": 203,
+    "mergedTotal": 1476,
+    "matchThresholdKm": 1,
+    "newAreaMinKm": 1
+  },
+  "distanceHistogram": {
+    "0-0.1": 15,
+    "0.1-0.25": 23,
+    "0.25-0.5": 46,
+    "0.5-0.75": 68,
+    "0.75-1.0": 218
+  },
+  "sampleMatches": [
+    {
+      "ourName": "Kincaid Park",
+      "ourRegion": "AK",
+      "ourKm": 69,
+      "skimapName": "Kincaid Park Cross Country Ski Trails",
+      "skimapKm": 0,
+      "distKm": 0.01,
+      "skimapWebsite": "https://www.anchoragenordicski.com/"
+    },
+    {
+      "ourName": "Pigeon Creek",
+      "ourRegion": "MI",
+      "ourKm": 16,
+      "skimapName": "Pigeon Creek Park",
+      "skimapKm": 18.4,
+      "distKm": 0.11,
+      "skimapWebsite": "https://www.miottawa.org/Parks/pigeoncreek.htm"
+    },
+    {
+      "ourName": "Forest Springs Camp",
+      "ourRegion": "WI",
+      "ourKm": 20,
+      "skimapName": "Forest Springs",
+      "skimapKm": 14.3,
+      "distKm": 0.24,
+      "skimapWebsite": "https://forestsprings.us/"
+    },
+    {
+      "ourName": "Soldier Hollow",
+      "ourRegion": "UT",
+      "ourKm": null,
+      "skimapName": "Soldier Hollow",
+      "skimapKm": 28.1,
+      "distKm": 0.35,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Edgewood Golf Course Ski Trail",
+      "ourRegion": "ND",
+      "ourKm": 6,
+      "skimapName": null,
+      "skimapKm": 6.2,
+      "distKm": 0.45,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Murphy's Point Prov. Park",
+      "ourRegion": "ON",
+      "ourKm": 25,
+      "skimapName": null,
+      "skimapKm": 14.5,
+      "distKm": 0.53,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Devil's Thumb",
+      "ourRegion": "CO",
+      "ourKm": null,
+      "skimapName": "Devil's Thumb",
+      "skimapKm": 60,
+      "distKm": 0.58,
+      "skimapWebsite": "https://www.devilsthumbranch.com/"
+    },
+    {
+      "ourName": "Rockport Park",
+      "ourRegion": "WI",
+      "ourKm": 10,
+      "skimapName": "Rockport Park Ski Trails",
+      "skimapKm": 6.5,
+      "distKm": 0.66,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Governor Nelson State Park",
+      "ourRegion": "WI",
+      "ourKm": 6.5,
+      "skimapName": "Governor Nelson State Park",
+      "skimapKm": 9.5,
+      "distKm": 0.71,
+      "skimapWebsite": "https://dnr.wisconsin.gov/topic/parks/govnelson"
+    },
+    {
+      "ourName": "Pembina Nordic Ski Club",
+      "ourRegion": "AB",
+      "ourKm": 20,
+      "skimapName": "Rotary-Pembina Nordic Community Trails North Trail System",
+      "skimapKm": 16.3,
+      "distKm": 0.8,
+      "skimapWebsite": "https://pembinanordic.com/"
+    },
+    {
+      "ourName": "Teacup Nordic",
+      "ourRegion": "OR",
+      "ourKm": 20,
+      "skimapName": null,
+      "skimapKm": 33.3,
+      "distKm": 0.86,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Logan Lake Ski Trails",
+      "ourRegion": "BC",
+      "ourKm": 36,
+      "skimapName": "Logan Lake Trails",
+      "skimapKm": 13.7,
+      "distKm": 0.94,
+      "skimapWebsite": "https://highlandvalleyoutdoorassociation.com/"
+    },
+    {
+      "ourName": "Blueberry Hills",
+      "ourRegion": "MN",
+      "ourKm": 15.8,
+      "skimapName": "Blueberry Hills",
+      "skimapKm": 10.5,
+      "distKm": 1,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Blueberry Ridge Trail",
+      "ourRegion": "MI",
+      "ourKm": 21,
+      "skimapName": "Blueberry Ridge",
+      "skimapKm": 21.3,
+      "distKm": 1.2,
+      "skimapWebsite": "https://www.michigandnr.com/ParksandTrails/Details.aspx?id=88&type=SFPW"
+    },
+    {
+      "ourName": "Bear Mountain XC Ski Trails",
+      "ourRegion": "BC",
+      "ourKm": 35,
+      "skimapName": "Bear Mountain Nordic Ski Trails",
+      "skimapKm": 20.2,
+      "distKm": 1.33,
+      "skimapWebsite": "https://nordicski.ca/"
+    },
+    {
+      "ourName": "Nine Mile County Forest Recreation Area",
+      "ourRegion": "WI",
+      "ourKm": 29.6,
+      "skimapName": "Nine Mile Forest",
+      "skimapKm": 32,
+      "distKm": 1.47,
+      "skimapWebsite": "https://www.wausaunordic.org/nine-mile-forest"
+    },
+    {
+      "ourName": "Tahoe Donner",
+      "ourRegion": "CA",
+      "ourKm": 100,
+      "skimapName": "Tahoe Donner Downhill Ski Area",
+      "skimapKm": 69.3,
+      "distKm": 1.77,
+      "skimapWebsite": "https://www.tahoedonner.com/downhill-ski/"
+    },
+    {
+      "ourName": "Fort Kent",
+      "ourRegion": "ME",
+      "ourKm": null,
+      "skimapName": "Fort Kent Outdoor Center",
+      "skimapKm": 22.7,
+      "distKm": 2.4,
+      "skimapWebsite": "https://www.fortkentoc.org/"
+    },
+    {
+      "ourName": "Mount Shark",
+      "ourRegion": "AB",
+      "ourKm": 20,
+      "skimapName": "Mt. Shark",
+      "skimapKm": 24.9,
+      "distKm": 3.19,
+      "skimapWebsite": null
+    },
+    {
+      "ourName": "Three Eagle Trail",
+      "ourRegion": "WI",
+      "ourKm": 8,
+      "skimapName": "Three Eagle Trail",
+      "skimapKm": 12.9,
+      "distKm": 4.53,
+      "skimapWebsite": "https://www.taralila.org"
+    }
+  ],
+  "sampleNewAreas": [
+    {
+      "name": "APU Mahaffey",
+      "region": "US-AK",
+      "locality": "Anchorage",
+      "km": 186.5,
+      "website": null
+    },
+    {
+      "name": "Camp Fortune",
+      "region": "CA-QC",
+      "locality": "Chelsea",
+      "km": 161.9,
+      "website": "https://campfortune.com/"
+    },
+    {
+      "name": "Mont Grand-Fonds",
+      "region": "CA-QC",
+      "locality": "La Malbaie",
+      "km": 141.1,
+      "website": "https://montgrandfonds.com"
+    },
+    {
+      "name": "Three Summits",
+      "region": "US-WA",
+      "locality": "Snoqualmie Pass",
+      "km": 120.2,
+      "website": "https://www.summitatsnoqualmie.com/"
+    },
+    {
+      "name": "Christmas Tree Homesites",
+      "region": "US-CA",
+      "locality": "Soda Springs",
+      "km": 107.2,
+      "website": "https://www.sugarbowl.com/"
+    },
+    {
+      "name": "Active Backwoods Retreat Ski Trails",
+      "region": "US-MI",
+      "locality": "Erwin",
+      "km": 79.9,
+      "website": null
+    },
+    {
+      "name": "Kananaskis Lakes Cross Country Ski Trails",
+      "region": "CA-AB",
+      "locality": null,
+      "km": 78.5,
+      "website": null
+    },
+    {
+      "name": "Maine Huts and Trails",
+      "region": "US-ME",
+      "locality": "Northwest Somerset",
+      "km": 69.6,
+      "website": "https://mainehuts.org/"
+    },
+    {
+      "name": "Mont Spokane State Park Nordic",
+      "region": "US-ID",
+      "locality": null,
+      "km": 61.2,
+      "website": "https://www.spokanenordic.org/"
+    },
+    {
+      "name": "Mount Van Hoevenberg",
+      "region": "US-NY",
+      "locality": null,
+      "km": 60.8,
+      "website": "https://www.mtvanhoevenberg.com/"
+    },
+    {
+      "name": "Kachemak Nordic Ski Club",
+      "region": "US-AK",
+      "locality": "Diamond Ridge",
+      "km": 56.9,
+      "website": "https://www.kachemaknordicskiclub.org/"
+    },
+    {
+      "name": "North Arm Skiing Trails",
+      "region": "US-MN",
+      "locality": "Morse",
+      "km": 54.7,
+      "website": null
+    },
+    {
+      "name": "Wild River State Park",
+      "region": "US-MN",
+      "locality": "Amador",
+      "km": 54.4,
+      "website": "https://www.dnr.state.mn.us/state_parks/park.html?id=spk00254#homepage"
+    },
+    {
+      "name": "Highway OO Trailhead",
+      "region": "US-WI",
+      "locality": "Hayward",
+      "km": 52.9,
+      "website": "https://www.birkie.com"
+    },
+    {
+      "name": "Duck Mountain Provincial Park Cross Country Ski Trails",
+      "region": "CA-SK",
+      "locality": null,
+      "km": 52.5,
+      "website": "https://www.duckmountainnordicclub.ca/"
+    },
+    {
+      "name": "Sovereign Lake Nordic Club",
+      "region": "CA-BC",
+      "locality": null,
+      "km": 51.6,
+      "website": "https://www.sovereignlake.com/"
+    },
+    {
+      "name": "Mendon Ponds Park",
+      "region": "US-NY",
+      "locality": "Pittsford",
+      "km": 51.4,
+      "website": null
+    },
+    {
+      "name": "Hyalite Canyon Nordic Ski Trails",
+      "region": "US-MT",
+      "locality": null,
+      "km": 49.4,
+      "website": "https://www.bridgerskifoundation.org/"
+    },
+    {
+      "name": "Telluride Ski Area",
+      "region": "US-CO",
+      "locality": "Mountain Village",
+      "km": 49.2,
+      "website": "https://tellurideskiresort.com"
+    },
+    {
+      "name": "Leadville Town Trails",
+      "region": "US-CO",
+      "locality": "Leadville",
+      "km": 49.1,
+      "website": null
+    }
+  ],
+  "craftsbury-vt": {
+    "properties": {
+      "Name": "Craftsbury",
+      "URL": "https://www.craftsbury.com/ski",
+      "region": "VT",
+      "km": 106,
+      "kmSkate": 106,
+      "kmClassic": 106,
+      "passPrice": null,
+      "Snowmaking": "Yes",
+      "Lit": "No",
+      "rentals": "Yes",
+      "lessons": "Yes",
+      "dogs": "Yes",
+      "Notes": null,
+      "groomType": "both",
+      "Groomed": "Yes",
+      "groomSkate": "Yes",
+      "groomClassic": "Yes"
+    },
+    "_editedAt": "2026-10-19T15:58:24.310Z",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.3627400744355,
+        44.67881640906103
+      ]
+    }
+  },
+  "mt-washington-nh": {
+    "properties": {
+      "Name": "Great Glenn Nordic",
+      "URL": null,
+      "region": "NH",
+      "km": null,
+      "kmSkate": null,
+      "kmClassic": null,
+      "passPrice": null,
+      "Snowmaking": null,
+      "Lit": null,
+      "rentals": "Yes",
+      "lessons": null,
+      "dogs": null,
+      "adminStatus": null,
+      "Notes": null,
+      "groomType": "both",
+      "Groomed": "Yes",
+      "groomSkate": "Yes",
+      "groomClassic": "Yes"
+    },
+    "_editedAt": "2026-10-19T16:56:54.259Z",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -71.22465518778765,
+        44.28863028296897
+      ]
+    }
+  }
+}

@@ -1679,6 +1679,10 @@ var sourceIsFiltered = false;
 var lastFilterKey    = '';
 var dataLoaded       = false;
 
+/* Trail run data — lazy-loaded once on first area selection */
+var runsGeoJSON      = null;   // full feature collection after first load
+var runsLoading      = false;  // guard against concurrent fetches
+
 /* --- URL → state (runs immediately; map/area applied after data loads) --- */
 var pendingMapParam  = null;
 var pendingAreaParam = null;
@@ -2305,7 +2309,7 @@ map.on('load', function () {
 
   map.addSource('nordic-ski-areas', {
     type: 'geojson',
-    data: 'data/nordic-ski-areas-v2.geojson',
+    data: 'data/nordic-ski-areas-merged.geojson',
     cluster: true,
     clusterMaxZoom: 10,
     clusterRadius: 40,
@@ -2313,7 +2317,7 @@ map.on('load', function () {
     promoteId: 'id'
   });
 
-  fetch('data/nordic-ski-areas-v2.geojson')
+  fetch('data/nordic-ski-areas-merged.geojson')
     .then(function (r) { return r.json(); })
     .then(function (data) {
       fullGeoJSON = data;
@@ -2408,6 +2412,43 @@ map.on('load', function () {
       ],
       'line-width': ['interpolate', ['linear'], ['zoom'], 10, 1.5, 14, 4],
       'line-opacity': 0.85
+    }
+  });
+
+  /* Selected-area trail lines (our pre-built run data) ---------- */
+  map.addSource('selected-area-runs', {
+    type: 'geojson',
+    data: { type: 'FeatureCollection', features: [] }
+  });
+
+  map.addLayer({
+    id: 'selected-runs-casing',
+    type: 'line',
+    source: 'selected-area-runs',
+    layout: { 'line-cap': 'round', 'line-join': 'round' },
+    paint: {
+      'line-color': '#fff',
+      'line-width': ['interpolate', ['linear'], ['zoom'], 8, 2, 14, 7],
+      'line-opacity': 0.6
+    }
+  });
+
+  map.addLayer({
+    id: 'selected-runs-lines',
+    type: 'line',
+    source: 'selected-area-runs',
+    layout: { 'line-cap': 'round', 'line-join': 'round' },
+    paint: {
+      'line-color': [
+        'match', ['get', 'grooming'],
+        ['classic+skating', 'skating+classic'], '#1b4f8a',
+        'skating',     '#e07b24',
+        'classic',     '#6cc0e5',
+        'backcountry', '#7c5c3a',
+        '#9aa4ad'
+      ],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 8, 1, 14, 5],
+      'line-opacity': 0.9
     }
   });
 
@@ -2933,8 +2974,8 @@ function openDetailPanel(feature) {
     return el;
   }
 
-  // Trail length
-  var km = prop.km;
+  // Trail length — use our curated km if present, fall back to skimap stats
+  var km = prop.km != null ? prop.km : (prop.skimapKm || null);
   var skKm = prop.kmSkate;
   var clKm = prop.kmClassic;
   var kmDisplay;
@@ -3020,6 +3061,45 @@ function openDetailPanel(feature) {
   }
 
   history.pushState({ areaId: prop.id }, '', buildQueryString());
+
+  // Load trail lines for this area if it has a skimapId
+  loadAreaRuns(prop.skimapId || null);
+}
+
+function loadAreaRuns(skimapId) {
+  var src = map.getSource('selected-area-runs');
+  if (!src) return;
+
+  if (!skimapId) {
+    src.setData({ type: 'FeatureCollection', features: [] });
+    return;
+  }
+
+  function applyRuns(gj) {
+    var filtered = gj.features.filter(function (f) {
+      return f.properties.skiAreaId === skimapId;
+    });
+    src.setData({ type: 'FeatureCollection', features: filtered });
+  }
+
+  if (runsGeoJSON) {
+    applyRuns(runsGeoJSON);
+    return;
+  }
+
+  if (runsLoading) return; // another load in flight; it will re-apply when done
+  runsLoading = true;
+
+  fetch('data/nordic-ski-runs-na.geojson')
+    .then(function (r) { return r.json(); })
+    .then(function (gj) {
+      runsGeoJSON = gj;
+      runsLoading = false;
+      applyRuns(gj);
+    })
+    .catch(function () {
+      runsLoading = false;
+    });
 }
 
 function closeDetailPanel() {
@@ -3033,6 +3113,11 @@ function closeDetailPanel() {
     listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
     state.selectedId = null;
   }
+
+  // Clear selected-area trail lines
+  var src = map.getSource('selected-area-runs');
+  if (src) src.setData({ type: 'FeatureCollection', features: [] });
+
   scheduleUrlSync();
   saveToStorage();
 }

@@ -4,11 +4,11 @@
  * Phase 1: Match our nordic-ski-areas-v2.geojson against skimap ski_areas.geojson
  * and produce a merged dataset + verification report.
  *
- * Usage: node scripts/merge-skimap.js
+ * Usage: node dev/scripts/merge-skimap.js
  *
  * Outputs:
  *   data/nordic-ski-areas-merged.geojson  — enriched + net-new areas
- *   data/merge-report.json               — match stats and samples for review
+ *   dev/source-data/merge-report.json              — match stats and samples for review
  */
 
 'use strict';
@@ -17,10 +17,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const OUR_FILE       = path.join(ROOT, 'data', 'nordic-ski-areas-v2.geojson');
-const SKIMAP_FILE    = path.join(ROOT, 'data', 'ski_areas.geojson');
+const OUR_FILE       = path.join(ROOT, 'dev', 'source-data', 'nordic-ski-areas-v2.geojson');
+const SKIMAP_FILE    = path.join(ROOT, 'dev', 'source-data', 'ski_areas.geojson');
 const OUT_MERGED     = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
-const OUT_REPORT     = path.join(ROOT, 'data', 'merge-report.json');
+const OUT_REPORT     = path.join(ROOT, 'dev', 'source-data', 'merge-report.json');
 const OVERRIDES_FILE = path.join(ROOT, 'data', 'manual-overrides.json');
 
 const MATCH_KM = 1.0;   // proximity threshold

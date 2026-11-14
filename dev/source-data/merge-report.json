@@ -370,12 +370,12 @@
       ]
     }
   },
-  "mt-washington-nh": {
+  "cf493f822dae9636a6c74212c7b676d891047358": {
     "properties": {
-      "Name": "Great Glenn Nordic",
-      "URL": null,
-      "region": "NH",
-      "km": null,
+      "Name": "Great Glen Trails",
+      "URL": "https://greatglentrails.com/",
+      "region": "Greens, US-NH",
+      "km": 14,
       "kmSkate": null,
       "kmClassic": null,
       "passPrice": null,
@@ -391,12 +391,35 @@
       "groomSkate": "Yes",
       "groomClassic": "Yes"
     },
-    "_editedAt": "2026-10-19T16:56:54.259Z",
+    "_editedAt": "2026-10-19T17:31:53.851Z"
+  },
+  "rangeley-lakes-me": {
+    "properties": {
+      "Name": "Rangeley Lakes",
+      "URL": "https://rangeleylakestrailscenter.org/",
+      "region": "ME",
+      "km": null,
+      "kmSkate": null,
+      "kmClassic": null,
+      "passPrice": null,
+      "Snowmaking": null,
+      "Lit": null,
+      "rentals": null,
+      "lessons": null,
+      "dogs": null,
+      "adminStatus": null,
+      "Notes": null,
+      "groomType": null,
+      "Groomed": null,
+      "groomSkate": null,
+      "groomClassic": null
+    },
+    "_editedAt": "2026-10-24T21:32:43.683Z",
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -71.22465518778765,
-        44.28863028296897
+        -70.56564145458935,
+        44.95676428528816
       ]
     }
   }

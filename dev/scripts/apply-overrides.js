@@ -5,7 +5,7 @@
  * without re-running the full merge. Use this after editing in admin.html
  * when you want to bake the overrides into the file for committing.
  *
- * Usage: node scripts/apply-overrides.js
+ * Usage: node dev/scripts/apply-overrides.js
  */
 
 'use strict';

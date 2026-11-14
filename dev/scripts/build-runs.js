@@ -4,7 +4,7 @@
  * Phase 2: Stream-parse runs.geojson and output a lean file of nordic
  * trail lines for areas that are in our merged dataset.
  *
- * Usage: node scripts/build-runs.js
+ * Usage: node dev/scripts/build-runs.js
  *
  * Output: data/nordic-ski-runs-na.geojson
  */
@@ -17,7 +17,7 @@ const readline = require('readline');
 
 const ROOT        = path.join(__dirname, '..');
 const MERGED_FILE = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
-const RUNS_FILE   = path.join(ROOT, 'data', 'runs.geojson');
+const RUNS_FILE   = path.join(ROOT, 'dev', 'source-data', 'runs.geojson');
 const OUT_FILE    = path.join(ROOT, 'data', 'nordic-ski-runs-na.geojson');
 
 // ── Collect skimapIds present in the merged dataset ──────────────────────────

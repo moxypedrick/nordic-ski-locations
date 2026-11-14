@@ -3382,21 +3382,11 @@ function openDetailPanel(feature) {
   // Fly to pin — on mobile map view, always zoom in for trails visibility
   var coords = feature.geometry.coordinates;
   var isMobileMap = window.innerWidth <= 760 && document.body.classList.contains('mobile-map-view');
-  if (isMobileMap) {
-    var targetZoom = Math.max(map.getZoom(), 12);
-    // Push the logical center down so the pin lands ~40% from the top of
-    // the visible map area above the sheet.  Positive Y = center moves down
-    // = pin moves up relative to the canvas midpoint.
-    var mapEl = document.getElementById('map');
-    var sheetEl2 = document.getElementById('map-bottom-sheet');
-    var mapH = mapEl ? mapEl.offsetHeight : 500;
-    var sheetH = sheetEl2 ? sheetEl2.offsetHeight : 200;
-    var visibleH = mapH - sheetH;
-    var offsetY = Math.round((mapH / 2) - (visibleH * 0.4));
-    map.flyTo({ center: coords, zoom: targetZoom, offset: [0, offsetY] });
-  } else if (!map.getBounds().contains(coords)) {
+  if (!isMobileMap && !map.getBounds().contains(coords)) {
     map.flyTo({ center: coords, zoom: 12 });
   }
+  // Mobile map: flyTo is deferred to _openMapBottomSheet so the sheet
+  // height is fully measured after content is populated.
 
   history.pushState({ areaId: prop.id }, '', buildQueryString());
 
@@ -4023,6 +4013,17 @@ if (btnDismissEl) {
 
     sheetEl.setAttribute('aria-hidden', 'false');
     sheetEl.classList.add('is-open');
+
+    // flyTo now that sheet height is known — pin lands at ~40% from top of visible area
+    if (typeof map !== 'undefined') {
+      var mapEl = document.getElementById('map');
+      var mapH  = mapEl ? mapEl.offsetHeight : 500;
+      var sheetH = sheetEl.offsetHeight;
+      var visibleH = mapH - sheetH;
+      var offsetY  = Math.round((mapH / 2) - (visibleH * 0.4));
+      var targetZoom = Math.max(map.getZoom(), 12);
+      map.flyTo({ center: coords, zoom: targetZoom, offset: [0, offsetY] });
+    }
   }
 
   function updateSaveBtn(id) {

@@ -750,6 +750,7 @@ button {
   flex: 999 1 560px;
   min-width: 0;
   position: relative;
+  z-index: 0; /* A4: own stacking context keeps map overlays below header + popovers */
 }
 
 /* =========================================================
@@ -1350,6 +1351,112 @@ button {
     left: auto;
     margin-bottom: 4px;
   }
+
+  /* B1: hide sync pill in map view (no list visible), shrink share button */
+  body.mobile-map-view .sync-switch-wrap { display: none; }
+  .btn-share__label { display: none; }
+
+  /* B1: trail-length slider lives inside the collapsible filter area */
+  .filter-bar__chips > .trail-length-area {
+    flex: 0 0 100%;
+    border-bottom: none;
+    padding: 4px 4px 2px;
+  }
+}
+
+/* =========================================================
+   UX fixes: status line, units toggle, layers panel, loading pill,
+   list-more button, detail-open state, more-details button
+   ========================================================= */
+.snow-status {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.units-toggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.units-toggle button {
+  border: none;
+  background: #fff;
+  color: var(--navy);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+.units-toggle button[aria-pressed="true"] { background: var(--navy); color: #fff; }
+.units-toggle button:focus-visible { outline: 2px solid #6cc0e5; outline-offset: -2px; }
+
+.layers-wrap { position: relative; }
+.layers-panel {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 210px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-popover);
+  padding: 12px 14px;
+  font-size: 13px;
+  color: var(--ink);
+}
+.layers-panel.is-open { display: block; }
+.layers-panel__title { font-weight: 600; margin-bottom: 6px; }
+.layers-panel label { display: flex; align-items: center; gap: 8px; padding: 3px 0; cursor: pointer; }
+.layers-panel__sep { border-top: 1px solid var(--line); margin: 8px 0; }
+.layers-panel__help { font-size: 12px; color: var(--muted); margin: 2px 0 0 24px; }
+.layers-panel input:disabled + span { color: var(--muted); }
+
+.map-loading-pill {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background: #fff;
+  border-radius: var(--radius-pill);
+  padding: 6px 16px;
+  box-shadow: var(--shadow-control);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.btn-list-more {
+  display: block;
+  width: calc(100% - 32px);
+  margin: 12px 16px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: #fff;
+  color: var(--navy);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-list-more:hover { background: var(--chip); }
+
+.sidebar.is-detail-open .trail-length-area,
+.sidebar.is-detail-open .results-header,
+.sidebar.is-detail-open .listing { display: none; }
+
+.listing-error {
+  padding: 32px 16px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--muted);
 }
 
 /* =========================================================
@@ -1375,7 +1482,7 @@ button {
     box-shadow: 0 -4px 24px rgba(18,33,47,.18);
     padding: 10px 20px 32px;
     z-index: 20;
-    max-height: 50vh;
+    max-height: 60%;
     overflow-y: auto;
     transform: translateY(100%);
     transition: transform 0.28s cubic-bezier(.32,.72,0,1);
@@ -1625,7 +1732,7 @@ button {
 
   <div class="site-header__actions">
     <div class="share-wrap">
-      <button class="btn-share" id="btn-share" type="button" aria-haspopup="true" aria-expanded="false">
+      <button class="btn-share" id="btn-share" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Share this search">
         <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
         </svg>
@@ -1682,7 +1789,7 @@ button {
 
   <!-- Favorites toggle -->
   <button class="chip" id="chip-favorites" type="button" aria-pressed="false">
-    ☆ Favorites
+    ★ Saved
   </button>
 
   <!-- Fresh snow popover -->
@@ -1709,22 +1816,10 @@ button {
     </div>
   </div>
 
-  <!-- More filters popover -->
-  <div class="chip-wrap">
-    <button class="chip" id="chip-more" type="button" aria-haspopup="true" aria-expanded="false">
-      <span id="chip-more-label">More filters</span> <span aria-hidden="true">▾</span>
-    </button>
-    <div class="popover" id="popover-more" role="dialog" aria-label="More filters">
-      <div class="popover__body">
-        <label class="popover-label">
-          <input type="checkbox" id="filter-lit"> Lit at night
-        </label>
-      </div>
-      <div class="popover__footer">
-        <button class="btn-show-areas" id="btn-show-more" type="button">Show areas</button>
-      </div>
-    </div>
-  </div>
+  <!-- Lit at night toggle -->
+  <button class="chip" id="chip-lit" type="button" aria-pressed="false">
+    Lit at night
+  </button>
 
   <!-- Clear all -->
   <button class="chip chip--clear" id="chip-clear" type="button" style="display:none" aria-label="Clear all filters">
@@ -1786,6 +1881,11 @@ button {
       <div style="flex:1;min-width:0;">
         <div class="results-count" id="result-count" aria-live="polite" aria-atomic="true"></div>
         <div class="results-subtitle" id="result-subtitle"></div>
+        <div class="snow-status" id="snow-status" style="display:none" role="status"></div>
+      </div>
+      <div class="units-toggle" id="units-toggle" role="group" aria-label="Distance and snow units">
+        <button type="button" id="units-imperial" aria-pressed="true">mi</button>
+        <button type="button" id="units-metric" aria-pressed="false">km</button>
       </div>
       <select class="sort-select" id="sort-select" aria-label="Sort ski areas">
         <option value="name">Name (A–Z)</option>
@@ -1840,6 +1940,9 @@ button {
   <!-- Map -->
   <div id="map">
 
+    <!-- Loading pill (D1) -->
+    <div class="map-loading-pill" id="map-loading-pill" role="status">Loading ski areas…</div>
+
     <!-- Sync switch -->
     <div class="sync-switch-wrap">
       <label class="sync-label">
@@ -1866,20 +1969,20 @@ button {
           <path d="M1.5 1h4a.5.5 0 0 1 0 1H2.707l3.647 3.646a.5.5 0 1 1-.708.708L2 2.707V5.5a.5.5 0 0 1-1 0v-4A.5.5 0 0 1 1.5 1zm13 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V2.707l-3.646 3.647a.5.5 0 0 1-.708-.708L13.293 2H10.5a.5.5 0 0 1 0-1h4zM1 10a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H2.707l3.647 3.646a.5.5 0 0 1-.708.708L2 11.707V14.5a.5.5 0 0 1-1 0v-4zm14 0v4a.5.5 0 0 1-1 0v-2.793l-3.646 3.647a.5.5 0 0 1-.708-.708L13.293 11H10.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5z"/>
         </svg>
       </button>
-      <!-- Snow color mode toggle (Step 12) -->
-      <button class="nav-btn" id="btn-color-mode" type="button" title="Color pins by recent snow" aria-label="Color pins by recent snow" aria-pressed="false">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 2a1 1 0 0 1 1 1v1.07A8 8 0 0 1 20 12a8 8 0 0 1-7 7.93V21a1 1 0 0 1-2 0v-1.07A8 8 0 0 1 4 12a8 8 0 0 1 7-7.93V3a1 1 0 0 1 1-1zm0 4a6 6 0 1 0 0 12A6 6 0 0 0 12 6zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/>
-        </svg>
-      </button>
-      <!-- Trail lines toggle (Step 13) -->
-      <button class="nav-btn" id="btn-trails" type="button" title="Zoom in to see trails" aria-label="Show ski trails" aria-pressed="false" disabled>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M3 17 Q7 11 12 13 Q17 15 21 7"/>
-          <circle cx="3" cy="17" r="1.5" fill="currentColor" stroke="none"/>
-          <circle cx="21" cy="7" r="1.5" fill="currentColor" stroke="none"/>
-        </svg>
-      </button>
+      <!-- Layers control (C6): pin colour mode + trail lines -->
+      <div class="layers-wrap">
+        <button class="nav-btn" id="btn-layers" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Map layers" title="Map layers">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </button>
+        <div class="layers-panel" id="layers-panel" role="dialog" aria-label="Map layers">
+          <div class="layers-panel__title">Colour pins by</div>
+          <label><input type="radio" name="color-mode" id="color-groom" value="groom" checked><span>Grooming</span></label>
+          <label><input type="radio" name="color-mode" id="color-snow" value="snow"><span>Recent snow</span></label>
+          <div class="layers-panel__sep"></div>
+          <label><input type="checkbox" id="chk-trails" disabled><span>Show trail lines</span></label>
+          <div class="layers-panel__help" id="trails-help">Zoom in to show trails.</div>
+        </div>
+      </div>
     </div>
 
     <!-- Legend toggle button (mobile: collapses the legend) -->
@@ -1903,6 +2006,9 @@ button {
         <span class="map-legend__dot" style="background:#6cc0e5"></span>Classic only
       </div>
       <div class="map-legend__item">
+        <span class="map-legend__dot" style="background:#5f7d95"></span>Groomed (style not listed)
+      </div>
+      <div class="map-legend__item">
         <span class="map-legend__dot" style="background:#9aa4ad"></span>Grooming unknown
       </div>
     </div>
@@ -1910,9 +2016,9 @@ button {
     <!-- Snow color legend (Step 12, hidden by default) -->
     <div class="map-legend" id="legend-snow" aria-label="Recent snowfall legend" style="display:none">
       <div class="map-legend__title">New snow</div>
-      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#ffffff"></span>4"+</div>
-      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#2b87c8"></span>2–4"</div>
-      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#6db3e0"></span>0.5–2"</div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#ffffff"></span><span data-snow-legend="4+">4"+</span></div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#2b87c8"></span><span data-snow-legend="2-4">2–4"</span></div>
+      <div class="map-legend__row"><span class="map-legend__swatch" style="background:#6db3e0"></span><span data-snow-legend="0.5-2">0.5–2"</span></div>
       <div class="map-legend__row"><span class="map-legend__swatch" style="background:#b8d4e8"></span>Trace</div>
       <div class="map-legend__row"><span class="map-legend__swatch" style="background:#9aa4ad"></span>None</div>
     </div>
@@ -1949,9 +2055,10 @@ button {
           Website
         </a>
         <button class="mbs-btn" id="mbs-save" type="button">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" id="mbs-save-icon"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" id="mbs-save-icon"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
           <span id="mbs-save-label">Save</span>
         </button>
+        <button class="mbs-btn" id="mbs-more" type="button">More details</button>
       </div>
     </div>
     <div id="map-sheet-backdrop" class="map-sheet-backdrop"></div>
@@ -1994,8 +2101,19 @@ var state = {
   selectedId:  null,      // open area id
   favorites:     false,   // filter: show only favorites (Step 10)
   snowWindow:    24,      // snow time window in hours: 6|12|24|48 (Step 11)
-  mapColorMode: 'groom'   // 'groom' | 'snow' (Step 12)
+  mapColorMode: 'groom',  // 'groom' | 'snow' (Step 12)
+  units:       'imperial' // 'imperial' | 'metric' — distance + snow (C4)
 };
+
+var UNITS_KEY = 'nsc:v1:units';
+(function () {
+  var u = null;
+  try { u = localStorage.getItem(UNITS_KEY); } catch (e) {}
+  if (u !== 'imperial' && u !== 'metric') {
+    u = (navigator.language === 'en-US') ? 'imperial' : 'metric';
+  }
+  state.units = u;
+}());
 
 var allFeatures     = [];
 var visibleFeatures = [];  // features in current map bounds (unique by id)
@@ -2096,9 +2214,45 @@ function saveFavorites() {
 /* =================================================================
    Step 11 — Snow data cache
    ================================================================= */
+var SNOW_MAX_AREAS  = 60;               // never request snow for more areas than this
+var SNOW_BATCH      = 50;               // locations per Open-Meteo request
+var SNOW_TTL        = 30 * 60 * 1000;   // cache freshness
+var SNOW_ERR_RETRY  = 5 * 60 * 1000;    // don't retry a failed area before this
+var SNOW_CACHE_KEY  = 'nsc:v1:snow';
+var snowBlockedUntil = 0;               // after a 429, no fetches until this time
+var snowGen          = 0;               // generation counter: newer load cancels older
+var snowTimer        = null;
+var snowLoading      = false;
+var snowLastFeatures = [];
+var snowFilterSuspended = false;        // true when too many areas are in view to filter by snow
+
 var snowCache = {};
 // snowCache[areaId] = { fetchedAt, snowfall6h, snowfall12h, snowfall24h, snowfall48h, depthIn }
 // or { fetchedAt, error: true } on fetch failure
+(function () {
+  try {
+    var raw = sessionStorage.getItem(SNOW_CACHE_KEY);
+    if (!raw) return;
+    var obj = JSON.parse(raw), now = Date.now();
+    Object.keys(obj).forEach(function (id) {
+      var c = obj[id];
+      if (!c || typeof c.fetchedAt !== 'number') return;
+      var ttl = c.error ? SNOW_ERR_RETRY : SNOW_TTL;
+      if (now - c.fetchedAt < ttl) snowCache[id] = c;
+    });
+  } catch (e) {}
+}());
+
+function saveSnowCache() {
+  try { sessionStorage.setItem(SNOW_CACHE_KEY, JSON.stringify(snowCache)); } catch (e) {}
+}
+
+/* Snow amount as text. Internally everything is inches; metric shows cm. */
+function snowText(inches, decimals) {
+  var d = decimals == null ? 1 : decimals;
+  if (state.units === 'metric') return (inches * 2.54).toFixed(d) + ' cm';
+  return inches.toFixed(d) + '"';
+}
 
 function buildQueryString() {
   var p = [];
@@ -2187,15 +2341,15 @@ function hasActiveFilters() {
       || state.favorites || f.snowMinIn > 0;
 }
 
-function featureMatchesFilters(feature) {
+function featureMatchesFilters(feature, ignoreSnow) {
   var prop = feature.properties;
   var f    = state.filters;
 
   // Favorites filter (Step 10)
   if (state.favorites && !favoriteIds.has(prop.id)) return false;
 
-  // Snow filter (Step 11)
-  if (f.snowMinIn > 0) {
+  // Snow filter (Step 11). Skipped when too many areas are in view (A1.8).
+  if (f.snowMinIn > 0 && !ignoreSnow && !snowFilterSuspended) {
     var sc = snowCache[prop.id];
     if (!sc || sc.error) return false;
     if (snowInchesForWindow(sc, state.snowWindow) < f.snowMinIn) return false;
@@ -2265,8 +2419,26 @@ function sortFeatures(arr) {
 /* =================================================================
    Grooming dot color
    ================================================================= */
-var GROOM_COLOR = { both: '#1b4f8a', skate: '#e07b24', classic: '#6cc0e5', unknown: '#9aa4ad', yes: '#9aa4ad' };
-var GROOM_LABEL = { both: 'Skate + classic', skate: 'Skate only', classic: 'Classic only', unknown: 'Grooming unknown', yes: 'Grooming unknown' };
+var GROOM_INFO = {
+  both:    { label: 'Skate + classic',            color: '#1b4f8a' },
+  skate:   { label: 'Skate only',                 color: '#e07b24' },
+  classic: { label: 'Classic only',               color: '#6cc0e5' },
+  yes:     { label: 'Groomed (style not listed)', color: '#5f7d95' },
+  unknown: { label: 'Grooming unknown',           color: '#9aa4ad' }
+};
+var GROOM_COLOR = {};
+Object.keys(GROOM_INFO).forEach(function (k) { GROOM_COLOR[k] = GROOM_INFO[k].color; });
+
+/* One source of truth for grooming label + colour (cards, detail, sheet). null → unknown. */
+function groomDisplayInfo(prop) {
+  return GROOM_INFO[prop.groomType] || GROOM_INFO.unknown;
+}
+
+/* C3: "US-WA" → "WA", "Wolfeboro, US-NH" → "Wolfeboro, NH" */
+function formatRegion(region) {
+  if (!region) return '';
+  return String(region).replace(/(US|CA)-(?=[A-Z]{2})/g, '');
+}
 
 /* =================================================================
    Skeleton loading cards
@@ -2290,8 +2462,36 @@ function renderSkeleton() {
    Card render
    ================================================================= */
 var CAP = 100;
+var listLimit = CAP;            // D2: grows by CAP per "Show more" click
+var listKey = '';               // resets listLimit when filters/sort/view change
+var lastRenderedFeatures = [];
+var pendingListScroll = null;   // A3: list scroll to restore after view restore
+
+function snowStatusMessage() {
+  var wanted = state.filters.snowMinIn > 0 || state.mapColorMode === 'snow';
+  if (!wanted) return '';
+  if (snowLastFeatures.length > SNOW_MAX_AREAS) return 'Zoom in to load snow data.';
+  if (Date.now() < snowBlockedUntil) return 'Snow data is unavailable right now.';
+  var failed = snowLastFeatures.some(function (f) {
+    var c = snowCache[f.properties.id];
+    return c && c.error;
+  });
+  if (failed && !snowLoading) return 'Snow data is unavailable right now.';
+  if (snowLoading) return 'Loading snow data…';
+  return '';
+}
+
+function updateSnowStatus() {
+  var el = document.getElementById('snow-status');
+  if (!el) return;
+  var msg = snowStatusMessage();
+  el.textContent = msg;
+  el.style.display = msg ? '' : 'none';
+}
 
 function renderListings(features) {
+  var prevScroll = listingEl.scrollTop;
+  lastRenderedFeatures = features;
   listingEl.innerHTML = '';
 
   /* --- Empty state --- */
@@ -2315,6 +2515,7 @@ function renderListings(features) {
       wrap.textContent = 'Pan and zoom the map to explore ski areas';
     }
     listingEl.appendChild(wrap);
+    loadSnowForVisible([]);
     return;
   }
 
@@ -2331,13 +2532,12 @@ function renderListings(features) {
 
   /* --- Sort --- */
   var sorted = sortFeatures(features);
-  var capped = sorted.length > CAP;
-  var toRender = capped ? sorted.slice(0, CAP) : sorted;
+  var capped = sorted.length > listLimit;
+  var toRender = capped ? sorted.slice(0, listLimit) : sorted;
 
   /* --- Cards --- */
   toRender.forEach(function (feature) {
     var prop = feature.properties;
-    var gt   = prop.groomType || 'unknown';
 
     var btn = document.createElement('button');
     btn.className = 'card' + (prop.id === state.selectedId ? ' is-active' : '');
@@ -2364,8 +2564,8 @@ function renderListings(features) {
       starBtn.type = 'button';
       var isFav = favoriteIds.has(featureId);
       starBtn.className = 'card__star' + (isFav ? ' is-favorited' : '');
-      starBtn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
-      starBtn.setAttribute('title', isFav ? 'Remove from favorites' : 'Add to favorites');
+      starBtn.setAttribute('aria-label', isFav ? 'Remove from saved' : 'Save');
+      starBtn.setAttribute('title', isFav ? 'Remove from saved' : 'Save');
       starBtn.textContent = isFav ? '★' : '☆';
       starBtn.addEventListener('click', function (e) {
         e.stopPropagation();
@@ -2379,7 +2579,7 @@ function renderListings(features) {
     if (prop.region) {
       var regionEl = document.createElement('div');
       regionEl.className = 'card__region';
-      regionEl.textContent = prop.region;
+      regionEl.textContent = formatRegion(prop.region);
       btn.appendChild(regionEl);
     }
 
@@ -2388,13 +2588,14 @@ function renderListings(features) {
     tags.className = 'card__tags';
 
     // Grooming tag
+    var gInfo = groomDisplayInfo(prop);
     var groomTag = document.createElement('span');
     groomTag.className = 'tag tag--groom';
     var dot = document.createElement('span');
     dot.className = 'tag__dot';
-    dot.style.background = GROOM_COLOR[gt] || GROOM_COLOR.unknown;
+    dot.style.background = gInfo.color;
     groomTag.appendChild(dot);
-    groomTag.appendChild(document.createTextNode(GROOM_LABEL[gt] || 'Grooming unknown'));
+    groomTag.appendChild(document.createTextNode(gInfo.label));
     tags.appendChild(groomTag);
 
     // km tag
@@ -2421,22 +2622,16 @@ function renderListings(features) {
       tags.appendChild(litTag);
     }
 
-    // Snow badge (Step 11)
-    (function (featureId) {
-      var snowBadge = document.createElement('span');
-      snowBadge.className = 'tag tag--newsnow';
-      snowBadge.id = 'snow-badge-' + featureId;
-      var cachedSnow = snowCache[featureId];
-      if (cachedSnow && !cachedSnow.error) {
-        var snowIn = snowInchesForWindow(cachedSnow, state.snowWindow);
-        if (snowIn > 0) {
-          snowBadge.textContent = '❄ ' + snowIn.toFixed(1) + '"';
-          tags.appendChild(snowBadge);
-        }
-      }
-    }(prop.id));
+    // Snow badge (Step 11): always present, hidden until data arrives (A1.6)
+    var snowBadge = document.createElement('span');
+    snowBadge.className = 'tag tag--newsnow';
+    snowBadge.id = 'snow-badge-' + prop.id;
+    snowBadge.style.display = 'none';
+    tags.appendChild(snowBadge);
 
     btn.appendChild(tags);
+    listingEl.appendChild(btn);
+    updateSnowBadge(prop.id);
 
     /* Interactions */
     btn.addEventListener('mouseover', function () {
@@ -2447,26 +2642,29 @@ function renderListings(features) {
     });
 
     btn.addEventListener('click', function () {
-      // Clear previous selected feature-state
-      if (state.selectedId) {
-        map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
-      }
-      listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
-      btn.classList.add('is-active');
-      state.selectedId = prop.id;
-      map.setFeatureState({ source: 'nordic-ski-areas', id: prop.id }, { selected: true });
-      openDetailPanel(feature);
+      selectArea(feature, 'card');
     });
-
-    listingEl.appendChild(btn);
   });
 
-  /* "Zoom in to see more" row */
+  /* D2: "Show more" button */
   if (capped) {
-    var more = document.createElement('div');
-    more.className = 'listing-more';
-    more.textContent = 'Showing 100 of ' + sorted.length + ' areas. Zoom in to see fewer.';
-    listingEl.appendChild(more);
+    var remaining = sorted.length - listLimit;
+    var moreBtn = document.createElement('button');
+    moreBtn.type = 'button';
+    moreBtn.className = 'btn-list-more';
+    moreBtn.textContent = 'Show ' + Math.min(CAP, remaining) + ' more (' + remaining + ' remaining)';
+    moreBtn.addEventListener('click', function () {
+      listLimit += CAP;
+      renderListings(lastRenderedFeatures);
+    });
+    listingEl.appendChild(moreBtn);
+  }
+
+  if (pendingListScroll !== null) {
+    listingEl.scrollTop = pendingListScroll;
+    pendingListScroll = null;
+  } else {
+    listingEl.scrollTop = prevScroll;
   }
 
   /* Kick off snow data loading for visible features (Step 11) */
@@ -2513,10 +2711,11 @@ var navZoomIn  = document.getElementById('nav-zoom-in');
 var navZoomOut = document.getElementById('nav-zoom-out');
 var navFit     = document.getElementById('nav-fit');
 
-if (navZoomIn)  navZoomIn.addEventListener('click',  function () { map.zoomIn(); });
-if (navZoomOut) navZoomOut.addEventListener('click', function () { map.zoomOut(); });
+if (navZoomIn)  navZoomIn.addEventListener('click',  function () { viewBeforeSelect = null; map.zoomIn(); });
+if (navZoomOut) navZoomOut.addEventListener('click', function () { viewBeforeSelect = null; map.zoomOut(); });
 if (navFit) {
   navFit.addEventListener('click', function () {
+    viewBeforeSelect = null;
     if (dataBounds) {
       map.fitBounds(dataBounds, { padding: 40 });
     } else {
@@ -2529,8 +2728,10 @@ if (navFit) {
    Distance formatting (haversine — location added in Step 6)
    ================================================================= */
 function formatDist(miles) {
-  if (miles < 10) return (Math.round(miles * 10) / 10) + ' mi';
-  return Math.round(miles) + ' mi';
+  var unit = 'mi', v = miles;
+  if (state.units === 'metric') { v = miles * 1.609344; unit = 'km'; }
+  if (v < 10) return (Math.round(v * 10) / 10) + ' ' + unit;
+  return Math.round(v) + ' ' + unit;
 }
 
 /* =================================================================
@@ -2542,7 +2743,7 @@ function clearFilters() {
   // Sync filter DOM elements (defined in Step 4 JS below; safe at runtime)
   if (filterSkateEl)   filterSkateEl.checked   = false;
   if (filterClassicEl) filterClassicEl.checked = false;
-  if (filterLitEl)     filterLitEl.checked     = false;
+  if (chipLitEl)       chipLitEl.setAttribute('aria-pressed', 'false');
   if (chipSnowEl)      chipSnowEl.setAttribute('aria-pressed', 'false');
   if (tlMinEl)         tlMinEl.value            = '0';
   if (tlMaxEl)         tlMaxEl.value            = '100';
@@ -2551,7 +2752,8 @@ function clearFilters() {
   var snowSliderEl = document.getElementById('snow-min-slider');
   var snowReadoutEl = document.getElementById('snow-min-readout');
   if (snowSliderEl) snowSliderEl.value = '0';
-  if (snowReadoutEl) snowReadoutEl.textContent = '0"';
+  if (snowReadoutEl) snowReadoutEl.textContent = snowText(0, 0);
+  hideWelcomeBanner();
   applyFilters();
 }
 
@@ -2562,16 +2764,36 @@ function applyFilters() {
   if (typeof updateFilterChipStates === 'function') updateFilterChipStates();
   if (typeof updateHistogram === 'function') updateHistogram();
 
-  var filtered = (state.sync ? visibleFeatures : allFeatures).filter(featureMatchesFilters);
+  var pool = state.sync ? visibleFeatures : allFeatures;
+
+  /* A1.8: with the Fresh snow filter on and too many areas in view,
+     don't filter by snow at all (the "Zoom in" message explains why). */
+  snowFilterSuspended = false;
+  if (state.filters.snowMinIn > 0) {
+    snowFilterSuspended = true;
+    var preSnow = pool.filter(function (f) { return featureMatchesFilters(f); }).length;
+    snowFilterSuspended = preSnow > SNOW_MAX_AREAS;
+  }
+
+  var filtered = pool.filter(function (f) { return featureMatchesFilters(f); });
+
+  /* D2: reset list limit when filters, sort or the map view change */
+  var newListKey = JSON.stringify([state.filters, state.sort, state.favorites, state.sync,
+    state.sync ? map.getBounds().toArray() : null]);
+  if (newListKey !== listKey) { listLimit = CAP; listKey = newListKey; }
 
   renderListings(filtered);
+  if (typeof refreshOpenShowButton === 'function') refreshOpenShowButton();
 
-  /* Update map source so clusters count only matching features */
-  var filterKey = JSON.stringify(state.filters);
-  var active    = hasActiveFilters();
+  /* Update map source so clusters count only matching features.
+     The snow minimum is ignored here: most areas have no snow data loaded. */
+  var mapFilters = Object.assign({}, state.filters, { snowMinIn: 0 });
+  var filterKey  = JSON.stringify(mapFilters) + '|' + state.favorites;
+  var active     = !!(mapFilters.skate || mapFilters.classic || mapFilters.snow || mapFilters.lit ||
+                      mapFilters.kmMin > 0 || mapFilters.kmMax < 100 || state.favorites);
 
   if (active && fullGeoJSON && filterKey !== lastFilterKey) {
-    var allFiltered = allFeatures.filter(featureMatchesFilters);
+    var allFiltered = allFeatures.filter(function (f) { return featureMatchesFilters(f, true); });
     map.getSource('nordic-ski-areas').setData({ type: 'FeatureCollection', features: allFiltered });
     sourceIsFiltered = true;
     lastFilterKey    = filterKey;
@@ -2618,6 +2840,7 @@ function updateVisibleFeatures() {
    ================================================================= */
 sortEl.addEventListener('change', function () {
   state.sort = sortEl.value;
+  hideWelcomeBanner();
   applyFilters();
 });
 
@@ -2634,7 +2857,7 @@ map.on('load', function () {
 
   map.addSource('nordic-ski-areas', {
     type: 'geojson',
-    data: 'data/nordic-ski-areas-merged.geojson',
+    data: { type: 'FeatureCollection', features: [] },
     cluster: true,
     clusterMaxZoom: 10,
     clusterRadius: 40,
@@ -2643,11 +2866,27 @@ map.on('load', function () {
   });
 
   fetch('data/nordic-ski-areas-merged.geojson')
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
     .then(function (data) {
       fullGeoJSON = data;
       allFeatures = data.features;
+      map.getSource('nordic-ski-areas').setData(data);
       dataLoaded  = true;
+
+      // D1: remove the loading pill once the pins have rendered
+      var hidePill = function () {
+        var pill = document.getElementById('map-loading-pill');
+        if (pill) pill.style.display = 'none';
+        map.off('sourcedata', onSourceData);
+      };
+      var onSourceData = function (e) {
+        if (e.sourceId === 'nordic-ski-areas' && map.isSourceLoaded('nordic-ski-areas')) hidePill();
+      };
+      map.on('sourcedata', onSourceData);
+      map.once('idle', hidePill);
 
       // Compute bounding box of all features for the "fit" nav button
       if (allFeatures.length) {
@@ -2680,10 +2919,13 @@ map.on('load', function () {
       if (pendingAreaParam) {
         var aFeat = allFeatures.find(function (f) { return f.properties.id === pendingAreaParam; });
         if (aFeat) {
-          state.selectedId = aFeat.properties.id;
-          map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: true });
-          openDetailPanel(aFeat);
-          map.flyTo({ center: aFeat.geometry.coordinates, zoom: 12 });
+          selectArea(aFeat, 'url');
+          var apMatch = pendingMapParam && pendingMapParam.match(/^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(\d+(?:\.\d+)?)$/);
+          if (apMatch) {
+            map.jumpTo({ center: [parseFloat(apMatch[2]), parseFloat(apMatch[1])], zoom: parseFloat(apMatch[3]) });
+          } else {
+            map.flyTo({ center: aFeat.geometry.coordinates, zoom: 12 });
+          }
         }
       } else if (pendingMapParam) {
         var mpMatch = pendingMapParam.match(/^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(\d+(?:\.\d+)?)$/);
@@ -2694,6 +2936,17 @@ map.on('load', function () {
           });
         }
       }
+    })
+    .catch(function () {
+      var pill = document.getElementById('map-loading-pill');
+      if (pill) pill.style.display = 'none';
+      listingEl.innerHTML = '';
+      var errEl = document.createElement('div');
+      errEl.className = 'listing-error';
+      errEl.textContent = 'Could not load ski areas. Reload to try again.';
+      listingEl.appendChild(errEl);
+      countEl.textContent = '';
+      subtitleEl.textContent = '';
     });
 
   /* OpenSkiMap trail line source (Step 13) */
@@ -2834,8 +3087,10 @@ map.on('load', function () {
         'both',    '#1b4f8a',
         'skate',   '#e07b24',
         'classic', '#6cc0e5',
+        'yes',     '#5f7d95',
         '#9aa4ad'
       ],
+      /* C2: unknown-grooming pins are smaller and quieter */
       'circle-radius': [
         'case',
         ['any',
@@ -2843,8 +3098,9 @@ map.on('load', function () {
           ['boolean', ['feature-state', 'selected'], false]
         ],
         14,
-        8
+        ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], 8, 5]
       ],
+      'circle-opacity': ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], 1, 0.75],
       'circle-stroke-width': [
         'case',
         ['any',
@@ -2915,23 +3171,10 @@ map.on('load', function () {
   });
 
   map.on('click', 'unclustered-point-hitarea', function (e) {
-    var feat = e.features[0];
-    var fid  = feat.properties.id;
-
-    // Clear previous selection
-    if (state.selectedId) {
-      map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
-      listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
-    }
-    state.selectedId = fid;
-    map.setFeatureState({ source: 'nordic-ski-areas', id: fid }, { selected: true });
-
+    var fid = e.features[0].properties.id;
     // Use the full feature from allFeatures for correct property types
     var fullFeature = allFeatures.find(function (f) { return f.properties.id === fid; });
-    if (fullFeature) {
-      openDetailPanel(fullFeature);
-      if (window._mobileDetailHook) window._mobileDetailHook(fullFeature);
-    }
+    if (fullFeature) selectArea(fullFeature, 'pin');
   });
 
   map.on('mouseenter', 'clusters', function () { map.getCanvas().style.cursor = 'pointer'; });
@@ -2972,6 +3215,11 @@ map.on('load', function () {
   });
 
   map.on('moveend', function () { if (state.sync) updateVisibleFeatures(); scheduleUrlSync(); });
+  /* A3 / B1.5: a manual map move cancels the "return to previous view" and the restore banner */
+  map.on('dragstart', function () { viewBeforeSelect = null; hideWelcomeBanner(); });
+  map.on('zoomstart', function (e) {
+    if (e.originalEvent) { viewBeforeSelect = null; hideWelcomeBanner(); }
+  });
   map.on('zoom', function () { updateTrailsButton(); });
 });
 
@@ -2989,11 +3237,11 @@ var btnShowGroomEl   = document.getElementById('btn-show-grooming');
 
 var chipSnowEl       = document.getElementById('chip-snowmaking');
 
-var chipMoreEl       = document.getElementById('chip-more');
-var chipMoreLabelEl  = document.getElementById('chip-more-label');
-var popoverMoreEl    = document.getElementById('popover-more');
-var filterLitEl      = document.getElementById('filter-lit');
-var btnShowMoreEl    = document.getElementById('btn-show-more');
+var chipLitEl        = document.getElementById('chip-lit');
+
+var chipSnowFilterEl = document.getElementById('chip-snow-filter');
+var popoverSnowEl    = document.getElementById('popover-snow');
+var btnShowSnowEl    = document.getElementById('btn-show-snow');
 
 var chipClearEl      = document.getElementById('chip-clear');
 
@@ -3100,14 +3348,20 @@ updateTrackFill();
 /* ---- Popover open / close ---- */
 
 var openPopover = null;
+var openPopoverBtn = null;
+// Each popover with the chip that opens it (for focus return on Escape)
+var popoverPairs = [
+  [popoverGroomEl, chipGroomingEl],
+  [popoverSnowEl,  chipSnowFilterEl]
+];
 
 function closeAllPopovers() {
-  [popoverGroomEl, popoverMoreEl].forEach(function (p) {
-    p.classList.remove('is-open');
+  popoverPairs.forEach(function (pair) {
+    pair[0].classList.remove('is-open');
+    pair[1].setAttribute('aria-expanded', 'false');
   });
-  chipGroomingEl.setAttribute('aria-expanded', 'false');
-  chipMoreEl.setAttribute('aria-expanded', 'false');
   openPopover = null;
+  openPopoverBtn = null;
 }
 
 function togglePopover(popoverEl, chipEl, showBtn) {
@@ -3117,23 +3371,32 @@ function togglePopover(popoverEl, chipEl, showBtn) {
     popoverEl.classList.add('is-open');
     chipEl.setAttribute('aria-expanded', 'true');
     openPopover = popoverEl;
+    openPopoverBtn = showBtn || null;
     if (showBtn) updateShowButton(showBtn);
   }
+}
+
+function refreshOpenShowButton() {
+  if (openPopoverBtn) updateShowButton(openPopoverBtn);
 }
 
 document.addEventListener('click', function (e) {
   if (!openPopover) return;
   if (openPopover.contains(e.target)) return;
-  if (chipGroomingEl.contains(e.target)) return;
-  if (chipMoreEl.contains(e.target)) return;
+  for (var i = 0; i < popoverPairs.length; i++) {
+    if (popoverPairs[i][1].contains(e.target)) return;
+  }
   closeAllPopovers();
 });
 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && openPopover) {
-    var chip = openPopover === popoverGroomEl ? chipGroomingEl : chipMoreEl;
+    var chip = null;
+    for (var i = 0; i < popoverPairs.length; i++) {
+      if (popoverPairs[i][0] === openPopover) chip = popoverPairs[i][1];
+    }
     closeAllPopovers();
-    chip.focus();
+    if (chip) chip.focus();
   }
 });
 
@@ -3181,28 +3444,12 @@ chipSnowEl.addEventListener('click', function () {
   applyFilters();
 });
 
-/* ---- More filters popover ---- */
+/* ---- Lit at night chip ---- */
 
-chipMoreEl.addEventListener('click', function () {
-  togglePopover(popoverMoreEl, chipMoreEl, btnShowMoreEl);
-});
-
-function updateMoreChip() {
-  var count = state.filters.lit ? 1 : 0;
-  chipMoreLabelEl.textContent = count > 0 ? 'More filters (' + count + ')' : 'More filters';
-  chipMoreEl.classList.toggle('is-active', count > 0);
-}
-
-filterLitEl.addEventListener('change', function () {
-  state.filters.lit = filterLitEl.checked;
-  updateMoreChip();
-  updateShowButton(btnShowMoreEl);
+chipLitEl.addEventListener('click', function () {
+  state.filters.lit = !state.filters.lit;
+  chipLitEl.setAttribute('aria-pressed', state.filters.lit ? 'true' : 'false');
   applyFilters();
-});
-
-btnShowMoreEl.addEventListener('click', function () {
-  closeAllPopovers();
-  chipMoreEl.focus();
 });
 
 /* ---- Show N areas button ---- */
@@ -3232,17 +3479,8 @@ var dpNotesEl       = document.getElementById('dp-notes');
 var resultsHeaderEl = document.querySelector('.results-header');
 
 var listScrollTop = 0;
-
-var GROOM_COLORS = { both: '#1b4f8a', skate: '#e07b24', classic: '#6cc0e5', unknown: '#9aa4ad' };
-
-function groomDisplayInfo(prop) {
-  var sk = prop.groomSkate   === true || prop.groomSkate   === 'true';
-  var cl = prop.groomClassic === true || prop.groomClassic === 'true';
-  if (sk && cl) return { label: 'Skate + classic', color: GROOM_COLORS.both };
-  if (sk)       return { label: 'Skate only',       color: GROOM_COLORS.skate };
-  if (cl)       return { label: 'Classic only',     color: GROOM_COLORS.classic };
-  return        { label: 'Unknown',                 color: GROOM_COLORS.unknown };
-}
+var viewBeforeSelect = null;   // A3: { center, zoom } to restore on "Back to results"
+var sidebarRootEl = document.getElementById('sidebar');
 
 function isValidUrl(s) {
   try { var u = new URL(s); return u.protocol === 'http:' || u.protocol === 'https:'; }
@@ -3259,7 +3497,7 @@ function openDetailPanel(feature) {
 
   // Region + distance
   var regionParts = [];
-  if (prop.region) regionParts.push(prop.region);
+  if (prop.region) regionParts.push(formatRegion(prop.region));
   if (state.location && prop._dist != null) regionParts.push(formatDist(prop._dist) + ' away');
   dpRegionEl.textContent = regionParts.join(' · ');
 
@@ -3326,11 +3564,13 @@ function openDetailPanel(feature) {
   groomVal.appendChild(groomText);
   addGridItem('Grooming', groomVal);
 
-  // Snowmaking
-  addGridItem('Snowmaking', textValue(prop.Snowmaking === 'Yes' ? 'Yes' : 'No'));
-
-  // Lit at night
-  addGridItem('Lit at night', textValue(prop.Lit === 'Yes' ? 'Yes' : 'No'));
+  // Snowmaking / Lit at night: only show when the data says Yes or No (A2)
+  if (isValid(prop.Snowmaking) && (prop.Snowmaking === 'Yes' || prop.Snowmaking === 'No')) {
+    addGridItem('Snowmaking', textValue(prop.Snowmaking));
+  }
+  if (isValid(prop.Lit) && (prop.Lit === 'Yes' || prop.Lit === 'No')) {
+    addGridItem('Lit at night', textValue(prop.Lit));
+  }
 
   // Optional fields — only when data exists
   if (isValid(prop.passPrice)) addGridItem('Day pass',        textValue(prop.passPrice));
@@ -3373,20 +3613,13 @@ function openDetailPanel(feature) {
     };
   }
 
-  // Show panel, hide list + results header
-  listingEl.style.display = 'none';
-  resultsHeaderEl.style.display = 'none';
+  // Show panel; CSS (.is-detail-open) hides the list, results header and slider (D3)
+  sidebarRootEl.classList.add('is-detail-open');
   detailPanelEl.style.display = '';
   detailPanelEl.scrollTop = 0;
 
-  // Fly to pin — on mobile map view, always zoom in for trails visibility
-  var coords = feature.geometry.coordinates;
-  var isMobileMap = window.innerWidth <= 760 && document.body.classList.contains('mobile-map-view');
-  if (!isMobileMap && !map.getBounds().contains(coords)) {
-    map.flyTo({ center: coords, zoom: 12 });
-  }
-  // Mobile map: flyTo is deferred to _openMapBottomSheet so the sheet
-  // height is fully measured after content is populated.
+  // Camera is handled by selectArea(); mobile map view flies in _openMapBottomSheet
+  // once the sheet height is measured.
 
   history.pushState({ areaId: prop.id }, '', buildQueryString());
 
@@ -3430,11 +3663,52 @@ function loadAreaRuns(skimapId) {
     });
 }
 
+/* One path for selecting an area. source: 'card' | 'pin' | 'search' | 'url' (A3) */
+function selectArea(feature, source) {
+  var prop = feature.properties;
+
+  if (state.selectedId) {
+    map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
+  }
+  listingEl.querySelectorAll('.card.is-active').forEach(function (el) { el.classList.remove('is-active'); });
+
+  state.selectedId = prop.id;
+  map.setFeatureState({ source: 'nordic-ski-areas', id: prop.id }, { selected: true });
+  var card = listingEl.querySelector('[data-id="' + prop.id + '"]');
+  if (card) card.classList.add('is-active');
+
+  openDetailPanel(feature);
+
+  var coords = feature.geometry.coordinates;
+  var isMobileMap = window.innerWidth <= 760 && document.body.classList.contains('mobile-map-view');
+
+  if (source === 'pin') {
+    // The user can already see the pin: don't move the map
+    if (window._mobileDetailHook) window._mobileDetailHook(feature);
+    return;
+  }
+  if (isMobileMap) return;
+
+  // Clusters stop at zoom 10, so zoom 11 always shows the pin on its own
+  if (source !== 'url' && (map.getZoom() < 11 || !map.getBounds().contains(coords))) {
+    if (!viewBeforeSelect) {
+      viewBeforeSelect = { center: map.getCenter(), zoom: map.getZoom() };
+    }
+    map.flyTo({ center: coords, zoom: Math.max(map.getZoom(), 11) });
+  }
+}
+
 function closeDetailPanel() {
   detailPanelEl.style.display = 'none';
-  listingEl.style.display = '';
-  resultsHeaderEl.style.display = '';
+  sidebarRootEl.classList.remove('is-detail-open');
   listingEl.scrollTop = listScrollTop;
+
+  if (viewBeforeSelect) {
+    var v = viewBeforeSelect;
+    viewBeforeSelect = null;
+    pendingListScroll = listScrollTop;   // list re-renders after the map settles
+    map.easeTo({ center: v.center, zoom: v.zoom });
+  }
 
   if (state.selectedId) {
     map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
@@ -3601,15 +3875,8 @@ function pickSuggestion(i) {
   closeListbox();
 
   if (item.type === 'area') {
-    if (state.selectedId) {
-      map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
-    }
-    listingEl.querySelectorAll('.card').forEach(function (el) { el.classList.remove('is-active'); });
-    state.selectedId = item.featureId;
-    map.setFeatureState({ source: 'nordic-ski-areas', id: item.featureId }, { selected: true });
-    map.flyTo({ center: item.coords, zoom: 12 });
     var fullFeature = allFeatures.find(function (f) { return f.properties.id === item.featureId; });
-    if (fullFeature) openDetailPanel(fullFeature);
+    if (fullFeature) selectArea(fullFeature, 'search');
   } else {
     setLocation(item.coords, item.label);
     map.flyTo({ center: item.coords, zoom: 9 });
@@ -3735,7 +4002,7 @@ btnGeolocateEl.addEventListener('click', function () {
 
 function updateFilterChipStates() {
   updateGroomingChip();
-  updateMoreChip();
+  chipLitEl.setAttribute('aria-pressed', state.filters.lit ? 'true' : 'false');
   chipSnowEl.setAttribute('aria-pressed', state.filters.snow ? 'true' : 'false');
 
   // Favorites chip (Step 10)
@@ -3783,7 +4050,11 @@ function syncDomToState() {
   if (filterSkateEl)   filterSkateEl.checked   = f.skate;
   if (filterClassicEl) filterClassicEl.checked = f.classic;
   if (chipSnowEl)      chipSnowEl.setAttribute('aria-pressed', f.snow ? 'true' : 'false');
-  if (filterLitEl)     filterLitEl.checked     = f.lit;
+  if (chipLitEl)       chipLitEl.setAttribute('aria-pressed', f.lit ? 'true' : 'false');
+  var snowSl = document.getElementById('snow-min-slider');
+  var snowRd = document.getElementById('snow-min-readout');
+  if (snowSl) snowSl.value = f.snowMinIn || 0;
+  if (snowRd) snowRd.textContent = snowText(f.snowMinIn || 0, state.units === 'metric' ? 0 : 1);
   if (tlMinEl) { tlMinEl.value = f.kmMin; }
   if (tlMaxEl) { tlMaxEl.value = f.kmMax; }
   if (tlFillEl) updateTrackFill();
@@ -3797,6 +4068,15 @@ function syncDomToState() {
   updateFilterChipStates();
 }
 
+var SORT_LABELS = { name: 'name', dist: 'nearest first', kmDesc: 'most trail km',
+                    kmAsc: 'fewest trail km', groom: 'grooming', snow: 'snowmaking first' };
+var bannerTimer = null;
+
+function hideWelcomeBanner() {
+  clearTimeout(bannerTimer);
+  if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
+}
+
 function initWelcomeBanner() {
   var raw;
   try { raw = localStorage.getItem(STORAGE_KEY); } catch (e) {}
@@ -3807,7 +4087,11 @@ function initWelcomeBanner() {
   // Already restored from URL params — only show banner, don't overwrite URL state
   var hasUrlParams = !!(location.search);
   if (!hasUrlParams) {
-    if (saved.location) state.location = saved.location;
+    if (saved.location) {
+      state.location = saved.location;
+      // Move the map to the restored location once the data has loaded (A6.2)
+      pendingMapParam = saved.location.lnglat[1] + ',' + saved.location.lnglat[0] + ',9';
+    }
     if (saved.filters)  state.filters  = saved.filters;
     if (saved.sort)     state.sort     = saved.sort;
     if (saved.sync === false) state.sync = false;
@@ -3825,13 +4109,14 @@ function initWelcomeBanner() {
   if (f.kmMin > 0 || f.kmMax < 100) {
     parts.push(f.kmMin + '–' + (f.kmMax >= 100 ? '∞' : f.kmMax) + ' km');
   }
-  if (state.sort && state.sort !== 'name') parts.push('sorted by ' + state.sort);
+  if (state.sort && state.sort !== 'name') parts.push('sorted by ' + (SORT_LABELS[state.sort] || state.sort));
   if (welcomeTextEl) {
     welcomeTextEl.textContent = parts.length
       ? 'Restored: ' + parts.join(', ')
       : 'Restored your last search settings.';
   }
   if (welcomeBannerEl) welcomeBannerEl.style.display = '';
+  bannerTimer = setTimeout(hideWelcomeBanner, 8000);   // B1.5
   syncDomToState();
 }
 
@@ -3921,7 +4206,8 @@ document.addEventListener('keydown', function (e) {
 if (btnStartFreshEl) {
   btnStartFreshEl.addEventListener('click', function () {
     state.location = null;
-    state.filters  = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100 };
+    state.filters  = { skate: false, classic: false, snow: false, lit: false, kmMin: 0, kmMax: 100, snowMinIn: 0 };
+    state.favorites = false;
     state.sort     = 'name';
     state.sync     = true;
     try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
@@ -3933,15 +4219,14 @@ if (btnStartFreshEl) {
     var locClear = document.getElementById('search-clear');
     if (locInput) locInput.value = '';
     if (locClear) locClear.style.display = 'none';
+    if (dataBounds) map.fitBounds(dataBounds, { padding: 40, duration: 0 });
     applyFilters();
-    if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
+    hideWelcomeBanner();
     history.replaceState(null, '', location.pathname);
   });
 }
 if (btnDismissEl) {
-  btnDismissEl.addEventListener('click', function () {
-    if (welcomeBannerEl) welcomeBannerEl.style.display = 'none';
-  });
+  btnDismissEl.addEventListener('click', hideWelcomeBanner);
 }
 
 /* =========================================================
@@ -3959,6 +4244,7 @@ if (btnDismissEl) {
   var saveBtn    = document.getElementById('mbs-save');
   var saveLblEl  = document.getElementById('mbs-save-label');
   var saveIconEl = document.getElementById('mbs-save-icon');
+  var moreBtnEl  = document.getElementById('mbs-more');
 
   if (!sheetEl) return;
 
@@ -3969,7 +4255,7 @@ if (btnDismissEl) {
     nameEl.textContent = prop.Name || '';
 
     var regionParts = [];
-    if (prop.region) regionParts.push(prop.region);
+    if (prop.region) regionParts.push(formatRegion(prop.region));
     if (state.location && prop._dist != null) regionParts.push(formatDist(prop._dist) + ' away');
     regionEl.textContent = regionParts.join(' · ');
 
@@ -4014,15 +4300,19 @@ if (btnDismissEl) {
     sheetEl.setAttribute('aria-hidden', 'false');
     sheetEl.classList.add('is-open');
 
-    // flyTo now that sheet height is known — pin lands at ~40% from top of visible area
+    // flyTo once the sheet has laid out — pin lands at ~40% from top of the visible area.
+    // Mapbox offset is relative to the container centre with +y pointing down,
+    // so moving the pin UP (away from the sheet) needs a negative value.
     if (typeof map !== 'undefined') {
-      var mapEl = document.getElementById('map');
-      var mapH  = mapEl ? mapEl.offsetHeight : 500;
-      var sheetH = sheetEl.offsetHeight;
-      var visibleH = mapH - sheetH;
-      var offsetY  = Math.round((mapH / 2) - (visibleH * 0.4));
-      var targetZoom = Math.max(map.getZoom(), 12);
-      map.flyTo({ center: coords, zoom: targetZoom, offset: [0, offsetY] });
+      requestAnimationFrame(function () {
+        var mapEl = document.getElementById('map');
+        var mapH  = mapEl ? mapEl.offsetHeight : 500;
+        var sheetH = sheetEl.offsetHeight;
+        var visibleH = mapH - sheetH;
+        var offsetY  = Math.round((visibleH * 0.4) - (mapH / 2));
+        var targetZoom = Math.max(map.getZoom(), 12);
+        map.flyTo({ center: coords, zoom: targetZoom, offset: [0, offsetY] });
+      });
     }
   }
 
@@ -4033,9 +4323,10 @@ if (btnDismissEl) {
     saveIconEl.setAttribute('fill', isSaved ? '#f5c842' : 'none');
   }
 
-  function closeSheet() {
+  function closeSheet(keepSelection) {
     sheetEl.classList.remove('is-open');
     sheetEl.setAttribute('aria-hidden', 'true');
+    if (keepSelection === true) return;   // B3: "More details" keeps the selection
     // Also clear map selection
     if (state.selectedId) {
       map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
@@ -4058,7 +4349,12 @@ if (btnDismissEl) {
     if (typeof applyFilters === 'function') applyFilters();
   });
 
-  closeBtn.addEventListener('click', closeSheet);
+  closeBtn.addEventListener('click', function () { closeSheet(); });
+  if (moreBtnEl) {
+    moreBtnEl.addEventListener('click', function () {
+      if (typeof window._showList === 'function') window._showList(true);
+    });
+  }
 
   // Also close when map view is left
   window._closeMapBottomSheet = closeSheet;
@@ -4092,6 +4388,27 @@ if (btnDismissEl) {
 
   // Start collapsed on mobile
   if (window.innerWidth <= 760) setExpanded(false);
+
+  // B1.1: on mobile the trail-length slider lives inside the collapsible filter area
+  var trailLengthEl = document.querySelector('.trail-length-area');
+  var sidebarEl     = document.getElementById('sidebar');
+  var mq = window.matchMedia('(max-width: 760px)');
+  function placeTrailSlider() {
+    if (!trailLengthEl || !sidebarEl) return;
+    if (mq.matches) {
+      chipsEl.appendChild(trailLengthEl);
+    } else {
+      var rh = sidebarEl.querySelector('.results-header');
+      if (rh) sidebarEl.insertBefore(trailLengthEl, rh);
+    }
+  }
+  placeTrailSlider();
+  if (mq.addEventListener) mq.addEventListener('change', placeTrailSlider);
+  else if (mq.addListener) mq.addListener(placeTrailSlider);
+
+  // B1.5: any interaction with the filter bar dismisses the restore banner
+  var filterBarEl = document.querySelector('.filter-bar');
+  if (filterBarEl) filterBarEl.addEventListener('click', function () { hideWelcomeBanner(); });
 })();
 
 /* =========================================================
@@ -4129,24 +4446,16 @@ if (btnDismissEl) {
 
   if (!btnList || !btnMap) return;
 
-  var trailLengthEl = document.querySelector('.trail-length-area');
-  var mainBodyEl    = sidebarEl.parentNode;
-
-  function showList() {
+  function showList(keepSelection) {
     sidebarEl.classList.remove('mobile-hidden');
     mapEl.classList.add('mobile-hidden');
     btnList.classList.add('mobile-toggle__btn--active');
     btnMap.classList.remove('mobile-toggle__btn--active');
     document.body.classList.remove('mobile-map-view');
-    // Move trail-length back into sidebar (before results-header)
-    if (trailLengthEl && sidebarEl) {
-      var resultsHeader = sidebarEl.querySelector('.results-header');
-      if (resultsHeader) sidebarEl.insertBefore(trailLengthEl, resultsHeader);
+    // Close bottom sheet if open (keep the selection when asked to, B3)
+    if (typeof window._closeMapBottomSheet === 'function') {
+      window._closeMapBottomSheet(keepSelection === true);
     }
-    // Expand filters when switching to list view
-    if (typeof window._setFiltersExpanded === 'function') window._setFiltersExpanded(true);
-    // Close bottom sheet if open
-    if (typeof window._closeMapBottomSheet === 'function') window._closeMapBottomSheet();
   }
 
   function showMap() {
@@ -4155,17 +4464,15 @@ if (btnDismissEl) {
     btnMap.classList.add('mobile-toggle__btn--active');
     btnList.classList.remove('mobile-toggle__btn--active');
     document.body.classList.add('mobile-map-view');
-    // Move trail-length to just before .main-body so it's always visible
-    if (trailLengthEl && mainBodyEl) {
-      mainBodyEl.parentNode.insertBefore(trailLengthEl, mainBodyEl);
-    }
     // Collapse filters when switching to map view
     if (typeof window._setFiltersExpanded === 'function') window._setFiltersExpanded(false);
     // Resize map after layout settles
     if (typeof map !== 'undefined') setTimeout(function () { map.resize(); }, 0);
   }
 
-  btnList.addEventListener('click', showList);
+  window._showList = showList;
+
+  btnList.addEventListener('click', function () { showList(); });
   btnMap.addEventListener('click', showMap);
 
   // When a map pin is clicked on mobile:
@@ -4176,13 +4483,16 @@ if (btnDismissEl) {
     if (document.body.classList.contains('mobile-map-view')) {
       if (typeof window._openMapBottomSheet === 'function') window._openMapBottomSheet(feature);
     } else {
-      showList();
+      showList(true);
     }
   };
 
   // Set initial state on mobile: wait for map load event then switch to list view
   if (window.innerWidth <= 760) {
-    var initToList = function() { showList(); };
+    // Default to map view on phones; a shared link to a specific area opens the list/detail instead
+    var initToList = function() {
+      if (/[?&]area=/.test(location.search)) showList(); else showMap();
+    };
     if (typeof map !== 'undefined') {
       if (map.loaded()) {
         initToList();
@@ -4219,8 +4529,8 @@ function toggleFavorite(id, starEl) {
   if (starEl) {
     starEl.textContent = isFav ? '★' : '☆';
     starEl.className = 'card__star' + (isFav ? ' is-favorited' : '');
-    starEl.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
-    starEl.setAttribute('title', isFav ? 'Remove from favorites' : 'Add to favorites');
+    starEl.setAttribute('aria-label', isFav ? 'Remove from saved' : 'Save');
+    starEl.setAttribute('title', isFav ? 'Remove from saved' : 'Save');
   }
   if (state.favorites) applyFilters();
   updateFavoritePin();
@@ -4251,128 +4561,209 @@ function updateSnowBadge(id) {
   var el = document.getElementById('snow-badge-' + id);
   if (!el) return;
   var cached = snowCache[id];
-  if (!cached || cached.error) { el.textContent = '❄ ?'; return; }
+  if (!cached || cached.error) {        // errors and missing data: hide the badge
+    el.textContent = '';
+    el.style.display = 'none';
+    return;
+  }
   var inches = snowInchesForWindow(cached, state.snowWindow);
   if (inches > 0) {
-    el.textContent = '❄ ' + inches.toFixed(1) + '"';
+    el.textContent = '❄ ' + snowText(inches);
     el.style.display = '';
   } else {
+    el.textContent = '';
     el.style.display = 'none';
   }
 }
 
-function fetchSnowData(feature, callback) {
-  var id    = feature.properties.id;
-  var coords = feature.geometry.coordinates;
-  var lat   = coords[1];
-  var lon   = coords[0];
+function parseSnowEntry(d) {
+  var sf = d.hourly.snowfall;    // cm/hr
+  var sd = d.hourly.snow_depth;  // meters
 
-  var cached = snowCache[id];
-  if (cached && !cached.error && Date.now() - cached.fetchedAt < 30 * 60 * 1000) {
-    callback(null, cached);
-    return;
+  function sumLast(arr, n) {
+    var slice = arr.slice(Math.max(0, arr.length - n));
+    return slice.reduce(function (a, b) { return a + (b || 0); }, 0);
+  }
+  function lastNonNull(arr) {
+    for (var i = arr.length - 1; i >= 0; i--) {
+      if (arr[i] !== null) return arr[i];
+    }
+    return 0;
   }
 
+  return {
+    fetchedAt:   Date.now(),
+    snowfall6h:  sumLast(sf, 6)  / 2.54,
+    snowfall12h: sumLast(sf, 12) / 2.54,
+    snowfall24h: sumLast(sf, 24) / 2.54,
+    snowfall48h: sumLast(sf, 48) / 2.54,
+    depthIn:     lastNonNull(sd) * 39.37
+  };
+}
+
+/* Fetch up to SNOW_BATCH areas in one Open-Meteo request.
+   callback(ok) — ok is false on a 429 or any other failure. */
+function fetchSnowBatch(batch, callback) {
+  var lats = batch.map(function (f) { return f.geometry.coordinates[1].toFixed(4); }).join(',');
+  var lons = batch.map(function (f) { return f.geometry.coordinates[0].toFixed(4); }).join(',');
+
+  // past_hours/forecast_hours (not past_days) so the last entry is the current hour.
+  // past_days=2&forecast_days=0 ends at yesterday 23:00, which made "last 6 hours" stale.
   var url = 'https://api.open-meteo.com/v1/forecast'
-    + '?latitude=' + lat.toFixed(4)
-    + '&longitude=' + lon.toFixed(4)
+    + '?latitude=' + lats
+    + '&longitude=' + lons
     + '&hourly=snowfall,snow_depth'
-    + '&past_days=2&forecast_days=0&timezone=auto';
+    + '&past_hours=48&forecast_hours=1&timezone=auto';
 
   fetch(url)
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (r.status === 429) {
+        snowBlockedUntil = Date.now() + 60000;
+        var e = new Error('rate limited');
+        e.blocked = true;
+        throw e;
+      }
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
     .then(function (data) {
-      var sf = data.hourly.snowfall;    // cm/hr
-      var sd = data.hourly.snow_depth;  // meters
-
-      function sumLast(arr, n) {
-        var slice = arr.slice(Math.max(0, arr.length - n));
-        return slice.reduce(function (a, b) { return a + (b || 0); }, 0);
-      }
-      function lastNonNull(arr) {
-        for (var i = arr.length - 1; i >= 0; i--) {
-          if (arr[i] !== null) return arr[i];
+      var arr = Array.isArray(data) ? data : [data];   // single location returns an object
+      batch.forEach(function (f, i) {
+        var d = arr[i];
+        var id = f.properties.id;
+        if (d && d.hourly && d.hourly.snowfall) {
+          snowCache[id] = parseSnowEntry(d);
+        } else {
+          snowCache[id] = { fetchedAt: Date.now(), error: true };
         }
-        return 0;
-      }
-
-      var entry = {
-        fetchedAt:   Date.now(),
-        snowfall6h:  sumLast(sf, 6)  / 2.54,
-        snowfall12h: sumLast(sf, 12) / 2.54,
-        snowfall24h: sumLast(sf, 24) / 2.54,
-        snowfall48h: sumLast(sf, 48) / 2.54,
-        depthIn:     lastNonNull(sd) * 39.37
-      };
-      snowCache[id] = entry;
-      callback(null, entry);
+        updateSnowBadge(id);
+      });
+      callback(true);
     })
     .catch(function (err) {
-      snowCache[id] = { fetchedAt: Date.now(), error: true };
-      callback(err, null);
+      if (!(err && err.blocked)) {
+        batch.forEach(function (f) {
+          snowCache[f.properties.id] = { fetchedAt: Date.now(), error: true };
+          updateSnowBadge(f.properties.id);
+        });
+      }
+      callback(false);
     });
 }
 
+/* Debounced, capped loader. Called from every renderListings(). */
 function loadSnowForVisible(features) {
-  var toFetch = features.filter(function (f) {
+  snowLastFeatures = features;
+  clearTimeout(snowTimer);
+  snowGen++;                 // cancels any older in-flight batch loop
+  snowLoading = false;
+  updateSnowStatus();
+  if (!features.length || features.length > SNOW_MAX_AREAS) return;
+
+  var gen = snowGen;
+  snowTimer = setTimeout(function () { runSnowLoad(features, gen); }, 400);
+}
+
+function runSnowLoad(features, gen) {
+  if (gen !== snowGen) return;
+  if (Date.now() < snowBlockedUntil) { updateSnowStatus(); return; }
+
+  var now = Date.now();
+  var need = features.filter(function (f) {
     var c = snowCache[f.properties.id];
-    return !c || c.error || (Date.now() - c.fetchedAt > 30 * 60 * 1000);
+    if (!c) return true;
+    if (c.error) return now - c.fetchedAt > SNOW_ERR_RETRY;
+    return now - c.fetchedAt > SNOW_TTL;
   });
-  var BATCH = 10;
+  if (!need.length) { updateSnowStatus(); return; }
+
+  snowLoading = true;
+  updateSnowStatus();
   var idx = 0;
+  var fetched = 0;
+
+  function finish() {
+    if (gen !== snowGen) return;
+    snowLoading = false;
+    saveSnowCache();
+    updateSnowStatus();
+    if (state.mapColorMode === 'snow') updatePinColors();
+    if (fetched && state.filters.snowMinIn > 0) applyFilters();
+  }
 
   function next() {
-    if (idx >= toFetch.length) {
-      if (state.mapColorMode === 'snow') updatePinColors();
-      return;
-    }
-    var batch = toFetch.slice(idx, idx + BATCH);
-    idx += BATCH;
-    var pending = batch.length;
-    batch.forEach(function (f) {
-      fetchSnowData(f, function () {
-        updateSnowBadge(f.properties.id);
-        pending--;
-        if (pending === 0) next();
-      });
+    if (gen !== snowGen) return;
+    if (idx >= need.length || Date.now() < snowBlockedUntil) { finish(); return; }
+    var batch = need.slice(idx, idx + SNOW_BATCH);
+    idx += SNOW_BATCH;
+    fetchSnowBatch(batch, function (ok) {
+      if (ok) fetched += batch.length;
+      else idx = need.length;   // stop the queue on any failure
+      next();
     });
   }
   next();
 }
 
-/* Snow filter chip + popover */
+/* Units (C4) */
+function updateSnowLegend() {
+  var metric = state.units === 'metric';
+  var txt = {
+    '4+':     metric ? '10+ cm'  : '4"+',
+    '2-4':    metric ? '5–10 cm' : '2–4"',
+    '0.5-2':  metric ? '1–5 cm'  : '0.5–2"'
+  };
+  document.querySelectorAll('[data-snow-legend]').forEach(function (el) {
+    el.textContent = txt[el.getAttribute('data-snow-legend')];
+  });
+}
+
+function snowSliderReadout() {
+  return snowText(state.filters.snowMinIn || 0, state.units === 'metric' ? 0 : 1);
+}
+
+function syncUnitsUI() {
+  var imp = document.getElementById('units-imperial');
+  var met = document.getElementById('units-metric');
+  if (imp) imp.setAttribute('aria-pressed', state.units === 'imperial' ? 'true' : 'false');
+  if (met) met.setAttribute('aria-pressed', state.units === 'metric' ? 'true' : 'false');
+  var rd = document.getElementById('snow-min-readout');
+  if (rd) rd.textContent = snowSliderReadout();
+  var sl = document.getElementById('snow-min-slider');
+  if (sl) sl.setAttribute('aria-label', 'Minimum new snow in ' + (state.units === 'metric' ? 'centimetres' : 'inches'));
+  updateSnowLegend();
+}
+
+function setUnits(u) {
+  if (u === state.units) return;
+  state.units = u;
+  try { localStorage.setItem(UNITS_KEY, u); } catch (e) {}
+  syncUnitsUI();
+  applyFilters();
+}
+
 (function () {
-  var chipSnowFilterEl = document.getElementById('chip-snow-filter');
-  var popoverSnowEl    = document.getElementById('popover-snow');
-  var btnShowSnowEl    = document.getElementById('btn-show-snow');
+  var imp = document.getElementById('units-imperial');
+  var met = document.getElementById('units-metric');
+  if (imp) imp.addEventListener('click', function () { setUnits('imperial'); });
+  if (met) met.addEventListener('click', function () { setUnits('metric'); });
+}());
+
+/* Snow filter chip + popover — uses the shared popover logic (A5) */
+(function () {
   var snowMinSliderEl  = document.getElementById('snow-min-slider');
   var snowMinReadoutEl = document.getElementById('snow-min-readout');
 
   if (!chipSnowFilterEl || !popoverSnowEl) return;
 
-  function openSnowPopover() {
-    popoverSnowEl.classList.add('is-open');
-    chipSnowFilterEl.setAttribute('aria-expanded', 'true');
-  }
-  function closeSnowPopover() {
-    popoverSnowEl.classList.remove('is-open');
-    chipSnowFilterEl.setAttribute('aria-expanded', 'false');
-  }
-
-  chipSnowFilterEl.addEventListener('click', function (e) {
-    e.stopPropagation();
-    if (popoverSnowEl.classList.contains('is-open')) {
-      closeSnowPopover();
-    } else {
-      closeSnowPopover();
-      openSnowPopover();
-    }
+  chipSnowFilterEl.addEventListener('click', function () {
+    togglePopover(popoverSnowEl, chipSnowFilterEl, btnShowSnowEl);
   });
 
   if (btnShowSnowEl) {
     btnShowSnowEl.addEventListener('click', function () {
-      closeSnowPopover();
-      applyFilters();
+      closeAllPopovers();
+      chipSnowFilterEl.focus();
     });
   }
 
@@ -4386,27 +4777,22 @@ function loadSnowForVisible(features) {
       });
       var feats = state.sync ? visibleFeatures : allFeatures;
       feats.forEach(function (f) { updateSnowBadge(f.properties.id); });
+      if (state.mapColorMode === 'snow') updatePinColors();
       if (state.filters.snowMinIn > 0) applyFilters();
     });
   });
 
-  /* Min-snow slider */
+  /* Min-snow slider: applies while dragging (200 ms debounce, C5) */
   if (snowMinSliderEl) {
+    var snowApplyTimer = null;
     snowMinSliderEl.addEventListener('input', function () {
       state.filters.snowMinIn = parseFloat(snowMinSliderEl.value);
-      if (snowMinReadoutEl) snowMinReadoutEl.textContent = state.filters.snowMinIn.toFixed(1) + '"';
-    });
-    snowMinSliderEl.addEventListener('change', function () {
-      applyFilters();
+      if (snowMinReadoutEl) snowMinReadoutEl.textContent = snowSliderReadout();
+      if (btnShowSnowEl) updateShowButton(btnShowSnowEl);
+      clearTimeout(snowApplyTimer);
+      snowApplyTimer = setTimeout(applyFilters, 200);
     });
   }
-
-  /* Close on outside click */
-  document.addEventListener('mousedown', function (e) {
-    if (!popoverSnowEl.classList.contains('is-open')) return;
-    if (chipSnowFilterEl.contains(e.target) || popoverSnowEl.contains(e.target)) return;
-    closeSnowPopover();
-  });
 }());
 
 /* =========================================================
@@ -4425,6 +4811,7 @@ var GROOM_COLOR_EXPR = [
   'both',    '#1b4f8a',
   'skate',   '#e07b24',
   'classic', '#6cc0e5',
+  'yes',     '#5f7d95',
   '#9aa4ad'
 ];
 
@@ -4457,54 +4844,70 @@ function updatePinColors() {
   }
 }
 
-(function () {
-  var btn = document.getElementById('btn-color-mode');
-  if (!btn) return;
-  btn.addEventListener('click', function () {
-    state.mapColorMode = state.mapColorMode === 'groom' ? 'snow' : 'groom';
-    btn.classList.toggle('is-active', state.mapColorMode === 'snow');
-    btn.setAttribute('aria-pressed', state.mapColorMode === 'snow' ? 'true' : 'false');
-    btn.title = state.mapColorMode === 'snow' ? 'Color pins by grooming type' : 'Color pins by recent snow';
-    btn.setAttribute('aria-label', btn.title);
-    updatePinColors();
-  });
-}());
-
 /* =========================================================
-   Step 13 — Trail lines
+   Step 13 — Trail lines, and the Layers panel (C6)
    ========================================================= */
 var trailsVisible = false;
+var TRAILS_MIN_ZOOM = 9;   // trail tile source starts at zoom 8
 
 function updateTrailsButton() {
-  var btn = document.getElementById('btn-trails');
-  if (!btn) return;
-  var zoom = map.getZoom();
-  if (zoom < 10) {
-    btn.disabled = true;
-    btn.title = 'Zoom in to see trails';
-    btn.setAttribute('aria-label', 'Show ski trails (zoom in to enable)');
-  } else {
-    btn.disabled = false;
-    btn.title = trailsVisible ? 'Hide ski trails' : 'Show ski trails';
-    btn.setAttribute('aria-label', btn.title);
-  }
+  var chk  = document.getElementById('chk-trails');
+  var help = document.getElementById('trails-help');
+  if (!chk) return;
+  var tooFar = map.getZoom() < TRAILS_MIN_ZOOM;
+  chk.disabled = tooFar;
+  if (help) help.style.display = tooFar ? '' : 'none';
 }
 
 (function () {
-  var btn = document.getElementById('btn-trails');
+  var btn      = document.getElementById('btn-layers');
+  var panel    = document.getElementById('layers-panel');
+  var chk      = document.getElementById('chk-trails');
+  var radios   = document.querySelectorAll('input[name="color-mode"]');
   var legendTrails = document.getElementById('legend-trails');
-  if (!btn) return;
+  if (!btn || !panel) return;
+
+  function setOpen(open) {
+    panel.classList.toggle('is-open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
   btn.addEventListener('click', function () {
-    trailsVisible = !trailsVisible;
+    setOpen(!panel.classList.contains('is-open'));
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!panel.classList.contains('is-open')) return;
+    if (panel.contains(e.target) || btn.contains(e.target)) return;
+    setOpen(false);
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && panel.classList.contains('is-open')) {
+      setOpen(false);
+      btn.focus();
+    }
+  });
+
+  radios.forEach(function (r) {
+    r.addEventListener('change', function () {
+      if (!r.checked) return;
+      state.mapColorMode = r.value;
+      updatePinColors();
+      updateSnowStatus();
+    });
+  });
+
+  chk.addEventListener('change', function () {
+    trailsVisible = chk.checked;
     var vis = trailsVisible ? 'visible' : 'none';
     if (map.getLayer('ski-trails-casing')) map.setLayoutProperty('ski-trails-casing', 'visibility', vis);
     if (map.getLayer('ski-trails'))        map.setLayoutProperty('ski-trails',        'visibility', vis);
-    btn.classList.toggle('is-active', trailsVisible);
-    btn.setAttribute('aria-pressed', trailsVisible ? 'true' : 'false');
     if (legendTrails) legendTrails.style.display = trailsVisible ? '' : 'none';
-    updateTrailsButton();
   });
 }());
+
+syncUnitsUI();
 
 </script>
 </body>

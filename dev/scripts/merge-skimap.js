@@ -283,7 +283,7 @@ for (const sf of skimapOnly) {
   const kmByDiff = nordicKmByDifficulty(sf.properties.statistics);
 
   const region = place
-    ? `${place.localized.en.locality ? place.localized.en.locality + ', ' : ''}${place.iso3166_2}`
+    ? `${place.localized.en.locality ? place.localized.en.locality + ', ' : ''}${String(place.iso3166_2 || '').replace(/^(US|CA)-/, '')}`
     : null;
 
   const center = skimapCenter(sf);

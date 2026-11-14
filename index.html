@@ -231,10 +231,8 @@ button {
   flex-shrink: 0;
   background: #fff;
   border-bottom: 1px solid var(--line);
-  padding: 8px 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
   align-items: center;
 }
 
@@ -1078,6 +1076,33 @@ button {
 }
 
 /* =========================================================
+   Filter bar: chips wrapper (desktop: behaves like the old direct children)
+   ========================================================= */
+.filter-bar__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  padding: 8px 20px; /* match the original filter-bar padding on desktop */
+}
+
+/* =========================================================
+   Filter bar: mobile collapse toggle (hidden on desktop)
+   ========================================================= */
+.filter-bar__mobile-toggle {
+  display: none;
+}
+
+/* =========================================================
+   Legend toggle button (mobile only)
+   ========================================================= */
+.legend-toggle-btn {
+  display: none;
+}
+
+/* =========================================================
    Mobile toggle bar (hidden on desktop)
    ========================================================= */
 .mobile-toggle {
@@ -1215,6 +1240,258 @@ button {
   .sidebar { overflow: visible; }
   .listing { flex: 0 0 auto; overflow-y: visible; }
   .detail-panel { flex: 0 0 auto; overflow-y: visible; }
+
+  /* ---- Filter bar: collapsible on mobile ---- */
+  .filter-bar {
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+  }
+
+  .filter-bar__mobile-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    padding: 8px 16px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy);
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .filter-bar__mobile-toggle:focus-visible {
+    outline: 2px solid #6cc0e5;
+    outline-offset: -2px;
+  }
+
+  .filter-bar__toggle-label { flex: 1; }
+
+  .filter-bar__toggle-icon {
+    transition: transform 0.2s;
+  }
+
+  .filter-bar__mobile-toggle[aria-expanded="false"] .filter-bar__toggle-icon {
+    transform: rotate(-90deg);
+  }
+
+  .filter-bar__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 12px 10px;
+    overflow: hidden;
+  }
+
+  .filter-bar__chips--collapsed {
+    display: none;
+  }
+
+  /* Show active-filter indicator on the toggle when filters are active */
+  .filter-bar__mobile-toggle.has-active-filters .filter-bar__toggle-label::after {
+    content: ' ●';
+    color: var(--navy);
+    font-size: 10px;
+  }
+
+  /* ---- Legend toggle button (mobile) ---- */
+  .legend-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    z-index: 10;
+    background: #fff;
+    border: none;
+    border-radius: var(--radius-panel);
+    padding: 7px 10px;
+    box-shadow: var(--shadow-control);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .legend-toggle-btn:focus-visible {
+    outline: 3px solid #6cc0e5;
+    outline-offset: -1px;
+  }
+
+  /* When legend is open, button moves above it */
+  .legend-toggle-btn[aria-expanded="true"] {
+    bottom: auto;
+    top: auto;
+  }
+
+  /* Legend container: stacks legends; hidden by default on mobile */
+  #legend-container {
+    display: none;
+    position: absolute;
+    bottom: 68px;
+    left: 10px;
+    z-index: 10;
+  }
+
+  #legend-container.is-open {
+    display: block;
+  }
+
+  /* Override individual legend positioning when inside the container on mobile */
+  #legend-container .map-legend {
+    position: static;
+    bottom: auto;
+    left: auto;
+    margin-bottom: 4px;
+  }
+}
+
+/* =========================================================
+   Mobile bottom sheet
+   ========================================================= */
+.map-bottom-sheet {
+  display: none; /* only shown on mobile */
+}
+
+.map-sheet-backdrop {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .map-bottom-sheet {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 24px rgba(18,33,47,.18);
+    padding: 10px 20px 32px;
+    z-index: 20;
+    max-height: 50vh;
+    overflow-y: auto;
+    transform: translateY(100%);
+    transition: transform 0.28s cubic-bezier(.32,.72,0,1);
+    pointer-events: none;
+  }
+
+  .map-bottom-sheet.is-open {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .map-bottom-sheet__grip {
+    width: 36px;
+    height: 4px;
+    background: var(--line);
+    border-radius: 2px;
+    margin: 0 auto 14px;
+  }
+
+  .map-bottom-sheet__close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: var(--chip);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .map-bottom-sheet__close:focus-visible { outline: 3px solid #6cc0e5; }
+
+  .map-bottom-sheet__name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    padding-right: 36px;
+    line-height: 1.25;
+  }
+
+  .map-bottom-sheet__region {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  .map-bottom-sheet__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .mbs-stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--chip);
+    border-radius: var(--radius-pill);
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .mbs-stat__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 2px solid rgba(255,255,255,.7);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.12);
+  }
+
+  .map-bottom-sheet__actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+
+  .mbs-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 38px;
+    padding: 0 16px;
+    border-radius: var(--radius-pill);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--navy);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .mbs-btn:hover { background: var(--chip); }
+  .mbs-btn--primary {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+  }
+  .mbs-btn--primary:hover { background: #0e284a; }
+  .mbs-btn.is-saved { background: var(--ice); border-color: var(--navy); }
+
+  /* Backdrop: visually inert — map stays fully pannable/zoomable while sheet is open.
+     Sheet is dismissed via the × close button only. */
+  .map-sheet-backdrop {
+    display: none;
+  }
 }
 
 /* =========================================================
@@ -1370,6 +1647,14 @@ button {
      ========================================================= -->
 <div class="filter-bar" role="group" aria-label="Filters">
 
+  <!-- Mobile-only collapse toggle -->
+  <button class="filter-bar__mobile-toggle" id="filter-toggle-btn" type="button" aria-expanded="true" aria-controls="filter-bar-chips">
+    <span class="filter-bar__toggle-label">Filters</span>
+    <svg class="filter-bar__toggle-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="filter-bar__chips" id="filter-bar-chips">
+
   <!-- Grooming popover -->
   <div class="chip-wrap">
     <button class="chip" id="chip-grooming" type="button" aria-haspopup="true" aria-expanded="false">
@@ -1446,6 +1731,7 @@ button {
     Clear all
   </button>
 
+  </div><!-- /.filter-bar__chips -->
 </div>
 
 <!-- =========================================================
@@ -1596,6 +1882,15 @@ button {
       </button>
     </div>
 
+    <!-- Legend toggle button (mobile: collapses the legend) -->
+    <button class="legend-toggle-btn" id="legend-toggle-btn" type="button" aria-expanded="false" aria-label="Show legend">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="4" cy="4" r="3" fill="#1b4f8a"/><circle cx="10" cy="4" r="3" fill="#e07b24"/><circle cx="4" cy="10" r="3" fill="#6cc0e5"/><circle cx="10" cy="10" r="3" fill="#9aa4ad"/></svg>
+      <span>Legend</span>
+    </button>
+
+    <!-- Legend container (collapsed on mobile by default) -->
+    <div id="legend-container">
+
     <!-- Grooming legend (Step 12: id added for show/hide) -->
     <div class="map-legend" id="legend-groom" aria-label="Grooming legend">
       <div class="map-legend__item">
@@ -1630,6 +1925,36 @@ button {
       <div class="map-legend__row"><span class="map-legend__dot" style="background:#6cc0e5;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Classic</div>
       <div class="map-legend__row"><span class="map-legend__dot" style="background:#9aa4ad;border:none;box-shadow:none;width:18px;height:4px;border-radius:2px"></span>Other</div>
     </div>
+
+    </div><!-- /#legend-container -->
+
+    <!-- Mobile bottom sheet (map view) -->
+    <div id="map-bottom-sheet" class="map-bottom-sheet" aria-hidden="true" role="region" aria-label="Area details">
+      <div class="map-bottom-sheet__grip" aria-hidden="true"></div>
+      <button class="map-bottom-sheet__close" id="mbs-close" type="button" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.75.75 0 1 1 1.06 1.06L9.06 8l3.22 3.22a.75.75 0 1 1-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 0 1-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06z"/></svg>
+      </button>
+      <div class="map-bottom-sheet__header">
+        <div class="map-bottom-sheet__name" id="mbs-name"></div>
+        <div class="map-bottom-sheet__region" id="mbs-region"></div>
+      </div>
+      <div class="map-bottom-sheet__stats" id="mbs-stats"></div>
+      <div class="map-bottom-sheet__actions" id="mbs-actions">
+        <a class="mbs-btn mbs-btn--primary" id="mbs-directions" target="_blank" rel="noopener noreferrer">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          Directions
+        </a>
+        <a class="mbs-btn" id="mbs-website" target="_blank" rel="noopener noreferrer" style="display:none">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Website
+        </a>
+        <button class="mbs-btn" id="mbs-save" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" id="mbs-save-icon"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span id="mbs-save-label">Save</span>
+        </button>
+      </div>
+    </div>
+    <div id="map-sheet-backdrop" class="map-sheet-backdrop"></div>
 
   </div>
 
@@ -2605,7 +2930,7 @@ map.on('load', function () {
     var fullFeature = allFeatures.find(function (f) { return f.properties.id === fid; });
     if (fullFeature) {
       openDetailPanel(fullFeature);
-      if (window._mobileDetailHook) window._mobileDetailHook();
+      if (window._mobileDetailHook) window._mobileDetailHook(fullFeature);
     }
   });
 
@@ -3054,9 +3379,22 @@ function openDetailPanel(feature) {
   detailPanelEl.style.display = '';
   detailPanelEl.scrollTop = 0;
 
-  // Fly to pin only if outside current view
+  // Fly to pin — on mobile map view, always zoom in for trails visibility
   var coords = feature.geometry.coordinates;
-  if (!map.getBounds().contains(coords)) {
+  var isMobileMap = window.innerWidth <= 760 && document.body.classList.contains('mobile-map-view');
+  if (isMobileMap) {
+    var targetZoom = Math.max(map.getZoom(), 12);
+    // Push the logical center down so the pin lands ~40% from the top of
+    // the visible map area above the sheet.  Positive Y = center moves down
+    // = pin moves up relative to the canvas midpoint.
+    var mapEl = document.getElementById('map');
+    var sheetEl2 = document.getElementById('map-bottom-sheet');
+    var mapH = mapEl ? mapEl.offsetHeight : 500;
+    var sheetH = sheetEl2 ? sheetEl2.offsetHeight : 200;
+    var visibleH = mapH - sheetH;
+    var offsetY = Math.round((mapH / 2) - (visibleH * 0.4));
+    map.flyTo({ center: coords, zoom: targetZoom, offset: [0, offsetY] });
+  } else if (!map.getBounds().contains(coords)) {
     map.flyTo({ center: coords, zoom: 12 });
   }
 
@@ -3427,6 +3765,14 @@ function updateFilterChipStates() {
                   + (f.snowMinIn > 0 ? 1 : 0);
   chipClearEl.style.display   = activeCount > 0 ? '' : 'none';
   chipClearEl.textContent     = 'Clear all (' + activeCount + ')';
+
+  // Update mobile filter toggle indicator
+  var mobileFilterToggle = document.getElementById('filter-toggle-btn');
+  if (mobileFilterToggle) {
+    mobileFilterToggle.classList.toggle('has-active-filters', activeCount > 0);
+    var labelEl = mobileFilterToggle.querySelector('.filter-bar__toggle-label');
+    if (labelEl) labelEl.textContent = activeCount > 0 ? 'Filters (' + activeCount + ')' : 'Filters';
+  }
 }
 
 /* =========================================================
@@ -3609,6 +3955,169 @@ if (btnDismissEl) {
 }
 
 /* =========================================================
+   Mobile bottom sheet
+   ========================================================= */
+(function () {
+  var sheetEl    = document.getElementById('map-bottom-sheet');
+  var backdropEl = document.getElementById('map-sheet-backdrop');
+  var closeBtn   = document.getElementById('mbs-close');
+  var nameEl     = document.getElementById('mbs-name');
+  var regionEl   = document.getElementById('mbs-region');
+  var statsEl    = document.getElementById('mbs-stats');
+  var dirsEl     = document.getElementById('mbs-directions');
+  var siteEl     = document.getElementById('mbs-website');
+  var saveBtn    = document.getElementById('mbs-save');
+  var saveLblEl  = document.getElementById('mbs-save-label');
+  var saveIconEl = document.getElementById('mbs-save-icon');
+
+  if (!sheetEl) return;
+
+  function openSheet(feature) {
+    var prop   = feature.properties;
+    var coords = feature.geometry.coordinates;
+
+    nameEl.textContent = prop.Name || '';
+
+    var regionParts = [];
+    if (prop.region) regionParts.push(prop.region);
+    if (state.location && prop._dist != null) regionParts.push(formatDist(prop._dist) + ' away');
+    regionEl.textContent = regionParts.join(' · ');
+
+    // Stats chips
+    statsEl.innerHTML = '';
+    function addStat(label, dotColor) {
+      var chip = document.createElement('div');
+      chip.className = 'mbs-stat';
+      if (dotColor) {
+        var dot = document.createElement('span');
+        dot.className = 'mbs-stat__dot';
+        dot.style.background = dotColor;
+        chip.appendChild(dot);
+      }
+      chip.appendChild(document.createTextNode(label));
+      statsEl.appendChild(chip);
+    }
+
+    var groomInfo = groomDisplayInfo(prop);
+    addStat(groomInfo.label, groomInfo.color);
+
+    var km = prop.km != null ? prop.km : (prop.skimapKm || null);
+    if (km != null) addStat(km + ' km trails', null);
+    if (prop.Snowmaking === 'Yes') addStat('Snowmaking', null);
+
+    // Directions
+    dirsEl.setAttribute('href',
+      'https://www.google.com/maps/dir/?api=1&destination=' + coords[1] + ',' + coords[0]);
+
+    // Website
+    if (prop.URL && isValidUrl(prop.URL)) {
+      siteEl.setAttribute('href', prop.URL);
+      siteEl.style.display = '';
+    } else {
+      siteEl.style.display = 'none';
+    }
+
+    // Save button
+    saveBtn._featureId = prop.id;
+    updateSaveBtn(prop.id);
+
+    sheetEl.setAttribute('aria-hidden', 'false');
+    sheetEl.classList.add('is-open');
+  }
+
+  function updateSaveBtn(id) {
+    var isSaved = typeof favoriteIds !== 'undefined' && favoriteIds.has(id);
+    saveLblEl.textContent = isSaved ? 'Saved' : 'Save';
+    saveBtn.classList.toggle('is-saved', isSaved);
+    saveIconEl.setAttribute('fill', isSaved ? '#f5c842' : 'none');
+  }
+
+  function closeSheet() {
+    sheetEl.classList.remove('is-open');
+    sheetEl.setAttribute('aria-hidden', 'true');
+    // Also clear map selection
+    if (state.selectedId) {
+      map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
+      state.selectedId = null;
+    }
+    var src = map.getSource('selected-area-runs');
+    if (src) src.setData({ type: 'FeatureCollection', features: [] });
+  }
+
+  saveBtn.addEventListener('click', function () {
+    var id = saveBtn._featureId;
+    if (!id || typeof favoriteIds === 'undefined') return;
+    if (favoriteIds.has(id)) {
+      favoriteIds.delete(id);
+    } else {
+      favoriteIds.add(id);
+    }
+    if (typeof saveFavorites === 'function') saveFavorites();
+    updateSaveBtn(id);
+    if (typeof applyFilters === 'function') applyFilters();
+  });
+
+  closeBtn.addEventListener('click', closeSheet);
+
+  // Also close when map view is left
+  window._closeMapBottomSheet = closeSheet;
+  window._openMapBottomSheet  = openSheet;
+})();
+
+/* =========================================================
+   Mobile filter-bar collapse toggle
+   ========================================================= */
+(function () {
+  var toggleBtn = document.getElementById('filter-toggle-btn');
+  var chipsEl   = document.getElementById('filter-bar-chips');
+  if (!toggleBtn || !chipsEl) return;
+
+  function setExpanded(expanded) {
+    toggleBtn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    if (expanded) {
+      chipsEl.classList.remove('filter-bar__chips--collapsed');
+    } else {
+      chipsEl.classList.add('filter-bar__chips--collapsed');
+    }
+  }
+
+  toggleBtn.addEventListener('click', function () {
+    var current = toggleBtn.getAttribute('aria-expanded') === 'true';
+    setExpanded(!current);
+  });
+
+  // Expose so map/list toggle can open/close filters
+  window._setFiltersExpanded = setExpanded;
+
+  // Start collapsed on mobile
+  if (window.innerWidth <= 760) setExpanded(false);
+})();
+
+/* =========================================================
+   Mobile legend collapse toggle
+   ========================================================= */
+(function () {
+  var legendToggleBtn  = document.getElementById('legend-toggle-btn');
+  var legendContainerEl = document.getElementById('legend-container');
+  if (!legendToggleBtn || !legendContainerEl) return;
+
+  function setLegendOpen(open) {
+    legendToggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    legendToggleBtn.setAttribute('aria-label', open ? 'Hide legend' : 'Show legend');
+    if (open) {
+      legendContainerEl.classList.add('is-open');
+    } else {
+      legendContainerEl.classList.remove('is-open');
+    }
+  }
+
+  legendToggleBtn.addEventListener('click', function () {
+    var current = legendToggleBtn.getAttribute('aria-expanded') === 'true';
+    setLegendOpen(!current);
+  });
+})();
+
+/* =========================================================
    Mobile map/list toggle
    ========================================================= */
 (function () {
@@ -3633,6 +4142,10 @@ if (btnDismissEl) {
       var resultsHeader = sidebarEl.querySelector('.results-header');
       if (resultsHeader) sidebarEl.insertBefore(trailLengthEl, resultsHeader);
     }
+    // Expand filters when switching to list view
+    if (typeof window._setFiltersExpanded === 'function') window._setFiltersExpanded(true);
+    // Close bottom sheet if open
+    if (typeof window._closeMapBottomSheet === 'function') window._closeMapBottomSheet();
   }
 
   function showMap() {
@@ -3645,6 +4158,8 @@ if (btnDismissEl) {
     if (trailLengthEl && mainBodyEl) {
       mainBodyEl.parentNode.insertBefore(trailLengthEl, mainBodyEl);
     }
+    // Collapse filters when switching to map view
+    if (typeof window._setFiltersExpanded === 'function') window._setFiltersExpanded(false);
     // Resize map after layout settles
     if (typeof map !== 'undefined') setTimeout(function () { map.resize(); }, 0);
   }
@@ -3652,9 +4167,16 @@ if (btnDismissEl) {
   btnList.addEventListener('click', showList);
   btnMap.addEventListener('click', showMap);
 
-  // When a map pin is clicked on mobile, switch to list/sidebar view
-  window._mobileDetailHook = function () {
-    if (window.innerWidth <= 760) showList();
+  // When a map pin is clicked on mobile:
+  // - In map view → stay on map, show bottom sheet
+  // - In list view → switch to list (original behaviour)
+  window._mobileDetailHook = function (feature) {
+    if (window.innerWidth > 760) return;
+    if (document.body.classList.contains('mobile-map-view')) {
+      if (typeof window._openMapBottomSheet === 'function') window._openMapBottomSheet(feature);
+    } else {
+      showList();
+    }
   };
 
   // Set initial state on mobile: wait for map load event then switch to list view

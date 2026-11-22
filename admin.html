@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nordic Ski Centers — Admin</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
@@ -687,6 +687,7 @@ function renderList(features) {
       (id === selectedId ? ' is-active' : '') +
       (overrides[id] ? ' has-override' : '') +
       (isClosed ? ' is-closed' : '');
+    el.dataset.id = id;
     el.innerHTML =
       '<div class="area-name">' + esc(f.properties.Name || '(unnamed)') + '</div>' +
       '<div class="area-region">' + esc(f.properties.region || '') + '</div>';
@@ -746,10 +747,7 @@ function selectArea(id) {
 
   // Highlight in list
   document.querySelectorAll('.area-item').forEach(function (el) {
-    el.classList.remove('is-active');
-    if (el.querySelector('.area-name').textContent === (prop.Name || '(unnamed)')) {
-      el.classList.add('is-active');
-    }
+    el.classList.toggle('is-active', el.dataset.id === id);
   });
 
   document.getElementById('save-status').textContent = '';
@@ -788,6 +786,7 @@ function groomTypeToSelect(prop) {
   if (t === 'both')    return 'both';
   if (t === 'skate')   return 'skate';
   if (t === 'classic') return 'classic';
+  if (t === 'yes')     return 'yes';
   if (prop.Groomed === 'Yes') return 'yes';
   if (prop.Groomed === 'No')  return 'no';
   return '';
@@ -795,11 +794,11 @@ function groomTypeToSelect(prop) {
 
 function selectToGroomFields(val) {
   // Returns { groomType, Groomed, groomSkate, groomClassic }
-  if (val === 'both')    return { groomType: 'both',    Groomed: 'Yes', groomSkate: 'Yes', groomClassic: 'Yes' };
-  if (val === 'skate')   return { groomType: 'skate',   Groomed: 'Yes', groomSkate: 'Yes', groomClassic: null };
-  if (val === 'classic') return { groomType: 'classic', Groomed: 'Yes', groomSkate: null,  groomClassic: 'Yes' };
-  if (val === 'yes')     return { groomType: 'yes',     Groomed: 'Yes', groomSkate: null,  groomClassic: null };
-  if (val === 'no')      return { groomType: null,      Groomed: 'No',  groomSkate: null,  groomClassic: null };
+  if (val === 'both')    return { groomType: 'both',    Groomed: 'Yes', groomSkate: true,  groomClassic: true  };
+  if (val === 'skate')   return { groomType: 'skate',   Groomed: 'Yes', groomSkate: true,  groomClassic: false };
+  if (val === 'classic') return { groomType: 'classic', Groomed: 'Yes', groomSkate: false, groomClassic: true  };
+  if (val === 'yes')     return { groomType: 'yes',     Groomed: 'Yes', groomSkate: null,  groomClassic: null  };
+  if (val === 'no')      return { groomType: null,      Groomed: 'No',  groomSkate: false, groomClassic: false };
   return { groomType: null, Groomed: null, groomSkate: null, groomClassic: null };
 }
 
@@ -854,7 +853,9 @@ async function saveChanges() {
   // Track what changed vs effective current state
   var current = applyOverrideToFeature(feature);
   var changedFields = Object.keys(propPatch).filter(function (k) {
-    return String(propPatch[k] || '') !== String(current.properties[k] || '');
+    var a = propPatch[k] == null ? '' : String(propPatch[k]);
+    var b = current.properties[k] == null ? '' : String(current.properties[k]);
+    return a !== b;
   });
   var geoChanged = pendingCoords != null;
   var isNew = String(selectedId).startsWith('admin-');

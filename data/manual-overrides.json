@@ -1,8 +1,8 @@
 {
   "craftsbury-vt": {
     "properties": {
-      "groomSkate": "Yes",
-      "groomClassic": "Yes",
+      "groomSkate": true,
+      "groomClassic": true,
       "groomType": "both",
       "Groomed": "Yes",
       "km": 106,
@@ -47,8 +47,8 @@
   },
   "cf493f822dae9636a6c74212c7b676d891047358": {
     "properties": {
-      "groomSkate": "Yes",
-      "groomClassic": "Yes",
+      "groomSkate": true,
+      "groomClassic": true,
       "groomType": "both",
       "Groomed": "Yes",
       "rentals": "Yes",

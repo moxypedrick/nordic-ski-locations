@@ -1,12 +1,14 @@
 /**
  * build-runs.js
  *
- * Phase 2: Stream-parse runs.geojson and output a lean file of nordic
- * trail lines for areas that are in our merged dataset.
+ * Phase 2: Stream-parse runs.geojson and output per-area GeoJSON files
+ * of nordic trail lines for areas that are in our merged dataset.
  *
  * Usage: node dev/scripts/build-runs.js
  *
- * Output: data/nordic-ski-runs-na.geojson
+ * Output:
+ *   data/runs/<skimapId>.geojson  — one lean FeatureCollection per area
+ *   data/runs/index.json          — sorted array of skimapIds with run files
  */
 
 'use strict';
@@ -18,7 +20,7 @@ const readline = require('readline');
 const ROOT        = path.join(__dirname, '..', '..'); // repo root (scripts live in dev/scripts)
 const MERGED_FILE = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
 const RUNS_FILE   = path.join(ROOT, 'dev', 'source-data', 'runs.geojson');
-const OUT_FILE    = path.join(ROOT, 'data', 'nordic-ski-runs-na.geojson');
+const OUT_DIR     = path.join(ROOT, 'data', 'runs');
 
 // ── Collect skimapIds present in the merged dataset ──────────────────────────
 console.log('Loading merged dataset for skimapId index...');
@@ -33,10 +35,10 @@ console.log(`  Areas with skimapId: ${validSkimapIds.size}`);
 // ── Stream runs.geojson line by line ─────────────────────────────────────────
 console.log('Streaming runs.geojson...');
 
-const outStream = fs.createWriteStream(OUT_FILE, { encoding: 'utf8' });
-outStream.write('{"type":"FeatureCollection","features":[\n');
-
-let total = 0, kept = 0, first = true;
+const runsByArea = new Map();
+const groomCounts = {};
+const diffCounts  = {};
+let total = 0, kept = 0;
 
 const rl = readline.createInterface({
   input: fs.createReadStream(RUNS_FILE, { encoding: 'utf8' }),
@@ -87,35 +89,42 @@ rl.on('line', (raw) => {
     },
   };
 
-  const json = JSON.stringify(lean);
-  if (!first) outStream.write(',\n');
-  outStream.write(json);
-  first = false;
+  if (!runsByArea.has(matchedAreaId)) runsByArea.set(matchedAreaId, []);
+  runsByArea.get(matchedAreaId).push(lean);
+
+  const g = lean.properties.grooming || 'null';
+  const d = lean.properties.difficulty || 'null';
+  groomCounts[g] = (groomCounts[g] || 0) + 1;
+  diffCounts[d]  = (diffCounts[d]  || 0) + 1;
   kept++;
 
   if (kept % 1000 === 0) process.stdout.write(`\r  Kept ${kept} runs so far...`);
 });
 
 rl.on('close', () => {
-  outStream.write('\n]}');
-  outStream.end(() => {
-    const sizeMB = (fs.statSync(OUT_FILE).size / 1024 / 1024).toFixed(1);
-    console.log(`\n  Scanned: ${total.toLocaleString()} lines`);
-    console.log(`  Kept:    ${kept.toLocaleString()} nordic NA runs linked to our areas`);
-    console.log(`  Output:  ${OUT_FILE} (${sizeMB} MB)`);
-    console.log('\nDone.');
-
-    // Print grooming breakdown
-    const sample = JSON.parse(fs.readFileSync(OUT_FILE, 'utf8'));
-    const groomCounts = {};
-    const diffCounts  = {};
-    for (const f of sample.features) {
-      const g = f.properties.grooming || 'null';
-      const d = f.properties.difficulty || 'null';
-      groomCounts[g] = (groomCounts[g] || 0) + 1;
-      diffCounts[d]  = (diffCounts[d]  || 0) + 1;
+  // Prepare clean output directory
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  for (const name of fs.readdirSync(OUT_DIR)) {
+    if (name.endsWith('.geojson') || name === 'index.json') {
+      fs.unlinkSync(path.join(OUT_DIR, name));
     }
-    console.log('\nGrooming breakdown:', groomCounts);
-    console.log('Difficulty breakdown:', diffCounts);
-  });
+  }
+
+  let totalBytes = 0;
+  const ids = Array.from(runsByArea.keys()).sort();
+  for (const id of ids) {
+    const payload = JSON.stringify({ type: 'FeatureCollection', features: runsByArea.get(id) });
+    fs.writeFileSync(path.join(OUT_DIR, `${id}.geojson`), payload, 'utf8');
+    totalBytes += Buffer.byteLength(payload, 'utf8');
+  }
+
+  fs.writeFileSync(path.join(OUT_DIR, 'index.json'), JSON.stringify(ids), 'utf8');
+
+  const sizeMB = (totalBytes / 1024 / 1024).toFixed(1);
+  console.log(`\n  Scanned: ${total.toLocaleString()} lines`);
+  console.log(`  Kept:    ${kept.toLocaleString()} nordic NA runs across ${ids.length} areas`);
+  console.log(`  Output:  ${OUT_DIR} (${sizeMB} MB total, avg ${Math.round(totalBytes / ids.length / 1024)} KB/area)`);
+  console.log('\nDone.');
+  console.log('\nGrooming breakdown:', groomCounts);
+  console.log('Difficulty breakdown:', diffCounts);
 });

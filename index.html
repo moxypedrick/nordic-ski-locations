@@ -474,6 +474,11 @@ button {
   border: 2px solid rgba(255,255,255,0.7);
   box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
 }
+.detail-grid__dot--hollow {
+  background: #fff;
+  border: 2px solid #7d8892;
+  box-shadow: none;
+}
 .detail-notes {
   font-size: 14px;
   color: var(--muted);
@@ -600,6 +605,11 @@ button {
 
 .card:hover { background: var(--chip); }
 
+.card:focus-visible {
+  outline: 3px solid #6cc0e5;
+  outline-offset: -3px;
+}
+
 .card.is-active {
   background: var(--ice);
   box-shadow: inset 3px 0 0 var(--navy);
@@ -627,9 +637,9 @@ button {
   flex: none;
   padding: 2px 8px;
   border-radius: var(--radius-pill);
-  background: #eceff2;
-  color: #4d5d6c;
-  border: 1px solid #c3cad1;
+  background: #fbeaea;
+  color: #9b2c2c;
+  border: 1px solid #e5b3b3;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: .04em;
@@ -681,6 +691,10 @@ button {
   height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
+}
+.tag__dot--hollow {
+  background: #fff;
+  border: 1.5px solid #7d8892;
 }
 
 /* km tag */
@@ -1054,6 +1068,26 @@ button {
   flex-shrink: 0;
   border: 2px solid rgba(255,255,255,0.7);
   box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
+.map-legend__dot--hollow {
+  background: #fff;
+  border: 2px solid #7d8892;
+  box-shadow: none;
+}
+.map-legend__dot--closed {
+  width: 12px;
+  height: 12px;
+  margin: 0 -1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbeaea;
+  border: 1.5px solid #b83b3b;
+  box-shadow: none;
+  color: #b83b3b;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 /* Step 12/13 — overlay button (color mode + trails toggle) */
@@ -1580,6 +1614,11 @@ button {
     border: 2px solid rgba(255,255,255,.7);
     box-shadow: 0 0 0 1px rgba(0,0,0,.12);
   }
+  .mbs-stat__dot--hollow {
+    background: #fff;
+    border: 2px solid #7d8892;
+    box-shadow: none;
+  }
 
   .map-bottom-sheet__actions {
     display: flex;
@@ -2007,7 +2046,7 @@ button {
 
     <!-- Legend toggle button (mobile: collapses the legend) -->
     <button class="legend-toggle-btn" id="legend-toggle-btn" type="button" aria-expanded="false" aria-label="Show legend">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="4" cy="4" r="3" fill="#1b4f8a"/><circle cx="10" cy="4" r="3" fill="#e07b24"/><circle cx="4" cy="10" r="3" fill="#6cc0e5"/><circle cx="10" cy="10" r="3" fill="#9aa4ad"/></svg>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="4" cy="4" r="3" fill="#1b4f8a"/><circle cx="10" cy="4" r="3" fill="#e07b24"/><circle cx="4" cy="10" r="3" fill="#6cc0e5"/><circle cx="10" cy="10" r="3" fill="#7b4b94"/></svg>
       <span>Legend</span>
     </button>
 
@@ -2026,13 +2065,13 @@ button {
         <span class="map-legend__dot" style="background:#6cc0e5"></span>Classic only
       </div>
       <div class="map-legend__item">
-        <span class="map-legend__dot" style="background:#5f7d95"></span>Groomed (style not listed)
+        <span class="map-legend__dot" style="background:#7b4b94"></span>Groomed (style not listed)
       </div>
       <div class="map-legend__item">
-        <span class="map-legend__dot" style="background:#9aa4ad"></span>Grooming unknown
+        <span class="map-legend__dot map-legend__dot--hollow"></span>Grooming unknown
       </div>
       <div class="map-legend__item">
-        <span class="map-legend__dot" style="background:#d9dde1;box-shadow:0 0 0 2px #6b7480"></span>Closed
+        <span class="map-legend__dot map-legend__dot--closed" aria-hidden="true">×</span>Closed
       </div>
     </div>
 
@@ -2145,9 +2184,10 @@ var sourceIsFiltered = false;
 var lastFilterKey    = '';
 var dataLoaded       = false;
 
-/* Trail run data — lazy-loaded once on first area selection */
-var runsGeoJSON      = null;   // full feature collection after first load
-var runsLoading      = false;  // guard against concurrent fetches
+/* Trail run data — loaded per area on demand from data/runs/<skimapId>.geojson */
+var runsCache        = {};     // skimapId -> FeatureCollection | null
+var runsIndex        = null;   // Set of skimapIds with run files (from data/runs/index.json)
+var runsReqId        = 0;      // guards against stale in-flight fetches
 
 /* --- URL → state (runs immediately; map/area applied after data loads) --- */
 var pendingMapParam  = null;
@@ -2446,8 +2486,8 @@ var GROOM_INFO = {
   both:    { label: 'Skate + classic',            color: '#1b4f8a' },
   skate:   { label: 'Skate only',                 color: '#e07b24' },
   classic: { label: 'Classic only',               color: '#6cc0e5' },
-  yes:     { label: 'Groomed (style not listed)', color: '#5f7d95' },
-  unknown: { label: 'Grooming unknown',           color: '#9aa4ad' }
+  yes:     { label: 'Groomed (style not listed)', color: '#7b4b94' },
+  unknown: { label: 'Grooming unknown',           color: '#7d8892', hollow: true }
 };
 var GROOM_COLOR = {};
 Object.keys(GROOM_INFO).forEach(function (k) { GROOM_COLOR[k] = GROOM_INFO[k].color; });
@@ -2460,7 +2500,7 @@ function groomDisplayInfo(prop) {
 /* C3: "US-WA" → "WA", "Wolfeboro, US-NH" → "Wolfeboro, NH" */
 function formatRegion(region) {
   if (!region) return '';
-  return String(region).replace(/(US|CA)-(?=[A-Z]{2})/g, '');
+  return String(region).replace(/\b(US|CA)-(?=[A-Z]{2}\b)/g, '');
 }
 
 /* =================================================================
@@ -2562,10 +2602,10 @@ function renderListings(features) {
   toRender.forEach(function (feature) {
     var prop = feature.properties;
 
-    var btn = document.createElement('button');
+    var btn = document.createElement('div');
     btn.className = 'card' + (prop.id === state.selectedId ? ' is-active' : '') + (isClosed(prop) ? ' is-closed' : '');
-    btn.type = 'button';
     btn.setAttribute('role', 'listitem');
+    btn.tabIndex = 0;
     btn.dataset.id = prop.id;
 
     /* Top row: name + distance + star */
@@ -2616,8 +2656,8 @@ function renderListings(features) {
     var groomTag = document.createElement('span');
     groomTag.className = 'tag tag--groom';
     var dot = document.createElement('span');
-    dot.className = 'tag__dot';
-    dot.style.background = gInfo.color;
+    dot.className = 'tag__dot' + (gInfo.hollow ? ' tag__dot--hollow' : '');
+    if (!gInfo.hollow) dot.style.background = gInfo.color;
     groomTag.appendChild(dot);
     groomTag.appendChild(document.createTextNode(gInfo.label));
     tags.appendChild(groomTag);
@@ -2667,6 +2707,13 @@ function renderListings(features) {
 
     btn.addEventListener('click', function () {
       selectArea(feature, 'card');
+    });
+    btn.addEventListener('keydown', function (e) {
+      if (e.target !== btn) return;
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        selectArea(feature, 'card');
+      }
     });
   });
 
@@ -2889,6 +2936,11 @@ map.on('load', function () {
     promoteId: 'id'
   });
 
+  fetch('data/runs/index.json')
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (ids) { if (Array.isArray(ids)) runsIndex = new Set(ids); })
+    .catch(function () {});
+
   fetch('data/nordic-ski-areas-merged.geojson')
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -3106,15 +3158,8 @@ map.on('load', function () {
     source: 'nordic-ski-areas',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': closedAwareColor([
-        'match', ['get', 'groomType'],
-        'both',    '#1b4f8a',
-        'skate',   '#e07b24',
-        'classic', '#6cc0e5',
-        'yes',     '#5f7d95',
-        '#9aa4ad'
-      ]),
-      /* C2: unknown-grooming pins are smaller and quieter */
+      'circle-color': closedAwareColor(GROOM_COLOR_EXPR),
+      /* C2: unknown-grooming pins are smaller hollow rings; closed pins keep a steady size */
       'circle-radius': [
         'case',
         ['any',
@@ -3122,9 +3167,15 @@ map.on('load', function () {
           ['boolean', ['feature-state', 'selected'], false]
         ],
         14,
+        IS_CLOSED_EXPR,
+        7.5,
         ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], 8, 5]
       ],
-      'circle-opacity': ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], 1, 0.75],
+      'circle-opacity': [
+        'case',
+        IS_CLOSED_EXPR, 1,
+        ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], 1, 0.92]
+      ],
       'circle-stroke-width': [
         'case',
         ['any',
@@ -3134,14 +3185,27 @@ map.on('load', function () {
         3,
         2
       ],
-      'circle-stroke-color': [
-        'case',
-        ['boolean', ['feature-state', 'selected'], false],
-        '#12355b',
-        IS_CLOSED_EXPR,
-        '#6b7480',
-        '#ffffff'
-      ]
+      'circle-stroke-color': GROOM_STROKE_EXPR
+    }
+  });
+
+  /* Centered × glyph inside closed ski area pins */
+  map.addLayer({
+    id: 'closed-x',
+    type: 'symbol',
+    source: 'nordic-ski-areas',
+    filter: ['all', ['!', ['has', 'point_count']], IS_CLOSED_EXPR],
+    layout: {
+      'text-field': '×',
+      'text-font': ['Arial Unicode MS Bold'],
+      'text-size': 13,
+      'text-offset': [0, 0],
+      'text-anchor': 'center',
+      'text-allow-overlap': true,
+      'text-ignore-placement': true
+    },
+    paint: {
+      'text-color': '#b83b3b'
     }
   });
 
@@ -3584,8 +3648,8 @@ function openDetailPanel(feature) {
   var groomVal  = document.createElement('div');
   groomVal.className = 'detail-grid__value';
   var dot = document.createElement('span');
-  dot.className = 'detail-grid__dot';
-  dot.style.background = groomInfo.color;
+  dot.className = 'detail-grid__dot' + (groomInfo.hollow ? ' detail-grid__dot--hollow' : '');
+  if (!groomInfo.hollow) dot.style.background = groomInfo.color;
   var groomText = document.createTextNode(groomInfo.label);
   groomVal.appendChild(dot);
   groomVal.appendChild(groomText);
@@ -3654,39 +3718,42 @@ function openDetailPanel(feature) {
   loadAreaRuns(prop.skimapId || null);
 }
 
+function clearAreaRuns() {
+  runsReqId++;
+  var src = map.getSource('selected-area-runs');
+  if (src) src.setData({ type: 'FeatureCollection', features: [] });
+}
+
 function loadAreaRuns(skimapId) {
+  var reqId = ++runsReqId;
   var src = map.getSource('selected-area-runs');
   if (!src) return;
 
-  if (!skimapId) {
-    src.setData({ type: 'FeatureCollection', features: [] });
+  var empty = { type: 'FeatureCollection', features: [] };
+
+  if (!skimapId || (runsIndex && !runsIndex.has(skimapId))) {
+    src.setData(empty);
     return;
   }
 
-  function applyRuns(gj) {
-    var filtered = gj.features.filter(function (f) {
-      return f.properties.skiAreaId === skimapId;
-    });
-    src.setData({ type: 'FeatureCollection', features: filtered });
-  }
-
-  if (runsGeoJSON) {
-    applyRuns(runsGeoJSON);
+  if (Object.prototype.hasOwnProperty.call(runsCache, skimapId)) {
+    src.setData(runsCache[skimapId] || empty);
     return;
   }
 
-  if (runsLoading) return; // another load in flight; it will re-apply when done
-  runsLoading = true;
+  // Clear previous area's trails while the new file loads
+  src.setData(empty);
 
-  fetch('data/nordic-ski-runs-na.geojson')
-    .then(function (r) { return r.json(); })
+  fetch('data/runs/' + encodeURIComponent(skimapId) + '.geojson')
+    .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (gj) {
-      runsGeoJSON = gj;
-      runsLoading = false;
-      applyRuns(gj);
+      runsCache[skimapId] = gj || null;
+      if (reqId !== runsReqId) return;
+      var s = map.getSource('selected-area-runs');
+      if (s) s.setData(gj || empty);
     })
     .catch(function () {
-      runsLoading = false;
+      if (reqId !== runsReqId) return;
     });
 }
 
@@ -3744,8 +3811,7 @@ function closeDetailPanel() {
   }
 
   // Clear selected-area trail lines
-  var src = map.getSource('selected-area-runs');
-  if (src) src.setData({ type: 'FeatureCollection', features: [] });
+  clearAreaRuns();
 
   scheduleUrlSync();
   saveToStorage();
@@ -4289,13 +4355,13 @@ if (btnDismissEl) {
 
     // Stats chips
     statsEl.innerHTML = '';
-    function addStat(label, dotColor) {
+    function addStat(label, dotColor, isHollow) {
       var chip = document.createElement('div');
       chip.className = 'mbs-stat';
       if (dotColor) {
         var dot = document.createElement('span');
-        dot.className = 'mbs-stat__dot';
-        dot.style.background = dotColor;
+        dot.className = 'mbs-stat__dot' + (isHollow ? ' mbs-stat__dot--hollow' : '');
+        if (!isHollow) dot.style.background = dotColor;
         chip.appendChild(dot);
       }
       chip.appendChild(document.createTextNode(label));
@@ -4303,7 +4369,7 @@ if (btnDismissEl) {
     }
 
     var groomInfo = groomDisplayInfo(prop);
-    addStat(groomInfo.label, groomInfo.color);
+    addStat(groomInfo.label, groomInfo.color, !!groomInfo.hollow);
 
     var km = prop.km != null ? prop.km : (prop.skimapKm || null);
     if (km != null) addStat(km + ' km trails', null);
@@ -4360,21 +4426,14 @@ if (btnDismissEl) {
       map.setFeatureState({ source: 'nordic-ski-areas', id: state.selectedId }, { selected: false });
       state.selectedId = null;
     }
-    var src = map.getSource('selected-area-runs');
-    if (src) src.setData({ type: 'FeatureCollection', features: [] });
+    clearAreaRuns();
   }
 
   saveBtn.addEventListener('click', function () {
     var id = saveBtn._featureId;
     if (!id || typeof favoriteIds === 'undefined') return;
-    if (favoriteIds.has(id)) {
-      favoriteIds.delete(id);
-    } else {
-      favoriteIds.add(id);
-    }
-    if (typeof saveFavorites === 'function') saveFavorites();
+    toggleFavorite(id, null);
     updateSaveBtn(id);
-    if (typeof applyFilters === 'function') applyFilters();
   });
 
   closeBtn.addEventListener('click', function () { closeSheet(); });
@@ -4554,11 +4613,19 @@ function toggleFavorite(id, starEl) {
   }
   saveFavorites();
   var isFav = favoriteIds.has(id);
-  if (starEl) {
-    starEl.textContent = isFav ? '★' : '☆';
-    starEl.className = 'card__star' + (isFav ? ' is-favorited' : '');
-    starEl.setAttribute('aria-label', isFav ? 'Remove from saved' : 'Save');
-    starEl.setAttribute('title', isFav ? 'Remove from saved' : 'Save');
+  var cardStar = starEl || listingEl.querySelector('[data-id="' + id + '"] .card__star');
+  if (cardStar) {
+    cardStar.textContent = isFav ? '★' : '☆';
+    cardStar.className = 'card__star' + (isFav ? ' is-favorited' : '');
+    cardStar.setAttribute('aria-label', isFav ? 'Remove from saved' : 'Save');
+    cardStar.setAttribute('title', isFav ? 'Remove from saved' : 'Save');
+  }
+  if (state.selectedId === id) {
+    var dpStarBtn = document.getElementById('dp-star-btn');
+    if (dpStarBtn) {
+      dpStarBtn.textContent = isFav ? '★ Saved' : '☆ Save';
+      dpStarBtn.className = 'btn-favorite' + (isFav ? ' is-favorited' : '');
+    }
   }
   if (state.favorites) applyFilters();
   updateFavoritePin();
@@ -4839,15 +4906,28 @@ var GROOM_COLOR_EXPR = [
   'both',    '#1b4f8a',
   'skate',   '#e07b24',
   'classic', '#6cc0e5',
-  'yes',     '#5f7d95',
-  '#9aa4ad'
+  'yes',     '#7b4b94',
+  '#ffffff'
 ];
 
-/* Closed areas (adminStatus === 'closed') stay on the map as pale grey pins */
+/* Closed areas (adminStatus === 'closed') stay on the map as rose pins with an × */
 var IS_CLOSED_EXPR = ['==', ['get', 'adminStatus'], 'closed'];
 function closedAwareColor(expr) {
-  return ['case', ['==', ['get', 'adminStatus'], 'closed'], '#d9dde1', expr];
+  return ['case', IS_CLOSED_EXPR, '#fbeaea', expr];
 }
+var GROOM_STROKE_EXPR = [
+  'case',
+  ['boolean', ['feature-state', 'selected'], false], '#12355b',
+  IS_CLOSED_EXPR, '#b83b3b',
+  ['match', ['get', 'groomType'], ['both', 'skate', 'classic', 'yes'], true, false], '#ffffff',
+  '#7d8892'
+];
+var SNOW_STROKE_EXPR = [
+  'case',
+  ['boolean', ['feature-state', 'selected'], false], '#12355b',
+  IS_CLOSED_EXPR, '#b83b3b',
+  '#ffffff'
+];
 function isClosed(prop) { return prop && prop.adminStatus === 'closed'; }
 function appendClosedBadge(el) {
   var b = document.createElement('span');
@@ -4861,6 +4941,7 @@ function updatePinColors() {
 
   if (state.mapColorMode === 'groom') {
     map.setPaintProperty('unclustered-point', 'circle-color', closedAwareColor(GROOM_COLOR_EXPR));
+    map.setPaintProperty('unclustered-point', 'circle-stroke-color', GROOM_STROKE_EXPR);
     document.getElementById('legend-groom').style.display = '';
     document.getElementById('legend-snow').style.display = 'none';
   } else {
@@ -4880,6 +4961,7 @@ function updatePinColors() {
     });
     matchExpr.push(SNOW_COLORS.none);
     map.setPaintProperty('unclustered-point', 'circle-color', closedAwareColor(matchExpr));
+    map.setPaintProperty('unclustered-point', 'circle-stroke-color', SNOW_STROKE_EXPR);
     document.getElementById('legend-groom').style.display = 'none';
     document.getElementById('legend-snow').style.display = '';
   }

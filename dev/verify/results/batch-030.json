@@ -1,0 +1,426 @@
+[
+  {
+    "id": "parc-du-cap-st-jacques-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://montreal.ca/en/places/parc-nature-du-cap-saint-jacques",
+    "evidence": [
+      {
+        "url": "https://montreal.ca/en/places/parc-nature-du-cap-saint-jacques",
+        "date": "2026-10-22",
+        "summary": "City park page lists 14 km of ski trails with live trail status; page carries a November 2026 notice."
+      },
+      {
+        "url": "https://montreal.ca/en/articles/best-cross-country-ski-trails-montreal",
+        "date": "2024-12-16",
+        "summary": "City guide to Montreal ski trails includes Cap-Saint-Jacques, about 14 km."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "parc-regional-du-bois-dile-bizard-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://montreal.ca/en/places/parc-nature-du-bois-de-lile-bizard",
+    "evidence": [
+      {
+        "url": "https://montreal.ca/en/places/parc-nature-du-bois-de-lile-bizard",
+        "date": null,
+        "summary": "City park page lists two classic ski trails with seasonal status; status updates show no year."
+      },
+      {
+        "url": "https://montreal.ca/en/articles/best-cross-country-ski-trails-montreal",
+        "date": "2024-12-16",
+        "summary": "City ski trail guide lists Bois-de-L Ile-Bizard with over 9 km of trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "parc-du-mont-royal-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://montreal.ca/en/places/parc-du-mont-royal",
+    "evidence": [
+      {
+        "url": "https://montreal.ca/en/places/parc-du-mont-royal",
+        "date": "2026-06-01",
+        "summary": "City park page lists seven classic and skate ski trails with status; mentions events June 2026 to May 2027."
+      },
+      {
+        "url": "https://montreal.ca/en/articles/best-cross-country-ski-trails-montreal",
+        "date": "2024-12-16",
+        "summary": "City guide lists Mount Royal Park with 22 km groomed trail and ski lessons."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "parc-regional-de-saint-bernard-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.parcregionalst-bernard.com/ski-de-fond/",
+    "evidence": [
+      {
+        "url": "https://www.parcregionalst-bernard.com/ski-de-fond/",
+        "date": "2026-04-01",
+        "summary": "Park site describes about 20 km of groomed ski trails; site content uploaded April 2026."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "parc-du-mont-saint-bruno-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.sepaq.com/en/destinations/national-parks/mont-saint-bruno/activities/cross-country-skiing",
+        "date": null,
+        "summary": "Sepaq park page lists 35 km of cross-country ski trails, heated shelters and evening skiing (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "sepaq.com returned 403 to fetches; official page likely https://www.sepaq.com/en/destinations/national-parks/mont-saint-bruno/activities/cross-country-skiing",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-de-ski-de-fond-nordic-qc-2",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Could not identify a club by this name near Mont-Tremblant. Suspected duplicate of Ski de fond Mont-Tremblant (2.3 km away), or a misplaced copy of Club de ski de fond Nordic (club-de-ski-de-fond-nordic-qc, same name and km, in northern QC).",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "les-pied-fartes-qc",
+    "status": "operating",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.zeffy.com/fr-CA/ticketing/club-de-ski-de-fond-damos-tarification-2024--25",
+        "date": "2025-10-01",
+        "summary": "Club de ski de fond d Amos sells 2025-26 season and day passes online (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "No source names Les Pieds Fartes; coordinates match Amos, so possibly an old name for Club de ski de fond d Amos (unconfirmed). Zeffy ticket page returned 403; no club website found.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "mont-saint-hilaire-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://gault.mcgill.ca/en/outdoor-activities/",
+    "evidence": [
+      {
+        "url": "https://gault.mcgill.ca/en/outdoor-activities/",
+        "date": null,
+        "summary": "Gault Reserve page lists hiking and ski trails, winter hours, and annual card ski access; 2025-26 material linked."
+      },
+      {
+        "url": "https://gault.mcgill.ca/workspace/uploads/fichiers/2024_05_guideplanification_groupes_fr.pdf",
+        "date": "2024-05-01",
+        "summary": "Reserve group guide from May 2024 lists 10 km of cross-country ski trails (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Old site centrenature.qc.ca is now a redirect stub to connexionnature.org; skiing is at McGill Gault Nature Reserve.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "les-sentiers-de-la-presquile-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://lessentiers.net/",
+    "evidence": [
+      {
+        "url": "https://lessentiers.net/",
+        "date": "2025-01-01",
+        "summary": "Site posts a winter 2025 trail map for winter hiking and cross-country skiing, with winter hours."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "les-sentiers-de-la-cabane-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Could not identify this name. Possible match: ski trails from Cabane a sucre Rosaire-Gagnon, Sainte-Anne-des-Plaines, seen only in an undated town brochure.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "lenvolee-centre-recreotouristique-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Coordinates are wrong (41.58, -71.48 is in Rhode Island); canadatrails gives 1135 Rang Double, Saint-Lin-Laurentides QC. lenvolee.com is now an OVH parking page; no current trace found.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "reserve-faunique-de-mastigouche-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "http://www.canadatrails.ca/xc_ski/qc/qc58.html",
+        "date": "2008-12-30",
+        "summary": "Directory page says the Catherine sector no longer offers cross-country skiing."
+      },
+      {
+        "url": "https://www.sepaq.com/en/destinations/wildlife-reserves/mastigouche/activities",
+        "date": null,
+        "summary": "Sepaq activity list shows hunting, fishing, hiking, biking; no skiing listed (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Suspected duplicate of reserve-faunique-de-mastigouche-qc-2 (same name and coordinates; this one is the Catherine sector near Mandeville). Likely closed for skiing, but only a directory says so. sepaq.com blocks fetches (403).",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "reserve-faunique-de-mastigouche-qc-2",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "http://www.canadatrails.ca/xc_ski/qc/qc59.html",
+        "date": "2008-12-30",
+        "summary": "Directory page says Pins Rouges sector trails are closed in winter; only snowshoeing listed."
+      },
+      {
+        "url": "https://www.sepaq.com/en/destinations/wildlife-reserves/mastigouche/activities",
+        "date": null,
+        "summary": "Sepaq activity list shows hunting, fishing, hiking, biking; no skiing listed (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Suspected duplicate of reserve-faunique-de-mastigouche-qc (same name and coordinates; this one is the Pins Rouges sector near St-Alexis-des-Monts). Likely no skiing, but only a directory says so. sepaq.com blocks fetches (403).",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-2-temps-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "parc-national-de-la-mauricie-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://parks.canada.ca/pn-np/qc/mauricie/activ/ski",
+    "evidence": [
+      {
+        "url": "https://parks.canada.ca/pn-np/qc/mauricie/activ/ski",
+        "date": "2026-11-19",
+        "summary": "Parks Canada page, modified November 2026, describes winter cross-country skiing and links ski itineraries."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-de-golf-de-grand-mere-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://sortirauquebec.com/en/listing/cross-country-ski-centre/club-de-ski-de-fond-et-raquettes-le-rocher",
+        "date": null,
+        "summary": "Listing places Club Le Rocher, 15 km ski trails, at the Grand-Mere golf club; undated (snippet)."
+      }
+    ],
+    "suggestedName": "Club de ski de fond et raquettes Le Rocher",
+    "method": "research",
+    "comment": "Skiing at this golf course appears to be run by Club de ski de fond et raquettes Le Rocher; no official site or dated evidence found.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "station-de-ski-vallee-du-parc-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://www.valleeduparc.com/",
+    "evidence": [
+      {
+        "url": "https://www.valleeduparc.com/",
+        "date": null,
+        "summary": "Alpine resort site live, mentions 2026-27 members; lists alpine touring, no cross-country trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "station-de-ski-val-mauricie-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://ilemelville.com/station-plein-air-val-mauricie/",
+    "evidence": [
+      {
+        "url": "https://ilemelville.com/station-plein-air-val-mauricie/",
+        "date": "2026-01-01",
+        "summary": "Station page describes 15 km of free groomed classic and skate trails; price tables labelled 2026."
+      }
+    ],
+    "suggestedName": "Station plein air Val-Mauricie",
+    "method": "research",
+    "comment": "Now called Station plein air Val-Mauricie, run by Parc de l ile Melville.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-de-golf-ki-8-eb-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-de-ski-de-fond-saint-francois-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.skidefondsaintfrancois.ca/",
+    "evidence": [
+      {
+        "url": "https://www.skidefondsaintfrancois.ca/conditions-de-ski",
+        "date": "2026-03-16",
+        "summary": "Conditions page closes 2025-26 season and announces 2026-27 pass presales from November 2026."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "domaine-de-lac-louise-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://domainelaclouise.com/",
+    "evidence": [
+      {
+        "url": "https://domainelaclouise.com/relais-de-motoneige/",
+        "date": null,
+        "summary": "Campground site live; winter use described as snowmobile and quad stop only, no ski trails mentioned."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "centre-de-ski-de-fond-richmond-melbourne-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://melbournecanton.ca/wp-content/uploads/2024/04/A-go-on-sactive-a-Melbourne.pdf",
+        "date": "2023-12-01",
+        "summary": "Melbourne township flyer offers resident discounts at the ski centre for winter 2023-24."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "station-de-ski-bromont-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://parcdessommets.com/activite/ski-de-fond/",
+    "evidence": [
+      {
+        "url": "https://parcdessommets.com/activite/ski-de-fond/",
+        "date": null,
+        "summary": "Parc des Sommets lists 40 km of groomed classic and skate ski trails in Bromont."
+      },
+      {
+        "url": "https://parcdessommets.com/",
+        "date": "2026-11-01",
+        "summary": "Home page promotes 2026-27 winter pass presale; ski de fond listed as winter activity."
+      }
+    ],
+    "suggestedName": "Parc des Sommets",
+    "method": "site-check",
+    "comment": "Bromont cross-country trails are now run by Parc des Sommets. Centre de Plein Air Davignon (4 km away) was also linked to this site but is a separate Cowansville park.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "centre-de-plein-air-davignon-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Old link now redirects to Parc des Sommets in Bromont, which does not mention Davignon or Cowansville. Possibly the Centre de la Nature de Cowansville (Lac Davignon); listings mention winter walks only.",
+    "checkedDate": "2026-11-22"
+  },
+  {
+    "id": "club-de-ski-de-fond-de-val-dor-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://skidefondquebec.ca/en/where-to-ski/ski-areas/",
+        "date": null,
+        "summary": "Provincial directory lists the Val-d Or club with night skiing, wax room, classic and skate (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "comment": "Centre de ski de fond de Val-Belair has the same coordinates as this area; one of the two is misplaced. Trails may be at Foret recreative de Val-d Or (unconfirmed); its tourism page returned 403.",
+    "checkedDate": "2026-11-22"
+  }
+]

@@ -1,0 +1,1494 @@
+{
+ "crystal-lake-pa": {
+  "blocked": true,
+  "httpStatus": 403,
+  "candidateLinks": [],
+  "done": true
+ },
+ "garnet-hill-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.garnet-hill.com",
+    "linkCheck": {
+     "inputUrl": "http://www.garnet-hill.com",
+     "finalUrl": "http://www.garnet-hill.com/",
+     "httpStatus": 520,
+     "state": "dead",
+     "title": "garnet-hill.com | 520: Web server is returning an unknown error",
+     "mentionsSkiing": false,
+     "textSample": "Web server is returning an unknown error Error code 520 Visit cloudflare.com for more information. 2026-11-15 18:08:37 UTC You Browser Working Boston Cloudflare Working www.garnet-hill.com Host Error What happened? There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed. What can I do? If you are a visitor of this website: Please try again in a few minutes. If you are the owner of this website: There is an issue between Cl",
+     "triedUrls": [
+      "https://www.garnet-hill.com",
+      "http://www.garnet-hill.com"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "byrncliff-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://byrncliff.com/services/winter-activities/",
+    "linkCheck": {
+     "inputUrl": "https://byrncliff.com/services/winter-activities/",
+     "finalUrl": "https://byrncliff.com/services/winter-activities/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Winter Activities - Byrncliff Golf Resort and Banquets",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content info@byrncliff.com 5855357300 2357 Humphrey Road, Varysburg, NY 14167 HOME GOLF RATES Make Tee Times Multiple Ways to Get a Discount STAY & PLAY The GOLF COURSE LEAGUES OUTINGS & TOURNAMENTS DRIVING RANGE POOL & MINI GOLF WINTER XC SKIING RATES & RENTALS XC SKI VACATION PACKAGES TRAIL CONDITIONS SNOWMOBILING SNOWSHOEING SNOWSHOE VACATION PACKAGE DINE & STAY PACKAGE RESTAURANT/BANQUETS MENUS & SPECIALS BANQUETS WEDDINGS HOTEL Hotel Rooms Condo for rent The Maple Lodge Wine and Che",
+     "triedUrls": [
+      "https://byrncliff.com/services/winter-activities/"
+     ]
+    }
+   },
+   {
+    "url": "https://gotsnowcams.com/webcam40.html",
+    "linkCheck": {
+     "inputUrl": "https://gotsnowcams.com/webcam40.html",
+     "finalUrl": "https://gotsnowcams.com/webcam40.html",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "northernchateau web cam",
+     "mentionsSkiing": true,
+     "textSample": "Got Snow Cams , sponsored by Byrncliff Golf Resort and Banquets 2357 Humphrey Road &bull; Varysburg, NY • 14167 &bull; 585-535-7300 GPS location, N42&deg;45'57.50\" W78&deg;22'23.54\" Elev 1259' • Click here for more info & specials: Byrncliff Trails in this area are groomed and maintained by: Folsom Trailblazers Click the webcam picture for larger version Click the webcam picture for larger version Click here for more info: NorthernChateau Webcams Webcam Map Gotsnowcams Webcams Like Us on faceboo",
+     "triedUrls": [
+      "https://gotsnowcams.com/webcam40.html"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "lapland-lake-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.laplandlake.com",
+    "linkCheck": {
+     "inputUrl": "http://www.laplandlake.com",
+     "finalUrl": "https://laplandlake.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "NY Cross Country Skiing and Year Round Rustic Adirondack Cabins for Rent",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Book Lodging | Ski Conditions | Buy Tickets Top Nav 518.863.4974 Lapland Lake Cross Country Ski Center LODGING Lodging Options Specials Weddings & Groups Book Lodging Policies XC SKI CENTER Buy Tickets Online Day Passes Trails and conditions Lessons & Intro Rates & Rentals Season Passes Snowshoeing Food Service Retail Shop Events Calendar SUMMER & FALL Lake Activities Nearby Attractions Lodging Weddings & Groups ABOUT History FAQs Testimonials Photos Directions Blog Resort Update",
+     "triedUrls": [
+      "https://www.laplandlake.com"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "huron-meadows-mi": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.metroparks.com/parks/huron-meadows-metropark/",
+    "linkCheck": {
+     "inputUrl": "https://www.metroparks.com/parks/huron-meadows-metropark/",
+     "finalUrl": "https://www.metroparks.com/huron-meadows-metropark/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Huron Meadows Metropark – Huron-Clinton Metroparks",
+     "mentionsSkiing": true,
+     "textSample": "Check Conditions & Closures Before You Visit skip to Main Content Your Account Email Sign-Up Buy Annual Pass HOME EXPLORE PARKS Search By Activity Park Maps Rules and Regulations FAQ Metropark Express Delhi Metropark Dexter-Huron Metropark Hudson Mills Metropark Huron Meadows Metropark Indian Springs Metropark Kensington Metropark Lake Erie Metropark Lake St. Clair Metropark Lower Huron Metropark Oakwoods Metropark Stony Creek Metropark Willow Metropark Wolcott Mill Metropark Metroparks Water Ga",
+     "triedUrls": [
+      "https://www.metroparks.com/parks/huron-meadows-metropark/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "white-grass-wv": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.whitegrass.com/",
+    "linkCheck": {
+     "inputUrl": "http://www.whitegrass.com/",
+     "finalUrl": null,
+     "httpStatus": null,
+     "state": "dead",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "",
+     "error": "fetch failed (UND_ERR_SOCKET)",
+     "triedUrls": [
+      "https://www.whitegrass.com/",
+      "http://www.whitegrass.com/"
+     ]
+    }
+   },
+   {
+    "url": "https://www.whitegrass.com/White%20Grass%20Webcams.html",
+    "linkCheck": {
+     "inputUrl": "https://www.whitegrass.com/White%20Grass%20Webcams.html",
+     "finalUrl": null,
+     "httpStatus": null,
+     "state": "dead",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "",
+     "error": "fetch failed (UND_ERR_SOCKET)",
+     "triedUrls": [
+      "https://www.whitegrass.com/White%20Grass%20Webcams.html"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "cross-country-ski-headquarters-mi": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.cross-country-ski.com/",
+    "linkCheck": {
+     "inputUrl": "https://www.cross-country-ski.com/",
+     "finalUrl": "https://www.crosscountryski.com/",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Cross Country Ski Headquarters | CrossCountrySki.com | XC Skis",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content USE CODE SAVE12 FOR 12% OFF FULL PRICE SKIS AND BOOTS! FREE SHIPPING ON ORDERS +$199 Ski Packages Plan Your Visit FAQs Expert Ski Help Daily Ski Reports Account Cart (800) 832-2663 Beginners Start Here! Black Friday Cross Country Ski Packages Black Friday Cross Country Skis Cross Country Ski Boots Clothing Holiday Gift Guide Search Search Shop Black Friday Ski Packages Plan Your Visit Cross Country Ski Headquarters | XC Skis, fitted especially for you, at the best price. Period. ",
+     "triedUrls": [
+      "https://www.cross-country-ski.com/"
+     ]
+    }
+   },
+   {
+    "url": "https://crosscountryski.click2stream.com/",
+    "linkCheck": {
+     "inputUrl": "https://crosscountryski.click2stream.com/",
+     "finalUrl": "https://crosscountryski.click2stream.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "click2stream",
+     "mentionsSkiing": false,
+     "textSample": "",
+     "triedUrls": [
+      "https://crosscountryski.click2stream.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "wilderness-lodge-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://thewildernesslodge.net/",
+    "linkCheck": {
+     "inputUrl": "http://thewildernesslodge.net/",
+     "finalUrl": null,
+     "httpStatus": null,
+     "state": "dead",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "",
+     "error": "fetch failed (EAI_AGAIN)",
+     "triedUrls": [
+      "https://thewildernesslodge.net/",
+      "http://thewildernesslodge.net/"
+     ]
+    }
+   },
+   {
+    "url": "http://www.thewildernesslodge.net/conditions/",
+    "linkCheck": {
+     "inputUrl": "http://www.thewildernesslodge.net/conditions/",
+     "finalUrl": null,
+     "httpStatus": null,
+     "state": "dead",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "",
+     "error": "fetch failed (EAI_AGAIN)",
+     "triedUrls": [
+      "https://www.thewildernesslodge.net/conditions/",
+      "http://www.thewildernesslodge.net/conditions/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "hardwood-ski-and-bike-on": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.hardwoodskiandbike.ca",
+    "linkCheck": {
+     "inputUrl": "http://www.hardwoodskiandbike.ca",
+     "finalUrl": "https://hardwoodskiandbike.ca/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Hardwood Ski and Bike | Adventure Awaits",
+     "mentionsSkiing": true,
+     "textSample": "Home Our Team Trail Conditions & Webcam Shop Online Gift Cards Race Results Register 2026-2027 Winter Season Pass 2027 MTB Season Pass Camp Hardwood 2027 Snowshoe and Fondue Masters Ski Program 2026/27 Youth Ski Programs Biathlon Programs Wax Clinic December 12 Fall Epic 8 Hour Radical Riders SingleTrack Challenge Hardwood Loppet Lazer Cdn Cross Championship/Ontario Provincial Cross Weekend 2027 Timber24 MENU Plan Your Trip Directions & Site Map Hours Things to Do Summer Mountain Bike Trail Runn",
+     "triedUrls": [
+      "https://www.hardwoodskiandbike.ca"
+     ]
+    }
+   },
+   {
+    "url": "https://www.hardwoodskiandbike.ca/summer-homepage/trail-conditions/",
+    "linkCheck": {
+     "inputUrl": "https://www.hardwoodskiandbike.ca/summer-homepage/trail-conditions/",
+     "finalUrl": "https://hardwoodskiandbike.ca/trail-conditions/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Trail Conditions - Hardwood Ski and Bike",
+     "mentionsSkiing": true,
+     "textSample": "Home Our Team Trail Conditions & Webcam Shop Online Gift Cards Race Results Register 2026-2027 Winter Season Pass 2027 MTB Season Pass Camp Hardwood 2027 Snowshoe and Fondue Masters Ski Program 2026/27 Youth Ski Programs Biathlon Programs Wax Clinic December 12 Fall Epic 8 Hour Radical Riders SingleTrack Challenge Hardwood Loppet Lazer Cdn Cross Championship/Ontario Provincial Cross Weekend 2027 Timber24 MENU Plan Your Trip Directions & Site Map Hours Things to Do Summer Mountain Bike Trail Runn",
+     "triedUrls": [
+      "https://www.hardwoodskiandbike.ca/summer-homepage/trail-conditions/"
+     ]
+    }
+   },
+   {
+    "url": "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+    "linkCheck": {
+     "inputUrl": "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+     "finalUrl": "https://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme",
+     "mentionsSkiing": false,
+     "textSample": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme Nous ne pouvons trouver cette page Web (Erreur 404) Nous sommes désolés que vous ayez abouti ici. Il arrive parfois qu'une page ait été déplacée ou supprimée. Heureusement, nous pouvons vous aider à trouver ce que vous cherchez. Retournez à la page d'Accueil météo Contactez-nous au sujet de la météo We couldn't find that Web page (Error 404) We're sorry you ended u",
+     "triedUrls": [
+      "https://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+      "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "high-point-cross-country-ski-center-nj": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://xcskihighpoint.com/",
+    "linkCheck": {
+     "inputUrl": "http://xcskihighpoint.com/",
+     "finalUrl": "https://www.xcskihighpoint.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "CLOSED for this season",
+     "mentionsSkiing": true,
+     "textSample": "Search this site Embedded Files Skip to main content Skip to navigation CLOSED for this season Home Trail Report Trail Passes Rentals Lessons Events Directions Lodging CLOSED for this season Home Trail Report Trail Passes Rentals Lessons Events Directions Lodging More Home Trail Report Trail Passes Rentals Lessons Events Directions Lodging High Point Cross Country Ski Center ...in the shadow of the Monument, at the northern tip of New Jersey, is the High Point Cross Country Ski Center. Over 1325",
+     "triedUrls": [
+      "https://xcskihighpoint.com/",
+      "http://xcskihighpoint.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "art-roscoe-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://alleganynordic.org/blog/about/",
+    "linkCheck": {
+     "inputUrl": "http://alleganynordic.org/blog/about/",
+     "finalUrl": "https://alleganynordic.org/about/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Trail Maps & Grooming – Allegany Nordic",
+     "mentionsSkiing": true,
+     "textSample": "Allegany Nordic Advancing the sport of cross country skiing on the Art Roscoe Trails of the Allegany State Park This site is a source of comprehensive information for the Art Roscoe Cross-Country Ski Trails of Allegany State Park including trail conditions, weather, volunteer opportunities and links. The site is maintained on a volunteer basis as a public service by Allegany Nordic. Please verify all information contained within through the park at (716) 354-9101. Trail Maps & Grooming The Art R",
+     "triedUrls": [
+      "https://alleganynordic.org/blog/about/"
+     ]
+    }
+   },
+   {
+    "url": "http://alleganynordic.org/blog/fees-ski-rental-amenities-etc/",
+    "linkCheck": {
+     "inputUrl": "http://alleganynordic.org/blog/fees-ski-rental-amenities-etc/",
+     "finalUrl": "https://alleganynordic.org/fees-ski-rental-amenities-etc/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Fees, Amenities, Rentals – Allegany Nordic",
+     "mentionsSkiing": true,
+     "textSample": "Allegany Nordic Advancing the sport of cross country skiing on the Art Roscoe Trails of the Allegany State Park This site is a source of comprehensive information for the Art Roscoe Cross-Country Ski Trails of Allegany State Park including trail conditions, weather, volunteer opportunities and links. The site is maintained on a volunteer basis as a public service by Allegany Nordic. Please verify all information contained within through the park at (716) 354-9101. Fees, Amenities, Rentals PARK &",
+     "triedUrls": [
+      "https://alleganynordic.org/blog/fees-ski-rental-amenities-etc/"
+     ]
+    }
+   },
+   {
+    "url": "http://nysparks.com/parks/73/details.aspx",
+    "linkCheck": {
+     "inputUrl": "http://nysparks.com/parks/73/details.aspx",
+     "finalUrl": "https://parks.ny.gov/visit/state-parks/allegany-state-park-red-house-area",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Allegany State Park - Red House Area - New York State Parks & Historic Sites",
+     "mentionsSkiing": true,
+     "textSample": "Skip to main content Parks, Recreation and Historic Preservation Visit Whether discovering new destinations or returning to favorite places, New York’s state parks and historic sites offer visitors a chance to make every day a new adventure. Visit All Locations State Parks Historic Sites Nature Centers Golf Courses Regions Passes Events Event Rentals Love Our NY Lands Explorer App Activities State parks are the perfect year-round setting for visitors to get outside and get active, from beginners",
+     "triedUrls": [
+      "https://nysparks.com/parks/73/details.aspx",
+      "http://nysparks.com/parks/73/details.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "boutwell-hill-state-forest-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://boutwellxc.wordpress.com/",
+    "linkCheck": {
+     "inputUrl": "https://boutwellxc.wordpress.com/",
+     "finalUrl": "https://boutwellxc.wordpress.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Boutwell Hill Ski Club | Winter recreation on the Chautauqua Ridge, lake-effect snow capitol of Western New York",
+     "mentionsSkiing": true,
+     "textSample": "Boutwell Hill Ski Club Winter recreation on the Chautauqua Ridge, lake-effect snow capitol of Western New York Menu Skip to content Home About Donate Trail Reports Important! Maps Videos Archives Trail Report Archive A Rainy Dec. 26th Leave a reply It’s a dreary,damp, rainy and sleet (off and on) infested day. Good for staying inside and enjoying your Christmas treats and treasures. Please do not despair for the future holds better conditions for us all. The sleet and freezing rain will move off",
+     "triedUrls": [
+      "https://boutwellxc.wordpress.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "gore-mountain-ski-area-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.goremountain.com/businesses/cross-country-skiing-gore-mountain",
+    "linkCheck": {
+     "inputUrl": "https://www.goremountain.com/businesses/cross-country-skiing-gore-mountain",
+     "finalUrl": "https://www.goremountain.com/businesses/cross-country-skiing-gore-mountain",
+     "httpStatus": 403,
+     "state": "blocked",
+     "title": "Just a moment...",
+     "mentionsSkiing": false,
+     "textSample": "",
+     "triedUrls": [
+      "https://www.goremountain.com/businesses/cross-country-skiing-gore-mountain"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "alpine-lake-wv": {
+  "blocked": false,
+  "httpStatus": 404,
+  "candidateLinks": [],
+  "fetchFailed": true,
+  "error": null,
+  "done": true
+ },
+ "asbury-woods-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.asburywoods.org",
+    "linkCheck": {
+     "inputUrl": "http://www.asburywoods.org",
+     "finalUrl": "https://www.asburywoods.org/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Asbury Woods - The Woods are Calling - Asbury Woods",
+     "mentionsSkiing": true,
+     "textSample": "skip to main content Schedule Get Involved Donate Contact Us Visit Trails Club and Group Programs Self-Guided Activities FAQ Experiences Programs Program Schedule School Programs Homeschool Programs Scout Programs Trout in the Classroom Solitary Beekeeping Events Winnie the Pooh's Asbury Adventure Scary Creature Feature Trail Run Series Winter Wonderland 90's Night Monday Music in the Woods Wine and Dine in the Woods Cyclefest Maple Festival City Nature Challenge Fish Field Day Camp Register For",
+     "triedUrls": [
+      "https://www.asburywoods.org"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "black-moshannon-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/BlackMoshannonStatePark/Pages/default.aspx",
+    "linkCheck": {
+     "inputUrl": "https://www.dcnr.pa.gov/StateParks/FindAPark/BlackMoshannonStatePark/Pages/default.aspx",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/black-moshannon-state-park",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Black Moshannon State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.pa.gov/StateParks/FindAPark/BlackMoshannonStatePark/Pages/default.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "blue-knob-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://blueknob.com/cross-country-skiing-snowshoeing/",
+    "linkCheck": {
+     "inputUrl": "https://blueknob.com/cross-country-skiing-snowshoeing/",
+     "finalUrl": "https://blueknob.com/cross-country-skiing-snowshoeing/",
+     "httpStatus": 403,
+     "state": "blocked",
+     "title": "Error 403 Forbidden",
+     "mentionsSkiing": false,
+     "textSample": "403 Forbidden",
+     "triedUrls": [
+      "https://blueknob.com/cross-country-skiing-snowshoeing/"
+     ]
+    }
+   },
+   {
+    "url": "http://www.spruceknobassociation.org/info.php?pnum=2",
+    "linkCheck": {
+     "inputUrl": "http://www.spruceknobassociation.org/info.php?pnum=2",
+     "finalUrl": "http://www.spruceknobassociation.org/info.php?pnum=2",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "We've got some trouble | 404 - Resource not found",
+     "mentionsSkiing": false,
+     "textSample": "ERROR 404 Resource not found The requested resource could not be found. Return to the home page .",
+     "triedUrls": [
+      "https://www.spruceknobassociation.org/info.php?pnum=2",
+      "http://www.spruceknobassociation.org/info.php?pnum=2"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.pa.gov/StateParks/FindAPark/BlueKnobStatePark/Pages/Skiing.aspx",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.pa.gov/StateParks/FindAPark/BlueKnobStatePark/Pages/Skiing.aspx",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/blue-knob-state-park/winter",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Enjoy the Winter at Blue Knob State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.pa.gov/StateParks/FindAPark/BlueKnobStatePark/Pages/Skiing.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "chapin-forest-oh": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+    "linkCheck": {
+     "inputUrl": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+     "finalUrl": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Page not found | Lake Metroparks",
+     "mentionsSkiing": false,
+     "textSample": "Parks & Trails Events Activities Register & Reserve About Us News & Updates Contact Golf Teachers & Schools Get Involved Webcams Blogs Accessibility My Account Close Kevin Vail Page Not Found Homepage Page Not Found The page you are looking for has been moved or removed. Please use the search above to find further information. Parks & Trails Events Activities Register & Reserve About Us News & Updates Get In Touch 11211 Spear Rd., Concord Twp., Ohio 44077 Local Phone: 440-639-7275 Visitor Servic",
+     "triedUrls": [
+      "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+      "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing"
+     ]
+    }
+   },
+   {
+    "url": "https://52ce1fcdd8787.click2stream.com/",
+    "linkCheck": {
+     "inputUrl": "https://52ce1fcdd8787.click2stream.com/",
+     "finalUrl": "https://52ce1fcdd8787.click2stream.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "click2stream",
+     "mentionsSkiing": false,
+     "textSample": "",
+     "triedUrls": [
+      "https://52ce1fcdd8787.click2stream.com/"
+     ]
+    }
+   },
+   {
+    "url": "http://www.lakemetroparks.com/programs/activities/pinelodgeskicenter.shtml",
+    "linkCheck": {
+     "inputUrl": "http://www.lakemetroparks.com/programs/activities/pinelodgeskicenter.shtml",
+     "finalUrl": "http://www.lakemetroparks.com/programs/activities/pinelodgeskicenter.shtml",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Page not found | Lake Metroparks",
+     "mentionsSkiing": false,
+     "textSample": "Parks & Trails Events Activities Register & Reserve About Us News & Updates Contact Golf Teachers & Schools Get Involved Webcams Blogs Accessibility My Account Close Kevin Vail Page Not Found Homepage Page Not Found The page you are looking for has been moved or removed. Please use the search above to find further information. Parks & Trails Events Activities Register & Reserve About Us News & Updates Get In Touch 11211 Spear Rd., Concord Twp., Ohio 44077 Local Phone: 440-639-7275 Visitor Servic",
+     "triedUrls": [
+      "https://www.lakemetroparks.com/programs/activities/pinelodgeskicenter.shtml",
+      "http://www.lakemetroparks.com/programs/activities/pinelodgeskicenter.shtml"
+     ]
+    }
+   },
+   {
+    "url": "http://bit.ly/CF-webcam",
+    "linkCheck": {
+     "inputUrl": "http://bit.ly/CF-webcam",
+     "finalUrl": "https://52ce1fcdd8787.click2stream.com/",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "click2stream",
+     "mentionsSkiing": false,
+     "textSample": "",
+     "triedUrls": [
+      "https://bit.ly/CF-webcam"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "coles-woods-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://coleswoods.weebly.com/",
+    "linkCheck": {
+     "inputUrl": "http://coleswoods.weebly.com/",
+     "finalUrl": "http://coleswoods.weebly.com/",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "404 - Page Not Found",
+     "mentionsSkiing": false,
+     "textSample": "404 Error - Page Not Found Please check the URL. Otherwise, click here to be redirected to the homepage.",
+     "triedUrls": [
+      "https://coleswoods.weebly.com/",
+      "http://coleswoods.weebly.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "denton-hill-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park",
+    "linkCheck": {
+     "inputUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Denton Hill State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028036.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028036.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028036.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028036.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028042.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028042.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028042.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028042.pdf"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "elk-river-touring-center-wv": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://elkriverwv.com/",
+    "linkCheck": {
+     "inputUrl": "https://elkriverwv.com/",
+     "finalUrl": "https://elkriverwv.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Welcome to the Birthplace of Rivers",
+     "mentionsSkiing": true,
+     "textSample": "Menu Home Lodging Cross Country Skiing Mountain Biking Fly Fishing Events Trail Map News Contact Us About Us Directions Snowshoe & Attractions Sitemap Events Lodging Skiing Biking Fishing Contact Us Directions Welcome to the Birthplace of Rivers Located in the heart of the Monongahela National Forest on the headwaters of the Elk River, our setting is perfect for your next getaway. The property, a one hundred fifty acre former mountain homestead is 5 miles from the base of Snowshoe Mountain Resor",
+     "triedUrls": [
+      "https://elkriverwv.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "girdled-road-reservation-oh": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+    "linkCheck": {
+     "inputUrl": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+     "finalUrl": "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Page not found | Lake Metroparks",
+     "mentionsSkiing": false,
+     "textSample": "Parks & Trails Events Activities Register & Reserve About Us News & Updates Contact Golf Teachers & Schools Get Involved Webcams Blogs Accessibility My Account Close Kevin Vail Page Not Found Homepage Page Not Found The page you are looking for has been moved or removed. Please use the search above to find further information. Parks & Trails Events Activities Register & Reserve About Us News & Updates Get In Touch 11211 Spear Rd., Concord Twp., Ohio 44077 Local Phone: 440-639-7275 Visitor Servic",
+     "triedUrls": [
+      "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing",
+      "http://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-showshoeing"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "herrington-manor-state-park-md": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx",
+    "linkCheck": {
+     "inputUrl": "http://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx",
+     "finalUrl": "https://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Herrington Manor State Park",
+     "mentionsSkiing": true,
+     "textSample": "Skip to Content Accessibility Information Search Search Home Find a State Park Park Activities & Amenities Camping, Cabins and Shelters DNR Home MARYLAND DEPARTMENT OF NATURAL RESOURCES MARYLAND PARK SERVICE Section Menu Reservation Policies, Park Fees and Hours of Operation Day Use Reservations Info Park Status Dashboard Camping and Picnic Shelter Reservations Park Passes Youth Group Pass Weddings and Events Statewide Park Programs Park Events Statewide Park Policies Cultural Resources and Cura",
+     "triedUrls": [
+      "https://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "highlands-nordic-on-2": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.highlandsnordic.ca/",
+    "linkCheck": {
+     "inputUrl": "https://www.highlandsnordic.ca/",
+     "finalUrl": "https://highlandsnordic.ca/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Highlands Nordic – ONTARIO'S PREMIER OUTDOOR CENTRE",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content 705-444-5017 | ski@highlandsnordic.ca 0 0 Sub-Total: $ 0.00 No products in the cart. Menu About Highlands Winter Procedures Winter Services Highlands Cancellation Policies The Proshop Contact Us Employment Opportunities Donation Request Highlands Nordic Trail Etiquette Trail Maps Lost & Found Information Highlands Trailblazers Ski Patrol FAQ Disc Golf Mountain Biking Accessibility for Ontarians at Highlands Nordic Our History Rates Disc Golf Season’s Pass 2026 Disc Golf Tickets B",
+     "triedUrls": [
+      "https://www.highlandsnordic.ca/"
+     ]
+    }
+   },
+   {
+    "url": "https://www.highlandsnordic.ca/webcam.cfm",
+    "linkCheck": {
+     "inputUrl": "https://www.highlandsnordic.ca/webcam.cfm",
+     "finalUrl": "https://highlandsnordic.ca/webcam.cfm",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Page not found – Highlands Nordic",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content 705-444-5017 | ski@highlandsnordic.ca 0 0 Sub-Total: $ 0.00 No products in the cart. Menu About Highlands Winter Procedures Winter Services Highlands Cancellation Policies The Proshop Contact Us Employment Opportunities Donation Request Highlands Nordic Trail Etiquette Trail Maps Lost & Found Information Highlands Trailblazers Ski Patrol FAQ Disc Golf Mountain Biking Accessibility for Ontarians at Highlands Nordic Our History Rates Disc Golf Season’s Pass 2026 Disc Golf Tickets B",
+     "triedUrls": [
+      "https://www.highlandsnordic.ca/webcam.cfm"
+     ]
+    }
+   },
+   {
+    "url": "http://www.theweathernetwork.com/ca/weather/ontario/feversham",
+    "linkCheck": {
+     "inputUrl": "http://www.theweathernetwork.com/ca/weather/ontario/feversham",
+     "finalUrl": "https://www.theweathernetwork.com/en/cottage/ca/ontario/feversham/current?_guid_iss_=1",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Feversham, ON Current Weather - The Weather Network",
+     "mentionsSkiing": true,
+     "textSample": "Weather Maps News Video | Welcome Current ⋮ Current Hourly 7 Days 14 Days Weekend Monthly Precipitation Temperature Wind Temperature Unit Selection ° Celsius ° Fahrenheit Feversham, ON Current Weather Feversham, ON Updated 6 minutes ago 2 ° C Partly cloudy Feels -2 H: 5 ° L: 1 ° Hourly Full 72 hours 2pm 4 ° Feels 0 30% 3pm 4 ° Feels 0 30% 4pm 4 ° Feels 0 30% 5pm 4 ° Feels 0 30% 6pm 4 ° Feels 0 30% Cloudy with a few clear breaks after 8pm. Today’s Conditions -- Sunrise -- Sunset -- No Data Availa",
+     "triedUrls": [
+      "https://www.theweathernetwork.com/ca/weather/ontario/feversham"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "holden-arboretum-oh": {
+  "blocked": true,
+  "httpStatus": 403,
+  "candidateLinks": [],
+  "done": true
+ },
+ "horseshoe-valley-on": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://horseshoeresort.com/ski/cross-country-and-snowshoeing/",
+    "linkCheck": {
+     "inputUrl": "https://horseshoeresort.com/ski/cross-country-and-snowshoeing/",
+     "finalUrl": "https://horseshoeresort.com/nordic-centre/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Cross Country Skiing, Fat Biking and Snowshoeing at Horseshoe Valley Resort",
+     "mentionsSkiing": true,
+     "textSample": "OFFERS & PACKAGES LEARN MORE ALPINE SEASON PASSES Buy Now CAREERS Apply Now Directions Hours of Operation Webcams Ski Report & Trail Maps Main: 705-835-2790 Reservations: 1-800-461-5627 Contact Us 22 °C Search for: STAY Accommodations Accommodations Offers & Packages Groups & Weddings THINGS TO DO Things To Do Winter Activities Spring Activities Summer Activities Fall Activities Shop Pool & Gym Explore Oro Camp Horseshoe Trail Running Vettä Nordic Spa EVENTS Events Resort Event Calendar Groups &",
+     "triedUrls": [
+      "https://horseshoeresort.com/ski/cross-country-and-snowshoeing/"
+     ]
+    }
+   },
+   {
+    "url": "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+    "linkCheck": {
+     "inputUrl": "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+     "finalUrl": "https://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme",
+     "mentionsSkiing": false,
+     "textSample": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme Nous ne pouvons trouver cette page Web (Erreur 404) Nous sommes désolés que vous ayez abouti ici. Il arrive parfois qu'une page ait été déplacée ou supprimée. Heureusement, nous pouvons vous aider à trouver ce que vous cherchez. Retournez à la page d'Accueil météo Contactez-nous au sujet de la météo We couldn't find that Web page (Error 404) We're sorry you ended u",
+     "triedUrls": [
+      "https://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial",
+      "http://weather.gc.ca/city/pages/on-151_metric_e.html?unit=imperial"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "the-inn-at-starlight-lake-pa": {
+  "blocked": true,
+  "httpStatus": 403,
+  "candidateLinks": [],
+  "done": true
+ },
+ "kooser-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/KooserStatePark/Pages/Skiing.aspx",
+    "linkCheck": {
+     "inputUrl": "https://www.dcnr.pa.gov/StateParks/FindAPark/KooserStatePark/Pages/Skiing.aspx",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/kooser-state-park/winter",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Enjoy the Winter at Kooser State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.pa.gov/StateParks/FindAPark/KooserStatePark/Pages/Skiing.aspx"
+     ]
+    }
+   },
+   {
+    "url": "https://war-nordic.org/laurel-highlands-nordic",
+    "linkCheck": {
+     "inputUrl": "https://war-nordic.org/laurel-highlands-nordic",
+     "finalUrl": "https://war-nordic.org/laurel-highlands-nordic/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Laurel Highlands Nordic SKI Patrol | Western Appalachian Region Nordic SKI Patrol",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Western Appalachian Region Nordic SKI Patrol National SKI Patrol Western Appalachian Region Nordic SKI PATROLS Menu Home News Events Photos Laurel Highlands Nordic Laurel Summit Nordic Places to SKI Join Us Links Contact Us Laurel Highlands Nordic SKI Patrol Who We Are The Laurel Highlands Nordic Ski Patrol is an all-volunteer professional organization, and a component of the National Ski Patrol. Its mission is to provide outdoor emergency care, rescue, and other safety related s",
+     "triedUrls": [
+      "https://war-nordic.org/laurel-highlands-nordic"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+      "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "laurel-mountain-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://war-nordic.org/laurel-summit-nordic/",
+    "linkCheck": {
+     "inputUrl": "https://war-nordic.org/laurel-summit-nordic/",
+     "finalUrl": "https://war-nordic.org/laurel-summit-nordic/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Laurel Summit Nordic SKI Patrol | Western Appalachian Region Nordic SKI Patrol",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Western Appalachian Region Nordic SKI Patrol National SKI Patrol Western Appalachian Region Nordic SKI PATROLS Menu Home News Events Photos Laurel Highlands Nordic Laurel Summit Nordic Places to SKI Join Us Links Contact Us Laurel Summit Nordic SKI Patrol Who We Are The Laurel Summit Nordic Ski Patrol is an all-volunteer professional organization, and a component of the National Ski Patrol. Its mission is to provide outdoor emergency care, rescue, and other safety related service",
+     "triedUrls": [
+      "https://war-nordic.org/laurel-summit-nordic/"
+     ]
+    }
+   },
+   {
+    "url": "https://elibrary.dcnr.pa.gov/GetDocument?docId=3242952&DocName=Laurel%20Highlands%20Trail%20System.pdf",
+    "linkCheck": {
+     "inputUrl": "https://elibrary.dcnr.pa.gov/GetDocument?docId=3242952&DocName=Laurel%20Highlands%20Trail%20System.pdf",
+     "finalUrl": "https://elibrary.dcnr.pa.gov/GetDocument?docId=3242952&DocName=Laurel%20Highlands%20Trail%20System.pdf",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "",
+     "mentionsSkiing": false,
+     "textSample": "Opening 'Laurel Highlands Trail System' (5 MB). Depending on your connection speed, this document may take several minutes to open. Please wait. Download file in native format",
+     "triedUrls": [
+      "https://elibrary.dcnr.pa.gov/GetDocument?docId=3242952&DocName=Laurel%20Highlands%20Trail%20System.pdf"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "laurel-ridge-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.riversportonline.com/laurelridge/",
+    "linkCheck": {
+     "inputUrl": "http://www.riversportonline.com/laurelridge/",
+     "finalUrl": "https://www.riversportonline.com/laurelridge/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Riversport : Confluence, PA",
+     "mentionsSkiing": true,
+     "textSample": "Home Laurel Ridge X-Country Ski Center Forms Laurel Ridge XC Skiing and 2026 Kayak Camps Discounts Summer Instructional Programs Online Reservation Laurel Ridge Cross Country Ski Center 2025-2026 (DCNR State Park XC Ski Concession Operated by River Sport ) Laurel Ridge XC Ski Center is located on one of the highest mountain ridges in the Laurel Highlands region of Southwestern Pennsylvania. Our ski center operates out of Laurel Ridge State Park’s concession building managed by the Laurel Hill St",
+     "triedUrls": [
+      "https://www.riversportonline.com/laurelridge/"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/stateparks/findapark/laurelridge/index.htm",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/stateparks/findapark/laurelridge/index.htm",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/stateparks/findapark/laurelridge/index.htm",
+      "http://www.dcnr.state.pa.us/stateparks/findapark/laurelridge/index.htm"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "lehigh-gorge-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park.html",
+    "linkCheck": {
+     "inputUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park.html",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Lehigh Gorge State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park.html"
+     ]
+    }
+   },
+   {
+    "url": "https://elibrary.dcnr.pa.gov/GetDocument?docId=1737542&DocName=LEGO_ParkGuide.pdf",
+    "linkCheck": {
+     "inputUrl": "https://elibrary.dcnr.pa.gov/GetDocument?docId=1737542&DocName=LEGO_ParkGuide.pdf",
+     "finalUrl": "https://elibrary.dcnr.pa.gov/GetDocument?docId=1737542&DocName=LEGO_ParkGuide.pdf",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "",
+     "mentionsSkiing": false,
+     "textSample": "Opening 'LEGO_ParkGuide' (8 MB). Depending on your connection speed, this document may take several minutes to open. Please wait. Download file in native format",
+     "triedUrls": [
+      "https://elibrary.dcnr.pa.gov/GetDocument?docId=1737542&DocName=LEGO_ParkGuide.pdf"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "moraine-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.dcnr.pa.gov/StateParks/FindAPark/MoraineStatePark/Pages/default.aspx",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.pa.gov/StateParks/FindAPark/MoraineStatePark/Pages/default.aspx",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/moraine-state-park",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Moraine State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.pa.gov/StateParks/FindAPark/MoraineStatePark/Pages/default.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "mt-pleasant-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.skimountpleasant.com/about/crosscountry",
+    "linkCheck": {
+     "inputUrl": "http://www.skimountpleasant.com/about/crosscountry",
+     "finalUrl": "https://www.skimountpleasant.com/about/crosscountry",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Cross-County Skiing - Mount Pleasant of Edinboro",
+     "mentionsSkiing": true,
+     "textSample": "(814) 734-1641 info@skimountpleasant.com 42&deg; / 38&deg; Live Webcam Employment &bull; Online Store &bull; Learn To Ski Or Board &bull; Winter Sports The Mount Pleasant House Gift Cards Lessons Multi-Week Lesson Programs One-time Lessons Rates Trails Tuning Shop Season Pass Application Cross-County Skiing and Snowshoeing Specials FAQ Explore Slopeside Grille News & Events Employment #skiMTP Ski Patrol Summer Access Pass Weddings and Lodge Rentals SnoBox Derby Tubing Women's Ski Night Safety Sn",
+     "triedUrls": [
+      "https://www.skimountpleasant.com/about/crosscountry"
+     ]
+    }
+   },
+   {
+    "url": "https://www.skimountpleasant.com/live-webcam",
+    "linkCheck": {
+     "inputUrl": "https://www.skimountpleasant.com/live-webcam",
+     "finalUrl": "https://www.skimountpleasant.com/live-webcam",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Webcam - Mount Pleasant of Edinboro",
+     "mentionsSkiing": true,
+     "textSample": "(814) 734-1641 info@skimountpleasant.com 42&deg; / 38&deg; Live Webcam Employment &bull; Online Store &bull; Learn To Ski Or Board &bull; Winter Sports The Mount Pleasant House Gift Cards Lessons Multi-Week Lesson Programs One-time Lessons Rates Trails Tuning Shop Season Pass Application Cross-County Skiing and Snowshoeing Specials FAQ Explore Slopeside Grille News & Events Employment #skiMTP Ski Patrol Summer Access Pass Weddings and Lodge Rentals SnoBox Derby Tubing Women's Ski Night Safety Sn",
+     "triedUrls": [
+      "https://www.skimountpleasant.com/live-webcam"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "new-germany-state-park-md": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://dnr.maryland.gov/publiclands/Pages/western/newgermany.aspx",
+    "linkCheck": {
+     "inputUrl": "http://dnr.maryland.gov/publiclands/Pages/western/newgermany.aspx",
+     "finalUrl": "https://dnr.maryland.gov/publiclands/Pages/western/newgermany.aspx",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "New Germany State Park",
+     "mentionsSkiing": true,
+     "textSample": "Skip to Content Accessibility Information Search Search Home Find a State Park Park Activities & Amenities Camping, Cabins and Shelters DNR Home MARYLAND DEPARTMENT OF NATURAL RESOURCES MARYLAND PARK SERVICE Section Menu Reservation Policies, Park Fees and Hours of Operation Day Use Reservations Info Park Status Dashboard Camping and Picnic Shelter Reservations Park Passes Youth Group Pass Weddings and Events Statewide Park Programs Park Events Statewide Park Policies Cultural Resources and Cura",
+     "triedUrls": [
+      "https://dnr.maryland.gov/publiclands/Pages/western/newgermany.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "north-woods-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://war-nordic.org/laurel-highlands-nordic",
+    "linkCheck": {
+     "inputUrl": "https://war-nordic.org/laurel-highlands-nordic",
+     "finalUrl": "https://war-nordic.org/laurel-highlands-nordic/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Laurel Highlands Nordic SKI Patrol | Western Appalachian Region Nordic SKI Patrol",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Western Appalachian Region Nordic SKI Patrol National SKI Patrol Western Appalachian Region Nordic SKI PATROLS Menu Home News Events Photos Laurel Highlands Nordic Laurel Summit Nordic Places to SKI Join Us Links Contact Us Laurel Highlands Nordic SKI Patrol Who We Are The Laurel Highlands Nordic Ski Patrol is an all-volunteer professional organization, and a component of the National Ski Patrol. Its mission is to provide outdoor emergency care, rescue, and other safety related s",
+     "triedUrls": [
+      "https://war-nordic.org/laurel-highlands-nordic"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf"
+     ]
+    }
+   },
+   {
+    "url": "https://www.dcnr.pa.gov/StateForests/FindAForest/Forbes/Pages/Maps.aspx",
+    "linkCheck": {
+     "inputUrl": "https://www.dcnr.pa.gov/StateForests/FindAForest/Forbes/Pages/Maps.aspx",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-forests/find-a-forest/forbes/maps",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Maps of Forbes State Forest | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.pa.gov/StateForests/FindAForest/Forbes/Pages/Maps.aspx"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "oil-creek-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.friendsocsp.org/trails/ccski/ccgeninfo.html",
+    "linkCheck": {
+     "inputUrl": "http://www.friendsocsp.org/trails/ccski/ccgeninfo.html",
+     "finalUrl": "https://www.friendsocsp.org/trails/ccski/ccgeninfo.html",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "CCSKI Gen Info",
+     "mentionsSkiing": true,
+     "textSample": "About Information Officers and Board Meetings Newsletters Park Overview Support Membership Donate Volunteer Trails Hiking Biking Cross Country Skiing Projects Over the Hill Gang Ski Trail Maintanence WildCat Hollow Trail Maintanence Cemeteries OC 100 Race Support Gardens Blue Birds Visitors Center Environmental Education Helpers Accessibility Vision Contacts Cross Country Skiing General Information Trails Trail Maintenance - Workdays Responsibility Lodging History: Oil Creek State Park is one of",
+     "triedUrls": [
+      "https://www.friendsocsp.org/trails/ccski/ccgeninfo.html"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/stateparks/findapark/oilcreek/index.htm",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/stateparks/findapark/oilcreek/index.htm",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/stateparks/findapark/oilcreek/index.htm",
+      "http://www.dcnr.state.pa.us/stateparks/findapark/oilcreek/index.htm"
+     ]
+    }
+   },
+   {
+    "url": "http://www.friendsocsp.org/trails/ccski/CCSkiingTrailMap2011.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.friendsocsp.org/trails/ccski/CCSkiingTrailMap2011.pdf",
+     "finalUrl": "https://www.friendsocsp.org/trails/ccski/CCSkiingTrailMap2011.pdf",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "%PDF-1.4 %�쏢 5 0 obj > stream x�+T0�34R0\u0000A\u0018#9�K?�\\!���\u0010�3326W�563�\u0004r�-,�\u0014���,-� !�,\u0014\\�\u0002�\u0010\u00002�\u000f$endstream endobj 6 0 obj 65 endobj 4 0 obj > /Contents 5 0 R >> endobj 3 0 obj > endobj 1 0 obj > endobj 7 0 obj >endobj 9 0 obj > endobj 10 0 obj > endobj 8 0 obj >stream ����\u0000\u000eAdobe\u0000d\u0000\u0000\u0000\u0000\u0001��\u0000C\u0000\u0002\u0002\u0002\u0002\u0002\u0002\u0002\u0002\u0002\u0002\u0003\u0003\u0002\u0003\u0004\u0006\u0004\u0004\u0003\u0003\u0004\u0007\u0005\u0006\u0004\u0006 \b \b\b\b \u000e \b\b \u0010 \u000e\u000f\u000f\u0010\u000f \u0011\u0012\u0011\u000f\u0012\u000e\u000f\u000f\u000f��\u0000C\u0001\u0003\u0003\u0003\u0004\u0003\u0004\u0007\u0004\u0004\u0007\u000f \b \u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f��\u0000\u0011\b\u0003�\u0006\u001d\u0003\u0001\u0011\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b ��\u0000�\u0010\u0000\u0002\u0001\u0003\u0003\u0002\u0004\u0003\u0005\u0005\u0004\u0004\u0000\u0000\u0001}\u0001\u0002\u0003\u0000\u0004\u0011\u0005\u0012!1A\u0006\u0013Qa\u0007",
+     "triedUrls": [
+      "https://www.friendsocsp.org/trails/ccski/CCSkiingTrailMap2011.pdf"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "olympic-sports-complex-ny": {
+  "blocked": false,
+  "httpStatus": 404,
+  "candidateLinks": [],
+  "fetchFailed": true,
+  "error": null,
+  "done": true
+ },
+ "osceola-tug-hill-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.uxcski.com/",
+    "linkCheck": {
+     "inputUrl": "http://www.uxcski.com/",
+     "finalUrl": "https://www.uxcski.com/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Osceola Tug Hill XC Ski In Camden, NY",
+     "mentionsSkiing": true,
+     "textSample": "Expand/collapse navigation Home WHAT'S NEW trail conditions Trail/Rental Fees Ski Lessons Trail Map Lodging Other area lodging Directions About Us Contact Us Photo Gallery Business Hours Osceola Tug Hill XC Ski Center Home WHAT'S NEW trail conditions Trail/Rental Fees Ski Lessons Trail Map Lodging Other area lodging Directions About Us Contact Us Photo Gallery Business Hours SKI CONDITIONS - see Trail Conditions page or check our WEBCAM at https://www.northernchateau.com/w/webcam20.html SUNY Alb",
+     "triedUrls": [
+      "https://www.uxcski.com/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "peekn-peak-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.pknpk.com/conditions-report/",
+    "linkCheck": {
+     "inputUrl": "https://www.pknpk.com/conditions-report/",
+     "finalUrl": "https://www.pknpk.com/conditions-report/",
+     "httpStatus": 403,
+     "state": "blocked",
+     "title": "Security Verification",
+     "mentionsSkiing": false,
+     "textSample": "Security Verification ::HOST:: Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Having trouble accessing the site? Need help? Requested Host: ::HOST:: Ray ID: a5b03df32e908fea Client IP: 130.44.166.144 Open Support Ticket Please include these details when opening a support ticket so we can quickly locate the challenged request.",
+     "triedUrls": [
+      "https://www.pknpk.com/conditions-report/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "prince-gallitzin-state-park-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park",
+    "linkCheck": {
+     "inputUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Prince Gallitzin State Park | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "queensbury-high-school-ny": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://skitrailreport.com/trail.php?q=232",
+    "linkCheck": {
+     "inputUrl": "http://skitrailreport.com/trail.php?q=232",
+     "finalUrl": null,
+     "httpStatus": null,
+     "state": "dead",
+     "title": null,
+     "mentionsSkiing": false,
+     "textSample": "",
+     "error": "fetch failed (EAI_AGAIN)",
+     "triedUrls": [
+      "https://skitrailreport.com/trail.php?q=232",
+      "http://skitrailreport.com/trail.php?q=232"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "roaring-run-natural-area-pa": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://elibrary.dcnr.pa.gov/GetDocument?docId=3471183&DocName=Roaring%20Run%20Natural%20Area.pdf",
+    "linkCheck": {
+     "inputUrl": "http://elibrary.dcnr.pa.gov/GetDocument?docId=3471183&DocName=Roaring%20Run%20Natural%20Area.pdf",
+     "finalUrl": "https://elibrary.dcnr.pa.gov/GetDocument?docId=3471183&DocName=Roaring%20Run%20Natural%20Area.pdf",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "",
+     "mentionsSkiing": false,
+     "textSample": "Opening 'Roaring Run Natural Area' (5 MB). Depending on your connection speed, this document may take several minutes to open. Please wait. Download file in native format",
+     "triedUrls": [
+      "https://elibrary.dcnr.pa.gov/GetDocument?docId=3471183&DocName=Roaring%20Run%20Natural%20Area.pdf"
+     ]
+    }
+   },
+   {
+    "url": "https://war-nordic.org/laurel-highlands-nordic",
+    "linkCheck": {
+     "inputUrl": "https://war-nordic.org/laurel-highlands-nordic",
+     "finalUrl": "https://war-nordic.org/laurel-highlands-nordic/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Laurel Highlands Nordic SKI Patrol | Western Appalachian Region Nordic SKI Patrol",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Western Appalachian Region Nordic SKI Patrol National SKI Patrol Western Appalachian Region Nordic SKI PATROLS Menu Home News Events Photos Laurel Highlands Nordic Laurel Summit Nordic Places to SKI Join Us Links Contact Us Laurel Highlands Nordic SKI Patrol Who We Are The Laurel Highlands Nordic Ski Patrol is an all-volunteer professional organization, and a component of the National Ski Patrol. Its mission is to provide outdoor emergency care, rescue, and other safety related s",
+     "triedUrls": [
+      "https://war-nordic.org/laurel-highlands-nordic"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20031580.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf",
+      "http://www.dcnr.state.pa.us/cs/groups/public/documents/document/dcnr_20028507.pdf"
+     ]
+    }
+   },
+   {
+    "url": "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+    "linkCheck": {
+     "inputUrl": "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+     "finalUrl": "https://www.pa.gov/agencies/dcnr",
+     "httpStatus": 200,
+     "state": "moved",
+     "title": "Department of Conservation and Natural Resources | Department of Conservation and Natural Resources| Commonwealth of Pennsylvania",
+     "mentionsSkiing": true,
+     "textSample": "Skip to agency navigation Skip to main content Official website Official website of the Commonwealth of Pennsylvania Translate Services Agency Directory Your Government The Governor Lt. Governor Legislation Courts State House State Senate Attorney General Auditor General Treasurer Visit PA News The .gov means it's official. Local, state, and federal government websites often end in .gov. Commonwealth of Pennsylvania government websites and email systems use \"pennsylvania.gov\" or \"pa.gov\" at the ",
+     "triedUrls": [
+      "https://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm",
+      "http://www.dcnr.state.pa.us/forestry/stateforests/forbes/maps/index.htm"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "savage-river-lodge-md": {
+  "blocked": true,
+  "httpStatus": 403,
+  "candidateLinks": [],
+  "done": true
+ },
+ "scenic-caves-on": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "http://www.sceniccaves.com/activities/nordic-centre/",
+    "linkCheck": {
+     "inputUrl": "http://www.sceniccaves.com/activities/nordic-centre/",
+     "finalUrl": "https://sceniccaves.com/collections/winter-season-nature-adventures",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Winter Season Nature Adventures - Scenic Caves Nature Adventures",
+     "mentionsSkiing": true,
+     "textSample": "Skip to content Close menu Home Nature Adventures Warm Season Rates & Hours 2027 Warm Season Pass Caves & Caverns Suspension Bridge Thunderbird Twin Zip Line Hiking Trails & Lookouts Gemstone Mining Pond & Picnic Mini Golf Trail's End Grill Children's Adventure Playground Rocky the Train Gift Shop Snack Bar Winter Season Rates & Hours Winter Trail Season Pass Cross-Country Skiing Snowshoeing Suspension Bridge Nordic Rentals Relaxation Sauna Guided Night Snowshoe Hike Nordic Lessons Trail Maps Ch",
+     "triedUrls": [
+      "https://www.sceniccaves.com/activities/nordic-centre/"
+     ]
+    }
+   },
+   {
+    "url": "http://weather.gc.ca/city/pages/on-150_metric_e.html?unit=imperial",
+    "linkCheck": {
+     "inputUrl": "http://weather.gc.ca/city/pages/on-150_metric_e.html?unit=imperial",
+     "finalUrl": "https://weather.gc.ca/city/pages/on-150_metric_e.html?unit=imperial",
+     "httpStatus": 404,
+     "state": "dead",
+     "title": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme",
+     "mentionsSkiing": false,
+     "textSample": "Nous ne pouvons trouver cette page Web (Erreur 404) - Thème Canada.ca / We couldn't find that Web page (Error 404) - Canada.ca theme Nous ne pouvons trouver cette page Web (Erreur 404) Nous sommes désolés que vous ayez abouti ici. Il arrive parfois qu'une page ait été déplacée ou supprimée. Heureusement, nous pouvons vous aider à trouver ce que vous cherchez. Retournez à la page d'Accueil météo Contactez-nous au sujet de la météo We couldn't find that Web page (Error 404) We're sorry you ended u",
+     "triedUrls": [
+      "https://weather.gc.ca/city/pages/on-150_metric_e.html?unit=imperial",
+      "http://weather.gc.ca/city/pages/on-150_metric_e.html?unit=imperial"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "vasa-pathway-bunker-hill-mi": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://traversetrails.org/trail/vasa-pathway/",
+    "linkCheck": {
+     "inputUrl": "https://traversetrails.org/trail/vasa-pathway/",
+     "finalUrl": "https://traversetrails.org/trails/vasa-pathway/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "Vasa Pathway | TART Trails Inc.",
+     "mentionsSkiing": true,
+     "textSample": "Facebook Youtube Twitter Instagram Flickr Trails Events Search Contact Donate Now About Mission, Vision, Guiding Principles Land Acknowledgement Staff Board Members Work With Us Connect With Us Committees Newsletters Financials & Annual Report Trail Data & Insights Jim Mudgett Trail Pioneer Award Trails Snow Removal Report a Trail Incident Trails Acme Connector | Nakwema Trailway Boardman Lake Loop Trail Boardman/Ottaway River Trail Buffalo Ridge Trail Deepwater Connector | Nakwema Trailway Leel",
+     "triedUrls": [
+      "https://traversetrails.org/trail/vasa-pathway/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ },
+ "vasa-pathway-timber-ridge-mi": {
+  "blocked": false,
+  "httpStatus": 200,
+  "candidateLinks": [
+   {
+    "url": "https://www.timberridgeresort.net/",
+    "linkCheck": {
+     "inputUrl": "https://www.timberridgeresort.net/",
+     "finalUrl": "https://timberridgeresort.net/",
+     "httpStatus": 200,
+     "state": "ok",
+     "title": "HOME - Timber Ridge Resort",
+     "mentionsSkiing": true,
+     "textSample": "Skip to main content Menu HOME ACCOMMODATIONS Seasonal Living RV & Camp Cabin & Cottage Yurts Deluxe Cabin Bunkhouse Cottages Rental Parkhomes Park Models Compare Cabin & Cottage Rates & Amenities Banquet Hall Common Areas Equipment Rentals EVENTS Park Activities (Campers) Winter Spring, Summer & Fall CONTACT ABOUT Reservation Maps - Directions Frequently Asked Questions Policies Explore ARVC 20 Groups Application for Employment BOOK NOW We are looking for passionate travelers all over the world",
+     "triedUrls": [
+      "https://www.timberridgeresort.net/"
+     ]
+    }
+   }
+  ],
+  "done": true
+ }
+}

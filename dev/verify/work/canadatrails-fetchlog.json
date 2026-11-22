@@ -1,0 +1,2257 @@
+{
+ "parc-de-la-yamaska-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "good-spirit-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "laurentian-university-x-c-ski-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-touristique-montagne-coupee-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sutton-en-haut-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wawa-cross-country-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "inuvik-ski-club-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mountainview-ski-hills-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-domaine-vert-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "crimson-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pembina-nordic-ski-club-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "chez-ti-jean-ski-de-fond-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-labelle-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "airport-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-charlesbourg-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bowring-rotary-parks-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-aventuriers-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-la-balade-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "strathcona-wilderness-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "strathcona-science-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-touristique-de-la-petite-rouge-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mt-washington-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "murphys-point-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "river-bend-ab": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "centre-de-ski-de-fond-lestrel-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "saskatoon-municipal-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "beatton-provincial-park-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-mt-rolland-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hiawatha-highlands-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-regional-du-bois-de-liesse-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blind-river-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "telemark-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "menihek-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bulkley-valley-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ribbon-creek-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pasadena-ski-nature-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-martock-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mataquac-provincial-park-nb": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "sun-peaks-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "river-valley-outdoor-centre-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "muskeg-creek-ski-trails-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "landrose-ski-trailsllyodminster-ski-club-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "jasper-park-lodge-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-beneoin-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "crabbe-mountain-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "beauvais-lake-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bois-duvernay-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gronlid-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "logan-lake-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-sources-joyeuses-de-la-malbaie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "caledonia-nordic-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "echo-valley-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-six-cantons-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sugarloaf-prov-park-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "chickakoo-lake-recreation-area-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "prince-albert-national-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wascana-centre-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lappe-nordic-ski-center-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kamview-nordic-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "triangle-xc-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "yellowknife-ski-club-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "champs-de-bataille-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blue-mountains-nordic-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-beauce-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kane-valley-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bear-mountain-xc-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mcculloch-lakes-ski-center-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "marathon-international-ski-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "omineca-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nipika-lodge-touring-centre-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "allison-chinook-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kawartha-nordic-ski-club-trail-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "birch-brook-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "stokely-creek-ski-touring-center-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "stake-lake-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "camp-mercier-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mt-macpherson-xc-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "callaghan-country-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sleeping-giantsibley-pp-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nelson-nordic-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "aurora-nordic-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blow-me-down-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whitehorse-cross-country-ski-club-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "paulson-xc-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "white-butte-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "china-ridge-xc-ski-association-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "north-bay-nordic-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-sentiers-du-moulin-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "manning-park-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "silver-star-mountain-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "larch-hills-ski-area-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "souris-trails-pe": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nakkertok-ski-club-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "marsh-lake-trails-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "porcupine-ski-runners-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "camrose-ski-club-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "one-hundred-mile-nordic-ski-society-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-megantic-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "big-white-ski-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "moose-mountain-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "highlands-nordic-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "whaleback-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "black-jack-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-duchesnay-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nickel-plate-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-orford-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mount-shark-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sandy-mcnabb-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "west-bragg-creek-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hawk-ridge-centre-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "canada-olympic-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "banff-townsite-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sundance-trails-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lake-minnewankacascade-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "castle-junction-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "baker-creek-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lake-louise-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "syncline-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "athabasca-falls-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whistlers-campground-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pyramid-lake-rd-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "maligne-road-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blue-lake-adventure-lodge-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "athabathsca-lookout-nordic-centre-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pierre-greys-lakes-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hornbeck-cross-country-ski-centre-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pembina-river-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "terratima-lodge-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bearberry-nordic-centre-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pigeon-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "jarvis-bay-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wabamun-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "st-albert-nordic-ski-club-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "waterton-lakes-national-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cooking-lake-blackfoot-prov-rec-area-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "elk-island-national-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "miquelon-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "vermilion-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whitney-lakes-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cypress-hills-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cold-lake-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "moose-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "shaw-lake-ski-trails-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "long-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "tawatinaw-westlock-ski-club-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "thunder-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "carson-pegasus-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sandhills-ab": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "swan-hills-cross-country-trails-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "grizzly-ridge-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lesser-slave-lake-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hilliards-bay-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "winagami-lake-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "youngs-point-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "obrien-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wapiti-nordic-ski-club-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "saskatoon-island-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "moonshine-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "queen-elizabeth-prov-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "smith-dorrien-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fort-mcmurray-trails-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "peter-lougheed-provincial-park-ab": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kitimat-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cariboo-ski-touring-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "williams-lake-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "108-resort-best-western-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hills-health-guest-ranch-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "red-coach-inn-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "clinton-snow-jockey-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "big-bar-guest-ranch-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "tyax-mountain-lake-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whistler-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whistler-olympic-park-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cypress-bowl-xc-ski-area-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hemlock-valley-ski-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mcdowell-lake-ski-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "morice-mountain-nordic-ski-club-bc": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 400,
+  "archiveError": null
+ },
+ "wells-gray-outdoor-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "helmcken-falls-lodge-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "jackman-flats-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sovereign-lake-ski-area-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "apex-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mt-baldy-xc-area-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mount-revelstoke-np-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "glacier-national-park-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "yoho-national-park-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "whitetooth-ski-center-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kootenay-national-park-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "beckie-scott-nordic-centrepanorama-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fairmont-hot-springs-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kimberley-ski-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fernie-snow-valley-resort-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mackenzie-nordiques-xc-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "yellowhead-ski-club-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "turtle-mountain-prov-park-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "clearwater-lake-prov-park-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "flin-flon-ski-club-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "paint-lake-provincial-park-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mystery-mountain-winter-park-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sandilands-prov-forest-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pinawa-xc-ski-trails-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bittersweet-trails-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riding-mountain-np-wasagaming-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riding-mountain-np-west-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riding-mountain-np-north-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riding-mountain-np-northeast-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riding-mountain-np-east-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rivendell-xc-ski-club-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "duck-mountain-prov-park-mb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "edmundston-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "riverview-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-st-antoine-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "beaver-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kouchibouguac-national-park-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pine-strip-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "miramichi-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mount-carleton-provincial-park-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-husky-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-skirakdoo-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rough-waters-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "snow-bear-club-trails-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-les-bayeux-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-plein-air-de-caraquet-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-aca-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-les-mesanges-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "le-sureau-blanc-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-gailurons-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kahoutek-cross-country-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "tobique-nordic-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "perth-andover-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lindsay-valley-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fredericton-area-trails-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rockwood-park-cross-country-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fundy-national-parkchignecto-ski-club-nb": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "new-world-island-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "dildo-run-provincial-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "jonathons-pond-prov-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gambo-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "terra-nova-national-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-white-hills-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "clarenville-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "glenview-nordic-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "butter-pot-provincial-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "stag-lake-provincial-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "northern-lights-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gros-morne-national-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mt-st-margaret-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "deep-cove-ski-club-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "belvy-bay-cross-country-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "notre-dame-provincial-park-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "exploits-valley-cross-country-ski-club-trails-nl": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rails-to-trails-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wentworth-hostel-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "victoria-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "trenton-steeltown-centennial-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "antigonish-golf-club-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "beaver-mountain-provincial-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fortress-louisbourg-national-historic-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "highland-hill-ski-trail-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-tuonela-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "middle-river-ski-club-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-margaree-valley-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "big-baddeck-trails-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kejimkujik-national-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "st-anns-gaelic-college-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cape-breton-highlands-national-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "north-highland-nordic-ski-trails-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "highland-ski-touring-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "upper-clements-wildlife-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "dayspring-recreation-complex-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "shubie-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "jack-lake-trails-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "old-orchard-inn-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "five-islands-provincial-park-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-wentworth-ns": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "norman-wells-cross-country-ski-club-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hay-river-cross-country-ski-club-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blanchford-lake-lodge-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "fort-smith-ski-club-trails-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wood-buffalo-national-park-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "auyuittuq-national-park-nt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-minaki-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bondi-village-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nordic-inn-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "haliburton-nordic-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "moose-woods-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "haliburton-forest-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "domain-of-killien-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "algonquin-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "algonquin-provincial-park-on-2": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "algonquin-provincial-park-on-3": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "algonquin-nordic-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "silent-lake-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "deep-river-cross-country-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "forest-lea-x-c-ski-trail-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nangor-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "petawawa-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bon-echo-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "shabomeka-legpower-pathfinders-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "vanderwater-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "quinte-conservation-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sandbanks-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "macauly-mountain-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wishart-conservation-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "little-cataraqui-creek-ca-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "frontenac-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "foley-mountain-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mount-pakenham-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "g-maccormack-maitland-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "upper-canada-bird-sanctuary-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "larose-ski-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "voyageur-carillon-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pukaskwa-national-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hearst-xc-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "windy-lake-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "chadwicks-kwagama-lake-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mt-evergreen-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "searchmont-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wakomata-shores-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "iron-bridge-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "killarney-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "elliot-lake-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "walden-cross-country-fitness-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lake-laurentian-conservation-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kukagami-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "loneys-sportsman-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rushing-river-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "windy-lake-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "capreol-xc-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kettle-lakes-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "iroquois-falls-xc-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "temiskaming-nordic-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "smoothwater-outfitters-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "temagami-wilderness-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "temagami-shores-inn-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "west-nipissing-nordic-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nordic-nomad-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "samuel-de-champlain-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mattawa-golf-ski-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wasi-cross-country-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "south-river-community-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "the-caswell-resort-hotel-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "point-pelee-national-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "backus-woods-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "pinery-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "stoney-island-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "northern-comfort-wilderness-adv-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sauble-beach-xc-ski-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wiarton-area-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bruce-peninsula-np-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "inglis-falls-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "glenelg-nordic-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "minto-glen-sports-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "allan-park-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cambridge-area-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "laurel-creek-cons-area-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "valens-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hilton-falls-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "atikokanquetico-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mountsberg-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "seneca-college-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "albion-hills-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "palgrave-forest-wildlife-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mansfield-outdoor-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wasaga-beach-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "horseshoe-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "springwater-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kakabeka-falls-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hardwood-hills-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lafontaine-ski-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "awenda-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "wye-marsh-wildlife-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "bayview-wildwood-resorts-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "the-briars-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sibbald-point-prov-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pleasure-valley-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "dagmar-resort-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "heber-down-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "long-sault-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "trillium-trails-on": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "ken-reid-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ganaraska-forest-centre-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "warsaw-caves-cons-area-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "viamede-resort-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gravenhurst-koa-nordic-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sherwood-inn-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "shamrock-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "georgian-bay-ski-canoe-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "minett-landing-nordic-trails-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hill-gully-riders-snowmobile-club-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cedar-grove-lodge-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blue-water-acres-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "arrowhead-provincial-park-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "deerhurst-resort-trail-system-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "grandview-inn-on": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "brookvale-provincial-ski-park-pe": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "prince-edward-island-national-park-pe": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "club-de-ski-de-fond-nordic-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "edielweiss-ski-center-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-militaire-de-valcartier-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-de-val-belair-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "le-refuge-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-mont-torbillon-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-sainte-anne-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sentiers-des-caps-de-charlevoix-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-ferme-neuve-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "le-genevrier-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mont-grand-fonds-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-des-grands-jardins-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-bec-scie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-le-norvegien-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-dalma-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-tobo-ski-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "chibougamau-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-st-nazaire-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-de-mt-valin-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-saguenay-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sentier-de-la-riviere-amedee-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "sentier-nor-fond-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-de-plein-air-les-goelands-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-rapido-de-sept-iles-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-anik-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "pohenegamook-sante-plein-air-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-comi-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "val-neigette-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-de-saint-damase-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-de-ski-val-direne-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-de-plein-air-des-outaouais-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-de-la-gaspesie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-de-saint-simeon-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-de-plein-air-de-bellefeuille-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-national-forillon-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-mont-sainte-marie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "reserve-faunique-de-papineau-labelle-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "chateau-montebello-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "montevillamontebello-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hotel-mon-chez-nous-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-daiguebelle-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "huberdeau-trails-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "saint-jovite-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-tremblant-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-de-plein-air-le-petit-bonheur-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-des-campeurs-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-tremblant-qc-2": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "la-reservesaint-donat-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "forat-ouareau-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-devian-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "base-de-plein-air-linterval-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-val-david-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-sainte-adele-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "st-adolphe-dhoward-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "viking-ski-club-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "morin-heights-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-la-randonnee-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lac-carling-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-montagne-dargenteuil-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-gai-luron-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-lineaire-le-ptit-train-du-nord-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-de-granada-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-regional-de-la-riviere-du-nord-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-doka-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-des-cedres-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lescapade-linear-park-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-cap-st-jacques-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-regional-du-bois-dile-bizard-qc": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 200,
+  "archiveError": null,
+  "fromArchive": true
+ },
+ "parc-du-mont-royal-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-regional-de-saint-bernard-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-du-mont-saint-bruno-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-nordic-qc-2": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-pied-fartes-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "mont-saint-hilaire-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-sentiers-de-la-presquile-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-sentiers-de-la-cabane-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lenvolee-centre-recreotouristique-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-saint-jean-de-matha-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "reserve-faunique-de-mastigouche-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "reserve-faunique-de-mastigouche-qc-2": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-2-temps-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-national-de-la-mauricie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-golf-de-grand-mere-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-de-ski-vallee-du-parc-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-de-ski-val-mauricie-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-golf-ki-8-eb-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-saint-francois-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "domaine-de-lac-louise-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-richmond-melbourne-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-davignon-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-de-val-dor-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-de-ski-bromont-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "au-diable-vert-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "plein-air-mont-echo-farmers-rest-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "skiwippi-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-de-la-gorge-de-coaticook-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-de-ski-de-fond-de-lor-blanc-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "domaine-de-la-baie-gillies-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-de-ski-du-mont-orignal-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "station-touristique-du-massif-du-sud-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-de-sainte-perpetue-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "club-sportif-des-appalaches-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-de-montmagny-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ski-de-fond-des-grandes-prairies-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-ski-de-fond-cap-rouge-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-de-plein-air-dansereau-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "parc-de-la-gatineau-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "le-grand-portneuf-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-ski-neuf-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-portes-de-lenfer-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "centre-nature-sainte-basile-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gite-de-lecureuil-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "les-sapins-verts-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "reserve-faunique-de-portneuf-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "domaine-notre-dame-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "village-des-sports-qc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "cypress-hills-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "york-lake-regional-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "esterhazy-cross-country-club-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "duck-mountain-provincial-park-sk": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 400,
+  "archiveError": null
+ },
+ "duck-mountain-regional-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "rowans-ravine-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "manitou-beach-watrous-manitou-ski-club-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "blue-mountain-outdoor-adventure-center-white-tail-resort-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "battlefords-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "edam-ski-club-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "moose-jaw-river-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "makwa-lake-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "meadow-lake-ski-club-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "meadow-lake-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "anglin-lake-ski-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "emma-lake-recreation-site-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "little-red-river-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "ebs-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "buffalo-pound-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "carlton-trail-ski-club-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "greenwater-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "hudson-bay-ski-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nipawin-regional-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "nipawin-ski-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "narrow-hills-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "candle-lake-provincial-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "lac-la-ronge-provincial-park-sk": {
+  "liveTried": true,
+  "liveStatus": 500,
+  "liveError": null,
+  "archiveTried": true,
+  "archiveStatus": 400,
+  "archiveError": null
+ },
+ "weyburn-cross-country-ski-trails-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "carlton-trail-regional-park-sk": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "kluane-national-park-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "gray-mountain-biathlon-trails-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "carcross-community-ski-club-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "aitlin-ski-club-trails-bc": {
+  "liveTried": true,
+  "fromArchive": false
+ },
+ "dawson-city-jackrabbit-cross-country-ski-club-yt": {
+  "liveTried": true,
+  "fromArchive": false
+ }
+}

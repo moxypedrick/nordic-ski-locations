@@ -1,0 +1,106 @@
+{
+ "searches": 21,
+ "fetches": 44,
+ "perArea": {
+  "bird-lake-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "trezona-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "bally-creek-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cypress-mountain-ski-area-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "zillmer-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "craftsbury-vt": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "korkki-nordic-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nelson-nordic-ski-club-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "blow-me-down-ski-club-nl": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "whistler-bc": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "snow-mountain-ranch-co": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "galena-lodge-id": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "aurora-nordic-nl": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "raven-trails-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "madeline-lake-trail-wi": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "winman-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "art-roscoe-ny": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "woodland-trails-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "afton-state-park-mn": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "nine-mile-county-forest-recreation-area-wi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "howard-wagoner-trail-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "woodstock-vt": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mt-shasta-ca": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "biskey-ponds-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "bearpen-ny": {
+   "searches": 3,
+   "fetches": 3
+  }
+ }
+}

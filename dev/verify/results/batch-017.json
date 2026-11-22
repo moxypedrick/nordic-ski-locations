@@ -1,0 +1,447 @@
+[
+ {
+  "id": "whistlers-campground-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/centres/CA/AB/Jasper-National-Park",
+    "date": "2026-03-09",
+    "summary": "Jasper trail listing includes Whistlers Loop; season grooming report dated March 2026."
+   },
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+    "date": null,
+    "summary": "Parks Canada lists Whistlers loops as high-priority groomed trail (snippet)"
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pyramid-lake-rd-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+    "date": null,
+    "summary": "Parks Canada Jasper ski page lists Pyramid Fire Road groomed trail and Pyramid Bench skier-set area."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "maligne-road-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+    "date": null,
+    "summary": "Parks Canada lists ungroomed skier-set routes along Maligne Road: Summit Lakes/Jacques Lake and Hidden Cove."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blue-lake-adventure-lodge-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/central/william-a-switzer-pp/information-facilities/special-facilities/blue-lake-centre/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/william-a-switzer-pp/information-facilities/special-facilities/blue-lake-centre/",
+    "date": null,
+    "summary": "Alberta Parks Blue Lake Centre page live but lists no skiing; Blue Lake trail listed for snowshoe only."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "athabathsca-lookout-nordic-centre-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://hintonnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://hintonnordic.ca/",
+    "date": null,
+    "summary": "Hinton Nordic Skiers site sells day passes, memberships; lists 2026-27 Jackrabbits program and grooming report."
+   },
+   {
+    "url": "https://albertaparks.ca/parks/central/william-a-switzer-pp/information-facilities/special-facilities/hinton-nordic-centre/",
+    "date": null,
+    "summary": "Alberta Parks says Hinton Nordic Centre, formerly Athabasca Lookout Nordic Centre, has 35 km ski trails."
+   }
+  ],
+  "suggestedName": "Hinton Nordic Centre",
+  "method": "research",
+  "comment": "Renamed: now Hinton Nordic Centre (Alberta Parks says formerly Athabasca Lookout Nordic Centre).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pierre-greys-lakes-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/central/pierre-grey-s-lakes-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/pierre-grey-s-lakes-pp/",
+    "date": "2026-08-24",
+    "summary": "Alberta Parks page lists 15 km groomed and 9 km ungroomed ski trails, volunteer-maintained November to March."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hornbeck-cross-country-ski-centre-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://edson.ca/explore/skiing",
+    "date": null,
+    "summary": "Town of Edson lists Hornbeck ski area, maintained by Muskeg Flyers club and Alberta Forest Service (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "edson.ca page blocked (403); trailforks blocked. Club appears to post conditions only on Facebook, not loaded; no dated evidence found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pembina-river-prov-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/central/pembina-river-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/pembina-river-pp/",
+    "date": "2026-08-24",
+    "summary": "Alberta Parks page live; activity list omits cross-country skiing, includes fat biking."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bearberry-nordic-centre-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bearberrycabins.com/activities/",
+  "evidence": [
+   {
+    "url": "https://bearberrycabins.com/activities/",
+    "date": null,
+    "summary": "Bearberry Cabins near Sundre grooms over 25 km classic and skate trails, rents skis; site footer 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pigeon-lake-prov-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.plnsc.com/trail-conditions",
+  "evidence": [
+   {
+    "url": "https://www.plnsc.com/trail-conditions",
+    "date": "2026-02-28",
+    "summary": "Pigeon Lake Nordic Ski Club reports Pigeon Lake Provincial Park trails groomed and trackset, February 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jarvis-bay-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/central/jarvis-bay-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/jarvis-bay-pp/",
+    "date": "2026-08-24",
+    "summary": "Alberta Parks Jarvis Bay page lists cross-country skiing among park activities, with a park trail system."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wabamun-lake-prov-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/central/wabamun-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/wabamun-lake-pp/",
+    "date": "2026-08-24",
+    "summary": "Alberta Parks Wabamun page live; activities list omits cross-country skiing, only water skiing and fat biking."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "st-albert-nordic-ski-club-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://stalbert.ca/rec/facilities/sports/skiing/",
+  "evidence": [
+   {
+    "url": "https://stalbert.ca/events/calendar/community/winterglow/",
+    "date": "2026-01-23",
+    "summary": "City calendar lists club-hosted night ski event at Kingswood Park, January 23, 2026."
+   },
+   {
+    "url": "https://stalbert.ca/rec/facilities/sports/skiing/",
+    "date": "2026-08-12",
+    "summary": "City page says club grooms classic and skate trails through Kingswood Park and Riverlot 56."
+   }
+  ],
+  "method": "research",
+  "comment": "Old club site stanski.ca did not resolve (DNS failure); city page used. Club posts conditions on Facebook.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "waterton-lakes-national-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/waterton/activ/experiences/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/waterton/activ/experiences/hiver-winter",
+    "date": "2026-10-13",
+    "summary": "Parks Canada sets ski tracks Little Prairie to Cameron Lake; Red Rock Parkway open for skiing in winter."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cooking-lake-blackfoot-prov-rec-area-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.albertaparks.ca/parks/central/cooking-lake-blackfoot-pra/information-facilities/trail-report/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/central/cooking-lake-blackfoot-pra/information-facilities/trail-report/",
+    "date": "2026-11-04",
+    "summary": "Alberta Parks trail report lists ski trails, winter grooming pending, updated November 4, 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "elk-island-national-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/elkisland/activ/experiences/hivernales-winter/ski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/elkisland/activ/experiences/hivernales-winter/ski",
+    "date": "2025-01-24",
+    "summary": "Parks Canada says skiing allowed on most multi-use park trails, which are not track set or groomed."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "miquelon-lake-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/central/miquelon-lake-pp/information-facilities/trails/miquelon-lake/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/miquelon-lake-pp/information-facilities/trails/miquelon-lake/",
+    "date": "2026-11-04",
+    "summary": "Alberta Parks trail report lists seven loops with cross-country ski use, all open; grooming not stated."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "vermilion-provincial-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/vermilion-provincial-park/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/vermilion-provincial-park/",
+    "date": null,
+    "summary": "Alberta Parks ski centre page lists groomed trails at Vermilion; Vermilion Nordic Ski Club runs events."
+   }
+  ],
+  "method": "research",
+  "comment": "Club site vermilionnordic.com failed to load (SSL handshake error), so Alberta Parks page used.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "whitney-lakes-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/northeast/whitney-lakes-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/northeast/whitney-lakes-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks lists cross-country skiing at Whitney Lakes on 29 km of non-groomed trails."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cypress-hills-provincial-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/cypress-hills-provincial-park/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/cypress-hills-provincial-park/",
+    "date": null,
+    "summary": "Alberta Parks ski centre page lists 30 km groomed cross-country ski trails in Cypress Hills Provincial Park."
+   }
+  ],
+  "method": "research",
+  "comment": "Linked grooming report skitrails.info/report/cypresshills did not resolve (DNS failure).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "cold-lake-provincial-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/northeast/cold-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/northeast/cold-lake-pp/",
+    "date": "2025-07-29",
+    "summary": "Alberta Parks Cold Lake page lists cross-country skiing on almost 10 km of groomed trails."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "moose-lake-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/north/moose-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/north/moose-lake-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks Moose Lake page says park forest trails are used for skiing and snowshoeing in winter."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "shaw-lake-ski-trails-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/lakeland-shaw-lake-day-use-area/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/lakeland-shaw-lake-day-use-area/",
+    "date": null,
+    "summary": "Alberta Parks lists about 26 km groomed trails at Shaw Lake, maintained with Lac La Biche Nordic Ski Club."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "long-lake-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/north/long-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/long-lake-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks Long Lake page lists cross-country skiing among park activities; no trail details given."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tawatinaw-westlock-ski-club-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://tawatinawvalley.ca/",
+  "evidence": [
+   {
+    "url": "https://goskialberta.com/ski-area/alberta/tawatinaw-valley-resort/",
+    "date": "2025-12-06",
+    "summary": "Ski listing gives Tawatinaw Valley 2025-26 season dates; area has groomed Nordic trails (snippet)"
+   },
+   {
+    "url": "https://tawatinawvalley.ca/",
+    "date": null,
+    "summary": "Non-profit ski club site live, sells passes, links cross-country tickets and trail map."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

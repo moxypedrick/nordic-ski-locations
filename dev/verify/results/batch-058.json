@@ -1,0 +1,160 @@
+[
+ {
+  "id": "spring-rapids-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/recreation/skiing",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR skiing page lists 5 miles classic and skate trails; Spring Rapids trailhead near Crivitz."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Trail is in Governor Earl Peshtigo River State Forest; forest page itself has no ski content, so statewide DNR skiing page used."
+ },
+ {
+  "id": "escanaba-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/nhal",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR skiing page lists Escanaba trail system under Northern Highland American Legion forest, with loops and shelter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Forest page has no ski content; ski evidence is the statewide DNR skiing page."
+ },
+ {
+  "id": "mcnaughton-lake-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/nhal",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR skiing page lists McNaughton trail system under Northern Highland American Legion forest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Forest page has no ski content; DNR page names it McNaughton trail system."
+ },
+ {
+  "id": "iverson-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://stevenspoint.com/163/Winter-Sports-Area",
+  "evidence": [
+   {
+    "url": "https://stevenspoint.com/163/Winter-Sports-Area",
+    "date": null,
+    "summary": "City of Stevens Point winter sports page lists a tracked 2.5-mile cross-country trail with staffed winter hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "irondale-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://irondale.mvpschools.org/athleticsandactivities/winter-sports/nordic-skiing-boys-and-girls",
+  "evidence": [
+   {
+    "url": "https://irondale.mvpschools.org/athleticsandactivities/winter-sports/nordic-skiing-boys-and-girls",
+    "date": "2026-11-16",
+    "summary": "Irondale High nordic team schedules 2026-27 practices and a race at Irondale Trails, New Brighton."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Skinnyski also calls it Rice Creek Trails, Irondale Unit. Official URL is the school team page; no separate trail site found."
+ },
+ {
+  "id": "newport-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/newport",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/newport/recreation",
+    "date": null,
+    "summary": "Wisconsin DNR recreation page lists 12 miles groomed classic trail plus 2 miles skate groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "wabana-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=12",
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=12",
+    "date": null,
+    "summary": "Club trail page lists Wabana as 10 km classic; no dated reports or season info."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Club page describes the trail but has no date; no closure found. Club trail_id=12 may also point to Big Ridge."
+ },
+ {
+  "id": "camp-miller-loop-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakesuperiorymca.org/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=583",
+    "date": "2025-12-27",
+    "summary": "Third-party trail report for YMCA Camp Miller dated Dec 27 2025, partial coverage (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "YMCA site has no ski page found; evidence is third-party skinnyski report."
+ },
+ {
+  "id": "bear-paw-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://bearpawoutdoors.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort site (White Lake WI) mentions no ski trails or grooming; only undated skinnyski listing of a 20 km system; no closure found."
+ },
+ {
+  "id": "minneopa-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page script-built and blank; DNR skiing page does not list Minneopa as groomed; no ski evidence or closure found."
+ }
+]

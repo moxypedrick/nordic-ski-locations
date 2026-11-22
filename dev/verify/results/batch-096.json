@@ -1,0 +1,177 @@
+[
+  {
+    "id": "f2acd51cb5848050d13deed37b650929da3cb5b8",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://whitepinetouring.com/",
+    "evidence": [
+      {
+        "url": "https://whitepinetouring.com/",
+        "date": "2026-11-21",
+        "summary": "Park City Nordic Center page lists 20+ km groomed trails and a 2026-27 season opening day."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "f468349f1306caf6095845b622a3a4e5f7a7e440",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.norpinetrails.org/",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/massie-hall-ski-trails-norpine-trail-system",
+        "date": "2025-07-10",
+        "summary": "Forest Service page lists Massie and Hall loops in Norpine system as XC ski trails needing ski pass."
+      },
+      {
+        "url": "https://www.visitcookcounty.com/outdoors/winter-activities/cross-country-skiing/lutsen-and-tofte-trail-conditions/",
+        "date": "2026-03-26",
+        "summary": "Tourism report says Massie and Hall were groomed March 26, 2026 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Norpine site grooming report is script-built, so no date seen there."
+  },
+  {
+    "id": "f4a94b98b077df8ce192b0c13e8063bf9fdd9aa6",
+    "status": "operating",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://nordic-pulse.com/ski-areas/US/CO/Mount-Massive-Golf-Course",
+        "date": "2024-12-30",
+        "summary": "Third-party grooming report from the 2024-25 season; county not grooming 2025-26, may revisit 2026-27."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Possible official site leadvillecrosscountryski.com returned 403, so officialUrl is null. Not groomed 2025-26 per Lake County decision (not closed for good)."
+  },
+  {
+    "id": "f6312f3ff491d46fd2a11c8ced18f4298a64e5a2",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://www.intervale.org/visit-1",
+    "evidence": [
+      {
+        "url": "https://www.intervale.org/visit-1",
+        "date": null,
+        "summary": "Official visit page describes 3+ miles of ski trails, undated; no 2024-27 evidence or closure found."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "f637b80d9ea83b6141e5919c9dc03f3db9e3b65d",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://swnskiclub.org/",
+    "evidence": [
+      {
+        "url": "https://swnskiclub.org/",
+        "date": "2026-01-28",
+        "summary": "Los Alamos club posted classic track set at Camp May, Jan 2026; 2025-26 registration live."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "f6eb7ea558d5c4f1d5406e41787944d044b7067e",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://keweenawtrails.com/trail-reports/",
+    "evidence": [
+      {
+        "url": "https://copperharbor.org/wp-content/uploads/Visit-Keweenaw-Winter-Trail-Report-3-31-20261.pdf",
+        "date": "2026-03-31",
+        "summary": "Tourism trail report says Tolkien trails were groomed March 30, 2026 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Possible duplicate: Tolkien is a trail group within Michigan Tech Trails, Houghton. Club site shows season-ended notice dated 2026-05-06."
+  },
+  {
+    "id": "f6ee042beb12e48c8d77b28e0a9a0b2e57cf383c",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://marlboronordicskiclub.org/",
+    "evidence": [
+      {
+        "url": "https://marlboronordicskiclub.org/",
+        "date": null,
+        "summary": "Club site offers 26/27 season memberships and describes 15 km groomed trails at Marlboro, VT."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "f7f7493b53226c149244c76ab02201624d44d84d",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=3",
+    "evidence": [
+      {
+        "url": "https://www.mnhs.org/foresthistory/activities/trails",
+        "date": null,
+        "summary": "Minnesota Historical Society page says its Grand Rapids trails are open year-round, including for skiing; undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "fc8d02dc62db647cb51707d0af31c9a83f90a81b",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fernienordic.com/",
+    "evidence": [
+      {
+        "url": "https://www.fernienordic.com/",
+        "date": "2026-10-14",
+        "summary": "Fernie Nordic Society site shows trail passes, grooming links, October 2026 newsletter and events."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Fernie Golf Course trails are run by Fernie Nordic Society; site mentions golf course only in an awards heading."
+  },
+  {
+    "id": "fd338b4e0d4b9c6e9e857b17c01f0709b9716294",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://bighillnordic.com/",
+    "evidence": [
+      {
+        "url": "https://www.boisestatepublicradio.org/show/idaho-matters/2026-03-25/big-hill-nordic-ski-trail-system",
+        "date": "2026-03-25",
+        "summary": "Radio interview says volunteers groom Big Hill Nordic above Challis; season ended early in 2026."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

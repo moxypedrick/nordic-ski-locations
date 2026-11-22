@@ -1,0 +1,44 @@
+[
+ {
+  "id": "fe4ebc6d2cbf5f8fb93d72cbb423fb2caebd6ead",
+  "name": "Deer Hollow Non-Motorized Winter Recreation Area",
+  "region": "US-UT",
+  "lat": 37.53924205,
+  "lon": -112.79364735,
+  "group": "other",
+  "source": "skimap",
+  "oldUrl": "https://www.fs.usda.gov/recarea/dixie/recarea/?recid=81662",
+  "bucket": "site-check",
+  "candidateUrl": "https://www.fs.usda.gov/r04/dixie/recreation",
+  "candidateState": "ok",
+  "hint": "own URL; link ok"
+ },
+ {
+  "id": "fe80e32ed56ef6cab6b5fb569875e28127d2a256",
+  "name": "Cannonsburg State Game Area",
+  "region": "Forest Hills, US-MI",
+  "lat": 43.028938049999994,
+  "lon": -85.49270145,
+  "group": "none",
+  "source": "skimap",
+  "oldUrl": null,
+  "bucket": "research",
+  "candidateUrl": null,
+  "candidateState": null,
+  "hint": "no URL (skimap only)"
+ },
+ {
+  "id": "fef67ddf6ff39f1d90e8b4152933479fe7258284",
+  "name": "Bridger Bowl",
+  "region": "Bridger, US-MT",
+  "lat": 45.822542150000004,
+  "lon": -110.90865855,
+  "group": "other",
+  "source": "skimap",
+  "oldUrl": "https://bridgerbowl.com",
+  "bucket": "site-check",
+  "candidateUrl": "https://bridgerbowl.com/",
+  "candidateState": "ok",
+  "hint": "own URL; link ok"
+ }
+]

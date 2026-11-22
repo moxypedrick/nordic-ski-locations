@@ -1,0 +1,425 @@
+[
+ {
+  "id": "yellowknife-ski-club-nt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skiyellowknife.com/",
+  "evidence": [
+   {
+    "url": "https://www.skiyellowknife.com/trail-fees-and-memberships",
+    "date": null,
+    "summary": "Club fees page links 2025/2026 fee policies; day passes and memberships sold online."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bear-notch-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bearnotchskitouring.com/",
+  "evidence": [
+   {
+    "url": "http://bearnotchskitrails.blogspot.com/",
+    "date": "2026-04-04",
+    "summary": "Bear Notch trail conditions blog posts end-of-season note, April 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "triangle-xc-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club site triangleskiclub.org fails: HTTPS cert mismatch, HTTP shows a hosting error page."
+ },
+ {
+  "id": "blue-mountains-nordic-centre-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sceniccaves.com/",
+  "evidence": [
+   {
+    "url": "https://sceniccaves.com/",
+    "date": null,
+    "summary": "Scenic Caves sells 2026-2027 winter trail season pass covering cross-country skiing; nordic rentals and lessons offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "clcf-nordic-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://theclcf.org/clcf-nordic-ski-passes/",
+  "evidence": [
+   {
+    "url": "https://theclcf.org/clcf-nordic-ski-passes/",
+    "date": null,
+    "summary": "Cedar Lakes Conservation Foundation sells day and season nordic passes for Fox Hill and Rudorf Farm trails; 2026 footer."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "champs-de-bataille-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.plainesdabraham.ca/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/QC/Plaines-Abraham",
+    "date": "2026-03-19",
+    "summary": "Nordic Pulse trail report for Plaines d Abraham closes 2025-26 season; earlier December 2025 update."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "CCBN ski page (ccbn-nbc.gc.ca) returned 503; park home page loaded but has no ski content."
+ },
+ {
+  "id": "willow-river-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/willowriver/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/willowriver/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists 9 miles of volunteer-groomed classic and skate ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-beauce-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.clubskibeauce.com/billetterie/ski-de-fond/",
+  "evidence": [
+   {
+    "url": "https://www.clubskibeauce.com/",
+    "date": "2026-12-25",
+    "summary": "Club Ski Beauce site lists 2026-27 holiday events and January 2027 lessons; offers cross-country ski tickets."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bear-mountain-xc-ski-trails-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "http://bearmountainnordic.pris.ca/",
+  "evidence": [
+   {
+    "url": "https://whistler.ca/Nordic",
+    "date": null,
+    "summary": "Whistler 2026 pass perks list Bear Mountain Nordic Ski Association, Dawson Creek, as reciprocal venue."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club site has an expired HTTPS certificate; over http it shows only a title."
+ },
+ {
+  "id": "kane-valley-ski-trails-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lester-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://duluthmn.gov/parks/parks-trails/parks-listing/lester-park/",
+  "evidence": [
+   {
+    "url": "https://duluthmn.gov/parks/parks-trails/parks-listing/lester-park/",
+    "date": null,
+    "summary": "City of Duluth Lester Park page lists cross-country skiing as a park feature."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "trapp-family-lodge-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.vontrappresort.com/winter.htm",
+  "evidence": [
+   {
+    "url": "https://www.vontrappresort.com/winter.htm",
+    "date": null,
+    "summary": "Von Trapp resort winter page lists 2026-2027 cross-country day passes and season passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mcculloch-lakes-ski-center-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.kelownanordic.ca/",
+  "evidence": [
+   {
+    "url": "https://www.kelownanordic.ca/",
+    "date": "2026-10-15",
+    "summary": "Kelowna Nordic site posts October 2026 AGM highlights; main trailhead on McCulloch Rd, grooming report linked."
+   }
+  ],
+  "suggestedName": "Kelowna Nordic",
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Old link redirects to Kelowna Nordic Ski and Snowshoe Club, whose main trailhead is on McCulloch Rd; likely the same trails under the club name."
+ },
+ {
+  "id": "suomi-hills-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r09/chippewa/recreation/trails/suomi-hills-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chippewa/recreation/trails/suomi-hills-trail",
+    "date": "2026-02-06",
+    "summary": "Chippewa National Forest page lists groomed XC ski trails at Suomi Hills; updated February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "greenbush-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR lists over 13 miles of groomed classic and skate trails at Greenbush, Kettle Moraine North."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hardwood-ski-and-bike-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://hardwoodskiandbike.ca/",
+  "evidence": [
+   {
+    "url": "https://hardwoodskiandbike.ca/",
+    "date": null,
+    "summary": "Hardwood site sells 2026-2027 winter season pass and lists 2026/27 masters ski program."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "telemark-resort-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.birkie.com/mtv/ski-trails/",
+  "evidence": [
+   {
+    "url": "https://www.birkie.com/mtv/ski-trails/",
+    "date": "2026-11-11",
+    "summary": "Birkie page on Mt. Telemark Village ski trails: restored Tony Wise trails, snowmaking loops, natural-snow trails."
+   }
+  ],
+  "suggestedName": "Mt. Telemark Village Ski Trails",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Former Telemark Resort site is now Mt. Telemark Village, run by the American Birkebeiner Ski Foundation."
+ },
+ {
+  "id": "homestake-lodge-mt-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.homestakelodge.com/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/US/MT/Homestake-Lodge",
+    "date": "2026-03-08",
+    "summary": "Homestake Lodge grooming report linked from lodge site; grooming paused for warm weather, March 2026."
+   },
+   {
+    "url": "https://www.homestakelodge.com/",
+    "date": "2026-10-01",
+    "summary": "Lodge news posts through October 2026 about winter preparations; February 2026 low-snow pause."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "flathorn-gegoka-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.flathorngegokatrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.flathorngegokatrails.org/",
+    "date": "2025-01-01",
+    "summary": "Trail association site shows January 2025 ribbon cutting at new Jensen Road trailhead; conditions page live."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "elm-creek-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.threeriversparks.org/location/elm-creek-park-reserve",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/location/elm-creek-park-reserve",
+    "date": "2026-12-12",
+    "summary": "Three Rivers page lists groomed classic and skate trails with manufactured snow; Nordic Ski Opener December 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "william-obrien-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/william-obrien/things-to-do.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/william-obrien/things-to-do.html",
+    "date": null,
+    "summary": "Minnesota DNR page lists 12 miles of groomed classic and skate ski trails at William O Brien."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wild-river-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/wild-river/itinerary.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/wild-river/itinerary.html",
+    "date": null,
+    "summary": "Minnesota DNR winter itinerary for Wild River describes groomed ski trails, ski rentals and pass rules."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mountain-dell-ut",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://utahnordic.org/mtndell/",
+  "evidence": [
+   {
+    "url": "https://utahnordic.org/mtndell/",
+    "date": "2026-03-06",
+    "summary": "Utah Nordic Alliance Mountain Dell page shows March 2026 grooming report and day pass prices."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "omineca-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ominecaskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://ominecaskiclub.ca/",
+    "date": null,
+    "summary": "Omineca Ski Club site links 2026-2027 membership registration; Burns Lake address confirmed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "marathon-international-ski-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.marathon.ca/explore-and-play/ski-snowshoe/",
+  "evidence": [
+   {
+    "url": "https://www.marathon.ca/explore-and-play/ski-snowshoe/",
+    "date": null,
+    "summary": "Town of Marathon page lists club ski trails: 15 km groomed, 5 km lit, plus snowshoe trails."
+   },
+   {
+    "url": "https://zone4.ca/event/2026/nGGNbW",
+    "date": "2026-03-14",
+    "summary": "Marathon Love it! Loppet held at the club, March 2026. (snippet)"
+   }
+  ],
+  "suggestedName": "Marathon Cross Country Ski & Snowshoe Club",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club now goes by Marathon Cross Country Ski & Snowshoe Club at Peninsula Golf Course; no own website, Facebook only (facebook.com/MarathonCCSSC)."
+ }
+]

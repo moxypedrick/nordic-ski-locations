@@ -1,0 +1,46 @@
+{
+ "searches": 15,
+ "fetches": 10,
+ "perArea": {
+  "big-ridge-mn": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "machickanee-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "indian-lake-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "rock-cut-state-park-il": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "alimagnet-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "coon-rapids-dam-regional-park-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "university-of-iowa-ashton-cross-country-course-ia": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "buffalo-river-state-park-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "drugans-golf-course-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "hok-si-la-municipal-park-mn": {
+   "searches": 3,
+   "fetches": 1
+  }
+ }
+}

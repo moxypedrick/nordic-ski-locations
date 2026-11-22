@@ -1,0 +1,148 @@
+[
+ {
+  "id": "afterglow-lake-resort-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://afterglowresort.com/xc-ski-trail-conditions/",
+  "evidence": [],
+  "method": "site-check",
+  "comment": "Official page undated; says closed for the 2026 winter season (seasonal, not permanent) and holds placeholder text.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "timberland-hills-west-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://timberlandhills.com/skiTrails",
+  "evidence": [
+   {
+    "url": "https://timberlandhills.com/skiTrails",
+    "date": "2026-11-20",
+    "summary": "Club page updated 11/20/26; trails typically open December to March, opening depends on snow."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "razorback-ridges-trail-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "site-check",
+  "comment": "Only undated tourism and chamber pages describe the trails; no dated report or club site found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "plover-river-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.co.portage.wi.gov/325/Park-Trail-Maps",
+  "evidence": [
+   {
+    "url": "https://www.co.portage.wi.gov/325/Park-Trail-Maps",
+    "date": null,
+    "summary": "Portage County page says the 6-mile Plover River ski trail is groomed regularly for tracked skiing."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hiram-ski-trail-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "site-check",
+  "comment": "Only chamber and directory listings found; newest Skinnyski report is from 2017. No land-manager page located.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "greenwood-hills-trail-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Only undated directory listings (Singletracks, Skinnyski); no club or country club site found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "abr-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://abrtrails.com/",
+  "evidence": [
+   {
+    "url": "https://abrtrails.com/",
+    "date": "2026-01-10",
+    "summary": "Official site lists SISU Ski Fest for January 10, 2026 and 2025-26 cabin bookings."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "swedetown-trails-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://swedetowntrails.org/",
+  "evidence": [
+   {
+    "url": "https://copperharbor.org/wp-content/uploads/Visit-Keweenaw-Winter-Trail-Report_03-27-2026.pdf",
+    "date": "2026-03-30",
+    "summary": "Visit Keweenaw report relays Swedetown grooming of skate deck on main trails, March 2026. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "maasto-hiihto-ski-trails-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hancocktrails.org/about-us/",
+  "evidence": [
+   {
+    "url": "https://www.cityofhancock.com/recreation-maasto.php",
+    "date": null,
+    "summary": "City of Hancock page describes groomed classic ski trails run with Hancock Trails Club, renamed 2024."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "deep-portage-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.deep-portage.org/hiking-skiing-trails",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=16",
+    "date": "2025-02-01",
+    "summary": "Skinnyski February 2025 reports show grooming active at Deep Portage, Hackensack. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ }
+]

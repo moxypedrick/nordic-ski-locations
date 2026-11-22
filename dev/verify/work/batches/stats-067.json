@@ -1,0 +1,46 @@
+{
+ "searches": 16,
+ "fetches": 13,
+ "perArea": {
+  "mccarthy-beach-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "vispo-county-park-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "norpine-deeryardlutsen-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "erbach-park-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "terrace-oaks-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sunfish-lake-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "theodore-wirth-north-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "east-frazee-ski-trails-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "corsair-ski-trails-mi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "cross-country-ski-shop-mi": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

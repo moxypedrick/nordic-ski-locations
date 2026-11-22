@@ -1,0 +1,66 @@
+{
+ "searches": 23,
+ "fetches": 30,
+ "perArea": {
+  "strathcona-wilderness-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "souris-trails-pe": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "williams-lake-xc-ski-club-bc": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "gambo-nordic-ski-club-nl": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "upper-canada-bird-sanctuary-on": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "warsaw-caves-cons-area-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-de-montagne-dargenteuil-qc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "emma-lake-recreation-site-sk": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "pincushion-mountain-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "u-of-m-north-central-exp-station-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "162e7a757b8b9b3398ea0a402f6905fb3e59f8db": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "849b23a7d39c831c2cc895cc9ae2d64ee28032b3": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "e32b2b834ba9000c117604de67c7c01e9406d2e1": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "tennessee-pass-co": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "70ea6473794dd0e1ae883af8f401400f2d592129": {
+   "searches": 2,
+   "fetches": 2
+  }
+ }
+}

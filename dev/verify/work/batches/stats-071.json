@@ -1,0 +1,46 @@
+{
+ "searches": 7,
+ "fetches": 17,
+ "perArea": {
+  "the-inn-at-starlight-lake-pa": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "kooser-state-park-pa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "laurel-mountain-pa": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "laurel-ridge-state-park-pa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lehigh-gorge-state-park-pa": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "moraine-state-park-pa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mt-pleasant-pa": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "new-germany-state-park-md": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "north-woods-pa": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "oil-creek-state-park-pa": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

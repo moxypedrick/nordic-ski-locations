@@ -1,0 +1,106 @@
+{
+  "searches": 15,
+  "fetches": 49,
+  "perArea": {
+    "viking-vt": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "timberland-hills-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "wolverine-ski-trail-mi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "parc-du-domaine-vert-qc": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "soldier-hollow-ut": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "byrncliff-ny": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "crimson-lake-prov-park-ab": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "prospect-vt": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "kingdom-trails-vt": {
+      "searches": 1,
+      "fetches": 4
+    },
+    "pembina-nordic-ski-club-ab": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "blue-hills-trail-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "chez-ti-jean-ski-de-fond-qc": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "elver-park-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "osceola-ski-and-sport-ny": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "club-de-ski-de-fond-labelle-qc": {
+      "searches": 0,
+      "fetches": 3
+    },
+    "george-washington-pines-mn": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "blue-mound-state-park-wi": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "airport-nordic-ski-club-nl": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "mille-lacs-kathio-state-park-mn": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "odana-hills-golf-course-wi": {
+      "searches": 3,
+      "fetches": 5
+    },
+    "maple-corner-ma": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "edgewood-golf-course-ski-trail-nd": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "centre-de-ski-de-fond-charlesbourg-qc": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "uw-parkside-ski-trail-wi": {
+      "searches": 2,
+      "fetches": 1
+    },
+    "fern-lake-mn": {
+      "searches": 3,
+      "fetches": 3
+    }
+  }
+}

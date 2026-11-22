@@ -1,0 +1,431 @@
+[
+ {
+  "id": "bird-lake-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/bird-lake-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/bird-lake-trail",
+    "date": "2025-08-06",
+    "summary": "Superior National Forest page lists beginner and intermediate cross-country ski trails near Hoyt Lakes."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "trezona-ski-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.elynordic.org/trails",
+  "evidence": [
+   {
+    "url": "https://www.elynordic.org/trails",
+    "date": "2026-04-16",
+    "summary": "Ely Nordic trails page describes Trezona Trail; April 2026 update says grooming ended for the season."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bally-creek-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/bally-creek-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/bally-creek-ski-trails",
+    "date": "2026-04-21",
+    "summary": "Superior National Forest page describes Bally Creek ski loops near Grand Marais, partly groomed; updated April 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cypress-mountain-ski-area-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.cypressmountain.com/winter-activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.cypressmountain.com/",
+    "date": "2026-11-15",
+    "summary": "Cypress Mountain site lists 2026-27 Nordic season passes for its Hollyburn cross-country area."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "zillmer-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR page lists Zillmer's 11+ miles of machine-groomed classic and skate ski trails."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "craftsbury-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.craftsbury.com/ski",
+  "evidence": [
+   {
+    "url": "https://www.craftsbury.com/ski",
+    "date": "2026-11-08",
+    "summary": "Craftsbury Outdoor Center ski page lists November 2026 trail news and December 2026 ski races."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "korkki-nordic-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.korkkinordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.korkkinordic.org/",
+    "date": null,
+    "summary": "Korkki Nordic home page says 2026-2027 season memberships are now open."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nelson-nordic-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://nelsonnordicski.ca/",
+  "evidence": [
+   {
+    "url": "https://nelsonnordicski.ca/",
+    "date": "2026-09-24",
+    "summary": "Club site September 2026 newsletter says season passes are available; November 2026 adult programs post."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blow-me-down-ski-club-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://blowmedown.ca/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=38297",
+    "date": "2025-03-08",
+    "summary": "Outfitters NL Cross Country Ski Marathon 2025 registration, a race hosted at Blow Me Down. (snippet)"
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "whistler-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whistler.ca/nordic",
+  "evidence": [
+   {
+    "url": "https://www.whistler.ca/nordic",
+    "date": "2026-11-10",
+    "summary": "Municipal Lost Lake Nordic page sells 2026/27 season passes; updated November 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "snow-mountain-ranch-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ymcarockies.org/nordic-center",
+  "evidence": [
+   {
+    "url": "https://ymcarockies.org/nordic-center",
+    "date": "2027-01-22",
+    "summary": "YMCA Nordic Center page links a 2026-27 calendar and lists Birkie West event for January 2027."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "galena-lodge-id",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.galenalodge.com/ski-snowshoe.html",
+  "evidence": [
+   {
+    "url": "https://www.galenalodge.com/ski-snowshoe.html",
+    "date": "2025-12-13",
+    "summary": "Galena Lodge ski page lists 2025-26 ski free days, Nordic lessons and 25/26 winter prices."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "aurora-nordic-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "raven-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/nhal/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/nhal/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR state forest winter page lists Raven Trail, groomed for classic skiing, with trail map."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "madeline-lake-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/nhal/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/nhal/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR state forest winter page lists Madeline Trail, groomed for classic skiing, with trail map."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "winman-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://winmantrails.com/ski/",
+  "evidence": [
+   {
+    "url": "https://winmantrails.com/ski/",
+    "date": "2025-12-01",
+    "summary": "WinMan Trails ski page in Winchester posts a 2026 trail map and Nordic Pulse grooming updates."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "art-roscoe-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://alleganynordic.org/about/",
+  "evidence": [
+   {
+    "url": "https://parks.ny.gov/visit/state-parks/allegany-state-park-red-house-area",
+    "date": null,
+    "summary": "NY State Parks Allegany page, with 2026 dates, lists Summit entrance access to Art Roscoe cross-country ski area."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "woodland-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.elkrivermn.gov/Facilities/Facility/Details/31",
+  "evidence": [
+   {
+    "url": "https://www.elkrivermn.gov/Facilities/Facility/Details/31",
+    "date": null,
+    "summary": "City of Elk River page for Woodland Trails Regional Park lists cross-country skiing and a winter trail map."
+   },
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=341",
+    "date": "2026-02-03",
+    "summary": "User trail report says all Woodland trails open in February 2026. (snippet)"
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "afton-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00100",
+  "evidence": [
+   {
+    "url": "https://dnr.state.mn.us/mcvmagazine/issues/2025/jan-feb/bucket.html",
+    "date": "2025-01-01",
+    "summary": "DNR magazine, early 2025, says Afton has about a dozen miles of groomed classic ski trails. (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "DNR park page builds its content with scripts; no park details could be read.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "nine-mile-county-forest-recreation-area-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://wfhr.com/news/2025/2/5/nine-mile-county-forest-trails-open",
+    "date": "2025-02-05",
+    "summary": "Local news reports Nine Mile County Forest ski trails opened for the season, with lit loop."
+   }
+  ],
+  "method": "research",
+  "comment": "Marathon County facility pages returned HTTP 403, so officialUrl left null.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "howard-wagoner-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cityoftower.com/recreation",
+  "evidence": [
+   {
+    "url": "https://cityoftower.com/recreation",
+    "date": null,
+    "summary": "City of Tower recreation page describes 12 km Howard Wagoner trails groomed for classic skiing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "woodstock-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.woodstockinn.com/do/things-to-do/woodstock-nordic-center",
+  "evidence": [
+   {
+    "url": "https://www.woodstockinn.com/do/things-to-do/woodstock-nordic-center",
+    "date": null,
+    "summary": "Woodstock Nordic Center page lists 2026-27 season and day pass prices."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-shasta-ca",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.mtshastanordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.mtshastanordic.org/",
+    "date": "2025-12-01",
+    "summary": "Mt. Shasta Nordic Center site announces new lodge opening December 2025 and season pass giveaway."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "biskey-ponds-ski-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://biskeypondsnordic.wordpress.com/",
+  "evidence": [
+   {
+    "url": "https://biskeypondsnordic.wordpress.com/",
+    "date": "2026-03-15",
+    "summary": "Biskey Ponds trails blog posts grooming updates through the 2025-26 season, latest March 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bearpen-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.greatnortherncatskills.com/outdoors/bearpen-mountain-sports",
+    "date": "2026-10-10",
+    "summary": "Tourism listing for Bearpen Mountain Sports, Prattsville, offers cross-country skiing; lists October 2026 event."
+   },
+   {
+    "url": "https://www.greatnortherncatskills.com/events/bearpen-mountain-snowshoe-fest",
+    "date": "2026-02-07",
+    "summary": "Eighth annual Bearpen Mountain Snowshoe Fest held February 2026. (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "Official site bearpenmountain.com returned no readable content (likely script-built), so officialUrl left null.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ }
+]

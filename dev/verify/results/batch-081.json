@@ -1,0 +1,166 @@
+[
+ {
+  "id": "204712c7ee512adee2503d29f2ec488772bf50f4",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.scrd.ca/dakota-ridge",
+  "evidence": [
+   {
+    "url": "https://www.scrd.ca/dakota-ridge",
+    "date": "2026-11-20",
+    "summary": "Regional district page lists 20 km groomed ski trails, 2026-27 season passes on sale from Nov 20, opening Dec 18."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "203606244c4e70548a7efea82390dddfa0877318",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://nechakonordics.weebly.com/",
+  "evidence": [
+   {
+    "url": "https://crosscountrybc.ca/node/4956",
+    "date": "2026-02-14",
+    "summary": "Cross Country BC race notice: Teck Northern Cup #6 hosted by Nechako Nordics at the NVSA trails, Vanderhoof."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Own weebly site loads but its newest posts are from 2022."
+ },
+ {
+  "id": "2176abbf575d6a218b7e3f093b8e07522a921ba4",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cfc.cfans.umn.edu/forests-facilities/recreation",
+  "evidence": [
+   {
+    "url": "https://cfc.cfans.umn.edu/forests-facilities/recreation",
+    "date": null,
+    "summary": "University forest page says roads and trails are open for cross-country skiing; links to ski conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "20ec38b7e584c74ae30a94f8107e37811ee9ed5a",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.norpinetrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.visitcookcounty.com/outdoors/winter-activities/cross-country-skiing/lutsen-and-tofte-trail-conditions/",
+    "date": "2026-03-27",
+    "summary": "Cook County tourism conditions page reports the entire Deeryard system groomed on March 27, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Norpine Trail Association site (Lutsen) does not name Deer Yard on its homepage; Deer Yard is part of the Norpine system per USFS and Cook County."
+ },
+ {
+  "id": "21919e900c6519a8b21143f7d7931824bbdbdf09",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://miottawa.org/Parks/eastmanville.htm",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Ottawa County park page loads but does not mention skiing; county says only that its parks have un-groomed ski trails, none named."
+ },
+ {
+  "id": "2371a82bf3a04486adadbb44c7719c1de5505fac",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://topofthepines.org/",
+  "evidence": [
+   {
+    "url": "https://topofthepines.org/nordic-skiing.html",
+    "date": "2026-01-26",
+    "summary": "Club page for the 2026 ski season reports meadow loop groomed week of January 26; regular grooming schedule."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "2378ad82ba1eca42ebb25c81b3903e4e21b97e67",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.mammothmountain.com/things-to-do/activities/tamarack-cross-country-ski-center",
+  "evidence": [
+   {
+    "url": "https://www.mammothmountain.com/things-to-do/activities/tamarack-cross-country-ski-center",
+    "date": "2026-11-22",
+    "summary": "Official page: 2026-27 season passes on sale, operations scheduled Nov 23, 2026 to Apr 16, 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "25e506674b09c4e2caa77dde6ee7785634757550",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r02/mbrtb/recreation/happy-jack-trailhead",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r02/mbrtb/recreation/happy-jack-trailhead",
+    "date": "2025-09-09",
+    "summary": "Forest Service trailhead page lists XC skiing and snowshoeing at Happy Jack; updated Sept 2025, no grooming details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Grooming is by Medicine Bow Nordic Association with Laramie BikeNet; no club site loaded."
+ },
+ {
+  "id": "26167f9cfa83551ff16d7bed9d32255180d6d022",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.proctoracademy.org/athletics/proctor-on-snow/proctor-ski-area",
+  "evidence": [
+   {
+    "url": "https://www.proctoracademy.org/athletics/proctor-on-snow",
+    "date": "2026-11-09",
+    "summary": "School ski-area site describes Nordic centre and team training; newest post dated Nov 9, 2026 is alpine."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "2bd712186f89b301ecfa1ea06f86f4951af35721",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.pinehillskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.pinehillskiclub.com/conditions",
+    "date": "2026-03-18",
+    "summary": "Club conditions page carries a March 18, 2026 end-of-season notice; homepage shows 2025-26 map and passes on sale."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

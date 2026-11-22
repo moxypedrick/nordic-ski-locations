@@ -1,0 +1,187 @@
+[
+ {
+  "id": "bretton-woods-nh",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.brettonwoods.com/experiences/nordic-ski/",
+  "evidence": [
+   {
+    "url": "https://www.brettonwoods.com/experiences/nordic-ski/",
+    "date": null,
+    "summary": "Official Nordic page, 2026 copyright: trail pass required, season memberships sold, Nordic Center closed until snow."
+   },
+   {
+    "url": "https://skinh.com/resorts/bretton-woods-nordic-center",
+    "date": "2026-01-13",
+    "summary": "Listing updated 1/13/2026 shows machine-groomed trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "calgary-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.calgary.ca/parks/activities/cross-country-skiing.html",
+  "evidence": [
+   {
+    "url": "https://www.calgary.ca/parks/activities/cross-country-skiing.html",
+    "date": null,
+    "summary": "City of Calgary parks page lists track-set cross-country trails at Glenmore, Bowness, Prince's Island and club-groomed golf courses."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "City-wide entry covering several Calgary park and golf-course trail systems, not one centre; may duplicate Confederation Park or Shaganappi entries."
+ },
+ {
+  "id": "carters-me",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.cartersxcski.com/",
+  "evidence": [
+   {
+    "url": "https://www.indyskipass.com/our-resorts/carters-xc-ski-center",
+    "date": "2026-11-22",
+    "summary": "Indy Pass listing says Carter's XC joins the pass for the 2026/27 season (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Carter's is in Bethel ME, roughly 100 km from the listed coordinates, so same-place is unconfirmed. Maybe a different Carter's location."
+ },
+ {
+  "id": "cascade-ny",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://adk.org/?p=1757",
+    "date": "2026-06-30",
+    "summary": "ADK announces sale to Noonmark Holdings; new owner aims to reopen center and keep ski trails this winter."
+   }
+  ],
+  "suggestedName": "Cascade Welcome Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Cascade Cross Country Ski Center became ADK's Cascade Welcome Center, closed Aug 2025, sold 2026; reopening only planned, no dated operating evidence. Own site not found."
+ },
+ {
+  "id": "catamount-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://catamountoutdoor.org/",
+  "evidence": [
+   {
+    "url": "https://catamountoutdoor.org/rates-winter/",
+    "date": "2026-11-22",
+    "summary": "Official site lists 2026-2027 winter rates with Nordic ski day fees, seen 11/22/2026."
+   },
+   {
+    "url": "https://www.wcax.com/2025/12/29/snowy-start-winter-brings-record-weekend-catamount-outdoor-center/",
+    "date": "2025-12-28",
+    "summary": "News: early snow started Nordic season at Williston center, rentals sold out."
+   }
+  ],
+  "suggestedName": "Catamount Outdoor Family Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "charlevoix-xc-ski-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.visitcharlevoix.com/Winter",
+    "date": "2026-11-22",
+    "summary": "Tourism winter page lists Charlevoix X-Country trail with lighted 2k groomed loop and ski rentals at Mt. McSauba."
+   },
+   {
+    "url": "https://www.michigantrailmaps.com/member-detail/mt-mcsauba-recreation-area/",
+    "date": null,
+    "summary": "Listing says City of Charlevoix runs a lit, free 0.7-mile classic loop at Mt. McSauba."
+   }
+  ],
+  "suggestedName": "Mt. McSauba Recreation Area",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Run by City of Charlevoix; city website would not load (connection reset), so officialUrl is null. Third-party sources only."
+ },
+ {
+  "id": "chief-joseph-pass-mt-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bitterrootxcskiclub.net/",
+  "evidence": [
+   {
+    "url": "https://www.bitterrootxcskiclub.net/",
+    "date": "2026-03-26",
+    "summary": "Club grooming report 3/26/2026 says final grooming weekend of the season; fall 2026 newsletter and trail work day posted."
+   }
+  ],
+  "suggestedName": "Chief Joseph Pass Cross-Country Ski Trails",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Name has -2 suffix in data; possible duplicate of another Chief Joseph Pass entry."
+ },
+ {
+  "id": "crosscut-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://crosscutmt.org/",
+  "evidence": [
+   {
+    "url": "https://crosscutmt.org/passes",
+    "date": "2026-11-22",
+    "summary": "Official passes page lists 2026-27 season pass prices with early-bird and regular deadlines."
+   }
+  ],
+  "suggestedName": "Crosscut Mountain Sports Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "echo-lake-trails-mt-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://echolaketrails.org/",
+  "evidence": [
+   {
+    "url": "https://echolaketrails.org/",
+    "date": null,
+    "summary": "Volunteer club site describes 17 km groomed trails near Discovery and refers to 2025-26 and 2026-27 grooming reports."
+   }
+  ],
+  "suggestedName": "Echo Lake Trails",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Name has -2 suffix in data; possible duplicate of another Echo Lake Trails entry."
+ },
+ {
+  "id": "golden-eagle-mn",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.golden-eagle.com/",
+  "evidence": [
+   {
+    "url": "https://www.golden-eagle.com/",
+    "date": "2026-04-02",
+    "summary": "Golden Eagle Lodge site, Grand Marais, shows 2026 post and lists a Nordic Ski Center on the Gunflint Trail."
+   }
+  ],
+  "suggestedName": "Golden Eagle Lodge",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Listed coordinates are in central Minnesota but the only Golden Eagle ski area found is on the Gunflint Trail, about 300 km away. Same place unconfirmed."
+ }
+]

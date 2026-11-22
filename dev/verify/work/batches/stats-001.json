@@ -1,0 +1,106 @@
+{
+ "searches": 21,
+ "fetches": 47,
+ "perArea": {
+  "battle-creek-regional-park-east-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "michigan-tech-university-ski-trails-mi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "crystal-lake-pa": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "good-spirit-provincial-park-sk": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "laurentian-university-x-c-ski-trails-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wolfeboro-xc-nh": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "quarry-road-me": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "michaywe-resort-mi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "turville-point-conservation-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "kincaid-park-ak-2": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "station-touristique-montagne-coupee-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "snowflake-nordic-ski-center-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "al-quaal-recreation-area-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "wawa-cross-country-ski-club-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sutton-en-haut-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "graystone-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "vasaloppet-nordic-center-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "maplelag-resort-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "garnet-hill-ny": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "inuvik-ski-club-nt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "dublin-nordic-center-nh": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mountainview-ski-hills-on": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "piedmont-trail-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "river-road-unit-trails-mn": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "spooner-city-trails-wi": {
+   "searches": 2,
+   "fetches": 3
+  }
+ }
+}

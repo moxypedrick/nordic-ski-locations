@@ -1,0 +1,182 @@
+[
+ {
+  "id": "086d50d5fef6b5f62e6e09b9eb0d198b24469b85",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://wostawea.ca/trail-conditions/",
+  "evidence": [
+   {
+    "url": "https://wostawea.ca/trail-conditions/",
+    "date": "2026-02-25",
+    "summary": "Official trail blog posts dated Feb 25 and Feb 10, 2026 for Killarney and Woodlot trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Town not named on page; Killarney Lake NB inferred from Nordic Pulse link."
+ },
+ {
+  "id": "0c283ab2d77ddb89c1a09fa0230f2de0d25f6d15",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakechelannordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.lakechelannordic.org/",
+    "date": null,
+    "summary": "Club site says Echo Ridge awaiting snow, season passes on sale now, day passes after grooming starts."
+   },
+   {
+    "url": "https://wenatcheeoutdoors.org/2025/10/23/fueling-winter-at-echo-ridge/",
+    "date": "2025-10-23",
+    "summary": "Oct 2025 article lists 2025-26 season pass and day pass prices through the Lake Chelan Nordic Club."
+   }
+  ],
+  "suggestedName": "Echo Ridge Nordic Area",
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "09bafcd381294d08605cf3f12443ae3425b0b894",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://fpdcc.com/event/beginner-cross-country-ski-lessons/2025-01-25",
+    "date": "2025-01-25",
+    "summary": "Forest Preserves of Cook County listed beginner cross-country ski lessons at Sagawau on Jan 25, 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "fpdcc.com returned 403; evidence from search snippet."
+ },
+ {
+  "id": "09399b907548c84e771fbd2f47c03fa94c387854",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://nechakonordics.weebly.com/",
+  "evidence": [
+   {
+    "url": "https://vanderhoof.ca/visit/trails",
+    "date": null,
+    "summary": "District of Vanderhoof page says Waterlily Lakes trail is used for cross-country skiing in winter; tracks often set."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site loads but looks like a 2022 snapshot; no dated ski evidence on it."
+ },
+ {
+  "id": "0c7c9155dfe042bf502bc73bab45c2c454260536",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dogcreeklodge.com/",
+  "evidence": [
+   {
+    "url": "https://www.nordic-pulse.com/centres/US/MT/Dog-Creek-Lodge",
+    "date": "2025-03-09",
+    "summary": "Nordic Pulse entry dated Mar 9, 2025 reports final operating day of the season (snippet)."
+   },
+   {
+    "url": "https://www.dogcreeklodge.com/",
+    "date": null,
+    "summary": "Official page banner says Nordic passes on sale now; describes 30 km groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "0e61a8f6415f71e8396a203f9b9c8ff02ac9d942",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.durangonordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.durangonordic.org/",
+    "date": "2026-01-01",
+    "summary": "Official site: passes on sale, winter programs open, 2026 events listed, winter hours daily 9-4."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "0e95dbebae15fffe47fc92120e52acb7e00f5c1e",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.moricemountainnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://www.moricemountainnordic.ca/",
+    "date": "2025-11-30",
+    "summary": "Club site opens 2025/26 registration with early-bird deadline Nov 30, 2025; 40 km groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Mailing address Houston BC."
+ },
+ {
+  "id": "13b3d7f0eedbbdcdfc35e91a0bd55523e2d448ad",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.schweitzer.com/",
+  "evidence": [
+   {
+    "url": "https://schweitzer.com/plan/nordic-lift-tickets",
+    "date": "2026-11-22",
+    "summary": "Resort page says 2026/27 Nordic season passes on sale now; 32 km trail network."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "12ac5d4a901852c2361dff0fd714b268af1bcc4e",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://lcfpd.org/cross-country-skiing",
+    "date": null,
+    "summary": "Lake County Forest Preserves page says skiing allowed at Ryerson with 4 inches of snow; grooming after big snows (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "lcfpd.org returned 403 (two URLs tried); evidence from search snippets."
+ },
+ {
+  "id": "1429d5e7c83dbd8df5abcde1d2a6f79ec751c6ab",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=5",
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=5",
+    "date": "2025-12-17",
+    "summary": "Club trail page entries dated Dec 10 and 17, 2025 report grooming (snippet); club also said no 2025-26 grooming."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

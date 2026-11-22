@@ -1,0 +1,46 @@
+{
+ "searches": 14,
+ "fetches": 19,
+ "perArea": {
+  "flandrau-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "forestvillemystery-cave-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "chester-woods-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "great-river-bluffs-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "eastwood-golf-course-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "soldiers-field-golf-course-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "lindenwood-park-ski-trails-nd": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "balsam-branch-trails-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "ashland-ski-trail-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "after-hours-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

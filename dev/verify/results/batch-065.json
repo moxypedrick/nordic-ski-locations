@@ -1,0 +1,172 @@
+[
+ {
+  "id": "hayward-hospital-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://haywardlakes.com/trails/cross-country-skiing/",
+    "date": null,
+    "summary": "Hayward tourism page lists Hayward Hospital Ski Trails loops; undated, no recent grooming report."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Tamarack Health page returned 403 and could not be loaded; no official URL."
+ },
+ {
+  "id": "pilot-knob-state-park-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.iowadnr.gov/places-go/state-parks/all-parks/pilot-knob-state-park",
+  "evidence": [
+   {
+    "url": "https://www.iowadnr.gov/places-go/state-parks/all-parks/pilot-knob-state-park",
+    "date": null,
+    "summary": "Live Iowa DNR page says cross-country skiing is a popular winter trail activity; grooming not stated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "trego-lake-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.nps.gov/sacn/blogs/Winter-Fun-Along-The-Namekagon.htm",
+  "evidence": [
+   {
+    "url": "https://www.nps.gov/sacn/planyourvisit/hiking.htm",
+    "date": null,
+    "summary": "NPS page says trails open year-round, ungroomed in winter; NPS blog describes three ski loops at Trego Lake (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Washburn County tourism page had no content. Land manager is NPS St. Croix Riverway; skiing allowed, grooming unclear."
+ },
+ {
+  "id": "sauk-centre-public-school-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.isd743.org/community-ed/ski-trail-information-and-updates",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=666",
+    "date": "2026-01-01",
+    "summary": "Skinnyski grooming report: 3 km skate and 2.25 km classic groomed at Sauk Centre school trail (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Skinnyski page fetched showed no 2025-26 reports; January 2026 report seen only in search snippet. District page undated."
+ },
+ {
+  "id": "miners-memorial-heritage-park-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://fmmhp.com/",
+  "evidence": [
+   {
+    "url": "https://yourdailyglobe.com/story/2025/01/09/news/event-includes-bonfire-games-snacks/19016.html",
+    "date": "2025-01-09",
+    "summary": "Daily Globe says park offers three miles of groomed ski trails and held a ski event in December."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "trade-river-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=668",
+    "date": "2025-12-02",
+    "summary": "Skinnyski trail report dated Dec 2025 lists Trade River trails partially open near Frederic (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "No official site or land-manager page for this trail was found; Viking Ski Club of Frederic groomed it in 2022."
+ },
+ {
+  "id": "rhinelander-community-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://staging3.wrlsweb.org/",
+    "date": "2025-02-04",
+    "summary": "Northwoods Nordic Ski Club copy lists Rhinelander Community Trails, memberships and a Feb 2025 meeting."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Only a staging copy of the club site (Northwoods Nordic Ski Club) loaded; real club domain not found, so no official URL."
+ },
+ {
+  "id": "thistledew-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state_forests/forest.html?id=sft00018",
+  "evidence": [
+   {
+    "url": "https://www.exploreminnesota.com/profile/thistledew-lake-trail/1901",
+    "date": null,
+    "summary": "Tourism listing describes an 18 km ski trail with pass rates in George Washington State Forest; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR forest page loaded but did not mention Thistledew or skiing."
+ },
+ {
+  "id": "burlington-school-forest-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://basd.k12.wi.us/176247_3",
+  "evidence": [
+   {
+    "url": "https://basd.k12.wi.us/176247_3",
+    "date": null,
+    "summary": "Burlington school district forest page says cross-country skiing is allowed and groomed trails may exist; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "carey-lake-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hibbingmn.gov/386/Carey-Lake-Park",
+  "evidence": [
+   {
+    "url": "https://hibbingmn.gov/386/Carey-Lake-Park",
+    "date": null,
+    "summary": "Live City of Hibbing park page lists cross-country ski trails at Carey Lake Park; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old club site hibbingnordic.org failed with a certificate error; City of Hibbing page used."
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "searches": 9,
+ "fetches": 17,
+ "perArea": {
+  "lincoln-drive-park-nd": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "remote-lake-solitude-area-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "governor-thompson-state-park-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "brunet-island-state-park-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "carleton-college-arboretum-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "root-river-state-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "essex-park-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "marshfield-school-forest-wi": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "kraemer-lake-wildwood-county-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sakatah-lake-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

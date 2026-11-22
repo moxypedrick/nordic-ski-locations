@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 16,
+ "perArea": {
+  "proud-lake-state-park-mi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "dunes-golf-course-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "lewiston-mi": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "hanson-hills-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lakes-of-the-north-mi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "mcguires-resort-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "hudson-mills-metropark-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "indian-springs-metropark-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "kensington-metropark-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "maybury-state-park-mi": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

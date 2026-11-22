@@ -1,0 +1,58 @@
+{
+  "craftsbury-vt": {
+    "properties": {
+      "groomSkate": "Yes",
+      "groomClassic": "Yes",
+      "groomType": "both",
+      "Groomed": "Yes",
+      "km": 106,
+      "kmSkate": 106,
+      "kmClassic": 106,
+      "Snowmaking": "Yes",
+      "Lit": "No",
+      "rentals": "Yes",
+      "lessons": "Yes",
+      "dogs": "Yes"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.3627400744355,
+        44.67881640906103
+      ]
+    }
+  },
+  "rangeley-lakes-me": {
+    "properties": {
+      "groomType": null,
+      "Groomed": null,
+      "adminStatus": null
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -70.56564145458935,
+        44.95676428528816
+      ]
+    }
+  },
+  "club-meganski-qc": {
+    "deleted": true
+  },
+  "windblown-xc-nh-2": {
+    "deleted": true
+  },
+  "mt-washington-nh": {
+    "deleted": true
+  },
+  "cf493f822dae9636a6c74212c7b676d891047358": {
+    "properties": {
+      "groomSkate": "Yes",
+      "groomClassic": "Yes",
+      "groomType": "both",
+      "Groomed": "Yes",
+      "rentals": "Yes",
+      "adminStatus": null
+    }
+  }
+}

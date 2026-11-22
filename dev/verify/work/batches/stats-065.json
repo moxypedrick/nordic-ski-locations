@@ -1,0 +1,46 @@
+{
+ "searches": 15,
+ "fetches": 21,
+ "perArea": {
+  "hayward-hospital-trails-wi": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "pilot-knob-state-park-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "trego-lake-trails-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "sauk-centre-public-school-trail-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "miners-memorial-heritage-park-mi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "trade-river-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "rhinelander-community-trails-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "thistledew-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "burlington-school-forest-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "carey-lake-mn": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "rendezvous-mt",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fs.usda.gov/r01/custergallatin/recreation/trails/rendezvous-trail-system",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r01/custergallatin/recreation/trails/rendezvous-trail-system",
+        "date": "2026-02-19",
+        "summary": "Forest Service page, updated Feb 2026, describes 35 km groomed ski trails with season and day pass prices."
+      }
+    ],
+    "suggestedName": "Rendezvous Ski Trails",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "russian-jack-park-ak-2",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.muni.org/Departments/parks/Pages/IceTrailStatus.aspx",
+    "evidence": [
+      {
+        "url": "https://www.muni.org/Departments/parks/Pages/IceTrailStatus.aspx",
+        "date": "2026-11-12",
+        "summary": "Anchorage Parks page lists Russian Jack Springs ski trails; 2026-27 grooming to start when snow allows."
+      }
+    ],
+    "suggestedName": "Russian Jack Springs Park",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "seeley-creek-nordic-ski-trails-mt-2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.nordic-pulse.com/ski-areas/US/MT/Seeley-Creek",
+        "date": "2026-03-20",
+        "summary": "Nordic Pulse club report from March 2026 says season likely over after best final weekend; storm damage report Dec 2025."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "No official club website found; only a club membership page on runsignup."
+  },
+  {
+    "id": "silverstar-bc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.skisilverstar.com/",
+    "evidence": [
+      {
+        "url": "https://sovereignlake.com/rates/day-tickets/ski-day-tickets/",
+        "date": null,
+        "summary": "Neighbouring Nordic club page describes discounted SilverStar Nordic season pass add-on for 2026/27 season."
+      }
+    ],
+    "suggestedName": "SilverStar Mountain Resort",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Resort Nordic pass page returned 403; search snippet shows a 55 km Nordic pass, undated."
+  },
+  {
+    "id": "skalkaho-pass-road-mt-2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r01/bitterroot/recreation/skalkaho-snowpark",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r01/bitterroot/recreation/skalkaho-snowpark",
+        "date": "2025-02-19",
+        "summary": "Forest Service snowpark page says skiers and snowmobilers use the closed winter road; XC skiing listed, grooming not stated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "smugglers-notch-vt",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.smuggs.com/?p=114",
+        "date": null,
+        "summary": "Resort pass page says cross-country and snowshoe trail access included with Winter 2025/2026 season pass (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "smuggs.com pages returned HTTP 402 (blocked); evidence from search snippets only."
+  },
+  {
+    "id": "stowe-vt",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.stowe.com/the-mountain/about-the-mountain/cross-country-center",
+    "evidence": [
+      {
+        "url": "https://nensa.net/2026/01/28/join-us-for-the-2026-tour-de-stowe/",
+        "date": "2026-01-28",
+        "summary": "NENSA announces 2026 Tour de Stowe ski tour on Trapp and Stowe Mountain Resort Ranch Valley trails."
+      }
+    ],
+    "suggestedName": "Stowe Mountain Resort Cross Country Center",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Resort page shows centre closed for 2025/26 winter operations, no 2026-27 dates yet."
+  },
+  {
+    "id": "solbakken-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.solbakkenresort.com/",
+    "evidence": [
+      {
+        "url": "https://runsignup.com/Race/MN/Lutsen/SkiNorthUltra",
+        "date": "2026-03-07",
+        "summary": "Ski North Ultra lists Solbakken Resort as aid station beside the course; 2026 race held, 2027 set."
+      },
+      {
+        "url": "https://www.solbakkenresort.com/",
+        "date": null,
+        "summary": "Resort site advertises on-site cross country ski access."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "summit-nordic-wa",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://summitatsnoqualmie.com/season-passes/nordic-pass",
+    "evidence": [
+      {
+        "url": "https://summitatsnoqualmie.com/season-passes/nordic-pass",
+        "date": "2026-11-01",
+        "summary": "Official Summit at Snoqualmie page sells Nordic pass valid 2026-27, with age categories set as of Nov. 1, 2026."
+      }
+    ],
+    "suggestedName": "Summit Nordic Center",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "timber-creek-vt",
+    "status": "closed",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.deerfieldvalleynews.org/business-news-features/end-era-valley%e2%80%99s-last-xc-center-close",
+        "date": "2023-03-23",
+        "summary": "Local news says Timber Creek operator is closing the cross-country centre, ending valley cross-country skiing."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "News is the only source; no second source found, and the centre has no official site."
+  }
+]

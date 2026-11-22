@@ -1,0 +1,441 @@
+[
+ {
+  "id": "mecca-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.meccatrails.com/",
+  "evidence": [
+   {
+    "url": "https://www.meccatrails.com/",
+    "date": "2026-09-27",
+    "summary": "MECCA Ski Club site in Mercer lists 21 km groomed trails and Winterfest 2027 dates; workday September 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "forbush-corner-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.forbushcorner.com/",
+  "evidence": [
+   {
+    "url": "https://www.forbushcorner.com/",
+    "date": "2026-04-01",
+    "summary": "Official site recaps 2025-26 season with 85+ ski days and races; season passes offered."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "boyne-highlands-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.highlandsharborsprings.com/activities/nordic",
+  "evidence": [
+   {
+    "url": "https://www.highlandsharborsprings.com/activities/nordic",
+    "date": null,
+    "summary": "Resort nordic page lists over 16 km of maintained trails and rentals; site copyright 2026."
+   }
+  ],
+  "suggestedName": "The Highlands at Harbor Springs",
+  "method": "site-check",
+  "comment": "Renamed: Boyne Highlands now operates as The Highlands at Harbor Springs (old URL redirects there).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "wintergreen-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/wintergreen-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/wintergreen-trail",
+    "date": "2025-06-30",
+    "summary": "Forest Service page lists Wintergreen Trail east of Fifield groomed for classic and skate skiing."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jay-cooke-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00187",
+  "evidence": [
+   {
+    "url": "https://files.dnr.state.mn.us/maps/state_parks/spk00187_winter.pdf",
+    "date": "2025-10-27",
+    "summary": "MN DNR publishes a current winter trail map for Jay Cooke State Park, file saved October 2025."
+   },
+   {
+    "url": "https://www.exploreminnesota.com/profile/jay-cooke-state-park/8309",
+    "date": null,
+    "summary": "Park three miles east of Carlton has about 32 miles of classic ski trails (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "DNR park page builds its content with scripts; park details did not render.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "whitnall-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://county.milwaukee.gov/EN/Parks/Experiences/In-the-Snow",
+    "date": null,
+    "summary": "Milwaukee County Parks rents skis at Whitnall Park clubhouse on weekends when trails are open (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "Milwaukee County Parks pages blocked (403/404); evidence from search snippet only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "nakkertok-ski-club-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nakkertok.ca/",
+  "evidence": [
+   {
+    "url": "https://www.nakkertok.ca/",
+    "date": "2026-11-02",
+    "summary": "Club site posts November 2026 trail and facilities news; 2025-26 volunteer awards announced."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gore-mountain-ski-area-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://goremountain.com/",
+    "date": null,
+    "summary": "Gore Mountain sells 2026/27 cross-country passes for its groomed, lit Ski Bowl network (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "goremountain.com returned 403 on every page tried; evidence from search snippet only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "rib-lake-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=440",
+    "date": "2026-02-06",
+    "summary": "Skier report says Rib Lake trails all open, good classic conditions, February 2026 (snippet)."
+   },
+   {
+    "url": "https://timmshilltrail.com/xcskiing.htm",
+    "date": "2026-03-15",
+    "summary": "Neighbouring Timm's Hill Trail reports reference connection to Rib Lake Ski & Snowshoe Trails, 2025-26."
+   }
+  ],
+  "method": "research",
+  "comment": "Club appears to have only a Facebook page (facebook.com/skiriblake), not loaded; candidate riblakewisconsin.com/trails showed no ski details.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "gold-run-nordic-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.active.com/breckenridge-co/winter-sports/skiing-classes/nordic-skate-group-lesson-jan-mar-2026",
+    "date": "2026-01-01",
+    "summary": "Breckenridge Recreation nordic skate group lessons listed January to March 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "breckenridgerecreation.com and townofbreckenridge.com returned 403; evidence from search snippet only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "tahoe-donner-ca",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.tahoedonner.com/amenities/amenities/cross-country/",
+  "evidence": [
+   {
+    "url": "https://www.tahoedonner.com/amenities/amenities/cross-country/",
+    "date": "2026-11-15",
+    "summary": "Cross country centre in Truckee sells 2026/27 season passes; snow report updated November 15."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "marsh-lake-trails-yt",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "methow-trails-wa",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.methowtrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.methowtrails.org/",
+    "date": "2026-11-11",
+    "summary": "Methow Trails grooming report dated November 11, 2026; 2026-27 annual passes on sale."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "porcupine-ski-runners-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.porcupineskirunners.com/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register/VkPgRO",
+    "date": "2025-01-01",
+    "summary": "Registration listing for OCup #5 race hosted by Porcupine Ski Runners in 2025 (snippet)."
+   },
+   {
+    "url": "https://www.porcupineskirunners.com/",
+    "date": null,
+    "summary": "Club site in Timmins live with membership sales, trail conditions link and 3.5 km lit trails."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "camrose-ski-club-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://camroseskiclub.com/membership/",
+    "date": null,
+    "summary": "Club membership page says 2025/26 registration open; 2026/27 season opening soon (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "camroseskiclub.com returned 403; evidence from search snippet only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "one-hundred-mile-nordic-ski-society-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://100milenordics.com/",
+  "evidence": [
+   {
+    "url": "https://100milenordics.com/",
+    "date": null,
+    "summary": "100 Mile Nordics site sells season passes with no rate increase for 2026/2027; ski swap listed."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bogus-basin-id",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bogusbasin.org/your-mountain/things-to-do/winter-activities/nordic-skiing/",
+  "evidence": [
+   {
+    "url": "https://bogusbasin.org/your-mountain/things-to-do/winter-activities/nordic-skiing/",
+    "date": null,
+    "summary": "Bogus Basin nordic page offers 2026/27 nordic season passes, lessons and rentals at Frontier Point."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "parc-du-mont-megantic-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://sortirauquebec.com/en/listing/cross-country-skiing-and-snowshoeing/parc-national-du-mont-megantic-ski-de-fond-et-raquette/",
+    "date": null,
+    "summary": "Listing says the Sépaq park offers 16 km of nordic trails plus ski and snowshoe rentals (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "sepaq.com returned 403; evidence from search snippets only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "standing-rocks-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.co.portage.wi.gov/329/Standing-Rocks-Park",
+  "evidence": [
+   {
+    "url": "https://www.co.portage.wi.gov/329/Standing-Rocks-Park",
+    "date": null,
+    "summary": "Portage County page lists about 15 km groomed classic and skate trails with day and season passes."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "big-white-ski-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bigwhite.com/events-activities/winter-activities/nordic-trails",
+  "evidence": [
+   {
+    "url": "https://www.bigwhite.com/geo/usa",
+    "date": "2026-11-26",
+    "summary": "Big White books 2026/2027 season, opening weekend November 26, 2026; nordic rentals and lessons listed."
+   },
+   {
+    "url": "https://www.bigwhite.com/events-activities/winter-activities/nordic-trails",
+    "date": null,
+    "summary": "Nordic page lists 25 km of trails with 2025/2026 trail pass prices."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fahnestock-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.ny.gov/visit/state-parks/fahnestock-winter-park",
+  "evidence": [
+   {
+    "url": "https://parks.ny.gov/visit/state-parks/fahnestock-winter-park",
+    "date": null,
+    "summary": "NY State Parks page lists 20 km groomed skate and classic trails, rentals and trail pass fees."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "moose-mountain-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/moose-mountain",
+  "evidence": [
+   {
+    "url": "https://tourismsaskatchewan.com/listings/1001/moose-mountain-provincial-park-trails",
+    "date": null,
+    "summary": "Provincial tourism listing says the park has 50 km of ski trails; links Sask Parks page."
+   }
+  ],
+  "method": "research",
+  "comment": "Sask Parks page builds content with scripts; only its title rendered.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "highlands-nordic-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://highlandsnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://highlandsnordic.ca/",
+    "date": "2026-11-09",
+    "summary": "Duntroon centre site sells 2026/2027 season passes; latest report dated November 9, 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bear-valley-ca",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.gocalaveras.com/events/bjornlopett-xc-race-weekend/",
+    "date": "2026-03-07",
+    "summary": "Bear Valley Adventure Company hosted Bjornloppet cross-country race weekend March 7-8, 2026 (snippet)."
+   }
+  ],
+  "suggestedName": "Bear Valley Adventure Company",
+  "method": "research",
+  "comment": "Cross-country centre now operates as Bear Valley Adventure Company. Old bearvalleyxc.com redirects to an unrelated hotel site; bvadventures.com shows a hosting placeholder.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "whaleback-nordic-ski-club-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://whalebacknordic.wordpress.com/",
+  "evidence": [
+   {
+    "url": "https://whalebacknordic.wordpress.com/",
+    "date": null,
+    "summary": "Club site in Stephenville lists 26/27 season pages, 2026/27 executive and early bird registration."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

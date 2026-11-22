@@ -1,0 +1,177 @@
+[
+ {
+  "id": "42397518ef91437837761b1b7f18a502a0d7cc47",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skidefondstoneham.ca/",
+  "evidence": [
+   {
+    "url": "https://skidefondstoneham.ca/",
+    "date": "2026-11-21",
+    "summary": "Club site reports last grooming 28 March 2026, 2026-27 passes and a wax workshop on 25 November."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "432d338f59dae7cbd2861fb0dd24183e765d4dd6",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://wostawea.ca/trail-conditions/",
+  "evidence": [
+   {
+    "url": "https://wostawea.ca/trail-conditions/",
+    "date": "2026-03-03",
+    "summary": "Club trail-conditions page lists Woodlot and Killarney trail blog posts dated February to March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "4355d4fd6942faa04400ea964bb75e2d91a347d0",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://fs.usda.gov/r02/bighorn/recreation/opportunities/winter-sports",
+  "evidence": [
+   {
+    "url": "https://fs.usda.gov/r02/bighorn/recreation/opportunities/winter-sports",
+    "date": "2026-07-08",
+    "summary": "Bighorn National Forest lists Willow Park among six designated Nordic ski areas; page updated July 2026."
+   },
+   {
+    "url": "https://sites.google.com/site/powderpassnordic/snow-report",
+    "date": "2026-11-18",
+    "summary": "Regional Nordic club page for 2026-27 says Tensleep Nowood Trailbreakers now maintain Willow Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Maintainer changed from Powder Pass Nordic Club to Tensleep Nowood Trailbreakers; the dedicated Forest Service page for the area returned 404."
+ },
+ {
+  "id": "44b199ff937c078b0d6527f1124c7873e2ef27b5",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dupageforest.org/places-to-go/forest-preserves/waterfall-glen",
+  "evidence": [
+   {
+    "url": "https://www.dupageforest.org/places-to-go/forest-preserves/waterfall-glen",
+    "date": null,
+    "summary": "DuPage forest preserve page allows cross-country skiing on its trails; rangers groom when conditions permit."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "4577f051e2b71ad87151304a5c4b8c127d3396c3",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://brundage.com/snow",
+  "evidence": [
+   {
+    "url": "https://brundage.com/snow",
+    "date": "2026-02-28",
+    "summary": "Operator snow report for McCall Activity Barn says Nordic trails last groomed 02/28/2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Activity Barn is run by Brundage Mountain; no separate site loaded."
+ },
+ {
+  "id": "46ace285d6e8b94c145b117f7a237558b4000d77",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://starksmountain.org/",
+  "evidence": [
+   {
+    "url": "https://starksmountain.org/",
+    "date": "2026-01-07",
+    "summary": "Official site lists 2026 public skiing rules, trail fees and school races from Jan 7, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "47626cc0f4919b9a04c12d8b551a26100ad5b024",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.kachemaknordicskiclub.org/",
+  "evidence": [
+   {
+    "url": "https://www.kachemaknordicskiclub.org/",
+    "date": "2025-01-01",
+    "summary": "Club site describes 80+ km groomed trails near Homer with a grooming-report link; footer shows 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "4ad6b2525bae0b8ed22a3e800ee45d2a8842eced",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.bridgerskifoundation.org/",
+  "evidence": [
+   {
+    "url": "https://www.bridgerskifoundation.org/",
+    "date": "2026-12-22",
+    "summary": "Bridger Ski Foundation site lists Nordic Nights events Dec 2026 and Jan 2027; it grooms these trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "4d5be1b80cd471f579a104a5194675016834e18c",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.bridgerskifoundation.org/",
+  "evidence": [
+   {
+    "url": "https://www.nordic-pulse.com/ski-areas/US/MT/BSF-Bridger-Creek",
+    "date": "2026-11-20",
+    "summary": "Nordic Pulse report by BSF Trails dated Nov 20, 2026 says Bridger Creek loops rolled; thin conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "4d4393d1d399c221a96a31f0cae8790c42e2876b",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/AB/Edmonton-Goldbar",
+    "date": "2026-04-08",
+    "summary": "Nordic Pulse report dated April 8, 2026 on grooming at Gold Bar, Goldstick and Capilano trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "City of Edmonton pages returned 502 on every attempt, so no official URL loaded."
+ }
+]

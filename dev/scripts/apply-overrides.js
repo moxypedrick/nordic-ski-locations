@@ -13,7 +13,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const ROOT           = path.join(__dirname, '..');
+const ROOT           = path.join(__dirname, '..', '..'); // repo root (scripts live in dev/scripts)
 const MERGED_FILE    = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
 const OVERRIDES_FILE = path.join(ROOT, 'data', 'manual-overrides.json');
 
@@ -35,17 +35,30 @@ const gj = JSON.parse(fs.readFileSync(MERGED_FILE, 'utf8'));
 const byId = new Map(gj.features.map(f => [f.properties.id, f]));
 
 let applied = 0, missing = [];
+const deleted = new Set();
 
 for (const id of ids) {
   const feature = byId.get(id);
-  if (!feature) { missing.push(id); continue; }
   const patch = overrides[id];
+  if (!feature) {
+    // An area deleted earlier is already gone from the merged file; that is fine.
+    if (!patch.deleted) missing.push(id);
+    continue;
+  }
+  // { deleted: true } removes the area (recorded by admin.html's Delete button)
+  if (patch.deleted) {
+    deleted.add(id);
+    applied++;
+    console.log(`  ✗ ${feature.properties.Name || id} (deleted)`);
+    continue;
+  }
   if (patch.geometry)    feature.geometry = patch.geometry;
   if (patch.properties)  Object.assign(feature.properties, patch.properties);
   applied++;
   console.log(`  ✓ ${feature.properties.Name || id}`);
 }
 
+if (deleted.size) gj.features = gj.features.filter(f => !deleted.has(f.properties.id));
 fs.writeFileSync(MERGED_FILE, JSON.stringify(gj));
 
 console.log(`\nApplied ${applied} override(s).`);

@@ -1,0 +1,106 @@
+{
+ "searches": 17,
+ "fetches": 53,
+ "perArea": {
+  "yellowknife-ski-club-nt": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "bear-notch-nh": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "triangle-xc-ski-club-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "blue-mountains-nordic-centre-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "clcf-nordic-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "champs-de-bataille-qc": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "willow-river-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "club-de-ski-de-beauce-qc": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "bear-mountain-xc-ski-trails-bc": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "kane-valley-ski-trails-bc": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "lester-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "trapp-family-lodge-vt": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mcculloch-lakes-ski-center-bc": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "suomi-hills-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "greenbush-ski-trails-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "hardwood-ski-and-bike-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "telemark-resort-trails-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "homestake-lodge-mt-2": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "flathorn-gegoka-trails-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "elm-creek-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "william-obrien-state-park-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "wild-river-state-park-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "mountain-dell-ut": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "omineca-ski-club-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "marathon-international-ski-on": {
+   "searches": 2,
+   "fetches": 1
+  }
+ }
+}

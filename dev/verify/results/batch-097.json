@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fe4ebc6d2cbf5f8fb93d72cbb423fb2caebd6ead",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fs.usda.gov/r04/dixie/recreation/deer-hollow-non-motorized-winter-recreation-area",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r04/dixie/recreation/deer-hollow-non-motorized-winter-recreation-area",
+        "date": "2026-02-27",
+        "summary": "Forest Service page lists 23 miles of groomed ski trails with a mid-December to March season."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "fe80e32ed56ef6cab6b5fb569875e28127d2a256",
+    "status": "operating",
+    "confidence": "low",
+    "officialUrl": "https://cannonsburg.com/winter-biking/",
+    "evidence": [
+      {
+        "url": "https://cannonsburg.com/winter-biking/",
+        "date": null,
+        "summary": "Cannonsburg Ski Area winter trail page says trails open for cross-country skiing, pass needed, 2026 footer."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Evidence is for adjacent Cannonsburg Ski Area (Belmont MI), not the State Game Area itself; possible duplicate of a Cannonsburg ski area entry."
+  },
+  {
+    "id": "fef67ddf6ff39f1d90e8b4152933479fe7258284",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://bridgerbowl.com/",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Bridger Bowl is an alpine resort; its site and searches show no Nordic trails. Nearby Nordic is Crosscut Mountain Sports Center, a separate area."
+  }
+]

@@ -1,0 +1,106 @@
+{
+ "searches": 25,
+ "fetches": 47,
+ "perArea": {
+  "dunton-locks-ski-trails-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "washburn-lake-solitude-area-trails-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "upper-gunflint-trail-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "central-gunflint-trail-system-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sugarloaf-prov-park-nb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "brek-co": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "lodi-area-ski-trails-wi": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "hillside-ski-area-ak": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "howelsen-hill-ski-area-co": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "eastman-nh": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "turtle-river-state-park-nd": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "silver-rapids-ski-trails-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "cavoc-trails-wi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "prince-albert-national-park-sk": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "murphy-hanrehan-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wascana-centre-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "token-creek-county-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sleepy-hollow-vt": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "pigeon-creek-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lappe-nordic-ski-center-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "muskegon-winter-sports-complex-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "pine-valley-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "harris-farm-me": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "nubs-nob-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kamview-nordic-centre-on": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

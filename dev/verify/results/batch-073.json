@@ -1,0 +1,182 @@
+[
+ {
+  "id": "raven-golf-club-co-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.silverthorne.org/Home/Components/News/News/549/15",
+    "date": "2024-12-02",
+    "summary": "Town of Silverthorne news post: Nordic Center at the Raven open for 2024-25 winter season (snippet)."
+   }
+  ],
+  "suggestedName": "Silverthorne Nordic Center at the Raven",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Town of Silverthorne pages returned 403 and the old ravenatthreepeaks.com page returned 404, so officialUrl is null."
+ },
+ {
+  "id": "royal-gorge-ca",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sugarbowl.com/royalgorge",
+  "evidence": [
+   {
+    "url": "https://www.sugarbowl.com/royalgorge",
+    "date": "2026-11-22",
+    "summary": "Royal Gorge page shows 2026/27 season passes, daily hours and live conditions dated 11/22/2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Royal Gorge is now operated by Sugar Bowl; royalgorge.com redirects to sugarbowl.com/royalgorge."
+ },
+ {
+  "id": "home-ranch-co",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": "https://www.homeranch.com/",
+  "evidence": [
+   {
+    "url": "https://www.steamboatpilot.com/news/former-luxury-resort-the-home-ranch-officially-conserved-in-north-routt/",
+    "date": "2021-01-19",
+    "summary": "News: Home Ranch sold in 2019, ended its run as a resort, now a private home."
+   },
+   {
+    "url": "https://meetingsmags.com/colorado/co_news/events-return-to-private-ranch/",
+    "date": "2025-12-03",
+    "summary": "Ranch reopened as events venue for weddings and retreats; no ski operations mentioned (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old steamboatxcski.com candidate is a hijacked spam site. Closure sources are news only and do not name skiing explicitly; homeranch.com shows no winter or ski content."
+ },
+ {
+  "id": "stevens-pass-wa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stevenspass.com/explore-the-resort/about-the-resort/winter-experience.aspx",
+  "evidence": [
+   {
+    "url": "https://www.skiplain.com/post/grooming-report-2-23-2026",
+    "date": "2026-02-23",
+    "summary": "Plain Valley report says a February 2026 Nordic Cup race moved to Stevens Pass Nordic Center (snippet)."
+   },
+   {
+    "url": "https://www.stevenspass.com/explore-the-resort/about-the-resort/winter-experience.aspx",
+    "date": null,
+    "summary": "Resort winter page lists Nordic Center cross-country and snowshoe trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Dedicated Nordic Center page sits behind a Vail waiting-room redirect and could not be read, so the resort winter page is used as officialUrl."
+ },
+ {
+  "id": "sun-valley-id",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sunvalley.com/things-to-do/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://www.sunvalley.com/things-to-do/nordic-skiing",
+    "date": "2026-11-22",
+    "summary": "Sun Valley Nordic page, seen 11/22/2026, sells 2026-27 Nordic and snowshoe season passes; trails closed until snow."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "vista-verde-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.vistaverde.com/winter/skiing/",
+  "evidence": [
+   {
+    "url": "https://www.vistaverde.com/winter/skiing/",
+    "date": null,
+    "summary": "Ranch skiing page describes 15 km groomed classic and skate trails, with a Spring Break 2027 promotion banner."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "whitehorse-area-yt-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.whitehorsenordiccentre.ca/",
+  "evidence": [
+   {
+    "url": "https://www.whitehorsenordiccentre.ca/trail-report/",
+    "date": null,
+    "summary": "Club trail report says some trails open for skiing, chalet closed for renovation; site carries a 2026 strategic document."
+   }
+  ],
+  "suggestedName": "Whitehorse Nordic Centre",
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Likely same centre as another Whitehorse entry if one exists; name is the Whitehorse Nordic Centre (Mt. McIntyre)."
+ },
+ {
+  "id": "akers-me",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.akers-ski.com/",
+  "evidence": [
+   {
+    "url": "https://mainebyfoot.com/akers-family-ski-trails/",
+    "date": "2026-02-09",
+    "summary": "Third-party trail guide for Andover shows Akers trails marked and groomed as of February 2026."
+   }
+  ],
+  "suggestedName": "Akers Ski",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site akers-ski.com is a shop page with no trail status; one fetch of a wrong domain (akersski.com) failed."
+ },
+ {
+  "id": "ashcroft-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r02/whiteriver/recreation/ashcroft-nordic-ski-area",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r02/whiteriver/recreation/ashcroft-nordic-ski-area",
+    "date": "2025-12-16",
+    "summary": "White River National Forest page, updated 12/16/2025, lists over 35 km groomed trails, season from late November."
+   }
+  ],
+  "suggestedName": "Ashcroft Ski Touring",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Operates on national forest under a permit; the operator's own site was not loaded, so the land manager page is officialUrl."
+ },
+ {
+  "id": "blueberry-lake-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://blueberrylakexc.com/",
+  "evidence": [
+   {
+    "url": "https://blueberrylakexc.com/",
+    "date": "2026-11-22",
+    "summary": "Official site seen 11/22/2026 sells 2026/27 season passes for Warren, VT cross-country trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Guessed domain blueberrylakecrosscountry.com did not resolve; real site is blueberrylakexc.com."
+ }
+]

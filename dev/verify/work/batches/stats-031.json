@@ -1,0 +1,46 @@
+{
+ "searches": 28,
+ "fetches": 15,
+ "perArea": {
+  "au-diable-vert-qc": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "plein-air-mont-echo-farmers-rest-qc": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "skiwippi-qc": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "club-de-ski-de-fond-de-lor-blanc-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "domaine-de-la-baie-gillies-qc": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "station-de-ski-du-mont-orignal-qc": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "station-touristique-du-massif-du-sud-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "centre-de-plein-air-de-sainte-perpetue-qc": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "club-sportif-des-appalaches-qc": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "centre-de-plein-air-de-montmagny-qc": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

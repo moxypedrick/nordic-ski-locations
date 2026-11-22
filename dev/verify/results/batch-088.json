@@ -1,0 +1,172 @@
+[
+  {
+    "id": "8596c02ebf11360b5d6425d746a5104a74295863",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://landernordic.org/beaver-creek-nordic-ski-area",
+    "evidence": [
+      {
+        "url": "https://landernordic.org/membership",
+        "date": "2025-02-27",
+        "summary": "Club membership page lists memberships, day passes and a Feb 27, 2025 raffle event."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "8659c9c96ddb74d90cbb78ed8d86dd0306106630",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://woodsandtrails.org/",
+    "evidence": [
+      {
+        "url": "https://www.indyskipass.com/our-resorts/bethel-village-trails",
+        "date": null,
+        "summary": "Indy Pass lists Bethel Village Trails for 2026-27 season with 24 km cross-country trails."
+      }
+    ],
+    "suggestedName": "Inland Woods + Trails",
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "86e33761610726f4145922f5549abf621c6e76dd",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fourseasonstrail.org/",
+    "evidence": [
+      {
+        "url": "https://www.visitaroostook.com/post/14-must-experience-trails-in-aroostook-county-this-winter",
+        "date": "2026-02-04",
+        "summary": "Aroostook tourism winter guide, updated Feb 2026, lists Four Seasons Trail Association among Nordic ski trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "87dcc4e665db001a41fdbb64a58a87a127686988",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.threeriversparks.org/location/glen-lake-winter-trailhead",
+    "evidence": [
+      {
+        "url": "https://www.threeriversparks.org/location/glen-lake-winter-trailhead",
+        "date": null,
+        "summary": "Three Rivers Parks page lists 1.5-mile groomed XC ski trails, Dec 15-Mar 15 season, ski pass, rentals."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "8af750bcbbc5fd2575151ef2a2c42ccb02fb6305",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://swmichigan.org/blog/where-to-cross-country-ski",
+        "date": null,
+        "summary": "Tourism page describes groomed ski trails at the park, undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "berriencounty.org and wsjm.com returned 403. Only undated tourism-board pages describe groomed ski trails; no dated or land-manager evidence read."
+  },
+  {
+    "id": "8baeecaec15bb0c7481f47a0852ec9a476fa4808",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.seatoskygondola.com/winter-activities/nordic-skiing",
+    "evidence": [
+      {
+        "url": "https://www.seatoskygondola.com/winter-activities/nordic-skiing",
+        "date": "2026-11-27",
+        "summary": "Official Nordic page: 2.2 km groomed daily; site reopens Nov 27, 2026 after maintenance."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "8be5580cc98fc90ceb9cdcabff534b870097ccba",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://skiosceola.com/",
+    "evidence": [
+      {
+        "url": "https://skiosceola.com/trail-conditions",
+        "date": "2026-10-19",
+        "summary": "Official winter report dated Oct 19, 2026 has cross-country grooming fields; no snow yet, season expected."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "8ca57662be28621b1bcd43d946cab67f2b69a3e3",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.facebook.com/lakebluffnordicskiclub/",
+    "evidence": [
+      {
+        "url": "https://www.localgymsandfitness.com/US/Lake-Bluff/1615215325442035/Lake-Bluff-Nordic-Ski-Club",
+        "date": "2026-01-27",
+        "summary": "Mirror of club Facebook posts shows grooming decisions on Jan 26-27, 2026 and a Mar 2026 season-end post."
+      }
+    ],
+    "suggestedName": "Lake Bluff Nordic Ski Club",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Facebook is the only club presence; posts read via third-party mirror, Facebook page content did not load."
+  },
+  {
+    "id": "8ccf8e7f584bb16f1b59c9556cd4e9de3c6608a0",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://keweenawtrails.com/trail-reports/",
+    "evidence": [
+      {
+        "url": "https://keweenawtrails.com/trail-reports/",
+        "date": "2026-05-06",
+        "summary": "Keweenaw Trails reports 2025-26 grooming ended for the season; Visit Keweenaw March 2026 reports covered MTU trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Name matches no source; coordinates fit the Michigan Tech Trails competition loops in Houghton. Likely duplicate of a Michigan Tech Trails entry."
+  },
+  {
+    "id": "8d7645abcc460cd7e6686d4399d8f97c3320bad1",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/angleworm-hegman-lakes-ski-route",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/angleworm-hegman-lakes-ski-route",
+        "date": "2025-08-06",
+        "summary": "Forest Service page lists ungroomed ski and snowshoe route off Echo Trail; skiing allowed."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

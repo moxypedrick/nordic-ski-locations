@@ -1,0 +1,432 @@
+[
+ {
+  "id": "carson-pegasus-provincial-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.albertaparks.ca/parks/central/carson-pegasus-pp/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/central/carson-pegasus-pp/",
+    "date": "2026-10-26",
+    "summary": "Alberta Parks page lists ice fishing, fat biking, winter camping; no cross-country ski trails mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sandhills-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.alberta.ca/whitecourt-sandhills",
+  "evidence": [
+   {
+    "url": "https://www.alberta.ca/whitecourt-sandhills",
+    "date": null,
+    "summary": "Alberta government page for Whitecourt Sandhills land use zone says cross-country skiing permitted; no grooming info."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "swan-hills-cross-country-trails-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.townofswanhills.com/community/adventure/",
+    "date": null,
+    "summary": "Town of Swan Hills recreation pages list snowmobile trails, golf, camping; no cross-country ski trails found."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "grizzly-ridge-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/north/grizzly-ridge-wpp",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/grizzly-ridge-wpp",
+    "date": "2026-08-25",
+    "summary": "Grizzly Ridge Wildland Park page lists hiking, hunting, OHV; no skiing or ski trails mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lesser-slave-lake-prov-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/north/lesser-slave-lake-pp/activities-events/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/lesser-slave-lake-pp/activities-events/winter-activities/",
+    "date": "2026-06-25",
+    "summary": "Alberta Parks winter page lists about 18 km of classic-groomed cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hilliards-bay-prov-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/north/hilliards-bay-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/hilliards-bay-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks page lists 3 km hiking and cycling trails, ice fishing; no cross-country skiing mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "winagami-lake-provincial-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/north/winagami-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/winagami-lake-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks page lists cross-country skiing, winter trails pamphlet and winter activities page."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "youngs-point-prov-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/north/young-s-point-pp/activities-events/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/young-s-point-pp/activities-events/winter-activities/",
+    "date": "2026-06-25",
+    "summary": "Alberta Parks winter page lists 12.5 km of classic-groomed cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "obrien-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/north/o-brien-pp/information-facilities/trails/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/north/o-brien-pp/information-facilities/trails/",
+    "date": null,
+    "summary": "Alberta Parks trails page lists year-round Shoreline trail with cross-country skiing permitted; grooming not stated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wapiti-nordic-ski-club-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wapitinordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.wapitinordic.com/",
+    "date": null,
+    "summary": "Club site south of Grande Prairie promotes winter 2026/2027 events and winter membership discount."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "saskatoon-island-prov-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.albertaparks.ca/parks/north/saskatoon-island-pp/activities-events/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/north/saskatoon-island-pp/activities-events/winter-activities/",
+    "date": "2026-06-25",
+    "summary": "Alberta Parks winter page lists about 3.5 km of classic-groomed cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "moonshine-provincial-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.albertaparks.ca/parks/north/moonshine-lake-pp/activities-events/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/north/moonshine-lake-pp/activities-events/winter-activities/",
+    "date": "2026-06-25",
+    "summary": "Alberta Parks winter page for Moonshine Lake lists about 15 km of classic-groomed ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "queen-elizabeth-prov-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/north/queen-elizabeth-pp/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/north/queen-elizabeth-pp/",
+    "date": "2026-08-25",
+    "summary": "Alberta Parks page near Grimshaw lists cross-country skiing on 4.5 km of ungroomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "smith-dorrien-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-public-safety/trail-reports/mount-shark/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-public-safety/trail-reports/mount-shark/",
+    "date": "2026-04-25",
+    "summary": "Alberta Parks Mount Shark trail report off Smith-Dorrien road; trails groomed into April 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fort-mcmurray-trails-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ptarmigannordic.com/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=39095",
+    "date": null,
+    "summary": "Ptarmigan Nordic Ski Club, Birchwood Trails Fort McMurray, offered 2025/26 memberships (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club site loaded but showed no readable content (script-built); zone4 registration page needed cookies."
+ },
+ {
+  "id": "peter-lougheed-provincial-park-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/peter-lougheed/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-public-safety/trail-reports/peter-lougheed/moraine/",
+    "date": "2026-04-28",
+    "summary": "Alberta Parks trail report lists Moraine as a cross-country ski trail in Peter Lougheed park."
+   },
+   {
+    "url": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/kananaskis-country/",
+    "date": "2026-03-05",
+    "summary": "Over 75 km groomed ski trails; trail report updated March 2026 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kitimat-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.snowvalleynordics.com/",
+  "evidence": [
+   {
+    "url": "https://www.snowvalleynordics.com/",
+    "date": null,
+    "summary": "Snow Valley Nordics, Onion Lake trails between Kitimat and Terrace, selling 2026-2027 season passes."
+   }
+  ],
+  "suggestedName": "Snow Valley Nordics (Onion Lake Trails)",
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Likely duplicate of 'Onion Lake (Snow Valley Nordic)' 2 km away; club now operates as Snow Valley Nordics."
+ },
+ {
+  "id": "cariboo-ski-touring-club-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://caribooski.ca/wp-content/uploads/2025/12/SKI-Skool-Brochure-CSTC-2026.pdf",
+    "date": "2025-12-01",
+    "summary": "Quesnel club at Hallis Lake posted a 2026 ski school brochure in December 2025 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Likely duplicate of 'Hallis Lake Ski Trails' 3 km away. caribooski.ca would not load (TLS certificate error), so officialUrl null."
+ },
+ {
+  "id": "108-resort-best-western-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.expedia.com/cn/108-Mile-Ranch-Hotels-108-Golf-Resort.h16525.Hotel-Information",
+    "date": null,
+    "summary": "Now listed as 108 Golf Resort; booking listings say closed mid-October to March (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Resort now trades as 108 Golf Resort; no ski evidence found. Area overlaps Hills Health & Guest Ranch trails at 108 Mile Ranch."
+ },
+ {
+  "id": "hills-health-guest-ranch-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sprucehillresort.com/",
+  "evidence": [
+   {
+    "url": "https://www.sprucehillresort.com/",
+    "date": "2023-08-24",
+    "summary": "Spruce Hill Resort at 108 Mile Ranch site mentions winter cross-country skiing; no date after 2023."
+   }
+  ],
+  "suggestedName": "Spruce Hill Resort & Spa",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Booking sites list The Hills Health Ranch as an old name of Spruce Hill Resort & Spa, same address. Near 108 Resort area."
+ },
+ {
+  "id": "red-coach-inn-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://100milenordics.com/",
+  "evidence": [
+   {
+    "url": "https://100milenordics.com/",
+    "date": null,
+    "summary": "100 Mile Nordics site selling 2026/2027 season passes; ski swap and winter events listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Red Coach Inn is a hotel; trails are 100 Mile Nordics. Likely duplicate of 'One Hundred Mile Nordic Ski Society' 3 km away."
+ },
+ {
+  "id": "clinton-snow-jockey-club-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://crosscountrybc.ca/club-directory",
+    "date": null,
+    "summary": "Cross Country BC directory still lists Clinton Snow Jockey Club; no dated activity found (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club runs Big Bar ski trails; likely duplicate of 'Big Bar Cross Country Ski Trails' 8 km away."
+ },
+ {
+  "id": "big-bar-guest-ranch-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://staybigbar.com/",
+  "evidence": [
+   {
+    "url": "https://staybigbar.com/",
+    "date": null,
+    "summary": "Ranch site on Big Bar Road, Clinton lists riding, hiking, biking; no skiing or winter season mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tyax-mountain-lake-resort-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://tyax.com/",
+  "evidence": [
+   {
+    "url": "https://tyax.com/",
+    "date": null,
+    "summary": "Tyax Lodge site promotes heliskiing and lodging for 2026; no cross-country ski trails mentioned."
+   }
+  ],
+  "suggestedName": "Tyax Lodge & Heliskiing",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Resort now operates as Tyax Lodge & Heliskiing; cross-country skiing only mentioned by third-party sites."
+ },
+ {
+  "id": "whistler-ski-trails-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.crosscountryconnection.ca/",
+  "evidence": [
+   {
+    "url": "https://www.crosscountryconnection.ca/",
+    "date": "2025-12-01",
+    "summary": "Lost Lake ski shop posts winter 2026 rentals and lessons sheet; Whistler municipality grooms trails nightly."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Likely the Lost Lake trails; possible duplicate of 'Whistler' (0.6 km away)."
+ }
+]

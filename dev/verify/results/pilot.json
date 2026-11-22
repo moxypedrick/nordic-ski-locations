@@ -1,0 +1,1117 @@
+[
+ {
+  "id": "parc-de-la-yamaska-qc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/pq/yam/",
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/resources/docs/pq/yam/yam_guide_visiteur.pdf",
+    "date": null,
+    "summary": "Sepaq visitor guide lists cross-country skiing with light grooming among winter activities (snippet)."
+   },
+   {
+    "url": "https://sortirauquebec.com/en/listing/cross-country-ski-centre/parc-national-de-la-yamaska-raquette/",
+    "date": "2026-01-07",
+    "summary": "Third-party listing updated Jan 2026 files park as XC ski centre but on-site list shows only snowshoeing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "sepaq.com returned 403; park page and guide read only via search snippets."
+ },
+ {
+  "id": "strathcona-wilderness-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.strathcona.ca/recreation-events/recreation-centres/strathcona-wilderness-centre/",
+  "evidence": [
+   {
+    "url": "https://www.strathcona.ca/recreation-events/recreation-centres/strathcona-wilderness-centre/",
+    "date": "2026-01-21",
+    "summary": "Strathcona County page lists groomed classic and skate ski trails in winter; page updated January 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "ski-martock-ns",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": "https://www.martock.com/",
+  "evidence": [
+   {
+    "url": "https://trailforks.com/region/ski-martock",
+    "date": null,
+    "summary": "Trailforks region listing notes Nordic skiing is no longer offered (snippet)."
+   },
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/MWH0009",
+    "date": "2019-04-01",
+    "summary": "Provincial info record: resort stopped snowmaking on nordic trails; biathlon range dismantled; grooming only with natural snow."
+   },
+   {
+    "url": "https://www.martock.com/",
+    "date": "2026-11-15",
+    "summary": "Resort site live with 2026-27 alpine events; no mention of cross-country or nordic trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Trailforks page returned 403; read via search snippet."
+ },
+ {
+  "id": "chickakoo-lake-recreation-area-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parklandcounty.com/recreation-community/parks-trails-and-sports-fields/parks-and-trails",
+  "evidence": [
+   {
+    "url": "https://www.parklandcounty.com/recreation-community/parks-trails-and-sports-fields/parks-and-trails",
+    "date": null,
+    "summary": "Parkland County parks page lists Chickakoo Lake with 11 km of trails groomed and trackset for skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "birch-brook-nordic-ski-club-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://birchbrook.ca/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=39782",
+    "date": null,
+    "summary": "Club registration page sells 2025-26 memberships including skiing (snippet)."
+   },
+   {
+    "url": "https://www.newfoundlandlabrador.com/plan-and-book/attractions/36374247",
+    "date": null,
+    "summary": "Provincial tourism listing: over 50 km groomed ski and snowshoe trails on North West River Road."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "birchbrook.ca content did not render; zone4 membership page behind a cookie wall, read via snippet."
+ },
+ {
+  "id": "souris-trails-pe",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://islandtrails.ca/trail/souris-striders/",
+    "date": "2025-01-05",
+    "summary": "Island Trails listing for Souris Striders XC ski park shows trail conditions updated January 2025."
+   },
+   {
+    "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-souris-striders-ski-club-lit-trails-1.7436707",
+    "date": "2025-01-21",
+    "summary": "CBC story on Souris Striders Ski Club extending lit groomed trails; date inferred (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "CBC and Trailforks blocked fetches; CBC date inferred from a syndicated copy.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "hawk-ridge-centre-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://pursuit.ca/?p=164470",
+    "date": null,
+    "summary": "Undated Calgary XC guide lists Hawk Ridge Centre, about 6 km of trails near Spruce Meadows off Hwy 22X."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "terratima-lodge-ab",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cirrealty.ca/Rural-Clearwater-County-373048-Range-Road-8---0",
+    "date": "2023-07-04",
+    "summary": "Listing offered Terratima Lodge for sale; no resort operation since Covid, owner use only (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "thunder-lake-prov-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/central/thunder-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/thunder-lake-pp/information-facilities/",
+    "date": "2026-10-26",
+    "summary": "Alberta Parks activity list shows ice fishing and fat biking for winter; cross-country skiing not listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "williams-lake-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.williamslakecrosscountryskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://www.williamslakecrosscountryskiclub.ca/events-2",
+    "date": "2026-01-03",
+    "summary": "Club events page lists Bull Mountain race Jan 2026 and 2026-27 season pass open house."
+   },
+   {
+    "url": "https://crosscountrybc.ca/sites/default/files/documents/Teck%20Northern%20Cup%20%233_PressRelease%20%28FNL%29.pdf",
+    "date": "2026-01-03",
+    "summary": "Cross Country BC release on Teck Northern Cup race hosted at Bull Mountain."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mt-baldy-xc-area-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://baldyresort.com/",
+  "evidence": [
+   {
+    "url": "https://baldyresort.com/",
+    "date": null,
+    "summary": "Resort site live with 25/26 Indy Pass and season passes; lists snowshoe trails but no cross-country trails."
+   },
+   {
+    "url": "https://britishcolumbia.com/?p=759",
+    "date": null,
+    "summary": "Undated listing says shared ungroomed XC trails near the resort are maintained by McKinney Nordic Ski Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible duplicate of McKinney Nordic Ski Club."
+ },
+ {
+  "id": "pinawa-xc-ski-trails-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whiteshellskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.whiteshellskiclub.com/trail-conditions",
+    "date": "2026-02-24",
+    "summary": "Whiteshell Ski Club grooming update for Pinawa trails; earlier February 2026 posts on Manitoba Loppet trail prep."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-skirakdoo-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://rechercher.ouvert.canada.ca/subventions/record/esdc-edsc%2C014-2025-2026-Q2-00448%2Ccurrent",
+    "date": "2025-04-21",
+    "summary": "Federal grant record: Club Skirakdoo 2009 Inc., Saint-Leonard NB, got 2025 summer jobs funding; no ski details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gambo-nordic-ski-club-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.1000towns.ca/gambo-cross-country-ski-and-snowshoe-park",
+    "date": null,
+    "summary": "Undated directory listing for a Gambo ski and snowshoe park at 39 Victoria Dr, three trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "antigonish-golf-club-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.989xfm.ca/antigonish-town-council-supports-winter-recreation-project-for-cross-country-skiing-and-snow-shoeing-at-antigonish-golf-course/",
+    "date": null,
+    "summary": "Undated radio report (now 404): town gave $5,000 for golf-course ski/snowshoe project with trail and ski groups."
+   },
+   {
+    "url": "https://saltwire.pressreader.com/article/281505050446052",
+    "date": "2023-03-01",
+    "summary": "Local article lists the golf club among Antigonish places to cross-country ski or snowshoe."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "five-islands-provincial-park-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.novascotia.ca/park/five-islands",
+  "evidence": [
+   {
+    "url": "https://parks.novascotia.ca/park/five-islands",
+    "date": "2026-06-05",
+    "summary": "Provincial park page live; lists summer season and hiking trails, no mention of skiing."
+   },
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/COT0054",
+    "date": null,
+    "summary": "Trail directory says skiing permitted on Economy Mountain Trail but not groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "algonquin-nordic-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.algonquinecolodge.com/winter/",
+  "evidence": [
+   {
+    "url": "https://www.algonquinecolodge.com/winter/",
+    "date": null,
+    "summary": "Lodge winter page says no groomed ski trails this winter due to operational issues; wilderness skiing only."
+   }
+  ],
+  "suggestedName": "Algonquin EcoLodge",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possibly renamed from Algonquin Nordic Wilderness Lodge to Algonquin EcoLodge; rename not confirmed by a source."
+ },
+ {
+  "id": "upper-canada-bird-sanctuary-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/upper-canada.html",
+  "evidence": [
+   {
+    "url": "https://www.canada.ca/en/environment-climate-change/services/migratory-bird-sanctuaries/locations/upper-canada.html",
+    "date": "2024-04-03",
+    "summary": "Federal sanctuary page, live, says visitors can ski the sanctuary's nature trails west of Cornwall."
+   },
+   {
+    "url": "https://cornwalltourism.com/explore/winter-fun/",
+    "date": null,
+    "summary": "Cornwall Tourism winter page lists the sanctuary as a cross-country ski trail location."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "capreol-xc-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.facebook.com/Capreol-Cross-Country-Ski-Club-826233580756053/",
+  "evidence": [
+   {
+    "url": "https://www.1000towns.ca/capreol-cross-country-ski-club",
+    "date": null,
+    "summary": "Undated community listing for the club at 99 Lakeshore St, Capreol, linking only to a Facebook page."
+   },
+   {
+    "url": "https://www.skiresort.info/ski-resort/capreol/driving-map/",
+    "date": null,
+    "summary": "Directory says a Capreol ski area has shut down; unclear if it means this XC club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Facebook is the only source; page behind a login wall, no post dates seen."
+ },
+ {
+  "id": "northern-comfort-wilderness-adv-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible duplicate of Nordic Nomad Ski Club (Sioux Lookout)."
+ },
+ {
+  "id": "wasaga-beach-prov-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/wasagabeach",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/wasagabeach",
+    "date": "2026-12-11",
+    "summary": "Ontario Parks lists Wasaga Nordic & Trail Centre XC skiing, open Dec 11 2026 to Mar 21 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "warsaw-caves-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://otonabeeconservation.com/camping-outdoor-recreation/warsaw-caves",
+  "evidence": [
+   {
+    "url": "https://otonabeeconservation.com/camping-outdoor-recreation/warsaw-caves",
+    "date": "2026-05-08",
+    "summary": "Otonabee Conservation page (2026 season dates) permits winter cross-country skiing; trails open but ungroomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "le-refuge-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "May have closed or merged into Les Sentiers du Moulin; unconfirmed."
+ },
+ {
+  "id": "base-de-plein-air-les-goelands-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://villeport-cartier.com/wp-content/uploads/2025/07/FINAL-GuideTouristique2025_VillePortCartier-CITQ.pdf",
+    "date": "2025-07-01",
+    "summary": "Port-Cartier 2025 tourist guide lists the base as a winter snowshoe and ski destination (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "parc-daiguebelle-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/pq/aig/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Sepaq park page returned 403; seen only in search results."
+ },
+ {
+  "id": "club-de-montagne-dargenteuil-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Possibly the same trails as Parc Nature du Lac Beattie under a new operator; unconfirmed.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "centre-de-plein-air-saint-jean-de-matha-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://experiencematha.ca/",
+  "evidence": [
+   {
+    "url": "https://experiencematha.ca/",
+    "date": null,
+    "summary": "Golf site now Expérience Matha; winter offer lists snowshoe trails, tubing and snow rafting, no ski de fond."
+   },
+   {
+    "url": "https://lanaudiere.ca/fr/activites-lanaudiere/club-de-golf-saint-jean-de-matha",
+    "date": null,
+    "summary": "Undated tourism listing still mentions ski de fond and snowshoe trails at the golf club in winter."
+   }
+  ],
+  "suggestedName": "Expérience Matha",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Renamed Expérience Matha (golfmatha.com redirects). Possible duplicate or mislocation of Station Touristique Montagne Coupee."
+ },
+ {
+  "id": "parc-de-la-gorge-de-coaticook-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://gorgedecoaticook.qc.ca/en/winter-activities",
+  "evidence": [
+   {
+    "url": "https://gorgedecoaticook.qc.ca/en/winter-activities",
+    "date": null,
+    "summary": "Park winter offer is snowshoeing, winter hiking, fatbike and snow scooters; no ski de fond seen (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Park site is script-rendered; content read via search snippets."
+ },
+ {
+  "id": "reserve-faunique-de-portneuf-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/rf/por/",
+  "evidence": [
+   {
+    "url": "https://www.quebec-cite.com/fr/entreprises/reserve-faunique-de-portneuf",
+    "date": null,
+    "summary": "Tourism listing mentions ski trails and on-site equipment in winter; no trail details or season dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Sepaq pages return 403; official page not read."
+ },
+ {
+  "id": "emma-lake-recreation-site-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/great-blue-heron",
+  "evidence": [
+   {
+    "url": "https://www.tourismsaskatchewan.com/listings/1410/great-blue-heron-provincial-park---emma-lake-trails",
+    "date": null,
+    "summary": "Tourism listing for Great Blue Heron park Emma Lake trails says trails are groomed for skiing in winter."
+   }
+  ],
+  "suggestedName": "Great Blue Heron Provincial Park - Emma Lake",
+  "method": "research",
+  "comment": "Merged into Great Blue Heron Provincial Park (2013). Sask Parks page script-rendered, not read. Possible duplicate of Anglin Lake Ski Trails.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sinnissippi-ski-touring-center-il",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rockfordparkdistrict.org/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://rockfordparkdistrict.org/cross-country-skiing",
+    "date": null,
+    "summary": "Live park district XC page with grooming rules and a Sinnissippi winter trail map file named 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bergland-ski-trail-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.fs.usda.gov/r09/ottawa/recreation/opportunities/winter-sports",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/ottawa/recreation/opportunities/winter-sports",
+    "date": "2026-03-25",
+    "summary": "Ottawa NF winter page lists Bergland XC trail, 4.38 km, but not groomed in 2025-26 due to timber harvest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sylvan-hill-park-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.travelwisconsin.com/cross-country-skiing-snowshoeing/sylvan-hill-park-204090",
+    "date": null,
+    "summary": "Tourism listing notes a cross-country ski trail at the Marathon County tubing park; now 404 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "marathoncounty.gov returned 403."
+ },
+ {
+  "id": "pincushion-mountain-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://pincushionskiandrun.org/trail-conditions/",
+  "evidence": [
+   {
+    "url": "https://pincushionskiandrun.org/trail-conditions/",
+    "date": "2026-04-03",
+    "summary": "Club trail report: trails groomed for skate and classic on April 3, 2026, excellent surface."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "nicolet-north-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/nicolet-north-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/nicolet-north-trail",
+    "date": "2025-06-25",
+    "summary": "National Forest page (updated June 2025) says 15 miles groomed and tracked for classic and skate skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "montissippi-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jack-lake-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.langladecounty.org/resources/trail_reports/",
+  "evidence": [
+   {
+    "url": "https://www.langladecounty.org/resources/trail_reports/",
+    "date": "2026-04-04",
+    "summary": "Langlade County trail report for Jack Lake XC ski trail, spring 2026 end-of-season notice."
+   },
+   {
+    "url": "https://www.antigochamber.com/recreation-trails/winter-trail-reports/",
+    "date": "2026-03-05",
+    "summary": "Chamber relays county note: Jack Lake trail poor after warm spell, grooming ended for the season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "u-of-m-north-central-exp-station-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ncroc.cfans.umn.edu/public-trails",
+  "evidence": [
+   {
+    "url": "https://ncroc.cfans.umn.edu/public-trails",
+    "date": null,
+    "summary": "UMN North Central Research and Outreach Center page allows cross-country skiing on its trails, shows ski map."
+   }
+  ],
+  "suggestedName": "UMN North Central Research and Outreach Center trails",
+  "method": "research",
+  "comment": "Station renamed North Central Research and Outreach Center (NCROC).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "goose-lake-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.pineconepresscitizen.com/news/2025/sep/20/lake-country-nordic-ski-club-trail-cleanup-dates/",
+    "date": "2025-09-20",
+    "summary": "Local paper: Lake Country Nordic Ski Club scheduled Goose Lake ski trail cleanup for October 18, 2025."
+   },
+   {
+    "url": "https://www.longville.com/activities-2/winter/cross-country-skiing",
+    "date": null,
+    "summary": "Chamber page lists Goose Lake, 15 km trails 5 miles west of Longville on County Rd 5, ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hartman-creek-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/hartmancreek/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/hartmancreek/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page says six miles of groomed trails open for cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "00228de8502fb066a54f29b9a73a08b5537ae7dc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/north-junction-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/north-junction-ski-trails",
+    "date": "2026-05-07",
+    "summary": "Superior NF page lists 13 km North Junction ski loops off North Arm Rd, volunteer-maintained by Camp Widjiwagan."
+   },
+   {
+    "url": "https://ely.org/cross-country-skiing/",
+    "date": null,
+    "summary": "Ely chamber trail list includes North Junction Ski Trail, 13 km, with a 2026 map PDF."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "162e7a757b8b9b3398ea0a402f6905fb3e59f8db",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.riversidegolfcourseme.com/golf/winter-activities",
+  "evidence": [
+   {
+    "url": "https://www.riversidegolfcourseme.com/golf/winter-activities",
+    "date": null,
+    "summary": "City golf course winter page describes two groomed side-by-side ski trails; no dates shown."
+   },
+   {
+    "url": "https://mainebyfoot.com/riverside-golf-course-portland/",
+    "date": "2026-07-03",
+    "summary": "Trail guide updated July 2026 says the free city course is groomed for classic and skate skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "2fd0e4f9b15a7d8d90224c8ca89729381c0c79a0",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://neoc.com/experiences/",
+  "evidence": [
+   {
+    "url": "https://www.restore.org/maineenvironews/2025/3/21/challenging-skiing-on-hammond-ridge-trails",
+    "date": "2025-03-21",
+    "summary": "March 2025 trip report describing skiing the groomed Hammond Ridge trails at NEOC."
+   },
+   {
+    "url": "https://www.bangordailynews.com/2025/12/25/outdoors/act-out/best-places-to-ski-snowshoe-and-skate-maine-joam40zk0w/",
+    "date": "2025-12-25",
+    "summary": "Republished Maine ski guide lists groomed Hammond Ridge trails with rentals at NEOC trailhead (text from 2021)."
+   },
+   {
+    "url": "https://neoc.com/experiences/",
+    "date": null,
+    "summary": "NEOC site lists Snowshoeing and XC Skiing among experiences, but the link is a placeholder."
+   }
+  ],
+  "suggestedName": "Hammond Ridge Trails (New England Outdoor Center)",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Ktaadn Resort name looks outdated; trails now known as Hammond Ridge (NEOC). Rename tentative."
+ },
+ {
+  "id": "4db6d3838224e50f1009fcb57929372b8ffa4afe",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cartersxcski.com/",
+  "evidence": [
+   {
+    "url": "https://www.indyskipass.com/our-resorts/carters-xc-ski-center",
+    "date": "2026-10-01",
+    "summary": "Indy Pass lists Carter's XC Ski Center, Bethel ME, as a new member for the 2026-27 season."
+   },
+   {
+    "url": "https://www.cartersxcski.com/trailpasses",
+    "date": null,
+    "summary": "Own site live with season and day trail pass prices; no season year shown."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "633daf067a4b11ea42c9a78b5ff8cbf0c94df565",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://volunteersignup.org/LC3FL",
+    "date": "2026-02-01",
+    "summary": "Volunteer sheet for Phoenix Nordic Loppet 2026, costume ski race at Marshall Lake parking lot."
+   },
+   {
+    "url": "https://zone4.ca/register.asp?id=37309",
+    "date": null,
+    "summary": "Phoenix Cross Country Ski Society membership registration for skiing Marshall Lake trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club sites unreadable (phoenixnordic.com script-only or parked, skiphoenix.ca suspended); zone4 page read via snippet."
+ },
+ {
+  "id": "849b23a7d39c831c2cc895cc9ae2d64ee28032b3",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://dakotacountymn.gov/parks/parks-trails/lake-byllesby",
+  "evidence": [
+   {
+    "url": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+    "date": "2026-10-14",
+    "summary": "Dakota County ski page, updated October 2026, lists Lake Byllesby Regional Park as a skate-ski location."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "94f16bfc50e0d22ee67ef3c5cfc2afb1e84f758f",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wnms.ca/",
+  "evidence": [
+   {
+    "url": "https://www.wnms.ca/news/quarterly-newsletter-january-2026",
+    "date": "2026-01-17",
+    "summary": "Club newsletter reports active grooming of the Wolverine Ski Trails this season and good nordic skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "ac2c4b0298883b380e2cf5c7a2d99b0e58351099",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bridgerskifoundation.org/",
+  "evidence": [
+   {
+    "url": "https://www.bridgerskifoundation.org/trails/grooming-report",
+    "date": "2026-02-26",
+    "summary": "Bridger Ski Foundation post announcing a free community ski in Hyalite on 3 March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Grooming entries load by script and could not be read."
+ },
+ {
+  "id": "c77d78da8bd41ea7ec9b872db681c37d446ce143",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://energiecmb.com/",
+  "evidence": [
+   {
+    "url": "https://energiecmb.com/",
+    "date": "2026-11-01",
+    "summary": "Official site: 2026-27 winter and annual pass presale Nov 1-30 2026; trail status updated Nov 12 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "e32b2b834ba9000c117604de67c7c01e9406d2e1",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nps.gov/kaww/cross-country-ski-and-snowshoe.htm",
+  "evidence": [
+   {
+    "url": "https://www.nps.gov/kaww/planyourvisit/winter-trail-conditions.htm",
+    "date": "2026-02-24",
+    "summary": "NPS winter conditions page: five north-entrance ski trails groomed on February 24, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "devils-thumb-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.devilsthumbranch.com/adventure/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.devilsthumbranch.com/adventure/cross-country-skiing/",
+    "date": "2024-11-15",
+    "summary": "Ranch XC page: about 120 km of trails, day/season passes, rentals, lessons; season Nov 15 2024 to Apr 13 2025."
+   },
+   {
+    "url": "https://www.devilsthumbranch.com/adventure-pricing-reservations/",
+    "date": null,
+    "summary": "Pricing page lists Nordic trail season passes with current prices, season not labelled."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "vasa-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://traversetrails.org/trails/vasa-pathway/",
+  "evidence": [
+   {
+    "url": "https://traversetrails.org/trails/vasa-pathway/",
+    "date": null,
+    "summary": "TART Trails page says it grooms the DNR-owned Vasa Pathway for skiing under a DNR contract."
+   },
+   {
+    "url": "https://runsignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+    "date": "2026-02-14",
+    "summary": "50th North American Vasa ski races held 14-15 February 2026 from Timber Ridge, Traverse City (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "northfield-mountain-ma",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://firstlight.energy/stewardship/northfield-mountain-recreation-environmental-center/",
+  "evidence": [
+   {
+    "url": "https://firstlight.energy/stewardship/northfield-mountain-recreation-environmental-center/",
+    "date": "2025-12-01",
+    "summary": "FirstLight page thanks skiers for 2025/26 season, lists 25+ miles groomed trails and 2025-26 rental rates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tennessee-pass-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.tennesseepass.com/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://www.tennesseepass.com/nordic-center/hours-calendar/",
+    "date": "2025-11-27",
+    "summary": "Official calendar lists Nordic Center open daily Nov 27, 2025 to Apr 12, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "greenbush-wi-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn",
+    "date": null,
+    "summary": "Live DNR Kettle Moraine Northern Unit page says the forest offers groomed ski trails."
+   },
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/conditions",
+    "date": "2026-09-28",
+    "summary": "DNR conditions page notes hazard tree removal on the Greenbush trail system; no closure of ski use stated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "0abef3e1a9763679e118dae129954568d2988672",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://anchoragenordicski.com/trails/",
+  "evidence": [
+   {
+    "url": "https://anchoragenordicski.com/trails/",
+    "date": "2026-10-24",
+    "summary": "NSAA trails page live with October 2026 update; offers a 'Kincaid and Bartlett' ski trail map."
+   },
+   {
+    "url": "https://www.nordic-pulse.com/ski-areas/US/AK",
+    "date": null,
+    "summary": "Nordic Pulse lists Bartlett High School trails with a last-groomed date in December, year not shown."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "404f9961432a5c4db64c85b97591e6bbe7c7f8fc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.kellycanyonresort.com/",
+  "evidence": [
+   {
+    "url": "https://www.kellycanyonresort.com/safety-policies/",
+    "date": null,
+    "summary": "Resort uphill policy mentions Nordic parking lot and Caribou-Targhee NF Nordic Area beside resort (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Resort site is script-rendered; pages read via search snippets."
+ },
+ {
+  "id": "70ea6473794dd0e1ae883af8f401400f2d592129",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.sitesandtrailsbc.ca/resource/REC168747",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/event/2026/0QMLRd",
+    "date": "2026-03-07",
+    "summary": "Registration for 2026 Buckwheat International Ski Classic, hosted by Log Cabin Ski Society on these trails."
+   },
+   {
+    "url": "https://ksa.yk.ca/news/winteruseatcnhs2025/",
+    "date": "2025-03-04",
+    "summary": "Snowmobile club notice: volunteers maintain about 25 km of ski trails at Log Cabin lot."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "RSTBC page is script-rendered; not confirmed to mention skiing.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "9c120eb5a09cdd577d6309f13cd79e43ce0e63a3",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sovereignlake.com/",
+  "evidence": [
+   {
+    "url": "https://sovereignlake.com/",
+    "date": "2026-11-10",
+    "summary": "Club site: pre-season skiing since Oct 31, trails last groomed Nov 10, opening targeted Nov 18, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "c99b51f041fe21b3876882206e993c0a47874e8f",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/south-farm-lake-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/south-farm-lake-ski-trails",
+    "date": null,
+    "summary": "Superior NF page lists 5-mile wilderness ski trail east of Ely, user-tracked and volunteer-maintained, open year-round."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

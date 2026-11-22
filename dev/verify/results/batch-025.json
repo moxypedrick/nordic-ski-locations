@@ -1,0 +1,424 @@
+[
+ {
+  "id": "temiskaming-nordic-ski-club-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.temiskamingnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://www.temiskamingnordic.ca/",
+    "date": "2025-12-01",
+    "summary": "Club site sells 2026-27 ski memberships and links a December 2025 newsletter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wasi-cross-country-ski-club-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://wasiski.com/",
+  "evidence": [
+   {
+    "url": "https://wasiski.com/",
+    "date": "2026-10-15",
+    "summary": "Club post opens 2026-27 season membership registration with early bird pricing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "smoothwater-outfitters-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.smoothwater.com/",
+  "evidence": [
+   {
+    "url": "https://www.smoothwater.com/temagami-accommodations",
+    "date": null,
+    "summary": "Outfitter site near Temagami is live with winter office hours but no mention of ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "temagami-wilderness-centre-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "temagami-shores-inn-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.temagamishores.com/",
+  "evidence": [
+   {
+    "url": "https://www.temagamishores.com/winter/",
+    "date": null,
+    "summary": "Resort winter page lists snowmobiling, ice fishing, snowshoeing and skating, but no cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "west-nipissing-nordic-trails-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://sfrgc.ca/ski-and-snowshoe-trails/",
+  "evidence": [
+   {
+    "url": "https://sfrgc.ca/ski-and-snowshoe-trails/",
+    "date": "2026-09-01",
+    "summary": "Rod and Gun Club ski page describes groomed winter ski trails; site has 2026 membership form."
+   },
+   {
+    "url": "https://www.westnipissing.ca/culture-recreation/the-great-outdoors/winter-activities/",
+    "date": null,
+    "summary": "Municipal page lists 13 km groomed ski trails on Rod and Gun Club land, Sturgeon Falls."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible merge: trails now presented by Sturgeon Falls Rod and Gun Club; no separate Nordic club site found."
+ },
+ {
+  "id": "nordic-nomad-ski-club-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.siouxbulletin.com/cross-country-skiers-hoping-snow-is-in-the-forecast-250108",
+    "date": "2025-01-19",
+    "summary": "Local news: Nordic Nomads club maintains 25 km at Cedar Bay, sells trail passes online."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "samuel-de-champlain-prov-park-on",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.canadianecology.ca/mut/",
+  "evidence": [
+   {
+    "url": "https://www.canadianecology.ca/mut/",
+    "date": null,
+    "summary": "Canadian Ecology Centre says multi-use trails in the park are groomed for skiing and open for season."
+   },
+   {
+    "url": "https://www.ontarioparks.ca/park/samueldechamplain",
+    "date": null,
+    "summary": "Ontario Parks page marks cross-country skiing not available; 2026 operating dates May to October only."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mattawa-golf-ski-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://papineaucameron.ca/mattawa-golf-and-ski-resort/",
+    "date": "2023-06-07",
+    "summary": "Township listing for resort mentions snowshoeing and snowmobile trails, not ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "golfnski.com returned no readable content (likely script-built page); could not check it."
+ },
+ {
+  "id": "south-river-community-trails-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://discoveryroutes.ca/?p=4951",
+    "date": null,
+    "summary": "Almaguin Community Trails in South River: volunteer track-set ski trails; latest dated item is 2024 dog sled race."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possibly renamed Almaguin Community Trails (21 Mountain View Rd, South River); updates on Facebook only, not loaded."
+ },
+ {
+  "id": "the-caswell-resort-hotel-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "point-pelee-national-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/on/pelee/activ",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/on/pelee/activ",
+    "date": "2025-06-05",
+    "summary": "Parks Canada activities page lists cross country skiing; winter page says trails not maintained."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "backus-woods-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://natureconservancy.ca/en/where-we-work/ontario/featured-projects/backus-woods",
+  "evidence": [
+   {
+    "url": "https://natureconservancy.ca/where-we-work/ontario/featured-projects/backus-woods/",
+    "date": null,
+    "summary": "Land owner NCC lists skiing among year-round activities on 21 km of public trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pinery-provincial-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/pinery",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/pinery",
+    "date": "2026-01-01",
+    "summary": "Ontario Parks lists 38 km groomed ski trails and 2026 winter operating dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "stoney-island-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cknxnewstoday.ca/midwestern/news/2024/12/21/stoney-island-conservation-area-reopens",
+    "date": "2024-12-21",
+    "summary": "SVCA reopened Stoney Island after ash removal; skiers welcome, trails ungroomed for now."
+   },
+   {
+    "url": "https://trails.brucecounty.on.ca/trails/stoney-island-conservation-area/",
+    "date": null,
+    "summary": "Bruce County trail page says trails are regularly groomed for skate and classic skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sauble-beach-xc-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://trails.brucecounty.on.ca/trails/sauble-beach-cross-country-ski-club/",
+    "date": null,
+    "summary": "County trail listing still shows club trails at 931 Sauble Falls Parkway; no dated season info."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site skisauble.freehostia.com refused connection. Museum archive record says club renamed 2022 to Sauble Beach Ski and Snowshoe Club (snippet only)."
+ },
+ {
+  "id": "wiarton-area-trails-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bruceskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://bruceskiclub.ca/",
+    "date": "2026-03-29",
+    "summary": "Bruce Ski Club posts trail reports for Colpoys near Wiarton and Sawmill, latest late March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "bruce-peninsula-np-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/on/bruce/activ",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/on/bruce/activ",
+    "date": "2026-11-13",
+    "summary": "Parks Canada activities page for Bruce Peninsula lists cross country skiing; no grooming details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "inglis-falls-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.greysauble.on.ca/portfolio/inglis-falls-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://www.greysauble.on.ca/portfolio/inglis-falls-conservation-area/",
+    "date": null,
+    "summary": "Grey Sauble Conservation page for Inglis Falls lists cross-country skiing and snowshoeing among activities."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "glenelg-nordic-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://glenelgnordicskiclub.org/",
+  "evidence": [
+   {
+    "url": "https://glenelgnordicskiclub.org/",
+    "date": "2026-03-14",
+    "summary": "Club trail update dated March 2026; 2025-26 memberships listed in October 2025 post."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "minto-glen-sports-centre-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify Minto Glen Sports Centre online; no ski trail found near Harriston/Minto."
+ },
+ {
+  "id": "allan-park-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.saugeenconservation.ca/outdoors-recreation/outdoor-spaces/allan-park/",
+  "evidence": [
+   {
+    "url": "https://www.saugeenconservation.ca/outdoors-recreation/outdoor-spaces/allan-park/",
+    "date": null,
+    "summary": "SVCA Allan Park page lists beginner cross-country skiing among trail uses; one loop permanently closed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cambridge-area-trails-on",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.grandriver.ca/outdoor-recreation/skiing-and-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.grandriver.ca/outdoor-recreation/skiing-and-snowshoeing/",
+    "date": null,
+    "summary": "GRCA ski page lists Shades Mills in Cambridge with 10 km groomed classic trails and rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "laurel-creek-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.grandriver.ca/outdoor-recreation/skiing-and-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.grandriver.ca/outdoor-recreation/skiing-and-snowshoeing/",
+    "date": null,
+    "summary": "GRCA ski page lists Laurel Creek, Waterloo, with 4.5 km trails groomed as conditions permit."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "valens-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://conservationhamilton.ca/conservation-areas/valens-lake/",
+  "evidence": [
+   {
+    "url": "https://conservationhamilton.ca/conservation-areas/valens-lake/",
+    "date": null,
+    "summary": "Hamilton Conservation Valens Lake page says its 10 km trails suit cross-country skiing when conditions permit."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

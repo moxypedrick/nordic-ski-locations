@@ -1,0 +1,46 @@
+{
+ "searches": 10,
+ "fetches": 14,
+ "perArea": {
+  "totogatic-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "quarry-hill-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cam-rock-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "big-bay-pathway-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "vadnaissucker-lakes-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "wolf-lake-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "peninsula-state-park-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "maple-lane-ski-center-mi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "audubon-center-of-the-north-woods-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "riverside-trail-wi": {
+   "searches": 4,
+   "fetches": 1
+  }
+ }
+}

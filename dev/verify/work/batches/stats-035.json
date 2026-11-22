@@ -1,0 +1,46 @@
+{
+ "searches": 14,
+ "fetches": 17,
+ "perArea": {
+  "carlton-trail-ski-club-trails-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "greenwater-provincial-park-sk": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "hudson-bay-ski-trails-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "nipawin-regional-park-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "nipawin-ski-trails-sk": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "narrow-hills-provincial-park-sk": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "candle-lake-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lac-la-ronge-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "weyburn-cross-country-ski-trails-sk": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "carlton-trail-regional-park-sk": {
+   "searches": 3,
+   "fetches": 3
+  }
+ }
+}

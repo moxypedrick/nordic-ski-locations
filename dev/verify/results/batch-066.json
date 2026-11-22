@@ -1,0 +1,172 @@
+[
+ {
+  "id": "savanna-portage-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00259",
+  "evidence": [
+   {
+    "url": "https://gdrs.dnr.state.mn.us/gdrs/apps/pub/us_mn_state_dnr/mndnr_geopdf_download/State_Parks/Savanna%20Portage%20Winter%20GEO.pdf",
+    "date": null,
+    "summary": "Minnesota DNR publishes a winter trail map for Savanna Portage showing groomed and packed ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page loaded but is script-built with no trail detail; evidence is search snippet of land manager."
+ },
+ {
+  "id": "stoney-ridge-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=14",
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=14",
+    "date": "2026-02-01",
+    "summary": "Club trail page for Stoney Ridge, Itasca County, shows trail photos from February 2026; 10 km classic."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "prairie-springs-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://howardcounty.iowa.gov/conservation/recreation/",
+  "evidence": [
+   {
+    "url": "https://howardcounty.iowa.gov/conservation/recreation/",
+    "date": null,
+    "summary": "Howard County Conservation page for Prairie Springs trail near Cresco says a groomed winter ski trail exists."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "lake-emily-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.exploreflorencecounty.com/recreation/",
+  "evidence": [
+   {
+    "url": "https://www.exploreflorencecounty.com/resources/news/forestry-and-parks-notification-2025-02-18/",
+    "date": "2025-02-18",
+    "summary": "County notice closed Lake Emily ski trail for timber harvest rest of 2024-25 season; county lists it as maintained (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Closure was temporary (logging); no 2025-26 status found. County recreation page still lists groomed Thursday classic/skate."
+ },
+ {
+  "id": "pioneer-creek-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.vilascountywi.gov/departments/services/parks_and_recreation/trails___recreational_opportunities/ski_trails.php",
+  "evidence": [
+   {
+    "url": "https://www.vilascountywi.gov/departments/services/parks_and_recreation/trails___recreational_opportunities/ski_trails.php",
+    "date": null,
+    "summary": "Vilas County page lists Pioneer Creek ski trail at Conover Town Park, four loops, groomed as needed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "grand-avenue-nordic-center-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://spiritmt.com/winter/nordic/",
+  "evidence": [
+   {
+    "url": "https://spiritmt.com/winter/nordic/",
+    "date": "2026-11-19",
+    "summary": "Spirit Mountain Nordic page, post dated 11/19/26, gives tentative opening day, nightly grooming, day tickets and passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "kohler-andrae-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kohlerandrae",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kohlerandrae/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR park winter page lists a marked cross-country ski trail at the park (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "door-creek-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofmadison.com/parks/find-a-park/door-creek/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.cityofmadison.com/parks/events/2026-01-24/learn-to-cross-country-ski",
+    "date": "2026-01-24",
+    "summary": "City of Madison parks lists Door Creek ski trails with permits and a learn-to-ski event in January 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official URL taken from search result, not loaded; city find-a-park page loaded but lacked ski detail."
+ },
+ {
+  "id": "long-lake-conservation-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.longlakecc.org/about",
+  "evidence": [
+   {
+    "url": "https://aitkincountymn.gov/departments/land/land-winter.php",
+    "date": null,
+    "summary": "Aitkin County winter page lists Long Lake trail among its groomed cross-country ski trails; pass required (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "yahara-hills-golf-course-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cityofmadison.com/parks/documents/Yahara%20winter%20map%20with%20disc%20golf.pdf",
+    "date": null,
+    "summary": "City of Madison winter map shows an easy ski trail at Yahara Hills requiring a ski permit (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "City ski page not loaded directly; evidence from search snippet. Same city system as Door Creek Park."
+ }
+]

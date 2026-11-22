@@ -1,0 +1,46 @@
+{
+ "searches": 23,
+ "fetches": 19,
+ "perArea": {
+  "point-beach-state-forest-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "gartzke-flowage-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sheboygan-jaycee-trails-wi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "nashotah-park-wi": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "fond-du-lac-state-forest-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "lutsenspruce-creek-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "kinnickinnic-state-park-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "stuart-river-ski-trails-mn": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "listening-inn-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "grand-view-lodge-the-pines-mn": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

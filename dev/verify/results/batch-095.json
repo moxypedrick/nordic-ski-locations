@@ -1,0 +1,172 @@
+[
+ {
+  "id": "e153d0fca9854fd74d78f910bb945a0f2ad034b4",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.danecountyparks.com/park/William-G-Lunney-Lake-Farm",
+  "evidence": [
+   {
+    "url": "https://www.danecountyparks.com/park/William-G-Lunney-Lake-Farm",
+    "date": null,
+    "summary": "Dane County Parks page lists a groomed cross-country ski trail and ski map at Lunney Lake Farm."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e1a32fce69402dd1c018c22b0216990d077531fa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://jaypeakresort.com/skiing-riding/nordic-center",
+  "evidence": [
+   {
+    "url": "https://jaypeakresort.com/skiing-riding/nordic-center",
+    "date": null,
+    "summary": "Resort Nordic page lists 2026+27 day rates, 12 miles groomed trails and a 2025-26 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e293c8b6e69292695720e1c9c22913cc4f41f6a7",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stumpsprouts.com/",
+  "evidence": [
+   {
+    "url": "https://xcskimass.com/conditions/stump-sprouts",
+    "date": "2025-02-01",
+    "summary": "Regional ski association conditions feed shows Stump Sprouts groomed trail posts in February 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "xcskimass.com pages returned HTTP 500; evidence from search snippet only. Official site has no dated conditions."
+ },
+ {
+  "id": "e5f4b1bcc8fd4f5b7eb5d83f200efe20530a0a88",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skikendall.com/",
+  "evidence": [
+   {
+    "url": "https://www.skikendall.com/nordic-trails",
+    "date": null,
+    "summary": "Kendall site lists town-groomed free nordic trails; 2026-27 early-bird passes through Nov 30, opening December 5."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e4834420ce3f1cedb5f4f1d1a708fbd57345b53b",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.strathcona.ca/recreation-events/activities/cross-country-skiing-snowshoeing",
+  "evidence": [
+   {
+    "url": "https://www.strathcona.ca/recreation-events/activities/cross-country-skiing-snowshoeing",
+    "date": "2026-01-21",
+    "summary": "Strathcona County page updated Jan 2026 lists 12 km groomed ski trails, season passes, rentals, 2026 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e7db739361545783cc28b3cce34efea386531b0f",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://camelshumpskiers.org/",
+  "evidence": [
+   {
+    "url": "https://camelshumpskiers.org/",
+    "date": "2026-11-01",
+    "summary": "Club site updated Nov 2026 with 2026-27 fundraising campaign, memberships, passes and daily grooming updates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e71581bb6ee9da10327ead775200fc95d0c28df5",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://mtvanhoevenberg.com/2025/12/09/mt-van-hoevenberg-expands-community-ski-programs-for-2025-26-winter-season/",
+    "date": "2025-12-09",
+    "summary": "Official post dated Dec 2025 on expanded cross-country ski programs for winter 2025-26; 26/27 passes on sale (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "mtvanhoevenberg.com returned HTTP 403 on both fetches; evidence is from search snippets only."
+ },
+ {
+  "id": "e861ce0c2278e1f6be0f30d911f44fb07bcb8dc5",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r01/nezperce-clearwater/recreation/opportunities/winter-sports",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/nezperce-clearwater/recreation/opportunities/winter-sports",
+    "date": "2025-03-28",
+    "summary": "Forest Service winter page, updated Mar 2025, lists Fish Creek Recreation Area with 1 to 7 miles groomed ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "effda1f2db54d33bc3770670cd4335bd56a41eec",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skihood.com/",
+  "evidence": [
+   {
+    "url": "https://linktr.ee/meadowsnordic",
+    "date": null,
+    "summary": "Meadows Nordic Center link page advertises Winter 2026-27 passes and nordic spring passes now valid."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Evidence is the centre's Linktree; resort home page has no nordic content."
+ },
+ {
+  "id": "ed44cbeb0bd1e510771d6ae528701cc4f2766d76",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://norwichtrails.org/trails-in-norwich/4/",
+  "evidence": [
+   {
+    "url": "https://norwichtrails.org/trails-in-norwich/4/",
+    "date": null,
+    "summary": "Norwich Trails page describes Parcel 5 trails as suited for skiing; undated, no grooming report found."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

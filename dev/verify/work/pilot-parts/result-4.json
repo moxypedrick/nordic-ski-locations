@@ -1,0 +1,265 @@
+[
+ {
+  "id": "chickakoo-lake-recreation-area-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parklandcounty.com/recreation-community/parks-trails-and-sports-fields/parks-and-trails",
+  "evidence": [
+   {
+    "url": "https://www.parklandcounty.com/recreation-community/parks-trails-and-sports-fields/parks-and-trails",
+    "date": null,
+    "summary": "Parkland County parks page lists Chickakoo Lake with 11 km of trails groomed and trackset for skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No dedicated park page; officialUrl is the county parks list with a Chickakoo section. Search snippet mentioned a county icy-trails notice dated 2025-01-15, not verified."
+ },
+ {
+  "id": "terratima-lodge-ab",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cirrealty.ca/Rural-Clearwater-County-373048-Range-Road-8---0",
+    "date": "2023-07-04",
+    "summary": "Real estate listing offered Terratima Lodge for sale; said it had not run as a resort since Covid, owner use only."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "terratima.com refuses connections (http and https). Listing seen only in a search snippet; listing page now 404, so sale outcome unknown. Single non-official source, so low."
+ },
+ {
+  "id": "pinawa-xc-ski-trails-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whiteshellskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.whiteshellskiclub.com/trail-conditions",
+    "date": "2026-02-24",
+    "summary": "Whiteshell Ski Club grooming update for Pinawa trails; earlier February 2026 posts on Manitoba Loppet trail prep."
+   }
+  ],
+  "suggestedName": "Whiteshell Ski Club (Pinawa)",
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Trails run by Whiteshell Ski Club in and around Pinawa; suggestedName optional, area name is generic."
+ },
+ {
+  "id": "five-islands-provincial-park-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.novascotia.ca/park/five-islands",
+  "evidence": [
+   {
+    "url": "https://parks.novascotia.ca/park/five-islands",
+    "date": "2026-06-05",
+    "summary": "Provincial park page live; lists summer season and hiking trails, no mention of skiing."
+   },
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/COT0054",
+    "date": null,
+    "summary": "Trail directory says skiing permitted on Economy Mountain Trail but not groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Park is summer-only (June-Oct). Skiing appears allowed on ungroomed trails, but the land manager page does not list XC skiing and no dated ski evidence found. Could be marked operating-low if ungroomed skiing counts."
+ },
+ {
+  "id": "northern-comfort-wilderness-adv-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No web trace of this business. Coordinates are at Sioux Lookout, where Nordic Nomad Ski Club grooms trails; may be a defunct private operator. Possible overlap with any Nordic Nomad/Sioux Lookout entry."
+ },
+ {
+  "id": "base-de-plein-air-les-goelands-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://villeport-cartier.com/wp-content/uploads/2025/07/FINAL-GuideTouristique2025_VillePortCartier-CITQ.pdf",
+    "date": "2025-07-01",
+    "summary": "Port-Cartier 2025 tourist guide (search snippet) lists the base as a winter snowshoe and ski destination."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "baselesgoelands.com now serves an unrelated online-casino page (domain lost); do not use. Base is at 816 route 138, Port-Cartier. Only undated or generic tourism listings mention ski de fond; no grooming or season info found. Guide PDF not opened."
+ },
+ {
+  "id": "parc-de-la-gorge-de-coaticook-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://gorgedecoaticook.qc.ca/en/winter-activities",
+  "evidence": [
+   {
+    "url": "https://gorgedecoaticook.qc.ca/en/winter-activities",
+    "date": null,
+    "summary": "Park winter offer (per search snippets) is snowshoeing, winter hiking, fatbike and snow scooters; no ski de fond seen."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Park site is JS-rendered; WebFetch got titles only. XC skiing in Coaticook appears to be run by Plein Air Coaticook (separate, ~40 km), not this park; the park may no longer offer XC skiing, but no source says so. Check for a Plein Air Coaticook entry."
+ },
+ {
+  "id": "bergland-ski-trail-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.fs.usda.gov/r09/ottawa/recreation/opportunities/winter-sports",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/ottawa/recreation/opportunities/winter-sports",
+    "date": "2026-03-25",
+    "summary": "Ottawa NF winter page lists Bergland XC trail, 4.38 km, but not groomed in 2025-26 due to timber harvest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Listed by land manager but grooming paused for 2025-26 (logging); not closed for good. Unknown if grooming resumes 2026-27. Low because of the pause."
+ },
+ {
+  "id": "montissippi-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Wright County park in Monticello; no source found that lists XC skiing there now (hike/picnic only in results). County facility page not found (guessed URL hit another park). Nearby Bertram Chain of Lakes has groomed ski trails. Skiing may have ended here, but no closure source."
+ },
+ {
+  "id": "hartman-creek-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/hartmancreek/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/hartmancreek/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page says six miles of groomed trails open for cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Live land-manager page, undated."
+ },
+ {
+  "id": "4db6d3838224e50f1009fcb57929372b8ffa4afe",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cartersxcski.com/",
+  "evidence": [
+   {
+    "url": "https://www.indyskipass.com/our-resorts/carters-xc-ski-center",
+    "date": "2026-10-01",
+    "summary": "Indy Pass lists Carter's XC Ski Center, Bethel ME, as a new member for the 2026-27 season."
+   },
+   {
+    "url": "https://www.cartersxcski.com/trailpasses",
+    "date": null,
+    "summary": "Own site live with season and day trail pass prices; no season year shown."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Own site's events page stops at March 2024 and passes page is undated; current-season proof is third-party (Indy Pass, exact announcement date unknown, 2026-27 season used as month)."
+ },
+ {
+  "id": "ac2c4b0298883b380e2cf5c7a2d99b0e58351099",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bridgerskifoundation.org/",
+  "evidence": [
+   {
+    "url": "https://www.bridgerskifoundation.org/trails/grooming-report",
+    "date": "2026-02-26",
+    "summary": "Bridger Ski Foundation post announcing a free community ski in Hyalite on 3 March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "BSF says it grooms 7 Bozeman locations but the fetched pages did not name them; Hyalite link is via the dated event post and a 'Hyalite Tour' event. Grooming entries load dynamically and were not readable. Land manager is Custer Gallatin NF."
+ },
+ {
+  "id": "vasa-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://traversetrails.org/trails/vasa-pathway/",
+  "evidence": [
+   {
+    "url": "https://traversetrails.org/trails/vasa-pathway/",
+    "date": null,
+    "summary": "TART Trails page says it grooms the DNR-owned Vasa Pathway for skiing under a DNR contract."
+   },
+   {
+    "url": "https://runsignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+    "date": "2026-02-14",
+    "summary": "50th North American Vasa ski races held 14-15 February 2026 from Timber Ridge, Traverse City (search snippet)."
+   }
+  ],
+  "suggestedName": "Vasa Pathway",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old vasa.org/trail_01.html dead; vasa.org is the race organiser, not the trail manager. Official name is Vasa Pathway (Michigan DNR, groomed by TART). DNR page also exists: https://www.michigan.gov/recsearch/trails/vasa-pathway (not fetched). Race date from search snippet only."
+ },
+ {
+  "id": "0abef3e1a9763679e118dae129954568d2988672",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://anchoragenordicski.com/trails/",
+  "evidence": [
+   {
+    "url": "https://anchoragenordicski.com/trails/",
+    "date": "2026-10-24",
+    "summary": "NSAA trails page live with October 2026 update; offers a 'Kincaid and Bartlett' ski trail map."
+   },
+   {
+    "url": "https://www.nordic-pulse.com/ski-areas/US/AK",
+    "date": null,
+    "summary": "Nordic Pulse lists Bartlett High School trails with a last-groomed date in December, year not shown."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "anchoragenordicski.com loads now (input said dead). NSAA page does not explicitly say it grooms Bartlett; link is via the trail map name. Who grooms Bartlett (NSAA, school, or other) not confirmed; hence medium."
+ },
+ {
+  "id": "c99b51f041fe21b3876882206e993c0a47874e8f",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/south-farm-lake-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/south-farm-lake-ski-trails",
+    "date": null,
+    "summary": "Superior NF page lists 5-mile wilderness ski trail east of Ely, user-tracked and volunteer-maintained, open year-round."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Not groomed (user-tracked wilderness trail in BWCA; permit needed). Live land-manager page, no trail-specific date."
+ }
+]

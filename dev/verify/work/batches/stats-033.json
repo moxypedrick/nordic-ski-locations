@@ -1,0 +1,46 @@
+{
+ "searches": 29,
+ "fetches": 24,
+ "perArea": {
+  "domaine-notre-dame-qc": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "village-des-sports-qc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "cypress-hills-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "york-lake-regional-park-sk": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "esterhazy-cross-country-club-trails-sk": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "duck-mountain-provincial-park-sk": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "duck-mountain-regional-park-sk": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "rowans-ravine-provincial-park-sk": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "manitou-beach-watrous-manitou-ski-club-sk": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "blue-mountain-outdoor-adventure-center-white-tail-resort-sk": {
+   "searches": 4,
+   "fetches": 2
+  }
+ }
+}

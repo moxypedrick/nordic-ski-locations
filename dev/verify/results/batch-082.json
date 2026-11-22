@@ -1,0 +1,165 @@
+[
+ {
+  "id": "2bee81c75d2f766054a684ecfe4c0a6e336eb8b6",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.mtlorne.ca/lorne-mtn-community-association/facilities-rental/ski-trails",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Community association ski trails page loads (15 km, fees) but is undated; no grooming reports or dated events found."
+ },
+ {
+  "id": "2e06f198f8c84b021fa5fb6c66f1e7a7ccbfbbe4",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+    "date": "2026-12-11",
+    "summary": "City page lists Highland National ski loops, snow pass requirement, and 2026-27 open-ski and lesson schedule starting Dec 11."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "35f7bb7a29437294575fd4b6b728a17b3f37e7f8",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skileavenworth.com/locations/winter-locations/icicle-river",
+  "evidence": [
+   {
+    "url": "https://skileavenworth.com/tickets/2026-2027-memberships",
+    "date": "2026-11-01",
+    "summary": "Leavenworth Winter Sports Club sells 2026-27 memberships for its venues; Icicle River Trails page lists 7.5 km ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "37627176592e17c73c90135c9eb0c4ac1f8b9927",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.anchoragenordicski.com/",
+  "evidence": [
+   {
+    "url": "https://www.anchoragenordicski.com/trails",
+    "date": "2026-11-22",
+    "summary": "Nordic Ski Association of Anchorage trails page lists a Beach Lake (Chugiak HS) map; trail updates dated Nov 22, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "37e5529921c4d20b0e2da39a740d6e1252b44e4f",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skithebeav.org/",
+  "evidence": [
+   {
+    "url": "https://www.concordmonitor.com/2026/02/24/capital-cross-country-ski-day/",
+    "date": "2026-02-24",
+    "summary": "News report on Capital Cross-Country Ski Day at Beaver Meadow run by Ski The Beav and city recreation."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "37f473fa97ecf1afcd1f27924abff7b071f1dee5",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.shawlocal.com/lake-county-journal/2026/01/01/forest-preserves-offer-ways-to-get-outside-during-winter/",
+    "date": "2026-01-01",
+    "summary": "Local news lists Old School Forest Preserve in Libertyville among Lake County preserves with groomed ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Lake County Forest Preserves site (lcfpd.org) returned 403, so no official URL loaded."
+ },
+ {
+  "id": "3c410e195647fe381cb72c229709452ab255a896",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bmlt.org/horseshoe-prairie",
+  "evidence": [
+   {
+    "url": "https://fs.usda.gov/r06/umatilla/recreation/horseshoe-prairie-nordic-ski-area",
+    "date": "2025-05-30",
+    "summary": "Forest Service page lists Nordic ski and snowshoe use at Horseshoe Prairie, about 10 marked miles."
+   },
+   {
+    "url": "https://bmlt.org/horseshoe-prairie",
+    "date": null,
+    "summary": "Land trust volunteer crew grooms ski trails; page cites 2025 map, end of grooming season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "3eb5d377b6244bb8c4d618d8b6bd2aa42628004f",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ouraynordic.org/ironton/",
+  "evidence": [
+   {
+    "url": "https://ouraynordic.org/march-13-grooming-report/",
+    "date": "2026-03-14",
+    "summary": "Ouray County Nordic Council post says groomer did a touch-up run at Ironton."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "3d809a1dc84e8599543d86afea8d1f8a5857f1d9",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.rainbowresort.com/winter-at-rainbow-resort",
+  "evidence": [
+   {
+    "url": "https://www.rainbowresort.com/winter-at-rainbow-resort",
+    "date": "2026-03-20",
+    "summary": "Resort winter page describes 23 km groomed ski trails; embedded snow-depth map dated March 20, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "3ec814a888248ef8fbfbcd69fc55ed67f3f79beb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site skibeatenpath.ca failed to load (SSL error); Facebook page returned no readable content. No 2024-or-later dated evidence found."
+ }
+]

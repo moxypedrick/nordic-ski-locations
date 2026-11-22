@@ -1,0 +1,106 @@
+{
+ "searches": 33,
+ "fetches": 38,
+ "perArea": {
+  "temiskaming-nordic-ski-club-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wasi-cross-country-ski-club-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "smoothwater-outfitters-on": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "temagami-wilderness-centre-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "temagami-shores-inn-resort-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "west-nipissing-nordic-trails-on": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "nordic-nomad-ski-club-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "samuel-de-champlain-prov-park-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "mattawa-golf-ski-resort-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "south-river-community-trails-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "the-caswell-resort-hotel-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "point-pelee-national-park-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "backus-woods-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "pinery-provincial-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "stoney-island-cons-area-on": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "sauble-beach-xc-ski-club-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "wiarton-area-trails-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "bruce-peninsula-np-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "inglis-falls-cons-area-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "glenelg-nordic-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "minto-glen-sports-centre-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "allan-park-cons-area-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "cambridge-area-trails-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "laurel-creek-cons-area-on": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "valens-cons-area-on": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

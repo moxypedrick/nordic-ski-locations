@@ -1,0 +1,46 @@
+{
+ "searches": 10,
+ "fetches": 18,
+ "perArea": {
+  "bcrd-nordic-id": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "keystone-co": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "kirkwood-xc-ca": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "rock-creek-ca": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "mt-bachelor-or": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mt-vanhoevenberg-ny": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "overland-ski-club-british-colombia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "alpine-lake-wv": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "asbury-woods-pa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "black-moshannon-state-park-pa": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

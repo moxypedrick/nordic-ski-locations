@@ -1,0 +1,154 @@
+[
+ {
+  "id": "heartwood-ski-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old heartwoodresort.com redirects to trinitywoodscatholic.com (Trego WI, a Catholic camp); page does not mention skiing. No current ski evidence or closure statement found."
+ },
+ {
+  "id": "bear-head-lake-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/bear-head-lake/things-to-do.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/bear-head-lake/things-to-do.html",
+    "date": null,
+    "summary": "Minnesota DNR page lists 5.5 miles of groomed ski trails at the park, including the Norberg Lake Loop."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "pattison-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/pattison",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/pattison/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists three cross-country ski loops, about 5.5 miles, maintained when snow permits."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "magney-snively-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://duluthmn.gov/parks/parks-trails/parks-listing/magney-snively-park/",
+  "evidence": [
+   {
+    "url": "https://duluthmn.gov/parks/parks-trails/parks-listing/magney-snively-park/",
+    "date": null,
+    "summary": "City of Duluth park page lists cross-country ski trails among features; no dates given."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "riverside-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ci.stcloud.mn.us/Facilities/Facility/Details/25",
+  "evidence": [
+   {
+    "url": "https://www.ci.stcloud.mn.us/Facilities/Facility/Details/25",
+    "date": null,
+    "summary": "City of St. Cloud facility page for Riverside Park lists cross-country ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "ladysmith-high-school-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ruskcountywi.com/recreation/cross-country-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://ruskcountywi.com/recreation/cross-country-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Rusk County tourism page calls the Ladysmith High School lighted loop a popular ski trail; newest posts 2023."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "browns-creek-nature-preserve-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-trails/browns-creek/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-trails/browns-creek/index.html",
+    "date": null,
+    "summary": "DNR trail page says skiers may use the unmaintained western section in winter; lists cross-country ski trail type."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "lake-wissota-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/lakewissota/recreation",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/lakewissota/recreation",
+    "date": null,
+    "summary": "Wisconsin DNR page says about six miles of ski trails are groomed for classic and skate; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "barsness-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.ci.glenwood.mn.us/parks",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "City parks page covers Barsness Park but mentions only hiking trails, no skiing. Only a 2023 county map snippet mentions ski trails."
+ },
+ {
+  "id": "kivela-road-trail-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.negauneetownship.org/negaunee_township_trails.php",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Township page shows a Kivela trail map PDF but no skiing text. Only an undated michigan.org tourism listing mentions groomed ski loops."
+ }
+]

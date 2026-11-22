@@ -1,0 +1,148 @@
+[
+ {
+  "id": "kluane-national-park-yt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/yt/kluane/activ/hiver-winter/hiver-activ-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/yt/kluane/activ/hiver-winter/hiver-activ-winter",
+    "date": "2024-03-14",
+    "summary": "Parks Canada winter page lists several ski trails near Haines Junction, with volunteer track-setting; page modified March 2024."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "gray-mountain-biathlon-trails-yt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "http://www.biathlonyukon.org/",
+  "evidence": [
+   {
+    "url": "http://www.biathlonyukon.org/",
+    "date": null,
+    "summary": "Biathlon Yukon site lists 2026-27 races and volunteer sign-ups; Grey Mountain venue address on tourism listing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "carcross-community-ski-club-yt",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "site-check",
+  "comment": "destinationcarcross.ca blocked (403). No Carcross ski club found; Mount Lorne trails too far to count.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "aitlin-ski-club-trails-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Old domain atlinskiclub.org would not load. Atlin Ski Club not found in Cross Country BC directory or searches.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "dawson-city-jackrabbit-cross-country-ski-club-yt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cityofdawson.ca/p/the-great-outdoors",
+  "evidence": [
+   {
+    "url": "https://cityofdawson.ca/p/the-great-outdoors",
+    "date": null,
+    "summary": "City of Dawson page lists cross-country skiing among winter activities; search snippets show Moose Mountain groomed trails (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "No separate Jackrabbit club site found; city is the land manager.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "chestnut-valley-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Old chestnutvalley.com dead. No current ski source found for Chestnut Valley; only a past race listing near Harbor Springs.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "pine-haven-recreation-area-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://midlandcountymi.gov/index.php?section=parks-locations",
+  "evidence": [],
+  "method": "research",
+  "comment": "County page lists the area but does not mention skiing; ski details only from undated third-party listings.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "addison-oaks-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.oaklandcountymi.gov/community/oakland-county-parks/recreation/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://www.oaklandcountymi.gov/community/oakland-county-parks/recreation/winter-activities/",
+    "date": null,
+    "summary": "County winter page lists Addison Oaks for ungroomed cross-country skiing and snowshoeing; groomed trails there are for fat bikes."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "independence-oaks-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.oaklandcountymi.gov/community/oakland-county-parks/recreation/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://www.oaklandcountymi.gov/community/oakland-county-parks/recreation/winter-activities/",
+    "date": null,
+    "summary": "County winter page says Independence Oaks in Clarkston has groomed trails; county lessons listed for Jan-Feb 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "crystal-mountain-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.crystalmountain.com/events-activities/activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.crystalmountain.com/events-activities/activities/cross-country-skiing",
+    "date": "2026-01-01",
+    "summary": "Resort cross-country page shows 25 km Nordic trails, trail passes, lessons; 2024-25 rates seen in snippet."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ }
+]

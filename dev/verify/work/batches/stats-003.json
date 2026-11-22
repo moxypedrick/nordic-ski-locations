@@ -1,0 +1,106 @@
+{
+ "searches": 21,
+ "fetches": 52,
+ "perArea": {
+  "bowring-rotary-parks-nl": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "owen-conservation-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "staring-lake-ski-trails-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "pine-point-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mirror-lake-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "les-aventuriers-nb": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "club-de-ski-de-fond-la-balade-qc": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "telluride-co": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "garland-mi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "erkki-harju-ski-trail-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "strathcona-science-provincial-park-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "gordon-bubolz-nature-preserve-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "theodore-wirth-south-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "hyland-lake-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mt-washington-resort-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "murphys-point-prov-park-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "bagley-nature-area-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "northland-arboretum-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "centre-touristique-de-la-petite-rouge-qc": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "government-peak-ak-3": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "saux-head-trail-mi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "arrowhead-golf-club-il": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "coulee-experimental-state-forest-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "minnesota-landscape-arboretum-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "gooseberry-falls-state-park-mn": {
+   "searches": 2,
+   "fetches": 3
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "searches": 26,
+ "fetches": 34,
+ "perArea": {
+  "carson-pegasus-provincial-park-ab": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "sandhills-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "swan-hills-cross-country-trails-ab": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "grizzly-ridge-ab": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "lesser-slave-lake-prov-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hilliards-bay-prov-park-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "winagami-lake-provincial-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "youngs-point-prov-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "obrien-prov-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "wapiti-nordic-ski-club-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "saskatoon-island-prov-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "moonshine-provincial-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "queen-elizabeth-prov-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "smith-dorrien-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "fort-mcmurray-trails-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "peter-lougheed-provincial-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "kitimat-xc-ski-club-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cariboo-ski-touring-club-bc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "108-resort-best-western-bc": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "hills-health-guest-ranch-bc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "red-coach-inn-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "clinton-snow-jockey-club-bc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "big-bar-guest-ranch-bc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "tyax-mountain-lake-resort-bc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "whistler-ski-trails-bc": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

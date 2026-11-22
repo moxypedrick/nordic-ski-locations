@@ -1,0 +1,456 @@
+[
+ {
+  "id": "carver-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.threeriversparks.org/location/carver-park-reserve",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/page/trail-conditions-cross-country-skiing",
+    "date": "2026-03-19",
+    "summary": "Three Rivers ski trail conditions entry for Carver updated March 2026."
+   },
+   {
+    "url": "https://www.threeriversparks.org/location/carver-park-reserve",
+    "date": null,
+    "summary": "Park page lists 11.3 miles groomed skate and classic trails; ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "solberg-lake-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.priceareatrailhub.org/ourtrails/",
+  "evidence": [
+   {
+    "url": "https://www.priceareatrailhub.org/ourtrails/",
+    "date": "2026-02-01",
+    "summary": "Trail hub page describes Solberg trail groomed for classic on Price County forest; photo uploaded Feb 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "seeley-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://e-clubhouse.org/sites/seeley/page-10.php",
+  "evidence": [
+   {
+    "url": "https://e-clubhouse.org/sites/seeley/page-10.php",
+    "date": null,
+    "summary": "Seeley Lions page describes 12K groomed ski trails at Seeley Hills; mentions 2026-27 toilet project."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "teton-lakes-golf-course-id-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rexburgski.blogspot.com/",
+  "evidence": [
+   {
+    "url": "https://rexburgski.blogspot.com/",
+    "date": "2024-12-21",
+    "summary": "Rexburg Ski Trails blog grooming update December 2024; lists Teton Lakes winter park hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pleasant-view-golf-course-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://center.cxcskiing.org/",
+  "evidence": [
+   {
+    "url": "https://center.cxcskiing.org/",
+    "date": "2025-09-16",
+    "summary": "CXC sells 2025-26 passes covering groomed ski trails at Pleasant View Golf Course."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "highland-9-hole-golf-course-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+    "date": "2026-11-10",
+    "summary": "St. Paul page edited Nov 2026 lists Highland 9 groomed 3.5K loop and 2026-27 passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "spirit-mountain-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://spiritmt.com/winter/nordic/",
+  "evidence": [
+   {
+    "url": "https://spiritmt.com/winter/nordic/",
+    "date": "2026-11-13",
+    "summary": "Spirit Mountain nordic page dated Nov 2026; 22 km groomed trails, day tickets, 2025-26 race schedule."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "centre-de-ski-de-fond-lestrel-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skidefondesterel.com/",
+  "evidence": [
+   {
+    "url": "https://www.skidefondesterel.com/",
+    "date": null,
+    "summary": "Centre's own site says it is preparing for winter 2026-27; 35 km classic trails, rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "legion-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=1",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=53",
+    "date": "2026-02-02",
+    "summary": "Third-party trail report says Legion Trails recently groomed with good coverage. (snippet)"
+   },
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=1",
+    "date": null,
+    "summary": "Ski club lists Legion Park Trail, 4 km, skate and classic grooming."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sturgeon-river-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/sturgeon-river-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/sturgeon-river-trail",
+    "date": "2025-07-11",
+    "summary": "Superior National Forest page lists 22-mile classic ski trail, groomed periodically; updated July 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "nordic-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+    "date": null,
+    "summary": "DNR Southern Unit winter page lists Nordic trail system near Palmyra, six skate and classic trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "purity-spring-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.kingpine.com/the-mountain/xc-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.kingpine.com/?p=2253",
+    "date": null,
+    "summary": "King Pine sold 2025-26 Human Power Pass including Purity Spring XC and Snowshoe Reserve access."
+   },
+   {
+    "url": "https://www.kingpine.com/the-mountain/xc-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Resort XC page lists about 20 km packed trails, daily tickets and rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lapland-lake-ny",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://laplandlake.com/",
+  "evidence": [
+   {
+    "url": "https://laplandlake.com/trails-and-conditions/",
+    "date": "2026-11-13",
+    "summary": "Own conditions report dated Nov 2026; 2025-26 season had 116 ski days; 2026-27 passes on sale."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lapham-peak-wi-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/laphampeak",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/laphampeak",
+    "date": null,
+    "summary": "Wisconsin DNR park page lists cross-country skiing on lighted trails at Lapham Peak."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "chester-bowl-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://duluthmn.gov/parks/parks-trails/parks-listing/chester-park/",
+  "evidence": [
+   {
+    "url": "https://duluthmn.gov/parks/parks-trails/parks-listing/chester-park/",
+    "date": null,
+    "summary": "City of Duluth Chester Park page says cross-country trails are maintained in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mines-of-spain-recreation-area-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minesofspain.org/",
+  "evidence": [
+   {
+    "url": "https://www.minesofspain.org/",
+    "date": null,
+    "summary": "Park site says 6 miles groomed for cross-country skiing when snow permits; events appear to be 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "baker-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.threeriversparks.org/location/baker-park-reserve",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/page/trail-conditions-cross-country-skiing",
+    "date": "2026-03-20",
+    "summary": "Three Rivers ski trail conditions entry for Baker updated March 2026."
+   },
+   {
+    "url": "https://www.threeriversparks.org/location/baker-park-reserve",
+    "date": null,
+    "summary": "Park page lists 9.1 miles groomed classic and skate trails; ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "river-bend-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.rbgra.ca/xc-skiing",
+  "evidence": [
+   {
+    "url": "https://www.rbgra.ca/xc-skiing",
+    "date": null,
+    "summary": "River Bend site lists 19 km groomed classic and skate trails, lit loop, current rental rates; copyright 2026."
+   },
+   {
+    "url": "https://rdnewsnow.com/?p=599263",
+    "date": "2025-02-01",
+    "summary": "News: about 475 students skied River Bend trails in February 2025. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "hartley-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://duluthmn.gov/parks/parks-listing/hartley-park",
+  "evidence": [
+   {
+    "url": "https://duluthmn.gov/parks/parks-listing/hartley-park",
+    "date": null,
+    "summary": "City of Duluth Hartley Park page lists cross-country skiing as a park feature."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "saskatoon-municipal-trails-sk",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.saskatoon.ca/parks-recreation-attractions/recreational-facilities-sport-fields/winter-trails",
+  "evidence": [
+   {
+    "url": "https://www.saskatoon.ca/parks-recreation-attractions/recreational-facilities-sport-fields/winter-trails",
+    "date": "2026-03-11",
+    "summary": "City trail table shows six groomed park ski trails set in March, 2025-26 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pattee-canyon-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://missoulanordic.org/",
+  "evidence": [
+   {
+    "url": "https://missoulanordic.org/",
+    "date": null,
+    "summary": "Missoula Nordic Ski Club says it grooms Pattee Canyon trails; lists 2026-27 classic ski group."
+   },
+   {
+    "url": "https://missoulanordic.squarespace.com/patteecanyon",
+    "date": null,
+    "summary": "Club page describes 10 km groomed skate and classic trails on Lolo National Forest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "beatton-provincial-park-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bcparks.ca/beatton-park/",
+  "evidence": [
+   {
+    "url": "https://bcparks.ca/beatton-park/",
+    "date": null,
+    "summary": "BC Parks page lists over 15 km groomed ski trails built by Whiskey Jack Nordic Ski Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-mt-rolland-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "hiawatha-highlands-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hiawathahighlands.com/",
+  "evidence": [
+   {
+    "url": "https://hiawathahighlands.com/our-trails/grooming-report-fb/",
+    "date": "2026-03-31",
+    "summary": "Own site posts trail grooming reports through March 2026; closed for season April to November. (snippet)"
+   },
+   {
+    "url": "https://saulttourism.com/?p=19127",
+    "date": null,
+    "summary": "Tourism listing describes 50 km ski trails, classic and skate rentals, clubhouse."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "hiawathahighlands.com trail page returned 404 and the .ca domain did not resolve; evidence from search snippets only.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "parc-regional-du-bois-de-liesse-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://montreal.ca/en/places/parc-nature-du-bois-de-liesse-cross-country-ski-trails",
+  "evidence": [
+   {
+    "url": "https://montreal.ca/en/places/parc-nature-du-bois-de-liesse-cross-country-ski-trails",
+    "date": "2024-07-16",
+    "summary": "City of Montreal page lists about 16.6 km ski trails in the nature park. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "montreal.ca returned 404 to direct fetches (English and French URLs); evidence from search snippet only.",
+  "checkedDate": "2026-11-15"
+ }
+]

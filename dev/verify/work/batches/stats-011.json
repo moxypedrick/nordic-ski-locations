@@ -1,0 +1,106 @@
+{
+ "searches": 19,
+ "fetches": 45,
+ "perArea": {
+  "crested-butte-co": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "edson-hill-vt": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "camp-mercier-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "movil-maze-trail-mn": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "blueberry-ridge-trail-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "herrick-lake-forest-preserve-il": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "ski-de-fond-mont-tremblant-qc": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "weston-ma": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "boulder-lake-management-area-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "alder-pond-mn": {
+   "searches": 0,
+   "fetches": 4
+  },
+  "mountain-top-vt": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "nordic-woods-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "three-eagle-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "minocqua-winter-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cascade-river-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sugarbush-trail-system-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mt-macpherson-xc-ski-trails-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "stony-creek-metropark-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "callaghan-country-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "holy-cross-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "banadad-trail-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "frisco-co": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lake-bemidji-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sleeping-giantsibley-pp-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "grafton-vt": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

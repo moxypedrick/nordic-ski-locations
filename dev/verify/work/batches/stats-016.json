@@ -1,0 +1,106 @@
+{
+ "searches": 19,
+ "fetches": 37,
+ "perArea": {
+  "teton-lakes-golf-course-id": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "government-peak-ak-2": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "tower-ridge-wi": {
+   "searches": 2,
+   "fetches": 6
+  },
+  "raven-golf-club-co": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "lapham-peak-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mcmiller-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "greenbush-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "pinelands-farm-me": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "grand-mesa-nordic-center-co": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "enchanted-forest-nm": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "solitude-nordic-center-ut": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "windblown-xc-nh": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "huron-hills-cross-country-ski-center-mi": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "mt-brighton-mi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "sandy-mcnabb-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "west-bragg-creek-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "banff-townsite-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "sundance-trails-ab": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "lake-minnewankacascade-ab": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "castle-junction-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "baker-creek-ab": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "lake-louise-ab": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "canada-olympic-park-ab": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "syncline-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "athabasca-falls-ab": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

@@ -1,0 +1,415 @@
+[
+ {
+  "id": "le-sureau-blanc-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://zone4.ca/results.asp?id=8822",
+    "date": "2017-09-01",
+    "summary": "Club hosted a 2017 roller ski cup in Tracadie; no recent activity found (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-gailurons-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://groundnews.lakegeneva.lib.wi.us/article/les-gailurons-outdoor-centre",
+    "date": null,
+    "summary": "Undated tourism summary lists Les Gailurons centre with classic and skate trails; town not confirmed (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "Pages blocked (403); no official site found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "kahoutek-cross-country-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://tourismnewbrunswick.ca/story/plan-your-family-adventure-winter",
+    "date": null,
+    "summary": "Undated tourism story says Kahoutek Club behind Senechal Centre has ski, snowshoe, fat bike trails (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tobique-nordic-ski-club-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "perth-andover-cross-country-ski-club-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://vilsv.ca/things-to-do/outdoor-activities/ski-snowshoe",
+  "evidence": [
+   {
+    "url": "https://vilsv.ca/things-to-do/outdoor-activities/ski-snowshoe",
+    "date": "2021-06-28",
+    "summary": "Live village page lists groomed ski trails at Perth-Andover Community Trails, Carlingford, with season ski rentals."
+   }
+  ],
+  "suggestedName": "Perth-Andover Community Trails",
+  "method": "research",
+  "comment": "No club found; trails now presented as municipal Perth-Andover Community Trails (Village of Southern Victoria).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lindsay-valley-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.frederictoncapitalregion.ca/node/3514",
+    "date": "2025-01-01",
+    "summary": "January 2025 family winter event at Lindsay Valley; base recreation staff lent cross-country skis (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "Event page blocked (403); no official CFB Gagetown ski page found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "fredericton-area-trails-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fredericton.ca/recreation-culture/trails-cycling/trails?page=1",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/NB/region/Wostawea",
+    "date": "2026-03-06",
+    "summary": "Grooming tracker shows Killarney Lake and UNB Woodlot trails groomed in March, 2026 season inferred."
+   },
+   {
+    "url": "https://www.frederictoncapitalregion.ca/node/5753",
+    "date": "2026-01-25",
+    "summary": "Community cross-country ski rental day in Fredericton listed for January 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "rockwood-park-cross-country-ski-club-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://saintjohn.ca/en/search?page=2&search=Rockwood+Park",
+    "date": null,
+    "summary": "City of Saint John page says Rockwood Park has groomed cross-country ski and snowshoe trails (snippet)."
+   },
+   {
+    "url": "https://saintjohn.ca/en/news-and-notices/family-day-hours-services-and-activities",
+    "date": "2026-02-12",
+    "summary": "City notice says Rockwood Park open in winter for snowshoeing, hiking and skating."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fundy-national-parkchignecto-ski-club-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/nb/fundy/activ/hiver-winter/ski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nb/fundy/activ/hiver-winter/ski",
+    "date": "2025-08-08",
+    "summary": "Parks Canada page lists over 18 km of groomed classic and skate trails near Chignecto area."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "new-world-island-ski-club-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Possible duplicate of Dildo Run Provincial Park (same coordinates on New World Island).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "dildo-run-provincial-park-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parksnl.ca/parks/dildo-run-provincial-park/",
+  "evidence": [
+   {
+    "url": "https://www.parksnl.ca/parks/dildo-run-provincial-park/",
+    "date": null,
+    "summary": "Live provincial park page says winter visitors can cross-country ski; gate closed, ungroomed access on foot."
+   }
+  ],
+  "method": "research",
+  "comment": "Possible duplicate of New World Island Ski Club (same coordinates).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "jonathons-pond-prov-park-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.rvezy.com/rv-rentals/park/jonathans-pond-provincial-park",
+    "date": null,
+    "summary": "Third-party listing describes seasonal campground closed for winter; no ski mention (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "terra-nova-national-park-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/nl/terranova/info",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nl/terranova/info",
+    "date": "2026-10-29",
+    "summary": "Parks Canada page invites winter visitors to backcountry cross-country ski or snowshoe; no grooming stated."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "ski-white-hills-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.discoverwhitehills.com/",
+  "evidence": [
+   {
+    "url": "http://www.whitehillsresort.com/downhill-skiing-snow-report-newfoundland/",
+    "date": "2026-04-01",
+    "summary": "Resort snow report shows closed for season, see you winter 2026/2027; links Clarenville Nordic Ski Club."
+   },
+   {
+    "url": "https://www.discoverwhitehills.com/",
+    "date": null,
+    "summary": "Resort site lists about 40 km of cross-country ski and snowshoe trails."
+   }
+  ],
+  "method": "site-check",
+  "comment": "Possible duplicate of Clarenville Ski Club (same coordinates; nordic trails at White Hills run by Clarenville Nordic Ski Club).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "clarenville-ski-club-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.clarenvillenordicskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.clarenvillenordicskiclub.com/",
+    "date": null,
+    "summary": "Club site offers 2026-27 membership registration with early-bird discount; 40 km groomed trails at White Hills."
+   }
+  ],
+  "method": "site-check",
+  "comment": "Possible duplicate of Ski White Hills (same coordinates and trail network).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "glenview-nordic-ski-club-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Could not identify; coordinates point to Glenview, Illinois, not Newfoundland.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "butter-pot-provincial-park-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://avalonnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://avalonnordic.ca/",
+    "date": "2025-12-01",
+    "summary": "Avalon Nordic Ski Club site has 2025-26 season registration open; lists skiing at Butterpot."
+   },
+   {
+    "url": "https://www.parksnl.ca/parks/butter-pot-provincial-park/",
+    "date": null,
+    "summary": "Provincial park page says Avalon Nordic Ski Club provides cross-country skiing in the park."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "stag-lake-provincial-park-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "northern-lights-ski-club-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://churchillfalls.ca/residents/facilities/",
+  "evidence": [
+   {
+    "url": "https://churchillfalls.ca/residents/facilities/",
+    "date": null,
+    "summary": "Live Churchill Falls town facilities page lists Northern Lights Ski Club with a cross-country trail."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gros-morne-national-park-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/nl/grosmorne/activ/experiences/xcountryski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nl/grosmorne/activ/experiences/xcountryski",
+    "date": "2024-05-09",
+    "summary": "Live Parks Canada page lists groomed ski trails at Visitor Centre, Wigwam Pond and Shallow Bay."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-st-margaret-ski-club-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "deep-cove-ski-club-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Could not identify; coordinates point to Deep Cove, North Vancouver BC, not Newfoundland.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "belvy-bay-cross-country-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "notre-dame-provincial-park-nl",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.parksnl.ca/parks/notre-dame-provincial-park/",
+  "evidence": [
+   {
+    "url": "https://www.parksnl.ca/parks/notre-dame-provincial-park/",
+    "date": null,
+    "summary": "Current park page mentions winter snowshoeing only, no ski trails or chalet."
+   },
+   {
+    "url": "https://www.gov.nl.ca/tcar/?p=1233",
+    "date": null,
+    "summary": "Undated provincial page mentions groomed ski trails and chalet at park (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "exploits-valley-cross-country-ski-club-trails-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sites.google.com/view/exploits-nordic-ski-club/home/announcements",
+  "evidence": [
+   {
+    "url": "https://sites.google.com/view/exploits-nordic-ski-club/home/announcements",
+    "date": "2026-01-06",
+    "summary": "Club announcement: new groomer, chalet open daily for passes and rentals in January 2026."
+   },
+   {
+    "url": "https://sites.google.com/view/exploits-nordic-ski-club/home/announcements",
+    "date": "2026-03-30",
+    "summary": "Chalet closed for season; trails stay open to season pass holders, groomed as needed."
+   }
+  ],
+  "suggestedName": "Exploits Nordic Ski Club",
+  "method": "research",
+  "comment": "Appears renamed; Grand Falls-Windsor club now called Exploits Nordic Ski Club.",
+  "checkedDate": "2026-11-15"
+ }
+]

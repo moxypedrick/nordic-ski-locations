@@ -622,6 +622,26 @@ button {
   text-overflow: ellipsis;
 }
 
+.closed-badge {
+  display: inline-block;
+  flex: none;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: #eceff2;
+  color: #4d5d6c;
+  border: 1px solid #c3cad1;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.detail-panel__name .closed-badge,
+.map-bottom-sheet__name .closed-badge { margin-left: 8px; }
+.card.is-closed .card__name { color: var(--muted); }
+
 .card__distance {
   font-size: 13px;
   color: var(--muted);
@@ -2011,6 +2031,9 @@ button {
       <div class="map-legend__item">
         <span class="map-legend__dot" style="background:#9aa4ad"></span>Grooming unknown
       </div>
+      <div class="map-legend__item">
+        <span class="map-legend__dot" style="background:#d9dde1;box-shadow:0 0 0 2px #6b7480"></span>Closed
+      </div>
     </div>
 
     <!-- Snow color legend (Step 12, hidden by default) -->
@@ -2540,7 +2563,7 @@ function renderListings(features) {
     var prop = feature.properties;
 
     var btn = document.createElement('button');
-    btn.className = 'card' + (prop.id === state.selectedId ? ' is-active' : '');
+    btn.className = 'card' + (prop.id === state.selectedId ? ' is-active' : '') + (isClosed(prop) ? ' is-closed' : '');
     btn.type = 'button';
     btn.setAttribute('role', 'listitem');
     btn.dataset.id = prop.id;
@@ -2552,6 +2575,7 @@ function renderListings(features) {
     nameEl.className = 'card__name';
     nameEl.textContent = prop.Name;
     top.appendChild(nameEl);
+    if (isClosed(prop)) appendClosedBadge(top);
     if (state.location && prop._dist != null) {
       var distEl = document.createElement('span');
       distEl.className = 'card__distance';
@@ -3082,14 +3106,14 @@ map.on('load', function () {
     source: 'nordic-ski-areas',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': [
+      'circle-color': closedAwareColor([
         'match', ['get', 'groomType'],
         'both',    '#1b4f8a',
         'skate',   '#e07b24',
         'classic', '#6cc0e5',
         'yes',     '#5f7d95',
         '#9aa4ad'
-      ],
+      ]),
       /* C2: unknown-grooming pins are smaller and quieter */
       'circle-radius': [
         'case',
@@ -3114,6 +3138,8 @@ map.on('load', function () {
         'case',
         ['boolean', ['feature-state', 'selected'], false],
         '#12355b',
+        IS_CLOSED_EXPR,
+        '#6b7480',
         '#ffffff'
       ]
     }
@@ -3494,6 +3520,7 @@ function openDetailPanel(feature) {
 
   // Name
   dpNameEl.textContent = prop.Name || '';
+  if (isClosed(prop)) appendClosedBadge(dpNameEl);
 
   // Region + distance
   var regionParts = [];
@@ -4253,6 +4280,7 @@ if (btnDismissEl) {
     var coords = feature.geometry.coordinates;
 
     nameEl.textContent = prop.Name || '';
+    if (isClosed(prop)) appendClosedBadge(nameEl);
 
     var regionParts = [];
     if (prop.region) regionParts.push(formatRegion(prop.region));
@@ -4815,11 +4843,24 @@ var GROOM_COLOR_EXPR = [
   '#9aa4ad'
 ];
 
+/* Closed areas (adminStatus === 'closed') stay on the map as pale grey pins */
+var IS_CLOSED_EXPR = ['==', ['get', 'adminStatus'], 'closed'];
+function closedAwareColor(expr) {
+  return ['case', ['==', ['get', 'adminStatus'], 'closed'], '#d9dde1', expr];
+}
+function isClosed(prop) { return prop && prop.adminStatus === 'closed'; }
+function appendClosedBadge(el) {
+  var b = document.createElement('span');
+  b.className = 'closed-badge';
+  b.textContent = 'Closed';
+  el.appendChild(b);
+}
+
 function updatePinColors() {
   if (!dataLoaded || !map.getLayer('unclustered-point')) return;
 
   if (state.mapColorMode === 'groom') {
-    map.setPaintProperty('unclustered-point', 'circle-color', GROOM_COLOR_EXPR);
+    map.setPaintProperty('unclustered-point', 'circle-color', closedAwareColor(GROOM_COLOR_EXPR));
     document.getElementById('legend-groom').style.display = '';
     document.getElementById('legend-snow').style.display = 'none';
   } else {
@@ -4838,7 +4879,7 @@ function updatePinColors() {
       matchExpr.push(id, color);
     });
     matchExpr.push(SNOW_COLORS.none);
-    map.setPaintProperty('unclustered-point', 'circle-color', matchExpr);
+    map.setPaintProperty('unclustered-point', 'circle-color', closedAwareColor(matchExpr));
     document.getElementById('legend-groom').style.display = 'none';
     document.getElementById('legend-snow').style.display = '';
   }

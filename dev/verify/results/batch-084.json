@@ -1,0 +1,172 @@
+[
+  {
+    "id": "4fb53a1c97497e1706c72070c9a5d31172a1f141",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.nordicbase.org/",
+    "evidence": [
+      {
+        "url": "https://www.nordicbase.org/",
+        "date": "2026-03-04",
+        "summary": "Ski patrol site posted March 2026 snow conditions update for Mount Pinos winter area."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "50cc9a962676333fe08edaa059de66f557f4cf27",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://oxbowbeer.com/location/oxford/",
+    "evidence": [
+      {
+        "url": "https://www.vermontpublic.org/2026-03-10/it-just-entirely-changes-your-outlook-these-mainers-bear-wintertime-by-cross-country-skiing",
+        "date": "2026-03-10",
+        "summary": "News story says skiers filled the groomed trails at Oxbow Beer Garden in late February 2026 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Official page lists rentals and a nordic trail map but no dated grooming report."
+  },
+  {
+    "id": "53463c3a54790f3ba0c6834bcceee892c27aa5c3",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://ariensnordic.com/",
+    "evidence": [
+      {
+        "url": "https://ariensnordic.com/",
+        "date": "2026-12-19",
+        "summary": "Site lists 2026-27 biathlon race series and youth nationals at the center, plus trail-open notices."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "4e75f2822dde6291e1a5f4b80567bec08bb7f77e",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://danecountyparks.com/documents/PDFs/Maps/McCarthy-XCSki.pdf",
+    "evidence": [
+      {
+        "url": "https://parks-lwrd.danecounty.gov/documents/PDFs/Maps/McCarthy-XCSki.pdf",
+        "date": null,
+        "summary": "Dane County Parks map shows groomed ski trails and permit rule at McCarthy Youth & Conservation Park (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Park is at Cottage Grove address, near Sun Prairie. PDF map text was not readable."
+  },
+  {
+    "id": "55b2c4464ecf3a3af171644953d37fa41b6ffb14",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.wfltmaine.org/roberts-farm",
+    "evidence": [
+      {
+        "url": "https://www.wfltmaine.org/roberts-farm",
+        "date": "2026-03-16",
+        "summary": "Land trust page has March 2026 trail report and 2025-26 season map for groomed nordic trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "58c9a15c52474837bc4d791590fa5bd58eb5501f",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/parc-lineaire/index.aspx",
+    "evidence": [
+      {
+        "url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/parc-lineaire/index.aspx",
+        "date": null,
+        "summary": "City of Quebec linear park page lists ski de fond in winter on parts of the route."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "50df2dda1dfb939037f255e2e40cdae30f2a0c96",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://parks.ny.gov/parks/164/details.aspx",
+    "evidence": [
+      {
+        "url": "https://parks.ny.gov/parks/164/details.aspx",
+        "date": null,
+        "summary": "NY State Parks page lists 22.83 miles of trails open to cross-country skiing."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "56017f3932c6acdca924dfe3fcef51c1ba1034d9",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://parks.wa.gov/node/715",
+    "evidence": [
+      {
+        "url": "https://parks.wa.gov/node/715",
+        "date": "2025-11-01",
+        "summary": "State Parks page lists groomed ski trails, Dec-Mar grooming season and links a 2025-26 grooming calendar."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "581b59096ef8aea79e96b5ada81f43bb61fa6863",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://northwoodscenter.org/wordpress/about-northwoods-stewardship-center/winter-nordic-trails/",
+    "evidence": [
+      {
+        "url": "https://fpr.vermont.gov/document/willoughby-state-forest-nordic-ski-trails-map",
+        "date": null,
+        "summary": "Vermont Forests Parks page for Willoughby State Forest nordic trail map; operator says grooming 2-3 days weekly (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "fpr.vermont.gov returned 403; official URL is the NorthWoods Stewardship Center operator page."
+  },
+  {
+    "id": "57795c1e9f472d4752d503fb9a5ab290d23df3f7",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r05/stanislaus/recreation/gooseberry-cross-country-ski-trailhead",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r05/stanislaus/recreation/gooseberry-cross-country-ski-trailhead",
+        "date": null,
+        "summary": "Forest Service page lists 25.5 miles of marked ski trails in Summit Ranger District."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Old candidate pinecrestnordic.org returned empty content. Forest Service page also showed Site Closed banner."
+  }
+]

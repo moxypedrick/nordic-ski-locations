@@ -1,0 +1,402 @@
+[
+ {
+  "id": "fort-smith-ski-club-trails-nt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skifortsmith.ca/",
+  "evidence": [
+   {
+    "url": "https://skifortsmith.ca/",
+    "date": "2026-03-14",
+    "summary": "Club site lists the 2026 Thebacha Loppet on March 14, 2026, with registration."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wood-buffalo-national-park-nt",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.canada.ca/pn-np/nt/woodbuffalo/activ",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nt/woodbuffalo/Securite_Safety/hiver-winter",
+    "date": "2026-10-29",
+    "summary": "Parks Canada says no groomed trails in the park; groomed trails are near Fort Smith. Skiing not mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "auyuittuq-national-park-nt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/nu/auyuittuq/activ/ski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/activ/ski",
+    "date": "2023-02-16",
+    "summary": "Live Parks Canada page lists ungroomed backcountry ski touring through Akshayuk Pass as a park activity."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-minaki-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bondi-village-on",
+  "status": "unverified",
+  "confidence": "medium",
+  "officialUrl": "https://bondiresort.ca/winter-activities",
+  "evidence": [
+   {
+    "url": "https://bondiresort.ca/winter-activities",
+    "date": null,
+    "summary": "Live resort page describes 20 km of groomed, track-set ski trails near Dwight; no date found."
+   },
+   {
+    "url": "https://lakeofbays.on.ca/explore-and-play/winter-fun",
+    "date": null,
+    "summary": "Township winter page lists Bondi Village Resort track-set ski trails and non-guest fee."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nordic-inn-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "haliburton-nordic-trails-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skihaliburton.com/",
+  "evidence": [
+   {
+    "url": "https://www.skihaliburton.com/",
+    "date": "2026-11-01",
+    "summary": "Club site has 2026-27 registration open, early-bird pricing post, and December 2025 season-start grooming news."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "moose-woods-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "haliburton-forest-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://haliburtonforest.com/complimentary-hiking-snowshoe-trails",
+  "evidence": [
+   {
+    "url": "https://haliburtonforest.com/complimentary-hiking-snowshoe-trails",
+    "date": null,
+    "summary": "Forest's winter trails are packed for snowshoe/hiking; no ski tracks set. Skiing not explicitly offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "domain-of-killien-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://storeys.com/1282-carroll-rd-road-haliburton-for-sale",
+    "date": "2021-12-03",
+    "summary": "Real estate listing calls the property the former Domain of Killien inn, now for sale; no ski mention."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "algonquin-provincial-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/algonquin/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/algonquin/activities",
+    "date": null,
+    "summary": "Live Ontario Parks page lists groomed Fen Lake, Leaf Lake and Airfield ski trails in Algonquin."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of algonquin-provincial-park-on-2, algonquin-provincial-park-on-3 (same park, Algonquin Provincial Park)."
+ },
+ {
+  "id": "algonquin-provincial-park-on-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/algonquin/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/algonquin/activities",
+    "date": null,
+    "summary": "Live Ontario Parks page lists groomed Fen Lake, Leaf Lake and Airfield ski trails in Algonquin."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of algonquin-provincial-park-on, algonquin-provincial-park-on-3 (same park, Algonquin Provincial Park)."
+ },
+ {
+  "id": "algonquin-provincial-park-on-3",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/algonquin/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/algonquin/activities",
+    "date": null,
+    "summary": "Live Ontario Parks page lists groomed Fen Lake, Leaf Lake and Airfield ski trails in Algonquin."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of algonquin-provincial-park-on, algonquin-provincial-park-on-2 (same park, Algonquin Provincial Park)."
+ },
+ {
+  "id": "silent-lake-provincial-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/silentlake/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/snowreport/detail/silentlake",
+    "date": "2026-03-20",
+    "summary": "Ontario Parks snow report shows Silent Lake ski loops last groomed 20 March 2026; closed for off-season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "deep-river-cross-country-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.drxc.ca/",
+  "evidence": [
+   {
+    "url": "https://www.drxc.ca/",
+    "date": "2026-11-11",
+    "summary": "Club site opened registration November 11, 2026; lists ski rental weekends and January 2027 open house."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "forest-lea-x-c-ski-trail-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://paxc.blogspot.com/",
+  "evidence": [
+   {
+    "url": "https://paxc.blogspot.com/",
+    "date": "2026-04-02",
+    "summary": "Pembroke Area XC Ski Club blog posts April 2026 grooming and conditions updates for Forest Lea trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nangor-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "petawawa-ski-club-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cfmws.ca/petawawa/facilities/jubilee-lodge-and-marina/seasonal-activities",
+  "evidence": [
+   {
+    "url": "https://cfmws.ca/petawawa/facilities/jubilee-lodge-and-marina/seasonal-activities",
+    "date": "2026-01-05",
+    "summary": "Jubilee Lodge page lists ski rentals, fees and ski trail map; rentals opened 5 January 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible rename: trails now presented as Jubilee Lodge ski trails at Garrison Petawawa (CFMWS); no current Petawawa Ski Club page found."
+ },
+ {
+  "id": "bon-echo-provincial-park-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.ontarioparks.ca/park/bonecho/activities",
+  "evidence": [
+   {
+    "url": "https://ontarioparks.ca/winter/activities/skiing",
+    "date": null,
+    "summary": "Ontario Parks winter skiing list omits Bon Echo; park activities page lists no winter activities."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "shabomeka-legpower-pathfinders-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "vanderwater-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.quinteconservation.ca/outdoor-spaces/areas/vanderwater-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://www.quinteconservation.ca/outdoor-spaces/areas/vanderwater-conservation-area/",
+    "date": null,
+    "summary": "Quinte Conservation page for Vanderwater, Thomasburg, lists cross-country skiing on ungroomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "quinte-conservation-area-on",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.quinteconservation.ca/outdoor-spaces/north-potters-creek-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://www.quinteconservation.ca/outdoor-spaces/north-potters-creek-conservation-area/",
+    "date": null,
+    "summary": "Quinte Conservation lists cross-country skiing on ungroomed trails at Potter's Creek North, Belleville."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No area by this exact name; coordinates sit by Quinte Conservation office and Potter's Creek on Old Hwy 2, Belleville. Possibly Potter's Creek Conservation Area."
+ },
+ {
+  "id": "macauly-mountain-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.quinteconservation.ca/outdoor-spaces/areas/macaulay-mountain-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://www.quinteconservation.ca/outdoor-spaces/areas/macaulay-mountain-conservation-area/",
+    "date": null,
+    "summary": "Quinte Conservation page for Macaulay Mountain, Picton, notes its cross-country ski trails are not groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sandbanks-provincial-park-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.ontarioparks.ca/park/sandbanks/activities",
+  "evidence": [
+   {
+    "url": "https://ontarioparks.ca/winter/activities/skiing",
+    "date": null,
+    "summary": "Ontario Parks winter skiing list omits Sandbanks; park activities page lists no winter activities."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wishart-conservation-area-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://lakeheadca.com/conservation-area/wishart/",
+  "evidence": [
+   {
+    "url": "https://lakeheadca.com/conservation-area/wishart/",
+    "date": null,
+    "summary": "Lakehead Region CA page for Wishart lists short trails and winter snowshoeing; skiing not mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

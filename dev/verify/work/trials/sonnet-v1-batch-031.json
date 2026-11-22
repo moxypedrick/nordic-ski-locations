@@ -1,0 +1,373 @@
+[
+ {
+  "id": "au-diable-vert-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.audiablevert.com/",
+  "evidence": [
+   {
+    "url": "https://www.audiablevert.com/",
+    "date": "2025-05-01",
+    "summary": "Glen Sutton site lists winter activities and 14 km private trails, but no explicit cross-country grooming or passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old domain audiablevert.qc.ca dead; current site audiablevert.com loaded but shows no dated xc ski operations."
+ },
+ {
+  "id": "plein-air-mont-echo-farmers-rest-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify area; searches only found Mont Echo hiking peak in Sutton and nearby Plein Air Sutton."
+ },
+ {
+  "id": "skiwippi-qc",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://massawippi.org/2021/02/talk-a-walk-or-a-ski-down-memory-lane/",
+    "date": "2021-02-19",
+    "summary": "Article says the Skiwippi inn-to-inn ski trail around Lake Massawippi is gone; only sections remain via another trail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Single history-style article (2021); no second source found."
+ },
+ {
+  "id": "domaine-de-la-baie-gillies-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate URL is a suspended page. Listings (Fugereville) mention hiking and camping, no ski trails found."
+ },
+ {
+  "id": "station-de-ski-du-mont-orignal-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.montorignal.com/",
+  "evidence": [
+   {
+    "url": "https://www.montorignal.com/",
+    "date": null,
+    "summary": "Lac-Etchemin resort site lists 15 km of cross-country trails, season passes and a conditions link; assets dated 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "station-touristique-du-massif-du-sud-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://massifdusud.com/",
+  "evidence": [
+   {
+    "url": "https://massifdusud.com/",
+    "date": "2026-11-15",
+    "summary": "Regional park site in Saint-Philemon, mid-November 2026 page, sells 2026-27 access rights for groomed cross-country trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-de-lor-blanc-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://regiondethetford.chaudiereappalaches.com/en/travel-quebec/region-de-thetford/thetford-mines/club-de-ski-de-fond-de-l-or-blanc/cross-country-skiing/club-de-ski-de-fond-de-l-or-blanc-de-black-lake",
+    "date": null,
+    "summary": "Tourism directory lists Black Lake (Thetford Mines) club with 23 km of trails; undated, not official."
+   }
+  ],
+  "suggestedName": "Club de ski de fond de l'Or Blanc de Black Lake",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site not found; the club page fetch failed (connection refused), so no official URL confirmed."
+ },
+ {
+  "id": "centre-de-plein-air-de-montmagny-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old domain dead; could not identify a current ski centre. Nearest hit was Les Sentiers de l'Inconnu (Notre-Dame-du-Rosaire), unconfirmed as the same area."
+ },
+ {
+  "id": "ski-de-fond-des-grandes-prairies-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skistromuald.ca/",
+  "evidence": [
+   {
+    "url": "https://www.skistromuald.ca/",
+    "date": null,
+    "summary": "Levis club site lists 35 km of trails, day tickets and a 2026-27 pre-sale for passes."
+   }
+  ],
+  "suggestedName": "Ski Saint-Romuald",
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Site is the Ski Saint-Romuald club in Levis, which runs the Grandes-Prairies trails."
+ },
+ {
+  "id": "centre-de-plein-air-de-sainte-perpetue-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify a ski centre in Sainte-Perpetue; searches returned only nearby centres."
+ },
+ {
+  "id": "club-sportif-des-appalaches-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.clubsportifappalaches.com/",
+  "evidence": [
+   {
+    "url": "https://chaudiereappalaches.com/en/travel-quebec/destination-region-lislet/l-islet/club-sportif-les-appalaches/cross-country-skiing/club-sportif-appalaches",
+    "date": null,
+    "summary": "Regional tourism listing for L'Islet club describes 50+ km trails, volunteers, rentals, mid-Dec to late March season; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site loaded but returned only navigation, no dated content; very likely active but no dated evidence seen."
+ },
+ {
+  "id": "centre-de-ski-de-fond-cap-rouge-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/installations_sportives/ski_fond/ski_fond_fiche.aspx?entID=269",
+    "date": "2026-03-01",
+    "summary": "City of Quebec page for Cap-Rouge ski trails: 12 km, mid-Dec to March, some trails closed in March 2026 notice (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "City pages returned 404 when fetched, so evidence is from search snippet only; officialUrl left null because the city page could not be loaded. Old rssfrq.qc.ca link dead."
+ },
+ {
+  "id": "centre-de-plein-air-dansereau-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Located in Pont-Rouge; only undated directory listings found (about 27-30 km of ski trails). Official site not found; old rssfrq.qc.ca link dead."
+ },
+ {
+  "id": "le-grand-portneuf-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify an area by this name; search showed only other Portneuf-region ski centres."
+ },
+ {
+  "id": "centre-ski-neuf-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.quebecvacances.com/fr/attractions/centre-ski-neuf",
+    "date": null,
+    "summary": "Directory lists Centre Ski-Neuf in Portneuf with about 20 km free ski trails, December to March; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old domain skineuf.cjb.net dead; no official site found; only undated directory listings."
+ },
+ {
+  "id": "centre-nature-sainte-basile-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://lecentrenature.com/",
+  "evidence": [
+   {
+    "url": "https://tourisme.portneuf.com/en/members/centre-nature-saint-basile",
+    "date": null,
+    "summary": "Tourism listing for Saint-Basile centre shows cross-country ski tag but describes snow tubing, fatbike and snowshoe trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site (footer 2023) no longer lists skiing among services; no dated ski evidence found."
+ },
+ {
+  "id": "les-portes-de-lenfer-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://tourisme.portneuf.com/en/blog/skiing-spots-portneuf-2024-25",
+    "date": null,
+    "summary": "Portneuf tourism 2024-25 skiing blog lists Saint-Alban Portes de l'Enfer classic ski trails in the regional park (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old st-alban.qc.ca link dead; no official site loaded. Evidence from search snippets only."
+ },
+ {
+  "id": "parc-de-la-gatineau-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ncc-ccn.gc.ca/places/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://ncc-ccn.gc.ca/places/cross-country-skiing",
+    "date": null,
+    "summary": "National Capital Commission page describes 200+ km of groomed ski trails, daily patrols, pass required; no page date."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Search snippet also showed NCC conditions page updated 2026-04-02. gatineaupark.ca fetched but returned no content."
+ },
+ {
+  "id": "gite-de-lecureuil-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify this area; searches returned only other Mauricie centres."
+ },
+ {
+  "id": "les-sapins-verts-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://skidefondquebec.ca/en/where-to-ski/ski-areas/",
+    "date": null,
+    "summary": "Provincial federation directory lists Les Sapins Verts de Saint-Ubalde as a classic ski area; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old saintubalde.com link dead; directory listing only, no official site found."
+ },
+ {
+  "id": "domaine-notre-dame-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://skidefondquebec.ca/en/where-to-ski/ski-areas/",
+    "date": null,
+    "summary": "Provincial federation directory lists Domaine Notre-Dame as a classic ski area; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old domaine-notre-dame.com link dead; directory listing only."
+ },
+ {
+  "id": "village-des-sports-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify an area by this name near these coordinates."
+ },
+ {
+  "id": "york-lake-regional-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Search found no skiing at York Lake Regional Park; Yorkton Cross Country Ski Club trails are at Deer Park Golf Course, a different place. Old saskregionalparks.ca link dead."
+ },
+ {
+  "id": "cypress-hills-provincial-park-sk",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.albertaparks.ca/parks/south/cypress-hills-pp/activities-events/recreational-activities/winter-recreation/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/south/cypress-hills-pp/activities-events/recreational-activities/winter-recreation/",
+    "date": "2025-12-22",
+    "summary": "Alberta Parks winter page, updated Dec 2025, lists about 30 km groomed ski trails and rentals at Elkwater."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Coordinates are on the Alberta (Elkwater) side of the interprovincial park, not Saskatchewan; record region says SK. Old tpcs.gov.sk.ca link dead."
+ },
+ {
+  "id": "esterhazy-cross-country-club-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://sites.google.com/site/esterhazyskiclub",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register/yPowav/",
+    "date": null,
+    "summary": "Club registration page for the 2024-25 season lists adult, student and family memberships (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site loaded but showed no season dates; evidence is from a search snippet. Old saskregionalparks.ca link dead."
+ }
+]

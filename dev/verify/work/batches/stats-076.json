@@ -1,0 +1,46 @@
+{
+  "searches": 25,
+  "fetches": 22,
+  "perArea": {
+    "mount-haggin-mt-2": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "mountain-meadows-vt": {
+      "searches": 3,
+      "fetches": 3
+    },
+    "mountain-trails-ny": {
+      "searches": 4,
+      "fetches": 2
+    },
+    "okemo-valley-vt": {
+      "searches": 4,
+      "fetches": 3
+    },
+    "pando-mi": {
+      "searches": 3,
+      "fetches": 2
+    },
+    "osceola-ny": {
+      "searches": 2,
+      "fetches": 2
+    },
+    "pattee-canyon-mt-2": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "pinelands-farm-me-3": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "pineridge-ny": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "radrick-farms-golf-course-university-of-michigan-mi": {
+      "searches": 3,
+      "fetches": 2
+    }
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "9153444372de6ac1b7b4c41695defb5ee00eff1c",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://granbyranch.com/nordic-skiing/",
+    "evidence": [
+      {
+        "url": "https://www.destinationgranby.com/blog/post/whats-new-at-granby-ranch-for-the-2526-season/",
+        "date": "2025-11-01",
+        "summary": "Destination Granby post says 2025-26 Nordic trails, season pass, lift access and two Nordic events."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "920e68312f1f297e204d92142dcf9c6051a5d7a3",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.grandsaintesprit.qc.ca/fr/loisirs-culture-et-vie-communautaire/loisirs",
+    "evidence": [
+      {
+        "url": "https://www.grandsaintesprit.qc.ca/fr/loisirs-culture-et-vie-communautaire/loisirs",
+        "date": null,
+        "summary": "Municipal leisure page lists volunteer-maintained La Moraine ski and snowshoe trails; undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Club Facebook page did not load any posts; municipal page used as official URL."
+  },
+  {
+    "id": "926bbb0835ac3d008a9b5a4c718c9dd6c7fcf3d3",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.willamettepass.ski/",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r06/willamette/recreation/willamette-pass-ski-area",
+        "date": "2025-02-19",
+        "summary": "Forest Service page lists groomed cross-country trails at the ski area with fee parking."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "92ddf9cc6b2b8caa7217ac1664064fe25f3c4e9e",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://rochestermn.gov/activities-parks-culture/cross-country-skiing-sledding/",
+    "evidence": [
+      {
+        "url": "https://rochestermn.gov/activities-parks-culture/cross-country-skiing-sledding/",
+        "date": null,
+        "summary": "City of Rochester page says it grooms the Gamehaven Rattler machine-made snow trail."
+      },
+      {
+        "url": "https://www.kttc.com/2026/02/24/rochester-nordic-ski-team-hosts-annual-olympics-gamehaven/",
+        "date": "2026-02-24",
+        "summary": "KTTC reports Rochester Nordic Ski Team event at Gamehaven (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "93b4ee8b4c4ace6c6bfb01a9471b5e352da64436",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://sbmfc.ca/valcartier/centre-castor",
+    "evidence": [
+      {
+        "url": "https://cfmws.ca/valcartier/centre-castor/conditions-des-pistes-de-ski",
+        "date": null,
+        "summary": "Official conditions page headed 2026 Fall Season lists 15 ski trails, rental available; currently closed for season."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "93dc8137a64ab56f7dae38fe5d7d32d3243b52d4",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://ouraynordic.org/north-corridor/",
+    "evidence": [
+      {
+        "url": "https://ouraynordic.org/",
+        "date": null,
+        "summary": "Council site lists grooming posts for Feb-Mar and fundraising for a groomer, but shows no years."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "9434a8bfaa50c09fae4fce57133f57cad71a3938",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.skinansen.com/",
+    "evidence": [
+      {
+        "url": "https://www.skinansen.com/",
+        "date": "2027-01-31",
+        "summary": "Nansen Ski Club site lists Feb 2027 events at Milan Hill and season memberships on sale."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "95176b843d1af9c53b492c1c16b91cd135623c56",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.montpelier-vt.org/292/Maps-and-Trail-Conditions",
+    "evidence": [
+      {
+        "url": "https://www.montpelier-vt.org/292/Maps-and-Trail-Conditions",
+        "date": null,
+        "summary": "City of Montpelier page says trails at Hubbard and North Branch River parks are groomed for skiing; undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "9578da72f31310cf2a66353db5d202974ba71e78",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://pineridgexc.com/",
+    "evidence": [
+      {
+        "url": "https://pineridgexc.com/conditions",
+        "date": "2026-11-17",
+        "summary": "Official conditions page dated Nov 17, 2026 shows ski grooming fields, area-use passes and rentals; not yet open."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "99d0eec8314ee425270657e31097f7d9288336a4",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.oakhilloutdoorcenter.org/",
+    "evidence": [
+      {
+        "url": "https://www.oakhilloutdoorcenter.org/",
+        "date": "2026-11-12",
+        "summary": "Official site sells season passes and says 2026-2027 season opening info coming; Nov 12 disc golf note."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

@@ -2,3 +2,8 @@
 dev/source-data/runs.geojson
 dev/source-data/ski_areas.geojson
 dev/source-data/spots.geojson
+
+# Raw HTML downloaded during data verification
+dev/verify/cache/
+# Helper scripts written by research agents
+dev/verify/work/batches/scratch-*/

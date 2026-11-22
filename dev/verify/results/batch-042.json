@@ -1,0 +1,160 @@
+[
+ {
+  "id": "hill-street-classic-trails-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.travelmarquette.com/things-to-do/winter-activities/trail-conditions/",
+    "date": "2026-03-01",
+    "summary": "Tourism conditions page says Hill Street trails grooming ended for the season; town not named."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "No official site found; page does not name town."
+ },
+ {
+  "id": "porcupine-mountains-wilderness-state-park-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.michigan.gov/skitheporkies/events/2026/01/31/lantern-lit-trail",
+    "date": "2026-01-31",
+    "summary": "State park event page lists ski outing in January-February 2026; DNR cites groomed ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "michigan.gov pages returned 403, so no page was loaded."
+ },
+ {
+  "id": "macbride-nature-recreation-area-ia",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://wild.education.uiowa.edu/macbride-nature-recreation-area",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official page lists only snowshoeing and hiking; no dated ski evidence. University ending its lease in 2029."
+ },
+ {
+  "id": "twin-lakes-state-park-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.michigan.gov/recsearch/parks/TwinLakes",
+    "date": null,
+    "summary": "State park page lists cross-country skiing on a short ungroomed trail (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "michigan.gov page returned 403, so no page was loaded."
+ },
+ {
+  "id": "lake-bronson-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00208",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR page loaded was generic with no ski content; grooming evidence only 2017 and 2020. Dam project closes some trails."
+ },
+ {
+  "id": "itasca-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00181",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": "2025-11-27",
+    "summary": "DNR lists groomed ski trails at Itasca; winter light-trail event runs Nov 2025 to Feb 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "soaring-eagle-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://itascatur.org/content.aspx?page_id=22&club_id=405337&module_id=705162",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=19",
+    "date": "2025-02-02",
+    "summary": "Third-party trail report from early February 2025 shows all Soaring Eagle trails open (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Club page undated; itascatur.org home returned 403."
+ },
+ {
+  "id": "three-island-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bemidjicrosscountryski.org/",
+  "evidence": [
+   {
+    "url": "https://www.beltramicountymn.gov/living-here/parks-recreation/three-island-park/",
+    "date": null,
+    "summary": "County park page lists cross-country ski trails groomed by the Bemidji club (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cut-lake-ski-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakecountrynordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=20",
+    "date": "2026-03-01",
+    "summary": "Third-party report says Cut Lake trails groomed and open; club listed it for 2025 cleanup."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club homepage did not name Cut Lake; link rests on a Sept 2025 news item."
+ },
+ {
+  "id": "shingobee-recreation-area-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chippewa/recreation/shingobee-recreation-area",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chippewa/recreation/shingobee-recreation-area",
+    "date": null,
+    "summary": "Forest Service page lists cross-country skiing on six miles of trails; chalet open Saturdays this winter, undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

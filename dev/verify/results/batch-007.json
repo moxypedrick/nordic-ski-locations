@@ -1,0 +1,452 @@
+[
+ {
+  "id": "battle-creek-regional-park-west-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/winter-recreation-area-battle-creek-regional-park",
+  "evidence": [
+   {
+    "url": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/winter-recreation-area-battle-creek-regional-park",
+    "date": null,
+    "summary": "Ramsey County page for Battle Creek winter recreation area lists cross-country ski trails, pass required, ski rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "ski-beneoin-ns",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skibeneoin.com/",
+  "evidence": [
+   {
+    "url": "https://skibeneoin.com/",
+    "date": "2026-11-01",
+    "summary": "Home page sells cross country and snowshoe memberships in preseason sale; 2026 XC trail map, November 2026 events."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-valhalla-ski-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/valhalla-recreation-area",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/valhalla-recreation-area",
+    "date": "2026-11-03",
+    "summary": "Forest Service page lists groomed Teuton and Valkyrie ski trails at Valhalla; updated November 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wood-lake-nature-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.richfieldmn.gov/around_town/wood_lake_nature_center/index.php",
+  "evidence": [
+   {
+    "url": "https://www.richfieldmn.gov/around_town/wood_lake_nature_center/index.php",
+    "date": null,
+    "summary": "City of Richfield page says nature center trails are tracked for cross-country skiing in winter; offers ski rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "montebello-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ci.bemidji.mn.us/index.asp?SEC=B688B4AE-9785-4604-BDF2-6A3D1445A2A8",
+  "evidence": [
+   {
+    "url": "https://www.ci.bemidji.mn.us/index.asp?SEC=B688B4AE-9785-4604-BDF2-6A3D1445A2A8",
+    "date": null,
+    "summary": "City of Bemidji winter trails page lists lighted Montebello ski trail in City Park, groomed skate and classic."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "beauvais-lake-provincial-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/parks/south/beauvais-lake-pp/activities-events/winter-activities",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/south/beauvais-lake-pp/activities-events/winter-activities",
+    "date": "2026-06-25",
+    "summary": "Alberta Parks winter page lists nordic ski trails at Beauvais Lake, currently skier tracked rather than groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lowes-creek-county-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://corbatrails.org/winter-trails/",
+    "date": null,
+    "summary": "Local trail association says Eau Claire County grooms Lowes Creek Park ski trails."
+   },
+   {
+    "url": "https://corbatrails.org/trails/lowes-creek/",
+    "date": null,
+    "summary": "Trail association page describes about 5 miles of double-track ski trails at the county park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Eau Claire County's Lowes Creek ski trails page returned 404, so officialUrl left null; corbatrails.org is a bike club, not the operator."
+ },
+ {
+  "id": "phalen-golf-course-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+    "date": "2026-11-10",
+    "summary": "Saint Paul ski page, edited November 2026, lists Phalen Park Golf Course 7K loop groomed classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "les-sources-joyeuses-de-la-malbaie-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://lessourcesjoyeuses.com/",
+  "evidence": [
+   {
+    "url": "https://lessourcesjoyeuses.com/2026/10/25/elementor-1633/",
+    "date": "2026-10-25",
+    "summary": "Centre posted 2026-27 season pass pre-sale; home page lists 42 km of cross-country trails and 2025-26 hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "chain-of-lakes-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+  "evidence": [
+   {
+    "url": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+    "date": null,
+    "summary": "Minneapolis Parks ski page lists Chain of Lakes trail segments around Cedar, Isles and Bde Maka Ska."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "rockport-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.janesvillewi.gov/departments-services/public-works/parks-division/parks-general-information",
+    "date": null,
+    "summary": "City says Rockport Park has its most extensive cross-country ski trails, over 6 miles (snippet)"
+   },
+   {
+    "url": "https://www.janesvillecvb.com/recreation/details/4372/216108/Rockport_Park",
+    "date": null,
+    "summary": "Tourism listing names cross-country skiing among Rockport Park trail uses."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "City of Janesville parks page returned 403 to fetches; officialUrl left null, city evidence from search snippet."
+ },
+ {
+  "id": "washburn-lake-ski-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.oneidacountywi.gov/departments/fr/silent-sports-trails/",
+  "evidence": [
+   {
+    "url": "https://www.oneidacountywi.gov/departments/fr/silent-sports-trails/",
+    "date": "2026-01-01",
+    "summary": "Oneida County Forestry lists 12-mile Washburn ski trail, groomed classic and skate; online trail passes new for 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "crabbe-mountain-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.crabbemountain.com/nordic-skiing-and-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.crabbemountain.com/nordic-skiing-and-snowshoeing/",
+    "date": null,
+    "summary": "Resort nordic page describes about 30 km of groomed and backcountry trails with classic rentals."
+   },
+   {
+    "url": "https://www.crabbemountain.com/",
+    "date": "2026-12-05",
+    "summary": "Resort home page lists December 2026 events and season pass sales."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blacks-grove-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=617",
+    "date": "2026-02-20",
+    "summary": "Skier and groomer reports for Black's Grove, Wadena, logged grooming January and February 2026 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mountain-view-recreation-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.beckercountymn.gov/dept/parks_recreation/xcski.aspx",
+  "evidence": [
+   {
+    "url": "https://www.beckercountymn.gov/dept/parks_recreation/xcski.aspx",
+    "date": null,
+    "summary": "Becker County cross-country ski page lists Mountain View Recreation Area with trail maps."
+   },
+   {
+    "url": "https://visitdetroitlakes.com/trail-report",
+    "date": null,
+    "summary": "Local trail report says Detroit Lakes Nordic Ski Club grooms Mountain View in winter (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bois-duvernay-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.coureursdeboises.com/",
+  "evidence": [
+   {
+    "url": "https://www.coureursdeboises.com/",
+    "date": "2026-11-16",
+    "summary": "Club site for trails in Duvernay woods sells 2026-27 memberships from November; ski school starts January 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Trails are run by the club Les Coureurs de boisés, Laval."
+ },
+ {
+  "id": "gronlid-trails-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.melfort.ca/p/walking-ski-trails",
+    "date": null,
+    "summary": "City of Melfort lists Fort a la Corne Forest (Gronlid) trails for classic skiing; no dated conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Melfort Cross Country Ski Club appears to use only a Facebook group; not loaded. Trails also known as Fort a la Corne Forest (Gronlid) Trails."
+ },
+ {
+  "id": "bunker-hills-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.anokacountyparks.com/parks/bunker-hills-park",
+  "evidence": [
+   {
+    "url": "https://www.anokacountyparks.com/parks/bunker-hills-park",
+    "date": null,
+    "summary": "Anoka County park page lists cross-country ski and skijoring trails with a ski trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "teacup-nordic-or",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.teacupnordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.teacupnordic.org/",
+    "date": "2026-11-01",
+    "summary": "Teacup Lake Nordic Club site has 2026-27 season passes on sale and a 2026 fundraiser."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "caledonia-nordic-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.caledonianordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.caledonianordic.com/",
+    "date": "2026-11-21",
+    "summary": "Club site sells 2026-27 memberships and lists November 2026 ski swap and January 2027 loppet."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "logan-lake-ski-trails-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://loganlake.ca/cross-country-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://loganlake.ca/cross-country-skiing-snowshoeing/",
+    "date": null,
+    "summary": "District of Logan Lake page describes 36 km groomed ski network with 2 km lit, volunteer-maintained."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-six-cantons-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.6cantons.ca/le-centre-de-ski-de-fond",
+  "evidence": [
+   {
+    "url": "https://www.6cantons.ca/",
+    "date": "2026-04-01",
+    "summary": "Centre home page says closed for the 2025-2026 season, see you next year; ski page lists 10+ trails."
+   }
+  ],
+  "suggestedName": "Centre de plein air Les 6 Cantons",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Now operates as Centre de plein air Les 6 Cantons, Rivière-Rouge. End-of-season notice date estimated."
+ },
+ {
+  "id": "echo-valley-provincial-park-sk",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.saskatchewan.ca/government/news-and-media/2025/december/22/skate-the-park-at-echo-valley-provincial-park-opens-boxing-day",
+    "date": "2025-12-22",
+    "summary": "Government of Saskatchewan release lists cross-country skiing among winter activities at Echo Valley Provincial Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No Sask Parks page specific to Echo Valley was found and loaded; officialUrl left null."
+ },
+ {
+  "id": "forest-springs-camp-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://forestsprings.us/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=521",
+    "date": "2026-02-28",
+    "summary": "Skier reports for Forest Springs, Westboro, describe groomed skate and classic trails in February 2026 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wilderness-lodge-pa",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://wildernesslodgepa.com/",
+  "evidence": [
+   {
+    "url": "https://wildernesslodgepa.com/",
+    "date": "2026-02-24",
+    "summary": "Lodge site posts February 24 trail report, rentals, season passes; weekdays match 2026."
+   },
+   {
+    "url": "https://ecp.wildapricot.org/event-6464945",
+    "date": "2026-02-06",
+    "summary": "Pittsburgh club held cross-country ski weekend at Wilderness Lodge, Wattsburg, February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old domain thewildernesslodge.net did not resolve; current site is wildernesslodgepa.com (phone matches VisitErie listing)."
+ }
+]

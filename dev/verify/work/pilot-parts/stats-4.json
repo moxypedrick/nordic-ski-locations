@@ -1,0 +1,66 @@
+{
+ "searches": 20,
+ "fetches": 30,
+ "perArea": {
+  "chickakoo-lake-recreation-area-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "terratima-lodge-ab": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "pinawa-xc-ski-trails-mb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "five-islands-provincial-park-ns": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "northern-comfort-wilderness-adv-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "base-de-plein-air-les-goelands-qc": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "parc-de-la-gorge-de-coaticook-qc": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "bergland-ski-trail-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "montissippi-park-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "hartman-creek-state-park-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "4db6d3838224e50f1009fcb57929372b8ffa4afe": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "ac2c4b0298883b380e2cf5c7a2d99b0e58351099": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "vasa-trail-mi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "0abef3e1a9763679e118dae129954568d2988672": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "c99b51f041fe21b3876882206e993c0a47874e8f": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

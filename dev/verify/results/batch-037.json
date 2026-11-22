@@ -1,0 +1,148 @@
+[
+ {
+  "id": "proud-lake-state-park-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "michigan.gov DNR page blocked (403); only undated third-party listings say skiing is allowed.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "dunes-golf-course-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Official site blocked; only an undated directory says skiers use the course (ungroomed, Empire).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lewiston-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://golfgarland.com/winter/nordic-center/",
+  "evidence": [],
+  "method": "research",
+  "comment": "Garland resort site shows Nordic Center passes and rentals but no dated evidence; old garlandusa.com redirects here.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hanson-hills-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://hansonhills.org/cross-country",
+  "evidence": [
+   {
+    "url": "https://hansonhills.org/cross-country",
+    "date": null,
+    "summary": "Official page lists 35 km groomed trails, season passes and weekday specials starting January 8, 2027."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lakes-of-the-north-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://lakesofthenorth.com/Clubhouse/Winter_Sports",
+  "evidence": [
+   {
+    "url": "https://lakesofthenorth.com/Clubhouse/Winter_Sports",
+    "date": "2026-01-01",
+    "summary": "Member-only winter sports page describes groomed ski trails, currently closed for the season; footer copyright 2026."
+   }
+  ],
+  "method": "research",
+  "comment": "Community is in Mancelona, about 45 km from our coordinates; same place not confirmed.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "mcguires-resort-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Probably renamed Evergreen Resort (Cadillac); 5 km groomed trails on an undated tourism page. Resort site not loaded.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hudson-mills-metropark-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.metroparks.com/hudson-mills-metropark/",
+  "evidence": [
+   {
+    "url": "https://www.metroparks.com/hudson-mills-metropark/",
+    "date": null,
+    "summary": "Metroparks page lists 6 miles of trails groomed for classic skiing, weather permitting; no season dates."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "indian-springs-metropark-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.metroparks.com/indian-springs-metropark/",
+  "evidence": [
+   {
+    "url": "https://www.metroparks.com/indian-springs-metropark/",
+    "date": null,
+    "summary": "Metroparks page lists nearly 12 miles of ski trails groomed for classic; park is in White Lake."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "kensington-metropark-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.metroparks.com/kensington-metropark/",
+  "evidence": [
+   {
+    "url": "https://www.metroparks.com/kensington-metropark/",
+    "date": null,
+    "summary": "Metroparks page lists over 12 miles of groomed ski trails and a ski rental center."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "maybury-state-park-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://friendsofmaybury.org/wp-content/uploads/2026/06/2026_Maybury_State_Park_brochure-map.pdf",
+    "date": "2026-06-01",
+    "summary": "2026 park brochure lists 6 miles of groomed ski trails, conditions permitting (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "michigan.gov DNR page blocked (403); brochure PDF could not be read, so evidence is from a search snippet.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ }
+]

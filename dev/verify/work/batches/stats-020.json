@@ -1,0 +1,106 @@
+{
+ "searches": 34,
+ "fetches": 27,
+ "perArea": {
+  "mystery-mountain-winter-park-mb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "sandilands-prov-forest-mb": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mount-carleton-provincial-park-nb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "snow-bear-club-trails-nb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "bittersweet-trails-mb": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "riding-mountain-np-wasagaming-mb": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "riding-mountain-np-west-mb": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "riding-mountain-np-north-mb": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "riding-mountain-np-northeast-mb": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "riding-mountain-np-east-mb": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "rivendell-xc-ski-club-mb": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "duck-mountain-prov-park-mb": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "edmundston-nb": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "riverview-cross-country-ski-club-nb": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "club-de-ski-de-fond-st-antoine-nb": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "beaver-cross-country-ski-club-nb": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "kouchibouguac-national-park-nb": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "miramichi-cross-country-ski-club-nb": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "pine-strip-ski-club-nb": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "club-de-ski-de-fond-husky-nb": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "rough-waters-cross-country-ski-club-nb": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-de-ski-de-fond-les-bayeux-nb": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "club-de-plein-air-de-caraquet-nb": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "club-de-ski-de-fond-aca-nb": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "club-de-ski-de-fond-les-mesanges-nb": {
+   "searches": 2,
+   "fetches": 0
+  }
+ }
+}

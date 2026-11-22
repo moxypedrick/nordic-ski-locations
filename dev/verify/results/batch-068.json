@@ -1,0 +1,160 @@
+[
+ {
+  "id": "enchanted-forest-nm-2",
+  "status": "unverified",
+  "confidence": "medium",
+  "officialUrl": "https://enchantedforestxc.com/",
+  "evidence": [
+   {
+    "url": "https://www.abqjournal.com/news/enchanted-forest-cross-country-ski-area-will-not-open-this-winter-due-to-difficult-snow-years/3114191",
+    "date": "2026-09-02",
+    "summary": "Owners say area will not open for 2026-27 after poor snow; for sale, not stated permanent."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Not closed for good per sources: skipping 2026-27 season, property for sale, possible new operator. Own site loads; no dated ski evidence on it."
+ },
+ {
+  "id": "macdonald-pass-cross-country-ski-trails-mt-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://lcnsc.org/ski-trails/macdonald-pass/",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/helena-lewisclark/recreation/opportunities/winter-sports",
+    "date": null,
+    "summary": "Helena-Lewis and Clark National Forest lists MacDonald Pass ski trails; club says grooming nearly daily in season (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club trail-report page was empty; reports are on Facebook and Instagram."
+ },
+ {
+  "id": "pagosa-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://pagosanordic.com/",
+  "evidence": [
+   {
+    "url": "https://pagosanordic.com/",
+    "date": null,
+    "summary": "Club site says grooming has not begun for the 2026-27 season and links the grooming report."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "leavenworth-wa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skileavenworth.com/activities/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://skileavenworth.com/activities/nordic-skiing",
+    "date": null,
+    "summary": "Winter Sports Club page describes grooming at four Nordic areas, 5 km lit trail, lodge closed until it snows."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "aspensnowmass-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.aspennordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.aspennordic.com/",
+    "date": null,
+    "summary": "Aspen Snowmass Nordic site lists 90 km of free trails, grooming hotline and grooming report; live webcam."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "grand-mesa-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.gmnc.org/",
+  "evidence": [
+   {
+    "url": "https://www.gmnc.org/",
+    "date": "2026-11-21",
+    "summary": "Council homepage shows grooming photo dated Nov 21, 2026, a festival Nov 27-29, 2026 and Skyway opening."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old gmnc.info/candidate not needed; gmnc.org loaded."
+ },
+ {
+  "id": "tahoe-ca",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://tahoexc.org/",
+  "evidence": [
+   {
+    "url": "https://tahoexc.org/",
+    "date": "2026-11-21",
+    "summary": "Tahoe XC site dated Nov 21, 2026 lists 2026-27 passes and passholder opening day Nov 25, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "hillside-ski-area-ak-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.anchoragenordicski.com/",
+  "evidence": [
+   {
+    "url": "https://www.anchoragenordicski.com/",
+    "date": "2026-11-17",
+    "summary": "Anchorage Nordic Ski Association site, post dated Nov 17, 2026, reports grooming through May 2026 and upcoming 2026-27 events."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Hillside Park trails are groomed by the Nordic Ski Association of Anchorage; homepage has no Hillside-specific report."
+ },
+ {
+  "id": "hope-valley-ca",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Own site dead; operator now seems to be Wylder Hotels (Hope Valley Resort), whose ski shop page returned 404. Only undated listings found."
+ },
+ {
+  "id": "corwin-mills-nordic-centre-nl-2",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify Corwin Mills; no results use that name. Likely Clarenville Nordic Ski Club (White Hills, 40 km), but its own site would not load."
+ }
+]

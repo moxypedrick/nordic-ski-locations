@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 16,
+ "perArea": {
+  "hill-street-classic-trails-mi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "porcupine-mountains-wilderness-state-park-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "twin-lakes-state-park-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "macbride-nature-recreation-area-ia": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "lake-bronson-state-park-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "itasca-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "soaring-eagle-trail-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "three-island-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "cut-lake-ski-trail-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "shingobee-recreation-area-trails-mn": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

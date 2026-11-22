@@ -1,0 +1,172 @@
+[
+ {
+  "id": "zippel-bay-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00284",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": "2026-03-07",
+    "summary": "DNR calendar lists a candlelight ski and snowshoe event at Zippel Bay in March 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "glendalough-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00167",
+  "evidence": [
+   {
+    "url": "https://files.dnr.state.mn.us/maps/state_parks/spk00167_winter.pdf",
+    "date": null,
+    "summary": "DNR winter map lists groomed cross-country ski loops at Glendalough (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "pine-beach-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.brainerdnordicskiclub.com/pine-beach-ski-trails.html",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=26",
+    "date": "2025-02-15",
+    "summary": "Third-party trail report from mid-February 2025 shows Pine Beach trails partly open with good skiing (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "crow-wing-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00139",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": null,
+    "summary": "DNR skiing information covers groomed ski trails at Crow Wing; sources differ on grooming (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "buena-vista-ski-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bvskiarea.com/",
+  "evidence": [
+   {
+    "url": "https://bvskiarea.com/",
+    "date": "2026-11-22",
+    "summary": "Ski area site shows the 2026-2027 winter season; its trail map lists cross-country trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Homepage did not itself mention Nordic trails."
+ },
+ {
+  "id": "lutsen-mountains-nordic-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lutsen.com/things-to-do/lutsen-nordic-center",
+  "evidence": [
+   {
+    "url": "https://www.lutsen.com/things-to-do/lutsen-nordic-center",
+    "date": null,
+    "summary": "Resort Nordic Center page gives 2026/27 anticipated opening of November 28 and a $15 trail pass."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate Cook County page did not list Lutsen Mountains; used the resort page."
+ },
+ {
+  "id": "lake-carlos-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00211",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/ski-locations.html",
+    "date": null,
+    "summary": "DNR lists about six miles of groomed ski trails at Lake Carlos; newest report found was 2022 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "george-wyth-state-park-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.iowadnr.gov/places-go/state-parks/all-parks/george-wyth-state-park",
+  "evidence": [
+   {
+    "url": "https://www.iowadnr.gov/places-go/state-parks/all-parks/george-wyth-state-park",
+    "date": null,
+    "summary": "State park page calls cross-country skiing a popular winter activity on the trail system; no grooming info."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "warner-lake-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stearnscountymn.gov/warner-lake-county-park",
+  "evidence": [
+   {
+    "url": "https://content.govdelivery.com/accounts/STEARNS/bulletins/3ca18d0",
+    "date": "2025-01-01",
+    "summary": "County bulletin announces the 2025 Nordic ski sampler across its groomed ski parks (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "quarry-park-and-nature-preserve-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stearnscountymn.gov/quarry-park-nature-preserve",
+  "evidence": [
+   {
+    "url": "https://content.govdelivery.com/accounts/STEARNS/bulletins/3c6cdd6",
+    "date": "2025-01-03",
+    "summary": "County bulletin lists the 2025 Moonlight Ski event on Quarry Park ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

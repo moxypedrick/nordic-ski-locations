@@ -1,0 +1,46 @@
+{
+  "searches": 25,
+  "fetches": 13,
+  "perArea": {
+    "ski-de-fond-des-grandes-prairies-qc": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "centre-de-ski-de-fond-cap-rouge-qc": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "centre-de-plein-air-dansereau-qc": {
+      "searches": 4,
+      "fetches": 3
+    },
+    "parc-de-la-gatineau-qc": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "centre-nature-sainte-basile-qc": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "les-portes-de-lenfer-qc": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "le-grand-portneuf-qc": {
+      "searches": 3,
+      "fetches": 0
+    },
+    "centre-ski-neuf-qc": {
+      "searches": 4,
+      "fetches": 1
+    },
+    "gite-de-lecureuil-qc": {
+      "searches": 3,
+      "fetches": 0
+    },
+    "les-sapins-verts-qc": {
+      "searches": 4,
+      "fetches": 0
+    }
+  }
+}

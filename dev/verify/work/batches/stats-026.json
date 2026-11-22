@@ -1,0 +1,106 @@
+{
+ "searches": 26,
+ "fetches": 35,
+ "perArea": {
+  "hilton-falls-cons-area-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "mountsberg-cons-area-on": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "atikokanquetico-trails-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "seneca-college-on": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "albion-hills-cons-area-on": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "palgrave-forest-wildlife-area-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mansfield-outdoor-centre-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "horseshoe-resort-on": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "springwater-prov-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kakabeka-falls-prov-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "awenda-provincial-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sibbald-point-prov-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hardwood-hills-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "lafontaine-ski-trails-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "wye-marsh-wildlife-centre-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "bayview-wildwood-resorts-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "the-briars-resort-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "pleasure-valley-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "dagmar-resort-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "heber-down-cons-area-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "long-sault-cons-area-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "trillium-trails-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "ken-reid-cons-area-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "ganaraska-forest-centre-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "viamede-resort-on": {
+   "searches": 1,
+   "fetches": 3
+  }
+ }
+}

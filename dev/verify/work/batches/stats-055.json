@@ -1,0 +1,46 @@
+{
+  "searches": 18,
+  "fetches": 16,
+  "perArea": {
+    "amen-lake-mn": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "wildcat-mountain-state-park-wi": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "lake-minnewashta-regional-park-mn": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "baylor-regional-park-mn": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "spirit-river-nature-area-mn": {
+      "searches": 2,
+      "fetches": 2
+    },
+    "springvale-county-park-mn": {
+      "searches": 1,
+      "fetches": 0
+    },
+    "manka-trail-mn": {
+      "searches": 2,
+      "fetches": 1
+    },
+    "swan-lake-ski-trails-mn": {
+      "searches": 4,
+      "fetches": 0
+    },
+    "rice-lake-state-park-mn": {
+      "searches": 3,
+      "fetches": 3
+    },
+    "moose-lake-state-park-mn": {
+      "searches": 3,
+      "fetches": 3
+    }
+  }
+}

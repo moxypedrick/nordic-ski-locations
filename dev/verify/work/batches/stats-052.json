@@ -1,0 +1,46 @@
+{
+ "searches": 16,
+ "fetches": 18,
+ "perArea": {
+  "maranatha-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lime-creek-nature-center-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wickiup-hill-trails-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cassian-two-way-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kettlebowl-ski-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "morgan-creek-park-ia": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "justin-trails-resort-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "human-powered-trails-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "hormel-nature-center-mn": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "camden-state-park-mn": {
+   "searches": 4,
+   "fetches": 5
+  }
+ }
+}

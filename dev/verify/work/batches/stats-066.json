@@ -1,0 +1,46 @@
+{
+ "searches": 6,
+ "fetches": 11,
+ "perArea": {
+  "savanna-portage-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "stoney-ridge-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "prairie-springs-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lake-emily-trail-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "pioneer-creek-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "grand-avenue-nordic-center-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kohler-andrae-state-park-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "door-creek-park-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "long-lake-conservation-center-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "yahara-hills-golf-course-wi": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

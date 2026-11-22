@@ -1,0 +1,166 @@
+[
+ {
+  "id": "harry-larson-county-forest-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wrightcountymn.gov/facilities/facility/details/harrylarsoncountypark-51",
+  "evidence": [
+   {
+    "url": "https://www.wrightcountymn.gov/facilities/facility/details/harrylarsoncountypark-51",
+    "date": null,
+    "summary": "Wright County park page lists a cross-country ski trail, about 2.25 miles, near Monticello."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "kaplans-woods-parkway-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.owatonna.gov/facilities/facility/details/kaplanswoodsparkway-13",
+  "evidence": [
+   {
+    "url": "https://www.owatonna.gov/facilities/facility/details/kaplanswoodsparkway-13",
+    "date": null,
+    "summary": "City of Owatonna parkway page lists cross-country skiing among features, over 6 miles of trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "hickory-ridge-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.chippewacountywi.gov/350/Hickory-Ridge-Cross-Country-Ski-Trail-Bi",
+  "evidence": [
+   {
+    "url": "https://www.chippewacountywi.gov/350/Hickory-Ridge-Cross-Country-Ski-Trail-Bi",
+    "date": null,
+    "summary": "Chippewa County page describes 27 km of ski loops groomed by volunteers; trailheads in Bloomer and New Auburn."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "eagle-lake-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.threeriversparks.org/location/eagle-lake-regional-park",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/location/eagle-lake-regional-park",
+    "date": null,
+    "summary": "Three Rivers Parks page lists 3.6 miles of ski trails and requires a ski pass."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sisters-farm-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ruskcountywi.com/recreation/cross-country-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://ruskcountywi.com/recreation/cross-country-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Rusk County page lists the Sisters Farm trail system southwest of Ladysmith for cross-country skiing; latest grooming note is 2023."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "ellis-park-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cedar-rapids.org/residents/parks_and_recreation/cross-country_ski_trails.php",
+  "evidence": [
+   {
+    "url": "https://www.cedar-rapids.org/residents/parks_and_recreation/cross-country_ski_trails.php",
+    "date": null,
+    "summary": "Cedar Rapids city page lists Ellis Park ski trails, groomed when snow covers; hotline given."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "east-river-valley-parkcarrs-woods-ia",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cityofames.org/home/showpublisheddocument/341/638404993575130000",
+    "date": null,
+    "summary": "City of Ames document says park offers skiing, groomed after fresh snow; undated (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "City of Ames PDF returned 404 when fetched, only seen in search snippets; no loadable official page, so officialUrl is null."
+ },
+ {
+  "id": "iowa-state-university-cross-county-course-ia",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Only an undated Polk County page (blocked, 403) says the course is groomed; no university page mentions skiing. Likely related to East River Valley Park in Ames."
+ },
+ {
+  "id": "cedar-valley-trail-ia",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.mycountyparks.com/county/Black-Hawk/Park/Cedar-Valley-Nature-Trail-southeast-B-H-county.aspx",
+    "date": null,
+    "summary": "Black Hawk County parks listing says the trail can be used for cross-country skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Linn County page blocked (403); paved multi-use trail, not groomed. No official page loaded, so officialUrl is null."
+ },
+ {
+  "id": "blackwater-environmental-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=6",
+    "date": "2026-01-10",
+    "summary": "Cohasset City Parks report: trails groomed, tracks set, lights on at Blackwater (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Report seen only in search snippet; page itself showed no current reports. No official city or Minnesota Power page loaded."
+ }
+]

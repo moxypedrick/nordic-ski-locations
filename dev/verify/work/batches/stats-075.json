@@ -1,0 +1,46 @@
+{
+  "searches": 26,
+  "fetches": 34,
+  "perArea": {
+    "latigo-co": {
+      "searches": 4,
+      "fetches": 4
+    },
+    "leelanau-trail-mi": {
+      "searches": 2,
+      "fetches": 4
+    },
+    "leslie-park-golf-course-ann-arbor-municipal-mi": {
+      "searches": 3,
+      "fetches": 2
+    },
+    "lolo-pass-mt-2": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "lone-mountain-mt": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "lost-lake-on": {
+      "searches": 3,
+      "fetches": 2
+    },
+    "memphremagog-vt": {
+      "searches": 3,
+      "fetches": 7
+    },
+    "lubrecht-experimental-forest-mt-2": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "mont-sainte-anne-qc": {
+      "searches": 2,
+      "fetches": 2
+    },
+    "moulton-ski-trails-mt-2": {
+      "searches": 3,
+      "fetches": 4
+    }
+  }
+}

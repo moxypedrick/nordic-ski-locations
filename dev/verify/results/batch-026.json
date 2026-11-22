@@ -1,0 +1,415 @@
+[
+ {
+  "id": "hilton-falls-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.conservationhalton.ca/activities/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.conservationhalton.ca/activities/cross-country-skiing/",
+    "date": null,
+    "summary": "Conservation Halton ski page lists three Hilton Falls ski trails with a grooming report section."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mountsberg-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.conservationhalton.ca/activities/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.conservationhalton.ca/activities/cross-country-skiing/",
+    "date": null,
+    "summary": "Conservation Halton lists ungroomed Pioneer Creek ski trail at Mountsberg; skiers make own tracks."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "atikokanquetico-trails-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/quetico/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/quetico/activities",
+    "date": null,
+    "summary": "Ontario Parks lists 15 km groomed classic and skate trails at Quetico's Dawson Trail Campground."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Coordinates sit at Atikokan town; may duplicate Beaten Path Nordic Trails (about 6 km away). Quetico ski trails are about 40 km east.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "seneca-college-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.ontariotrails.on.ca/trail/king-trail-seneca-college",
+    "date": null,
+    "summary": "Trail directory says King Campus internal trails are used for skiing in winter; no current operator info (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "albion-hills-cons-area-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://trca.ca/parks/albion-hills-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://trca.ca/parks/albion-hills-conservation-area/",
+    "date": "2026-01-02",
+    "summary": "TRCA park page lists 2026 ski season dates, trackset trails, ski trail fees and rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "palgrave-forest-wildlife-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://trca.ca/parks/palgrave-forest-wildlife-reserve/",
+  "evidence": [
+   {
+    "url": "https://trca.ca/parks/palgrave-forest-wildlife-reserve/",
+    "date": null,
+    "summary": "TRCA land manager page lists cross-country skiing as an activity at Palgrave, Caledon."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mansfield-outdoor-centre-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mansfieldoutdoorcentre.ca/",
+  "evidence": [
+   {
+    "url": "https://www.mansfieldoutdoorcentre.ca/",
+    "date": null,
+    "summary": "Live centre site in Mulmur lists cross-country skiing, winter season passes and trail day passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "horseshoe-resort-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://horseshoeresort.com/nordic-centre/",
+  "evidence": [
+   {
+    "url": "https://horseshoeresort.com/nordic-season-pass/",
+    "date": "2026-10-01",
+    "summary": "Resort sells 2026/2027 Nordic season passes; homepage cites 30 km groomed Nordic trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "Possible duplicate of Horseshoe Valley (paccsa entry, about 6 km away).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "springwater-prov-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/springwater/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/springwater/activities",
+    "date": null,
+    "summary": "Ontario Parks page offers 10 km of multi-use winter trails for Nordic skiing or snowshoeing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "kakabeka-falls-prov-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/kakabekafalls/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/kakabekafalls/activities",
+    "date": null,
+    "summary": "Ontario Parks lists over 15 km of groomed cross-country ski trails at Kakabeka Falls."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "awenda-provincial-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/awenda/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/awenda/activities",
+    "date": null,
+    "summary": "Ontario Parks lists 17 km of ski and snowshoe trails, sometimes packed and single-tracked."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sibbald-point-prov-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/sibbaldpoint/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/sibbaldpoint/activities",
+    "date": null,
+    "summary": "Ontario Parks page lists unorganized winter cross-country skiing within the park; no grooming mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "hardwood-hills-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://hardwoodskiandbike.ca/cross-country-ski/",
+  "evidence": [
+   {
+    "url": "https://hardwoodskiandbike.ca/cross-country-ski/",
+    "date": "2026-10-01",
+    "summary": "Oro-Medonte centre site lists 40 km groomed trails and a 2026-2027 winter season pass."
+   }
+  ],
+  "suggestedName": "Hardwood Ski and Bike",
+  "method": "research",
+  "comment": "hardwoodhills.ca returns 404. Renamed Hardwood Ski and Bike; same coordinates as area Hardwood Ski and Bike (duplicate).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lafontaine-ski-trails-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "wye-marsh-wildlife-centre-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wyemarsh.com/trail-status",
+  "evidence": [
+   {
+    "url": "https://www.wyemarsh.com/trail-status",
+    "date": "2026-03-18",
+    "summary": "Wye Marsh cross-country ski trail conditions updated March 2026 with grooming dates per trail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "bayview-wildwood-resorts-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.bayviewwildwood.com/",
+  "evidence": [
+   {
+    "url": "https://www.orillialakecountry.ca/?p=35299",
+    "date": null,
+    "summary": "Tourism listings mention resort winter packages with ski equipment and trails; no current date confirmed (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Resort homepage loaded but its content could not be read (too long or script-built).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "the-briars-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.briars.ca/",
+  "evidence": [
+   {
+    "url": "https://www.briars.ca/",
+    "date": "2026-11-01",
+    "summary": "Live resort homepage names snowshoeing as its winter activity; no cross-country skiing mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Resort seasonal recreation page could not be read (content truncated).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "pleasure-valley-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://ontarioequestrian.ca/stables/pathways-on-pleasure-valley",
+    "date": null,
+    "summary": "Property now listed as Pathways on Pleasure Valley horse farm on Brock Rd; no skiing mentioned (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Site appears to now be a horse farm, Pathways on Pleasure Valley; no evidence of cross-country skiing found.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "dagmar-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.skidagmar.com/",
+  "evidence": [
+   {
+    "url": "https://www.skidagmar.com/",
+    "date": "2026-10-01",
+    "summary": "Resort site sells 2026-2027 alpine products but lists no cross-country or Nordic skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "heber-down-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cloca.com/heber-down",
+  "evidence": [
+   {
+    "url": "https://www.cloca.com/heber-down",
+    "date": null,
+    "summary": "CLOCA page lists X-Country Skiing as an activity at Heber Down, Whitby; trails not maintained in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "long-sault-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cloca.com/long-sault",
+  "evidence": [
+   {
+    "url": "https://www.cloca.com/long-sault",
+    "date": null,
+    "summary": "CLOCA page lists X-Country Skiing at Long Sault, Bowmanville; 18 km trails not maintained in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "trillium-trails-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Could not identify any current ski area by this name near north Oshawa.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "ken-reid-cons-area-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.kawarthaconservation.com/conservation-areas/ken-reid-conservation-area/",
+  "evidence": [
+   {
+    "url": "https://www.kawarthaconservation.com/conservation-areas/ken-reid-conservation-area/",
+    "date": null,
+    "summary": "Kawartha Conservation lists ungroomed cross-country ski trails at Ken Reid, north of Lindsay, open year-round."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "ganaraska-forest-centre-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://grca.on.ca/forest-recreation/recreation-users/",
+  "evidence": [
+   {
+    "url": "https://grca.on.ca/forest-recreation/recreation-users/",
+    "date": "2026-03-31",
+    "summary": "GRCA lists 35 km groomed ski trails from the Forest Centre; ski status updated March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "viamede-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://viamede.com/",
+  "evidence": [
+   {
+    "url": "https://viamede.com/year-round/",
+    "date": null,
+    "summary": "Resort now mainly summer, open only for special winter events; no cross-country skiing listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ }
+]

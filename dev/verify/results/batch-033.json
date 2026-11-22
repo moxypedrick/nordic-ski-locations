@@ -1,0 +1,154 @@
+[
+ {
+  "id": "domaine-notre-dame-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://domainenotredame.com/",
+  "evidence": [
+   {
+    "url": "https://domainenotredame.com/",
+    "date": "2026-01-01",
+    "summary": "Resort site says cross-country skiing is possible on grounds; footer shows 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "village-des-sports-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Could not identify area; no results for this name. Possibly near Valcartier (Centre Castor, cfmws.ca), unconfirmed.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "cypress-hills-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/cypress-hills-provincial-park/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/cypress-hills-provincial-park/",
+    "date": null,
+    "summary": "Alberta Parks page lists groomed cross-country ski trails at Elkwater; undated live land-manager page."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Coordinates are Elkwater, Alberta (not SK). Suspected duplicate of the Saskatchewan Cypress Hills Interprovincial Park area.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "york-lake-regional-park-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://saskregionalparks.ca/park/york-lake/",
+  "evidence": [
+   {
+    "url": "https://saskregionalparks.ca/park/york-lake/",
+    "date": null,
+    "summary": "Regional parks page lists cross-country skiing as an amenity; no trail or season details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "esterhazy-cross-country-club-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://sites.google.com/site/esterhazyskiclub",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register/yPowav/",
+    "date": null,
+    "summary": "Club registration page titled for 2024-25 season; page blocked, title seen in search (snippet)"
+   }
+  ],
+  "suggestedName": "Esterhazy Cross Country Ski Club",
+  "method": "research",
+  "comment": "Registration page was blocked (403).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "duck-mountain-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.tourismsaskatchewan.com/provincialpark/1808/duck-mountain-provincial-park",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=40898",
+    "date": "2026-02-28",
+    "summary": "Duck Mountain Nordic Club listed a 2026 loppet and 2025-26 memberships (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Club registration pages blocked by cookies; evidence from search snippets.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "duck-mountain-regional-park-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=40898",
+    "date": "2026-02-28",
+    "summary": "Nordic club loppet 2026 in Duck Mountain Provincial Park; same location, not confirmed identical (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Suspected duplicate of duck-mountain-provincial-park-sk (same coordinates). Regional Park listing found is downhill only.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "rowans-ravine-provincial-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "manitou-beach-watrous-manitou-ski-club-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://saskregionalparks.ca/park/manitou-district/",
+  "evidence": [
+   {
+    "url": "https://saskregionalparks.ca/park/manitou-district/",
+    "date": null,
+    "summary": "Regional park page lists cross-country skiing as an amenity; no winter dates or grooming info."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "blue-mountain-outdoor-adventure-center-white-tail-resort-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": "Blue Mountain Adventure Park",
+  "method": "research",
+  "comment": "Candidate URL is Blue Mountain Ontario, wrong place. Likely Blue Mountain Adventure Park near the Battlefords; 2023 news says temporarily closed, no later status found.",
+  "checkedDate": "2026-11-22"
+ }
+]

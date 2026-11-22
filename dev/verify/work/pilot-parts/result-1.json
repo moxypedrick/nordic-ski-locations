@@ -1,0 +1,276 @@
+[
+ {
+  "id": "parc-de-la-yamaska-qc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/pq/yam/",
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/resources/docs/pq/yam/yam_guide_visiteur.pdf",
+    "date": null,
+    "summary": "Sepaq visitor guide (seen via search snippet) lists cross-country skiing with light grooming among winter activities."
+   },
+   {
+    "url": "https://sortirauquebec.com/en/listing/cross-country-ski-centre/parc-national-de-la-yamaska-raquette/",
+    "date": "2026-01-07",
+    "summary": "Third-party listing updated Jan 2026 files park as XC ski centre but on-site list shows only snowshoeing."
+   }
+  ],
+  "suggestedName": "Parc national de la Yamaska",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "sepaq.com returned 403 to fetches, so the Sepaq park page and guide were not read directly; evidence comes from search snippets. Skiing appears to be on shared, lightly groomed trails; confirm the park still offers XC skiing."
+ },
+ {
+  "id": "birch-brook-nordic-ski-club-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://birchbrook.ca/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=39782",
+    "date": null,
+    "summary": "Club registration page sells 2025-26 memberships including skiing (seen via search; page needs cookies)."
+   },
+   {
+    "url": "https://www.newfoundlandlabrador.com/plan-and-book/attractions/36374247",
+    "date": null,
+    "summary": "Provincial tourism listing: over 50 km groomed ski and snowshoe trails on North West River Road."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old candidate birchbrook.com is an unrelated financial advisory firm. birchbrook.ca loads with the club's title but its content did not render for the fetcher, so no dated report was read on it. Membership evidence came from search snippet of zone4 (cookie wall)."
+ },
+ {
+  "id": "thunder-lake-prov-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://albertaparks.ca/parks/central/thunder-lake-pp/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/central/thunder-lake-pp/information-facilities/",
+    "date": "2026-10-26",
+    "summary": "Alberta Parks activity list shows ice fishing and fat biking for winter; cross-country skiing not listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Candidate was the Alberta Parks home page, not park-specific. Current park page omits XC skiing; trails may still be skiable ungroomed, but no source says skiing ended, so not marked closed."
+ },
+ {
+  "id": "club-de-ski-de-fond-skirakdoo-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://rechercher.ouvert.canada.ca/subventions/record/esdc-edsc%2C014-2025-2026-Q2-00448%2Ccurrent",
+    "date": "2025-04-21",
+    "summary": "Federal grant record: Club Skirakdoo 2009 Inc., Saint-Leonard NB, got 2025 summer jobs funding; no ski details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club Skirakdoo 2009 Inc. in Saint-Leonard NB still exists (grants 2017-2025, incl. trail renovation in 2017), but no website, Facebook page or source confirming current XC ski operations was found. Search engines also surfaced it near snowmobile results; club type unclear."
+ },
+ {
+  "id": "algonquin-nordic-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.algonquinecolodge.com/winter/",
+  "evidence": [
+   {
+    "url": "https://www.algonquinecolodge.com/winter/",
+    "date": null,
+    "summary": "Lodge winter page says no groomed ski trails this winter due to operational issues; wilderness skiing only."
+   }
+  ],
+  "suggestedName": "Algonquin EcoLodge",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Likely the former Algonquin Nordic Wilderness Lodge, now Algonquin EcoLodge (Call of the Wild), but rename not confirmed by a source. Undated no-grooming notice is not closure evidence. Booking sites place the lodge in Hastings Highlands, south edge of Algonquin; stored coordinates (45.84,-78.38) look farther north, so same-place is uncertain."
+ },
+ {
+  "id": "wasaga-beach-prov-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/wasagabeach",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/wasagabeach",
+    "date": "2026-12-11",
+    "summary": "Ontario Parks lists Wasaga Nordic & Trail Centre XC skiing with winter operating dates Dec 11 2026 to Mar 21 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Skiing is at the Wasaga Nordic & Trail Centre, 101 Blueberry Trail, within the provincial park."
+ },
+ {
+  "id": "parc-daiguebelle-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/pq/aig/",
+  "evidence": [],
+  "suggestedName": "Parc national d'Aiguebelle",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Sepaq park page appears live in search results but returns 403 to the fetcher (not read directly). Current Sepaq winter material found via search mentions snowshoeing and fat biking, not groomed XC trails; Aiguebelle is absent from Sepaq's 2017 list of ski de fond destinations. Last ski-trail map found is 2019-2020. No closure statement found."
+ },
+ {
+  "id": "reserve-faunique-de-portneuf-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sepaq.com/rf/por/",
+  "evidence": [
+   {
+    "url": "https://www.quebec-cite.com/fr/entreprises/reserve-faunique-de-portneuf",
+    "date": null,
+    "summary": "Tourism listing mentions ski trails and on-site equipment in winter; no trail details or season dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Only undated tourism listings mention XC skiing; no dated grooming, pass or Sepaq page confirming ski trails. Sepaq pages return 403 to the fetcher, so the official page was not read; URL taken from candidate and listing link (sepaq.com/portneuf). Two Tourisme Portneuf 2024-25 ski blog URLs from search returned 404."
+ },
+ {
+  "id": "sylvan-hill-park-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.travelwisconsin.com/cross-country-skiing-snowshoeing/sylvan-hill-park-204090",
+    "date": null,
+    "summary": "Tourism listing (seen via search) notes a cross-country ski trail at the Marathon County tubing park; now 404."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Candidate wausaunordic.org page is about Tribute Golf Course (Wausau Nordic grooms there, updates on Facebook), not Sylvan Hill; possibly a nearby substitute but not the same park. A Jan 2026 news item (cpo.soar.com, unreachable) said Sylvan Hill trails were operational, likely tubing context. marathoncounty.gov returned 403. No dated XC ski evidence for Sylvan Hill itself."
+ },
+ {
+  "id": "jack-lake-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.langladecounty.org/resources/trail_reports/",
+  "evidence": [
+   {
+    "url": "https://www.langladecounty.org/resources/trail_reports/",
+    "date": "2026-04-04",
+    "summary": "Langlade County trail report for Jack Lake XC ski trail, spring 2026 end-of-season notice."
+   },
+   {
+    "url": "https://www.antigochamber.com/recreation-trails/winter-trail-reports/",
+    "date": "2026-03-05",
+    "summary": "Chamber relays county note: Jack Lake trail poor after warm spell, grooming ended for the season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Candidate antigochamber.com is a chamber/tourism listing, so officialUrl is the land manager's (Langlade County Forestry, Parks & Rec) trail reports page; no dedicated county Jack Lake page found. Trail is at Veterans Memorial Park, Deerbrook."
+ },
+ {
+  "id": "00228de8502fb066a54f29b9a73a08b5537ae7dc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/north-junction-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/north-junction-ski-trails",
+    "date": "2026-05-07",
+    "summary": "Superior NF page lists 13 km North Junction ski loops off North Arm Rd, volunteer-maintained by Camp Widjiwagan."
+   },
+   {
+    "url": "https://ely.org/cross-country-skiing/",
+    "date": null,
+    "summary": "Ely chamber trail list includes North Junction Ski Trail, 13 km, with a 2026 map PDF."
+   }
+  ],
+  "suggestedName": "North Junction Ski Trails",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Live land-manager page with update date; trails are user-tracked rather than machine groomed. Kawishiwi district had wildfire closures in July 2026 (reopened later)."
+ },
+ {
+  "id": "633daf067a4b11ea42c9a78b5ff8cbf0c94df565",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://volunteersignup.org/LC3FL",
+    "date": "2026-02-01",
+    "summary": "Volunteer sheet for Phoenix Nordic Loppet 2026, costume ski race at Marshall Lake parking lot."
+   },
+   {
+    "url": "https://zone4.ca/register.asp?id=37309",
+    "date": null,
+    "summary": "Phoenix Cross Country Ski Society membership registration for skiing Marshall Lake trails (seen via search)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "phoenixnordic.com returned no readable content (only an ad/privacy link; possibly parked or script-only), and skiphoenix.ca shows a hosting suspension notice, so officialUrl left null. Operator is Phoenix Cross Country Ski Society; no Facebook page confirmed. Loppet location only says Marshall Lake, consistent with the Greenwood-Grand Forks site."
+ },
+ {
+  "id": "c77d78da8bd41ea7ec9b872db681c37d446ce143",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://energiecmb.com/",
+  "evidence": [
+   {
+    "url": "https://energiecmb.com/",
+    "date": "2026-11-01",
+    "summary": "Official site: 2026-27 winter and annual pass presale Nov 1-30 2026; trail status updated Nov 12 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Trails currently closed pending first grooming (pre-season), not a closure. Trail conditions page: https://energiecmb.com/sentiers-hiver/"
+ },
+ {
+  "id": "northfield-mountain-ma",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://firstlight.energy/stewardship/northfield-mountain-recreation-environmental-center/",
+  "evidence": [
+   {
+    "url": "https://firstlight.energy/stewardship/northfield-mountain-recreation-environmental-center/",
+    "date": "2025-12-01",
+    "summary": "FirstLight page thanks skiers for 2025/26 season, lists 25+ miles groomed trails and 2025-26 rental rates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Page currently says closed for skiing (end of 2025-26 season); a 2026 trail report PDF is linked. Rental rate sheet uploaded Dec 2025."
+ },
+ {
+  "id": "404f9961432a5c4db64c85b97591e6bbe7c7f8fc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.kellycanyonresort.com/",
+  "evidence": [
+   {
+    "url": "https://www.kellycanyonresort.com/safety-policies/",
+    "date": null,
+    "summary": "Resort uphill policy (seen via search) mentions Nordic parking lot and Caribou-Targhee NF Nordic Area beside resort."
+   }
+  ],
+  "suggestedName": "Kelly Canyon Resort",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Alpine resort is clearly operating (2026-27 opening projected, passes on sale), but no dated evidence for the Nordic trails themselves. Resort site renders by script; fetcher saw only the title, so pages were read via search snippets. Nordic area appears to be Forest Service land next to the resort; no FS Nordic page found. Old domain skikelly.com now points to kellycanyonresort.com."
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "searches": 15,
+ "fetches": 23,
+ "perArea": {
+  "spring-rapids-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "escanaba-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mcnaughton-lake-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "iverson-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "irondale-trails-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "newport-state-park-wi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "wabana-trails-mn": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "camp-miller-loop-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "bear-paw-trails-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "minneopa-state-park-mn": {
+   "searches": 3,
+   "fetches": 4
+  }
+ }
+}

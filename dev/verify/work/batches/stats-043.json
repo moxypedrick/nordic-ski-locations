@@ -1,0 +1,46 @@
+{
+ "searches": 9,
+ "fetches": 11,
+ "perArea": {
+  "zippel-bay-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "glendalough-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "pine-beach-trail-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "crow-wing-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "buena-vista-ski-trail-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lutsen-mountains-nordic-trails-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "lake-carlos-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "george-wyth-state-park-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "warner-lake-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "quarry-park-and-nature-preserve-mn": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

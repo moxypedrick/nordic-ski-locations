@@ -1,0 +1,385 @@
+[
+ {
+  "id": "mystery-mountain-winter-park-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mysterymountain.ca/the-park",
+  "evidence": [
+   {
+    "url": "https://www.mysterymountain.ca/",
+    "date": "2026-04-11",
+    "summary": "Park site lists closing weekend April 11-12 (year inferred 2026); park page describes 22 km of nordic trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sandilands-prov-forest-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sandilands.ca/",
+  "evidence": [
+   {
+    "url": "https://sandilands.ca/",
+    "date": "2026-10-24",
+    "summary": "Sandilands Ski Club site sells season passes and lists an October 24, 2026 trail work day."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mount-carleton-provincial-park-nb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nbparks.ca/en/parks/7/mount-carleton-provincial-park",
+  "evidence": [
+   {
+    "url": "https://www.nbparks.ca/en/parks/7/mount-carleton-provincial-park",
+    "date": "2027-01-04",
+    "summary": "Parcs NB page describes groomed cross-country ski trails; winter season starts January 4, 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "snow-bear-club-trails-nb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bathurstski.ca/",
+  "evidence": [
+   {
+    "url": "https://bathurstski.ca/loppet",
+    "date": null,
+    "summary": "Snow Bears club site in Bathurst links a Loppet 2026 notice and a 2025-26 events calendar."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "bittersweet-trails-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ccsam.ca/where-to-ski/trails/groups/bittersweet/",
+  "evidence": [
+   {
+    "url": "https://ccsam.ca/where-to-ski/trails/groups/bittersweet/",
+    "date": "2026-11-15",
+    "summary": "Club page on provincial association site: 2026-27 memberships open November 15, 2026; 2026 events listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riding-mountain-np-wasagaming-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+    "date": "2026-02-03",
+    "summary": "Parks Canada winter trail guide, modified February 2026, lists cross-country ski trails across park areas."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Same coordinates as Riding Mountain NP west, Riding Mountain NP north, Riding Mountain NP northeast, Riding Mountain NP east; possible duplicates.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riding-mountain-np-west-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+    "date": "2026-02-03",
+    "summary": "Parks Canada winter trail guide, modified February 2026, lists cross-country ski trails across park areas."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Same coordinates as Riding Mountain NP Wasagaming, Riding Mountain NP north, Riding Mountain NP northeast, Riding Mountain NP east; possible duplicates.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riding-mountain-np-north-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+    "date": "2026-02-03",
+    "summary": "Parks Canada winter trail guide, modified February 2026, lists cross-country ski trails across park areas."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Same coordinates as Riding Mountain NP Wasagaming, Riding Mountain NP west, Riding Mountain NP northeast, Riding Mountain NP east; possible duplicates.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riding-mountain-np-northeast-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+    "date": "2026-02-03",
+    "summary": "Parks Canada winter trail guide, modified February 2026, lists cross-country ski trails across park areas."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Same coordinates as Riding Mountain NP Wasagaming, Riding Mountain NP west, Riding Mountain NP north, Riding Mountain NP east; possible duplicates.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riding-mountain-np-east-mb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/mb/riding/visit/activ4/activ5",
+    "date": "2026-02-03",
+    "summary": "Parks Canada winter trail guide, modified February 2026, lists cross-country ski trails across park areas."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Same coordinates as Riding Mountain NP Wasagaming, Riding Mountain NP west, Riding Mountain NP north, Riding Mountain NP northeast; possible duplicates.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "rivendell-xc-ski-club-mb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://ccsam.ca/where-to-ski/trails/groups/rivendell/",
+    "date": null,
+    "summary": "Undated provincial association listing says only 7 of 25 km remain active; listing inactive since about early 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "duck-mountain-prov-park-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/duck.html",
+  "evidence": [
+   {
+    "url": "https://www.gov.mb.ca/sd/parks/recreation-and-activities/winter_trails_experiences/index.html",
+    "date": null,
+    "summary": "Manitoba Parks winter page lists ski trails at Childs Lake and Wellman Lake in Duck Mountain."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "edmundston-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://edmundston.ca/news/pistes-et-sentiers-vous-attendent",
+  "evidence": [
+   {
+    "url": "https://edmundston.ca/news/pistes-et-sentiers-vous-attendent",
+    "date": "2024-01-19",
+    "summary": "City notice says ski and snowshoe trails at Fraser-Edmundston golf club are open; dated January 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "riverview-cross-country-ski-club-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://townofriverview.ca/millcreek",
+  "evidence": [
+   {
+    "url": "https://townofriverview.ca/millcreek",
+    "date": null,
+    "summary": "Town park page lists 15 km winter multi-use trails; search result says town stopped grooming ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-st-antoine-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "beaver-cross-country-ski-club-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "kouchibouguac-national-park-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/nb/kouchibouguac/activ/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/nb/kouchibouguac/activ/hiver-winter",
+    "date": "2024-12-18",
+    "summary": "Parks Canada winter page lists 15 km of groomed cross-country ski trails; modified December 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "miramichi-cross-country-ski-club-nb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skimiramichi.blog/",
+  "evidence": [
+   {
+    "url": "https://skimiramichi.blog/",
+    "date": "2026-04-22",
+    "summary": "Club blog has February 2026 skiing posts and April 2026 AGM notice; hosted NB Cup race February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pine-strip-ski-club-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-husky-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "rough-waters-cross-country-ski-club-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Possible duplicate of Snow Bear Club Trails (Bathurst, about 2 km away); no current trace of Rough Waters club.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-les-bayeux-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-plein-air-de-caraquet-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://secure.runnb.ca/org/course-caraquet-sentiers/1004835/",
+    "date": "2026-08-09",
+    "summary": "Club still active: trail-running race starts at club August 2026; no ski trail evidence found (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-aca-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://tourismnewbrunswick.ca/festivals-events/plaisirs-dhiver-carnival",
+    "date": null,
+    "summary": "Tourism listing names Aca-ski Outdoor Centre in Lamèque as winter carnival venue; undated (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Tourism New Brunswick listing returned 403 (blocked).",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "club-de-ski-de-fond-les-mesanges-nb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-15"
+ }
+]

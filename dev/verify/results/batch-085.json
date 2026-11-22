@@ -1,0 +1,166 @@
+[
+  {
+    "id": "5b4b125c5e922bdf6ff3996a93eabbf97b89ba75",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://duluthmn.gov/parks/trail-pages-list/cross-country-ski-trails/",
+    "evidence": [
+      {
+        "url": "https://duluthmn.gov/parks/trail-pages-list/cross-country-ski-trails/",
+        "date": null,
+        "summary": "City of Duluth page lists Lester-Amity groomed trails, with grooming status posted for 03/16 (year not shown)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "5e581dc15f214e8688a4a0b0ba86510e0dfd9a32",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://palousedividenordic.org/",
+    "evidence": [
+      {
+        "url": "https://palousedividenordic.org/",
+        "date": "2026-02-20",
+        "summary": "Club site shows a February 2026 grooming report and ski events listed for December 2026 and January 2027."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "611f08f2e836ce32c7ee62a525fd86e255dd42d2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://goldennordicclub.ca/",
+    "evidence": [
+      {
+        "url": "https://goldennordicclub.ca/",
+        "date": null,
+        "summary": "Club site says 2026-2027 registration is open and trail conditions are updated daily."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "5f9be13576e50e568ab2ce88a25784b918cb2dd1",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://baluchon.com/conditions-des-sentiers-activites-hivernales",
+    "evidence": [
+      {
+        "url": "https://baluchon.com/conditions-des-sentiers-activites-hivernales",
+        "date": "2026-04-11",
+        "summary": "Resort conditions page, updated April 2026, has a ski de fond section and a winter season pass."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "5a1988a27b94dc9577a26671b0aef68536ff6664",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r02/mbrtb/recreation/trails/brush-creek-trails",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r02/mbrtb/recreation/trails/brush-creek-trails",
+        "date": "2025-06-10",
+        "summary": "Forest Service page lists XC skiing and Wednesday winter grooming at Brush Creek Trails, east of Saratoga."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "624c869f6dedb749deb4eed110363f3c992403f5",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.nsnordic.org/",
+    "evidence": [
+      {
+        "url": "https://thetrustees.org/program/cross-country-skiing/",
+        "date": null,
+        "summary": "The Trustees land manager page lists Appleton Farms under groomed ski trails, groomed by North Shore Nordic."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Club site pages had no dated reports; it directs to Instagram and Facebook."
+  },
+  {
+    "id": "5a8cc87b1033c3a773940ee48d22d93faa1b9e20",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://reginaskiclub.ca/trails-conditions/ae-wilson-trails/",
+    "evidence": [
+      {
+        "url": "https://reginaskiclub.ca/our-club/club-updates/",
+        "date": "2026-11-17",
+        "summary": "Club site shows 2026-27 programming and ski news; its AE Wilson page uses live grooming reports."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Club updates page does not name AE Wilson directly."
+  },
+  {
+    "id": "5f0f801db33fb9b66f3fadaee0ce856192ac68bb",
+    "status": "closed",
+    "confidence": "low",
+    "officialUrl": "https://www.mckinneynordicskiclub.com/",
+    "evidence": [
+      {
+        "url": "https://ground.news/article/south-okanagan-cross-country-ski-area-goes-snowshoe-only-making-tracks",
+        "date": "2025-01-19",
+        "summary": "Castanet report, via Ground News, says the cross-country ski operation ended and the area is snowshoe-only."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "News is the only closure source; headline summary only, no second source found. Club homepage shows only 2020-21 content."
+  },
+  {
+    "id": "60332b70de05a5ffedf8fcefed196600a063985e",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.quesnel.ca/node/1409",
+    "evidence": [
+      {
+        "url": "https://www.quesnel.ca/node/1409",
+        "date": null,
+        "summary": "City of Quesnel page lists the 75 km Hallis Lake ski network with memberships and day passes."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Club site caribooski.ca failed certificate check, so the City of Quesnel page is used as officialUrl."
+  },
+  {
+    "id": "59a0c98fc918a41779e15e56be7b3ba98c1f29cc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Only undated tourism listings and unnamed skinnyski reports found; no official site or land-manager page located, so area could not be confirmed."
+  }
+]

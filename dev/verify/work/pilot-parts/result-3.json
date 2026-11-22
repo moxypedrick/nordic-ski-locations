@@ -1,0 +1,306 @@
+[
+ {
+  "id": "ski-martock-ns",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": "https://www.martock.com/",
+  "evidence": [
+   {
+    "url": "https://trailforks.com/region/ski-martock",
+    "date": null,
+    "summary": "Trailforks region listing (seen in search snippet; page 403) notes Nordic skiing is no longer offered."
+   },
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/MWH0009",
+    "date": "2019-04-01",
+    "summary": "Provincial info record: resort stopped snowmaking on nordic trails; biathlon range dismantled; grooming only with natural snow."
+   },
+   {
+    "url": "https://www.martock.com/",
+    "date": "2026-11-15",
+    "summary": "Resort site live with 2026-27 alpine events; no mention of cross-country or nordic trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Alpine resort still operating; XC appears discontinued per third-party sources only (Trailforks note, 2019 record). No official closure statement found. Trailforks page returned 403, relied on search snippet."
+ },
+ {
+  "id": "hawk-ridge-centre-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://pursuit.ca/?p=164470",
+    "date": null,
+    "summary": "Undated Calgary XC guide lists Hawk Ridge Centre, about 6 km of trails near Spruce Meadows off Hwy 22X."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No official site, land-manager page, or current-season info found. Only an undated third-party guide mentions it. Stored coordinates (inside south Calgary) may not match the described Spruce Meadows/22X location. Possibly a private or defunct venue."
+ },
+ {
+  "id": "mt-baldy-xc-area-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://baldyresort.com/",
+  "evidence": [
+   {
+    "url": "https://baldyresort.com/",
+    "date": null,
+    "summary": "Resort site live with 25/26 Indy Pass and season passes; lists snowshoe trails but no cross-country trails."
+   },
+   {
+    "url": "https://britishcolumbia.com/?p=759",
+    "date": null,
+    "summary": "Undated listing says shared ungroomed XC trails near the resort are maintained by McKinney Nordic Ski Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Alpine resort (now Baldy Mountain Resort) operates, but its site no longer mentions XC. Old domain baldymountainresort.com redirects to an Airbnb listing. XC near here appears run by McKinney Nordic Ski Club (east of Oliver on McKinney Rd); possible duplicate if that club is also in the list."
+ },
+ {
+  "id": "antigonish-golf-club-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.989xfm.ca/antigonish-town-council-supports-winter-recreation-project-for-cross-country-skiing-and-snow-shoeing-at-antigonish-golf-course/",
+    "date": null,
+    "summary": "Undated radio report (now 404): town gave $5,000 for golf-course ski/snowshoe project with trail and ski groups."
+   },
+   {
+    "url": "https://saltwire.pressreader.com/article/281505050446052",
+    "date": "2023-03-01",
+    "summary": "Local article lists the golf club among Antigonish places to cross-country ski or snowshoe."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No current-season evidence or golf club ski page found. Grooming appears tied to a town/trails-association project (date unknown). Golf club site not confirmed live; cioc record had an expired certificate. Nearby XC is better documented at Keppoch Mountain and Beaver Mountain."
+ },
+ {
+  "id": "capreol-xc-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.facebook.com/Capreol-Cross-Country-Ski-Club-826233580756053/",
+  "evidence": [
+   {
+    "url": "https://www.1000towns.ca/capreol-cross-country-ski-club",
+    "date": null,
+    "summary": "Undated community listing for the club at 99 Lakeshore St, Capreol, linking only to a Facebook page."
+   },
+   {
+    "url": "https://www.skiresort.info/ski-resort/capreol/driving-map/",
+    "date": null,
+    "summary": "Directory says a Capreol ski area has shut down; unclear if it means this XC club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Facebook-only source; page content not readable (likely login wall), so no post dates seen. No website found. Tourism pages list ~32 km of trails but undated. skiresort.info closed note is directory-only and may refer to a different (alpine) site, so not treated as closed."
+ },
+ {
+  "id": "le-refuge-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old canadatrails page (2009) places it at 1190 rue Saint-Edmond, Saint-Adolphe (Stoneham-et-Tewkesbury), 46 km trails linked to Sentiers du Moulin. Old domain centrelerefuge.com dead; four searches found no current mention. May have closed or merged; not the same as the newer Centre de ski de fond Stoneham (golf course, est. 2021)."
+ },
+ {
+  "id": "centre-de-plein-air-saint-jean-de-matha-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://experiencematha.ca/",
+  "evidence": [
+   {
+    "url": "https://experiencematha.ca/",
+    "date": null,
+    "summary": "Golf site now Exp\u00e9rience Matha; winter offer lists snowshoe trails, tubing and snow rafting, no ski de fond."
+   },
+   {
+    "url": "https://lanaudiere.ca/fr/activites-lanaudiere/club-de-golf-saint-jean-de-matha",
+    "date": null,
+    "summary": "Undated tourism listing still mentions ski de fond and snowshoe trails at the golf club in winter."
+   }
+  ],
+  "suggestedName": "Exp\u00e9rience Matha",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old golfmatha.com now redirects to experiencematha.ca (renamed). Current site shows snowshoeing only, suggesting XC was dropped, but no explicit closure statement. Coordinates may instead sit near Ski Montagne Coup\u00e9e (separate, active XC centre with 72 km, Feb 2026 event); check for duplicate/mislocation."
+ },
+ {
+  "id": "sinnissippi-ski-touring-center-il",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rockfordparkdistrict.org/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://rockfordparkdistrict.org/cross-country-skiing",
+    "date": null,
+    "summary": "Live park district XC page with grooming rules and a Sinnissippi winter trail map file named 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Land-manager page, no dated grooming report; alerts page had no ski items. Old name Ski Touring Center; now simply Sinnissippi Park winter trails."
+ },
+ {
+  "id": "nicolet-north-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/nicolet-north-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/nicolet-north-trail",
+    "date": "2025-06-25",
+    "summary": "National Forest page (updated June 2025) says 15 miles groomed and tracked for classic and skate skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Page lists a generic emergency closure order alert with unclear scope; not treated as closure."
+ },
+ {
+  "id": "goose-lake-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.pineconepresscitizen.com/news/2025/sep/20/lake-country-nordic-ski-club-trail-cleanup-dates/",
+    "date": "2025-09-20",
+    "summary": "Local paper: Lake Country Nordic Ski Club scheduled Goose Lake ski trail cleanup for October 18, 2025."
+   },
+   {
+    "url": "https://www.longville.com/activities-2/winter/cross-country-skiing",
+    "date": null,
+    "summary": "Chamber page lists Goose Lake, 15 km trails 5 miles west of Longville on County Rd 5, ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "longville.com is a chamber/tourism listing, so not used as officialUrl. Club (Lake Country Nordic Ski Club) has no website found. Operating evidence is third-party (trail prep event), no grooming report seen."
+ },
+ {
+  "id": "2fd0e4f9b15a7d8d90224c8ca89729381c0c79a0",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://neoc.com/experiences/",
+  "evidence": [
+   {
+    "url": "https://www.restore.org/maineenvironews/2025/3/21/challenging-skiing-on-hammond-ridge-trails",
+    "date": "2025-03-21",
+    "summary": "March 2025 trip report describing skiing the groomed Hammond Ridge trails at NEOC."
+   },
+   {
+    "url": "https://www.bangordailynews.com/2025/12/25/outdoors/act-out/best-places-to-ski-snowshoe-and-skate-maine-joam40zk0w/",
+    "date": "2025-12-25",
+    "summary": "Republished Maine ski guide lists groomed Hammond Ridge trails with rentals at NEOC trailhead (text from 2021)."
+   },
+   {
+    "url": "https://neoc.com/experiences/",
+    "date": null,
+    "summary": "NEOC site lists Snowshoeing and XC Skiing among experiences, but the link is a placeholder."
+   }
+  ],
+  "suggestedName": "Hammond Ridge Trails (New England Outdoor Center)",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "NEOC own site has no XC detail page (placeholder link). Trails known as Hammond Ridge system, built with Katahdin Area Trails. Evidence is third-party; no dated grooming report found. Ktaadn Resort name looks outdated; suggestedName is tentative."
+ },
+ {
+  "id": "94f16bfc50e0d22ee67ef3c5cfc2afb1e84f758f",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wnms.ca/",
+  "evidence": [
+   {
+    "url": "https://www.wnms.ca/news/quarterly-newsletter-january-2026",
+    "date": "2026-01-17",
+    "summary": "Club newsletter reports active grooming of the Wolverine Ski Trails this season and good nordic skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Page shows both January 17 and March 16, 2026 dates; either is within high window."
+ },
+ {
+  "id": "devils-thumb-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.devilsthumbranch.com/adventure/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.devilsthumbranch.com/adventure/cross-country-skiing/",
+    "date": "2024-11-15",
+    "summary": "Ranch XC page: about 120 km of trails, day/season passes, rentals, lessons; season Nov 15 2024 to Apr 13 2025."
+   },
+   {
+    "url": "https://www.devilsthumbranch.com/adventure-pricing-reservations/",
+    "date": null,
+    "summary": "Pricing page lists Nordic trail season passes with current prices, season not labelled."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Site stale on dates (2024-25 season) but clearly active; live grooming report hosted on Nordic Pulse."
+ },
+ {
+  "id": "greenbush-wi-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn",
+    "date": null,
+    "summary": "Live DNR Kettle Moraine Northern Unit page says the forest offers groomed ski trails."
+   },
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/conditions",
+    "date": "2026-09-28",
+    "summary": "DNR conditions page notes hazard tree removal on the Greenbush trail system; no closure of ski use stated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Land-manager pages fetched do not name Greenbush as a ski trail explicitly; the Greenbush trail system is confirmed as a KMN trail. A more specific recreation/ski page was not checked (link limit). Old dnr.wi.gov URL moved to dnr.wisconsin.gov."
+ },
+ {
+  "id": "9c120eb5a09cdd577d6309f13cd79e43ce0e63a3",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sovereignlake.com/",
+  "evidence": [
+   {
+    "url": "https://sovereignlake.com/",
+    "date": "2026-11-10",
+    "summary": "Club site: pre-season skiing since Oct 31, trails last groomed Nov 10, opening targeted Nov 18, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

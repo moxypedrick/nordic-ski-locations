@@ -1,0 +1,106 @@
+{
+  "searches": 39,
+  "fetches": 35,
+  "perArea": {
+    "parc-du-cap-st-jacques-qc": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "parc-regional-du-bois-dile-bizard-qc": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "parc-du-mont-royal-qc": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "parc-regional-de-saint-bernard-qc": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "parc-du-mont-saint-bruno-qc": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "club-de-ski-de-fond-nordic-qc-2": {
+      "searches": 2,
+      "fetches": 0
+    },
+    "les-pied-fartes-qc": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "mont-saint-hilaire-qc": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "les-sentiers-de-la-presquile-qc": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "les-sentiers-de-la-cabane-qc": {
+      "searches": 3,
+      "fetches": 0
+    },
+    "lenvolee-centre-recreotouristique-qc": {
+      "searches": 4,
+      "fetches": 2
+    },
+    "reserve-faunique-de-mastigouche-qc": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "reserve-faunique-de-mastigouche-qc-2": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "club-2-temps-qc": {
+      "searches": 2,
+      "fetches": 0
+    },
+    "parc-national-de-la-mauricie-qc": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "club-de-golf-de-grand-mere-qc": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "station-de-ski-vallee-du-parc-qc": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "station-de-ski-val-mauricie-qc": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "club-de-golf-ki-8-eb-qc": {
+      "searches": 3,
+      "fetches": 0
+    },
+    "club-de-ski-de-fond-saint-francois-qc": {
+      "searches": 3,
+      "fetches": 3
+    },
+    "domaine-de-lac-louise-qc": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "centre-de-ski-de-fond-richmond-melbourne-qc": {
+      "searches": 3,
+      "fetches": 3
+    },
+    "station-de-ski-bromont-qc": {
+      "searches": 0,
+      "fetches": 2
+    },
+    "centre-de-plein-air-davignon-qc": {
+      "searches": 2,
+      "fetches": 0
+    },
+    "club-de-ski-de-fond-de-val-dor-qc": {
+      "searches": 3,
+      "fetches": 1
+    }
+  }
+}

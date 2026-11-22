@@ -1,0 +1,46 @@
+{
+ "searches": 18,
+ "fetches": 19,
+ "perArea": {
+  "lac-qui-parle-state-park-mn": {
+   "searches": 3,
+   "fetches": 6
+  },
+  "maple-bluff-country-club-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "red-barn-ski-trails-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "burl-oaks-golf-club-mn": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "brandt-pines-ski-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "no-achen-trail-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "viking-shipdavy-park-trail-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "ritter-farm-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "wyalusing-state-park-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "sugar-hills-mn": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

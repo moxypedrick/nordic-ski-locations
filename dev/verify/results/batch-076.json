@@ -1,0 +1,147 @@
+[
+  {
+    "id": "mount-haggin-mt-2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://fwp.mt.gov/activities/cross-country-skiing",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r01/beaverhead-deerlodge/maps-guides/winter-recreation-maps-and-guides",
+        "date": "2025-12-22",
+        "summary": "Forest Service winter page, updated Dec 2025, lists Mount Haggin Nordic trails groomed by Mile High Nordic."
+      },
+      {
+        "url": "https://fwp.mt.gov/activities/cross-country-skiing",
+        "date": null,
+        "summary": "State wildlife agency names Mount Haggin its only wildlife area with cross-country skiing."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "mountain-meadows-vt",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Only directory listings (Trip.com, Airbnb) mark it permanently closed; no official or news closure source and no official site found."
+  },
+  {
+    "id": "mountain-trails-ny",
+    "status": "operating",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.catskillmountainclub.org/news/saturday-february-15-10-am-cross-country-skiing-at-mountain-trails",
+        "date": "2025-02-15",
+        "summary": "Club outing at Mountain Trails, Tannersville NY, on groomed track; year inferred from Saturday weekday and neighbouring events."
+      }
+    ],
+    "suggestedName": "Mountain Trails Cross Country Ski Center",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Official site mtntrails.com would not load (expired certificate). Given coordinates are in Colorado, but name and region match Tannersville NY; likely bad geocode."
+  },
+  {
+    "id": "okemo-valley-vt",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Okemo site has no Nordic page; center may be the older Fox Run Nordic Center at the same Ludlow address."
+  },
+  {
+    "id": "pando-mi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Pando winter park closed since 2015, owner said closure temporary in 2016; no official or news source confirming permanent closure or ski trails, no official site found."
+  },
+  {
+    "id": "osceola-ny",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://sites.google.com/view/osceolaskiclub/race-schedule",
+    "evidence": [
+      {
+        "url": "https://sites.google.com/view/osceolaskiclub/race-schedule",
+        "date": "2025-10-15",
+        "summary": "Osceola Ski Club lists hosted Feb 2026 ski festival and Sunday practices at Osceola Ski & Sport Resort."
+      }
+    ],
+    "suggestedName": "Osceola Ski & Sport Resort",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Two adjacent centres exist: Osceola Tug Hill XC Ski Center (Camden, may be closed per a MapQuest listing) and Osceola Ski & Sport Resort; page does not name the town."
+  },
+  {
+    "id": "pattee-canyon-mt-2",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fs.usda.gov/r01/lolo/recreation/pattee-canyon-recreation-area",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r01/lolo/recreation/pattee-canyon-recreation-area",
+        "date": "2026-09-15",
+        "summary": "Forest Service page, updated Sept 2026, tags Pattee Canyon for XC skiing with Nordic Ski Trails section."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "pinelands-farm-me-3",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://pinelandfarms.org/recreation/winter/",
+    "evidence": [
+      {
+        "url": "https://www.pinelandfarms.org/recreation/trail-conditions.html",
+        "date": "2026-11-20",
+        "summary": "Official daily trail report dated Nov 20, 2026; ski track not yet open. Winter page lists 2026 passes and hours."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Actual name is Pineland Farms, in New Gloucester ME."
+  },
+  {
+    "id": "pineridge-ny",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Likely Pineridge XC Ski Area in East Poestenkill NY, about 150 km from given coordinates; latest dated source is Feb 2024; no official site found."
+  },
+  {
+    "id": "radrick-farms-golf-course-university-of-michigan-mi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Official golf site blocked (403); only informal or directory mentions of skiing found."
+  }
+]

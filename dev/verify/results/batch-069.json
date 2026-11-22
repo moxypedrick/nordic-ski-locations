@@ -1,0 +1,172 @@
+[
+ {
+  "id": "bcrd-nordic-id",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bcrd.org/winter-trails/trail-passes-pins/",
+  "evidence": [
+   {
+    "url": "https://bcrd.org/winter-trails/trail-passes-pins/",
+    "date": "2026-10-12",
+    "summary": "BCRD page shows 2026-27 Nordic season passes on sale from Oct 12, Wood River Valley, Idaho."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "keystone-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://news.vailresorts.com/press-kit?item=30060",
+    "date": "2025-11-01",
+    "summary": "Vail Resorts 2025-26 winter tip sheet lists Keystone Nordic Center with 10 miles groomed for classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort page redirects to a Vail waiting room, so it would not load; officialUrl left null. Tip sheet undated, date approximate."
+ },
+ {
+  "id": "kirkwood-xc-ca",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://visitlaketahoe.com/thing-to-do/cross-country-ski/kirkwood-cross-country-and-snowshoe-center/",
+    "date": "2025-12-01",
+    "summary": "Tahoe tip sheet 2025-26 snippet: Kirkwood XC center scheduled to open Dec 12, 2025, through April 19, 2026 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Kirkwood official page redirects to a Vail waiting room and would not load; officialUrl left null."
+ },
+ {
+  "id": "rock-creek-ca",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r05/inyo/recreation/sno-park-rock-creek",
+    "date": null,
+    "summary": "Inyo National Forest page lists Rock Creek East Fork sno-park for XC skiing, snowshoeing; page shows undated Site Closed banner."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Listed coordinates (39.90,-121.35, Plumas County) are far from Rock Creek in Mono/Inyo County (about 37.5N); likely wrong place or bad coordinates. Monocounty page did not mention Rock Creek trails."
+ },
+ {
+  "id": "mt-bachelor-or",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mtbachelor.com/nordic/rentals-amenities/rental-equipment/",
+  "evidence": [
+   {
+    "url": "https://www.mtbachelor.com/nordic/rentals-amenities/rental-equipment/",
+    "date": null,
+    "summary": "Official Nordic rental page lists 26/27 prices and resort opening day of Dec 4, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "mt-vanhoevenberg-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://mtvanhoevenberg.com/todo/cross-country-skiing/",
+    "date": "2026-03-01",
+    "summary": "Search snippet: venue hosted March 2026 cross-country World Cup Finals; groomed trails, 2026-27 season ski events listed (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site mtvanhoevenberg.com returned 403 for all pages; officialUrl left null though domain is the venue's own."
+ },
+ {
+  "id": "overland-ski-club-british-colombia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://overlanderskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://overlanderskiclub.com/",
+    "date": null,
+    "summary": "Club site sells 2026/27 season passes and lists 2027 Overlander Loppet and BC Track Attack events, near Kamloops."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Site spells it Overlander Ski Club (our name has a typo); same place. Passes link via zone4, not opened."
+ },
+ {
+  "id": "alpine-lake-wv",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": "https://alpinelake.com/",
+  "evidence": [
+   {
+    "url": "https://www.onlyinyourstate.com/west-virginia/resort-winter-getaway-wv/",
+    "date": null,
+    "summary": "Travel article editor's note: new management, resort no longer offers winter activities (snippet; page blocked, undated)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Only a travel-article snippet plus skiresort.info say closed. Resort site lists no winter amenities, no closure statement. Article returned 403."
+ },
+ {
+  "id": "asbury-woods-pa",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.asburywoods.org/",
+  "evidence": [
+   {
+    "url": "https://www.asburywoods.org/",
+    "date": "2026-12-02",
+    "summary": "Official site describes winter cross-country skiing, winter hours, and lists December 2026 events at Erie nature center."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "black-moshannon-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/black-moshannon-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/black-moshannon-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page says park trails are open for cross-country skiing, with loaner skis at the office."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

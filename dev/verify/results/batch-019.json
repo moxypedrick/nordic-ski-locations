@@ -1,0 +1,451 @@
+[
+ {
+  "id": "whistler-olympic-park-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whistlerolympicpark.com/things-to-do/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.whistlerolympicpark.com/",
+    "date": "2026-11-15",
+    "summary": "Home page sells 2026-27 early bird season passes; night skiing from December 16, 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cypress-bowl-xc-ski-area-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.cypressmountain.com/winter-activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.cypressmountain.com/",
+    "date": "2026-11-15",
+    "summary": "Resort home page sells 2026-27 Nordic season passes for the Hollyburn Nordic Area."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sovereign-lake-ski-area-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sovereignlake.com/",
+  "evidence": [
+   {
+    "url": "https://sovereignlake.com/",
+    "date": "2026-11-15",
+    "summary": "Club site preparing 2026-27 season; trails groomed Nov 10; Canada Cup races scheduled late November."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hemlock-valley-ski-resort-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.sasquatchmountain.ca/",
+  "evidence": [
+   {
+    "url": "https://www.sasquatchmountain.ca/",
+    "date": null,
+    "summary": "Renamed resort sells 2026-27 alpine passes; site lists no cross-country trails or Nordic page."
+   }
+  ],
+  "suggestedName": "Sasquatch Mountain Resort",
+  "method": "research",
+  "comment": "Renamed from Hemlock Valley Resort to Sasquatch Mountain Resort in 2017.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mcdowell-lake-ski-trails-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://tyeemountaintrails.wordpress.com/",
+  "evidence": [
+   {
+    "url": "https://tyeemountaintrails.wordpress.com/",
+    "date": "2026-03-28",
+    "summary": "Volunteer trail blog posts grooming updates for trails around McDowell Lake through the 2025-26 winter."
+   }
+  ],
+  "suggestedName": "Tyee Mountain Ski Trails",
+  "method": "research",
+  "comment": "Trails now promoted as Tyee Mountain Ski Trails (Telkwa); McDowell Lake is the lake at their centre.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "morice-mountain-nordic-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.moricemountainnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://www.moricemountainnordic.ca",
+    "date": "2025-11-30",
+    "summary": "Club site, Houston BC, opened 2025-26 season registration with early-bird pricing to Nov 30, 2025."
+   },
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/BC/Morice-Mountain",
+    "date": "2026-11-08",
+    "summary": "Third-party grooming tracker shows Morice Mountain trails groomed in early November 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wells-gray-outdoor-club-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://wellsgrayoutdoorsclub.ca/",
+  "evidence": [
+   {
+    "url": "https://wellsgrayoutdoorsclub.ca",
+    "date": null,
+    "summary": "Live club site, Clearwater BC, says it grooms Candle Creek Nordic trails; offers memberships and ski reports."
+   },
+   {
+    "url": "https://www.trailforks.com/reportbulk/53645/",
+    "date": "2026-03-31",
+    "summary": "Third-party trail report for Candle Creek ski trails, end of 2025-26 season (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "helmcken-falls-lodge-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bcparks.ca/wells-gray-park/",
+  "evidence": [
+   {
+    "url": "https://bcparks.ca/wells-gray-park/",
+    "date": "2026-10-28",
+    "summary": "BC Parks Wells Gray page lists cross-country skiing in winter; trails no longer groomed."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jackman-flats-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bcparks.ca/jackman-flats-park/",
+  "evidence": [
+   {
+    "url": "https://bcparks.ca/jackman-flats-park/",
+    "date": null,
+    "summary": "BC Parks page says ski trails are track set by Valemount club; skiing allowed on existing trails."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "apex-resort-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "apexresort.com returned 403 to the fetcher. Nordic skiing near Apex is mainly Nickel Plate Nordic Centre, which may overlap with area Nickel Plate XC Ski Club.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mount-revelstoke-np-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/bc/revelstoke/activ/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/bc/revelstoke/activ/hiver-winter",
+    "date": null,
+    "summary": "Parks Canada winter page: local society maintains 6.5 km ski trackset on Meadows in the Sky Parkway."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "glacier-national-park-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.canada.ca/pn-np/bc/glacier/visit/hiver-winter/ski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/bc/glacier/visit/hiver-winter/ski",
+    "date": "2026-11-13",
+    "summary": "Parks Canada page covers 2026-27 backcountry ski touring permits only; no groomed or trackset trails."
+   }
+  ],
+  "method": "research",
+  "comment": "Same coordinates as Mount Revelstoke NP; possible duplicate or wrong location (Glacier NP is at Rogers Pass).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "yoho-national-park-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/bc/yoho/activ/pistesdhiver-wintertrails",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/bc/yoho/activ/pistesdhiver-wintertrails",
+    "date": "2026-02-24",
+    "summary": "Parks Canada winter trails page lists groomed cross-country ski trails in Yoho, groomed about twice weekly."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "whitetooth-ski-center-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://goldennordicclub.ca/",
+  "evidence": [
+   {
+    "url": "https://goldennordicclub.ca/membership",
+    "date": "2026-11-01",
+    "summary": "Golden Nordic Ski Club sells 2026-27 memberships for Dawn Mountain Nordic Centre trails."
+   },
+   {
+    "url": "https://goldennordicclub.ca/trail-conditions",
+    "date": "2026-04-12",
+    "summary": "Daily grooming report for Dawn Mountain ran through April 12, 2026."
+   }
+  ],
+  "suggestedName": "Dawn Mountain Nordic Centre",
+  "method": "site-check",
+  "comment": "Old Whitetooth area near Golden is now Dawn Mountain Nordic Centre, run by Golden Nordic Ski Club.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "kootenay-national-park-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/bc/kootenay/activ/hivernales-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/bc/kootenay/activ/hivernales-winter",
+    "date": "2022-08-06",
+    "summary": "Parks Canada winter page says some trails suit cross-country skiing; winter trails not maintained."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "beckie-scott-nordic-centrepanorama-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.panoramaresort.com/planning/tickets-and-passes/nordic-tickets-and-passes",
+  "evidence": [
+   {
+    "url": "https://www.panoramaresort.com/planning/tickets-and-passes/nordic-tickets-and-passes",
+    "date": "2026-11-15",
+    "summary": "Panorama sells 2026-27 Nordic season passes for the Panorama Nordic Centre at Greywolf."
+   }
+  ],
+  "suggestedName": "Panorama Nordic Centre",
+  "method": "site-check",
+  "comment": "Resort now calls it Panorama Nordic Centre at Greywolf; Beckie Scott name not used.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "fairmont-hot-springs-resort-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.fairmonthotsprings.com/",
+  "evidence": [
+   {
+    "url": "https://www.fairmonthotsprings.com/",
+    "date": null,
+    "summary": "Resort home page lists hot springs, golf and lodging; no cross-country ski trails mentioned."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kimberley-ski-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skikimberley.com/purchase/winter-activities/multi-use-trails/",
+  "evidence": [
+   {
+    "url": "https://kimberleynordic.org/",
+    "date": "2026-08-22",
+    "summary": "Kimberley Nordic Club, trails at resort upper base, opened 2026-27 membership registration August 22, 2026."
+   },
+   {
+    "url": "https://skikimberley.com/purchase/winter-activities/multi-use-trails/",
+    "date": null,
+    "summary": "Resort page lists groomed Nordic Club and Trickle Creek cross-country trails at the resort base."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fernie-snow-valley-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fernienordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.fernienordic.com/",
+    "date": "2026-10-14",
+    "summary": "Fernie Nordic Society posts October 2026 update urging membership renewal; events at Elk Valley Nordic Centre."
+   }
+  ],
+  "method": "site-check",
+  "comment": "About 1 km from area Fernie Golf Course; both likely covered by Fernie Nordic Society trails, possible duplicate.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "mackenzie-nordiques-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://whistler.ca/Nordic",
+    "date": "2026-11-10",
+    "summary": "Whistler reciprocal pass program lists Mackenzie Nordiques, Mackenzie BC, as a participating Nordic venue for 2026-27."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "yellowhead-ski-club-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://mcbridetourism.ca/adventure-outdoor/nordic-skiing/",
+    "date": null,
+    "summary": "Undated McBride tourism page says club grooms 17 km at Belle Mountain; no current season evidence."
+   }
+  ],
+  "method": "research",
+  "comment": "Club has no website; it posts conditions only on Facebook (facebook.com/yellowheadskiclub), which was not loaded.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "turtle-mountain-prov-park-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://gov.mb.ca/sd/parks/park-maps-and-locations/western/turtle.html",
+  "evidence": [
+   {
+    "url": "https://gov.mb.ca/sd/parks/park-maps-and-locations/western/turtle.html",
+    "date": null,
+    "summary": "Manitoba Parks page for Turtle Mountain lists cross-country skiing and links a winter trails map."
+   },
+   {
+    "url": "https://www.gov.mb.ca/sd/parks/recreation-and-activities/winter_trails_experiences/index.html",
+    "date": null,
+    "summary": "Manitoba Parks winter trails page lists Turtle Mountain Adam Lake Trails for skiing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "clearwater-lake-prov-park-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northwest/clearwater.html",
+  "evidence": [
+   {
+    "url": "https://www.gov.mb.ca/sd/parks/recreation-and-activities/winter_trails_experiences/index.html",
+    "date": null,
+    "summary": "Manitoba Parks winter trails page lists Clearwater Lake Atikameg Trails for skiing, with looped trails."
+   },
+   {
+    "url": "https://ccsam.ca/where-to-ski/trails/groups/the-pas-clearwater-lake/",
+    "date": null,
+    "summary": "Provincial ski association says Manitoba Parks maintains 15 km classic and skate trails at Clearwater Lake."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "flin-flon-ski-club-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.flinflonskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/event/2026/VgKN9W",
+    "date": "2026-02-07",
+    "summary": "Flin Flon Ski Club hosted Sask Cup races 6 and 7 on February 7-8, 2026."
+   }
+  ],
+  "method": "research",
+  "comment": "Club site loads but shows almost no readable content (likely script-built).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "paint-lake-provincial-park-mb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northeast/paint.html",
+  "evidence": [
+   {
+    "url": "https://www.gov.mb.ca/sd/parks/recreation-and-activities/winter_trails_experiences/index.html",
+    "date": null,
+    "summary": "Manitoba Parks winter trails page lists Paint Lake Liz Lake Trail for skiing; looped ski trails offered."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

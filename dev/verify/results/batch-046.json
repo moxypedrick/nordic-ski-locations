@@ -1,0 +1,172 @@
+[
+ {
+  "id": "st-croix-bluffs-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.washingtoncountymn.gov/facilities/facility/details/stcroixbluffsregionalpark-19",
+  "evidence": [
+   {
+    "url": "https://www.washingtoncountymn.gov/facilities/facility/details/stcroixbluffsregionalpark-19",
+    "date": null,
+    "summary": "Washington County park page lists cross-country ski trails and links a winter trails map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "decorah-trail-system-ia",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.decorahia.org/news/2024/winter-trails-recreation-information",
+  "evidence": [
+   {
+    "url": "https://parks.decorahia.org/news/2024/winter-trails-recreation-information",
+    "date": "2026-03-16",
+    "summary": "Decorah parks post lists ski trails rolled or groomed through 2025-26, latest 16 March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate PDF was a 2016 brochure and unreadable; used the city parks winter trails post instead."
+ },
+ {
+  "id": "cottage-grove-ravine-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://washingtoncountymn.gov/Facilities/Facility/Details/Cottage-Grove-Ravine-Regional-Park-12",
+  "evidence": [
+   {
+    "url": "https://washingtoncountymn.gov/Facilities/Facility/Details/Cottage-Grove-Ravine-Regional-Park-12",
+    "date": null,
+    "summary": "Washington County park page lists cross-country ski trails, ski rentals and a winter trails map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate URL returned an application error; used the county page at a different URL."
+ },
+ {
+  "id": "reforestation-camp-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.browncountywi.gov/community/parks-department/general-information/reforestation-camp/",
+  "evidence": [
+   {
+    "url": "https://www.browncountywi.gov/community/parks-department/general-information/reforestation-camp/",
+    "date": null,
+    "summary": "Brown County parks page describes groomed, lighted cross-country trails with a use fee, winter hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "triangle-sports-area-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.greenbaywi.gov/1181/Triangle-Sports-Area",
+  "evidence": [
+   {
+    "url": "https://www.greenbaywi.gov/1181/Triangle-Sports-Area",
+    "date": null,
+    "summary": "City of Green Bay page says the area has cross-country ski trails; points to Facebook for conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "lakewood-xc-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://lakewoodxcskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=352",
+    "date": "2026-02-26",
+    "summary": "Skinnyski report: skate lanes and classic tracks groomed on Lakewood trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "valley-spur-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://valleyspur.org/",
+  "evidence": [
+   {
+    "url": "https://nordicskiclubofmilwaukee.wildapricot.org/event-6334314",
+    "date": "2026-01-23",
+    "summary": "Milwaukee club event page plans a January 2026 ski trip to Valley Spur trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Valley Spur site loaded but showed no dated content (copyright 2014); evidence is third-party."
+ },
+ {
+  "id": "watersmeet-ski-trails-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/ottawa/recreation/opportunities/winter-sports",
+    "date": "2026-03-25",
+    "summary": "Ottawa National Forest winter page lists groomed ski trails out of Sylvania Outfitters; page updated March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Trails are the Sylvania Outfitters groomed system in Ottawa NF; no trail-specific official page found, so officialUrl is null."
+ },
+ {
+  "id": "iola-winter-sports-club-trails-wi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://runsignup.com/Race/Info/WI/Iola/IWSCNordicSkiTeamCamp",
+    "date": "2026-08-07",
+    "summary": "Club hosts a Nordic ski team camp on its trails in August 2026; indirect evidence of ski operations."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site returned 403 so officialUrl is null; no dated winter grooming evidence seen."
+ },
+ {
+  "id": "neshota-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.browncountywi.gov/community/parks-department/general-information/neshota-park/",
+  "evidence": [
+   {
+    "url": "https://www.browncountywi.gov/community/parks-department/general-information/neshota-park/",
+    "date": null,
+    "summary": "Brown County page says cross-country skiing requires a fee; winter trail hours dawn to 11pm."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

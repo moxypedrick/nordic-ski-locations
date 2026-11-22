@@ -1,0 +1,106 @@
+{
+ "searches": 33,
+ "fetches": 48,
+ "perArea": {
+  "hotel-mon-chez-nous-qc": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "huberdeau-trails-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "saint-jovite-qc": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "parc-du-mont-tremblant-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "parc-du-mont-tremblant-qc-2": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "base-de-plein-air-le-petit-bonheur-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "parc-des-campeurs-qc": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "la-reservesaint-donat-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "forat-ouareau-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "club-de-ski-de-fond-devian-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "base-de-plein-air-linterval-qc": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "centre-de-ski-de-fond-val-david-qc": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "centre-de-plein-air-sainte-adele-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "st-adolphe-dhoward-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "viking-ski-club-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "morin-heights-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "centre-de-ski-de-fond-la-randonnee-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "lac-carling-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "centre-de-ski-de-fond-gai-luron-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "parc-lineaire-le-ptit-train-du-nord-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "club-de-ski-de-fond-de-granada-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "parc-regional-de-la-riviere-du-nord-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "parc-doka-qc": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "centre-de-plein-air-des-cedres-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "lescapade-linear-park-qc": {
+   "searches": 1,
+   "fetches": 4
+  }
+ }
+}

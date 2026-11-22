@@ -1,0 +1,46 @@
+{
+  "searches": 14,
+  "fetches": 11,
+  "perArea": {
+    "big-creek-state-park-ia": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "whitefish-dunes-state-park-wi": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "barron-area-nordic-trail-association-wi": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "nose-lake-ski-trail-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "governor-dodge-state-park-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "namakegon-trail-wi": {
+      "searches": 0,
+      "fetches": 1
+    },
+    "cherokee-marsh-south-unit-wi": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "west-torch-trail-wi": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "miljes-ski-trails-mi": {
+      "searches": 3,
+      "fetches": 1
+    },
+    "valleywood-golf-course-mn": {
+      "searches": 3,
+      "fetches": 0
+    }
+  }
+}

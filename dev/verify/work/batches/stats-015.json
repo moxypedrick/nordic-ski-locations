@@ -1,0 +1,106 @@
+{
+ "searches": 24,
+ "fetches": 48,
+ "perArea": {
+  "black-jack-xc-ski-club-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nickel-plate-xc-ski-club-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "rangeley-lakes-me": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "flambeau-hills-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "government-peak-ak": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "whitehorse-area-yt": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "overland-ski-club-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "macdonald-pass-cross-country-ski-trails-mt": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "centre-de-ski-duchesnay-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "parc-du-mont-orford-qc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "mount-shark-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "kincaid-park-ak": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "white-pass-nordic-center-wa": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "russian-jack-park-ak": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "rikert-nordic-center-vt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "corwin-mills-nordic-centre-nl": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "lolo-pass-mt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "lubrecht-experimental-forest-mt": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "seeley-creek-nordic-ski-trails-mt": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "chief-joseph-pass-mt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "homestake-lodge-mt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "mount-haggin-mt": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "skalkaho-pass-road-mt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "echo-lake-trails-mt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "moulton-ski-trails-mt": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

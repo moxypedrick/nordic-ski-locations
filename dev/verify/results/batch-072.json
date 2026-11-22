@@ -1,0 +1,165 @@
+[
+ {
+  "id": "olympic-sports-complex-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://mtvanhoevenberg.com/2025/12/09/mt-van-hoevenberg-expands-community-ski-programs-for-2025-26-winter-season/",
+    "date": "2025-12-09",
+    "summary": "Mt Van Hoevenberg news post on expanded community ski programs for the 2025-26 winter season (snippet)."
+   }
+  ],
+  "suggestedName": "Mt Van Hoevenberg",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Same place as Mt Van Hoevenberg, Lake Placid. Official site mtvanhoevenberg.com returned 403, so officialUrl is null."
+ },
+ {
+  "id": "osceola-tug-hill-ny",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.uxcski.com/",
+  "evidence": [
+   {
+    "url": "https://www.uxcski.com/trail-conditions",
+    "date": "2026-03-29",
+    "summary": "Trail conditions page shows spring skiing report 3/29/26; season closed 3/30/26; ski sales posted 11/9/26 before opening."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "peekn-peak-ny",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.pknpk.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort site shows 26/27 passes for downhill only; no cross-country mention found. No closure evidence either."
+ },
+ {
+  "id": "prince-gallitzin-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/prince-gallitzin-state-park/winter",
+    "date": null,
+    "summary": "Live DCNR winter page for Patton park lists four marked cross-country ski trails, seven miles."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "queensbury-high-school-ny",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.queensburyschool.org/page/about-athletics",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "School Nordic team races at Gore Mountain; campus trail system is undated and ski use unconfirmed. Town winter page does not list it."
+ },
+ {
+  "id": "roaring-run-natural-area-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://war-nordic.org/laurel-highlands-nordic/",
+  "evidence": [
+   {
+    "url": "https://war-nordic.org/laurel-highlands-nordic/",
+    "date": null,
+    "summary": "Patrol club page covers Roaring Run trails in Forbes State Forest, weekend ski-season patrols, no fees; page shows 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Ungroomed trails; Forbes State Forest ski page does not name Roaring Run."
+ },
+ {
+  "id": "savage-river-lodge-md",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.maryland.gov/publiclands/Pages/western/savagehighlands.aspx",
+  "evidence": [
+   {
+    "url": "https://dnr.maryland.gov/publiclands/Pages/western/savagehighlands.aspx",
+    "date": null,
+    "summary": "Live DNR page for Savage Highlands State Park lists Cabin Loop trail for cross-country skiing and snowshoeing."
+   },
+   {
+    "url": "https://dnr.maryland.gov/forests/Pages/publiclands/SavageRiver/recreation-trails.aspx",
+    "date": null,
+    "summary": "State forest page lists about nine miles of free cross-country ski trails near the lodge."
+   }
+  ],
+  "suggestedName": "Savage Highlands State Park",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Lodge closed as a business after state purchase (2024) and is now Savage Highlands State Park. Old savageriverlodge.com domain now serves unrelated spam and redirects, so not used."
+ },
+ {
+  "id": "scenic-caves-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sceniccaves.com/",
+  "evidence": [
+   {
+    "url": "https://sceniccaves.com/",
+    "date": "2026-11-22",
+    "summary": "Home page sells 2026-2027 winter trail season pass for cross-country skiing and snowshoeing, early-bird until November 30."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "vasa-pathway-bunker-hill-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://traversetrails.org/trails/vasa-pathway/",
+  "evidence": [
+   {
+    "url": "https://traversetrails.org/trails/vasa-pathway/",
+    "date": null,
+    "summary": "TART Trails page lists groomed and ungroomed cross-country skiing on Vasa Pathway; grooming under DNR and county agreement."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "vasa-pathway-timber-ridge-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://traversetrails.org/trails/vasa-pathway/",
+  "evidence": [
+   {
+    "url": "https://traversetrails.org/vasa-grooming-faqs/",
+    "date": null,
+    "summary": "TART Trails grooming FAQ says Vasa Pathway is groomed, aiming four grooms weekly when conditions allow."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Timber Ridge resort site shows no ski info; trail system is the Vasa Pathway, which links to Timber Ridge (snippet). Likely same trail system as vasa-pathway-bunker-hill-mi."
+ }
+]

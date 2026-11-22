@@ -1,0 +1,182 @@
+[
+  {
+    "id": "74a21fa72c542ab596b5a16991de06471b916d81",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.nordic-pulse.com/ski-areas/US/CO/Leadville-Town-Trails",
+        "date": "2026-04-08",
+        "summary": "Nordic Pulse grooming report says 2025-26 grooming ended for low snow; trails remain open for use."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "No official site found; Nordic Pulse (third-party) lists Lake County Government as manager."
+  },
+  {
+    "id": "77b2e80ccf1d8f0813517445476fb51328121f0e",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.duckmountainnordicclub.ca/",
+    "evidence": [
+      {
+        "url": "https://www.duckmountainnordicclub.ca/",
+        "date": "2026-02-03",
+        "summary": "Club posts shelter notices and Feb 28, 2026 loppet; registration opened Dec 2025 for season."
+      }
+    ],
+    "suggestedName": "Duck Mountain Nordic Club",
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Club formerly Kamsack Ski Club; same Duck Mountain park trails."
+  },
+  {
+    "id": "785b7dc64ba6224085ecfdd0fcd16698f0c5248c",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.northwoodscenter.org/wordpress/about-northwoods-stewardship-center/facilities/winter-nordic-trails/",
+    "evidence": [
+      {
+        "url": "https://www.northwoodscenter.org/wordpress/about-northwoods-stewardship-center/facilities/winter-nordic-trails/",
+        "date": "2026-05-06",
+        "summary": "Official page lists groomed nordic trails in East Charleston, daily and annual pass prices, self-serve access."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "7d919aae9d1944ee99921c2f385b77e9ac0984f9",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://wlnordic.ca/",
+    "evidence": [
+      {
+        "url": "https://wlnordic.ca/",
+        "date": "2026-12-01",
+        "summary": "Season pass early-bird pricing ends Dec 1 (year inferred 2026); club site links Bull Mtn XC."
+      }
+    ],
+    "suggestedName": "Williams Lake Cross Country Ski Club",
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Old domain redirects to wlnordic.ca; page links Bull Mtn XC; year of early-bird deadline inferred."
+  },
+  {
+    "id": "7e4189de0cec6ad47698325a86f0d5c7e1ec71d8",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.edmonton.ca/crosscountryskiing",
+        "date": null,
+        "summary": "City of Edmonton ski page lists Kinsmen Park at 9100 Walterdale Hill with one-way trail loops (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "edmonton.ca returned 502 on three fetches; evidence is search snippet only, so officialUrl null."
+  },
+  {
+    "id": "7ff0c1c69a28576747b43537d764cb2cf044bb0f",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://ely.org/cross-country-skiing/",
+        "date": null,
+        "summary": "Ely chamber tourism page lists North Arm Ski Trail, undated; no grooming or season info."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Same trail as North Arm system near Ely (Morse Twp). Only undated Ely tourism listing and 2021 USFS page found."
+  },
+  {
+    "id": "8101b5b2d1771a2ed81a59f7dd93762be53fdb96",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://katahdinareatrails.org/bait-hole-trails/",
+    "evidence": [
+      {
+        "url": "https://archive.bdnblogs.com/?p=305662",
+        "date": "2024-11-25",
+        "summary": "Bangor Daily News piece says club grooms Bait Hole trails, open free to public (snippet)."
+      },
+      {
+        "url": "https://katahdinareatrails.org/bait-hole-trails/",
+        "date": null,
+        "summary": "Katahdin Area Trails page describes groomed winter XC loops, undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Maintained by Northern Timber Cruisers club per listings; old link now loads."
+  },
+  {
+    "id": "813a8a16fa7e0b82ecb75b4688277c13108345cb",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://skibirch.wordpress.com/",
+    "evidence": [
+      {
+        "url": "https://skibirch.wordpress.com/",
+        "date": "2026-01-14",
+        "summary": "Club posts 2026 Birch Open race for Jan 17 and Dec 2025 Pumpski post; near Roseisle, MB."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "84ddf46f67c0fca577dc969188dc189f1c7a040f",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.grandtarghee.com/activities-events/activity-finder/nordic-skiing",
+    "evidence": [
+      {
+        "url": "https://www.grandtarghee.com/activities-events/activity-finder/nordic-skiing",
+        "date": "2026-12-24",
+        "summary": "Nordic page lists season pass, day tickets, grooming days and 2026-27 rental blackout dates."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "856ac5fd0830012a280f9d3939ff687676b429c1",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.stratton.com/things-to-do/stratton-winter-activities/nordic-center",
+    "evidence": [
+      {
+        "url": "https://www.ikonpass.com/en/local-passes/stratton/nordic-pass-add-on",
+        "date": null,
+        "summary": "Ikon lists a 26/27 Stratton Nordic Center season pass add-on (snippet)."
+      },
+      {
+        "url": "https://www.stratton.com/things-to-do/stratton-winter-activities/nordic-center",
+        "date": null,
+        "summary": "Official page: 10 km groomed trails, lessons, season passes; currently shows closed pending opening."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

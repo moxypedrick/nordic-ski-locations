@@ -1,0 +1,166 @@
+[
+  {
+    "id": "67d6c903222506f654d71b2360736c68cf3ca858",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://northshorenordic.org/bigfork-community-nordic-center/",
+    "evidence": [
+      {
+        "url": "https://northshorenordic.org/bigfork-community-nordic-center/",
+        "date": "2026-03-15",
+        "summary": "Club page carries grooming reports from December 2025 to March 15, 2026, with skiable trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "71118eab8929a52f1f853b3487a4a3072850ca8a",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://ski49n.com/mountain-services/nordic-center",
+    "evidence": [
+      {
+        "url": "https://ski49n.com/mountain-services/nordic-center",
+        "date": "2026-11-19",
+        "summary": "Page updated 19 Nov 2026 lists nordic center schedule, season passes and day trail fees."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "6f6abda4fb6ed6007e7585006982e1a822c25fbf",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.snowvalleynordics.com/",
+    "evidence": [
+      {
+        "url": "https://www.snowvalleynordics.com/",
+        "date": null,
+        "summary": "Club site sells 2026-27 season passes and lists lessons and events for the 2025-26 season."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Trails are on Highway 37 between Terrace and Kitimat."
+  },
+  {
+    "id": "6c3d77c5c86715cd08b0952ba787f529c965ad79",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://bcrd.org/winter-trails/our-winter-trails/quigley-trails-park/",
+    "evidence": [
+      {
+        "url": "https://bcrd.org/winter-trails/our-winter-trails/quigley-trails-park/",
+        "date": null,
+        "summary": "Parks district page lists over 20 km groomed ski trails, trail pass required, preseason Nordic pass sale."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "69a316b32d68d678d82b8614d9c6b9e51e06cae9",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.bristolmountain.com/nordic-center/",
+    "evidence": [
+      {
+        "url": "https://www.bristolmountain.com/nordic-center/",
+        "date": null,
+        "summary": "Resort nordic page lists 2025-26 season pass and trail ticket prices, 3 km of trails, mid-December opening."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "6e4eccc922dd101eff2403a77cceb81d6b84b600",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.spokanenordic.org/",
+    "evidence": [
+      {
+        "url": "https://www.spokanenordic.org/grooming",
+        "date": "2026-03-23",
+        "summary": "Club grooming page has volunteer reports dated through 23 March 2026; season passes sold."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "667434a3d92b38fd594ac8076949fd69c9171e59",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r02/mbrtb/recreation/chimney-park-trailhead",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r02/mbrtb/recreation/chimney-park-trailhead",
+        "date": "2025-09-10",
+        "summary": "Forest Service trailhead page lists winter non-motorized trails for XC skiing, groomed by Skiers Nordic of Wyoming."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "65364ea6d1ee8b6e5e53104c3e25238491c45708",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://orb-mandarin-6w7k.squarespace.com/trail-conditions-report",
+    "evidence": [
+      {
+        "url": "https://orb-mandarin-6w7k.squarespace.com/trail-conditions-report",
+        "date": "2026-10-02",
+        "summary": "Wolfeboro XC association page posts an Oct 2026 trail report and ski-season rules for Abenaki trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Old town URL did not load; town pages returned 404. Official URL is the Wolfeboro Cross Country Ski Association site on a Squarespace address."
+  },
+  {
+    "id": "66250d8c85414357ea660728deef759815998579",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://copperharbor.org/wp-content/uploads/Visit-Keweenaw-Winter-Trail-Report_1-26-2026.pdf",
+        "date": "2026-01-26",
+        "summary": "Keweenaw trail reports say Michigan Tech lower trails were groomed in January 2026 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Assumed to be Michigan Tech Trails lower trails. Michigan Tech page returned 403 and the report PDF was unreadable."
+  },
+  {
+    "id": "6af26bddb7638616f8f1987d18ac1898a1dec9a8",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://chetoutdoors.wordpress.com/little-prairie-community-forest-ski-trails/",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

@@ -1,0 +1,46 @@
+{
+ "searches": 12,
+ "fetches": 29,
+ "perArea": {
+  "raven-golf-club-co-2": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "royal-gorge-ca": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "home-ranch-co": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "stevens-pass-wa": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "sun-valley-id": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "vista-verde-co": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "whitehorse-area-yt-2": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "akers-me": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "ashcroft-co": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "blueberry-lake-vt": {
+   "searches": 1,
+   "fetches": 3
+  }
+ }
+}

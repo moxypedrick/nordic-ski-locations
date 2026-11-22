@@ -1,0 +1,106 @@
+{
+ "searches": 19,
+ "fetches": 45,
+ "perArea": {
+  "carver-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "solberg-lake-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "seeley-ski-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "teton-lakes-golf-course-id-2": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "pleasant-view-golf-course-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "highland-9-hole-golf-course-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "spirit-mountain-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "centre-de-ski-de-fond-lestrel-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "legion-trails-mn": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "sturgeon-river-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nordic-ski-trail-wi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "purity-spring-nh": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "lapland-lake-ny": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "lapham-peak-wi-2": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "chester-bowl-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mines-of-spain-recreation-area-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "baker-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "river-bend-ab": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "hartley-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "saskatoon-municipal-trails-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "pattee-canyon-mt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "beatton-provincial-park-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-de-ski-de-fond-mt-rolland-qc": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "hiawatha-highlands-on": {
+   "searches": 4,
+   "fetches": 6
+  },
+  "parc-regional-du-bois-de-liesse-qc": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

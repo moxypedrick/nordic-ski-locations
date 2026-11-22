@@ -1,0 +1,106 @@
+{
+ "searches": 13,
+ "fetches": 46,
+ "perArea": {
+  "lebanon-hills-regional-park-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "minooka-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "eldora-co": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "cleary-lake-regional-park-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "jug-mountain-id": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nipika-lodge-touring-centre-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "blueberry-hills-mn": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "mcmiller-wi-2": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "trout-lake-recreation-area-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "french-rapids-ski-trails-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "allison-chinook-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "superior-municipal-forest-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "blackhawk-ski-club-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kawartha-nordic-ski-club-trail-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jackson-ski-touring-nh": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "stokely-creek-ski-touring-center-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "andes-tower-hill-ski-area-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "copper-falls-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "high-point-cross-country-ski-center-nj": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "stake-lake-trails-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nordic-ridge-recreation-area-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "tilson-creek-ski-trail-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "deer-grove-forest-preserve-il": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "paul-smiths-college-ny": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "boyne-nordican-mi": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "big-creek-state-park-ia",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.iowadnr.gov/places-go/state-parks/all-parks/big-creek-state-park",
+    "evidence": [
+      {
+        "url": "https://www.iowadnr.gov/places-go/state-parks/all-parks/big-creek-state-park",
+        "date": null,
+        "summary": "Iowa DNR park page lists a 3.5 mile winter cross-country ski trail on the disc golf course, Polk City."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "whitefish-dunes-state-park-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://dnr.wisconsin.gov/topic/parks/whitefish",
+    "evidence": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/whitefish/recreation/winter",
+        "date": null,
+        "summary": "Wisconsin DNR winter page says Red, Yellow and part of Green trails are groomed when snow allows."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "barron-area-nordic-trail-association-wi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://bantatrails.wordpress.com/",
+    "evidence": [
+      {
+        "url": "https://www.travelwisconsin.com/snowreport/printcrosscountry",
+        "date": "2025-12-10",
+        "summary": "Third-party snow report lists the BANTA trails as closed with no base; no grooming shown."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": "Official WordPress site loaded but newest post is from 2014; BANTA Facebook updates not checked."
+  },
+  {
+    "id": "nose-lake-ski-trail-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.oneidacountywi.gov/departments/fr/silent-sports-trails/",
+    "evidence": [
+      {
+        "url": "https://www.oneidacountywi.gov/departments/fr/silent-sports-trails/",
+        "date": null,
+        "summary": "Oneida County Forestry page lists Nose Lake Trail, 7 miles groomed classic, Town of Woodboro."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "governor-dodge-state-park-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://dnr.wisconsin.gov/topic/parks/govdodge",
+    "evidence": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/govdodge",
+        "date": null,
+        "summary": "Wisconsin DNR park page lists cross-country skiing as an activity at the park."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "namakegon-trail-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/namekagon-trail",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/namekagon-trail",
+        "date": null,
+        "summary": "Forest Service page: north and south loops groomed for classic skiing when snow permits, near Cable."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "cherokee-marsh-south-unit-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.cityofmadison.com/parks/find-a-park/cherokee-south/cross-country-skiing",
+    "evidence": [
+      {
+        "url": "https://www.cityofmadison.com/parks/find-a-park/cherokee-south/cross-country-skiing",
+        "date": null,
+        "summary": "City of Madison page describes free ski trails at Cherokee Marsh South, groomed weekly as conditions allow."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "miljes-ski-trails-mi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Skinnyski lists Milje's Ski Trails near Wakefield with no reports; no official site or dated evidence found."
+  },
+  {
+    "id": "valleywood-golf-course-mn",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Valleywood Golf Course, Apple Valley; only golf directory listings found, no ski mention or ski evidence."
+  },
+  {
+    "id": "west-torch-trail-wi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.travelwisconsin.com/outdoors/winter-activities/cross-country-skiing-snowshoeing/west-torch-river-ski-trail",
+        "date": null,
+        "summary": "Tourism listing, undated, shows West Torch River Ski Trail near Clam Lake groomed for classic skiing."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Listed as West Torch River Ski Trail, Clam Lake. No dated or land-manager evidence found; no official page located."
+  }
+]

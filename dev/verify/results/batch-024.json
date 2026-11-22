@@ -1,0 +1,414 @@
+[
+ {
+  "id": "little-cataraqui-creek-ca-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://cataraquiconservation.ca/pages/winter-rentals",
+  "evidence": [
+   {
+    "url": "https://cataraquiconservation.ca/pages/winter-rentals",
+    "date": "2026-02-26",
+    "summary": "Cataraqui Conservation ski rental page with February 2026 grooming updates and 13 km groomed classic track."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "frontenac-provincial-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/frontenac/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/snowreport/detail/frontenac",
+    "date": "2026-02-27",
+    "summary": "Ontario Parks snow report shows classic ski trail last groomed 27 February 2026."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "foley-mountain-cons-area-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.rvca.ca/conservation-areas/foley-mountain",
+  "evidence": [
+   {
+    "url": "https://www.rvca.ca/conservation-areas/foley-mountain",
+    "date": null,
+    "summary": "RVCA page lists hiking and snowshoeing only; trails unmaintained in winter, no skiing mentioned."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "mount-pakenham-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://shop.mountpakenham.com/",
+  "evidence": [
+   {
+    "url": "https://shop.mountpakenham.com/",
+    "date": "2026-11-01",
+    "summary": "Resort sells 2026-27 alpine passes; lists snowshoeing but no cross-country ski trails."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "larose-ski-trails-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://fr.prescott-russell.on.ca/decouvrir/foret_larose",
+  "evidence": [
+   {
+    "url": "https://fr.prescott-russell.on.ca/decouvrir/foret_larose",
+    "date": null,
+    "summary": "County page describes about 29 km of groomed classic and skate ski trails in Larose Forest."
+   }
+  ],
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "g-maccormack-maitland-trails-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.maitlandhall.ca/ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.maitlandhall.ca/ski-trails",
+    "date": null,
+    "summary": "Maitland recreation centre site has a cross-country ski trails page with photos, no dated info."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "voyageur-carillon-prov-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/snowreport/detail/voyageur",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/snowreport/detail/voyageur",
+    "date": "2026-03-04",
+    "summary": "Ontario Parks snow report: 10 km groomed classic trail network, last groomed 4 March 2026."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "pukaskwa-national-park-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.canada.ca/pn-np/on/pukaskwa/visit",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/on/pukaskwa/visit",
+    "date": null,
+    "summary": "Parks Canada calls Pukaskwa a three-season park, facilities closed November to May; no ski trails mentioned."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "hearst-xc-ski-club-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skihearst.wixsite.com/hearst",
+  "evidence": [
+   {
+    "url": "https://www.hearst.ca/?p=171",
+    "date": null,
+    "summary": "Town of Hearst page lists the cross-country ski and snowshoe club trails and links its site."
+   },
+   {
+    "url": "https://skihearst.wixsite.com/hearst",
+    "date": null,
+    "summary": "Club site describes about 20 km of ski trails groomed each winter; no dates shown."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "windy-lake-lodge-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.windylake.com/",
+    "date": null,
+    "summary": "Old lodge domain now redirects to a domain-for-sale page; no current lodge information found."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "chadwicks-kwagama-lake-lodge-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "kwagamalodge.com returned no readable content (likely script-built); no other source found.",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null
+ },
+ {
+  "id": "mt-evergreen-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skikenora.ca/cross-country/",
+  "evidence": [
+   {
+    "url": "https://www.skikenora.ca/",
+    "date": "2026-02-28",
+    "summary": "Ski Kenora site lists 2025-26 nordic events including Frank Symonds Loppet 28 Feb 2026; 2026-27 passes."
+   }
+  ],
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "searchmont-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://searchmont.com/",
+  "evidence": [
+   {
+    "url": "https://searchmont.com/",
+    "date": null,
+    "summary": "Resort site live, selling alpine passes; no cross-country or nordic trails mentioned."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "wakomata-shores-resort-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://roadtrippers.com/ca/on/accommodation/wakomata-shores-resort-thessalon",
+    "date": null,
+    "summary": "Directory listing near Thessalon shows resort for fishing and cottages; no skiing mentioned (snippet)."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "iron-bridge-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "killarney-provincial-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/killarney/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/killarney/activities",
+    "date": null,
+    "summary": "Ontario Parks page lists three winter ski trails: Chikanishing, Collins Inlet and Freeland, classic and skate."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "walden-cross-country-fitness-trails-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.waldenxc.ca/facilities",
+  "evidence": [
+   {
+    "url": "https://www.waldenxc.ca/facilities",
+    "date": "2026-11-21",
+    "summary": "Walden XC site lists 23 km groomed trails and 2026-27 events including ski swap and Ontario Cup."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "elliot-lake-trails-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://ontariovisited.ca/elliot-lake-xc-ski-bike-club-exciting-new-events-and-trails",
+    "date": null,
+    "summary": "Elliot Lake XC Ski & Bike Club AGM reviewed 2024 season and planned 2025 ski trail work (snippet)."
+   }
+  ],
+  "suggestedName": "Bob Stirling Trail",
+  "method": "research",
+  "comment": "Main city ski trail (Spine trail) was renamed Bob Stirling Cross Country Ski and Bike Trail; elliotlaketoday article returned 403, ontariovisited article 404; no club website found.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lake-laurentian-conservation-area-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bioski.ca/",
+  "evidence": [
+   {
+    "url": "https://www.bioski.ca/join",
+    "date": "2026-11-30",
+    "summary": "BioSki club on South Bay Road, Sudbury, sells 2026-27 ski memberships with early discount to 30 November 2026."
+   }
+  ],
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "loneys-sportsman-lodge-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://sportsmanslodge.net/",
+  "evidence": [
+   {
+    "url": "https://sportsmanslodge.net/",
+    "date": null,
+    "summary": "Sportsman's Lodge Wilderness Resort on Kukagami Lake; winter focus is snowmobiling, no ski trails mentioned."
+   }
+  ],
+  "method": "research",
+  "comment": "Same coordinates as Kukagami Lodge (possible duplicate location). Winter activities page returned 404.",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null
+ },
+ {
+  "id": "kukagami-lodge-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Same coordinates as Loney's Sportsman Lodge; no lodge by this name found, possibly the same Kukagami Lake lodge.",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null
+ },
+ {
+  "id": "rushing-river-prov-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/rushingriver/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/rushingriver/activities",
+    "date": null,
+    "summary": "Ontario Parks page lists 18 km of groomed skate and classic ski trails with winter day-use permits."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "windy-lake-prov-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/windylake/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/snowreport/detail/windylake",
+    "date": "2026-04-06",
+    "summary": "Ontario Parks snow report shows park ski trails last groomed 6 April 2026."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "kettle-lakes-prov-park-on",
+  "status": "unverified",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/kettlelakes",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/kettlelakes",
+    "date": "2026-05-15",
+    "summary": "Ontario Parks marks cross-country skiing not available; park operates May 15 to October 13, 2026."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "suggestedName": null,
+  "comment": ""
+ },
+ {
+  "id": "iroquois-falls-xc-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://northernontario.travel/northeastern-ontario/cross-country-skiing-northeastern-ontario-complete-guide-clubs-and-trails",
+    "date": null,
+    "summary": "Tourism guide lists Iroquois Falls club with about 20 km of groomed trails; undated (snippet)."
+   }
+  ],
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club zone4 registration page needed cookies and could not be read; no club website found.",
+  "suggestedName": null
+ }
+]

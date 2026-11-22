@@ -1,0 +1,181 @@
+[
+ {
+  "id": "15da2394a6b00b56a57e4608c00ce96edf7a51cb",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fs.usda.gov/r01/custergallatin/recreation/trails/rendezvous-trail-system",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/custergallatin/recreation/trails/rendezvous-trail-system",
+    "date": "2026-02-19",
+    "summary": "Forest Service page (updated Feb 19, 2026) lists 35 km groomed ski trails near West Yellowstone with season passes."
+   }
+  ],
+  "suggestedName": "Rendezvous Ski Trails",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "14f6169cfee0c9de62e7fc0c0fc03a747d5aa6fa",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://reginaskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://reginaskiclub.ca/",
+    "date": "2026-12-06",
+    "summary": "Regina Ski Club lists new Nordic Building opening at Kinsmen Park on Dec 6, 2026; trails groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "16d67c2e298259118ff5fcedf8a6c5c7f3ee62cc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.monroecounty.gov/Parks-Durandeastman",
+  "evidence": [
+   {
+    "url": "https://www.monroecounty.gov/Parks-Durandeastman",
+    "date": null,
+    "summary": "Monroe County parks page says golf cart paths are groomed for cross-country skiing at Durand Eastman."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "185277c7c66ee582fb01243753ecfe25aa3ea215",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.boltonvalley.com/",
+  "evidence": [
+   {
+    "url": "https://www.boltonvalley.com/winter/tickets-passes/nordic-backcountry-uphill-passes/",
+    "date": "2025-12-26",
+    "summary": "Official Nordic pass page lists 2025-26 day rates and peak periods starting Dec 26, 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "1fc508fdf17d92e17a7339b6a8a43fbbcc56c463",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://mainehuts.org/",
+  "evidence": [
+   {
+    "url": "https://mainehuts.org/",
+    "date": "2026-12-10",
+    "summary": "Official site lists 2026-27 winter hut openings Dec 26, groomed main trail, Feb 27, 2027 ski event."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "1e0c5e0e5c3eca0b6cc7f26a4d423c8b3b2f9969",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://brulexcski.com",
+  "evidence": [
+   {
+    "url": "https://brulexcski.com",
+    "date": "2027-01-16",
+    "summary": "Brule Valley Ski Club site lists 31st River View Loppet on Jan 16, 2027; club maintains Afterhours trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Land is Brule River State Forest (WI DNR)."
+ },
+ {
+  "id": "1d06b0c6a8089e40c01ed1818c4aaebc96f8abde",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/kananaskis-country/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/peter-lougheed/",
+    "date": "2026-03-05",
+    "summary": "Alberta Parks Peter Lougheed trail report dated Mar 5, 2026 describes grooming and track setting (snippet)."
+   },
+   {
+    "url": "https://www.albertaparks.ca/albertaparks-ca/visit-our-parks/activities/cross-country-skiing/ski-centres/kananaskis-country/",
+    "date": null,
+    "summary": "Alberta Parks lists over 75 km groomed ski trails in the Kananaskis Lakes area."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "19c6964d5b7416cd786722c27a44de0d1e21acfa",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Likely Mirror-Edmonds Lakes area in Chugach State Park; usually ungroomed. NSAA site (candidate) does not cover Edmonds Lake; no dated or land-manager ski evidence found."
+ },
+ {
+  "id": "1627a064897a6c93431b9eb7abb03f669f51e48c",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://reginaskiclub.ca/trails-conditions/les-sherman-park/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/SK/Regina-LesSherman",
+    "date": "2026-01-01",
+    "summary": "Nordic Pulse report Jan 1, 2026 describes Les Sherman classic track as fair-good (snippet)."
+   },
+   {
+    "url": "https://reginaskiclub.ca/trails-conditions/les-sherman-park/",
+    "date": null,
+    "summary": "Regina Ski Club trail page for Les Sherman Park; grooming reports are on Nordic Pulse."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "1e90cf2cd2fd4702fb3807a1c8ac8711c23a9bc8",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.northernrockies.ca/node/924",
+  "evidence": [
+   {
+    "url": "https://www.northernrockies.ca/node/707",
+    "date": "2025-03-08",
+    "summary": "Regional municipality lists Fort Nelson Ski Club moonlight ski at the Demonstration Forest on Mar 8, 2025."
+   },
+   {
+    "url": "https://www.northernrockies.ca/node/924",
+    "date": null,
+    "summary": "Municipal page says forest trails are available in winter for cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "sitesandtrailsbc.ca page did not render usable content."
+ }
+]

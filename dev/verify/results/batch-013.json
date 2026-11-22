@@ -1,0 +1,442 @@
+[
+ {
+  "id": "paulson-xc-ski-trails-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.castlegarnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://www.castlegarnordic.ca/",
+    "date": null,
+    "summary": "Castlegar Nordic Ski Club operates Paulson trails; 2026/27 memberships open, site copyright 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "white-butte-trails-sk",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://reginaskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://reginaskiclub.ca/",
+    "date": "2026-02-22",
+    "summary": "Regina Ski Club news post about member ski social at White Butte ski shelter, February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "big-aspen-recreation-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/big-aspen-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/big-aspen-trail",
+    "date": null,
+    "summary": "Superior National Forest page lists 33 km of classic-groomed ski trails north of Virginia, MN."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "canmore-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.canmorenordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.canmorenordic.com/",
+    "date": null,
+    "summary": "Canmore Nordic Ski Club site lists 2026 events at Canmore Nordic Centre; copyright 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "north-bay-nordic-ski-club-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://northbaynordic.ca/",
+  "evidence": [
+   {
+    "url": "https://northbaynordic.ca/",
+    "date": "2026-09-26",
+    "summary": "Club news post welcoming members to the 2026-2027 season at North Bay Nordic."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "whitefish-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://glaciernordicclub.org/",
+  "evidence": [
+   {
+    "url": "https://glaciernordicclub.org/",
+    "date": null,
+    "summary": "Glacier Nordic Club sells 2026-27 memberships for Glacier Nordic Center trails at Whitefish Lake Golf Course."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "china-ridge-xc-ski-association-bc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.chinaridgetrails.com/",
+  "evidence": [
+   {
+    "url": "https://www.chinaridgetrails.com/",
+    "date": null,
+    "summary": "Live China Ridge Trails site near Princeton describes ski trails, but newest date shown is 2019."
+   }
+  ],
+  "suggestedName": "China Ridge Trails",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Association now goes by China Ridge Trails (renamed)."
+ },
+ {
+  "id": "les-sentiers-du-moulin-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sentiersdumoulin.com/",
+  "evidence": [
+   {
+    "url": "https://www.sentiersdumoulin.com/",
+    "date": "2026-10-01",
+    "summary": "Lac-Beauport site announces winter 2027 season pass presale; lists groomed classic and skate ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tettegouche-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/park.html?id=spk00269",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/ski-locations.html",
+    "date": null,
+    "summary": "Minnesota DNR groomed ski locations list includes Tettegouche State Park (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "DNR park and ski pages build content with scripts; park name and trail details could not be read."
+ },
+ {
+  "id": "fort-kent-me",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.fortkentoc.org/",
+  "evidence": [
+   {
+    "url": "https://www.fortkentoc.org/",
+    "date": null,
+    "summary": "Fort Kent Outdoor Center site describes 40 km ski trails, winter memberships; endowment figure as of 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pike-lake-unit-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/pikelake/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/pikelake/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists 2.5 miles of ski trails groomed for classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lake-elmo-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.washingtoncountymn.gov/Facilities/Facility/Details/Lake-Elmo-Park-Reserve-15",
+  "evidence": [
+   {
+    "url": "https://washingtoncountymn.gov/CivicSend/ViewMessage/message/277174",
+    "date": "2026-01-02",
+    "summary": "Washington County Parks newsletter says county grooms ski trails at Lake Elmo; ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "manning-park-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://manningpark.com/",
+  "evidence": [
+   {
+    "url": "https://manningpark.com/",
+    "date": null,
+    "summary": "Manning Park Resort site advertises 2026/27 season passes and Nordic Centre classic and skate trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "boutwell-hill-state-forest-ny",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://boutwellxc.wordpress.com/",
+  "evidence": [
+   {
+    "url": "https://boutwellxc.wordpress.com/",
+    "date": "2025-12-15",
+    "summary": "Boutwell Hill Ski Club grooming post: trails packed and groomed after December 2025 snow."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "larch-hills-ski-area-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skilarchhills.ca/",
+  "evidence": [
+   {
+    "url": "https://skilarchhills.ca/",
+    "date": "2026-11-03",
+    "summary": "Larch Hills Nordic Society site near Salmon Arm: early-bird season passes on sale, December 2026 event."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "silver-star-mountain-resort-bc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skisilverstar.com/",
+  "evidence": [
+   {
+    "url": "https://fasterskier.com/2026/02/the-5th-annual-sovereign-2-silverstar-ski-marathon-april-4-5-2026/",
+    "date": "2026-04-04",
+    "summary": "Sovereign 2 SilverStar classic and skate ski marathon held April 2026, finishing in SilverStar village."
+   },
+   {
+    "url": "https://shop.skisilverstar.com/nordic-season-pass-2",
+    "date": null,
+    "summary": "SilverStar online shop lists a Nordic season pass product (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "SilverStar shop Nordic pass page returned 403; resort home page has no Nordic page link."
+ },
+ {
+  "id": "tennessee-pass-co-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.tennesseepass.com/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://www.leadvilletwinlakes.com/event/full-moon-ski-at-tennessee-pass-nordic-center-2/2026-01-31/",
+    "date": "2026-01-31",
+    "summary": "Leadville tourism calendar lists Full Moon Ski event at Tennessee Pass Nordic Center, January 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible duplicate of Tennessee Pass (tennessee-pass-co), about 7 km away."
+ },
+ {
+  "id": "whitehorse-cross-country-ski-club-yt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whitehorsenordiccentre.ca/",
+  "evidence": [
+   {
+    "url": "https://www.whitehorsenordiccentre.ca/",
+    "date": "2026-11-01",
+    "summary": "Whitehorse Nordic Centre site links November 2026 newsletter and says some trails are open."
+   },
+   {
+    "url": "https://www.trailforks.com/report/4426573/",
+    "date": "2026-03-19",
+    "summary": "Trail report says Mt McIntyre trails groomed in March 2026 (snippet)."
+   }
+  ],
+  "suggestedName": "Whitehorse Nordic Centre",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club now operates as Whitehorse Nordic Centre; old domain xcskiwhitehorse.ca is parked. Possible duplicate of Whitehorse area (whitehorse-area-yt, whitehorse-area-yt-2)."
+ },
+ {
+  "id": "mother-bear-ski-trail-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.facebook.com/motherbearskitrail/",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/ski/images/motherbear2024.pdf",
+    "date": "2024-01-01",
+    "summary": "2024 trail map shows volunteer-maintained ski trail near Brimson, MN; no grooming dates (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Facebook page is the only official source; posts could not be read without login."
+ },
+ {
+  "id": "northwoods-ski-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=458",
+    "date": "2026-01-17",
+    "summary": "Skier report on Northwoods Ski Trail near Silver Bay describes excellent conditions, January 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nordic-village-az",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.arizonanordicvillage.com/",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r03/coconino/recreation/arizona-nordic-village",
+    "date": "2025-09-29",
+    "summary": "Coconino National Forest page lists XC skiing at Arizona Nordic Village, site open under permit."
+   },
+   {
+    "url": "https://www.arizonanordicvillage.com/",
+    "date": null,
+    "summary": "Operator home page sells day, multi-day and season passes; copyright 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "north-end-ski-trail-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.northendskiclub.org/",
+  "evidence": [
+   {
+    "url": "https://www.northendskiclub.org/",
+    "date": "2026-11-01",
+    "summary": "North End Ski Club, Cable WI, lists Classic ski race February 14, 2027; registration opens December 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gunstock-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.gunstock.com/winter/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://www.gunstock.com/winter/nordic-center/",
+    "date": null,
+    "summary": "Gunstock Nordic Center page: 27 km groomed trails; Nordic season passes on sale for 2026-27."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-ashwabay-ski-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://mtashwabay.org/mt-ashwabay-cross-country/",
+  "evidence": [
+   {
+    "url": "https://www.mtashwabay.org/",
+    "date": "2027-02-06",
+    "summary": "Mt. Ashwabay site lists Summit Nordic Ski Race for February 6, 2027; 40 km groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "giants-ridge-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://pepsichallengeskirace.com",
+    "date": "2026-02-28",
+    "summary": "Pepsi Challenge 50K cross-country race held at Giants Ridge, Biwabik, February 2026; next set for March 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "giantsridge.com returned 403 on every page tried; official URL left null."
+ }
+]

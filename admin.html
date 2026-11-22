@@ -1009,14 +1009,20 @@ async function deleteArea() {
   if (!feature) return;
   var name = feature.properties.Name || '(unnamed)';
 
-  if (!confirm('Permanently delete "' + name + '" from the dataset?\n\nThis cannot be undone without re-running the merge script.')) return;
+  if (!confirm('Permanently delete "' + name + '" from the dataset?\n\nTo undo, remove its entry from manual-overrides.json and re-run the merge script.')) return;
 
   // Remove from in-memory array
   allFeatures = allFeatures.filter(function (f) { return f.properties.id !== selectedId; });
 
-  // Remove any override for this area
-  if (overrides[selectedId]) {
-    delete overrides[selectedId];
+  // Record the deletion in overrides so a rebuild by merge-skimap.js keeps it.
+  // Admin-created areas live only in the merged file, so they need no entry.
+  if (String(selectedId).startsWith('admin-')) {
+    if (overrides[selectedId]) {
+      delete overrides[selectedId];
+      await writeJSON(overridesHandle, overrides);
+    }
+  } else {
+    overrides[selectedId] = { deleted: true, _editedAt: new Date().toISOString() };
     await writeJSON(overridesHandle, overrides);
   }
 

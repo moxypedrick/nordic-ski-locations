@@ -16,12 +16,15 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(__dirname, '..');
+const ROOT = path.join(__dirname, '..', '..'); // repo root (scripts live in dev/scripts)
 const OUR_FILE       = path.join(ROOT, 'dev', 'source-data', 'nordic-ski-areas-v2.geojson');
 const SKIMAP_FILE    = path.join(ROOT, 'dev', 'source-data', 'ski_areas.geojson');
-const OUT_MERGED     = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
-const OUT_REPORT     = path.join(ROOT, 'dev', 'source-data', 'merge-report.json');
+const OUT_MERGED     = process.env.MERGE_OUT_FILE || path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
+const OUT_REPORT     = process.env.MERGE_OUT_FILE ? process.env.MERGE_OUT_FILE + '.report.json' : path.join(ROOT, 'dev', 'source-data', 'merge-report.json');
 const OVERRIDES_FILE = path.join(ROOT, 'data', 'manual-overrides.json');
+// Optional settings, used by capture-overrides.js:
+//   MERGE_OUT_FILE=<path>     write the merged file (and its report, <path>.report.json) somewhere else
+//   MERGE_SKIP_OVERRIDES=1    build without applying manual-overrides.json
 
 const MATCH_KM = 1.0;   // proximity threshold
 const NEW_AREA_MIN_KM = 1.0; // skimap-only areas must have ≥ this many km of runs
@@ -69,15 +72,19 @@ function applyOverrides(gj, overridesFile) {
   // Index features by id for fast lookup
   const byId = new Map(gj.features.map(f => [f.properties.id, f]));
   let applied = 0;
+  const deleted = new Set();
 
   for (const id of ids) {
     const feature = byId.get(id);
     if (!feature) continue;
     const patch = overrides[id];
+    // { deleted: true } removes the area (recorded by admin.html's Delete button)
+    if (patch.deleted) { deleted.add(id); applied++; continue; }
     if (patch.geometry) feature.geometry = patch.geometry;
     if (patch.properties) Object.assign(feature.properties, patch.properties);
     applied++;
   }
+  if (deleted.size) gj.features = gj.features.filter(f => !deleted.has(f.properties.id));
   return applied;
 }
 
@@ -324,8 +331,14 @@ for (const sf of skimapOnly) {
 
 const mergedGJ = { type: 'FeatureCollection', features: mergedFeatures };
 
+// Apply verification results (status, official URL) from data/verification.json.
+// Runs before manual overrides so that hand edits made in admin.html still win.
+const { applyVerification } = require('./apply-verification');
+const verification = applyVerification(mergedGJ);
+if (verification.applied > 0) console.log(`  Applied ${verification.applied} verification record(s)`);
+
 // Apply manual overrides before writing
-const overrideCount = applyOverrides(mergedGJ, OVERRIDES_FILE);
+const overrideCount = process.env.MERGE_SKIP_OVERRIDES === '1' ? 0 : applyOverrides(mergedGJ, OVERRIDES_FILE);
 if (overrideCount > 0) console.log(`  Applied ${overrideCount} manual override(s)`);
 
 fs.writeFileSync(OUT_MERGED, JSON.stringify(mergedGJ));

@@ -15,7 +15,7 @@ const fs       = require('fs');
 const path     = require('path');
 const readline = require('readline');
 
-const ROOT        = path.join(__dirname, '..');
+const ROOT        = path.join(__dirname, '..', '..'); // repo root (scripts live in dev/scripts)
 const MERGED_FILE = path.join(ROOT, 'data', 'nordic-ski-areas-merged.geojson');
 const RUNS_FILE   = path.join(ROOT, 'dev', 'source-data', 'runs.geojson');
 const OUT_FILE    = path.join(ROOT, 'data', 'nordic-ski-runs-na.geojson');

@@ -1,0 +1,141 @@
+[
+ {
+  "id": "high-cliff-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page says designated trails are groomed for classic skiing when snow-covered; Red Bird trail 3.4 miles."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "jackson-meadow-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Housing-development trails; only a 2019 DNR magazine mention and skinnyski directory, no official page or dated reports.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "my-lake-home-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Could not identify the area; no web results for the name. Skinnyski page says trail not found (directory, not closure evidence).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "rice-lake-nordic-association-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Only undated tourism and directory listings; club website not found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "pinicon-ridge-park-ia",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.mycountyparks.com/County/Linn/Park/Pinicon-Ridge-Park",
+  "evidence": [],
+  "method": "research",
+  "comment": "County park page does not mention skiing; only undated snippet and 2018-19 blogs list it as groomed. No 2024+ evidence.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "matsell-bridge-natural-area-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mycountyparks.com/County/Linn/Park/Matsell-Bridge-Natural-Area",
+  "evidence": [
+   {
+    "url": "https://www.mycountyparks.com/County/Linn/Park/Matsell-Bridge-Natural-Area",
+    "date": null,
+    "summary": "Linn County park page lists 12 miles of trails open for hiking, equestrian use and cross-country skiing."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "halls-creek-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.exploreflorencecounty.com/resources/news/forestry-and-parks-notification-2025-02-18/",
+    "date": "2025-02-18",
+    "summary": "County Forestry and Parks notice sends skiers to Halls Creek groomed loops (snippet)."
+   },
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=629",
+    "date": "2026-03-02",
+    "summary": "Skinnyski report says all Halls Creek segments groomed, 8+ inch base, icy in places (snippet)."
+   }
+  ],
+  "method": "site-check",
+  "comment": "Only a county tourism-site recreation page loaded, not a department page, so officialUrl left null.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lanesboro-golf-course-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Only undated skinnyski and tourism listings mention Root River Nordic Ski Club grooming here; no club or city page found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hornet-hiihto-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Edina High School campus trails. Team Google Sites page needed login (not followed); magazine article was undated and would not load.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "he-nis-ra-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.greenbaywi.gov/facilities/facility/details/he-nis-ra-89",
+  "evidence": [
+   {
+    "url": "https://www.greenbaywi.gov/facilities/facility/details/he-nis-ra-89",
+    "date": null,
+    "summary": "City of Green Bay park page lists cross-country skiing as a feature at He-Nis-Ra Park."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

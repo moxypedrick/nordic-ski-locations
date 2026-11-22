@@ -1,0 +1,160 @@
+[
+ {
+  "id": "blue-knob-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/blue-knob-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/blue-knob-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page lists recommended cross-country ski trails at Blue Knob State Park, open year-round."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "chapin-forest-oh",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Lake Metroparks page lists Chapin Forest ski center in Kirtland with rentals, hours, 2026 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "coles-woods-ny",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Glens Falls/Queensbury tourism and directory pages describe it as active but give no dates; Friends of Cole's Woods site (coleswoods.weebly.com) returned 404, so officialUrl is null."
+ },
+ {
+  "id": "denton-hill-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/denton-hill-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page says park trails are open for skiing and a 29-mile system is groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "elk-river-touring-center-wv",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://elkriverwv.com/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://elkriverwv.com/cross-country-skiing/",
+    "date": "2026-03-06",
+    "summary": "Official ski page has a 3/6/2026 report ending the season, with rentals and snowmobile-groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Site is branded Elk River Inn & Cabins; same Slatyfork location."
+ },
+ {
+  "id": "girdled-road-reservation-oh",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://www.lakemetroparks.com/events-activities/activities/cross-country-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Lake Metroparks page says it grooms nine kilometers of ski trail at Girdled Road's south entrance."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "herrington-manor-state-park-md",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx",
+  "evidence": [
+   {
+    "url": "https://dnr.maryland.gov/publiclands/Pages/western/herrington.aspx",
+    "date": null,
+    "summary": "Maryland DNR park page offers cross-country ski and snowshoe rentals and links a ski report, Oakland MD."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "highlands-nordic-on-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://highlandsnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://highlandsnordic.ca/",
+    "date": "2026-11-09",
+    "summary": "Official site sells 2026/27 season passes with early-bird to Nov 15; Duntroon, Ontario; report dated Nov 9, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Possible duplicate of another Highlands Nordic record (id suffix -2); not checked."
+ },
+ {
+  "id": "holden-arboretum-oh",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.holdenarb.org/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site (Oct-Nov 2026 posts) has no skiing mention; old holdenfg.org ski page now 404. Only older third-party pages mention skiing."
+ },
+ {
+  "id": "horseshoe-valley-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://horseshoeresort.com/nordic-centre/",
+  "evidence": [
+   {
+    "url": "https://horseshoeresort.com/nordic-centre/",
+    "date": null,
+    "summary": "Official Nordic Centre page sells 2026-27 season pass; Barrie, Ontario."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

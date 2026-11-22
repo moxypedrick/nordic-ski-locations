@@ -1,0 +1,106 @@
+{
+ "searches": 27,
+ "fetches": 61,
+ "perArea": {
+  "whistler-olympic-park-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "cypress-bowl-xc-ski-area-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "sovereign-lake-ski-area-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hemlock-valley-ski-resort-bc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "mcdowell-lake-ski-trails-bc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "morice-mountain-nordic-ski-club-bc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "wells-gray-outdoor-club-bc": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "helmcken-falls-lodge-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jackman-flats-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "apex-resort-bc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "mount-revelstoke-np-bc": {
+   "searches": 0,
+   "fetches": 4
+  },
+  "glacier-national-park-bc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "yoho-national-park-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "whitetooth-ski-center-bc": {
+   "searches": 0,
+   "fetches": 4
+  },
+  "kootenay-national-park-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "beckie-scott-nordic-centrepanorama-resort-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "fairmont-hot-springs-resort-bc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "kimberley-ski-resort-bc": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "fernie-snow-valley-resort-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mackenzie-nordiques-xc-ski-club-bc": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "yellowhead-ski-club-bc": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "turtle-mountain-prov-park-mb": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "clearwater-lake-prov-park-mb": {
+   "searches": 1,
+   "fetches": 7
+  },
+  "flin-flon-ski-club-mb": {
+   "searches": 1,
+   "fetches": 5
+  },
+  "paint-lake-provincial-park-mb": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "searches": 15,
+ "fetches": 26,
+ "perArea": {
+  "olympic-sports-complex-ny": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "osceola-tug-hill-ny": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "peekn-peak-ny": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "prince-gallitzin-state-park-pa": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "queensbury-high-school-ny": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "roaring-run-natural-area-pa": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "savage-river-lodge-md": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "scenic-caves-on": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "vasa-pathway-bunker-hill-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "vasa-pathway-timber-ridge-mi": {
+   "searches": 1,
+   "fetches": 3
+  }
+ }
+}

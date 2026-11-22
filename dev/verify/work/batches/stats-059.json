@@ -1,0 +1,46 @@
+{
+ "searches": 17,
+ "fetches": 27,
+ "perArea": {
+  "hayes-lake-state-park-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "lac-lawrann-conservancy-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "prairie-woods-environmental-learning-center-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "cowhorn-lake-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "bridgewood-resort-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "reid-golf-course-wi": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "river-bend-nature-center-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "perrot-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "ski-brule-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "iron-river-cross-country-ski-center-mi": {
+   "searches": 3,
+   "fetches": 4
+  }
+ }
+}

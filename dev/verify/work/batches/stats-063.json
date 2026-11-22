@@ -1,0 +1,46 @@
+{
+ "searches": 17,
+ "fetches": 17,
+ "perArea": {
+  "menomonee-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "scotch-creek-woodland-preserve-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "land-o-lakes-trail-mi": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "saint-johns-abbey-arboretum-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "voyager-village-golf-course-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "kickapoo-valley-reserve-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "stower-seven-lakes-state-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "northwoods-christian-camp-ski-trails-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "ge-che-trail-mi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "bay-beach-wildlife-sanctuary-wi": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

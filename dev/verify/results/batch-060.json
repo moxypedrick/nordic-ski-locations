@@ -1,0 +1,142 @@
+[
+ {
+  "id": "hayward-recreational-forest-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Only undated chamber listing says XC trails exist; town site does not mention skiing; skinnyski shows no reports for 2026-27.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hobson-forest-trail-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "http://bemidjicrosscountryski.org",
+  "evidence": [],
+  "method": "site-check",
+  "comment": "Tourism listing and BSU article are undated or old; club site shows no dates and does not name Hobson.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "cannon-valley-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cannonvalleytrail.com/",
+  "evidence": [
+   {
+    "url": "https://cannonvalleytrail.com/skiing-the-trail/",
+    "date": null,
+    "summary": "Trail operator page says trail is groomed for classic and skate skiing, Cannon Falls to Red Wing; ski pass required."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "snowflake-ski-club-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://snowflakeskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=602",
+    "date": "2026-01-18",
+    "summary": "Skinnyski report for Westby trails: groomed for skate, classic track set on 6K loop after snowfall (snippet)."
+   }
+  ],
+  "method": "site-check",
+  "comment": "Club site is a ski jump and golf club and does not mention cross-country; skiing evidence is third-party snippet only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "gateway-state-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_trails/gateway/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state_trails/gateway/index.html",
+    "date": null,
+    "summary": "DNR page says skiing allowed on unmaintained eastern section; no ski pass needed there. Not groomed."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "brooktree-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.owatonna.gov/1996/Outdoor-Ice-Skating-Rinks",
+  "evidence": [
+   {
+    "url": "https://www.owatonna.gov/1996/Outdoor-Ice-Skating-Rinks",
+    "date": null,
+    "summary": "City of Owatonna page says it grooms ski trails on Brooktree upper and lower nines as weather allows."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "kimberly-high-school-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Only skinnyski directory lists the trails; no school or village page found, no dated reports.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "combined-locks-trail-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "site-check",
+  "comment": "Village site mentions no skiing; no results beyond skinnyski directory.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "squaw-creek-county-park-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mycountyparks.com/County/Linn/Park/Wanatee-Park",
+  "evidence": [
+   {
+    "url": "https://www.mycountyparks.com/County/Linn/Park/Wanatee-Park",
+    "date": null,
+    "summary": "Linn County park page for Wanatee Park, Marion, says part of trails groomed for classic and skate skiing."
+   }
+  ],
+  "suggestedName": "Wanatee Park",
+  "method": "site-check",
+  "comment": "Renamed: Squaw Creek County Park is now Wanatee Park (Marion, IA), per county page and listings.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "quadna-mountain-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Downhill resort near Hill City; only directories and a history site (lodge closed early 2010s), no official site or closure source found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ }
+]

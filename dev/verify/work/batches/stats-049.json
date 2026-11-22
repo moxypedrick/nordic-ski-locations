@@ -1,0 +1,46 @@
+{
+ "searches": 15,
+ "fetches": 23,
+ "perArea": {
+  "rum-river-central-regional-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "potawatomi-state-park-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "hidden-valley-ski-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "banning-state-park-mn": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "sand-dunes-state-forest-mn": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "drummond-ski-trails-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "noquemanon-trail-mi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "greywalls-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "va-medical-center-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "crossroads-at-big-creek-wi": {
+   "searches": 2,
+   "fetches": 3
+  }
+ }
+}

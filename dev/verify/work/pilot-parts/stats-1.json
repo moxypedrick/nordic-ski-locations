@@ -1,0 +1,66 @@
+{
+ "searches": 27,
+ "fetches": 34,
+ "perArea": {
+  "parc-de-la-yamaska-qc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "birch-brook-nordic-ski-club-nl": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "thunder-lake-prov-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "club-de-ski-de-fond-skirakdoo-nb": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "algonquin-nordic-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "wasaga-beach-prov-park-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "parc-daiguebelle-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "reserve-faunique-de-portneuf-qc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "sylvan-hill-park-wi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "jack-lake-trails-wi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "00228de8502fb066a54f29b9a73a08b5537ae7dc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "633daf067a4b11ea42c9a78b5ff8cbf0c94df565": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "c77d78da8bd41ea7ec9b872db681c37d446ce143": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "northfield-mountain-ma": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "404f9961432a5c4db64c85b97591e6bbe7c7f8fc": {
+   "searches": 4,
+   "fetches": 2
+  }
+ }
+}

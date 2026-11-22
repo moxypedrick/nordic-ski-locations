@@ -1,0 +1,450 @@
+[
+ {
+  "id": "love-creek-county-park-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.berriencounty.org/436/Cross-Country-Skiing",
+  "evidence": [
+   {
+    "url": "https://www.berriencounty.org/436/Cross-Country-Skiing",
+    "date": null,
+    "summary": "County parks page lists groomed skate and classic trails at Love Creek, rentals and winter trail permits (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "berriencounty.org returns 403 to fetches; evidence from search snippets only."
+ },
+ {
+  "id": "french-regional-park-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.threeriversparks.org/location/french-regional-park",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/page/trail-conditions-cross-country-skiing",
+    "date": "2026-03-19",
+    "summary": "Three Rivers Parks ski conditions page lists French Regional Park, entry updated March 2026 (end of season)."
+   },
+   {
+    "url": "https://www.threeriversparks.org/location/french-regional-park",
+    "date": null,
+    "summary": "Park page lists 5.8 miles of lighted, daily-groomed ski trails; pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "river-valley-outdoor-centre-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "edmonton.ca returned 502 to every fetch. No current facility by this name found; city grooms nearby river valley trails (Kinsmen, Victoria Park), so may be renamed or merged."
+ },
+ {
+  "id": "negaunee-township-ski-trail-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.negauneetownship.org/negaunee_township_trails.php",
+  "evidence": [
+   {
+    "url": "https://www.negauneetownship.org/negaunee_township_trails.php",
+    "date": null,
+    "summary": "Township trails page lists Community Center and Kivela Road trails but does not mention skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "russian-jack-park-ak-3",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.muni.org/Departments/parks/Pages/IceTrailStatus.aspx",
+    "date": "2026-04-07",
+    "summary": "Anchorage ski trail status table lists Russian Jack North and South; marked not maintained at season end (snippet)"
+   },
+   {
+    "url": "https://www.trailforks.com/report/4517890/",
+    "date": "2026-04-02",
+    "summary": "Third-party skier report describes freshly groomed Russian Jack ski trails in April 2026 (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of russian-jack-park-ak and russian-jack-park-ak-2 (Russian Jack Park). muni.org status page returned 404 to fetches; evidence from snippets."
+ },
+ {
+  "id": "copper-harbor-pathway-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.copperharbortrails.org/winter-trails",
+  "evidence": [
+   {
+    "url": "https://copperharbor.org/wp-content/uploads/Visit-Keweenaw-Winter-Trail-Report_03-14-2026.pdf",
+    "date": "2026-03-14",
+    "summary": "Regional trail report lists Copper Harbor ski trails groomed in February and March 2026; pathway not named."
+   },
+   {
+    "url": "https://www.copperharbortrails.org/winter-trails",
+    "date": null,
+    "summary": "Trails club page describes groomed classic and skate ski network at Copper Harbor."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "university-of-minnesota-golf-course-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://recwell.umn.edu/outdoor-adventures/nordic-ski",
+  "evidence": [
+   {
+    "url": "https://www.fox9.com/news/university-minnesota-poised-sell-les-bolstad-golf-course-30-5-million",
+    "date": null,
+    "summary": "News says university is selling Les Bolstad Golf Course site; ski trail future not stated (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "recwell.umn.edu returned 403 to fetches. Course (Les Bolstad) closed and is being sold for development; ski trails may have ended but no source says so."
+ },
+ {
+  "id": "mohonk-mountain-ny",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.mohonk.com/a-day-at-mohonk/winter-recreation/",
+  "evidence": [
+   {
+    "url": "https://www.mohonk.com/wp-content/uploads/2026/02/Winter-Trail-Report-2-4-2026.pdf",
+    "date": "2026-02-04",
+    "summary": "Mohonk trail report: all ski trails open, groomed and tracked, about 50 km, excellent conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hiawatha-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+  "evidence": [
+   {
+    "url": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+    "date": null,
+    "summary": "Minneapolis Parks ski page lists 4.1 km classic and skate trail at Hiawatha Golf Course, groomed when snow allows."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "penokee-mountain-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/penokee-mountain-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/penokee-mountain-trail",
+    "date": "2025-06-25",
+    "summary": "National Forest page says trail is groomed and tracked for classic skiing; updated June 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "white-grass-wv",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whitegrass.com/",
+  "evidence": [
+   {
+    "url": "https://www.whitegrass.com/daily-report/",
+    "date": "2026-11-01",
+    "summary": "Daily report (November 2026 images) describes pre-season trail work; opening after Thanksgiving or first skiable snow."
+   },
+   {
+    "url": "https://www.whitegrass.com/",
+    "date": null,
+    "summary": "Official site sells season and day passes; lists daily ski area hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "national-mine-ski-area-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Could not identify a current ski area at National Mine; only old directory listings. Possibly confused with Ishpeming Ski Club trails (Suicide Bowl), but location does not match."
+ },
+ {
+  "id": "muskeg-creek-ski-trails-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://athabasca.ca/p/Muskeg-Creek-Park",
+  "evidence": [
+   {
+    "url": "https://athabasca.ca/p/Muskeg-Creek-Park",
+    "date": null,
+    "summary": "Town park page says trails are groomed for classic and skate skiing in winter, loops 1.2 to 10 km."
+   },
+   {
+    "url": "https://zone4.ca/register.asp?id=39812",
+    "date": null,
+    "summary": "Athabasca Nordic club 2025/2026 membership and Jackrabbit registration at Muskeg Creek Chalet (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mississippi-national-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=115",
+    "date": "2026-01-17",
+    "summary": "Third-party trail report says golf course and bluff trails groomed for skate and classic after new snow (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "skinnyski previous-season page returned 403; grooming report seen only in search snippet. Golf course site does not mention skiing."
+ },
+ {
+  "id": "forest-history-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mnhs.org/foresthistory/activities/trails",
+  "evidence": [
+   {
+    "url": "https://www.mnhs.org/foresthistory/activities/trails",
+    "date": null,
+    "summary": "Site says 5 miles of maintained trails open year-round for skiing and snowshoeing; grooming not stated."
+   },
+   {
+    "url": "https://www.mnhs.org/foresthistory",
+    "date": null,
+    "summary": "Live site lists events for November and December 2026, confirming current operations."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "brown-deer-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://county.milwaukee.gov/EN/Parks/Experiences/In-the-Snow",
+  "evidence": [
+   {
+    "url": "https://county.milwaukee.gov/EN/Parks/Experiences/In-the-Snow",
+    "date": "2025-03-01",
+    "summary": "County winter page lists Brown Deer groomed classic and skate trails; ski map updated March 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "county.milwaukee.gov returned 403 to fetches; evidence from search snippets."
+ },
+ {
+  "id": "lake-kegonsa-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation/winter",
+    "date": null,
+    "summary": "DNR winter page lists about five miles of ski trails tracked for classic and groomed for skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "landrose-ski-trailsllyodminster-ski-club-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "http://www.lloydminstercrosscountryskiclub.com/",
+  "evidence": [
+   {
+    "url": "http://www.lloydminstercrosscountryskiclub.com/",
+    "date": "2026-01-18",
+    "summary": "Club site lists 2025-26 moonlight skis, loppet and Jackrabbits at Poplar Bluff trail east of Lloydminster."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club site does not mention Landrose; its Poplar Bluff trail, about 20 km east of Lloydminster, fits these coordinates and may be the same trail under a new name."
+ },
+ {
+  "id": "saint-marys-university-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://studentactivities.smumn.edu/university-recreation/",
+  "evidence": [
+   {
+    "url": "https://studentactivities.smumn.edu/university-recreation/",
+    "date": null,
+    "summary": "University recreation page describes campus nordic ski trail system by difficulty; trail map uploaded July 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lone-rock-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://rroc.cfans.umn.edu/visitors/lone-rock-trail",
+  "evidence": [
+   {
+    "url": "https://rroc.cfans.umn.edu/visitors/lone-rock-trail",
+    "date": "2026-11-13",
+    "summary": "Research centre page lists 2025-26 ski season, groomed with Dakota County; part of trail temporarily closed May 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cross-country-ski-headquarters-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://crosscountryski.com/our-ski-trails/",
+  "evidence": [
+   {
+    "url": "https://crosscountryski.com/category/ski-conditions/",
+    "date": "2026-03-14",
+    "summary": "Official conditions posts: all trails open mid-March 2026; trails closed for season March 25, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "spidahl-ski-gaard-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skigaard.com/",
+  "evidence": [
+   {
+    "url": "https://www.skigaard.com/conditions",
+    "date": "2026-02-28",
+    "summary": "Official conditions page: trails closed for ice, to reopen after snowfall; season passes offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mount-itasca-mn",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.mtitasca.com/",
+  "evidence": [
+   {
+    "url": "https://www.kaxe.org/show/91-7-kaxe-90-5-kbxe-morning-show/2026-02-26/miss-the-olympics-catch-snowboarding-and-ski-jumping-in-coleraine",
+    "date": "2026-02-26",
+    "summary": "Radio piece on February 2026 ski jumping and snowboard events at Mt. Itasca; no cross-country mention (snippet)."
+   },
+   {
+    "url": "https://www.northernlightsnordic.org/trails/?trail_id=9",
+    "date": null,
+    "summary": "Local nordic club lists 10 km skate and classic trail at Mount Itasca; no current reports."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "mtitasca.com loads but its content is built with scripts, so nothing could be read."
+ },
+ {
+  "id": "ney-nature-center-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://neycenter.org/visit-us/winter-open-hours/",
+  "evidence": [
+   {
+    "url": "https://neycenter.org/visit-us/winter-open-hours/",
+    "date": "2026-03-16",
+    "summary": "Centre winter page has trail updates December 2025 to March 2026; classic trails groomed, ski rentals offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jasper-park-lodge-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://fairmont.com/jasper/activities/winter-adventures",
+  "evidence": [
+   {
+    "url": "https://fairmont.com/jasper/activities/winter-adventures",
+    "date": "2026-10-15",
+    "summary": "Lodge winter page: Winter Activity Centre opening soon, offers nordic skiing on groomed trails; 2026-27 winter offers listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

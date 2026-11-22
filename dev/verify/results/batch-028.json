@@ -1,0 +1,456 @@
+[
+ {
+  "id": "club-de-ski-de-fond-le-norvegien-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://lenorvegien.ca/",
+  "evidence": [
+   {
+    "url": "https://lenorvegien.ca/",
+    "date": "2026-10-01",
+    "summary": "Live club site in Jonquière offering ski de fond, with 2026 AGM notice and 2025-26 school bookings."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-dalma-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://search.open.canada.ca/grants/record/ced-dec%2C093-2014-2015-Q3-00102%2Ccurrent",
+    "date": null,
+    "summary": "Federal grant record names Club de ski de fond d Alma inc.; about 2014-15, no current info. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-tobo-ski-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://toboski.ca/",
+  "evidence": [
+   {
+    "url": "https://saguenaylacsaintjean.ca/en/member/what-to-do/tobo-ski",
+    "date": null,
+    "summary": "Regional tourism listing (2026 site) shows 20 km ski de fond at Tobo-Ski, online tickets advised."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Official site builds content with scripts; nothing readable on it."
+ },
+ {
+  "id": "chibougamau-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://montchalco.ca/",
+  "evidence": [
+   {
+    "url": "https://montchalco.ca/",
+    "date": "2026-11-01",
+    "summary": "Mont-Chalco site lists 27 km ski de fond in Obalski park; 2026-27 season pass presale running."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "centre-de-plein-air-st-nazaire-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://sortirauquebec.com/en/listing/campgrounds-and-glamping/camping-base-de-plein-air-saint-nazaire/",
+    "date": null,
+    "summary": "Saint-Nazaire base de plein air listed only as a summer campground; no ski trails found. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-de-mt-valin-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/sites/default/files/documents/mva_guide_sentiers_hiver.pdf",
+    "date": "2025-10-01",
+    "summary": "Sepaq 2025-2026 winter trail guide for Monts-Valin lists nordic ski trails. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sepaq pages return 403; official page likely https://www.sepaq.com/en/destinations/national-parks/monts-valin but could not be loaded."
+ },
+ {
+  "id": "parc-du-saguenay-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://saguenaylacsaintjean.ca/en/discover-saglac/itineraries/cross-country-skiing-snowshoeing-and-fatbike",
+    "date": null,
+    "summary": "Regional winter table lists Fjord-du-Saguenay park for snowshoeing only; no ski trail data."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sepaq pages return 403; official park page could not be loaded. Sepaq winter info mentions snowshoeing only (snippet)."
+ },
+ {
+  "id": "sentier-de-la-riviere-amedee-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://sentiersriviereamedee.ca/",
+  "evidence": [
+   {
+    "url": "https://sentiersriviereamedee.ca/",
+    "date": null,
+    "summary": "Live club site describes 38.5 km of ski de fond trails; newest date shown is 2023-24."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sentier-nor-fond-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.norfond.ca/",
+  "evidence": [
+   {
+    "url": "https://www.norfond.ca/",
+    "date": "2026-11-07",
+    "summary": "Club Norfond site advertises 2026-27 membership card sale in November; trail conditions page live."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-rapido-de-sept-iles-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "http://www.clubrapido.ca/",
+  "evidence": [
+   {
+    "url": "http://www.clubrapido.ca/",
+    "date": "2026-11-16",
+    "summary": "Club Rapido site sells 2026-27 memberships at pre-season price from November 16."
+   },
+   {
+    "url": "https://ground.news/article/the-cross-country-ski-slopes-of-the-club-rapido-de-sept-iles-already-accessible",
+    "date": "2025-11-28",
+    "summary": "Local news: 2025-26 season opened early at Club Rapido, about half the trails open."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-anik-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "pohenegamook-sante-plein-air-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.tourismetemiscouata.qc.ca/quebec-vacations/members/Open-air/Winter-Activities/Sentiers-hivernaux-de-Pohenegamook.aspx",
+    "date": null,
+    "summary": "Pohénégamook winter trails listed for snowshoe or walking only; no ski de fond trails mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "val-neigette-qc",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.pleinairalacarte.com/en/qc/bas-saint-laurent-en/val-neigette/",
+    "date": "2024-09-12",
+    "summary": "Outdoor directory states Val Neigette ski station is permanently closed; no cross-country trails listed."
+   },
+   {
+    "url": "https://www.skiresort.info/ski-resort/val-neigette/",
+    "date": null,
+    "summary": "Ski resort directory says the resort shut down and skiing is no longer possible. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Closure seen only on directory sites; no news article or owner statement found."
+ },
+ {
+  "id": "centre-de-plein-air-de-saint-damase-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.basepleinair.com/fr/",
+  "evidence": [
+   {
+    "url": "https://www.basepleinair.com/fr/",
+    "date": null,
+    "summary": "Base Plein Air St-Damase site lists only snowmobile and ATV for winter; no ski de fond mentioned."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "station-de-ski-val-direne-qc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://valdi.ski/",
+  "evidence": [
+   {
+    "url": "https://valdi.ski/",
+    "date": "2026-04-21",
+    "summary": "Val-d Irène park site lists ski de fond trails, April 2026 conditions and a November 2026 AGM."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "base-de-plein-air-des-outaouais-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://aireaubois.com/",
+  "evidence": [
+   {
+    "url": "https://www.bonjourquebec.com/en/listing/to-see-and-do/base-de-plein-air-air-eau-bois/0pry",
+    "date": null,
+    "summary": "Tourism listing says Air-Eau-Bois base near Denholm offers ski de fond on 15+ km of trails. (snippet)"
+   },
+   {
+    "url": "https://aireaubois.com/",
+    "date": "2026-10-05",
+    "summary": "Air-Eau-Bois site live with 2027 winter camp; no ski de fond trails described."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Possibly renamed to Base de plein air Air-Eau-Bois (Denholm); link to old name not confirmed."
+ },
+ {
+  "id": "parc-de-la-gaspesie-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/destinations/national-parks/gaspesie/activities/cross-country-skiing",
+    "date": null,
+    "summary": "Sepaq page: three groomed cross-country trails, December to April season. (snippet)"
+   },
+   {
+    "url": "https://www.tourisme-gaspesie.com/en/outdoor-activities/parc-national-de-la-gaspesie/",
+    "date": "2025-12-27",
+    "summary": "Tourism listing gives park ski season December 27, 2025 to April 6, 2026. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sepaq and Tourisme Gaspésie pages return 403; official page https://www.sepaq.com/en/destinations/national-parks/gaspesie/activities/cross-country-skiing could not be loaded."
+ },
+ {
+  "id": "centre-de-plein-air-de-saint-simeon-qc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.stsimeon.ca/centre-plein-air",
+  "evidence": [
+   {
+    "url": "https://www.stsimeon.ca/centre-plein-air",
+    "date": null,
+    "summary": "Saint-Siméon (Bonaventure) municipal page lists ski touring and snowshoeing; chalet open regularly in winter."
+   },
+   {
+    "url": "https://www.stsimeon.ca/",
+    "date": null,
+    "summary": "Municipality seeks canteen operator for the centre plein air for the 2026-27 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "base-de-plein-air-de-bellefeuille-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://basedebellefeuille.com/",
+  "evidence": [
+   {
+    "url": "https://basedebellefeuille.com/",
+    "date": null,
+    "summary": "Bellefeuille base site in Pabos Mills lists camps and chalets only; no ski de fond or winter trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-national-forillon-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parcs.canada.ca/pn-np/qc/forillon/activ/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parcs.canada.ca/pn-np/qc/forillon/activ/hiver-winter",
+    "date": "2026-11-16",
+    "summary": "Parks Canada winter page lists volunteer-groomed ski trails and ski pass prices; modified November 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "centre-de-ski-mont-sainte-marie-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://montstemarie.com/",
+  "evidence": [
+   {
+    "url": "https://montstemarie.com/pages/conditions",
+    "date": null,
+    "summary": "Resort site live, closed for 2025/26 season; only alpine terrain listed, no nordic trails."
+   },
+   {
+    "url": "https://www.tourismeoutaouais.com/en/attractions/trails-of-lac-sainte-marie/",
+    "date": null,
+    "summary": "Tourism listing: LSM Expedition runs 5 km of ski trails from the resort address, undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "reserve-faunique-de-papineau-labelle-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.petitenationoutaouais.com/en/attraits/club-skira-sentiers-de-ski-raquette-et-randonnee-pedestre/",
+    "date": null,
+    "summary": "Tourism listing: volunteer Club Skira keeps ski trails in the reserve near Duhamel; no dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sepaq pages return 403; reserve page https://www.sepaq.com/en/destinations/wildlife-reserves/papineau-labelle could not be loaded."
+ },
+ {
+  "id": "chateau-montebello-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://fairmont.com/montebello/activities/winter-getaway",
+  "evidence": [
+   {
+    "url": "https://fairmont.com/montebello/activities/holiday-season-at-the-castle",
+    "date": "2026-12-23",
+    "summary": "Fairmont 2026-27 holiday offer page mentions direct access to groomed cross-country ski trails. (snippet)"
+   },
+   {
+    "url": "https://fairmont.com/montebello/activities/resort-fee",
+    "date": null,
+    "summary": "Hotel resort fee page lists 15 km of groomed cross-country trails in winter. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "montevillamontebello-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.centris.ca/fr/maison~a-vendre~notre-dame-de-bonsecours/10170721",
+    "date": null,
+    "summary": "Property ad describes Montevilla as a private 225-acre estate for its thirty owners. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-du-mont-comi-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://mont-comi.ca/",
+  "evidence": [
+   {
+    "url": "https://mont-comi.ca/",
+    "date": "2026-03-28",
+    "summary": "Mont-Comi site has ski de fond pages and rates, March 2026 season-pass presale and conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

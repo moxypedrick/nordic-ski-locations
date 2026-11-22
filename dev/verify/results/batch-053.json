@@ -1,0 +1,176 @@
+[
+ {
+  "id": "totogatic-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://co.washburn.wi.us/departments/forestry/",
+  "evidence": [
+   {
+    "url": "https://co.washburn.wi.us/departments/forestry/",
+    "date": null,
+    "summary": "Washburn County Forestry page lists Totogatic ski trail north of Minong, 8 km, groomed classic only."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "quarry-hill-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.rasc-mn.org/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://www.rasc-mn.org/nordic-skiing",
+    "date": null,
+    "summary": "Rochester club page offers free skiing and volunteer grooming at Quarry Hill for the 2025-2026 winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cam-rock-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.danecountyparks.com/park/CamRock",
+  "evidence": [
+   {
+    "url": "https://www.danecountyparks.com/park/CamRock",
+    "date": null,
+    "summary": "Dane County parks page lists groomed cross-country ski trail at Cam-Rock; page shows November 2026 notices."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "big-bay-pathway-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.noquetrails.org/big-bay-pathway/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=499",
+    "date": "2026-03-04",
+    "summary": "Skinnyski report says classic tracks were set and Bear Mountain groomed for the season (snippet)."
+   },
+   {
+    "url": "https://www.noquetrails.org/big-bay-pathway/",
+    "date": null,
+    "summary": "Noquemanon Trail Network page describes 16 km of groomed classic loops at Big Bay."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "vadnaissucker-lakes-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=501",
+    "date": "2025-12-03",
+    "summary": "Skinnyski page shows a December 2025 grooming report for Vadnais Lakes (snippet)."
+   },
+   {
+    "url": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/cross-country-skiing",
+    "date": null,
+    "summary": "Ramsey County ski page lists Vadnais-Snail Lakes park and weekly grooming updates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "wolf-lake-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+  "evidence": [
+   {
+    "url": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+    "date": null,
+    "summary": "Crow Wing County page lists 5.6-mile Wolf Lake ski trail near Ironton, groomed regularly in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "peninsula-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists 16 miles of groomed classic trails and a state trail pass requirement."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate DNR park page had no ski content; the park winter page was used."
+ },
+ {
+  "id": "maple-lane-ski-center-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.facebook.com/Steno43/",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=497",
+    "date": "2025-03-02",
+    "summary": "Skinnyski report from March 2025 mentions grooming at Maple Lane near Skandia (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Facebook page (Maple Lane Sports, Skandia) is the only official page found; no website. Facebook content not readable."
+ },
+ {
+  "id": "audubon-center-of-the-north-woods-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ospreywilds.org/aboutus/buildings-grounds/",
+  "evidence": [
+   {
+    "url": "https://ospreywilds.org/aboutus/buildings-grounds/",
+    "date": null,
+    "summary": "Osprey Wilds page says most campus trails are groomed for cross-country skiing; site lists 2026-27 programs."
+   }
+  ],
+  "suggestedName": "Osprey Wilds",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Same Sandstone MN campus (54165 Audubon Dr) now operates as Osprey Wilds; rename not stated on site but address matches."
+ },
+ {
+  "id": "riverside-trail-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Likely Riverside Park, Niagara WI; only an undated Iron Mountain tourism listing found, no land-manager or dated evidence."
+ }
+]

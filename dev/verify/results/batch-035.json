@@ -1,0 +1,160 @@
+[
+ {
+  "id": "carlton-trail-ski-club-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://carltontrailskiclub.weebly.com/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/centres/CA/SK/Carlton-Trail-Dixon",
+    "date": "2026-01-03",
+    "summary": "Nordic Pulse grooming report says north trails freshly groomed at Dixon; club site describes current trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "greenwater-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/greenwater-lake",
+  "evidence": [
+   {
+    "url": "https://www.tourismsaskatchewan.com/listings/1805/greenwater-lake-provincial-park-trails",
+    "date": null,
+    "summary": "Provincial park trail listing gives over 25 km of classic and skate ski trails; undated."
+   }
+  ],
+  "suggestedName": "Greenwater Lake Provincial Park",
+  "method": "research",
+  "comment": "Official park page loaded but showed almost no content (script-built).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hudson-bay-ski-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://townofhudsonbay.com/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://townofhudsonbay.com/cross-country-skiing/",
+    "date": null,
+    "summary": "Town page describes Hudson Bay Ski Club grooming about 30 km at Pineview; 2026 copyright."
+   }
+  ],
+  "suggestedName": "Hudson Bay Ski Club",
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "nipawin-regional-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://nipawin.com/playground/skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://nipawin.com/playground/skiing-snowshoeing/",
+    "date": null,
+    "summary": "Town of Nipawin page lists groomed ski trails linking Evergreen Golf Course and Regional Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Suspected duplicate of nipawin-ski-trails-sk.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "nipawin-ski-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://nipawin.com/playground/skiing-snowshoeing/",
+  "evidence": [
+   {
+    "url": "https://nipawin.com/playground/skiing-snowshoeing/",
+    "date": null,
+    "summary": "Town of Nipawin page lists about 7 km groomed town trails and 13 km provincial trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Suspected duplicate of nipawin-regional-park-sk; evidence shared from same search.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "narrow-hills-provincial-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "candle-lake-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.candlelake.ca/p/activity-trails",
+  "evidence": [
+   {
+    "url": "https://www.candlelake.ca/p/activity-trails",
+    "date": null,
+    "summary": "Resort Village page offers a cross-country ski map and lists ski activity on Candle Lake trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lac-la-ronge-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "http://nordic-pulse.com/ski-areas/CA/SK/La-Ronge-Nut-Point",
+    "date": "2025-12-12",
+    "summary": "Nordic Pulse grooming report for Nut Point ski trails in La Ronge dated December 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "No park or club page loaded with ski details.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "weyburn-cross-country-ski-trails-sk",
+  "status": "closed",
+  "confidence": "medium",
+  "officialUrl": "https://weyburn.ca/cross-country-ski-trails/",
+  "evidence": [
+   {
+    "url": "https://weyburn.ca/cross-country-ski-trails/",
+    "date": null,
+    "summary": "City page says Weyburn no longer has groomed ski trails; skiers must break their own."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "carlton-trail-regional-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://saskregionalparks.ca/park/carlton-trail/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Tourism listing says trails convert to skiing in winter, but the park page lists no skiing and a May-Sept season.",
+  "checkedDate": "2026-11-22"
+ }
+]

@@ -1,0 +1,431 @@
+[
+ {
+  "id": "bowring-rotary-parks-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://stjohns.ca/recreation-culture/facilities-parks-trails/parks-playgrounds/bowring-park/",
+  "evidence": [
+   {
+    "url": "https://m.stjohns.ca/node/21787",
+    "date": null,
+    "summary": "City winter page says Bowring Park trails are free; bring your own skis or snowshoes. Not groomed. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "City page with ski mention failed to load (SSL error); evidence from search snippet only."
+ },
+ {
+  "id": "owen-conservation-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofmadison.com/parks/find-a-park/owen/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.cityofmadison.com/parks/find-a-park/owen/cross-country-skiing",
+    "date": null,
+    "summary": "Live City of Madison page lists about 2 miles of free roll-groomed ski trails at Owen Conservation Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "staring-lake-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.edenprairiemn.gov/amenities/parks-trails-recreation/recreational-amenities/staring-lake-sledding-hill-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.edenprairiemn.gov/amenities/parks-trails-recreation/recreational-amenities/staring-lake-sledding-hill-ski-trails",
+    "date": null,
+    "summary": "City page says Eden Prairie High School grooms Staring Lake ski trails after significant snowfalls; free use. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "City page returned 403 Forbidden; evidence from search snippet only."
+ },
+ {
+  "id": "pine-point-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.washingtoncountymn.gov/facilities/facility/details/pinepointregionalpark-16",
+  "evidence": [
+   {
+    "url": "https://www.washingtoncountymn.gov/facilities/facility/details/pinepointregionalpark-16",
+    "date": null,
+    "summary": "Live Washington County park page lists cross-country ski trails and a winter trails map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mirror-lake-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation/winter",
+    "date": null,
+    "summary": "Live Wisconsin DNR winter page lists about 19 miles of groomed skate and classic ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "les-aventuriers-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.charloaventuriers.com/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/NB/Les-Aventuriers-de-Charlo",
+    "date": "2024-12-23",
+    "summary": "Nordic Pulse trail report for Les Aventuriers de Charlo posted December 2024."
+   },
+   {
+    "url": "https://www.charloaventuriers.com/",
+    "date": "2023-03-31",
+    "summary": "Club site live, with membership and hours; latest dated post is end of 2023 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-la-balade-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://lessentierslabalade.com/",
+  "evidence": [
+   {
+    "url": "https://lessentierslabalade.com/",
+    "date": "2026-11-13",
+    "summary": "Official site of Les Sentiers La Balade, Lévis, selling 2026-27 winter passes; news dated November 2026."
+   }
+  ],
+  "suggestedName": "Les Sentiers La Balade de Lévis",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Old domain skidefondlabalade.org now hosts an unrelated casino site. Area now operates as Les Sentiers La Balade de Lévis."
+ },
+ {
+  "id": "telluride-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.telluridenordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.telluridenordic.com/",
+    "date": null,
+    "summary": "Telluride Nordic Association site says grooming ended for the 2025-26 season; memberships offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "garland-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://golfgarland.com/winter/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://golfgarland.com/winter/",
+    "date": null,
+    "summary": "Garland resort winter page lists 2026-27 season dates; Nordic Center sells daily and season trail passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "erkki-harju-ski-trail-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.facebook.com/2harborsskitrail",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=81",
+    "date": "2024-03-01",
+    "summary": "Skinnyski grooming notes from early 2024; none found for later seasons."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Only official source is the Two Harbors Area Recreational Trail Alliance Facebook page, which could not be read (login wall)."
+ },
+ {
+  "id": "strathcona-science-provincial-park-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/central/strathcona-science-pp/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/central/strathcona-science-pp/",
+    "date": "2026-07-23",
+    "summary": "Live Alberta Parks page lists cross-country skiing; advisory notes a short trail section closed, rest open."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gordon-bubolz-nature-preserve-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://bubolzpreserve.org/plan-a-visit/cross-country-skiing-and-snowshoe-rentals/",
+  "evidence": [
+   {
+    "url": "https://bubolzpreserve.org/plan-a-visit/cross-country-skiing-and-snowshoe-rentals/",
+    "date": null,
+    "summary": "Preserve page lists groomed ski trails, rental rates and hours; site shows events dated late 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "theodore-wirth-south-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/theodore_wirth_regional_park/",
+  "evidence": [
+   {
+    "url": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/theodore_wirth_regional_park/",
+    "date": null,
+    "summary": "Live Minneapolis Parks page lists cross-country ski trails, nearly 12 km, with snowmaking."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hyland-lake-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.threeriversparks.org/HylandLakeParkReserve",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/page/trail-conditions-cross-country-skiing",
+    "date": "2026-03-27",
+    "summary": "Three Rivers ski trail conditions page updated March 2026 for Hyland Lake; 9.5 miles groomed trails listed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-washington-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.mountwashington.ca/nordic-conditions.html",
+  "evidence": [
+   {
+    "url": "https://www.mountwashington.ca/nordic-conditions.html",
+    "date": "2026-11-13",
+    "summary": "Resort Nordic conditions feed updated November 2026 lists 20 Nordic trails, not yet open for season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "murphys-point-prov-park-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ontarioparks.ca/park/murphyspoint/activities",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/murphyspoint/activities",
+    "date": null,
+    "summary": "Live Ontario Parks page lists classic and skate ski trails groomed with Tay Valley ski club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bagley-nature-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://umdrsop.d.umn.edu/about/facilities/bagley-nature-area",
+  "evidence": [
+   {
+    "url": "https://umdrsop.d.umn.edu/about/facilities/bagley-nature-area",
+    "date": null,
+    "summary": "Live UMD RSOP page says Bagley ski trails are groomed for classic skiing January through February."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "northland-arboretum-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northlandarb.org/winter-recreation/",
+  "evidence": [
+   {
+    "url": "https://northlandarb.org/winter-recreation/",
+    "date": null,
+    "summary": "Live arboretum winter page lists 15 km of ski trails groomed by Brainerd Nordic Ski Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "centre-touristique-de-la-petite-rouge-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Could not identify a current ski centre by this name near Saint-Émile-de-Suffolk. Old domain petiterouge.com is parked for sale."
+ },
+ {
+  "id": "government-peak-ak-3",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.matsuski.org/",
+  "evidence": [
+   {
+    "url": "https://www.matsuski.org/",
+    "date": "2026-11-13",
+    "summary": "Mat-Su Ski Club site has November 2026 newsletter; trail report page covers GPRA ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "saux-head-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.noquetrails.org/north-trails-2",
+  "evidence": [
+   {
+    "url": "https://www.noquetrails.org/north-trails-2",
+    "date": null,
+    "summary": "Live Noquemanon Trail Network page says Saux Head has about 12 km groomed for classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "arrowhead-golf-club-il",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://arrowheadgolfclub.org/about-cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://arrowheadgolfclub.org/about-cross-country-skiing/",
+    "date": null,
+    "summary": "Golf club ski page describes free groomed course trails, rental rates and status line."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "coulee-experimental-state-forest-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/coulee/recreation",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/coulee/recreation",
+    "date": null,
+    "summary": "Live Wisconsin DNR page says volunteers groom 12 miles of ski trail on the property."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "minnesota-landscape-arboretum-mn",
+  "status": "unverified",
+  "confidence": "medium",
+  "officialUrl": "https://arb.umn.edu/winter",
+  "evidence": [
+   {
+    "url": "https://arb.umn.edu/winter",
+    "date": null,
+    "summary": "Arboretum winter page says no groomed cross-country ski trails will be offered this year."
+   },
+   {
+    "url": "https://arb-apps-pub.oit.umn.edu/WinterCondition/getweather.aspx",
+    "date": "2026-03-17",
+    "summary": "Conditions report listed ski trails closed with no grooming done in March 2026. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "gooseberry-falls-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00172",
+  "evidence": [
+   {
+    "url": "https://www.northshorevisitor.com/winter-activities/trail-reports",
+    "date": "2026-02-28",
+    "summary": "North Shore trail report says all Gooseberry Falls ski trails groomed 2/28, conditions fair. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "DNR park page builds its content with scripts; park details could not be read."
+ }
+]

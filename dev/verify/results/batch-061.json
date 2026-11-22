@@ -1,0 +1,148 @@
+[
+ {
+  "id": "lac-qui-parle-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/lac_qui_parle/index.html",
+  "evidence": [],
+  "method": "site-check",
+  "comment": "DNR park page loaded but park content was script-built; only a 2014 county tourism post mentions skiing; no dated 2024+ evidence.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "maple-bluff-country-club-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://maplebluffcc.clubhouseonline-e3.com/Golf/Course_Overview",
+  "evidence": [],
+  "method": "research",
+  "comment": "Private golf club in Madison; no source mentions skiing there. Club site has no ski page.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "red-barn-ski-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Could not identify the area; skinnyski page says trail not found or no longer open (directory only, not closure evidence).",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "burl-oaks-golf-club-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Renamed Crooked Water Golf Club (Minnetrista), private, under redesign for 2027 reopening; no skiing evidence. Old site dead.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "brandt-pines-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/govknowles/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/govknowles/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists Brandt Pines with 9 miles groomed for classic and skate; state trail pass required."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "no-achen-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://aitkincountymn.gov/departments/gis/pdf/noachen.pdf",
+  "evidence": [
+   {
+    "url": "https://aitkincountymn.gov/departments/land/land-winter.php",
+    "date": null,
+    "summary": "Aitkin County Land Department page lists No Achen among groomed cross-country trails; MN ski pass required (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "County winter page returned 404 on fetch; evidence from search snippet. Official URL is the county trail map PDF.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "viking-shipdavy-park-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.moorheadmn.gov/parks-rec/winter-activities/",
+  "evidence": [
+   {
+    "url": "https://www.moorheadmn.gov/parks-rec/winter-activities/",
+    "date": "2026-12-12",
+    "summary": "City winter page lists groomed Viking Ship ski trails; rentals run Dec 12, 2026 to Feb 28, 2027."
+   }
+  ],
+  "method": "research",
+  "comment": "Page lists Viking Ship South and Viking Ship/Memorial/Riverfront trails; Davy Park not named separately. Old Moorhead URL was dead.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "ritter-farm-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://lakevillemn.gov/1295/Ritter-Farm-Park",
+  "evidence": [
+   {
+    "url": "https://lakevillemn.gov/1506/Cross-Country-Ski-Snowmobile-Trails",
+    "date": null,
+    "summary": "City of Lakeville page says city and Sno-Trackers groom ski trails; park page lists cross-country skiing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "wyalusing-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/wyalusing/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/wyalusing/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page says trails are groomed for classic and skate skiing at Wyalusing."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sugar-hills-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=8",
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=8",
+    "date": "2025-12-01",
+    "summary": "Club page for Sugar Hills shows December 2025 photo of trails being packed; warming room hours listed."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

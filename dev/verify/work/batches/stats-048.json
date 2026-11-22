@@ -1,0 +1,46 @@
+{
+ "searches": 12,
+ "fetches": 17,
+ "perArea": {
+  "heartwood-ski-trails-wi": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "bear-head-lake-state-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "pattison-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "magney-snively-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "riverside-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "ladysmith-high-school-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "browns-creek-nature-preserve-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lake-wissota-state-park-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "barsness-park-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "kivela-road-trail-mi": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

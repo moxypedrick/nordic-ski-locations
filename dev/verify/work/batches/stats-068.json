@@ -1,0 +1,46 @@
+{
+ "searches": 14,
+ "fetches": 13,
+ "perArea": {
+  "enchanted-forest-nm-2": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "macdonald-pass-cross-country-ski-trails-mt-2": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "pagosa-co": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "leavenworth-wa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "aspensnowmass-co": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "grand-mesa-co": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "tahoe-ca": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "hillside-ski-area-ak-2": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "hope-valley-ca": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "corwin-mills-nordic-centre-nl-2": {
+   "searches": 3,
+   "fetches": 1
+  }
+ }
+}

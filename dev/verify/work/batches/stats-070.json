@@ -1,0 +1,46 @@
+{
+ "searches": 9,
+ "fetches": 17,
+ "perArea": {
+  "blue-knob-pa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "chapin-forest-oh": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "coles-woods-ny": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "denton-hill-pa": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "elk-river-touring-center-wv": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "girdled-road-reservation-oh": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "herrington-manor-state-park-md": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "highlands-nordic-on-2": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "holden-arboretum-oh": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "horseshoe-valley-on": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

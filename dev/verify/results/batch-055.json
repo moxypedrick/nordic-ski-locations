@@ -1,0 +1,154 @@
+[
+  {
+    "id": "amen-lake-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.itascacountymn.gov/275/Hiking-Hunting-and-Skiing-Trails",
+    "evidence": [
+      {
+        "url": "https://www.itascacountymn.gov/275/Hiking-Hunting-and-Skiing-Trails",
+        "date": null,
+        "summary": "Itasca County page lists Amen Lake Trail as a 4.5 mile intermediate-advanced ski loop system."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "wildcat-mountain-state-park-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://dnr.wisconsin.gov/topic/parks/wildcat",
+    "evidence": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/wildcat/recreation/winter",
+        "date": null,
+        "summary": "Wisconsin DNR winter page says the park has 7 miles of cross-country ski trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "lake-minnewashta-regional-park-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://carvercountymn.gov/departments/public-works/parks-recreation/general-parks-information/events-activities/winter-recreation",
+        "date": null,
+        "summary": "Carver County winter page snippet says trails are groomed for skiing, with weekend rentals at Minnewashta (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Carver County site returned 403; evidence from search snippet only."
+  },
+  {
+    "id": "baylor-regional-park-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://carvercountymn.gov/departments/public-works/parks-recreation/general-parks-information/events-activities/winter-recreation",
+        "date": null,
+        "summary": "Carver County winter page snippet says Baylor grooms ski trails, with weekend rentals (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Carver County site returned 403; evidence from search snippet only."
+  },
+  {
+    "id": "spirit-river-nature-area-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://d2k8obwf4m6agx.cloudfront.net/event/annual-candlelight-ski-and-friluftsliv-festival-2025-02-08-cambridge-mn.html",
+        "date": "2025-02-08",
+        "summary": "Event listing for a candlelight ski festival on Spirit River Nature Area trails, Cambridge, Feb 2025 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "City of Cambridge page and ci.cambridge.mn.us document returned 403; evidence from search snippets only."
+  },
+  {
+    "id": "springvale-county-park-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://flute-alligator-76c5.squarespace.com/new-events-2/minnesota-snow-shoe-ski-meet-up",
+        "date": "2025-02-01",
+        "summary": "Third-party listing for a free snowshoe and ski meetup at Springvale County Park, Cambridge, Feb 2025 (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Isanti County page was blocked (403) and not fetched; evidence from search snippet only."
+  },
+  {
+    "id": "manka-trail-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=533",
+        "date": "2026-01-05",
+        "summary": "Skinnyski trail report dated Jan 2026 says all trails open with good skiing (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Rainylake.org page confirmed trail in International Falls, kept by Polar Polers Ski Club; no club site or official page found."
+  },
+  {
+    "id": "swan-lake-ski-trails-mn",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Tourism and skinnyski listings only: Swan Lake trail in Willmar, groomed by Willmar Nordic Ski Club; no dated evidence or club site found."
+  },
+  {
+    "id": "rice-lake-state-park-mn",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://www.dnr.state.mn.us/state_parks/rice_lake/index.html",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "DNR page loaded without park content; park not on DNR groomed-ski list; only older ungroomed-ski mentions, last dated March 2024."
+  },
+  {
+    "id": "moose-lake-state-park-mn",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://www.dnr.state.mn.us/state_parks/moose_lake/index.html",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "DNR page loaded without park content; park not on DNR groomed-ski list; no dated ski evidence found."
+  }
+]

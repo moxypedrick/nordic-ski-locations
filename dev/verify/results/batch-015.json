@@ -1,0 +1,467 @@
+[
+ {
+  "id": "black-jack-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skiblackjack.ca/",
+  "evidence": [
+   {
+    "url": "https://www.skiblackjack.ca/",
+    "date": "2026-11-09",
+    "summary": "Rossland club site posts November 2026 ski swap news, passes link and 2027 Westerns hosting."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nickel-plate-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://nickelplatenordic.org/",
+  "evidence": [
+   {
+    "url": "https://nickelplatenordic.org/",
+    "date": "2026-11-24",
+    "summary": "Nickel Plate Nordic Centre near Penticton: 2026/27 season passes on sale, November 2026 fundraiser."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "rangeley-lakes-me",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://rangeleylakestrailscenter.org/",
+  "evidence": [
+   {
+    "url": "https://rangeleylakestrailscenter.org/",
+    "date": "2027-03-06",
+    "summary": "Trails center lists 2026-27 events including Rangeley XC Ski Loppet; pass sale through November 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "flambeau-hills-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/flambeauriver/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/flambeauriver/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists 14 miles of groomed ski trails in Flambeau River State Forest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "government-peak-ak",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.matsuski.org/mssc-trail-report",
+  "evidence": [
+   {
+    "url": "https://www.matsuski.org/mssc-trail-report",
+    "date": "2026-11-02",
+    "summary": "Mat-Su Ski Club trail report covers GPRA ski trails and stadium cam; November 2026 grooming updates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "whitehorse-area-yt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.whitehorsenordiccentre.ca/",
+  "evidence": [
+   {
+    "url": "https://www.whitehorsenordiccentre.ca/",
+    "date": "2026-11-01",
+    "summary": "Whitehorse Nordic Centre site links November 2026 newsletter, season passes and current trail status."
+   }
+  ],
+  "suggestedName": "Whitehorse Nordic Centre",
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Old site xcskiwhitehorse.ca now redirects to whitehorsenordiccentre.ca; operator renamed to Whitehorse Nordic Centre."
+ },
+ {
+  "id": "overland-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://overlanderskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://overlanderskiclub.com/",
+    "date": null,
+    "summary": "Kamloops club site sells 2026/2027 season passes and names Overlander Loppet 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "macdonald-pass-cross-country-ski-trails-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://lcnsc.org/ski-trails/macdonald-pass/",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/helena-lewisclark/projects/67368",
+    "date": "2024-12-12",
+    "summary": "Forest Service decision lets Last Chance Nordic Ski Club expand grooming at MacPass ski trails."
+   },
+   {
+    "url": "https://lcnsc.org/ski-trails/macdonald-pass/",
+    "date": null,
+    "summary": "Club page describes groomed MacDonald Pass trails west of Helena, open December through April."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "centre-de-ski-duchesnay-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/CA/QC/Duchesnay",
+    "date": "2026-04-07",
+    "summary": "Duchesnay trail reports posted December 2025 and April 2026 end-of-season notice for the 2025-26 ski season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Official Sepaq page (sepaq.com/duchesnay) returned 403 to the fetcher, so officialUrl left null."
+ },
+ {
+  "id": "parc-du-mont-orford-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://skidefondorford.qc.ca/",
+    "date": "2026-09-21",
+    "summary": "Park's independent ski club sells 2026-2027 memberships and posts 2026-27 calendar for skiing in the park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Official Sepaq park page (sepaq.com/pq/mor) returned 403 to the fetcher, so officialUrl left null."
+ },
+ {
+  "id": "mount-shark-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/mount-shark/draco/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/mount-shark/draco/",
+    "date": "2026-04-10",
+    "summary": "Alberta Parks Mount Shark trail report shows grooming and track setting updated April 10, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kincaid-park-ak",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.anchoragenordicski.com/trails/",
+  "evidence": [
+   {
+    "url": "https://www.anchoragenordicski.com/",
+    "date": "2026-05-01",
+    "summary": "NSAA reports grooming 174 days through May 2026; runs Kincaid snowmaking and lists 2026 races."
+   },
+   {
+    "url": "https://www.anchoragenordicski.com/trails/",
+    "date": "2026-10-24",
+    "summary": "NSAA trails page covers Kincaid snowmaking loops and posts an October 2026 grooming note."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "white-pass-nordic-center-wa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skiwhitepass.com/the-mountain/nordic",
+  "evidence": [
+   {
+    "url": "https://skiwhitepass.com/the-mountain/nordic",
+    "date": null,
+    "summary": "White Pass Nordic page lists 26 km groomed trails, rentals, lessons and season pass; opening TBA."
+   },
+   {
+    "url": "https://skiwhitepass.com/",
+    "date": "2026-09-01",
+    "summary": "White Pass ski area home page says 2026/27 season passes on sale from September 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "russian-jack-park-ak",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.muni.org/Departments/parks/Pages/IceTrailStatus.aspx",
+    "date": "2026-04-07",
+    "summary": "Anchorage Parks trail status lists Russian Jack North and South ski trails, season ended April 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Municipality of Anchorage pages (muni.org) returned 404 to the fetcher; evidence from search snippet only, officialUrl left null."
+ },
+ {
+  "id": "rikert-nordic-center-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.rikertoutdoor.com/",
+  "evidence": [
+   {
+    "url": "https://www.rikertoutdoor.com/",
+    "date": null,
+    "summary": "Rikert Outdoor Center in Ripton promotes the 2026-27 season pass and links trail conditions."
+   }
+  ],
+  "suggestedName": "Rikert Outdoor Center",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Renamed: now Rikert Outdoor Center at rikertoutdoor.com; old rikertnordic.com is dead."
+ },
+ {
+  "id": "corwin-mills-nordic-centre-nl",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://whitehillsresort.com/maps-and-stats",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=39963",
+    "date": "2025-10-01",
+    "summary": "Clarenville Nordic Ski Club registration offered 2025/2026 memberships (snippet)."
+   },
+   {
+    "url": "https://whitehillsresort.com/maps-and-stats",
+    "date": null,
+    "summary": "White Hills Resort page describes 40 km groomed trails run by Clarenville Nordic Ski Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Club site clarenvillenordicskiclub.com is dead and zone4 registration page needed cookies; officialUrl is the host resort's trail page."
+ },
+ {
+  "id": "lolo-pass-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r01/nezperce-clearwater/recreation/lolo-pass-visitor-center",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/nezperce-clearwater/recreation/lolo-pass-visitor-center",
+    "date": "2026-04-14",
+    "summary": "Forest Service Lolo Pass Visitor Center page lists XC skiing, winter grooming season and parking passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lubrecht-experimental-forest-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://missoulanordic.org/lubrecht-forest",
+  "evidence": [
+   {
+    "url": "https://missoulanordic.org/lubrecht-forest",
+    "date": null,
+    "summary": "Missoula Nordic Ski Club page describes its grooming of about 29 km of Lubrecht Forest trails."
+   },
+   {
+    "url": "https://missoulanordic.org/",
+    "date": null,
+    "summary": "Club home page lists Lubrecht among groomed trails and a ski group planned for 2026-27."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "seeley-creek-nordic-ski-trails-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.seeleylakenordic.org/grooming-report",
+  "evidence": [
+   {
+    "url": "https://www.seeleylakenordic.org/grooming-report",
+    "date": "2026-03-17",
+    "summary": "Seeley Lake Nordic Ski Club grooming reports dated March 2026 for Seeley Creek trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "chief-joseph-pass-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bitterrootxcskiclub.net/",
+  "evidence": [
+   {
+    "url": "https://www.bitterrootxcskiclub.net/",
+    "date": "2026-03-26",
+    "summary": "Bitterroot XC Ski Club posts Chief Joseph Pass grooming reports through March 2026 and an October 2026 trail day."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "homestake-lodge-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.homestakelodge.com/",
+  "evidence": [
+   {
+    "url": "https://www.homestakelodge.com/",
+    "date": "2026-02-26",
+    "summary": "Lodge site sells trail passes and posts 2025-26 ski updates; skiing paused February 2026 for thin snow."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mount-haggin-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://fwp.mt.gov/activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://fwp.mt.gov/activities/cross-country-skiing",
+    "date": null,
+    "summary": "Montana FWP says Mount Haggin is the only Wildlife Management Area offering cross-country skiing."
+   },
+   {
+    "url": "https://missoulanordic.squarespace.com/mount-haggin",
+    "date": null,
+    "summary": "Missoula Nordic page says Mile High Nordic Ski Club grooms 28 km at Mount Haggin weekly."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "skalkaho-pass-road-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r01/bitterroot/recreation/skalkaho-snowpark",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/bitterroot/recreation/skalkaho-snowpark",
+    "date": "2025-02-19",
+    "summary": "Bitterroot NF Skalkaho Snowpark page gives skiers winter access to closed Skalkaho Pass road; lists XC skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "echo-lake-trails-mt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://echolaketrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/beaverhead-deerlodge/maps-guides/winter-recreation-maps-and-guides",
+    "date": "2025-12-22",
+    "summary": "Beaverhead-Deerlodge NF winter page lists Echo Lake Ski Trails groomed by Echo Lake Trail Association."
+   },
+   {
+    "url": "https://echolaketrails.org/",
+    "date": null,
+    "summary": "Association site near Georgetown Lake offers grooming reports, free skiing by donation; copyright 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "moulton-ski-trails-mt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://milehighnordic.org/moulton/",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r01/beaverhead-deerlodge/maps-guides/winter-recreation-maps-and-guides",
+    "date": "2025-12-22",
+    "summary": "Forest Service winter page lists Moulton ski trails groomed by Mile High Nordic Ski Education Foundation."
+   },
+   {
+    "url": "https://milehighnordic.org/moulton/",
+    "date": null,
+    "summary": "Mile High Nordic page describes free Moulton trails north of Butte; no dated grooming reports."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

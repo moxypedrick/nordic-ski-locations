@@ -1,0 +1,46 @@
+{
+ "searches": 9,
+ "fetches": 17,
+ "perArea": {
+  "st-croix-bluffs-regional-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "decorah-trail-system-ia": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "cottage-grove-ravine-regional-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "reforestation-camp-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "triangle-sports-area-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lakewood-xc-ski-trails-wi": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "valley-spur-mi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "watersmeet-ski-trails-mi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "iola-winter-sports-club-trails-wi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "neshota-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

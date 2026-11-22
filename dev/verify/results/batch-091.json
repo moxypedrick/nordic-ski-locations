@@ -1,0 +1,182 @@
+[
+ {
+  "id": "a36365f2c8aaf9c719524e862bd07af11107bd88",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://rroc.cfans.umn.edu/visitors/lone-rock-trail",
+  "evidence": [
+   {
+    "url": "https://rroc.cfans.umn.edu/visitors/lone-rock-trail",
+    "date": "2026-11-13",
+    "summary": "University research centre page lists ski season Dec 22 to Mar 31, groomed with Dakota County; page current Nov 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "a444ea3a8cbadf56af7286f1412de26845bae736",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://caberfaepeaks.com/home/nordic-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.cadillacmichigan.com/member-file/877/20",
+    "date": "2026-01-30",
+    "summary": "Cadillac tourism page snippet reports MacKenzie XC trail groomed in January 2026 (snippet)."
+   },
+   {
+    "url": "https://caberfaepeaks.com/home/nordic-skiing/",
+    "date": null,
+    "summary": "Caberfae page says volunteers groom the 10-mile trail from the resort base; rentals offered."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "a6d3fe1e11deb44b63629835631157189c62f0b7",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nooksacknordicskiclub.org/trails/descriptions/",
+  "evidence": [
+   {
+    "url": "https://parks.wa.gov/find-sno-parks/salmon-ridge-sno-park",
+    "date": "2026-03-18",
+    "summary": "Washington State Parks log shows cross-country grooming entries from Dec 30, 2025 to Mar 18, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "a9cca3f35c2a1c42823733856ea2a4482bc49824",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wellsgrayoutdoorsclub.ca/winter/xcskitrails",
+  "evidence": [
+   {
+    "url": "https://www.wellsgrayoutdoorsclub.ca/winter/xcskireports",
+    "date": "2026-03-17",
+    "summary": "Club ski report logs grooming of multiple loops on March 16 and 17, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Trails are run by Wells Gray Outdoors Club near Clearwater, BC."
+ },
+ {
+  "id": "a9cd6b77176c3ccaba30bbe8f8344b9e9148117b",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://franconiainn.com/xc-ski",
+  "evidence": [
+   {
+    "url": "https://franconiainn.com/xc-ski",
+    "date": "2026-04-09",
+    "summary": "Franconia Inn ski page updated Apr 2026 announcing trails closed for the season; lists season and day pass prices."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "ac4f908bff773b70065131d50c8133346d4affd7",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.maine.gov/dacf/parks/trail_activities/aroostook_trail_conditions.shtml",
+    "date": null,
+    "summary": "State parks page lists Aroostook State Park winter trail conditions report for its 15 miles of groomed ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "maine.gov page returned 403; evidence from search snippet."
+ },
+ {
+  "id": "af65b982a65d606c2b5f46df3819d1a7f3175322",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://wolf-ridge.org/campus",
+  "evidence": [
+   {
+    "url": "https://wolf-ridge.org/campus",
+    "date": null,
+    "summary": "Undated campus page describes 18 miles of ski and hiking trails open to public, with a winter ski chalet."
+   },
+   {
+    "url": "https://wolf-ridge.org/events/2025-02-02",
+    "date": "2025-02-02",
+    "summary": "Winter family camp listing for Jan 31-Feb 2, 2025; skiing appears in a related retreat listing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "b1096f6c27a33ca9244f332f9fa8504b8e7849d8",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.waterville.com/nordic-center",
+  "evidence": [
+   {
+    "url": "https://www.waterville.com/nordic-center",
+    "date": null,
+    "summary": "Official Nordic Center page promotes 2026/27 passes on sale and 70+ km groomed classic and skate trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "af0f54b78ec8c10b4d8ba3590fa990d687eb1b02",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://miottawa.org/park-locations/riley-trails/",
+  "evidence": [
+   {
+    "url": "https://miottawa.org/park-locations/riley-trails/",
+    "date": null,
+    "summary": "Ottawa County park page lists ungroomed cross-country ski trails among features at Riley Trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Skiing is allowed but trails are not groomed; Holland/Park Township area."
+ },
+ {
+  "id": "a3ca998828e54ee6f8439dc4e208b0908d98a18a",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/activities/skiing/cross-country-skiing",
+    "date": null,
+    "summary": "Sepaq snippet says park ski trails on the winter map are open December to April; park not confirmed (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sepaq site returned 403; evidence from search snippet only."
+ }
+]

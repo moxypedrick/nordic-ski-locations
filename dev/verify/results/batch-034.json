@@ -1,0 +1,154 @@
+[
+ {
+  "id": "battlefords-provincial-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "edam-ski-club-trails-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "moose-jaw-river-park-sk",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": "Wakamow Valley",
+  "method": "research",
+  "comment": "Likely now Wakamow Valley trails run by Moose Jaw XC Ski Club; newest evidence found is 2022. Moose Jaw page 403 blocked.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "makwa-lake-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.tourismsaskatchewan.com/provincialpark/917/makwa-lake-provincial-park",
+  "evidence": [
+   {
+    "url": "https://www.tourismsaskatchewan.com/provincialpark/917/makwa-lake-provincial-park",
+    "date": null,
+    "summary": "Live provincial park page lists 15 km of groomed cross-country trails; undated, wording slightly ambiguous."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "meadow-lake-ski-club-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.crosscountrysask.ca/events-competitions/sask-winter-games",
+    "date": "2026-02-18",
+    "summary": "Provincial ski body lists Feb 2026 Winter Games cross-country events at St. Cyr Trails, Meadow Lake."
+   }
+  ],
+  "suggestedName": "St. Cyr Trails Club",
+  "method": "research",
+  "comment": "No club under old name found; likely now St. Cyr Trails Club (Facebook only, not loaded).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "meadow-lake-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/meadow-lake",
+  "evidence": [
+   {
+    "url": "https://meadowlakenow.com/?p=859131",
+    "date": "2026-01-02",
+    "summary": "Local news says the park has over 30 km of groomed winter trails, including Haymeadow loop."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "anglin-lake-ski-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/sk/princealbert/activ/experiences/ski",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/sk/princealbert/activ/experiences/ski",
+    "date": "2025-12-23",
+    "summary": "Parks Canada page, modified Dec 2025, links to 18 km of Anglin Lake ski trails."
+   }
+  ],
+  "suggestedName": "Great Blue Heron Provincial Park (Anglin Lake trails)",
+  "method": "research",
+  "comment": "Trails belong to Great Blue Heron Provincial Park network; Parks Canada page is a partner page.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "little-red-river-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.citypa.ca/en/parks-recreation-and-culture/little-red-river-park.aspx",
+  "evidence": [
+   {
+    "url": "https://www.citypa.ca/en/parks-recreation-and-culture/little-red-river-park.aspx",
+    "date": null,
+    "summary": "City park page says ski trails are maintained by the PA Ski Club; page shows 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "ebs-trails-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://saskatoonnordicski.ca/",
+  "evidence": [
+   {
+    "url": "https://www.nordic-pulse.com/ski-areas/SK/SK/Saskatoon-Ebs",
+    "date": "2026-03-23",
+    "summary": "Grooming report for Eb's Trails posted March 2026 on third-party Nordic Pulse; club site confirms grooming."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "buffalo-pound-provincial-park-sk",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/buffalo-pound",
+  "evidence": [
+   {
+    "url": "https://tourismsaskatchewan.com/listings/299/buffalo-pound-provincial-park-trails",
+    "date": null,
+    "summary": "Tourism listing for park trails names cross-country skiing among uses; no winter details or dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "comment": "Official park page loaded but showed only a title (script-built).",
+  "checkedDate": "2026-11-22"
+ }
+]

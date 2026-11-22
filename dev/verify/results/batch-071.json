@@ -1,0 +1,166 @@
+[
+ {
+  "id": "the-inn-at-starlight-lake-pa",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site innatstarlightlake.com failed to load (connection reset); only undated booking and directory listings mention skiing. No closure source found."
+ },
+ {
+  "id": "kooser-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/kooser-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/kooser-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page says Kooser trails are open for skiing, with 1.5 miles of set track."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "laurel-mountain-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://war-nordic.org/laurel-summit-nordic/",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/laurel-summit-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR Laurel Summit winter page says the park gives access to cross-country ski trails in Forbes State Forest."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Likely the Laurel Summit Nordic area (Westmoreland County); club page war-nordic.org had no dates."
+ },
+ {
+  "id": "laurel-ridge-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.riversportonline.com/laurelridge/",
+  "evidence": [
+   {
+    "url": "https://www.riversportonline.com/laurelridge/",
+    "date": null,
+    "summary": "Operator page titled 2025-2026 season lists Nov-April hours, daily grooming and rentals at Laurel Ridge."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "lehigh-gorge-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/lehigh-gorge-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page says the Lehigh Gorge Trail from White Haven to Glen Onoko is open to skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "moraine-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/moraine-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/moraine-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page says Moraine trails are open for skiing, two trails groomed when snow permits."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "mt-pleasant-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skimountpleasant.com/about/crosscountry",
+  "evidence": [
+   {
+    "url": "https://www.skimountpleasant.com/about/crosscountry",
+    "date": null,
+    "summary": "Official page shows open-thin-cover status, groomed natural-snow trails, $10 pass; home page has 2026 footer."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Mailing address is Cambridge Springs, PA; same place as Mt Pleasant of Edinboro."
+ },
+ {
+  "id": "new-germany-state-park-md",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.maryland.gov/publiclands/Pages/western/NewGermany/Winter-Activities.aspx",
+  "evidence": [
+   {
+    "url": "https://dnr.maryland.gov/publiclands/Pages/western/NewGermany/Winter-Activities.aspx",
+    "date": "2026-02-18",
+    "summary": "Maryland DNR winter page lists ski rentals and grooming; Feb 18, 2026 ski report seen in search summary (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "north-woods-pa",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://war-nordic.org/laurel-highlands-nordic/",
+  "evidence": [
+   {
+    "url": "https://war-nordic.org/laurel-highlands-nordic/",
+    "date": "2026-01-01",
+    "summary": "Nordic patrol page for North Woods, Roaring Run and Kooser skiing, weekend patrol in season, 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Listed coordinates (40.107,-75.378, near Valley Forge) are about 300 km from the Laurel Highlands North Woods trails (Forbes State Forest); likely bad coordinates. Possible duplicate of Kooser and Laurel Mountain areas."
+ },
+ {
+  "id": "oil-creek-state-park-pa",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/oil-creek-state-park/winter",
+  "evidence": [
+   {
+    "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/oil-creek-state-park/winter",
+    "date": null,
+    "summary": "PA DCNR winter page lists 11.5 miles of ungroomed cross-country ski trails with warming hut at Oil Creek."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

@@ -1,0 +1,106 @@
+{
+ "searches": 18,
+ "fetches": 42,
+ "perArea": {
+  "whistlers-campground-ab": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "pyramid-lake-rd-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "maligne-road-ab": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "blue-lake-adventure-lodge-ab": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "athabathsca-lookout-nordic-centre-ab": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "pierre-greys-lakes-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "hornbeck-cross-country-ski-centre-ab": {
+   "searches": 4,
+   "fetches": 4
+  },
+  "pembina-river-prov-park-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "bearberry-nordic-centre-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "pigeon-lake-prov-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "jarvis-bay-prov-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wabamun-lake-prov-park-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "st-albert-nordic-ski-club-ab": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "waterton-lakes-national-park-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "cooking-lake-blackfoot-prov-rec-area-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "elk-island-national-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "miquelon-lake-prov-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "vermilion-provincial-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "whitney-lakes-prov-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cypress-hills-provincial-park-ab": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "cold-lake-provincial-park-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "moose-lake-prov-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "shaw-lake-ski-trails-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "long-lake-prov-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "tawatinaw-westlock-ski-club-ab": {
+   "searches": 2,
+   "fetches": 3
+  }
+ }
+}

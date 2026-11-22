@@ -1,0 +1,142 @@
+[
+ {
+  "id": "point-beach-state-forest-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/pointbeach",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/pointbeach/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists two groomed ski trails, Ridges and Red Pine; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "gartzke-flowage-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.langladecounty.org/media-center/photo-galleries/gartzke-flowage-cross-country-ski-trails-and-hiking-trails/",
+  "evidence": [
+   {
+    "url": "https://www.langladecounty.org/media-center/photo-galleries/gartzke-flowage-cross-country-ski-trails-and-hiking-trails/",
+    "date": null,
+    "summary": "Langlade County page describes Gartzke Flowage as groomed for skate and classic skiing; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sheboygan-jaycee-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://sheboyganjaycees.com/skitrail/",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=452",
+    "date": "2026-03-17",
+    "summary": "Skinnyski report lists trails covered with skate deck and classic track (snippet); club page undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "nashotah-park-wi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.waukeshacounty.gov/parks-and-land-use/parks-and-recreation/parks-and-trails/nashotah-park/",
+  "evidence": [
+   {
+    "url": "https://www.waukeshacounty.gov/snowconditions",
+    "date": null,
+    "summary": "County snow page lists Nashotah ski segments; but county winter page names only two groomed parks (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "fond-du-lac-state-forest-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state-forests/forest.html?id=sft00018",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR forest page loads without ski content. Tourism listing shows a trackset ski trail; a 2019 newspaper piece says DNR stopped grooming support."
+ },
+ {
+  "id": "lutsenspruce-creek-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify a Spruce Creek ski trail; nearby Lutsen-Tofte systems (Sugarbush, Norpine) are active but not confirmed as this area."
+ },
+ {
+  "id": "kinnickinnic-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kinnickinnic/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kinnickinnic/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists four classic-only groomed ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "stuart-river-ski-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify this area; no page mentions a Stuart River ski trail near Ely, MN. No closure evidence either."
+ },
+ {
+  "id": "listening-inn-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "No official site found. Iron County tourism page mentions only snowshoe trails at The Listening Inn, a lodge near Crystal Falls; no ski evidence or closure."
+ },
+ {
+  "id": "grand-view-lodge-the-pines-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://grandviewlodge.com/fun",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort page describes groomed ski trails at The Pines but shows no date; only dated post found is December 2023."
+ }
+]

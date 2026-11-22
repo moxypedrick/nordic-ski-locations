@@ -1,0 +1,472 @@
+[
+ {
+  "id": "battle-creek-regional-park-east-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/cross-country-skiing",
+    "date": null,
+    "summary": "Ramsey County ski page sells passes covering Battle Creek lighted machine-made trails; mentions 2025-26 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "michigan-tech-university-ski-trails-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://michigantechrecreation.com/sports/2024/6/27/tech-trails.aspx",
+  "evidence": [
+   {
+    "url": "https://michigantechrecreation.com/sports/2024/6/27/tech-trails.aspx",
+    "date": "2025-07-01",
+    "summary": "Michigan Tech Trails page lists winter day passes and annual passes, rates effective July 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "crystal-lake-pa",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://findarace.com/us/events/crystal-lake-ski-and-outdoor-center-9th-annual-trail-race",
+    "date": null,
+    "summary": "Trail race listings name Crystal Lake Ski and Outdoor Center, Hughesville; no current ski season evidence found (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possible rename: a MapQuest listing says it is now Crystal Lake Outdoor Center; not confirmed. WNEP article returned 403."
+ },
+ {
+  "id": "good-spirit-provincial-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://saskparks.tourismsaskatchewan.com/good-spirit-lake",
+  "evidence": [
+   {
+    "url": "https://saskparks.tourismsaskatchewan.com/good-spirit-lake/activities",
+    "date": null,
+    "summary": "Sask Parks pages describe groomed cross-country ski trails at Good Spirit Lake; page content script-built (snippet)."
+   },
+   {
+    "url": "https://www.tourismsaskatchewan.com/listings/1804/good-spirit-lake-provincial-park-trails",
+    "date": null,
+    "summary": "Tourism Saskatchewan listing says winter trails include maintained cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Sask Parks page builds content with scripts; nothing readable on fetch."
+ },
+ {
+  "id": "laurentian-university-x-c-ski-trails-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.laurentiannordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.laurentiannordic.com/",
+    "date": "2026-10-25",
+    "summary": "Laurentian Nordic club site shows spring 2026 grooming posts, day pass sales, and October 2026 trail work day."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wolfeboro-xc-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.wolfeboroxc.org/",
+  "evidence": [
+   {
+    "url": "https://www.wolfeboroxc.org/trail-conditions-report/",
+    "date": "2026-10-02",
+    "summary": "Trail report dated October 2026 announces season passes on sale early; trails not yet open."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "quarry-road-me",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://quarryroad.org/",
+  "evidence": [
+   {
+    "url": "https://quarryroad.org/",
+    "date": "2027-01-16",
+    "summary": "Quarry Road site lists groomed Nordic trails and 2027 races including Eastern Cup and Colby carnival."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "michaywe-resort-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.michaywe.com/cross-country-hiking-trails",
+  "evidence": [
+   {
+    "url": "https://www.michaywe.com/cross-country-hiking-trails",
+    "date": null,
+    "summary": "Michaywe trails page describes 20 km groomed, tracked, partly lit trails; shows 2026-27 cross country graphic."
+   },
+   {
+    "url": "https://www.michaywe.com/",
+    "date": "2026-11-21",
+    "summary": "Community home page says XC ski trails open to public; lists November 2026 events."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "turville-point-conservation-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofmadison.com/parks/find-a-park/turville-point/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.cityofmadison.com/parks/find-a-park/turville-point/cross-country-skiing",
+    "date": null,
+    "summary": "City of Madison page lists 2 miles of free ski trails, groomed as conditions allow; closed for season."
+   },
+   {
+    "url": "https://www.cityofmadison.com/parks/skiTrail",
+    "date": "2025-12-19",
+    "summary": "City ski status page dated December 2025 listed trail status for the season (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kincaid-park-ak-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://anchoragenordicski.com/",
+  "evidence": [
+   {
+    "url": "https://anchoragenordicski.com/",
+    "date": "2026-11-05",
+    "summary": "NSAA site reports grooming November through May 2026, Kincaid snowmaking, and 2026-27 races."
+   },
+   {
+    "url": "https://www.alaskasnewssource.com/2026/04/08/alaska-olympians-join-final-tuesday-night-ski-race-send-off-2026-nordic-ski-season/",
+    "date": "2026-04-08",
+    "summary": "News report on final Tuesday night ski race of the 2026 Anchorage Nordic season (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "station-touristique-montagne-coupee-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skidefondstjeanmatharaquettelanaudiere.com/",
+  "evidence": [
+   {
+    "url": "https://skidefondstjeanmatharaquettelanaudiere.com/",
+    "date": "2026-10-25",
+    "summary": "Ski Montagne Coupee site sells season passes, lists 72 km groomed trails and autumn 2026 waxing clinics."
+   }
+  ],
+  "suggestedName": "Ski Montagne Coupée",
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Rename: ski centre now runs as Ski Montagne Coupée; the Auberge de la Montagne Coupée is a separate business."
+ },
+ {
+  "id": "snowflake-nordic-ski-center-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skiduluth.com/nordic-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.skiduluth.com/season-pass/",
+    "date": "2026-10-15",
+    "summary": "Snowflake Nordic site posts a 2026/27 pre-season update; sells daily and season passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "al-quaal-recreation-area-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://ishpemingcity.org/departments/parks-and-recreation/al-quaal-recreation-area-2/",
+  "evidence": [
+   {
+    "url": "https://www.travelmarquette.com/things-to-do/winter-activities/trail-conditions/",
+    "date": "2026-02-11",
+    "summary": "Marquette trail conditions page lists Al Quaal Teal Lake Trail last groomed February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wawa-cross-country-ski-club-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wawa.cc/things-to-do/experience-wawa/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.wawa.cc/things-to-do/experience-wawa/cross-country-skiing/",
+    "date": null,
+    "summary": "Municipality of Wawa page lists club-groomed ski trails at the airport and trail pass prices."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sutton-en-haut-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.pleinairsutton.ca/hiver",
+  "evidence": [
+   {
+    "url": "https://www.pleinairsutton.ca/",
+    "date": null,
+    "summary": "Plein air Sutton site advertises 2026-2027 winter pass presale and 18 km groomed classic ski trails."
+   },
+   {
+    "url": "https://tourismebrome-missisquoi.ca/en/blogue/explore-suttons-charms-on-cross-country-skis",
+    "date": null,
+    "summary": "Regional tourism blog says Plein air Sutton was previously called Sutton en haut (snippet)."
+   }
+  ],
+  "suggestedName": "Plein air Sutton",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Rename: Sutton en Haut now operates as Plein air Sutton."
+ },
+ {
+  "id": "graystone-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://nordicskiclubcentralmn.org/graystone-north-loop/",
+  "evidence": [
+   {
+    "url": "https://nordicskiclubcentralmn.org/graystone-north-loop/",
+    "date": "2026-11-02",
+    "summary": "Ski club page updated November 2026 lists Graystone groomed skate and classic, open November to April."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "vasaloppet-nordic-center-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://vasaloppet.us/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://vasaloppet.us/nordic-center/",
+    "date": "2026-05-20",
+    "summary": "Nordic Center page, May 2026 update, says building closed for season; links grooming reports via Nordic Pulse."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "maplelag-resort-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.maplelag.com/",
+  "evidence": [
+   {
+    "url": "https://www.maplelag.com/",
+    "date": "2026-10-22",
+    "summary": "Maplelag October 2026 post says fall trail grooming underway to open for winter on minimal snow."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "garnet-hill-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.garnet-hill.com/outdoor-center/winter-sports/skiing/",
+  "evidence": [
+   {
+    "url": "https://www.garnet-hill.com/outdoor-center/winter-sports/skiing/",
+    "date": null,
+    "summary": "Garnet Hill Lodge ski page sells 2025-2026 winter season passes and links trail conditions."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "inuvik-ski-club-nt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://sites.google.com/view/inuvik-ski-club/home",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=40426",
+    "date": null,
+    "summary": "Zone4 registration titled Inuvik Ski Club Membership Registration 2025/2026; page needed cookies (snippet)."
+   },
+   {
+    "url": "https://sites.google.com/view/inuvik-ski-club/news",
+    "date": "2021-02-03",
+    "summary": "Club news page reports reopening in 2021 after a two-year hiatus that began with 2019 closure."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Zone4 registration page needed cookies, so 2025/2026 membership seen only in search snippet."
+ },
+ {
+  "id": "dublin-nordic-center-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.dublinschool.org/athletics/outdoor-center",
+  "evidence": [
+   {
+    "url": "https://www.dublinschool.org/athletics/outdoor-center",
+    "date": "2026-03-27",
+    "summary": "Dublin School Outdoor Center page posts March 2026 Nordic trail conditions and grooming plans; public welcome."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mountainview-ski-hills-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ski.mountainviewmidland.com/",
+  "evidence": [
+   {
+    "url": "https://northernontario.travel/outdoor-adventures/complete-list-cross-country-ski-events-ontario",
+    "date": "2026-01-25",
+    "summary": "Ontario events list shows Midland Loppet at Mountainview Nordic Centre, January 2026."
+   },
+   {
+    "url": "https://ski.mountainviewmidland.com/",
+    "date": null,
+    "summary": "Mountainview Ski Centre site links 2026 skiing rates, club programs, and 2025-26 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "piedmont-trail-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://duluthmn.gov/parks/trail-pages-list/cross-country-ski-trails/",
+  "evidence": [
+   {
+    "url": "https://duluthmn.gov/parks/trail-pages-list/cross-country-ski-trails/",
+    "date": null,
+    "summary": "City of Duluth ski trail page lists Piedmont as good and groomed, March 16, year not shown."
+   },
+   {
+    "url": "https://www.duluthxc.com/trails",
+    "date": null,
+    "summary": "Duluth XC club lists Piedmont 5 km classic city trail; Great Minnesota Ski Pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "river-road-unit-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.northernlightsnordic.org/trails/?trail_id=15",
+  "evidence": [
+   {
+    "url": "https://www.northernlightsnordic.org/trails/?trail_id=15",
+    "date": null,
+    "summary": "Northern Lights Nordic lists Golden Anniversary classic trail, River Road south 7 miles, under MN DNR."
+   },
+   {
+    "url": "https://northernlightsnordic.org/newsletter/2025-12.pdf",
+    "date": "2025-12-01",
+    "summary": "Club site carries a December 2025 newsletter, showing current operation (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "spooner-city-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.travelwisconsin.com/outdoors/winter-activities/cross-country-skiing-snowshoeing/spooner-city-trail",
+    "date": null,
+    "summary": "Travel Wisconsin lists free Spooner City Trail on College St, groomed classic and skate; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

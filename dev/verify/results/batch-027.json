@@ -1,0 +1,407 @@
+[
+ {
+  "id": "gravenhurst-koa-nordic-trails-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.campinginmuskoka.com/winter-in-muskoka",
+  "evidence": [
+   {
+    "url": "https://www.campinginmuskoka.com/winter-in-muskoka",
+    "date": "2025-03-06",
+    "summary": "Campground winter page lists 2025 ski season passes, hours, and a March 2025 last ski day."
+   }
+  ],
+  "suggestedName": "Gravenhurst Nordic Trails",
+  "method": "research",
+  "comment": "Former KOA campground now called Camping in Muskoka; trails now branded Gravenhurst Nordic Trails.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sherwood-inn-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sherwoodinn.ca/winter-specials",
+  "evidence": [
+   {
+    "url": "https://www.sherwoodinn.ca/winter-specials",
+    "date": "2026-12-30",
+    "summary": "Inn's 2026-27 winter packages include cross-country skiing on onsite trails."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "shamrock-lodge-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://shamrocklodge.com/",
+  "evidence": [
+   {
+    "url": "https://shamrocklodge.com/",
+    "date": null,
+    "summary": "Port Carling lodge site is live but describes seasonal resort with summer activities only, no skiing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "georgian-bay-ski-canoe-club-on",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://gnoac.com/",
+  "evidence": [
+   {
+    "url": "https://gnoac.com/",
+    "date": "2026-11-30",
+    "summary": "Club site sells 2026-27 annual ski passes and lists January 2027 ski events."
+   }
+  ],
+  "suggestedName": "Georgian Nordic Outdoor Activity Centre",
+  "method": "research",
+  "comment": "Likely renamed: formerly Georgian Nordic Ski and Canoe Club, now GNOAC near Parry Sound. Our coordinates are about 100 km south, so same-place unconfirmed.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "minett-landing-nordic-trails-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hill-gully-riders-snowmobile-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cedar-grove-lodge-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://cedargrove.on.ca/activities/muskoka-resorts-winter/",
+    "date": null,
+    "summary": "Lodge winter page lists about 5 km of on-site cross-country ski trails (snippet)"
+   },
+   {
+    "url": "https://resortsofontario.com/?p=8751",
+    "date": "2026-01-01",
+    "summary": "2026 resort association winter article cites the lodge's maintained Nordic trails (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "Lodge site cedargrove.on.ca returned 403 to fetches; evidence from search snippets only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "blue-water-acres-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Resort site bwacres.com returned 403. Listings show a year-round Lake of Bays resort but no current ski trail mention.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "arrowhead-provincial-park-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ontarioparks.ca/park/arrowhead",
+  "evidence": [
+   {
+    "url": "https://www.ontarioparks.ca/park/arrowhead",
+    "date": "2026-01-01",
+    "summary": "Ontario Parks page lists cross-country skiing and ski rentals, with 2026 year-round operating dates."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "deerhurst-resort-trail-system-on",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://deerhurstresort.com/cross-country-skiing-muskoka/",
+  "evidence": [
+   {
+    "url": "https://deerhurstresort.com/cross-country-skiing-muskoka/",
+    "date": null,
+    "summary": "Resort ski page describes groomed on-site trails, closed for season until next winter; footer dated 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "grandview-inn-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "brookvale-provincial-ski-park-pe",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.tourismpei.com/brookvale-activity-park",
+  "evidence": [
+   {
+    "url": "https://www.tourismpei.com/brookvale-activity-park",
+    "date": "2026-12-01",
+    "summary": "Provincial park page lists Nordic ski trails; 2026-27 early-bird season passes go on sale December 2026."
+   }
+  ],
+  "suggestedName": "Mark Arendz Provincial Ski Park at Brookvale",
+  "method": "research",
+  "comment": "Park renamed Mark Arendz Provincial Ski Park at Brookvale; site is the provincial Tourism PEI park page, which operates it.",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "prince-edward-island-national-park-pe",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/pe/pei-ipe/visit/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/pe/pei-ipe/visit/hiver-winter",
+    "date": "2026-11-17",
+    "summary": "Parks Canada winter page allows exploring trails on skis; trails not groomed or maintained."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-nordic-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.pleinairalacarte.com/en/qc/eeyou-istchee-baie-james/club-de-ski-de-fond-nordic-de-matagami/",
+    "date": null,
+    "summary": "Undated directory listing describes Matagami club with about 30 km of ski trails and a chalet (snippet)"
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "edielweiss-ski-center-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "edelweissvalley.com returned an empty page (likely script-built), so it could not be read.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "base-militaire-de-valcartier-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sbmfc.ca/valcartier/centre-castor",
+  "evidence": [
+   {
+    "url": "https://sbmfc.ca/valcartier/centre-castor/tarifs-et-billetterie",
+    "date": "2026-11-01",
+    "summary": "Centre Castor sells multisport pass including ski de fond, valid December 2026 to March 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "comment": "Suspected duplicate of 'Centre Castor' (id 93b4ee8b4c4ace6c6bfb01a9471b5e352da64436).",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "centre-de-ski-de-fond-de-val-belair-qc",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.ville.quebec.qc.ca/ladecouverte",
+  "evidence": [
+   {
+    "url": "https://www.ville.quebec.qc.ca/ladecouverte",
+    "date": "2025-10-15",
+    "summary": "Quebec City park page for Mont-BÃ©lair lists cross-country skiing, ski rental and waxing room; October 2025 notice."
+   }
+  ],
+  "method": "research",
+  "comment": "Suspected duplicate of 'Base de plein air La Découverte (Val-Bélair)' (id e0711d19e1a706f87e6fe51922c44b7ad58e47b1). Our coordinates match 'Club de ski de fond de Val d'Or' exactly, about 500 km from Val-Bélair, so they look copied.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "club-mont-torbillon-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://monttourbillon.com/",
+  "evidence": [
+   {
+    "url": "https://monttourbillon.com/",
+    "date": null,
+    "summary": "Lac-Beauport golf club site lists golf services only; no cross-country ski mention."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-du-mont-sainte-anne-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/reservation/cross-country-skiing/season-pass-mont-saint-anne",
+    "date": "2026-10-16",
+    "summary": "Sépaq sells 2026-27 Mont-Sainte-Anne ski de fond season passes; reopening planned December 4, 2026 (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "Suspected duplicate of 'Mont-Sainte-Anne' (id mont-sainte-anne-qc). Nordic centre now run by Sépaq; sepaq.com pages returned 403, and mont-sainte-anne.com covers alpine only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "sentiers-des-caps-de-charlevoix-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sentierdescaps.com/",
+  "evidence": [
+   {
+    "url": "https://www.sentierdescaps.com/conditions-des-pistes/",
+    "date": "2026-01-01",
+    "summary": "Ski de fond conditions page with January 2026 uploads; season pass pre-sale open until November 29."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-ferme-neuve-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parcmontagnedudiable.com/en/skate-skiing/",
+  "evidence": [
+   {
+    "url": "https://www.parcmontagnedudiable.com/en/skate-skiing/",
+    "date": null,
+    "summary": "Ferme-Neuve regional park site describes about 40 km of ski trails with passes sold."
+   },
+   {
+    "url": "https://www.quebecvacances.com/fr/explorer/plein-air-hivernal-a-lhonneur-au-parc-regional-montagne-du-diable",
+    "date": "2026-02-09",
+    "summary": "February 2026 article says park open for winter outdoor activities including ski de fond (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "No separate Ferme-Neuve club found; skiing appears to be run by Parc régional Montagne du Diable (possible merge). Old domain montagnedudiable.com is now an unrelated blog.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "le-genevrier-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://genevrier.com/activites-hiver/",
+  "evidence": [
+   {
+    "url": "https://genevrier.com/activites-hiver/",
+    "date": null,
+    "summary": "Campground winter page lists skating and snowshoeing on site; sends skiers to nearby Sentier des Caps."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "mont-grand-fonds-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://montgrandfonds.com/fr/ski-de-fond",
+  "evidence": [
+   {
+    "url": "https://montgrandfonds.com/fr/ski-de-fond",
+    "date": "2026-11-01",
+    "summary": "Ski de fond page shows 2026-27 trail map and terms, with ski de fond day tickets on sale."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-des-grands-jardins-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/sites/default/files/documents/grj_guide_sentiers_hiver.pdf",
+    "date": "2025-12-01",
+    "summary": "Sépaq 2025-2026 winter trail guide for the park; marked, ungroomed backcountry ski trails (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "sepaq.com pages and PDF returned 403; evidence from search snippets only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "centre-de-plein-air-bec-scie-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.contact-nature.ca/centre-plein-air-bec-scie/hiver/",
+  "evidence": [
+   {
+    "url": "https://www.contact-nature.ca/centre-plein-air-bec-scie/hiver/",
+    "date": null,
+    "summary": "Centre winter page lists ski de fond trails, rentals and trail status, closed until winter; site mentions 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

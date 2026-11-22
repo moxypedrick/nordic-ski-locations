@@ -1,0 +1,415 @@
+[
+ {
+  "id": "lebanon-hills-regional-park-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+    "date": "2026-10-14",
+    "summary": "County ski page, updated October 2026, lists Lebanon Hills classic ski trailheads and pass requirement."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "minooka-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.waukeshacounty.gov/parks-and-land-use/parks-and-recreation/parks-and-trails/minooka-park/",
+  "evidence": [
+   {
+    "url": "https://www.waukeshacounty.gov/parks-and-land-use/parks-and-recreation/parks-and-trails/minooka-park/",
+    "date": null,
+    "summary": "Live county park page lists groomed cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "eldora-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.eldora.com/activities-amenities/nordic-center/trail-tickets-passes/",
+  "evidence": [
+   {
+    "url": "https://www.eldora.com/activities-amenities/nordic-center/trail-tickets-passes/",
+    "date": null,
+    "summary": "Nordic Center sells 2026-27 season passes and ticket packs for its trail network."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cleary-lake-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.threeriversparks.org/location/cleary-lake-regional-park",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/location/cleary-lake-regional-park",
+    "date": null,
+    "summary": "Live park district page lists six miles of ski trails, ski pass and rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jug-mountain-id",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://jugmountainranch.com/nordic/",
+  "evidence": [
+   {
+    "url": "https://jugmountainranch.com/nordic/",
+    "date": null,
+    "summary": "Ranch Nordic page lists groomed trails, season and day pass prices; site footer 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nipika-lodge-touring-centre-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://nipika.com/",
+  "evidence": [
+   {
+    "url": "https://nipika.com/",
+    "date": "2027-01-23",
+    "summary": "Resort lists groomed ski trails and the Nipika Loppet set for January 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blueberry-hills-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=7",
+  "evidence": [
+   {
+    "url": "https://northernlightsnordic.org/trails/?trail_id=7",
+    "date": "2026-02-04",
+    "summary": "Club trail report dated February 2026 rates conditions good (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mcmiller-wi-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+    "date": null,
+    "summary": "DNR winter page lists McMiller ski trails for skate and classic, state trail pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "trout-lake-recreation-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=21",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chippewa/recreation/opportunities/winter-sports",
+    "date": null,
+    "summary": "Chippewa National Forest page lists groomed Trout Lake trail to Joyce Estate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "french-rapids-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.brainerdnordicskiclub.com/french-rapids.html",
+  "evidence": [
+   {
+    "url": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+    "date": null,
+    "summary": "County ski trails page lists French Rapids, groomed for classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "allison-chinook-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skicrowsnest.ca/",
+  "evidence": [
+   {
+    "url": "https://www.skicrowsnest.ca/conditions/",
+    "date": "2026-03-15",
+    "summary": "Club conditions post, March 2026, reports good ski conditions; AGM notice October 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "superior-municipal-forest-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.superiorwi.gov/217/Cross-Country-SkiingSkijoring",
+  "evidence": [
+   {
+    "url": "https://www.superiorwi.gov/217/Cross-Country-SkiingSkijoring",
+    "date": null,
+    "summary": "City page lists 27.78 km groomed forest trails, grooming six days weekly; new app 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blackhawk-ski-club-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://blackhawkskiclub.org/hours-conditions-maps",
+  "evidence": [
+   {
+    "url": "https://blackhawkskiclub.org/hours-conditions-maps",
+    "date": null,
+    "summary": "Club page posts 2026-27 season hours; Nordic trails open to members; 2025-26 membership waiver."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kawartha-nordic-ski-club-trail-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://kawarthanordic.ca/",
+  "evidence": [
+   {
+    "url": "https://kawarthanordic.ca/",
+    "date": null,
+    "summary": "Club home page announces 2026-27 registration open, links season and trail passes and grooming report."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "jackson-ski-touring-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.jacksonxc.org/",
+  "evidence": [
+   {
+    "url": "https://www.jacksonxc.org/",
+    "date": null,
+    "summary": "Home page says 2026-27 season passes are on sale."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "stokely-creek-ski-touring-center-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.stokelycreek.com/",
+  "evidence": [
+   {
+    "url": "https://www.stokelycreek.com/events-1",
+    "date": "2027-01-30",
+    "summary": "Lodge events page lists Stokely Loppet January 2027 and Stokely Classic race February 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "andes-tower-hill-ski-area-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.andestowerhills.com/cross-country",
+  "evidence": [
+   {
+    "url": "https://www.andestowerhills.com/",
+    "date": "2026-11-13",
+    "summary": "Home page announces opening day November 13, 2026; cross-country trails open during downhill hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "copper-falls-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/copperfalls/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/copperfalls/recreation/winter",
+    "date": null,
+    "summary": "DNR winter page lists regularly groomed classic and skate ski trails at the park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "high-point-cross-country-ski-center-nj",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.xcskihighpoint.com/",
+  "evidence": [
+   {
+    "url": "https://www.xcskihighpoint.com/trail-report",
+    "date": "2026-03-08",
+    "summary": "Centre trail report, March 8 2026, ends season for warm weather; closure is seasonal."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "stake-lake-trails-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://overlanderskiclub.com/",
+  "evidence": [
+   {
+    "url": "https://overlanderskiclub.com/",
+    "date": null,
+    "summary": "Club site offers 2026/27 season pass registration and lists Overlander Loppet 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nordic-ridge-recreation-area-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofcrosslake.gov/parksrec",
+  "evidence": [
+   {
+    "url": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+    "date": null,
+    "summary": "County ski trails page lists Nordic Ridge Trail at Crosslake Community Center, groomed in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "tilson-creek-ski-trail-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "deer-grove-forest-preserve-il",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Forest Preserves of Cook County site (fpdcc.com) returned 403, so the Deer Grove page could not be read."
+ },
+ {
+  "id": "paul-smiths-college-ny",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.paulsmiths.edu/vic/ski",
+  "evidence": [
+   {
+    "url": "https://www.paulsmiths.edu/vic/ski",
+    "date": null,
+    "summary": "College VIC ski page lists Dec-Apr season, pass prices, groomer reports; site dated 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "boyne-nordican-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://boynemountain.com/winter-activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://boynemountain.com/winter-activities/cross-country-skiing",
+    "date": null,
+    "summary": "Resort page describes 35 km Nordic trail, lessons, rentals; closed for season; footer 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

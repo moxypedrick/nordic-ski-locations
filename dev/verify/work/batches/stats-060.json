@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 20,
+ "perArea": {
+  "hayward-recreational-forest-wi": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "hobson-forest-trail-mn": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "cannon-valley-trail-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "snowflake-ski-club-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "gateway-state-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "brooktree-golf-course-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "kimberly-high-school-trails-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "combined-locks-trail-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "squaw-creek-county-park-ia": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "quadna-mountain-mn": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

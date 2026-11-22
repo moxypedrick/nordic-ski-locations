@@ -1,0 +1,46 @@
+{
+ "searches": 17,
+ "fetches": 22,
+ "perArea": {
+  "otsego-ski-clubhidden-valley-resort-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "old-mill-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "detroit-mountain-ski-trails-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "fort-snelling-state-park-mn": {
+   "searches": 2,
+   "fetches": 6
+  },
+  "grass-lake-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "tamarack-nature-center-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "pine-lake-ski-trails-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "frontenac-state-park-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "nerstrand-big-woods-state-park-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "sibley-state-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

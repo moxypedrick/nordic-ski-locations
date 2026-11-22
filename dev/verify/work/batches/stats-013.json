@@ -1,0 +1,106 @@
+{
+ "searches": 21,
+ "fetches": 47,
+ "perArea": {
+  "paulson-xc-ski-trails-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "white-butte-trails-sk": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "big-aspen-recreation-area-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "canmore-ab": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "north-bay-nordic-ski-club-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "whitefish-mt": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "china-ridge-xc-ski-association-bc": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "les-sentiers-du-moulin-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "tettegouche-state-park-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "fort-kent-me": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "pike-lake-unit-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "lake-elmo-park-reserve-mn": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "manning-park-resort-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "boutwell-hill-state-forest-ny": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "larch-hills-ski-area-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "silver-star-mountain-resort-bc": {
+   "searches": 1,
+   "fetches": 6
+  },
+  "tennessee-pass-co-2": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "whitehorse-cross-country-ski-club-yt": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "mother-bear-ski-trail-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "northwoods-ski-trail-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "nordic-village-az": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "north-end-ski-trail-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "gunstock-nh": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "mt-ashwabay-ski-trails-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "giants-ridge-mn": {
+   "searches": 1,
+   "fetches": 3
+  }
+ }
+}

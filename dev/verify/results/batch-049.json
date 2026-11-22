@@ -1,0 +1,160 @@
+[
+ {
+  "id": "rum-river-central-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.anokacountyparks.com/parks/rum-river-central-park",
+  "evidence": [
+   {
+    "url": "https://www.anokacountyparks.com/parks/rum-river-central-park",
+    "date": null,
+    "summary": "Anoka County Parks page lists cross-country ski trails and a ski trail map for the park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "potawatomi-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/potawatomi",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/potawatomi/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists four groomed ski trails, about 8.5 miles; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "hidden-valley-ski-trails-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.elynordic.org/trails",
+  "evidence": [
+   {
+    "url": "https://www.elynordic.org/trails",
+    "date": "2026-04-16",
+    "summary": "Club trails page updated April 2026 says grooming ended for the season; describes 25 km groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "banning-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00103",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state_parks/park.html?id=spk00103",
+    "date": null,
+    "summary": "Minnesota DNR park page snippet names cross-country skiing among the park's draws (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page loads as an empty template; evidence is from a search snippet."
+ },
+ {
+  "id": "sand-dunes-state-forest-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-forests/forest.html?id=sft00045",
+  "evidence": [
+   {
+    "url": "https://files.dnr.state.mn.us/destinations/state_forests/recguide/stateforests_RecGuide_complete.pdf",
+    "date": null,
+    "summary": "DNR forest guide and site text say Ann Lake trails are groomed in winter for skiing (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR forest page loads as an empty template; evidence is from search snippets."
+ },
+ {
+  "id": "drummond-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/drummond-recreation-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/drummond-recreation-trail",
+    "date": "2025-06-25",
+    "summary": "Forest Service trail page says system is groomed for classic skiing; page last edited June 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "noquemanon-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.noquetrails.org/forestville",
+  "evidence": [
+   {
+    "url": "https://www.nordic-pulse.com/ski-areas/US/MI/Forestville-Noque-Trails",
+    "date": "2026-04-22",
+    "summary": "Third-party grooming report: groomer tracked most Forestville trails; official club page also describes groomed tracks."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "greywalls-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://golfgreywalls.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Greywalls is a golf and trail area in Marquette; official site has no skiing content. No ski grooming evidence or closure found."
+ },
+ {
+  "id": "va-medical-center-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Likely St. Cloud VA grounds. Only a 2013 blog mentions a groomed grass field; no official page or current evidence found."
+ },
+ {
+  "id": "crossroads-at-big-creek-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://crossroadsatbigcreek.org/events/recurring-events/",
+  "evidence": [
+   {
+    "url": "https://doorcounty.net/winter-activities-have-arrived-at-crossroads/",
+    "date": "2026-01-06",
+    "summary": "Door County Today item says Crossroads runs Ski-for-Free with grooming when snow base allows (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old root URL was dead but the recurring-events page on the official site loaded; its ski schedule is undated."
+ }
+]

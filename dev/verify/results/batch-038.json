@@ -1,0 +1,160 @@
+[
+ {
+  "id": "otsego-ski-clubhidden-valley-resort-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.otsegoclub.com/",
+  "evidence": [],
+  "method": "research",
+  "comment": "Now Otsego Resort. Its site covers alpine skiing; no dated cross-country evidence found, only undated listings.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "old-mill-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/virtual-tours/old-mill/dialup.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/virtual-tours/old-mill/dialup.html",
+    "date": null,
+    "summary": "DNR park tour page says visitors can ski in winter and describes maintained trails; no grooming or dates."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "detroit-mountain-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://detroitmountain.com/",
+  "evidence": [
+   {
+    "url": "https://detroitmountain.com/",
+    "date": "2026-11-01",
+    "summary": "Resort site, November 2026 snapshot, sells winter passes and hires for 2026/27; county page lists its cross-country skiing."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "fort-snelling-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/fort_snelling/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": null,
+    "summary": "Live DNR skiing page lists Fort Snelling among state parks with groomed ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page loads but content is script-built and blank."
+ },
+ {
+  "id": "grass-lake-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ramseycountymn.gov/ski",
+  "evidence": [
+   {
+    "url": "https://www.ramseycountymn.gov/ski",
+    "date": "2025-12-01",
+    "summary": "County ski page sells 2025-26 passes and lists Vadnais-Snail Lakes Regional Park; Grass Lake groomed per snippet."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "tamarack-nature-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ramseycountymn.gov/residents/parks-recreation/tamarack-nature-center",
+  "evidence": [
+   {
+    "url": "https://www.ramseycountymn.gov/residents/parks-recreation/programs-activities/self-guided-activities/cross-country-skiing",
+    "date": "2025-12-01",
+    "summary": "County ski page lists Tamarack trails for 2025-26 but says no passes or rentals offered there."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "pine-lake-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fws.gov/refuge/tamarac",
+  "evidence": [
+   {
+    "url": "https://www.fws.gov/refuge/tamarac",
+    "date": "2027-02-01",
+    "summary": "Refuge page lists cross-country skiing and winter hours; Pine Lake grooming by nordic club comes from search snippets."
+   }
+  ],
+  "method": "research",
+  "comment": "Assumes Pine Lake trails are those in Tamarac National Wildlife Refuge; the county page did not list them.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "frontenac-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/frontenac/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": null,
+    "summary": "Live DNR skiing page lists Frontenac among state parks with groomed ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page loads but content is script-built and blank."
+ },
+ {
+  "id": "nerstrand-big-woods-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/nerstrand_big_woods/index.html",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page script-built and blank; live DNR groomed-ski list (undated) omits park; no closure statement found."
+ },
+ {
+  "id": "sibley-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/sibley/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/skiing.html",
+    "date": null,
+    "summary": "Live DNR skiing page lists Sibley among groomed classic ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page loads but content is script-built and blank."
+ }
+]

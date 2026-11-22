@@ -1,0 +1,46 @@
+{
+ "searches": 12,
+ "fetches": 17,
+ "perArea": {
+  "15da2394a6b00b56a57e4608c00ce96edf7a51cb": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "14f6169cfee0c9de62e7fc0c0fc03a747d5aa6fa": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "16d67c2e298259118ff5fcedf8a6c5c7f3ee62cc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "185277c7c66ee582fb01243753ecfe25aa3ea215": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "1fc508fdf17d92e17a7339b6a8a43fbbcc56c463": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "1e0c5e0e5c3eca0b6cc7f26a4d423c8b3b2f9969": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "1d06b0c6a8089e40c01ed1818c4aaebc96f8abde": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "19c6964d5b7416cd786722c27a44de0d1e21acfa": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "1627a064897a6c93431b9eb7abb03f669f51e48c": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "1e90cf2cd2fd4702fb3807a1c8ac8711c23a9bc8": {
+   "searches": 1,
+   "fetches": 3
+  }
+ }
+}

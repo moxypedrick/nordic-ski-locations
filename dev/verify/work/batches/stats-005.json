@@ -1,0 +1,106 @@
+{
+ "searches": 17,
+ "fetches": 56,
+ "perArea": {
+  "nepco-lake-county-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "telemark-xc-ski-club-bc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "blind-river-ski-club-on": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "menihek-nordic-ski-club-nl": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "fit-strip-mi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "bulkley-valley-xc-ski-club-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "pinelands-farm-me-2": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "ribbon-creek-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "governor-nelson-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "pasadena-ski-nature-park-nl": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "notchview-ma": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sundance-resort-ut": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "chassell-trail-mi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "montreal-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "shanty-creek-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nordic-heritage-center-me": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "columbia-golf-course-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "great-brook-ma": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "rikert-nordic-center-vt-2": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "spring-lake-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 4
+  },
+  "mataquac-provincial-park-nb": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lake-maria-state-park-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "como-golf-course-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sun-peaks-resort-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "huron-meadows-mi": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

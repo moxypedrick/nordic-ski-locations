@@ -1,0 +1,106 @@
+{
+ "searches": 35,
+ "fetches": 52,
+ "perArea": {
+  "love-creek-county-park-mi": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "french-regional-park-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "river-valley-outdoor-centre-ab": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "negaunee-township-ski-trail-mi": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "russian-jack-park-ak-3": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "copper-harbor-pathway-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "university-of-minnesota-golf-course-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "mohonk-mountain-ny": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "hiawatha-golf-course-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "penokee-mountain-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "white-grass-wv": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "national-mine-ski-area-mi": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "muskeg-creek-ski-trails-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "mississippi-national-ski-trails-mn": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "forest-history-center-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "brown-deer-park-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "lake-kegonsa-state-park-wi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "landrose-ski-trailsllyodminster-ski-club-sk": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "saint-marys-university-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "lone-rock-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "cross-country-ski-headquarters-mi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "spidahl-ski-gaard-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mount-itasca-mn": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "ney-nature-center-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jasper-park-lodge-ab": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

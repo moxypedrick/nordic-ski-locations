@@ -1,0 +1,106 @@
+{
+ "searches": 31,
+ "fetches": 41,
+ "perArea": {
+  "gravenhurst-koa-nordic-trails-on": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "sherwood-inn-on": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "shamrock-lodge-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "georgian-bay-ski-canoe-club-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "minett-landing-nordic-trails-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "hill-gully-riders-snowmobile-club-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "cedar-grove-lodge-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "blue-water-acres-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "arrowhead-provincial-park-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "deerhurst-resort-trail-system-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "grandview-inn-on": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "brookvale-provincial-ski-park-pe": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "prince-edward-island-national-park-pe": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "club-de-ski-de-fond-nordic-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "edielweiss-ski-center-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "base-militaire-de-valcartier-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "centre-de-ski-de-fond-de-val-belair-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-mont-torbillon-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "parc-du-mont-sainte-anne-qc": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "sentiers-des-caps-de-charlevoix-qc": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "club-de-ski-de-fond-ferme-neuve-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "le-genevrier-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "mont-grand-fonds-qc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "parc-des-grands-jardins-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "centre-de-plein-air-bec-scie-qc": {
+   "searches": 0,
+   "fetches": 2
+  }
+ }
+}

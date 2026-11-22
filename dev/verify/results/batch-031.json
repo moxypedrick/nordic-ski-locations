@@ -1,0 +1,136 @@
+[
+  {
+    "id": "au-diable-vert-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.audiablevert.com",
+    "evidence": [
+      {
+        "url": "https://www.audiablevert.com",
+        "date": "2025-05-07",
+        "summary": "Glen Sutton lodge page describes a private 14 km trail network open to day visitors for winter touring."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "plein-air-mont-echo-farmers-rest-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify this area. Mont Echo is a Sutton hiking summit with snowshoeing only; no ski evidence found."
+  },
+  {
+    "id": "skiwippi-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify the area; no search results mention Skiwippi."
+  },
+  {
+    "id": "club-de-ski-de-fond-de-lor-blanc-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Only undated tourism directory listings found (Black Lake, Thetford Mines); no official site or dated evidence found."
+  },
+  {
+    "id": "domaine-de-la-baie-gillies-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Candidate URL was a suspended page. Fugereville campground and lodging only; no ski evidence found."
+  },
+  {
+    "id": "station-de-ski-du-mont-orignal-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.montorignal.com/",
+    "evidence": [
+      {
+        "url": "https://www.montorignal.com/abonnements/",
+        "date": "2026-11-01",
+        "summary": "Lac-Etchemin site lists cross-country season pass rates taking effect November 2026; 15 km of classic and skate trails."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "station-touristique-du-massif-du-sud-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://massifdusud.com/",
+    "evidence": [
+      {
+        "url": "https://massifdusud.com/",
+        "date": "2026-11-14",
+        "summary": "Regional park site posts November 2026 snow conditions, cross-country trails, access fees and 2026-27 winter season notice."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "centre-de-plein-air-de-sainte-perpetue-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify the area; no results for a Sainte-Perpetue outdoor centre or ski trails."
+  },
+  {
+    "id": "club-sportif-des-appalaches-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.clubsportifappalaches.com/",
+    "evidence": [
+      {
+        "url": "https://chaudiereappalaches.com/en/plan-your-stay/what-to-do/club-sportif-appalaches-lislet-en-5364421/",
+        "date": "2026-01-01",
+        "summary": "Tourism listing shows L'Islet club open January to March 2026 with about 58 km of ski trails (snippet)."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Official site pages loaded as navigation menus only, so no dated content was readable."
+  },
+  {
+    "id": "centre-de-plein-air-de-montmagny-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Candidate URL dead. Jardin des Gelinottes is a winter sector of Parc des Appalaches; current ski use and location not confirmed."
+  }
+]

@@ -1,0 +1,438 @@
+[
+ {
+  "id": "rails-to-trails-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/ROQ0068",
+    "date": null,
+    "summary": "Directory lists Queens Rails to Trails, Liverpool, as 34 km multi-use trail open to skiers; undated (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wentworth-hostel-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hihostels.com/hostels/hi-wentworth/",
+  "evidence": [
+   {
+    "url": "https://hihostels.ca/en/destinations/hi-wentworth",
+    "date": "2026-04-28",
+    "summary": "Booking page notes only a spring 2026 temporary closure, implying winter operation (snippet)."
+   },
+   {
+    "url": "https://hihostels.com/hostels/hi-wentworth/",
+    "date": null,
+    "summary": "HI page describes maintained 35 km trail network used for cross-country skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "hihostels.ca Wentworth pages returned 404 to the fetcher; used hihostels.com page."
+ },
+ {
+  "id": "victoria-park-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://truro.ca/victoria-park.html",
+  "evidence": [
+   {
+    "url": "https://truro.ca/victoria-park.html",
+    "date": "2025-01-01",
+    "summary": "Town of Truro park page links a Cross Country Ski Map 2025 for Victoria Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "trenton-steeltown-centennial-park-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.town.trenton.ns.ca/trenton-park.html",
+  "evidence": [
+   {
+    "url": "https://www.town.trenton.ns.ca/trenton-park.html",
+    "date": null,
+    "summary": "Town page says Trenton Park open year-round with walking trails; skiing not mentioned."
+   },
+   {
+    "url": "https://novascotiatrails.cioc.ca/record/TRE0023",
+    "date": null,
+    "summary": "Trail registry lists park trails for cross-country skiing in winter; undated (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "beaver-mountain-provincial-park-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.novascotia.ca/park/beaver-mountain",
+  "evidence": [
+   {
+    "url": "https://parks.novascotia.ca/park/beaver-mountain",
+    "date": null,
+    "summary": "Provincial park page says trails suit winter cross-country skiing; gate parking only in winter, no grooming."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fortress-louisbourg-national-historic-park-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://parks.canada.ca/lhn-nhs/ns/louisbourg/activ",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/voyage-travel/experiences/historique-experiences-historic/hiver-winter",
+    "date": "2026-11-09",
+    "summary": "Parks Canada winter page mentions snowshoe trails at Louisbourg, not cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "highland-hill-ski-trail-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No source found for a ski trail by this name near Iona; could not identify the place."
+ },
+ {
+  "id": "ski-tuonela-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skituonela.com/",
+  "evidence": [
+   {
+    "url": "https://skituonela.com/rates/",
+    "date": "2026-05-01",
+    "summary": "Live site lists 18 km trails, memberships, trail fees, ski rentals; images uploaded May 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Shares exact coordinates with Ski Margaree Valley (ski-margaree-valley-ns); check for duplicate."
+ },
+ {
+  "id": "middle-river-ski-club-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No source names a Middle River ski club; nearest active club is Baddeck Nordic Club at Big Baddeck (see big-baddeck-trails-ns)."
+ },
+ {
+  "id": "ski-margaree-valley-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.invernessoran.ca/entertainment/new-cross-country-ski-trail-opens-in-margaree/",
+    "date": "2026-02-03",
+    "summary": "Local paper reports Ski Margaree Trails Society opened a new cross-country ski trail in Margaree, January 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Has the same coordinates as Ski Tuonela (ski-tuonela-ns); Margaree is farther west, so coordinates may be wrong."
+ },
+ {
+  "id": "big-baddeck-trails-ns",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://linktr.ee/baddeck_nordic_club",
+  "evidence": [
+   {
+    "url": "https://linktr.ee/baddeck_nordic_club",
+    "date": "2026-10-01",
+    "summary": "Baddeck Nordic Club link page sells 2026-27 memberships and day passes; grooming report linked."
+   },
+   {
+    "url": "https://www.cbisland.com/businesses/baddeck-nordic-club",
+    "date": null,
+    "summary": "Tourism listing says the club grooms and signs ski trails in Big Baddeck."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kejimkujik-national-park-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ns/kejimkujik/activ/hivernales-printemps-winter-spring",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ns/kejimkujik/activ/hivernales-printemps-winter-spring",
+    "date": "2026-11-03",
+    "summary": "Parks Canada winter page links cross-country skiing and maps ski trails; trails unmaintained in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "st-anns-gaelic-college-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.gaeliccollege.edu/",
+  "evidence": [
+   {
+    "url": "https://www.gaeliccollege.edu/",
+    "date": null,
+    "summary": "College site is live but does not mention ski trails or winter trail use."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Possibly the same trails as Ski Tuonela (ski-tuonela-ns), about 10 km away."
+ },
+ {
+  "id": "cape-breton-highlands-national-park-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ns/cbreton/activ/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ns/cbreton/activ/hiver-winter",
+    "date": "2025-08-06",
+    "summary": "Parks Canada winter page lists ungroomed cross-country ski trails at Benjie's Lake and Clyburn Valley."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "north-highland-nordic-ski-trails-ns",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://nhn.xcski.ca/",
+  "evidence": [
+   {
+    "url": "https://nhn.xcski.ca/",
+    "date": "2026-03-20",
+    "summary": "Club trail report shows all six trails last groomed March 20, 2026; closed for season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "highland-ski-touring-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "No source for this name; about 2 km from North Highland Nordic Ski Trails (north-highland-nordic-ski-trails-ns), possible duplicate."
+ },
+ {
+  "id": "upper-clements-wildlife-park-ns",
+  "status": "closed",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Upper_Clements_Parks",
+    "date": null,
+    "summary": "Wildlife park replaced by an adventure park in 2012; whole park closed after 2019 season."
+   },
+   {
+    "url": "https://www.cbc.ca/news/canada/nova-scotia/upper-clements-park-has-no-bids-from-developers-1.7545053",
+    "date": "2025-05-01",
+    "summary": "CBC: closed park site drew no redevelopment bids in 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "CBC page returned 403. Old domain upperclementsparks.com now hosts an unrelated blog."
+ },
+ {
+  "id": "dayspring-recreation-complex-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.modl.ca/marc.html",
+  "evidence": [
+   {
+    "url": "https://www.modl.ca/marc.html",
+    "date": null,
+    "summary": "Municipal page lists ten km of ungroomed ski trails at MARC, Dayspring, with ski hire."
+   }
+  ],
+  "suggestedName": "Municipal Activity & Recreation Complex (MARC)",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Municipality now calls the Dayspring complex the MARC; likely a rename."
+ },
+ {
+  "id": "shubie-park-ns",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.halifax.ca/parks-recreation/parks-trails-gardens/trails/shubie-canal-greenway",
+    "date": null,
+    "summary": "Halifax trail page lists cross-country skiing as a designated use; trailhead in Shubie Park (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "halifax.ca returned 403 to the fetcher; official page is https://www.halifax.ca/parks-recreation/parks-trails-gardens/trails/shubie-canal-greenway but could not be loaded."
+ },
+ {
+  "id": "jack-lake-trails-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "halifax.ca blocks the fetcher (403). Jack Lake trail near Sandy Lake Park, Bedford, is an unmarked hiking path; no ski source found."
+ },
+ {
+  "id": "old-orchard-inn-ns",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://oldorchardinn.com/activities/",
+  "evidence": [
+   {
+    "url": "https://oldorchardinn.com/activities/",
+    "date": null,
+    "summary": "Inn site is live but names no on-property ski trails, only general regional winter activities."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "ski-wentworth-ns",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.skiwentworth.ca/seasonal-activities/blog-post-title-one-5r4am-6fj8r-s83sj-65clw-w62b4-44m82-jyc7b",
+  "evidence": [
+   {
+    "url": "https://www.skiwentworth.ca/season-pass-tickets",
+    "date": "2026-10-01",
+    "summary": "Resort sells 2026-27 season passes."
+   },
+   {
+    "url": "https://www.skiwentworth.ca/seasonal-activities/blog-post-title-one-5r4am-6fj8r-s83sj-65clw-w62b4-44m82-jyc7b",
+    "date": null,
+    "summary": "Resort page describes 10 km of groomed skate trails at the summit, with rentals."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "norman-wells-cross-country-ski-club-nt",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://gazette.opennwt.ca/societies/701413/",
+    "date": "2014-01-01",
+    "summary": "NWT societies registry lists the club as dissolved in 2014 (snippet)."
+   },
+   {
+    "url": "https://nwtski.com/norman-wells-ski-clinic/",
+    "date": "2021-04-20",
+    "summary": "Territorial body ran a 2021 clinic on tracks by the school; no local club named."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Registry page returned 403; dissolution seen only in search snippet. Club dissolved, but informal skiing may continue in town."
+ },
+ {
+  "id": "hay-river-cross-country-ski-club-nt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=38824",
+    "date": "2025-10-01",
+    "summary": "Hay River Ski Club 2025-26 membership registration open, with adult, youth and family rates (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Registration page needed cookies and news page returned 404; evidence from snippets. No club website found."
+ },
+ {
+  "id": "blanchford-lake-lodge-nt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://arctickingdom.com/blachford-lodge/activities-by-season",
+  "evidence": [
+   {
+    "url": "https://arctickingdom.com/blachford-lodge/activities-by-season",
+    "date": null,
+    "summary": "Lodge activities page lists cross-country skiing for winter and early spring."
+   },
+   {
+    "url": "https://arctickingdom.com/blachford-lodge",
+    "date": "2026-01-01",
+    "summary": "Lodge page live with winter packages and guest reviews dated January 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

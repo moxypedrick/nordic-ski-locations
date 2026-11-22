@@ -1,0 +1,166 @@
+[
+ {
+  "id": "menomonee-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.waukeshacounty.gov/parks-and-land-use/parks-and-recreation/parks-and-trails/menomonee-park/",
+  "evidence": [
+   {
+    "url": "https://www.waukeshacounty.gov/parks-and-land-use/parks-and-recreation/parks-and-trails/menomonee-park/",
+    "date": null,
+    "summary": "Live Waukesha County park page lists cross-country skiing as an amenity; no grooming report on page."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "scotch-creek-woodland-preserve-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://edgartrails.wordpress.com/",
+  "evidence": [
+   {
+    "url": "https://edgartrails.wordpress.com/",
+    "date": "2018-05-14",
+    "summary": "Edgar trail club site says ski trails exist and were groomed in 2018; nothing newer found."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "land-o-lakes-trail-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://vilaswi.com/trail/land-o-lakes-ski-trail/",
+  "evidence": [
+   {
+    "url": "https://vilaswi.com/trail/land-o-lakes-ski-trail/",
+    "date": null,
+    "summary": "Vilas County page lists 9 miles of groomed ski trails at Land O' Lakes WI, club-maintained; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Region says MI but coordinates and sources place the trail in Land O' Lakes, Vilas County, WI. Page is county tourism-style and undated."
+ },
+ {
+  "id": "saint-johns-abbey-arboretum-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://csbsju.edu/outdooru/events/onyourown/skitrails",
+  "evidence": [
+   {
+    "url": "https://csbsju.edu/outdooru/events/onyourown/skitrails",
+    "date": "2026-01-01",
+    "summary": "Outdoor U ski trail page describes current groomed classic trails and rules; map file uploaded Jan 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "voyager-village-golf-course-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.voyagervillage.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort site in Danbury WI shows no ski content; no ski evidence or closure found."
+ },
+ {
+  "id": "kickapoo-valley-reserve-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://kickapoovalley.wi.gov/Recreation/Trails/WinterActivities",
+  "evidence": [
+   {
+    "url": "https://kickapoovalley.wi.gov/Recreation/Trails/WinterActivities",
+    "date": null,
+    "summary": "Live state reserve page lists about 10 miles of groomed classic and skate ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "stower-seven-lakes-state-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/stower",
+  "evidence": [
+   {
+    "url": "https://www.polkcountywi.gov/government/divisions_and_departments/public_works/parks___trails/trails/cross_country_skiing.php",
+    "date": null,
+    "summary": "Live Polk County page says trail is used for cross-country skiing; state trail pass required. Undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "northwoods-christian-camp-ski-trails-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://northwoodschristiancamp.com/",
+  "evidence": [
+   {
+    "url": "https://trekkerjeff.blogspot.com/2012/10/weekend-northwoods-camp.html",
+    "date": "2012-10-01",
+    "summary": "2012 blog says camp had about 4 miles of ski trails; nothing recent found."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "ge-che-trail-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.cpbc.com/xcski/",
+  "evidence": [
+   {
+    "url": "https://www.cpbc.com/xcski/",
+    "date": null,
+    "summary": "Camp page describes grooming 16 km and ski rentals; undated, no recent grooming report found."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Trail is groomed by Covenant Point Bible Camp near Iron River MI; page undated, so no dated evidence."
+ },
+ {
+  "id": "bay-beach-wildlife-sanctuary-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.greenbaywi.gov/1309/Trails",
+  "evidence": [
+   {
+    "url": "https://www.greenbaywi.gov/1309/Trails",
+    "date": null,
+    "summary": "Live City of Green Bay page lists nearly five miles of cross-country ski trails; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

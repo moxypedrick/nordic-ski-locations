@@ -1,0 +1,159 @@
+[
+ {
+  "id": "maranatha-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/maranatha-ski-trail",
+  "evidence": [
+   {
+    "url": "https://fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/maranatha-ski-trail",
+    "date": "2025-06-25",
+    "summary": "Forest Service page describes groomed Maranatha ski loops near Langlade; page last updated June 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate chamber page lacked detail; Forest Service page used (found via search results of another area, loaded once)."
+ },
+ {
+  "id": "lime-creek-nature-center-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://cerrogordo.gov/conservation/parks/lime_creek_conservation_area_and_nature_center/",
+  "evidence": [
+   {
+    "url": "https://cerrogordo.gov/conservation/parks/lime_creek_conservation_area_and_nature_center/",
+    "date": null,
+    "summary": "Cerro Gordo County conservation page lists cross country skiing as an amenity at Lime Creek, Mason City."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "wickiup-hill-trails-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mycountyparks.com/County/Linn/Park/Wickiup-Hill-Natural-Area",
+  "evidence": [
+   {
+    "url": "https://www.mycountyparks.com/County/Linn/Park/Wickiup-Hill-Natural-Area",
+    "date": null,
+    "summary": "Linn County conservation park page lists 5.1 miles of cross-country ski trails at Wickiup Hill, Toddville."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cassian-two-way-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://oneidacountywi.com/trail/biking/cassian-ski-bike-trail/",
+  "evidence": [
+   {
+    "url": "https://oneidacountywi.com/trail/biking/cassian-ski-bike-trail/",
+    "date": null,
+    "summary": "Oneida County page lists Cassian ski trail as groomed with trail pass required for ages 18 and up."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "kettlebowl-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://kettlebowl.org/?p=301",
+  "evidence": [
+   {
+    "url": "https://www.langladecounty.org/media-center/photo-galleries/kettlebowl-downhill-and-cross-country-ski-area/",
+    "date": null,
+    "summary": "Langlade County page lists 4.3 miles of groomed cross-country trails at Kettlebowl near Bryant."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Latest status found was a March 2024 season-closed notice; no 2025-26 report seen."
+ },
+ {
+  "id": "morgan-creek-park-ia",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mycountyparks.com/County/Linn/Park/Morgan-Creek-Park",
+  "evidence": [
+   {
+    "url": "https://www.mycountyparks.com/County/Linn/Park/Morgan-Creek-Park",
+    "date": null,
+    "summary": "Linn County conservation park page lists cross-country ski trails at Morgan Creek Park near Cedar Rapids."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate linncountyiowa.gov page was blocked; county parks directory page used."
+ },
+ {
+  "id": "justin-trails-resort-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.justintrails.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort site shows snowshoe rentals and no groomed ski trails; no ski evidence found. Area could not be confirmed as a ski area."
+ },
+ {
+  "id": "human-powered-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Mountain bike club using Hixon Forest (La Crosse city); could not identify a ski operation or official site. Possible duplicate of Hixon Forest."
+ },
+ {
+  "id": "hormel-nature-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hormelnaturecenter.org/",
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=484",
+    "date": "2025-02-01",
+    "summary": "Skinnyski reports from February 2025 note trails ungroomed for lack of snow; skiing still possible (snippet)."
+   },
+   {
+    "url": "https://hormelnaturecenter.org/",
+    "date": null,
+    "summary": "Centre site lists cross-country ski rentals and groomed ski trail photo; no season dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "camden-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00127",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page rendered only navigation (scripts); only pre-2024 tourism and snow-depth items found; no closure evidence."
+ }
+]

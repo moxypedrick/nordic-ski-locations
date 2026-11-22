@@ -1,0 +1,18 @@
+{
+  "searches": 7,
+  "fetches": 11,
+  "perArea": {
+    "fe4ebc6d2cbf5f8fb93d72cbb423fb2caebd6ead": {
+      "searches": 1,
+      "fetches": 6
+    },
+    "fe80e32ed56ef6cab6b5fb569875e28127d2a256": {
+      "searches": 3,
+      "fetches": 2
+    },
+    "fef67ddf6ff39f1d90e8b4152933479fe7258284": {
+      "searches": 3,
+      "fetches": 3
+    }
+  }
+}

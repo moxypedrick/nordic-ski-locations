@@ -1,0 +1,106 @@
+{
+ "searches": 23,
+ "fetches": 40,
+ "perArea": {
+  "battle-creek-regional-park-west-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "ski-beneoin-ns": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mt-valhalla-ski-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wood-lake-nature-center-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "montebello-trail-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "beauvais-lake-provincial-park-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "lowes-creek-county-park-wi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "phalen-golf-course-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "les-sources-joyeuses-de-la-malbaie-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "chain-of-lakes-mn": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "rockport-park-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "washburn-lake-ski-trails-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "crabbe-mountain-nb": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "blacks-grove-park-mn": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "mountain-view-recreation-area-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "bois-duvernay-qc": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "gronlid-trails-sk": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "bunker-hills-regional-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "teacup-nordic-or": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "caledonia-nordic-ski-club-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "logan-lake-ski-trails-bc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-de-six-cantons-qc": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "echo-valley-provincial-park-sk": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "forest-springs-camp-wi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "wilderness-lodge-pa": {
+   "searches": 1,
+   "fetches": 4
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "searches": 16,
+  "fetches": 25,
+  "perArea": {
+    "rendezvous-mt": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "russian-jack-park-ak-2": {
+      "searches": 2,
+      "fetches": 3
+    },
+    "seeley-creek-nordic-ski-trails-mt-2": {
+      "searches": 2,
+      "fetches": 2
+    },
+    "silverstar-bc": {
+      "searches": 2,
+      "fetches": 6
+    },
+    "skalkaho-pass-road-mt-2": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "smugglers-notch-vt": {
+      "searches": 2,
+      "fetches": 4
+    },
+    "stowe-vt": {
+      "searches": 1,
+      "fetches": 2
+    },
+    "solbakken-mn": {
+      "searches": 1,
+      "fetches": 3
+    },
+    "summit-nordic-wa": {
+      "searches": 1,
+      "fetches": 1
+    },
+    "timber-creek-vt": {
+      "searches": 3,
+      "fetches": 2
+    }
+  }
+}

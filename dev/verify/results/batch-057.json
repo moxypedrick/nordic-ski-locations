@@ -1,0 +1,166 @@
+[
+ {
+  "id": "lincoln-drive-park-nd",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.gfparks.org/parks-facilities/parks/lincoln-drive/",
+  "evidence": [
+   {
+    "url": "https://www.gfparks.org/parks-facilities/parks/lincoln-drive/",
+    "date": null,
+    "summary": "Grand Forks Park District page lists cross-country skiing as an amenity at Lincoln Drive Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "remote-lake-solitude-area-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "No dated or land-manager ski evidence found; DNR pages loaded but do not mention this area (map-only)."
+ },
+ {
+  "id": "governor-thompson-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/govthompson",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/govthompson",
+    "date": null,
+    "summary": "Wisconsin DNR park page lists hiking and skiing trails; weather coordinates near the park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "brunet-island-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/brunetisland",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/brunetisland/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page describes groomed classic ski trails of about 4.3 miles at the park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "carleton-college-arboretum-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.carleton.edu/arboretum/visitor-information/ski-trails/",
+  "evidence": [
+   {
+    "url": "https://www.carleton.edu/arboretum/visitor-information/ski-trails/",
+    "date": "2026-05-14",
+    "summary": "Arboretum ski page, last updated May 2026, says trails are groomed for classic and skate skiing."
+   }
+  ],
+  "suggestedName": "Cowling Arboretum",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official name is Cowling Arboretum (Carleton College)."
+ },
+ {
+  "id": "root-river-state-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.dnr.state.mn.us/state-trails/root-river/index.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-trails/root-river/index.html",
+    "date": "2026-11-10",
+    "summary": "DNR trail page, updated Nov 2026, says part of the trail is groomed for skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "essex-park-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.rasc-mn.org/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://www.rasc-mn.org/nordic-skiing",
+    "date": null,
+    "summary": "Rochester club page says Essex Park has over 9K groomed trails with free public skiing in 2025-2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "marshfield-school-forest-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=564",
+    "date": "2026-02-01",
+    "summary": "Trail report shows lower trails groomed for skating in February 2026, plus Dec 2025 onward reports (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site not found; onfocus.news and school district pages blocked (403/404). Run by Marshfield Area Ski Touring Foundation."
+ },
+ {
+  "id": "kraemer-lake-wildwood-county-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stearnscountymn.gov/kraemer-lake-wildwood-county-park",
+  "evidence": [
+   {
+    "url": "https://content.govdelivery.com/accounts/STEARNS/bulletins/3ca18d0",
+    "date": "2025-02-06",
+    "summary": "Stearns County bulletin lists this park in its Nordic Ski Sampler, Feb 9 to Mar 9, 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sakatah-lake-state-park-mn",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/sakatah-lake/things-to-do.html",
+  "evidence": [
+   {
+    "url": "https://www.dnr.state.mn.us/state-parks/sakatah-lake/things-to-do.html",
+    "date": null,
+    "summary": "DNR park page says Big Woods Trail offers skiing in winter; no grooming or cross-country detail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Original DNR park.html page was script-built and blank. A third-party guide says no groomed trails; skiing is ungroomed at most."
+ }
+]

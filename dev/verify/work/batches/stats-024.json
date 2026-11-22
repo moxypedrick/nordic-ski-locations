@@ -1,0 +1,106 @@
+{
+ "searches": 36,
+ "fetches": 39,
+ "perArea": {
+  "little-cataraqui-creek-ca-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "frontenac-provincial-park-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "foley-mountain-cons-area-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "mount-pakenham-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "larose-ski-trails-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "g-maccormack-maitland-trails-on": {
+   "searches": 4,
+   "fetches": 4
+  },
+  "voyageur-carillon-prov-park-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "pukaskwa-national-park-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "hearst-xc-ski-club-on": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "windy-lake-lodge-on": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "chadwicks-kwagama-lake-lodge-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "mt-evergreen-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "searchmont-resort-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "wakomata-shores-resort-on": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "iron-bridge-ski-club-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "killarney-provincial-park-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "walden-cross-country-fitness-trails-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "elliot-lake-trails-on": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "lake-laurentian-conservation-area-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "loneys-sportsman-lodge-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "kukagami-lodge-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "rushing-river-prov-park-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "windy-lake-prov-park-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "kettle-lakes-prov-park-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "iroquois-falls-xc-ski-club-on": {
+   "searches": 2,
+   "fetches": 1
+  }
+ }
+}

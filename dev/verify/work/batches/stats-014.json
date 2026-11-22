@@ -1,0 +1,106 @@
+{
+ "searches": 21,
+ "fetches": 48,
+ "perArea": {
+  "mecca-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "forbush-corner-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "boyne-highlands-mi": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "wintergreen-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jay-cooke-state-park-mn": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "whitnall-park-wi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "nakkertok-ski-club-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "gore-mountain-ski-area-ny": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "rib-lake-ski-trails-wi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "gold-run-nordic-co": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "tahoe-donner-ca": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "marsh-lake-trails-yt": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "methow-trails-wa": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "porcupine-ski-runners-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "camrose-ski-club-ab": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "one-hundred-mile-nordic-ski-society-bc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "bogus-basin-id": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "parc-du-mont-megantic-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "standing-rocks-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "big-white-ski-resort-bc": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "fahnestock-ny": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "moose-mountain-provincial-park-sk": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "highlands-nordic-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "bear-valley-ca": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "whaleback-nordic-ski-club-nl": {
+   "searches": 1,
+   "fetches": 4
+  }
+ }
+}

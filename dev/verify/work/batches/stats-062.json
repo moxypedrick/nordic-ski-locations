@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 13,
+ "perArea": {
+  "high-cliff-state-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jackson-meadow-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "my-lake-home-trails-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "rice-lake-nordic-association-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "pinicon-ridge-park-ia": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "matsell-bridge-natural-area-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "halls-creek-trail-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lanesboro-golf-course-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "hornet-hiihto-trails-mn": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "he-nis-ra-park-wi": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

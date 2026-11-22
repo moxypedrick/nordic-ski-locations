@@ -1,0 +1,66 @@
+{
+ "searches": 25,
+ "fetches": 29,
+ "perArea": {
+  "ski-martock-ns": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "hawk-ridge-centre-ab": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "mt-baldy-xc-area-bc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "antigonish-golf-club-ns": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "capreol-xc-ski-club-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "le-refuge-qc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "centre-de-plein-air-saint-jean-de-matha-qc": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "sinnissippi-ski-touring-center-il": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "nicolet-north-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "goose-lake-trail-mn": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "2fd0e4f9b15a7d8d90224c8ca89729381c0c79a0": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "94f16bfc50e0d22ee67ef3c5cfc2afb1e84f758f": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "devils-thumb-co": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "greenbush-wi-2": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "9c120eb5a09cdd577d6309f13cd79e43ce0e63a3": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

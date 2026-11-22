@@ -1,0 +1,106 @@
+{
+ "searches": 31,
+ "fetches": 38,
+ "perArea": {
+  "fort-smith-ski-club-trails-nt": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "wood-buffalo-national-park-nt": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "auyuittuq-national-park-nt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "club-minaki-on": {
+   "searches": 4,
+   "fetches": 0
+  },
+  "bondi-village-on": {
+   "searches": 1,
+   "fetches": 5
+  },
+  "nordic-inn-on": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "haliburton-nordic-trails-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "moose-woods-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "haliburton-forest-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "domain-of-killien-on": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "algonquin-provincial-park-on": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "algonquin-provincial-park-on-2": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "algonquin-provincial-park-on-3": {
+   "searches": 0,
+   "fetches": 0
+  },
+  "silent-lake-provincial-park-on": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "deep-river-cross-country-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "forest-lea-x-c-ski-trail-on": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "nangor-resort-on": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "petawawa-ski-club-on": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "bon-echo-provincial-park-on": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "shabomeka-legpower-pathfinders-on": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "vanderwater-cons-area-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "quinte-conservation-area-on": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "macauly-mountain-cons-area-on": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sandbanks-provincial-park-on": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "wishart-conservation-area-on": {
+   "searches": 2,
+   "fetches": 3
+  }
+ }
+}

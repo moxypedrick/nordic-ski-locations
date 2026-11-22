@@ -1,0 +1,160 @@
+[
+ {
+  "id": "99d183d639efdd0bbec46e0d9acf125ad46d6bdb",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://campfortune.com/winter/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Camp Fortune is an alpine resort; its pages do not mention cross-country skiing. Chelsea Nordiq club runs from its sector, no dated evidence."
+ },
+ {
+  "id": "9c6841718ba0c7f81e345f5eb89cd8eb88cd145e",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://montgrandfonds.com/fr/",
+  "evidence": [
+   {
+    "url": "https://www.tourisme-charlevoix.com/en/offers-and-packages/mont-grand-fonds-cross-country-ski-day",
+    "date": "2025-12-13",
+    "summary": "Tourism Charlevoix lists cross-country ski day packages at Mont Grand-Fonds for 13 Dec 2025 to 5 Apr 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "9cbd8a3c5887fa5e1d907ba688fa34abbab57bc0",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.sugarloaf.com/winter-activities/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://www.sugarloaf.com/winter-activities/nordic-skiing",
+    "date": null,
+    "summary": "Official Nordic page lists 2025/26 day-pass prices, 50 km groomed trails; notes centre closed for the 2026 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "9d554936fc8d8e3e4f3396df806819a50281f2b4",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/wild_river/index.html",
+  "evidence": [
+   {
+    "url": "https://dnr.state.mn.us/state_parks/wild_river/wildriver_itinerary.html",
+    "date": null,
+    "summary": "Minnesota DNR winter itinerary describes groomed ski trails, ski rental at the trail center and ski pass rules."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Park page is script-built; DNR itinerary page used for evidence."
+ },
+ {
+  "id": "9fd161d76f9bd5089b28082e5e8e27ab9bff8fba",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rmsc.org/cumming-nature-center-2/trails-exhibits/",
+  "evidence": [
+   {
+    "url": "https://rmsc.org/cumming-nature-center-2/programs-and-events/",
+    "date": "2027-02-27",
+    "summary": "Official events page lists a guided cross-country ski session on Saturday Feb 27 (year inferred as 2027)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "a0b9a04a42d3d6e64a9f200a84118cb78ece04c9",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofhoughton.com/?p=607",
+  "evidence": [
+   {
+    "url": "https://www.cityofhoughton.com/?p=607",
+    "date": null,
+    "summary": "City of Houghton page says Nara Nature Park trails link to Michigan Tech system and are used for skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Coordinates are in Houghton area (Portage Township); Nara Nature Park joins Michigan Tech Trails."
+ },
+ {
+  "id": "a185acf7f537de64bc2d4d1f8040062c9f604d5b",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.vallecitonordicclub.org/",
+  "evidence": [
+   {
+    "url": "https://www.vallecitonordicclub.org/",
+    "date": "2026-11-02",
+    "summary": "Club site is preparing for the 2026-27 season and notes last grooming attempt of 2025-26 on Feb 25, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "a23219f785a847d8ea4f4034971a4a9ad8767aeb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.greenwoodlands.com/xc-skiing",
+  "evidence": [
+   {
+    "url": "https://www.yahoo.com/lifestyle/articles/nordic-skiers-hampshire-choices-endless-234600089.html",
+    "date": "2026-01-22",
+    "summary": "New Hampshire Union Leader article lists Green Woodlands Foundation among the state's nordic trail networks."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Own site's ski page is undated; evidence is third-party news."
+ },
+ {
+  "id": "a2f78ac1f9a332292e99111a1768cfd699f91c71",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.facebook.com/friendsofafiercechase",
+  "evidence": [
+   {
+    "url": "https://mainebyfoot.com/a-fierce-chase-x-c-ski-trails/",
+    "date": "2026-02-18",
+    "summary": "Blog post dated Feb 2026 describes groomed classic and skate trails; April 2026 comment mentions new groomer."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Facebook page is the only official presence found; its posts were not readable."
+ },
+ {
+  "id": "a315850ec2616c43dbe1f04d589e29331c046f99",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Could not identify this area; name appears only as a subdivision near Serene Lakes. Sugar Bowl site links to Royal Gorge, not this place."
+ }
+]

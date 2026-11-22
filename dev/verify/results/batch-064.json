@@ -1,0 +1,166 @@
+[
+ {
+  "id": "simpson-creek-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chippewa/recreation/trails/simpson-creek-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chippewa/recreation/trails/simpson-creek-trail",
+    "date": null,
+    "summary": "Chippewa National Forest page for Simpson Creek Trail lists XC skiing and snowshoeing as an opportunity; grooming not stated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "green-haven-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://anokamn.gov/304/Cross-Country-Skiing",
+  "evidence": [
+   {
+    "url": "https://anokamn.gov/304/Cross-Country-Skiing",
+    "date": null,
+    "summary": "Live City of Anoka page lists 3.2 miles of groomed classic and skate trails at Green Haven."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Golf course site has no ski content; City of Anoka page used as official URL."
+ },
+ {
+  "id": "anoka-nature-preserve-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://anokamn.gov/304/Cross-Country-Skiing",
+  "evidence": [
+   {
+    "url": "https://anokamn.gov/304/Cross-Country-Skiing",
+    "date": null,
+    "summary": "Live City of Anoka page lists the preserve's roughly 3 miles of multi-use ski trail; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old preserve website was dead; City of Anoka page used. Page was fetched under the Green Haven record."
+ },
+ {
+  "id": "river-road-ski-trail-wi",
+  "status": "closed",
+  "confidence": "low",
+  "officialUrl": "https://www.chippewacountywi.gov/346",
+  "evidence": [
+   {
+    "url": "https://www.chippewacountywi.gov/346",
+    "date": null,
+    "summary": "Chippewa County page says the River Road Ski Trail is now closed; no date, reason or season given."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "pictured-rocks-national-lakeshore-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nps.gov/piro/planyourvisit/winteractivities.htm",
+  "evidence": [
+   {
+    "url": "https://www.nps.gov/piro/planyourvisit/winteractivities.htm",
+    "date": "2026-01-14",
+    "summary": "NPS winter page, updated Jan 2026, describes about 20 miles of groomed classic ski loops at Munising and Grand Marais."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "university-ridge-golf-course-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.universityridge.com/cross-country-skiiing",
+  "evidence": [
+   {
+    "url": "https://www.universityridge.com/cross-country-skiiing",
+    "date": null,
+    "summary": "Official ski page lists day-pass prices, rentals, hours; undated, names no season, points to MadNorSki."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "braemar-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://edinamag.com/cross-country-skiing-arrives-at-braemar-park/",
+    "date": "2026-01-01",
+    "summary": "Edina Magazine reports staff groomed a 2-mile classic and skate loop at Braemar in January 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "City of Edina page returned 403 and could not be loaded, so no official URL."
+ },
+ {
+  "id": "douglas-county-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.douglascountywi.gov/630/Cross-Country-Ski-Trail-System",
+  "evidence": [
+   {
+    "url": "https://www.douglascountywi.gov/630/Cross-Country-Ski-Trail-System",
+    "date": null,
+    "summary": "Live Douglas County page describes 10-plus miles of groomed classic trails near Solon Springs; undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "whitetail-woods-regional-park-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://dakotacountymn.gov/parks/parks-trails/whitetail-woods",
+  "evidence": [
+   {
+    "url": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+    "date": "2026-10-14",
+    "summary": "Dakota County ski page, updated Oct 2026, lists Whitetail Woods trailhead for classic skiing with ski pass required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "scenic-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page is script-built and readable forms returned generic or 404 content; no dated ski evidence found."
+ }
+]

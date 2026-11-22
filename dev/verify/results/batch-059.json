@@ -1,0 +1,147 @@
+[
+ {
+  "id": "hayes-lake-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/hayes_lake/index.html",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page script-built and blank; 2025 DNR park map lists no ski trails and DNR groomed list omits park; no closure found."
+ },
+ {
+  "id": "lac-lawrann-conservancy-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.laclawrann.org/",
+  "evidence": [
+   {
+    "url": "https://www.laclawrann.org/",
+    "date": "2026-01-01",
+    "summary": "Conservancy site, copyright 2026, describes volunteer-groomed 3 miles of classic ski trails in West Bend."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old candidate URL was marked dead but the site loads. Date is the 2026 copyright year only."
+ },
+ {
+  "id": "prairie-woods-environmental-learning-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://prairiewoodselc.org/trail-map/",
+  "evidence": [
+   {
+    "url": "https://www.exploreminnesota.com/event/winter-fun-day/11325",
+    "date": "2025-02-01",
+    "summary": "Winter Fun Day with skiing listed for February 2025 (snippet)."
+   },
+   {
+    "url": "https://prairiewoodselc.org/rentals/equipment/",
+    "date": null,
+    "summary": "Center's site lists cross-country ski rentals and groomed winter trails; no date shown."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cowhorn-lake-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.northernlightsnordic.org/trails/?trail_id=16",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR forest page blank for skiing. Club trail page (listed as Cowhorn, 8 km classic) has no dated reports. Search snippet says club did not groom 2025-26 (construction)."
+ },
+ {
+  "id": "bridgewood-resort-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://bridgewoodresorthotel.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort (Neenah WI) site loads but does not mention skiing; only older third-party listings mention ski trails. Old domain bridgewoodresort.com redirects here."
+ },
+ {
+  "id": "reid-golf-course-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.reidgolfcourse.org/winter-recreation/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Winter page lists ski trails but is undated and headed 'No Winter Recreation Available'; city list dated Feb 2024 is too old (snippet)."
+ },
+ {
+  "id": "river-bend-nature-center-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rbnc.org/seasonal-recreation/",
+  "evidence": [
+   {
+    "url": "https://rbnc.org/",
+    "date": "2026-11-22",
+    "summary": "Center homepage shows Nov 2026 hours and invites ski use; seasonal page describes volunteer-groomed 7 miles."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "perrot-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/perrot",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/perrot/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page says nine miles are groomed and tracked for cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "ski-brule-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skibrule.com/activities-dining/cross-country-skiing-upper-michigan/",
+  "evidence": [
+   {
+    "url": "https://skibrule.com/activities-dining/cross-country-skiing-upper-michigan/",
+    "date": null,
+    "summary": "Official page lists 15 km tracked trails, trail pass $12 and ski rentals; image uploads dated 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "iron-river-cross-country-ski-center-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Ski center is part of George Young Recreational Complex (Young's). Only undated tourism and chamber pages list the trails; georgeyoung.com is an unrelated actor site; no closure found."
+ }
+]

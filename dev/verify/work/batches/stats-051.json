@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 15,
+ "perArea": {
+  "tomahawk-lake-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "beaver-brook-ski-trail-wi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "irvine-park-wi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "navarino-wildlife-area-wi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "larson-lake-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "northwood-golf-course-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "schlecht-lake-wi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "moccasin-ski-trail-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "cedarhurst-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "chomonix-golf-course-mn": {
+   "searches": 4,
+   "fetches": 3
+  }
+ }
+}

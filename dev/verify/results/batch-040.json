@@ -1,0 +1,160 @@
+[
+ {
+  "id": "anvil-national-recreation-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/anvil-lake-recreation-area",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/anvil-lake-recreation-area",
+    "date": null,
+    "summary": "Forest Service page says Anvil trail becomes a groomed cross-country ski trail in winter."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "nordmarka-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=129",
+    "date": "2026-02-03",
+    "summary": "Skinnyski reports whole Nordmarka system groomed February 3, 2026, skate deck and classic track. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "comment": "No ski club site found; vilaswi.com is a tourism listing, so officialUrl left null.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lake-forest-recreation-area-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "comment": "Could not identify an area by this name near Eagle River; searches returned only Nordmarka, Lauterman and a private resort.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "tower-ridge-ski-area-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.visiteauclaire.com/event/tower-ridge-tuesdays-citizen-ski-races/104018/",
+    "date": "2025-12-16",
+    "summary": "Tower Ridge Tuesday citizen ski races listed December 16, 2025 to February 24, 2026. (snippet)"
+   }
+  ],
+  "method": "research",
+  "comment": "Eau Claire County and City pages for Tower Ridge returned 404 or were dead; officialUrl left null.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "birkie-trail-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.birkie.com/trail/",
+  "evidence": [
+   {
+    "url": "https://www.birkie.com/trail/",
+    "date": "2026-11-01",
+    "summary": "Official page sells 2026/27 Birkie Trail passes and shows a November 2026 news item."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hixon-forest-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.cityoflacrosse.org/Your-Government/Departments/Parks-Recreation-Forestry/Parks/Trails",
+  "evidence": [],
+  "method": "research",
+  "comment": "City page lists a Hixon Forest winter map but never mentions skiing; no dated ski report found.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "hoffman-hills-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/hoffmanhills",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/hoffmanhills",
+    "date": null,
+    "summary": "Wisconsin DNR page says the recreation area has cross-country ski trails; open year-round."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "red-cedar-river-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/redcedar",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/redcedar",
+    "date": null,
+    "summary": "Wisconsin DNR page says a state trail pass is required for cross-country skiing on the trail."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "minocqua-winter-park-nordic-center-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://minocquawinterpark.org/park/ski/",
+  "evidence": [
+   {
+    "url": "https://minocquawinterpark.org/park/ski/",
+    "date": null,
+    "summary": "Official page shows 2026/2027 season passes on sale and 86 km of groomed trails."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "levistrow-mound-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.clarkcountywi.gov/for-skiing",
+  "evidence": [
+   {
+    "url": "https://www.clarkcountywi.gov/for-skiing",
+    "date": null,
+    "summary": "Clark County page describes volunteer-groomed Levis/Trow ski trails open December through March."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "searches": 16,
+ "fetches": 19,
+ "perArea": {
+  "simpson-creek-mn": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "green-haven-golf-course-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "anoka-nature-preserve-mn": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "river-road-ski-trail-wi": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "pictured-rocks-national-lakeshore-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "university-ridge-golf-course-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "braemar-golf-course-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "douglas-county-ski-trails-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "whitetail-woods-regional-park-mn": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "scenic-state-park-mn": {
+   "searches": 3,
+   "fetches": 4
+  }
+ }
+}

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "viking-vt",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.vikingnordic.com/",
+    "evidence": [
+      {
+        "url": "https://www.vikingnordic.com/",
+        "date": "2026-11-01",
+        "summary": "Londonderry nordic centre homepage offers 26-27 punch passes and early bird season passes from November 2026."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "timberland-hills-wi",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://timberlandhills.com/skiTrails",
+    "evidence": [
+      {
+        "url": "https://timberlandhills.com/skiTrails",
+        "date": "2026-11-14",
+        "summary": "Foundation ski trails page near Cumberland posts conditions dated 14 Nov 2026 and winter prep."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "wolverine-ski-trail-mi",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://wolverinenordic.com/",
+    "evidence": [
+      {
+        "url": "https://wolverinenordic.com/trail-conditions/may-28-2026/",
+        "date": "2026-05-28",
+        "summary": "Club near Ironwood posts 2026 trail work days and plans 2027 Tuesday night skis."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "parc-du-domaine-vert-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.domainevert.com/hiver",
+    "evidence": [
+      {
+        "url": "https://www.domainevert.com/",
+        "date": "2026-11-07",
+        "summary": "Mirabel park site lists ski de fond and 2026-2027 annual passes."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "soldier-hollow-ut",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://utaholympiclegacy.org/location/soldier-hollow/",
+    "evidence": [
+      {
+        "url": "https://utaholympiclegacy.org/location/soldier-hollow/",
+        "date": null,
+        "summary": "Midway nordic venue page sells 2026-2027 annual trail passes; opening awaits snow."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "byrncliff-ny",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://byrncliff.com/services/winter-activities/",
+    "evidence": [
+      {
+        "url": "https://byrncliff.com/trail-conditions/",
+        "date": "2026-03-07",
+        "summary": "Varysburg resort ski trail conditions updated 7 March 2026, closed for spring warm-up."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "crimson-lake-prov-park-ab",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://albertaparks.ca/parks/central/crimson-lake-pp/information-facilities/crimson-lake-trails/",
+    "evidence": [
+      {
+        "url": "https://albertaparks.ca/parks/central/crimson-lake-pp/information-facilities/crimson-lake-trails/",
+        "date": "2025-12-19",
+        "summary": "Alberta Parks trail list shows three groomed cross-country ski trails; updated 19 December 2025."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "prospect-vt",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://prospectmountain.com/",
+    "evidence": [
+      {
+        "url": "https://prospectmountain.com/",
+        "date": "2026-11-13",
+        "summary": "Woodford nordic centre posts conditions report dated 13 November 2026; open daily in season."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "kingdom-trails-vt",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.kingdomtrails.org/cross-country-ski-trails",
+    "evidence": [
+      {
+        "url": "https://www.kingdomtrails.org/dashney-nordic-center",
+        "date": "2026-03-21",
+        "summary": "Kingdom Trails grooms nordic trails; Dashney centre closed for the 2025/2026 season as of 21 March."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "pembina-nordic-ski-club-ab",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://pembinanordic.com/",
+    "evidence": [
+      {
+        "url": "https://pembinanordic.com/2026-eagle-point-loppet-50th-anniversary/",
+        "date": "2026-01-24",
+        "summary": "Club site promotes 2026 Eagle Point Loppet near Drayton Valley, 50th anniversary race."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "blue-hills-trail-wi",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.bluehillstrail.com/",
+    "evidence": [
+      {
+        "url": "https://www.bluehillstrail.com/",
+        "date": "2026-11-14",
+        "summary": "Trail site near Bruce posts update dated 14 November 2026; trail open, donations requested, warming house."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "chez-ti-jean-ski-de-fond-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.erablieredautrefois.ca/ski-de-fond/",
+    "evidence": [
+      {
+        "url": "https://www.erablieredautrefois.ca/ski-de-fond/",
+        "date": null,
+        "summary": "Operator page for L'Épiphanie trails announces return for 2026-27 winter with prices and season passes."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "elver-park-wi",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.cityofmadison.com/parks/find-a-park/elver/cross-country-skiing",
+    "evidence": [
+      {
+        "url": "https://www.cityofmadison.com/parks/find-a-park/winter/ski",
+        "date": "2026-11-01",
+        "summary": "Madison Parks ski page lists Elver Park trails; 2027 ski permits on sale from November 2026."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "osceola-ski-and-sport-ny",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.uxcski.com/",
+    "evidence": [
+      {
+        "url": "https://www.uxcski.com/trail-conditions",
+        "date": "2026-03-30",
+        "summary": "Tug Hill centre trail reports run through winter 2025-26, closing for season 30 March 2026."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "club-de-ski-de-fond-labelle-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.skidefondlabelle.org/",
+    "evidence": [
+      {
+        "url": "https://www.skidefondlabelle.org/màj-sentiers",
+        "date": null,
+        "summary": "Club trail updates log December to March grooming and season close; site footer dated 2025, year not stated."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "george-washington-pines-mn",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fs.usda.gov/r09/superior/recreation/trails/george-washington-pines-winter-recreation-trail",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r09/superior/recreation/trails/george-washington-pines-winter-recreation-trail",
+        "date": "2026-04-21",
+        "summary": "Superior National Forest page near Grand Marais lists groomed ski trail; updated 21 April 2026."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "blue-mound-state-park-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://dnr.wisconsin.gov/topic/parks/bluemound",
+    "evidence": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/bluemound",
+        "date": null,
+        "summary": "Wisconsin DNR park page lists over 20 miles of trails including cross-country ski trails."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "airport-nordic-ski-club-nl",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://airportnordic.ca/",
+    "evidence": [
+      {
+        "url": "https://airportnordic.ca/",
+        "date": "2026-03-08",
+        "summary": "Gander club posted 2026 season registration and results of 2026 Gander Invitational race."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "mille-lacs-kathio-state-park-mn",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.dnr.state.mn.us/state-parks/mille-lacs-kathio/things-to-do.html",
+    "evidence": [
+      {
+        "url": "https://www.dnr.state.mn.us/state-parks/mille-lacs-kathio/things-to-do.html",
+        "date": null,
+        "summary": "Minnesota DNR page lists 20 miles of ski trails, winter warming house and ski rentals."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "odana-hills-golf-course-wi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.cityofmadison.com/parks/find-a-park/winter/cross-country-skiing",
+        "date": null,
+        "summary": "Current Madison Parks ski list names five trail sites; Odana Hills absent, its old ski page redirects."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "maple-corner-ma",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://maplecornerfarm.com/cross-country-skiing/",
+    "evidence": [
+      {
+        "url": "https://maplecornerfarm.com/cross-country-skiing/",
+        "date": "2026-03-26",
+        "summary": "Granville farm ski page dated March 2026 lists trail passes, rentals and lessons; closed for season."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "edgewood-golf-course-ski-trail-nd",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.fargoparks.com/cross-country-ski-trails",
+    "evidence": [
+      {
+        "url": "https://www.fargoparks.com/cross-country-ski-trails",
+        "date": null,
+        "summary": "Fargo Parks ski page lists Edgewood classic and skate loops with chalet rentals; mentions 2025-2026 season."
+      }
+    ],
+    "method": "site-check",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "centre-de-ski-de-fond-charlesbourg-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/installations_sportives/raquette/raquette_fiche.aspx?entID=710",
+        "date": null,
+        "summary": "City of Québec listing for rue de l'Aventure site shows ski trails, closed for season. (snippet)"
+      }
+    ],
+    "method": "research",
+    "comment": "City of Québec pages returned 404 when fetched; evidence from search snippet only.",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15"
+  },
+  {
+    "id": "uw-parkside-ski-trail-wi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://parksiderangers.com/facilities/wayne-e-dannehl-national-cross-country-course/2",
+    "evidence": [
+      {
+        "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=510",
+        "date": "2025-12-01",
+        "summary": "Skier report from December 2025 describes ungroomed soft trail with race barriers and downed trees. (snippet)"
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  },
+  {
+    "id": "fern-lake-mn",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.visitbemidji.com/things-to-do/in-the-snow/cross-country-skiing/",
+        "date": null,
+        "summary": "Undated Bemidji tourism page lists 3.5 km Fern Lake groomed trail; local ski club no longer lists it."
+      }
+    ],
+    "method": "research",
+    "suggestedName": null,
+    "checkedDate": "2026-11-15",
+    "comment": ""
+  }
+]

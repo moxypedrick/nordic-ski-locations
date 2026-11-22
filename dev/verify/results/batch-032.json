@@ -1,0 +1,136 @@
+[
+  {
+    "id": "ski-de-fond-des-grandes-prairies-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.skistromuald.ca/",
+    "evidence": [
+      {
+        "url": "https://www.skistromuald.ca/",
+        "date": null,
+        "summary": "Official Levis club site offers a 2026-2027 season pass presale link, plus daily ticket and rental prices."
+      }
+    ],
+    "suggestedName": null,
+    "method": "site-check",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "centre-de-ski-de-fond-cap-rouge-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.ville.quebec.qc.ca/nous_joindre/311/banque-info/info.aspx?NoFiche=AC-000821",
+    "evidence": [
+      {
+        "url": "https://www.ville.quebec.qc.ca/nous_joindre/311/banque-info/info.aspx?NoFiche=AC-000821",
+        "date": "2026-11-05",
+        "summary": "City of Quebec page lists Cap-Rouge ski trails, mid-December to March season, free access; page modified 2026-11-05."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Plateau sector page notes it is closed in 2027; Golf sector status unclear."
+  },
+  {
+    "id": "centre-de-plein-air-dansereau-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Centre is in Pont-Rouge; only undated directory listings found, no official site located; no closure evidence."
+  },
+  {
+    "id": "parc-de-la-gatineau-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://ncc-ccn.gc.ca/places/cross-country-skiing",
+    "evidence": [
+      {
+        "url": "https://ncc-ccn.gc.ca/places/cross-country-skiing",
+        "date": null,
+        "summary": "National Capital Commission page describes over 200 km of groomed ski trails in Gatineau Park, with daily and season passes."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "gatineaupark.ca candidate returned no usable content; NCC is the land manager."
+  },
+  {
+    "id": "centre-nature-sainte-basile-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://lecentrenature.com/",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Official site loads but lists fatbike, snowshoe and tubing; ski de fond appears only in history. No dated ski evidence; no closure statement."
+  },
+  {
+    "id": "les-portes-de-lenfer-qc",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://parcportneuf.com/ski-de-fond/",
+    "evidence": [
+      {
+        "url": "https://parcportneuf.com/ski-de-fond/",
+        "date": "2026-03-05",
+        "summary": "Regional park page gives 2026 ski day and season pass prices; last open day was 6 March 2026."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Run by Parc naturel regional de Portneuf."
+  },
+  {
+    "id": "le-grand-portneuf-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify a ski area by this name; only a Pont-Rouge golf club called Le Grand Portneuf found, with no ski offer."
+  },
+  {
+    "id": "centre-ski-neuf-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Old domain dead; only undated directory listings and a 2021 trail map found. No official site located; no closure evidence."
+  },
+  {
+    "id": "gite-de-lecureuil-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify this area; searches returned only unrelated French and Montreal results."
+  },
+  {
+    "id": "les-sapins-verts-qc",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Old domain dead; only a Ski de fond Quebec directory entry (Saint-Ubalde) found, undated. No official site; no closure evidence."
+  }
+]

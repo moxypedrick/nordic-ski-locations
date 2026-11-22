@@ -1,0 +1,46 @@
+{
+ "searches": 20,
+ "fetches": 17,
+ "perArea": {
+  "kluane-national-park-yt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "gray-mountain-biathlon-trails-yt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "carcross-community-ski-club-yt": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "aitlin-ski-club-trails-bc": {
+   "searches": 4,
+   "fetches": 2
+  },
+  "dawson-city-jackrabbit-cross-country-ski-club-yt": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "chestnut-valley-mi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "pine-haven-recreation-area-mi": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "addison-oaks-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "independence-oaks-mi": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "crystal-mountain-mi": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

@@ -1,0 +1,166 @@
+[
+ {
+  "id": "mccarthy-beach-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/mccarthy_beach/index.html",
+  "evidence": [
+   {
+    "url": "https://files.dnr.state.mn.us/maps/state_parks/spk00226_winter.pdf",
+    "date": null,
+    "summary": "Minnesota DNR publishes a winter map for McCarthy Beach showing groomed ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR park page script-built, no ski detail."
+ },
+ {
+  "id": "vispo-county-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://aitkincountymn.gov/departments/land/land-winter.php",
+    "date": null,
+    "summary": "Aitkin County Land Department winter page lists Vispo among its three groomed cross-country trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "County winter page returned 404 on fetch; evidence from search snippet only, so no officialUrl."
+ },
+ {
+  "id": "norpine-deeryardlutsen-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.norpinetrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.visitcookcounty.com/outdoors/winter-activities/cross-country-skiing/lutsen-and-tofte-trail-conditions/",
+    "date": "2026-03-27",
+    "summary": "Relayed Norpine report: east-side trails including Deeryard groomed March 27, 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site loaded but trail reports are script-built."
+ },
+ {
+  "id": "erbach-park-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.athenswis.com/index.asp?SEC=277FD249-FF7C-49A3-8637-458495B63CA3&DE=C76E2D13-C721-4CE8-B3F2-D35C2640D351",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Village page confirms Erbach Park trails in Athens but does not mention skiing or dates; only an undated directory lists groomed ski trails."
+ },
+ {
+  "id": "terrace-oaks-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://burnsvillemn.gov/Facilities/Facility/Details/48",
+  "evidence": [
+   {
+    "url": "https://burnsvillemn.gov/Facilities/Facility/Details/48",
+    "date": null,
+    "summary": "City of Burnsville page lists cross-country ski trails and weekend winter chalet hours; mentions 2026 projects."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "sunfish-lake-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lakeelmo.gov/238/Sunfish-Lake-Park",
+  "evidence": [
+   {
+    "url": "https://www.lakeelmo.gov/238/Sunfish-Lake-Park",
+    "date": null,
+    "summary": "City of Lake Elmo park page lists groomed ski trails among features of Sunfish Lake Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "theodore-wirth-north-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minneapolisparks.org/parks-destinations/parks-lakes/theodore_wirth_regional_park/",
+  "evidence": [
+   {
+    "url": "https://loppet.org/event/skijor-loppet/",
+    "date": null,
+    "summary": "Loppet Foundation, Wirth Park trail operator, advertises snowmaking and natural-snow ski trails and 2026 junior race events (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Park Board page links winter recreation to loppet.org but gives no grooming detail."
+ },
+ {
+  "id": "east-frazee-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://skinnyski.com/trails/traildetail.asp?Id=8",
+    "date": "2025-02-01",
+    "summary": "Skinnyski skier report February 2025 thanks volunteer for grooming East Frazee trails; Detroit Lakes Nordic club grooms them (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate page is an undated map page, so not used as officialUrl; evidence is third-party."
+ },
+ {
+  "id": "corsair-ski-trails-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/huron-manistee/recreation/opportunities/winter-sports",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/huron-manistee/recreation/opportunities/winter-sports",
+    "date": null,
+    "summary": "Forest Service Huron-Manistee winter sports listing includes the Corsair hiking and cross-country skiing trail (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old tawas.com link dead; the Forest Service page loaded but Corsair entry was not on page 1, seen only in snippet."
+ },
+ {
+  "id": "cross-country-ski-shop-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.northernexpress.com/news/feature/winter-gear-garb-shopping-guide/",
+    "date": "2026-07-21",
+    "summary": "Northern Express 2026 gear guide mentions Northbound Outfitters / Cross Country Ski Shop owner, suggesting shop still operating (snippet)."
+   }
+  ],
+  "suggestedName": "Northbound Outfitters / Cross Country Ski Shop",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Grayling retail shop, not a trail system. xcskishop.com redirects to northboundoutfittersmi.com, which returned 403."
+ }
+]

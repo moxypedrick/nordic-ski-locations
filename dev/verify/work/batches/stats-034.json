@@ -1,0 +1,46 @@
+{
+ "searches": 18,
+ "fetches": 23,
+ "perArea": {
+  "battlefords-provincial-park-sk": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "edam-ski-club-trails-sk": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "moose-jaw-river-park-sk": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "makwa-lake-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "meadow-lake-ski-club-sk": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "meadow-lake-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "anglin-lake-ski-trails-sk": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "little-red-river-park-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "ebs-trails-sk": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "buffalo-pound-provincial-park-sk": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

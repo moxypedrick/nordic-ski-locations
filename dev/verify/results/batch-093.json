@@ -1,0 +1,172 @@
+[
+ {
+  "id": "be6bf3b6bc60c9e567219f550632358328861f56",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.edmonton.ca/activities_parks_recreation/cross-country-skiing",
+    "date": null,
+    "summary": "City of Edmonton cross-country skiing page lists Argyll Park / Mill Creek as a groomed ski location (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "edmonton.ca returned HTTP 502 on three fetches, so officialUrl left null; evidence from search snippet."
+ },
+ {
+  "id": "c0012e37a7d65e4a1ca83a03250f305acdf6b3e3",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://northerntimbercruisers.com/trails",
+  "evidence": [
+   {
+    "url": "https://www.katahdinareatrails.org/northern-timber-cruisers-trails",
+    "date": null,
+    "summary": "Undated page says club grooms about 20 miles of ski trails at Millinocket; no season dates."
+   }
+  ],
+  "suggestedName": "Northern Timber Cruisers Snowmobile and Cross Country Ski Club",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club site and Katahdin Area Trails show trails but no dated grooming or conditions; no closure found."
+ },
+ {
+  "id": "c036edc54d4fe7d4c6f93de5b9f3dcaff34a5a64",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://tellurideskiresort.com/",
+  "evidence": [
+   {
+    "url": "https://www.telluride.com/discover/blog/old-ways-new-trails-nordic-skiing/",
+    "date": "2026-02-16",
+    "summary": "Visit Telluride article lists Mountain Village as a groomed nordic area, about 12 km, free to use."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Downhill resort site has no nordic content; nordic trails are the Mountain Village trails, so evidence is third-party tourism board."
+ },
+ {
+  "id": "c197a3643d643ad3a802d0bdd2c7491cdd3d4982",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.nevadanordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.nevadanordic.org/grooming-updates",
+    "date": null,
+    "summary": "Club grooming page announces the 2026/27 season is on; snowcat grooms nightly. Page itself undated."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "c46ca35e33b8205d7206c8314046c42865af4112",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.grandlakerecreation.com/nordiccenter/",
+  "evidence": [
+   {
+    "url": "https://www.grandlakerecreation.com/nordiccenter/",
+    "date": null,
+    "summary": "Official page announces 2026-27 opening on December 18, lists a nordic season pass and 35 km of ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "c9a24e2d006e691b53804f270bed8a43d3d9362b",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://village.clinton.bc.ca/?p=122",
+  "evidence": [
+   {
+    "url": "https://village.clinton.bc.ca/?p=122",
+    "date": null,
+    "summary": "Village of Clinton page lists 60 km of marked ski trails on Big Bar Road, kept by Snow Jockey Club."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Sites and Trails BC page returned no content; municipal page undated and no club site found."
+ },
+ {
+  "id": "cab906f60186677e1642dc65a483846c22e6e6e0",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://meetrec.org/snow-conditions",
+  "evidence": [
+   {
+    "url": "https://meetrec.org/snow-conditions",
+    "date": "2026-01-16",
+    "summary": "Meeteetse Recreation District posted ski park snow reports in Jan 2026; skiing allowed though grooming suspended for 2026."
+   }
+  ],
+  "suggestedName": "Wood River Ski Park",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Operated by Meeteetse Recreation District near Meeteetse, WY."
+ },
+ {
+  "id": "ccd11975aadb3fa9fea1ac4fa653da02627113d3",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://mwvskitouring.org/",
+  "evidence": [
+   {
+    "url": "https://mwvskitouring.org/",
+    "date": null,
+    "summary": "Official site lists 2026-27 season opening December 19 and a Chocolate Festival on February 28, 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cdfa4472dc5dfd3a903263b6303ce73f8d19c90f",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://payettelakesskiclub.org/pages/bear-basin-nordic-center",
+  "evidence": [
+   {
+    "url": "https://payettelakesskiclub.org/pages/bear-basin-nordic-center",
+    "date": "2026-11-01",
+    "summary": "Payette Lakes Ski Club sells 2026-27 season passes with November 2026 pickup dates; page notes 25/26 trails closed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "cf493f822dae9636a6c74212c7b676d891047358",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://greatglentrails.com/",
+  "evidence": [
+   {
+    "url": "https://greatglentrails.com/snow-report/",
+    "date": "2026-11-02",
+    "summary": "Official snow report dated Nov 2, 2026 shows pre-season status, skiers open house November 20, winter passes sold."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

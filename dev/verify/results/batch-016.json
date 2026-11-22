@@ -1,0 +1,414 @@
+[
+ {
+  "id": "teton-lakes-golf-course-id",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://rexburgski.blogspot.com/",
+  "evidence": [
+   {
+    "url": "https://rexburgski.blogspot.com/",
+    "date": "2024-12-21",
+    "summary": "Rexburg ski trails blog posts grooming info for Teton Lakes track, December 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of teton-lakes-golf-course-id-2 (Teton Lakes Golf Course)."
+ },
+ {
+  "id": "government-peak-ak-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.matsuski.org/",
+  "evidence": [
+   {
+    "url": "https://www.matsuski.org/",
+    "date": "2026-11-02",
+    "summary": "Mat-Su Ski Club site has November 2026 grooming update and newsletter; trail report covers GPRA ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of government-peak-ak and government-peak-ak-3 (Government Peak)."
+ },
+ {
+  "id": "tower-ridge-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://eauclairecounty.gov/our-government/departments-and-facilities/department-directory/parks-forest/recreational-trails/cross-country-ski-trails/tower-ridge-ski-trails",
+    "date": null,
+    "summary": "Eau Claire County page describes Tower Ridge ski trails, lighted loop, winter vehicle pass. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "County Tower Ridge pages (eauclairecounty.gov) returned 404 to fetcher, likely blocked; officialUrl left null. Suspected duplicate of tower-ridge-ski-area-wi (Tower Ridge Ski Area)."
+ },
+ {
+  "id": "raven-golf-club-co",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.silverthorne.org/Home/Components/News/News/549/15",
+    "date": "2024-12-02",
+    "summary": "Town of Silverthorne news says Nordic Center at Raven Clubhouse open for 2024-25 season. (snippet)"
+   }
+  ],
+  "suggestedName": "Silverthorne Nordic Center",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Town of Silverthorne page blocked (403); officialUrl null. Now run by the town as Silverthorne Nordic Center. Suspected duplicate of raven-golf-club-co-2 (Raven Golf Club)."
+ },
+ {
+  "id": "lapham-peak-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/laphampeak/recreation",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/laphampeak/recreation",
+    "date": null,
+    "summary": "Wisconsin DNR Lapham Peak page lists cross-country skiing on lighted trail system."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of lapham-peak-wi-2 (Lapham Peak)."
+ },
+ {
+  "id": "mcmiller-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR Southern Unit winter page describes McMiller ski trails near Eagle, heated shelter, biathlon range."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of mcmiller-wi-2 (McMiller)."
+ },
+ {
+  "id": "greenbush-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR Northern Unit ski page lists Greenbush machine-groomed classic and skate trails with lighted loop."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of greenbush-wi-2 (Greenbush) and greenbush-ski-trails-wi (Greenbush Ski Trails)."
+ },
+ {
+  "id": "pinelands-farm-me",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://pinelandfarms.org/recreation/winter/",
+  "evidence": [
+   {
+    "url": "https://pinelandfarms.org/recreation/winter/",
+    "date": null,
+    "summary": "Pineland Farms ski page lists daily trail hours, passes, rentals; 2025 trail map, 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of pinelands-farm-me-2 and pinelands-farm-me-3 (Pinelands Farm)."
+ },
+ {
+  "id": "grand-mesa-nordic-center-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.gmnc.org/",
+  "evidence": [
+   {
+    "url": "https://www.gmnc.org/",
+    "date": "2026-11-15",
+    "summary": "Grand Mesa Nordic Council site announces Skyway Station opening day and November 2026 Nordic Festival."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of grand-mesa-co (Grand Mesa)."
+ },
+ {
+  "id": "enchanted-forest-nm",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://enchantedforestxc.com/",
+  "evidence": [
+   {
+    "url": "https://enchantedforestxc.com/",
+    "date": null,
+    "summary": "Enchanted Forest site says area will open for 2026-27 season under new operators."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of enchanted-forest-nm-2 (Enchanted Forest)."
+ },
+ {
+  "id": "solitude-nordic-center-ut",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.solitudemountain.com/things-to-do/nordic-and-snowshoe",
+  "evidence": [
+   {
+    "url": "https://www.solitudemountain.com/things-to-do/nordic-and-snowshoe",
+    "date": null,
+    "summary": "Solitude Nordic page sells passes and lists November 20 opening party; 2026 copyright."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "windblown-xc-nh",
+  "status": "closed",
+  "confidence": "medium",
+  "officialUrl": "https://www.windblownxc.com/",
+  "evidence": [
+   {
+    "url": "https://www.nhpr.org/nh-news/2020-11-30/after-nearly-half-a-century-beloved-cross-country-ski-area-closes-up-shop",
+    "date": "2020-11-30",
+    "summary": "NHPR reports owner retired and Windblown trails closed after nearly fifty years; final ski swap held."
+   },
+   {
+    "url": "https://newipswichhistoricalsociety.org/wpblog1/wp-json/wp/v2/posts/198",
+    "date": null,
+    "summary": "Historical society says family operated Windblown from 1972 to 2020. (snippet)"
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "huron-hills-cross-country-ski-center-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-brighton-mi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sandy-mcnabb-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/sandy-mcnabb/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/sandy-mcnabb/",
+    "date": "2026-11-08",
+    "summary": "Alberta Parks Sandy McNabb trail report, updated November 2026, links winter map with cross-country ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "west-bragg-creek-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/west-bragg-creek/",
+  "evidence": [
+   {
+    "url": "https://www.albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/west-bragg-creek/",
+    "date": "2026-11-08",
+    "summary": "Alberta Parks West Bragg Creek report, November 2026, notes ski trail base; refers to Bragg Creek Trails for grooming."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Grooming club site braggcreektrails.org blocked (403), so Alberta Parks page used as officialUrl."
+ },
+ {
+  "id": "banff-townsite-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+    "date": "2025-11-13",
+    "summary": "Parks Canada Banff area ski page lists trackset trails at Tunnel Mountain, Spray River, Healy Creek."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sundance-trails-ab",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+    "date": "2025-11-13",
+    "summary": "Parks Canada lists Healy Creek ski trail from Cave and Basin toward Sundance; exact match to Sundance trails unclear."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lake-minnewankacascade-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/banff",
+    "date": "2025-11-13",
+    "summary": "Parks Canada Banff ski page lists Cascade Valley trail starting at Lake Minnewanka day-use parking."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "castle-junction-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+    "date": "2026-11-12",
+    "summary": "Parks Canada ski page, modified November 2026, lists Castle Junction trails on Bow Valley Parkway."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "baker-creek-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+    "date": "2026-11-12",
+    "summary": "Parks Canada ski page, modified November 2026, lists Baker Creek to Protection Mountain trail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lake-louise-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/banff/activ/skidefond-xcski/lakelouise",
+    "date": "2026-11-12",
+    "summary": "Parks Canada Lake Louise ski page, modified November 2026, lists Moraine Lake Road, Tramline, Great Divide trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "canada-olympic-park-ab",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "syncline-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/south/castle-pp/information-facilities/castle-trail-report/syncline-trail-network/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/south/castle-pp/information-facilities/castle-trail-report/syncline-trail-network/",
+    "date": "2026-09-10",
+    "summary": "Alberta Parks Syncline trail page, updated 2026, lists Nordic skiing December to April with grooming report link."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "athabasca-falls-ab",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/ab/jasper/activ/experience/hiver-winter/carteski-skimaps",
+    "date": "2026-11-06",
+    "summary": "Parks Canada Jasper ski page lists groomed Whirlpool area trails, Leach Lake and Moab Lake, near Athabasca Falls."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "tomahawk-lake-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://townofbarneswi.gov/town-operations/town-parks-facilities/tomahawk-lake-park/tomahawk-lake-park-trail-system/",
+  "evidence": [
+   {
+    "url": "https://townofbarneswi.gov/town-operations/town-parks-facilities/tomahawk-lake-park/tomahawk-lake-park-trail-system/",
+    "date": null,
+    "summary": "Town of Barnes park page describes groomed skate and classic ski trails at Tomahawk Lake Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "beaver-brook-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/Lands/WildlifeAreas/beaverbrook.html",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/Lands/WildlifeAreas/beaverbrook.html",
+    "date": null,
+    "summary": "Wisconsin DNR page lists 5 miles of ski and hiking trails near Spooner, groomed by a local club."
+   },
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=465",
+    "date": "2026-02-08",
+    "summary": "Skinnyski trail report says conditions good to fair (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "irvine-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://chippewafallswi.myrec.com/info/facilities/details.aspx?FacilityID=14697",
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=468",
+    "date": "2026-03-18",
+    "summary": "Skinnyski user report March 2026 says trails open for classic skiing (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "City rec page loaded but has no ski mention; used as park land-manager page."
+ },
+ {
+  "id": "navarino-wildlife-area-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.navarino.org/winter-recreation",
+  "evidence": [
+   {
+    "url": "https://www.navarino.org/winter-recreation",
+    "date": null,
+    "summary": "Nature Center winter page describes ski grooming and rentals; footer shows 2026 copyright only."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "larson-lake-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+  "evidence": [
+   {
+    "url": "https://crowwing.gov/740/Cross-Country-Ski-Trails",
+    "date": null,
+    "summary": "Crow Wing County page lists Larson Lake ski trail south of Deerwood, groomed regularly in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "northwood-golf-course-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://hodagnordic.sportngin.com/",
+  "evidence": [
+   {
+    "url": "https://hodagnordic.sportngin.com/",
+    "date": null,
+    "summary": "Northwoods Nordic club site lists Northwood trails, groomer report link, and 2026-27 season sponsorship call."
+   },
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=472",
+    "date": "2025-12-02",
+    "summary": "Skinnyski page shows a grooming entry dated December 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Run by Northwoods Nordic Ski Club on Rhinelander Northwood Golf Course grounds."
+ },
+ {
+  "id": "schlecht-lake-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.skinnyski.com/trails/traildetail.asp?Id=469",
+    "date": "2025-01-01",
+    "summary": "Skinnyski report from January 2025 describes a 10K skate and classic loop (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "No official site found; LAMBO trail page returned 404 and the area is listed as Schlect Lake elsewhere."
+ },
+ {
+  "id": "moccasin-ski-trail-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.langladecounty.org/calendars/events-calendar/2024-08-26/elcho-x-c-club-annual-ski-junket-2026-01-24/",
+  "evidence": [
+   {
+    "url": "https://www.langladecounty.org/calendars/events-calendar/2024-08-26/elcho-x-c-club-annual-ski-junket-2026-01-24/",
+    "date": "2027-01-23",
+    "summary": "Langlade County calendar lists Elcho X-C Club ski junket at Moccasin Lake ski trail, January 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Site-check page named Moccasin Lake Cross-Country Ski Trail; same place, Langlade County."
+ },
+ {
+  "id": "cedarhurst-mi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://cedarhurstlodge.com/",
+  "evidence": [
+   {
+    "url": "https://cedarhurstlodge.com/",
+    "date": "2026-01-01",
+    "summary": "Lodge homepage advertises groomed ski trails; only a 2026 copyright date seen, no grooming report."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old candidate URL was a dead brochure PDF; lodge homepage is in Republic, MI."
+ },
+ {
+  "id": "chomonix-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://anokacountyparks.com/crosscountry-ski-trails",
+  "evidence": [
+   {
+    "url": "https://anokacountyparks.com/crosscountry-ski-trails",
+    "date": null,
+    "summary": "Anoka County Parks page lists Chomonix ski trails and grooming order; page shows a Dec 2026 meeting."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Golf course site chomonix.com has no ski content; county parks page used."
+ }
+]

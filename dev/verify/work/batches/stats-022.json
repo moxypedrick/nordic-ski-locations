@@ -1,0 +1,106 @@
+{
+ "searches": 30,
+ "fetches": 45,
+ "perArea": {
+  "rails-to-trails-ns": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "wentworth-hostel-ns": {
+   "searches": 1,
+   "fetches": 5
+  },
+  "victoria-park-ns": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "trenton-steeltown-centennial-park-ns": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "beaver-mountain-provincial-park-ns": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "fortress-louisbourg-national-historic-park-ns": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "highland-hill-ski-trail-ns": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "ski-tuonela-ns": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "middle-river-ski-club-ns": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "ski-margaree-valley-ns": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "big-baddeck-trails-ns": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kejimkujik-national-park-ns": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "st-anns-gaelic-college-ns": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "cape-breton-highlands-national-park-ns": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "north-highland-nordic-ski-trails-ns": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "highland-ski-touring-ns": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "upper-clements-wildlife-park-ns": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "dayspring-recreation-complex-ns": {
+   "searches": 1,
+   "fetches": 5
+  },
+  "shubie-park-ns": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "jack-lake-trails-ns": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "old-orchard-inn-ns": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "ski-wentworth-ns": {
+   "searches": 0,
+   "fetches": 3
+  },
+  "norman-wells-cross-country-ski-club-nt": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "hay-river-cross-country-ski-club-nt": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "blanchford-lake-lodge-nt": {
+   "searches": 1,
+   "fetches": 2
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "searches": 19,
+ "fetches": 21,
+ "perArea": {
+  "traverse-city-mi": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "vail-co": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "wild-wings-vt": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "white-pass-nordic-center-wa-2": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "wildwood-hills-pathway-mi": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "03acfe0fd2fa878a0a110e12b318d432e70fbe5c": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "0567508f224431cf525d2fec46c4942335525310": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "069382b35433127926809412c7804ea8862569e5": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "04a5001a288a997399f4bca3661a2ee0d26e17e3": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "072645f491a5c0f6a3f87cf11e9c2deed655b77a": {
+   "searches": 2,
+   "fetches": 4
+  }
+ }
+}

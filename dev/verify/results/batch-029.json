@@ -1,0 +1,413 @@
+[
+ {
+  "id": "hotel-mon-chez-nous-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "huberdeau-trails-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "saint-jovite-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.domainesaintbernard.org/experiences/ski-de-fond",
+  "evidence": [
+   {
+    "url": "https://www.domainesaintbernard.org/experiences/ski-de-fond",
+    "date": "2025-01-01",
+    "summary": "Live centre page describes 32 km of maintained ski trails, rentals and lessons; site dated 2025."
+   }
+  ],
+  "suggestedName": "Domaine Saint-Bernard",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Rename: listing was Ski de Fond Mont-Tremblant near St-Jovite; trails now run by Domaine Saint-Bernard, Mont-Tremblant."
+ },
+ {
+  "id": "parc-du-mont-tremblant-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/blog/mont-tremblant-winter-getaway",
+    "date": "2026-01-29",
+    "summary": "Sepaq blog updated January 2026 says park cross-country ski trails are accessible, rentals on site (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "sepaq.com returned 403 to fetches; officialUrl left null (likely https://www.sepaq.com/en/destinations/national-parks/mont-tremblant/activities/cross-country-skiing). Suspected duplicate of parc-du-mont-tremblant-qc-2 (Parc du Mont-Tremblant, same coordinates)."
+ },
+ {
+  "id": "parc-du-mont-tremblant-qc-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/blog/mont-tremblant-winter-getaway",
+    "date": "2026-01-29",
+    "summary": "Sepaq blog updated January 2026 says park cross-country ski trails are accessible, rentals on site (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "sepaq.com returned 403 to fetches; officialUrl left null (likely https://www.sepaq.com/en/destinations/national-parks/mont-tremblant/activities/cross-country-skiing). Suspected duplicate of parc-du-mont-tremblant-qc (Parc du Mont Tremblant, same coordinates)."
+ },
+ {
+  "id": "base-de-plein-air-le-petit-bonheur-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ptitbonheur.com/",
+  "evidence": [
+   {
+    "url": "https://www.ptitbonheur.com/",
+    "date": "2026-01-01",
+    "summary": "Centre site, copyright 2026, posts season-end closure notice for its ski and snowshoe trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-des-campeurs-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parcregionalsadm.com/",
+  "evidence": [
+   {
+    "url": "https://parcregionalsadm.com/",
+    "date": "2025-11-01",
+    "summary": "Park site lists ski and snowshoe trails, with an October 2025 ski trail map posted November 2025."
+   }
+  ],
+  "suggestedName": "Parc régional de Sainte-Agathe-des-Monts",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Rename: Parc des Campeurs now Parc régional de Sainte-Agathe-des-Monts; old domain parcdescampeurs.com now an unrelated site."
+ },
+ {
+  "id": "la-reservesaint-donat-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://clubpleinairsaint-donat.org/cartes-et-sentiers/",
+  "evidence": [
+   {
+    "url": "https://clubpleinairsaint-donat.org/cartes-et-sentiers/",
+    "date": "2026-04-01",
+    "summary": "Live club site says its Saint-Donat trails serve nordic skiers; 2025 activity report posted April 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "forat-ouareau-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://parcsregionaux.org/activites/ski-de-randonnee/",
+  "evidence": [
+   {
+    "url": "https://parcsregionaux.org/activites/ski-de-randonnee/",
+    "date": "2026-01-01",
+    "summary": "Regional park manager page, copyright 2026, lists about 30 km of marked nordic ski trails at Forêt Ouareau."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-devian-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.zeffy.com/fr-CA/ticketing/loppet-primavera--2026",
+    "date": "2026-01-01",
+    "summary": "Club ticketing page for its Loppet Primavera 2026 race, adult and youth fees listed (snippet)."
+   },
+   {
+    "url": "https://www.zeffy.com/fr-CA/ticketing/adhesion-au-programme-jeunesse-2025--2026",
+    "date": "2025-10-01",
+    "summary": "Club youth ski program registration for the 2025-2026 season (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Club ticketing pages on zeffy.com returned 403; evidence from search snippets. No club website found."
+ },
+ {
+  "id": "base-de-plein-air-linterval-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://intervalcoop.com/activites",
+  "evidence": [
+   {
+    "url": "https://intervalcoop.com/activites",
+    "date": "2026-01-01",
+    "summary": "Co-op site, copyright 2026, describes about 10 km of groomed ski trails plus ungroomed nordic routes."
+   }
+  ],
+  "suggestedName": "L'Interval, coopérative de solidarité de plein air",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Rename: base de plein air now run as L'Interval co-op; old domain interval.qc.ca dead, new site intervalcoop.com."
+ },
+ {
+  "id": "centre-de-ski-de-fond-val-david-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.parcregional.com/activite/ski-de-fond/",
+  "evidence": [
+   {
+    "url": "https://www.parcregional.com/activite/ski-de-fond/",
+    "date": "2026-01-01",
+    "summary": "Regional park site, copyright 2026, lists groomed ski routes from Dufresne sector's Chalet Anne-Piché in Val-David."
+   }
+  ],
+  "suggestedName": "Parc régional de Val-David–Val-Morin (secteur Dufresne)",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Rename: listing was Parc Dufresne trail centre; now part of Parc régional de Val-David–Val-Morin. Candidate rockandticket.com returned 403 and is unrelated."
+ },
+ {
+  "id": "centre-de-plein-air-sainte-adele-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://pleinairsteadele.com/ski/",
+  "evidence": [
+   {
+    "url": "https://pleinairsteadele.com/ski/",
+    "date": "2025-10-01",
+    "summary": "Club ski page lists groomed and nordic trails, including a new loop for the 2025-2026 season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "st-adolphe-dhoward-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.avalancheculturepleinair.com/plein-air",
+  "evidence": [
+   {
+    "url": "https://www.avalancheculturepleinair.com/plein-air",
+    "date": "2025-01-01",
+    "summary": "Live operator page sells a Plein Air pass covering ski de fond trails; mentions summer 2025."
+   },
+   {
+    "url": "https://www.stadolphedhoward.qc.ca/",
+    "date": "2026-11-10",
+    "summary": "Municipal site, news dated November 2026, links to Centre Plein Air Saint-Adolphe run by Avalanche."
+   }
+  ],
+  "suggestedName": "Avalanche Culture Plein Air",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Possible rename/merge: town's Centre Plein Air trails now sold under Avalanche Culture Plein Air (Mont Avalanche)."
+ },
+ {
+  "id": "viking-ski-club-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "http://vikingskiclub.ca/en/intro.php",
+  "evidence": [
+   {
+    "url": "http://vikingskiclub.ca/en/intro.php",
+    "date": "2026-01-01",
+    "summary": "Club site posts 2026 Ski-O results and 2026 tour reports; 55th Viking Loppet planned February 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "morin-heights-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.morinheights.com/Cross-country-Snowshoe-Trails",
+  "evidence": [
+   {
+    "url": "https://www.morinheights.com/Cross-country-Snowshoe-Trails",
+    "date": "2025-10-01",
+    "summary": "Municipal trails page lists 65 km track-set ski trails and links 2025-2026 trail fees."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "centre-de-ski-de-fond-la-randonnee-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.quebecvacances.com/fr/attractions/centre-de-ski-de-fond-la-randonnee",
+    "date": "2024-12-18",
+    "summary": "Tourism listing gives operating dates December 18, 2024 to March 31, 2025 for the 13 km centre (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Municipal site brownsburgchatham.ca returned 403; likely official page https://brownsburgchatham.ca/loisirs-et-culture/patinoires-et-activites-hivernales/. Same coordinates as centre-de-ski-de-fond-gai-luron-qc, check for duplicate location."
+ },
+ {
+  "id": "lac-carling-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.quebecvacances.com/en/lodging/hotel-du-lac-carling",
+    "date": "2024-11-15",
+    "summary": "Listing says hotel closed after major November 2024 fire, reopening planned May 2026 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "centre-de-ski-de-fond-gai-luron-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sentiersgl.ca/",
+  "evidence": [
+   {
+    "url": "https://sentiersgl.ca/",
+    "date": "2026-11-22",
+    "summary": "Centre site posts 2026-2027 winter hours, season pass sales and a dated trail conditions panel."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Same coordinates as centre-de-ski-de-fond-la-randonnee-qc (Brownsburg-Chatham); Gai-Luron is in Saint-Jérôme, so one set of coordinates is likely wrong."
+ },
+ {
+  "id": "parc-lineaire-le-ptit-train-du-nord-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://en.ptittraindunord.com/ski",
+  "evidence": [
+   {
+    "url": "https://en.ptittraindunord.com/ski",
+    "date": "2026-11-02",
+    "summary": "Official trail page describes groomed classic and skate ski corridors; posts November 2026 pre-winter closure notice."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "club-de-ski-de-fond-de-granada-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-regional-de-la-riviere-du-nord-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parcrivieredunord.ca/activites/ski-de-fond/",
+  "evidence": [
+   {
+    "url": "https://www.parcrivieredunord.ca/activites/ski-de-fond/",
+    "date": null,
+    "summary": "Live regional park page describes maintained ski trails, rentals and heated shelter; site shows 2026 events."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "parc-doka-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.sepaq.com/en/destinations/national-parks/oka/activities/cross-country-skiing",
+    "date": null,
+    "summary": "Sepaq park page lists cross-country skiing; Sepaq blog cites five groomed trails over 40 km (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "sepaq.com returned 403 to fetches in this batch; officialUrl left null (likely https://www.sepaq.com/en/destinations/national-parks/oka/activities/cross-country-skiing)."
+ },
+ {
+  "id": "centre-de-plein-air-des-cedres-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Candidate basedepleinairdescedres.com returned 403. Search results only found Les Cèdres Golf et Plein Air in Granby, a different place."
+ },
+ {
+  "id": "lescapade-linear-park-qc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ville.rigaud.qc.ca/sentiers-de-lescapade/sentiers-de-lescapade",
+  "evidence": [
+   {
+    "url": "https://www.ville.rigaud.qc.ca/sentiers-de-lescapade/etat-des-sentiers",
+    "date": "2026-11-21",
+    "summary": "Town trail conditions page, updated November 2026, includes a ski de fond status block (season ended)."
+   }
+  ],
+  "suggestedName": "Sentiers de L'Escapade",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Rename: now called Sentiers de L'Escapade (Mont Rigaud), run by Ville de Rigaud. sentiersdelescapade.com would not load."
+ }
+]

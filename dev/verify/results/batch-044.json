@@ -1,0 +1,172 @@
+[
+ {
+  "id": "milaca-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.cityofmilaca.org/trails",
+  "evidence": [
+   {
+    "url": "https://www.cityofmilaca.org/trails",
+    "date": null,
+    "summary": "City page lists cross-country skiing and about five miles groomed seasonally."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "mississippi-river-county-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.stearnscountymn.gov/mississippi-river-county-park",
+  "evidence": [
+   {
+    "url": "https://content.govdelivery.com/bulletins/gd/STEARNS-3d0c112",
+    "date": "2025-02-09",
+    "summary": "County bulletin offers free ski lessons at this park on 9 February 2025 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "rock-lake-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/rock-lake-national-recreation-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/rock-lake-national-recreation-trail",
+    "date": "2025-06-25",
+    "summary": "Forest Service page describes classic-only ski trail with tracks set when snow allows; page updated June 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "mukwonago-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/mukwonago-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/mukwonago-trail",
+    "date": "2025-06-25",
+    "summary": "Forest Service page lists ski and snowshoe use with classic tracks set when snow allows; updated June 2025."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "north-lakeland-discovery-center-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.discoverycenter.net/recreation-exploration",
+  "evidence": [
+   {
+    "url": "https://www.discoverycenter.net/recreation-exploration",
+    "date": null,
+    "summary": "Centre site lists cross-country skiing on its 12-mile trail system; 2025 copyright, trail map labeled 2024."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "black-river-falls-state-forest-wi",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/blackriver",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/blackriver",
+    "date": null,
+    "summary": "State forest page names skiing among recreation uses; no ski trail or grooming details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "collinwood-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wrightcountymn.gov/facilities/facility/details/collinwoodregionalparkcampground-53",
+  "evidence": [
+   {
+    "url": "https://www.wrightcountymn.gov/facilities/facility/details/collinwoodregionalparkcampground-53",
+    "date": null,
+    "summary": "County page lists a cross-country ski trail feature; no grooming details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "otsego-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wrightcountymn.gov/facilities/facility/details/Otsego-Regional-Park-10",
+  "evidence": [
+   {
+    "url": "https://www.wrightcountymn.gov/facilities/facility/details/Otsego-Regional-Park-10",
+    "date": null,
+    "summary": "County page lists a cross-country ski trail feature; no grooming details."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "stanley-eddy-park-reserve-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wrightcountymn.gov/Facilities/Facility/Details/Stanley-Eddy-Memorial-Park-Reserve-23",
+  "evidence": [
+   {
+    "url": "https://www.wrightcountymn.gov/Facilities/Facility/Details/Stanley-Eddy-Memorial-Park-Reserve-23",
+    "date": null,
+    "summary": "County page says 3.5 miles are groomed for cross-country skiing in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "robert-ney-regional-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.wrightcountymn.gov/facilities/facility/details/Robert-Ney-Memorial-Park-Reserve-22",
+  "evidence": [
+   {
+    "url": "https://www.wrightcountymn.gov/facilities/facility/details/Robert-Ney-Memorial-Park-Reserve-22",
+    "date": null,
+    "summary": "County page lists ski trail and ski rental with weekend hours; page references 2026 dates."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

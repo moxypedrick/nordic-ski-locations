@@ -1,0 +1,142 @@
+[
+ {
+  "id": "big-ridge-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.itascacountymn.gov/275/Hiking-Hunting-and-Skiing-Trails",
+  "evidence": [
+   {
+    "url": "https://www.itascacountymn.gov/275/Hiking-Hunting-and-Skiing-Trails",
+    "date": null,
+    "summary": "Itasca County page lists Big Ridge Trail as a 6 mile, three-loop ski trail near Goodland."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Same county page was fetched once for amen-lake-mn; fetch counted there."
+ },
+ {
+  "id": "machickanee-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skimachickanee.org/",
+  "evidence": [
+   {
+    "url": "https://skimachickanee.org/",
+    "date": "2026-11-19",
+    "summary": "Club site post says trails in good condition; notes ski-trail rules once snow arrives, Abrams WI."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "indian-lake-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.danecountyparks.com/park/IndianLake",
+  "evidence": [
+   {
+    "url": "https://www.danecountyparks.com/park/IndianLake",
+    "date": null,
+    "summary": "Dane County park page lists groomed cross-country ski trail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "rock-cut-state-park-il",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.illinois.gov/parks/park.rockcut.html",
+  "evidence": [
+   {
+    "url": "https://dnr.illinois.gov/parks/park.rockcut.html",
+    "date": null,
+    "summary": "Illinois DNR page lists cross-country skiing as a park activity, Loves Park."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "alimagnet-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://burnsvillemn.gov/Facilities/Facility/Details/60",
+  "evidence": [
+   {
+    "url": "https://burnsvillemn.gov/Facilities/Facility/Details/60",
+    "date": null,
+    "summary": "City of Burnsville page lists cross-country ski trails among park features."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "coon-rapids-dam-regional-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://anokacountyparks.com/parks/coon-rapids-dam",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Anoka County ski-trail and things-to-do pages omit this park (snowshoe rental only); guides say grooming stopped after 2022-23; no explicit county closure statement."
+ },
+ {
+  "id": "university-of-iowa-ashton-cross-country-course-ia",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Only old Gazette and 2014 Hawkeye Sports mentions of volunteer ski grooming; no dated recent evidence or official page found."
+ },
+ {
+  "id": "buffalo-river-state-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.dnr.state.mn.us/state_parks/buffalo_river/index.html",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "DNR page loaded without park content; third party says no groomed ski trails; no dated ski evidence found."
+ },
+ {
+  "id": "drugans-golf-course-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://drugans.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site loaded (Holmen) but mentions only golf, dining and weddings; only a skinnyski listing links it to skiing."
+ },
+ {
+  "id": "hok-si-la-municipal-park-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://hoksilapark.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Official site loaded (Lake City) with no ski mention; only a skinnyski listing links it to skiing."
+ }
+]

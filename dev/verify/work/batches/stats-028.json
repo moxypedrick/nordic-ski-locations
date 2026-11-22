@@ -1,0 +1,106 @@
+{
+ "searches": 49,
+ "fetches": 45,
+ "perArea": {
+  "club-de-ski-de-fond-le-norvegien-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "club-de-ski-de-fond-dalma-qc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "club-tobo-ski-qc": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "chibougamau-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "centre-de-plein-air-st-nazaire-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "club-de-ski-de-fond-de-mt-valin-qc": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "parc-du-saguenay-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "sentier-de-la-riviere-amedee-qc": {
+   "searches": 3,
+   "fetches": 4
+  },
+  "sentier-nor-fond-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "club-de-ski-de-fond-rapido-de-sept-iles-qc": {
+   "searches": 3,
+   "fetches": 5
+  },
+  "club-de-ski-de-fond-anik-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "pohenegamook-sante-plein-air-qc": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "val-neigette-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "centre-de-plein-air-de-saint-damase-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "station-de-ski-val-direne-qc": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "base-de-plein-air-des-outaouais-qc": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "parc-de-la-gaspesie-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "centre-de-plein-air-de-saint-simeon-qc": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "base-de-plein-air-de-bellefeuille-qc": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "parc-national-forillon-qc": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "centre-de-ski-mont-sainte-marie-qc": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "reserve-faunique-de-papineau-labelle-qc": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "chateau-montebello-qc": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "montevillamontebello-qc": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "parc-du-mont-comi-qc": {
+   "searches": 1,
+   "fetches": 4
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "searches": 17,
+ "fetches": 13,
+ "perArea": {
+  "afterglow-lake-resort-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "timberland-hills-west-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "razorback-ridges-trail-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "plover-river-ski-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hiram-ski-trail-mn": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "greenwood-hills-trail-wi": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "abr-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "swedetown-trails-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "maasto-hiihto-ski-trails-mi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "deep-portage-ski-trails-mn": {
+   "searches": 3,
+   "fetches": 2
+  }
+ }
+}

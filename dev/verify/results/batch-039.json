@@ -1,0 +1,160 @@
+[
+ {
+  "id": "flandrau-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00145",
+  "evidence": [
+   {
+    "url": "https://www.nujournal.com/news/local-news/2026/01/02/groomed-and-ready-for-fun/",
+    "date": "2026-01-02",
+    "summary": "New Ulm Journal reports Flandrau ski trails groomed December 30, in fair condition. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "comment": "DNR park page content loaded via script; official page itself showed no ski details.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "forestvillemystery-cave-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00148",
+  "evidence": [
+   {
+    "url": "https://www.prestonmnchamber.com/cross-country-skiing/",
+    "date": null,
+    "summary": "Preston chamber and DNR map say park ski trails open for skiing, ungroomed. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "comment": "DNR page content built by script; evidence from search snippets only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "chester-woods-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.olmstedcounty.gov/residents/parks-recreation/parks/chester-woods-park",
+  "evidence": [
+   {
+    "url": "https://www.olmstedcounty.gov/residents/parks-recreation/parks/chester-woods-park",
+    "date": null,
+    "summary": "Live Olmsted County park page references cross-country skiing and lists winter camping through March 2027."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "great-river-bluffs-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00244",
+  "evidence": [
+   {
+    "url": "https://mntrails.com/project/great-river-bluffs-state-park/",
+    "date": null,
+    "summary": "Listings describe a 9-mile ski trail system with some groomed trails at the park. (snippet)"
+   }
+  ],
+  "method": "site-check",
+  "comment": "DNR page content built by script; evidence from search snippets only.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "eastwood-golf-course-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.rochestermn.gov/activities-parks-culture/golf/eastwood-golf-course/",
+  "evidence": [],
+  "method": "research",
+  "comment": "City golf page has no ski info; current city ski page omits Eastwood; only an undated city map and tourism listing show trails.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "soldiers-field-golf-course-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.rochestermn.gov/activities-parks-culture/golf/soldiers-field-memorial-golf-course/",
+  "evidence": [],
+  "method": "research",
+  "comment": "City golf page has no ski info; current city ski page omits Soldiers Field; only a snippet of a now-404 facility listing mentioned skiing.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "lindenwood-park-ski-trails-nd",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fargoparks.com/parks-and-facilities/lindenwood-park",
+  "evidence": [
+   {
+    "url": "https://www.fargoparks.com/parks-and-facilities/lindenwood-park",
+    "date": null,
+    "summary": "Fargo Parks page lists traditional and skate cross-country ski trails at Lindenwood Park."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "balsam-branch-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.polkcountywi.gov/government/divisions_and_departments/public_works/parks___trails/trails/cross_country_skiing.php",
+  "evidence": [
+   {
+    "url": "https://www.polkcountywi.gov/government/divisions_and_departments/public_works/parks___trails/trails/cross_country_skiing.php",
+    "date": null,
+    "summary": "Polk County page describes groomed, partly lit Balsam Branch ski trails opening December 1 each winter."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "ashland-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.visitashland.com/plan-your-visit/recreation/cross-country-skiing/",
+    "date": "2026-03-13",
+    "summary": "Visit Ashland lists Ashland Ski Trails as open with late-season skiing on 2026-03-13."
+   }
+  ],
+  "method": "site-check",
+  "comment": "No ASTA website or Facebook page found; only the tourism page and directory sites reference the trail.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-22"
+ },
+ {
+  "id": "after-hours-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/StateForests/bruleriver/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/StateForests/bruleriver/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR Brule River State Forest winter page lists Afterhours ski trail loops, pass required."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "comment": "",
+  "checkedDate": "2026-11-22"
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "searches": 11,
+ "fetches": 15,
+ "perArea": {
+  "anvil-national-recreation-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "nordmarka-ski-trails-wi": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "lake-forest-recreation-area-wi": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "tower-ridge-ski-area-wi": {
+   "searches": 2,
+   "fetches": 3
+  },
+  "birkie-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hixon-forest-wi": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "hoffman-hills-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "red-cedar-river-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "minocqua-winter-park-nordic-center-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "levistrow-mound-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

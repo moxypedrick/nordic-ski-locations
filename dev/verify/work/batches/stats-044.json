@@ -1,0 +1,46 @@
+{
+ "searches": 1,
+ "fetches": 11,
+ "perArea": {
+  "milaca-trails-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mississippi-river-county-park-mn": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "rock-lake-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "mukwonago-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "north-lakeland-discovery-center-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "black-river-falls-state-forest-wi": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "collinwood-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "otsego-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "stanley-eddy-park-reserve-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "robert-ney-regional-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

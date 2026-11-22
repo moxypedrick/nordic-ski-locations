@@ -1,0 +1,165 @@
+[
+  {
+    "id": "latigo-co",
+    "status": "operating",
+    "confidence": "low",
+    "officialUrl": "https://latigoranch.com/",
+    "evidence": [
+      {
+        "url": "https://gazettedev.gazette.com/2024/12/18/saddle-up-this-winter-western-charm-awaits-at-these-8-colorado-dude-ranches/",
+        "date": "2024-12-18",
+        "summary": "Latigo Ranch in Kremmling listed with groomed ski trails, open Thursday to Monday, Dec. 20 to March 10."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Given coordinates are near Colorado Springs, but the only Latigo with ski trails found is Latigo Ranch near Kremmling, about 170 km away; may be a different place or bad geocode."
+  },
+  {
+    "id": "leelanau-trail-mi",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://traversetrails.org/grooming/",
+    "evidence": [
+      {
+        "url": "https://traversetrails.org/grooming/",
+        "date": null,
+        "summary": "TART Trails page lists Leelanau Trail as groomed by volunteers for classic and skate skiing when conditions allow."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "leslie-park-golf-course-ann-arbor-municipal-mi",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": "https://www.a2gov.org/parks-and-recreation/parks-and-places/leslie-park/",
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "lolo-pass-mt-2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://missoulanordic.squarespace.com/lolo-pass",
+    "evidence": [
+      {
+        "url": "https://www.nps.gov/places/winter-sports-at-lolo-pass.htm",
+        "date": null,
+        "summary": "Live federal page describes over eight miles of groomed classic and skate trails at Lolo Pass, parking permit required."
+      },
+      {
+        "url": "https://missoulanordic.squarespace.com/lolo-pass",
+        "date": null,
+        "summary": "Club page describes current grooming by snowmobile club and about 13 km of ski trails; undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "lone-mountain-mt",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://lonemountainranch.com/nordic-ski-trail-passes/",
+    "evidence": [
+      {
+        "url": "https://lonemountainranch.com/nordic-ski-trail-passes/",
+        "date": null,
+        "summary": "Official Big Sky ranch page sells Nordic trail season and day passes; current-season price list file dated February 2026."
+      }
+    ],
+    "suggestedName": "Lone Mountain Ranch",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "lost-lake-on",
+    "status": "unverified",
+    "confidence": "low",
+    "officialUrl": null,
+    "evidence": [],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Could not identify an Ontario Lost Lake ski area near these coordinates; searches only returned Whistler BC and other regional clubs."
+  },
+  {
+    "id": "memphremagog-vt",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.mstf.net/",
+    "evidence": [
+      {
+        "url": "https://www.mstf.net/winter-rentals",
+        "date": null,
+        "summary": "Club site lists winter ski rentals, snowshoes and Bill Koch lessons at Darling Hill, Newport; page shows 2026 copyright."
+      }
+    ],
+    "suggestedName": "Memphremagog Trails",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "lubrecht-experimental-forest-mt-2",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": "https://www.umt.edu/lubrecht-forest-bandy-ranch/recreation/",
+    "evidence": [
+      {
+        "url": "https://www.umt.edu/lubrecht-forest-bandy-ranch/recreation/",
+        "date": null,
+        "summary": "University land page lists 12-plus miles of ski trails groomed with Missoula Nordic Ski Club; undated."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  },
+  {
+    "id": "mont-sainte-anne-qc",
+    "status": "operating",
+    "confidence": "medium",
+    "officialUrl": null,
+    "evidence": [
+      {
+        "url": "https://www.sepaq.com/en/reservation/cross-country-skiing/season-pass-mont-saint-anne",
+        "date": "2026-10-16",
+        "summary": "Sepaq season pass for 2026-27 cross-country trails at Parc du Mont-Sainte-Anne; sales start Oct 16, reopening Dec 4 (snippet)."
+      }
+    ],
+    "suggestedName": "Parc du Mont-Sainte-Anne",
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": "Sepaq pages returned 403, so officialUrl left null; evidence from search snippet."
+  },
+  {
+    "id": "moulton-ski-trails-mt-2",
+    "status": "operating",
+    "confidence": "high",
+    "officialUrl": "https://www.fs.usda.gov/r01/beaverhead-deerlodge/maps-guides/winter-recreation-maps-and-guides",
+    "evidence": [
+      {
+        "url": "https://www.fs.usda.gov/r01/beaverhead-deerlodge/maps-guides/winter-recreation-maps-and-guides",
+        "date": "2025-12-22",
+        "summary": "Forest Service winter page, updated Dec 2025, lists Moulton cross-country ski trails groomed by Mile High Nordic."
+      }
+    ],
+    "suggestedName": null,
+    "method": "research",
+    "checkedDate": "2026-11-22",
+    "comment": ""
+  }
+]

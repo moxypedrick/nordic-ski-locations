@@ -1,0 +1,181 @@
+[
+ {
+  "id": "traverse-city-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.traversecitymi.gov/government/city-departments/hickory-hills/nordic-state-championships.html",
+  "evidence": [
+   {
+    "url": "https://www.traversecitymi.gov/government/city-departments/hickory-hills/nordic-state-championships.html",
+    "date": "2026-02-27",
+    "summary": "City of Traverse City page: Hickory Hills hosted Nordic state championships Feb 27-Mar 1, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Entry is generic; evidence is for Hickory Hills (Traverse City) nordic trails."
+ },
+ {
+  "id": "vail-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://vailrd.specialdistrict.org/vail-nordic-center",
+  "evidence": [
+   {
+    "url": "https://vailrd.specialdistrict.org/vail-nordic-center",
+    "date": "2026-11-22",
+    "summary": "Vail Recreation District lists 2026/27 Nordic Center passes on sale, races, lessons and daily grooming."
+   }
+  ],
+  "suggestedName": "Vail Nordic Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "wild-wings-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://wildwingsski.com",
+  "evidence": [
+   {
+    "url": "https://wildwingsski.com",
+    "date": "2026-11-21",
+    "summary": "Official trail conditions report dated Nov 21, 2026 describes trail prep and promotes early-season passes."
+   }
+  ],
+  "suggestedName": "Wild Wings Ski Touring Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "white-pass-nordic-center-wa-2",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://skiwhitepass.com/nordic-center",
+  "evidence": [
+   {
+    "url": "https://www.mountaineers.org/activities/activities/cross-country-ski-white-pass-nordic-center-43",
+    "date": "2026-03-07",
+    "summary": "Mountaineers trip report from March 7, 2026 says White Pass had good snowpack for Nordic skiing."
+   },
+   {
+    "url": "https://skiwhitepass.com/nordic-center",
+    "date": null,
+    "summary": "Official page lists Friday-Monday operations and a season pass; opening date TBA, trail map labeled 22/23."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Input lon (-102.644) is wrong for WA; likely at White Pass near -121.4."
+ },
+ {
+  "id": "wildwood-hills-pathway-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.michigan.gov/recsearch/trails/wildwood-hills-pathway",
+    "date": null,
+    "summary": "Michigan DNR trail listing says pathway is groomed for classic cross-country skiing in winter (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "michigan.gov returned 403; evidence from search snippet. No other official site found."
+ },
+ {
+  "id": "03acfe0fd2fa878a0a110e12b318d432e70fbe5c",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://abrtrails.com/",
+  "evidence": [
+   {
+    "url": "https://abrtrails.com/",
+    "date": "2026-01-10",
+    "summary": "Official site lists SISU Ski Fest Jan 10, 2026 and 2025-26 cabin reservations; trails closed for season."
+   }
+  ],
+  "suggestedName": "ABR Trails (Active Backwoods Retreat)",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Located at Ironwood MI area; abrski.com redirects to abrtrails.com."
+ },
+ {
+  "id": "0567508f224431cf525d2fec46c4942335525310",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://paytrailspass.natronacounty-wy.gov",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/event/2026/BYzq5D",
+    "date": "2026-02-06",
+    "summary": "Jacobson Memorial Nordic ski meet held Feb 6-7, 2026 at Casper Mountain Trails Center (snippet)."
+   },
+   {
+    "url": "https://www.visitcasper.com/things-to-do/outdoor-recreation/winter-sports/nordic-skiing/",
+    "date": null,
+    "summary": "Visit Casper lists 26 miles of groomed nordic trails needing a winter pass."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Same place now called Casper Mountain Trails Center (Natrona County). Official URL is the county pass page; no dedicated site found."
+ },
+ {
+  "id": "069382b35433127926809412c7804ea8862569e5",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://apunordic.com/",
+  "evidence": [
+   {
+    "url": "https://apunordic.com/",
+    "date": null,
+    "summary": "APU Nordic site says program registration is open for the 2026-27 ski season; Anchorage campus."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "04a5001a288a997399f4bca3661a2ee0d26e17e3",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.hiddenvalleyresort.com/",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Resort site and foundation page show no cross-country trails or dated XC evidence; only alpine. Listings disagree on any Nordic trails."
+ },
+ {
+  "id": "072645f491a5c0f6a3f87cf11e9c2deed655b77a",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://windingtrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.meetup.com/connecticut-hike-bike-and-paddle/events/313014165",
+    "date": "2026-01-31",
+    "summary": "Group cross-country skiing outing at Winding Trails, Farmington CT, held Jan 31, 2026."
+   },
+   {
+    "url": "https://windingtrails.org/current-conditions/",
+    "date": null,
+    "summary": "Official page says ski center not yet open for the season; season runs mid-Dec to mid-March."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

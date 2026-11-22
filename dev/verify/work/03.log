@@ -1,0 +1,9 @@
+other: 299 total, 158 to check
+  25/158
+  50/158
+  75/158
+  100/158
+  125/158
+  150/158
+Entries: 299
+States: { ok: 212, dead: 55, moved: 20, blocked: 12 }

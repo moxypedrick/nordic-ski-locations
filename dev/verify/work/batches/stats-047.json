@@ -1,0 +1,46 @@
+{
+ "searches": 5,
+ "fetches": 17,
+ "perArea": {
+  "mckeever-hills-mi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "palmquists-the-farm-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "rapid-river-ski-trail-mi": {
+   "searches": 1,
+   "fetches": 3
+  },
+  "uller-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "jones-spring-area-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "lauterman-national-recreation-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "barkhausen-waterfowl-preserve-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "zillmer-ski-trails-wi": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "underdown-recreation-area-wi": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "vasaloppet-public-ski-area-mn": {
+   "searches": 1,
+   "fetches": 1
+  }
+ }
+}

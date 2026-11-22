@@ -1,0 +1,46 @@
+{
+ "searches": 9,
+ "fetches": 13,
+ "perArea": {
+  "harry-larson-county-forest-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "kaplans-woods-parkway-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "hickory-ridge-trail-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "eagle-lake-regional-park-mn": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "sisters-farm-wi": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "ellis-park-ia": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "east-river-valley-parkcarrs-woods-ia": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "iowa-state-university-cross-county-course-ia": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "cedar-valley-trail-ia": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "blackwater-environmental-area-mn": {
+   "searches": 2,
+   "fetches": 1
+  }
+ }
+}

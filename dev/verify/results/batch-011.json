@@ -1,0 +1,427 @@
+[
+ {
+  "id": "crested-butte-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.cbnordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.cbnordic.org/",
+    "date": null,
+    "summary": "Crested Butte Nordic home page sells 2026-27 season and day passes."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "edson-hill-vt",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.edsonhill.com/",
+  "evidence": [
+   {
+    "url": "https://www.edsonhill.com/",
+    "date": null,
+    "summary": "Edson Hill inn site in Stowe is live but shows no current nordic trail or pass information."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "camp-mercier-qc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://sepaq.com/rf/lau/camp-mercier/",
+    "date": null,
+    "summary": "Sépaq Camp Mercier page lists 2025-26 ski season, December 2025 to April 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "Sépaq pages returned 403; official page https://www.sepaq.com/rf/lau/camp-mercier/ could not be loaded.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "movil-maze-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bemidjicrosscountryski.org/trail-maps-and-reports",
+  "evidence": [
+   {
+    "url": "https://bemidjicrosscountryski.org/club-news",
+    "date": "2026-12-01",
+    "summary": "Bemidji ski club lists 2026-27 events at Movil Maze, including Tuesday night ski starting December 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blueberry-ridge-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.michigan.gov/recsearch/trails/blueberry-ridge-pathway",
+    "date": null,
+    "summary": "Michigan DNR page lists 13.7 miles of groomed ski trail at Blueberry Ridge Pathway near Marquette (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "michigan.gov pages returned 403; DNR page https://www.michigan.gov/recsearch/trails/blueberry-ridge-pathway could not be loaded.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "herrick-lake-forest-preserve-il",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dupageforest.org/places-to-go/forest-preserves/herrick-lake",
+  "evidence": [
+   {
+    "url": "https://www.dupageforest.org/places-to-go/forest-preserves/herrick-lake",
+    "date": null,
+    "summary": "DuPage Forest Preserve page for Herrick Lake, Wheaton, says trails are open to cross-country skiers."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "ski-de-fond-mont-tremblant-qc",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.domainesaintbernard.org/experiences/ski-de-fond",
+  "evidence": [
+   {
+    "url": "https://www.domainesaintbernard.org/experiences/ski-de-fond",
+    "date": null,
+    "summary": "Domaine Saint-Bernard page describes 32 km of maintained ski trails; no dated season information found."
+   }
+  ],
+  "method": "research",
+  "comment": "Possible rename: listings put 'Ski de fond Mont-Tremblant' at 539 chemin Saint-Bernard, the Domaine Saint-Bernard centre.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "weston-ma",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.skiboston.com/",
+  "evidence": [
+   {
+    "url": "https://www.mass.gov/event/adaptive-cross-country-skiing-at-leo-j-martin-ski-track-01-25-2026",
+    "date": "2026-01-25",
+    "summary": "Mass.gov lists adaptive cross-country ski sessions at the Weston ski track, January 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "boulder-lake-management-area-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://boulderlake.org/visit/recreation/trails",
+  "evidence": [
+   {
+    "url": "https://boulderlake.org/visit/recreation/trails",
+    "date": null,
+    "summary": "Boulder Lake ELC trails page lists 23 km groomed classic and skate trails; site lists 2026 events."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "alder-pond-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://northernlightsnordic.org/trails/?trail_id=10",
+  "evidence": [
+   {
+    "url": "http://www.itascacountymn.gov/275/Hiking-Hunting-and-Skiing-Trails",
+    "date": null,
+    "summary": "Itasca County trails page lists Alder Pond Trail with ski grooming; club page lists 10 km classic trail."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mountain-top-vt",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mountaintopinn.com/things-to-do-in-chittenden?filter=winter-amp-spring",
+  "evidence": [
+   {
+    "url": "https://www.mountaintopinn.com/things-to-do-in-chittenden?filter=winter-amp-spring",
+    "date": "2026-07-10",
+    "summary": "Mountain Top Resort, Chittenden, lists 60 km groomed skate and classic trails with trail passes; page updated 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nordic-woods-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://co.washburn.wi.us/departments/forestry/",
+  "evidence": [
+   {
+    "url": "https://co.washburn.wi.us/departments/forestry/",
+    "date": null,
+    "summary": "Washburn County Forestry page lists Nordic Woods, about 15 km of ski loops between Spooner and Stone Lake."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "three-eagle-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.3eagletrail.org/",
+  "evidence": [
+   {
+    "url": "https://www.3eagletrail.org/",
+    "date": "2025-01-01",
+    "summary": "Three Eagle Trail site lists 4.9 miles groomed for skate and classic skiing; posts 2025 study results."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "minocqua-winter-park-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://minocquawinterpark.org/",
+  "evidence": [
+   {
+    "url": "https://minocquawinterpark.org/",
+    "date": "2026-11-11",
+    "summary": "Minocqua Winter Park home page sells 2026-27 season passes and posts November 2026 news."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "cascade-river-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00133",
+  "evidence": [
+   {
+    "url": "https://www.visitcookcounty.com/outdoors/winter-activities/cross-country-skiing/lutsen-and-tofte-trail-conditions/",
+    "date": "2026-02-07",
+    "summary": "Cook County trail conditions page reports Cascade River trails packed and tracked February 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sugarbush-trail-system-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sugarbushtrail.org/ski_trails.php",
+  "evidence": [
+   {
+    "url": "https://www.sugarbushtrail.org/ski_trails.php",
+    "date": "2026-04-05",
+    "summary": "Sugarbush Trail Association grooming table lists grooming dates through April 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mt-macpherson-xc-ski-trails-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://revelstokenordic.org/",
+  "evidence": [
+   {
+    "url": "https://revelstokenordic.org/",
+    "date": null,
+    "summary": "Revelstoke Nordic site for Mt. Macpherson trails links grooming report and a Teck BC Cup 2027 event."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "stony-creek-metropark-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.metroparks.com/parks/stony-creek-metropark/",
+  "evidence": [
+   {
+    "url": "https://www.metroparks.com/parks/stony-creek-metropark/",
+    "date": null,
+    "summary": "Huron-Clinton Metroparks page lists 13 miles of groomed classic ski trails and ski rentals at Stony Creek."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "callaghan-country-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.thecallaghan.com/",
+  "evidence": [
+   {
+    "url": "https://www.thecallaghan.com/season-pass-and-tickets.htm",
+    "date": "2026-01-03",
+    "summary": "Callaghan Country sells 2025-26 season passes and day tickets; season opened January 3, 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "holy-cross-ski-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.priceareatrailhub.org/ourtrails/",
+  "evidence": [
+   {
+    "url": "https://www.priceareatrailhub.org/ourtrails/",
+    "date": null,
+    "summary": "Price Area Trail Hub lists Holy Cross trail near Fifield as groomed for classic skiing; site updated 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "banadad-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.banadad.org/trail-info",
+  "evidence": [
+   {
+    "url": "https://www.banadad.org/newsletter",
+    "date": "2026-03-14",
+    "summary": "Banadad trail association posts grooming updates dated March 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "frisco-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.townoffrisco.com/things-to-do/frisco-nordic-center/",
+  "evidence": [
+   {
+    "url": "https://www.townoffrisco.com/things-to-do/frisco-nordic-center/",
+    "date": "2026-11-26",
+    "summary": "Town of Frisco sells early-bird season passes; projects 2026-27 opening on Thanksgiving 2026."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lake-bemidji-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00205",
+  "evidence": [
+   {
+    "url": "https://files.dnr.state.mn.us/maps/state_parks/spk00205_winter.pdf",
+    "date": null,
+    "summary": "Minnesota DNR winter map for Lake Bemidji State Park lists tracked ski loops (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "DNR park page loads content by script; park name and ski details could not be read from it.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "sleeping-giantsibley-pp-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://ontarioparks.ca/snowreport/detail/sleepinggiant",
+  "evidence": [
+   {
+    "url": "https://ontarioparks.ca/snowreport/detail/sleepinggiant",
+    "date": "2026-03-19",
+    "summary": "Ontario Parks snow report lists about 70 km groomed trails, grooming dated March 2026, updated November 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "grafton-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.graftoninnvermont.com/southern-vt-trails-outdoors",
+  "evidence": [
+   {
+    "url": "https://www.graftoninnvermont.com/southern-vt-trails-outdoors",
+    "date": "2026-12-01",
+    "summary": "Grafton Trails page sells 2026-27 ski season passes and trail passes; winter operations resume December 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

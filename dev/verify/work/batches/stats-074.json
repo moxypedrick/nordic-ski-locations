@@ -1,0 +1,46 @@
+{
+ "searches": 18,
+ "fetches": 29,
+ "perArea": {
+  "bretton-woods-nh": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "calgary-ab": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "carters-me": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "cascade-ny": {
+   "searches": 3,
+   "fetches": 6
+  },
+  "catamount-vt": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "charlevoix-xc-ski-trail-mi": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "chief-joseph-pass-mt-2": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "crosscut-mt": {
+   "searches": 1,
+   "fetches": 4
+  },
+  "echo-lake-trails-mt-2": {
+   "searches": 2,
+   "fetches": 5
+  },
+  "golden-eagle-mn": {
+   "searches": 4,
+   "fetches": 1
+  }
+ }
+}

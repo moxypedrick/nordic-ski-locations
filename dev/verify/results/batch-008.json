@@ -1,0 +1,441 @@
+[
+ {
+  "id": "dunton-locks-ski-trails-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.beckercountymn.gov/dept/parks_recreation/xcski.aspx",
+  "evidence": [
+   {
+    "url": "https://www.beckercountymn.gov/dept/parks_recreation/xcski.aspx",
+    "date": null,
+    "summary": "Becker County parks ski page lists Dunton Locks County Park with 2025 trail map."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "washburn-lake-solitude-area-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.exploreminnesota.com/profile/washburn-lake-ski-touring-hiking-trails/10925",
+    "date": null,
+    "summary": "Undated tourism listing describes 20 km groomed trails near Outing beside Washburn Lake Solitude Area (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "DNR state forest pages render with scripts and named no forest or trails.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "upper-gunflint-trail-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.gunflint.com/trail-report/",
+  "evidence": [
+   {
+    "url": "https://www.gunflint.com/trail-report/",
+    "date": "2026-03-13",
+    "summary": "Gunflint Lodge trail report: Upper Gunflint system groomed with classic and skate tracks after new snow."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "central-gunflint-trail-system-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.golden-eagle.com/nordic-skiing/ski-trail-conditions/",
+  "evidence": [
+   {
+    "url": "https://www.golden-eagle.com/nordic-skiing/ski-trail-conditions/",
+    "date": "2026-06-04",
+    "summary": "Golden Eagle Lodge Central Gunflint conditions page: season ended, reopening December 2026."
+   },
+   {
+    "url": "https://www.visitcookcounty.com/outdoors/winter-activities/cross-country-skiing/gunflint-trail-trail-conditions/",
+    "date": "2026-03-27",
+    "summary": "Tourism conditions page relays Golden Eagle grooming report for Central Gunflint system."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sugarloaf-prov-park-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.nbparks.ca/en/parks/9/sugarloaf-provincial-park",
+  "evidence": [
+   {
+    "url": "https://www.nbparks.ca/en/parks/9/sugarloaf-provincial-park",
+    "date": null,
+    "summary": "Parks NB Sugarloaf page lists cross-country skiing on groomed trails maintained by Les Montagnards club."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "brek-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.breckenridgenordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.breckenridgenordic.com/",
+    "date": "2026-11-01",
+    "summary": "Breckenridge Nordic Center site: season passes on sale, opening planned mid-November 2026."
+   }
+  ],
+  "method": "research",
+  "comment": "Coordinates match Breckenridge Nordic Center, but old URL pointed to Gold Run Nordic Center, which is a separate area ('Gold Run Nordic') in the list. Possible duplicate or mislabel. breckenridgerecreation.com returned 403.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "lodi-area-ski-trails-wi",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "hillside-ski-area-ak",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.anchoragenordicski.com/trails/",
+  "evidence": [
+   {
+    "url": "https://www.anchoragenordicski.com/trails/",
+    "date": "2026-10-24",
+    "summary": "NSAA trails page live with October 2026 update, includes Hillside trail map."
+   },
+   {
+    "url": "https://www.trailforks.com/trails/hillside-loop-lighted/",
+    "date": "2026-03-25",
+    "summary": "Third-party report marks Hillside Loop lighted trail groomed (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "howelsen-hill-ski-area-co",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.steamboatsprings.net/1449/Nordic-Center",
+  "evidence": [
+   {
+    "url": "https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area",
+    "date": "2026-11-01",
+    "summary": "City Howelsen Hill page: 2026-27 season scheduled from November 28, with Nordic Center and grooming reports."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "eastman-nh",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.eastmannh.org/ski",
+  "evidence": [
+   {
+    "url": "https://www.eastmannh.org/ski",
+    "date": "2026-12-09",
+    "summary": "Eastman Cross Country Center page lists groomed trails, pass prices, lessons, and December 2026 meeting dates."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "turtle-river-state-park-nd",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.parkrec.nd.gov/turtle-river-state-park",
+  "evidence": [
+   {
+    "url": "https://www.parkrec.nd.gov/turtle-river-state-park",
+    "date": null,
+    "summary": "ND Parks page lists over 7.5 miles of groomed cross-country ski trails and a warming house."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "silver-rapids-ski-trails-mn",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://exploreminnesota.com/profile/silver-rapids-lodge/310",
+    "date": null,
+    "summary": "Undated tourism listing says Silver Rapids Lodge near Ely has groomed ski trail (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "silverrapidslodge.com returned 401 Unauthorized.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "cavoc-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.rhinelander.k12.wi.us/schools/cavoc/about/",
+  "evidence": [
+   {
+    "url": "https://www.rhinelander.k12.wi.us/schools/cavoc/about/",
+    "date": null,
+    "summary": "School district CAVOC page lists ski trails run with Northwoods Nordic Ski Club, hosts ski meets."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "prince-albert-national-park-sk",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://parks.canada.ca/pn-np/sk/princealbert/activ/hiver-winter",
+  "evidence": [
+   {
+    "url": "https://parks.canada.ca/pn-np/sk/princealbert/activ/hiver-winter",
+    "date": "2026-11-03",
+    "summary": "Parks Canada activities page lists cross-country skiing and trail conditions; page modified November 2026."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "murphy-hanrehan-park-reserve-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.threeriversparks.org/location/murphy-hanrehan-park-reserve",
+  "evidence": [
+   {
+    "url": "https://www.threeriversparks.org/location/murphy-hanrehan-park-reserve",
+    "date": null,
+    "summary": "Three Rivers park page lists nine miles of groomed ski trails; ski pass required."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "wascana-centre-sk",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://reginaskiclub.ca/",
+  "evidence": [
+   {
+    "url": "https://reginaskiclub.ca/",
+    "date": "2026-11-08",
+    "summary": "Regina Ski Club grooms Douglas Park and Science Centre trails in Wascana Centre; 2026-27 programming meeting."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "token-creek-county-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.danecountyparks.com/park/tokencreek",
+  "evidence": [
+   {
+    "url": "https://www.danecountyparks.com/park/tokencreek",
+    "date": null,
+    "summary": "Dane County park page lists groomed cross-country ski trail with ski trail map."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sleepy-hollow-vt",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://skisleepyhollow.com/",
+  "evidence": [
+   {
+    "url": "https://skisleepyhollow.com/snow-conditions-trail-cam/",
+    "date": "2026-03-31",
+    "summary": "Conditions post ends 2025-26 season after 95 natural-snow days and 139 snowmaking-loop days."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pigeon-creek-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://miottawa.org/Parks/pigeoncreek.htm",
+  "evidence": [
+   {
+    "url": "https://miottawa.org/Parks/pigeoncreek.htm",
+    "date": null,
+    "summary": "Ottawa County Parks page lists groomed, lighted classic and skate ski trails, rentals and lodge."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lappe-nordic-ski-center-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.lappenordic.ca/club-info/",
+  "evidence": [
+   {
+    "url": "https://www.lappenordic.ca/club-info/",
+    "date": "2026-08-31",
+    "summary": "Lappe Nordic Ski Club site, based at Lappe Ski Centre, posts 2025-26 sponsorship and August 2026 meeting."
+   },
+   {
+    "url": "https://zone4.ca/event/2026/4zWk3d",
+    "date": "2026-03-28",
+    "summary": "2026 Lappe Skiathon fundraiser listed for March 28, 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "Club site shows an August 2026 proposal to form a single Thunder Bay Nordic ski club; possible future merge.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "muskegon-winter-sports-complex-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://msports.org/?p=31",
+  "evidence": [
+   {
+    "url": "https://msports.org/?p=31",
+    "date": null,
+    "summary": "Operator site lists 15 km groomed lit ski trails, day passes and early-bird winter season passes; 2025 blog posts."
+   }
+  ],
+  "suggestedName": "Muskegon Luge Adventure Sports Park",
+  "method": "research",
+  "comment": "Renamed: now Muskegon Luge Adventure Sports Park, formerly Muskegon Winter Sports Complex.",
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "pine-valley-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://www.cloquetmn.gov/Home/Components/FacilityDirectory/FacilityDirectory/28/230",
+    "date": null,
+    "summary": "City of Cloquet parks listing shows Pine Valley lighted and unlit cross-country ski trails (snippet)."
+   }
+  ],
+  "method": "research",
+  "comment": "City page returned 403; evidence from search snippet. Cloquet Ski Club Google site loaded but undated.",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15"
+ },
+ {
+  "id": "harris-farm-me",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.harrisfarm.com/x-c-skiing.html",
+  "evidence": [
+   {
+    "url": "https://www.harrisfarm.com/x-c-skiing.html",
+    "date": null,
+    "summary": "Farm ski page live, describes 40 km trails and rentals, but shows no date after 2016."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nubs-nob-mi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.nubsnob.com/",
+  "evidence": [
+   {
+    "url": "https://www.nubsnob.com/january-4-at-nubs-nob-3/",
+    "date": "2026-01-04",
+    "summary": "Nub's Nob daily conditions report mentions XC trails during 2025-26 season (seen via home page)."
+   }
+  ],
+  "method": "site-check",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "kamview-nordic-centre-on",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.tbnordictrails.com/trails/kamview-nordic-centre/",
+  "evidence": [
+   {
+    "url": "https://www.tbnordictrails.com/trails/kamview-nordic-centre/",
+    "date": "2026-09-24",
+    "summary": "Thunder Bay Nordic Trails Kamview page live with September 2026 trail map, lit trails, memberships."
+   },
+   {
+    "url": "https://zone4.ca/event/2026/RVQoqd",
+    "date": "2026-02-05",
+    "summary": "FADS race held at Kamview Ski Centre, February 2026 (snippet)."
+   }
+  ],
+  "method": "research",
+  "suggestedName": null,
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

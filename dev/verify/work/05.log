@@ -1,0 +1,37 @@
+  live 50/547
+  live 100/547
+  live 150/547
+  live 200/547
+  live 250/547
+  live 300/547
+  live 350/547
+  live 400/547
+  live 450/547
+  live 500/547
+archive fallback: 14
+link check: 477 to check
+  checked 50/477
+  checked 100/477
+  checked 150/477
+  checked 200/477
+  checked 250/477
+  checked 300/477
+  checked 350/477
+  checked 400/477
+  checked 450/477
+Entries: 547
+Page not fetched (live or archive): 3
+From archive: 11
+With website link: 477
+Last-reviewed year: {
+  '2005': 10,
+  '2007': 4,
+  '2008': 179,
+  '2009': 222,
+  '2010': 15,
+  '2011': 30,
+  '2012': 72,
+  none: 15
+}
+Link states: { blocked: 27, dead: 182, ok: 191, moved: 77 }
+05 exit 0

@@ -1,0 +1,166 @@
+[
+ {
+  "id": "b222968d82b8b05b70b0f9f47445ff4ff4a1a269",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://rimnordic.com/",
+  "evidence": [
+   {
+    "url": "https://rimnordic.com/snow-report/",
+    "date": "2026-11-11",
+    "summary": "Official snow report notice dated Nov 11, 2026: closed awaiting snow, grooming needs 10-12 inches base."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "b120c998e46941d19e34ac55c2a4d9332c2462a0",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.tawatinawvalley.ca/",
+  "evidence": [
+   {
+    "url": "https://zone4.ca/register.asp?id=40430",
+    "date": "2026-01-09",
+    "summary": "Nordiq Alberta camp Jan 9-11, 2026 at Tawatinaw required a trail pass for the cross-country trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "zone4.ca needs cookies; used search snippet. Official site lists cross-country tickets, undated."
+ },
+ {
+  "id": "b277e746eda3a06bef124ccada02cfc535991252",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://penobscotrivertrails.org/",
+  "evidence": [
+   {
+    "url": "https://docs.google.com/document/d/1-7EuOWquiF5v7DeDXjt7BpW-hpAL4JtBTtwO5NDluGY/edit?usp=sharing",
+    "date": "2026-03-11",
+    "summary": "Official trail-conditions document, snowfall dated 3/11/2026, reports ski season closed for the season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "b3c9430de047259c48b133defcc65053e882f5b1",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://reginaskiclub.ca",
+  "evidence": [
+   {
+    "url": "https://reginaskiclub.ca",
+    "date": "2026-11-08",
+    "summary": "Regina Ski Club site, with Nov 2026 items, lists Foothills among its trails and 35.8 km regularly groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Foothills is one of the Regina Ski Club's city trail sites."
+ },
+ {
+  "id": "b478ac04ee1454ef491f8bf6efc53253f457a3ba",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ymcanorth.org/node/320",
+  "evidence": [
+   {
+    "url": "https://www.ymcanorth.org/node/4453328",
+    "date": "2027-02-07",
+    "summary": "YMCA North women's ski and snowshoe retreat listed Feb 7-10, 2027 at Camp du Nord (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Event page returned 403; evidence from search snippet. Camp page lists cross-country skiing in winter."
+ },
+ {
+  "id": "b680bd987fdad0ef89f185e4f409fb1375fdb129",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://onc.org/onc-chapters/bmnc/",
+  "evidence": [
+   {
+    "url": "https://onc.org/onc-chapters/bmnc/",
+    "date": null,
+    "summary": "Club page for Meacham Divide cites 20 km groomed trails, a 2025-26 newsletter and a 2026 membership form."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "bd66f14ccb9092204829020853148f7cae096ffc",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.sentierdescaps.com/ski-de-fond/",
+  "evidence": [
+   {
+    "url": "https://www.sentierdescaps.com/ski-de-fond/",
+    "date": null,
+    "summary": "Official ski page promotes 2026-2027 season passes in pre-sale and lists 35.3 km of ski trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "b7d997f9f11a20285a4f2060327d1da344db32d9",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.crimsonridge.com/winter",
+  "evidence": [],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Official winter page and Mar 2026 Nordic Pulse report cover only snowshoe and fat bike; no cross-country ski evidence found."
+ },
+ {
+  "id": "bd78d22761819b620dbaca7bdbdafc9205b08a32",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://summitatsnoqualmie.com/nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://summitatsnoqualmie.com/nordic-skiing",
+    "date": "2026-11-17",
+    "summary": "Official Nordic page updated Nov 17, 2026: 26/27 Nordic passes and tickets on sale, opening planned Dec 26."
+   }
+  ],
+  "suggestedName": "Summit Nordic Center",
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Listed as Three Summits; now run as the Summit Nordic Center at the Summit at Snoqualmie."
+ },
+ {
+  "id": "bcd6ecc755ddc90e774a73990185a3139da42a76",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://rxcsf.org",
+  "evidence": [
+   {
+    "url": "https://rxcsf.org/conditions",
+    "date": "2026-03-05",
+    "summary": "Rochester XC Ski Foundation conditions page has a Mendon Ponds trail report updated March 5, 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ }
+]

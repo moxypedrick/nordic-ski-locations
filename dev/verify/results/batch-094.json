@@ -1,0 +1,172 @@
+[
+ {
+  "id": "d01598b09c026ef14f5f970163a86d9c4ef66832",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.ogdennordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.ogdennordic.com/",
+    "date": "2026-11-20",
+    "summary": "Official site updated Nov 20, 2026; season passes on sale, lessons start December 19, about 20 miles groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "d4240a1f6b00adb5e9975cabcc089087dcc9fb64",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.blackwaternordic.org/",
+  "evidence": [
+   {
+    "url": "https://www.blackwaternordic.org/",
+    "date": null,
+    "summary": "Club site offers 2026-27 membership registration, grooming at Hopkinton fairgrounds and Gould Hill; undated page."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "d6a3ee8f0b3d02a81e99b2a99f9ab515ddc02408",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.birkie.com/",
+  "evidence": [
+   {
+    "url": "https://www.birkie.com/trail/",
+    "date": "2026-11-22",
+    "summary": "Birkie trail page sells 2026-27 trail passes; events listed from Nov 2026 to Mar 2027; OO weather station."
+   }
+  ],
+  "suggestedName": "American Birkebeiner Trail (Highway OO Trailhead)",
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Highway OO is a trailhead of the Birkie Trail, not a separate area; site checked is Birkie, not a dedicated OO page."
+ },
+ {
+  "id": "d90f9e9475a777a143786bc87c39ada94c69ea74",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.springgulch.org/",
+  "evidence": [
+   {
+    "url": "https://nordic-pulse.com/ski-areas/US/CO/Spring-Gulch-Nordic",
+    "date": "2026-11-09",
+    "summary": "Nordic Pulse report says council preparing its 40th winter season, no opening date yet; 27 groomed trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "d6a722d4a7962b1014b2c3ba86fe813a9e423162",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.lostvalleyski.com/",
+  "evidence": [
+   {
+    "url": "https://www.lostvalleyski.com/nordic-skiing-snowshoeing/",
+    "date": null,
+    "summary": "Official nordic page sells day passes and runs Sunday youth ski program from Jan 18, matching 2026 weekdays."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "dc874f97f4868d4e7e114183a026ee703d0ce7ea",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.bridgerskifoundation.org/",
+  "evidence": [
+   {
+    "url": "https://www.bridgerskifoundation.org/",
+    "date": "2026-12-22",
+    "summary": "Foundation lists 2026-27 events including a Bozeman Creek hill climb January 9, 2027; trails run on donated passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "dd02e97ebb37cc5f3bec43e7c5ad6a23e8cb372e",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.silverminenordic.com/",
+  "evidence": [
+   {
+    "url": "https://www.silverminenordic.com/grooming-updates",
+    "date": "2026-02-02",
+    "summary": "Club grooming update says trails groomed and skiing good; 2025-26 trail passes sold."
+   }
+  ],
+  "suggestedName": "Silver Mine Nordic",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Eau Claire WI (Union area); coordinates match."
+ },
+ {
+  "id": "dd6d7de4f22416b60eba44b9189f082f7268bcf0",
+  "status": "operating",
+  "confidence": "low",
+  "officialUrl": "https://brorayurts.org/map-of-ski-trails",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r04/uinta-wasatch-cache/projects/archive/63666",
+    "date": "2023-04-11",
+    "summary": "Forest Service page records a completed warming hut on the Lily Lake ski trail system, Summit County."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "BRORA site returned almost no readable content; a Beulah fire closure alert (snippet) may affect trails; no dated ski report found."
+ },
+ {
+  "id": "df0ebcea3daf2a4ad2c46e99f043d37d57cf1b9b",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.mtbachelor.com/nordic/overview/",
+  "evidence": [
+   {
+    "url": "https://www.mtbachelor.com/nordic/tickets-passes/",
+    "date": null,
+    "summary": "Resort Nordic page sells a 26/27 full-season Nordic pass; 56 km groomed trails; center closed pre-season."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "e0711d19e1a706f87e6fe51922c44b7ad58e47b1",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/base_plein_air_decouverte/index.aspx",
+  "evidence": [
+   {
+    "url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/base_plein_air_decouverte/index.aspx",
+    "date": null,
+    "summary": "City of Quebec park page lists ski de fond, rentals and plowed winter access; trail notice dated October 2025."
+   }
+  ],
+  "suggestedName": "Parc naturel du Mont-B\u00e9lair (Base de plein air La D\u00e9couverte)",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Old city ski_fond_fiche URL returned 404; now part of Parc naturel du Mont-B\u00e9lair page."
+ }
+]

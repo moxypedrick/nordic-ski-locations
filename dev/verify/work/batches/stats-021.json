@@ -1,0 +1,106 @@
+{
+ "searches": 45,
+ "fetches": 32,
+ "perArea": {
+  "le-sureau-blanc-nb": {
+   "searches": 4,
+   "fetches": 3
+  },
+  "club-de-ski-gailurons-nb": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "kahoutek-cross-country-nb": {
+   "searches": 4,
+   "fetches": 1
+  },
+  "tobique-nordic-ski-club-nb": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "perth-andover-cross-country-ski-club-nb": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "lindsay-valley-nb": {
+   "searches": 3,
+   "fetches": 1
+  },
+  "fredericton-area-trails-nb": {
+   "searches": 2,
+   "fetches": 4
+  },
+  "rockwood-park-cross-country-ski-club-nb": {
+   "searches": 3,
+   "fetches": 3
+  },
+  "fundy-national-parkchignecto-ski-club-nb": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "new-world-island-ski-club-nl": {
+   "searches": 3,
+   "fetches": 0
+  },
+  "dildo-run-provincial-park-nl": {
+   "searches": 2,
+   "fetches": 2
+  },
+  "jonathons-pond-prov-park-nl": {
+   "searches": 2,
+   "fetches": 1
+  },
+  "terra-nova-national-park-nl": {
+   "searches": 1,
+   "fetches": 2
+  },
+  "ski-white-hills-nl": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "clarenville-ski-club-nl": {
+   "searches": 0,
+   "fetches": 1
+  },
+  "glenview-nordic-ski-club-nl": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "butter-pot-provincial-park-nl": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "stag-lake-provincial-park-nl": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "northern-lights-ski-club-nl": {
+   "searches": 1,
+   "fetches": 1
+  },
+  "gros-morne-national-park-nl": {
+   "searches": 0,
+   "fetches": 2
+  },
+  "mt-st-margaret-ski-club-nl": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "deep-cove-ski-club-nl": {
+   "searches": 1,
+   "fetches": 0
+  },
+  "belvy-bay-cross-country-nl": {
+   "searches": 2,
+   "fetches": 0
+  },
+  "notre-dame-provincial-park-nl": {
+   "searches": 3,
+   "fetches": 2
+  },
+  "exploits-valley-cross-country-ski-club-trails-nl": {
+   "searches": 0,
+   "fetches": 1
+  }
+ }
+}

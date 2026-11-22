@@ -1,0 +1,462 @@
+[
+ {
+  "id": "nepco-lake-county-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.woodcountywi.gov/Departments/Parks/NepcoLake.aspx",
+  "evidence": [
+   {
+    "url": "https://www.woodcountywi.gov/Departments/Parks/NepcoLake.aspx",
+    "date": null,
+    "summary": "Wood County park page lists cross-country skiing and a winter-groomed ski trail requiring a pass."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "telemark-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://telemarknordic.com/",
+  "evidence": [
+   {
+    "url": "https://telemarknordic.com/",
+    "date": "2026-10-01",
+    "summary": "Club site sells 2026-27 season passes and posted October 2026 trail readiness and AGM."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "blind-river-ski-club-on",
+  "status": "unverified",
+  "confidence": "low",
+  "officialUrl": "https://www.facebook.com/Blind-River-Cross-Country-Ski-Club-903115219865913",
+  "evidence": [
+   {
+    "url": "https://www.ontariotrails.on.ca/event/boom-camp-cross-country-skiing",
+    "date": null,
+    "summary": "Undated trails-council listing for club's Boom Camp ski trails with passes and Facebook contact."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Facebook is the only club source found; old club domain boomcamptrails.ca now redirects to a casino site. Elliot Lake Today article returned 403."
+ },
+ {
+  "id": "menihek-nordic-ski-club-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://sites.google.com/view/menihek-nordic-ski-club/home",
+  "evidence": [
+   {
+    "url": "https://sites.google.com/view/menihek-nordic-ski-club/home",
+    "date": "2026-01-31",
+    "summary": "Club site offers 2025-26 registration, trail passes, and a fat bike trial starting January 2026."
+   },
+   {
+    "url": "https://zone4.ca/event/2026/QjjNZa",
+    "date": "2026-03-28",
+    "summary": "51st Great Labrador Loppet hosted by Menihek Nordic Ski Club, Labrador City, March 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "fit-strip-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.noquetrails.org/north-trails-1",
+  "evidence": [
+   {
+    "url": "https://www.noquetrails.org/north-trails-1",
+    "date": null,
+    "summary": "Noquemanon Trail Network site has a Fit Strip trail page; network links grooming reports."
+   },
+   {
+    "url": "https://noquemanon.com",
+    "date": "2026-01-01",
+    "summary": "Trail network's ski marathon held in 2026; 2027 edition scheduled January 2027 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "bulkley-valley-xc-ski-club-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://bvnordic.ca/",
+  "evidence": [
+   {
+    "url": "https://bvnordic.ca/",
+    "date": "2026-11-01",
+    "summary": "BV Nordic Centre site opens 2026-27 passes and programs; posts early November 2026 newsletter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pinelands-farm-me-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://pinelandfarms.org/recreation/winter/cross-country-skiing/",
+  "evidence": [
+   {
+    "url": "https://pinelandfarms.org/recreation/trail-conditions/",
+    "date": "2026-11-10",
+    "summary": "Trail conditions page dated November 2026 tracks groomed and track-set ski trail status."
+   },
+   {
+    "url": "https://pinelandfarms.org/recreation/winter/cross-country-skiing/",
+    "date": null,
+    "summary": "Ski page lists trail hours, day and season pass prices, and a 2025 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": "Suspected duplicate of Pinelands Farm (pinelands-farm-me-3, same coordinates) and pinelands-farm-me."
+ },
+ {
+  "id": "ribbon-creek-ab",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/kananaskis-valley/ribbon-creek-winter/",
+  "evidence": [
+   {
+    "url": "https://albertaparks.ca/parks/kananaskis/kananaskis-country/advisories-and-public-safety/trail-reports/kananaskis-valley/ribbon-creek-winter/",
+    "date": "2026-04-29",
+    "summary": "Alberta Parks winter trail page for Ribbon Creek shows track-set cross-country ski use; updated April 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "governor-nelson-state-park-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/govnelson/recreation/winter",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/govnelson/recreation/winter",
+    "date": null,
+    "summary": "Wisconsin DNR winter page lists three trails groomed for traditional cross-country skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "pasadena-ski-nature-park-nl",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://pasadenaskipark.org/",
+  "evidence": [
+   {
+    "url": "https://pasadenaskipark.org/",
+    "date": "2026-11-01",
+    "summary": "Park site announces 2026-27 season registration opening November 1."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "notchview-ma",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://thetrustees.org/place/notchview/",
+  "evidence": [
+   {
+    "url": "https://thetrustees.org/place/notchview/",
+    "date": "2026-11-15",
+    "summary": "Trustees page describes groomed ski trails, rentals, and sign-up for 2026-27 ski passes."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sundance-resort-ut",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sundanceresort.com/winter-activities/nordic-center/",
+  "evidence": [
+   {
+    "url": "https://www.sundanceresort.com/winter-activities/nordic-center/",
+    "date": "2026-01-06",
+    "summary": "Resort Nordic Center page lists groomed trails, passes, January 2026 programs and a 2025-26 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "chassell-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://remoteworkforcekeweenaw.substack.com/p/cross-country-skiing-at-chassell",
+    "date": "2025-02-13",
+    "summary": "Local blogger describes grooming and skiing the Chassell Classic Ski Trail in February 2025."
+   },
+   {
+    "url": "https://keweenawtrails.com/trails-maps/",
+    "date": null,
+    "summary": "Keweenaw trails site lists Chassell Classic among nordic trails; reduced to a 5 km loop for 2024-25 (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "keweenawtrails.com Chassell page returned 429; trail reportedly shortened to the lower 5 km loop from 2024-25."
+ },
+ {
+  "id": "montreal-trails-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.penokeerangers.com/",
+  "evidence": [
+   {
+    "url": "https://www.penokeerangers.com/",
+    "date": "2026-02-25",
+    "summary": "Penokee Rangers grooming report: Montreal trails open and tracked, groomed February 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "shanty-creek-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.shantycreek.com/ski/nordic-trails/",
+  "evidence": [
+   {
+    "url": "https://www.shantycreek.com/ski/nordic-trails/",
+    "date": "2026-01-01",
+    "summary": "Resort Nordic page lists 9.5 km groomed trails, passes, rentals, and a 2026 trail map."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "nordic-heritage-center-me",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.nmctrails.org/",
+  "evidence": [
+   {
+    "url": "https://www.nmctrails.org/",
+    "date": null,
+    "summary": "New operator site confirms former Nordic Heritage Center property now offers Nordic skiing."
+   },
+   {
+    "url": "https://www.restore.org/maineenvironews/2025/12/8/new-nonprofit-buys-nordic-heritage-outdoor-center-in-presque-isle",
+    "date": "2025-12-08",
+    "summary": "Nonprofit bought the center after 2024 closure; school Nordic teams racing there again (snippet)."
+   },
+   {
+    "url": "https://www.indyskipass.com/our-resorts/northern-maine-community-trails",
+    "date": null,
+    "summary": "Indy Pass lists Northern Maine Community Trails as new member for 2026-27 season."
+   }
+  ],
+  "suggestedName": "Northern Maine Community Trails",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Renamed: closed December 2024 when Libra Foundation funding ended, reopened under new nonprofit as Northern Maine Community Trails. Old domain nordicheritageoc.org is now an unrelated shoe blog."
+ },
+ {
+  "id": "columbia-golf-course-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+  "evidence": [
+   {
+    "url": "https://www.minneapolisparks.org/activities-events/winter_activities/cross-country_skiing/",
+    "date": null,
+    "summary": "Minneapolis Parks ski page lists Columbia Golf Course 3.5 km trail groomed classic and skate."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "great-brook-ma",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://greatbrookski.com/",
+  "evidence": [
+   {
+    "url": "https://mitoc-trips.mit.edu/trips/3162",
+    "date": "2026-02-01",
+    "summary": "MIT Outing Club cross-country ski trip to Great Brook in Carlisle, February 2026."
+   },
+   {
+    "url": "https://greatbrookski.com/",
+    "date": null,
+    "summary": "Touring center site under state park contract reports last season's groomed trails open 49 days."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "rikert-nordic-center-vt-2",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.rikertoutdoor.com/",
+  "evidence": [
+   {
+    "url": "https://www.rikertoutdoor.com/season-passes",
+    "date": "2026-11-15",
+    "summary": "Rikert Outdoor Center in Ripton sells 2026-27 Nordic season passes now."
+   }
+  ],
+  "suggestedName": "Rikert Outdoor Center",
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "Renamed Rikert Outdoor Center; old domain rikertnordic.com dead. Suspected duplicate of Rikert Nordic Center (rikert-nordic-center-vt), same coordinates."
+ },
+ {
+  "id": "spring-lake-park-reserve-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://dakotacountymn.gov/parks/activities/cross-country-skiing",
+    "date": "2026-10-14",
+    "summary": "Dakota County ski page lists classic and skate trails at Spring Lake's Schaar's Bluff Trailhead; updated October 2026."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "mataquac-provincial-park-nb",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://nbparks.ca/en/parks/10/mactaquac-provincial-park",
+  "evidence": [
+   {
+    "url": "https://nbparks.ca/en/parks/10/mactaquac-provincial-park",
+    "date": null,
+    "summary": "NB Parks page lists 7 km of groomed classic and skate ski trails, open in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "lake-maria-state-park-mn",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.dnr.state.mn.us/state-parks/park.html?id=spk00217",
+  "evidence": [
+   {
+    "url": "https://gdrs.dnr.state.mn.us/gdrs/apps/pub/us_mn_state_dnr/mndnr_geopdf_download/State_Parks/Lake%20Maria%20Winter%20GEO.pdf",
+    "date": null,
+    "summary": "Minnesota DNR winter map for Lake Maria shows groomed cross-country ski trails (snippet)."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-15",
+  "comment": "DNR park page builds content with scripts; nothing readable, so evidence is from search snippet."
+ },
+ {
+  "id": "como-golf-course-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+  "evidence": [
+   {
+    "url": "https://www.stpaul.gov/departments/parks-and-recreation/activities-events/winter-activities-events/cross-country-skiing",
+    "date": "2026-11-10",
+    "summary": "St. Paul 2026-27 ski season page lists Como Park Ski Center groomed classic and skate trails."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "sun-peaks-resort-bc",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.sunpeaksresort.com/ski-ride/nordic-skiing/explore-nordic-skiing",
+  "evidence": [
+   {
+    "url": "https://www.sunpeaksresort.com/ski-ride/nordic-skiing/explore-nordic-skiing",
+    "date": "2026-11-21",
+    "summary": "Resort Nordic page lists 35 km groomed trails open November 21, 2026 to April 4, 2027."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ },
+ {
+  "id": "huron-meadows-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.metroparks.com/huron-meadows-metropark/",
+  "evidence": [
+   {
+    "url": "https://www.metroparks.com/huron-meadows-metropark/",
+    "date": null,
+    "summary": "Metroparks page lists groomed classic and skate trails, ski center rentals, and winter hours."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-15",
+  "comment": ""
+ }
+]

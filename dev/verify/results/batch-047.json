@@ -1,0 +1,172 @@
+[
+ {
+  "id": "mckeever-hills-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/hiawatha/recreation/mckeever-cabin",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/hiawatha/recreation/mckeever-cabin",
+    "date": null,
+    "summary": "Hiawatha National Forest cabin page names the adjacent McKeever Hills cross-country ski trail and XC skiing."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Forest Service page is for McKeever Cabin; it mentions the ski trail."
+ },
+ {
+  "id": "palmquists-the-farm-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.palmquistfarm.com/",
+  "evidence": [
+   {
+    "url": "https://thebusinessnews.com/north-central/palmquist-farm-keeps-a-century-old-wisconsin-tradition-alive/",
+    "date": "2025-11-10",
+    "summary": "Regional business news says guests ski about 25 km of trails at the Brantwood farm in winter."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": "Farm site loaded but had no dates; evidence is third-party news."
+ },
+ {
+  "id": "rapid-river-ski-trail-mi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.facebook.com/rapidriverskitrail/",
+  "evidence": [
+   {
+    "url": "https://www.dailypress.net/news/community/2026/01/national-winter-trails-day-event/",
+    "date": "2026-01-30",
+    "summary": "Local news announces a Feb 7, 2026 winter trails day at the Rapid River Ski Trail."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Facebook page is the only official URL; its content did not load. No Forest Service trail page loaded."
+ },
+ {
+  "id": "uller-trail-wi",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://www.penokeerangers.com/",
+  "evidence": [
+   {
+    "url": "https://www.penokeerangers.com/",
+    "date": "2026-02-25",
+    "summary": "Penokee Rangers trail report: Uller trail open and tracked, good conditions, classic only."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "jones-spring-area-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/jones-springs-area-trail",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/trails/jones-springs-area-trail",
+    "date": null,
+    "summary": "Forest Service page lists 11 miles of groomed classic ski trails, with weekly trail reports."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "lauterman-national-recreation-trail-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/lauterman-national-recreation-area",
+  "evidence": [
+   {
+    "url": "https://www.fs.usda.gov/r09/chequamegon-nicolet/recreation/lauterman-national-recreation-area",
+    "date": null,
+    "summary": "Forest Service page says trail is groomed for traditional skiing in winter, three loops."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "barkhausen-waterfowl-preserve-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://www.browncountywi.gov/community/parks-department/general-information/barkhausen-waterfowl-preserve/",
+  "evidence": [
+   {
+    "url": "https://www.browncountywi.gov/community/parks-department/general-information/barkhausen-waterfowl-preserve/",
+    "date": null,
+    "summary": "Brown County page says trails are groomed for cross-country skiing in winter; fee required."
+   }
+  ],
+  "suggestedName": null,
+  "method": "site-check",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "zillmer-ski-trails-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+  "evidence": [
+   {
+    "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/skiing",
+    "date": null,
+    "summary": "Wisconsin DNR page says staff machine-groom over 11 miles of ski trails at Zillmer."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": ""
+ },
+ {
+  "id": "underdown-recreation-area-wi",
+  "status": "operating",
+  "confidence": "medium",
+  "officialUrl": null,
+  "evidence": [
+   {
+    "url": "https://business.merrillchamber.org/events/details/lincoln-county-forestry-department-annual-underdown-free-trail-pass-weekend-13947",
+    "date": "2026-02-07",
+    "summary": "County forestry free trail weekend 7-8 Feb 2026; ski trails open and fully groomed."
+   }
+  ],
+  "suggestedName": null,
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Lincoln County page returned 403, so officialUrl is null; evidence is a chamber listing of a county event."
+ },
+ {
+  "id": "vasaloppet-public-ski-area-mn",
+  "status": "operating",
+  "confidence": "high",
+  "officialUrl": "https://vasaloppet.us/",
+  "evidence": [
+   {
+    "url": "https://vasaloppet.us/",
+    "date": "2027-02-13",
+    "summary": "Official site lists Vasaloppet races for 13-14 Feb 2027 and a Nordic Center with groomed trails."
+   }
+  ],
+  "suggestedName": "Vasaloppet Nordic Center",
+  "method": "research",
+  "checkedDate": "2026-11-22",
+  "comment": "Same place as Vasaloppet Nordic Center in Mora; site calls the public ski area the Nordic Center."
+ }
+]

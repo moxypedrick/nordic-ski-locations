@@ -54,5 +54,431 @@
       "rentals": "Yes",
       "adminStatus": null
     }
+  },
+  "station-touristique-montagne-coupee-qc": {
+    "properties": {
+      "Name": "Ski Montagne Coupée"
+    },
+    "_renamedFrom": "Station Touristique Montagne Coupee"
+  },
+  "sutton-en-haut-qc": {
+    "properties": {
+      "Name": "Plein air Sutton"
+    },
+    "_renamedFrom": "Sutton en Haut"
+  },
+  "club-de-ski-de-fond-la-balade-qc": {
+    "properties": {
+      "Name": "Les Sentiers La Balade de Lévis"
+    },
+    "_renamedFrom": "Club de ski de fond La Balade"
+  },
+  "nordic-heritage-center-me": {
+    "properties": {
+      "Name": "Northern Maine Community Trails"
+    },
+    "_renamedFrom": "Nordic Heritage Center"
+  },
+  "rikert-nordic-center-vt-2": {
+    "properties": {
+      "Name": "Rikert Outdoor Center"
+    },
+    "_renamedFrom": "Rikert Nordic Center"
+  },
+  "club-de-six-cantons-qc": {
+    "properties": {
+      "Name": "Centre de plein air Les 6 Cantons"
+    },
+    "_renamedFrom": "Club de Six Cantons"
+  },
+  "muskegon-winter-sports-complex-mi": {
+    "properties": {
+      "Name": "Muskegon Luge Adventure Sports Park"
+    },
+    "_renamedFrom": "Muskegon Winter Sports Complex"
+  },
+  "telemark-resort-trails-wi": {
+    "properties": {
+      "Name": "Mt. Telemark Village Ski Trails"
+    },
+    "_renamedFrom": "Telemark Resort Trails"
+  },
+  "marathon-international-ski-on": {
+    "properties": {
+      "Name": "Marathon Cross Country Ski & Snowshoe Club"
+    },
+    "_renamedFrom": "Marathon International Ski"
+  },
+  "boyne-highlands-mi": {
+    "properties": {
+      "Name": "The Highlands at Harbor Springs"
+    },
+    "_renamedFrom": "Boyne Highlands"
+  },
+  "bear-valley-ca": {
+    "properties": {
+      "Name": "Bear Valley Adventure Company"
+    },
+    "_renamedFrom": "Bear Valley"
+  },
+  "whitehorse-area-yt": {
+    "properties": {
+      "Name": "Whitehorse Nordic Centre"
+    },
+    "_renamedFrom": "Whitehorse area"
+  },
+  "rikert-nordic-center-vt": {
+    "properties": {
+      "Name": "Rikert Outdoor Center"
+    },
+    "_renamedFrom": "Rikert Nordic Center"
+  },
+  "raven-golf-club-co": {
+    "properties": {
+      "Name": "Silverthorne Nordic Center"
+    },
+    "_renamedFrom": "Raven Golf Club"
+  },
+  "athabathsca-lookout-nordic-centre-ab": {
+    "properties": {
+      "Name": "Hinton Nordic Centre"
+    },
+    "_renamedFrom": "Athabathsca Lookout Nordic Centre"
+  },
+  "mcdowell-lake-ski-trails-bc": {
+    "properties": {
+      "Name": "Tyee Mountain Ski Trails"
+    },
+    "_renamedFrom": "McDowell Lake Ski Trails"
+  },
+  "whitetooth-ski-center-bc": {
+    "properties": {
+      "Name": "Dawn Mountain Nordic Centre"
+    },
+    "_renamedFrom": "Whitetooth Ski Center"
+  },
+  "beckie-scott-nordic-centrepanorama-resort-bc": {
+    "properties": {
+      "Name": "Panorama Nordic Centre"
+    },
+    "_renamedFrom": "Beckie Scott Nordic Centre/Panorama Resort"
+  },
+  "perth-andover-cross-country-ski-club-nb": {
+    "properties": {
+      "Name": "Perth-Andover Community Trails"
+    },
+    "_renamedFrom": "Perth-Andover Cross Country Ski Club"
+  },
+  "exploits-valley-cross-country-ski-club-trails-nl": {
+    "properties": {
+      "Name": "Exploits Nordic Ski Club"
+    },
+    "_renamedFrom": "Exploits Valley Cross Country Ski Club Trails"
+  },
+  "elliot-lake-trails-on": {
+    "properties": {
+      "Name": "Bob Stirling Trail"
+    },
+    "_renamedFrom": "Elliot Lake Trails"
+  },
+  "hardwood-hills-on": {
+    "properties": {
+      "Name": "Hardwood Ski and Bike"
+    },
+    "_renamedFrom": "Hardwood Hills"
+  },
+  "gravenhurst-koa-nordic-trails-on": {
+    "properties": {
+      "Name": "Gravenhurst Nordic Trails"
+    },
+    "_renamedFrom": "Gravenhurst KOA Nordic Trails"
+  },
+  "brookvale-provincial-ski-park-pe": {
+    "properties": {
+      "Name": "Mark Arendz Provincial Ski Park at Brookvale"
+    },
+    "_renamedFrom": "Brookvale Provincial Ski Park"
+  },
+  "saint-jovite-qc": {
+    "properties": {
+      "Name": "Domaine Saint-Bernard"
+    },
+    "_renamedFrom": "Saint-Jovite"
+  },
+  "parc-des-campeurs-qc": {
+    "properties": {
+      "Name": "Parc régional de Sainte-Agathe-des-Monts"
+    },
+    "_renamedFrom": "Parc des campeurs"
+  },
+  "base-de-plein-air-linterval-qc": {
+    "properties": {
+      "Name": "L'Interval, coopérative de solidarité de plein air"
+    },
+    "_renamedFrom": "Base de plein air l'Interval"
+  },
+  "centre-de-ski-de-fond-val-david-qc": {
+    "properties": {
+      "Name": "Parc régional de Val-David–Val-Morin (secteur Dufresne)"
+    },
+    "_renamedFrom": "Centre de Ski de Fond Val-David"
+  },
+  "lescapade-linear-park-qc": {
+    "properties": {
+      "Name": "Sentiers de L'Escapade"
+    },
+    "_renamedFrom": "L'Escapade Linear Park"
+  },
+  "station-de-ski-val-mauricie-qc": {
+    "properties": {
+      "Name": "Station plein air Val-Mauricie"
+    },
+    "_renamedFrom": "Station de ski Val-Mauricie"
+  },
+  "station-de-ski-bromont-qc": {
+    "properties": {
+      "Name": "Parc des Sommets"
+    },
+    "_renamedFrom": "Station de ski Bromont"
+  },
+  "esterhazy-cross-country-club-trails-sk": {
+    "properties": {
+      "Name": "Esterhazy Cross Country Ski Club"
+    },
+    "_renamedFrom": "Esterhazy Cross Country Club Trails"
+  },
+  "anglin-lake-ski-trails-sk": {
+    "properties": {
+      "Name": "Great Blue Heron Provincial Park (Anglin Lake trails)"
+    },
+    "_renamedFrom": "Anglin Lake Ski Trails"
+  },
+  "greenwater-provincial-park-sk": {
+    "properties": {
+      "Name": "Greenwater Lake Provincial Park"
+    },
+    "_renamedFrom": "Greenwater Provincial Park"
+  },
+  "hudson-bay-ski-trails-sk": {
+    "properties": {
+      "Name": "Hudson Bay Ski Club"
+    },
+    "_renamedFrom": "Hudson Bay Ski Trails"
+  },
+  "vasaloppet-public-ski-area-mn": {
+    "properties": {
+      "Name": "Vasaloppet Nordic Center"
+    },
+    "_renamedFrom": "Vasaloppet Public Ski Area"
+  },
+  "audubon-center-of-the-north-woods-mn": {
+    "properties": {
+      "Name": "Osprey Wilds"
+    },
+    "_renamedFrom": "Audubon Center of the North Woods"
+  },
+  "u-of-m-north-central-exp-station-mn": {
+    "properties": {
+      "Name": "UMN North Central Research and Outreach Center trails"
+    },
+    "_renamedFrom": "U of M - North Central Exp. Station"
+  },
+  "carleton-college-arboretum-mn": {
+    "properties": {
+      "Name": "Cowling Arboretum"
+    },
+    "_renamedFrom": "Carleton College Arboretum"
+  },
+  "squaw-creek-county-park-ia": {
+    "properties": {
+      "Name": "Wanatee Park"
+    },
+    "_renamedFrom": "Squaw Creek County Park"
+  },
+  "olympic-sports-complex-ny": {
+    "properties": {
+      "Name": "Mt Van Hoevenberg"
+    },
+    "_renamedFrom": "Olympic Sports Complex"
+  },
+  "savage-river-lodge-md": {
+    "properties": {
+      "Name": "Savage Highlands State Park"
+    },
+    "_renamedFrom": "Savage River Lodge"
+  },
+  "raven-golf-club-co-2": {
+    "properties": {
+      "Name": "Silverthorne Nordic Center at the Raven"
+    },
+    "_renamedFrom": "Raven Golf Club"
+  },
+  "akers-me": {
+    "properties": {
+      "Name": "Akers Ski"
+    },
+    "_renamedFrom": "Akers"
+  },
+  "ashcroft-co": {
+    "properties": {
+      "Name": "Ashcroft Ski Touring"
+    },
+    "_renamedFrom": "Ashcroft"
+  },
+  "catamount-vt": {
+    "properties": {
+      "Name": "Catamount Outdoor Family Center"
+    },
+    "_renamedFrom": "Catamount"
+  },
+  "charlevoix-xc-ski-trail-mi": {
+    "properties": {
+      "Name": "Mt. McSauba Recreation Area"
+    },
+    "_renamedFrom": "Charlevoix X/C Ski Trail"
+  },
+  "crosscut-mt": {
+    "properties": {
+      "Name": "Crosscut Mountain Sports Center"
+    },
+    "_renamedFrom": "Crosscut"
+  },
+  "lone-mountain-mt": {
+    "properties": {
+      "Name": "Lone Mountain Ranch"
+    },
+    "_renamedFrom": "Lone Mountain"
+  },
+  "memphremagog-vt": {
+    "properties": {
+      "Name": "Memphremagog Trails"
+    },
+    "_renamedFrom": "Memphremagog"
+  },
+  "mont-sainte-anne-qc": {
+    "properties": {
+      "Name": "Parc du Mont-Sainte-Anne"
+    },
+    "_renamedFrom": "Mont-Sainte-Anne"
+  },
+  "osceola-ny": {
+    "properties": {
+      "Name": "Osceola Ski & Sport Resort"
+    },
+    "_renamedFrom": "Osceola"
+  },
+  "rendezvous-mt": {
+    "properties": {
+      "Name": "Rendezvous Ski Trails"
+    },
+    "_renamedFrom": "Rendezvous"
+  },
+  "russian-jack-park-ak-2": {
+    "properties": {
+      "Name": "Russian Jack Springs Park"
+    },
+    "_renamedFrom": "Russian Jack Park"
+  },
+  "silverstar-bc": {
+    "properties": {
+      "Name": "SilverStar Mountain Resort"
+    },
+    "_renamedFrom": "SilverStar"
+  },
+  "stowe-vt": {
+    "properties": {
+      "Name": "Stowe Mountain Resort Cross Country Center"
+    },
+    "_renamedFrom": "Stowe"
+  },
+  "summit-nordic-wa": {
+    "properties": {
+      "Name": "Summit Nordic Center"
+    },
+    "_renamedFrom": "Summit Nordic"
+  },
+  "vail-co": {
+    "properties": {
+      "Name": "Vail Nordic Center"
+    },
+    "_renamedFrom": "Vail"
+  },
+  "wild-wings-vt": {
+    "properties": {
+      "Name": "Wild Wings Ski Touring Center"
+    },
+    "_renamedFrom": "Wild Wings"
+  },
+  "03acfe0fd2fa878a0a110e12b318d432e70fbe5c": {
+    "properties": {
+      "Name": "ABR Trails (Active Backwoods Retreat)"
+    },
+    "_renamedFrom": "Active Backwoods Retreat Ski Trails"
+  },
+  "0c283ab2d77ddb89c1a09fa0230f2de0d25f6d15": {
+    "properties": {
+      "Name": "Echo Ridge Nordic Area"
+    },
+    "_renamedFrom": "Echo Ridge Nordic Trails"
+  },
+  "15da2394a6b00b56a57e4608c00ce96edf7a51cb": {
+    "properties": {
+      "Name": "Rendezvous Ski Trails"
+    },
+    "_renamedFrom": "Rendezvous trails"
+  },
+  "77b2e80ccf1d8f0813517445476fb51328121f0e": {
+    "properties": {
+      "Name": "Duck Mountain Nordic Club"
+    },
+    "_renamedFrom": "Duck Mountain Provincial Park Cross Country Ski Trails"
+  },
+  "7d919aae9d1944ee99921c2f385b77e9ac0984f9": {
+    "properties": {
+      "Name": "Williams Lake Cross Country Ski Club"
+    },
+    "_renamedFrom": "Bull Mountain Ski Trail Recreation Site"
+  },
+  "8659c9c96ddb74d90cbb78ed8d86dd0306106630": {
+    "properties": {
+      "Name": "Inland Woods + Trails"
+    },
+    "_renamedFrom": "Inland Woods and Trails"
+  },
+  "8ca57662be28621b1bcd43d946cab67f2b69a3e3": {
+    "properties": {
+      "Name": "Lake Bluff Nordic Ski Club"
+    },
+    "_renamedFrom": "Lake Bluff Golf Club"
+  },
+  "bd78d22761819b620dbaca7bdbdafc9205b08a32": {
+    "properties": {
+      "Name": "Summit Nordic Center"
+    },
+    "_renamedFrom": "Three Summits"
+  },
+  "cab906f60186677e1642dc65a483846c22e6e6e0": {
+    "properties": {
+      "Name": "Wood River Ski Park"
+    },
+    "_renamedFrom": "Wood River Valley Ski Touring Park"
+  },
+  "d6a3ee8f0b3d02a81e99b2a99f9ab515ddc02408": {
+    "properties": {
+      "Name": "American Birkebeiner Trail (Highway OO Trailhead)"
+    },
+    "_renamedFrom": "Highway OO Trailhead"
+  },
+  "dd02e97ebb37cc5f3bec43e7c5ad6a23e8cb372e": {
+    "properties": {
+      "Name": "Silver Mine Nordic"
+    },
+    "_renamedFrom": "Silver Mine"
+  },
+  "e0711d19e1a706f87e6fe51922c44b7ad58e47b1": {
+    "properties": {
+      "Name": "Parc naturel du Mont-Bélair (Base de plein air La Découverte)"
+    },
+    "_renamedFrom": "Base de plein air La Découverte (Val-Bélair)"
   }
 }
